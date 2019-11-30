@@ -1,1 +1,1 @@
-# Reddit-Watcher (°¡Á¦)
+# Reddit-Watcher (ê°€ì œ)
