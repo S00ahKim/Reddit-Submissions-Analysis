@@ -63,14 +63,18 @@ def get_reddit(start_time, end_time, subreddit):
     dtm = datetime.fromtimestamp(int(start_time))
     yy = str(dtm.year)
     mm = str(dtm.month)
+    last_get_time = 0
 
     while not get_all:
         next_time = cal_time(start_time, 10)
         url = base_url.format(subreddit=subreddit, start=start_time, end=next_time)
-        r = requests.get(url).json()
-        last_get_time = 0
+        try:
+            r = requests.get(url).json()
+        except:
+            r = 'NaN'
+            print(requests.get(url))
 
-        if len(r['data']) == 0:
+        if r == 'NaN':
             if int(last_get_time) >= int(end_time):
                 get_all = True
             else:
