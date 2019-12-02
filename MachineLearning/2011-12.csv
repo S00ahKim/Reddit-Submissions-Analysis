@@ -1,0 +1,261 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2011-12-2,2011,12,2,0,mw697,Finding a function that transforms one probability into another,https://www.reddit.com/r/MachineLearning/comments/mw697/finding_a_function_that_transforms_one/,sanity,1322752203,"So consider the following scenario (this may look like statistics but the motivation is machine learning):
+
+The probability of someone clicking on my ad when shown it on a web page is **p(click)**.
+
+The probability of a firefox user clicking on my ad when shown it on a web page is **p(click|firefox)**.
+
+The probability of a visitor in California clicking on the ad is **p(click|california)**.
+
+I need a way to estimate, given **p(click)**, **p(click|firefox)**, and **p(click|california)**, the probability of a firefox user that is also in California clicking on the ad, ie. **p(click|firefox,california)**.
+
+My thinking is that if I could find some function *F* for which **F(p(click))=p(click|firefox)**, then I could use this function to estimate **p(click|firefox,california)** by looking at **p(click|firefox,california) ~= F(p(click|california))**.
+
+Of course, there are many possible forms for this function **F**,  and a lot hinges on whether the user's choice of browser is independent of their geographic location (I suspect largely, but not completely).
+
+My advantage is that I have a lot of data, so I can test a wide variety of variations on **F** to see which works best.
+
+So a naive **F** would be: **F(x) = x+C** where C is a parameter we set such that **F(p(click))=F(p(click|firefox))**.
+
+Now, this isn't very satisfactory because for some values of **x**, **F(x)** could easily end up being greater than 0 or less than 1 - unacceptable given that we're looking for a probability here.
+
+Another **F** that still suffers from that problem would be **F(x)=xC**.
+
+Ideally it would be great to have some function **F** which perhaps takes an additional parameter that represents the degree to which location and browser choice are independent of each-other.  We could then search the parameter space to find what works best.
+
+Can anyone offer any suggestions?
+
+*edit:* improve notation",19,5
+1,2011-12-3,2011,12,3,1,mxnp7,The US Patent and Trademark Office is launching a contest to develop new algorithms to aid in patent examination.,https://www.reddit.com/r/MachineLearning/comments/mxnp7/the_us_patent_and_trademark_office_is_launching_a/,cavedave,1322844086,,7,9
+2,2011-12-3,2011,12,3,13,myeko,Controlling for Variables in Machine Learning,https://www.reddit.com/r/MachineLearning/comments/myeko/controlling_for_variables_in_machine_learning/,songanddanceman,1322886768,"This may be a a really simple question, but it has me pretty stumped.
+
+I want to fit a Classification Tree or maybe SVM on some data to predict income, but my worry is that some of my new variables that using (e.g.Height) may be redundant with other previous variables that have already been established (Gender), and so the new variables wouldn't be meaningful/interesting because the only reason its predicting income is due to a variable we already know is important and probably more effective.
+
+What would be the best way to see if the new variables are giving extra predictive power above and beyond the old variables?
+
+Relatedly, is there any machine learning technique fit predictors controlling for another variable? For example, if I want to predict Income, but I want to do it in such a way where a person's gender (a known predictor) is controlled for so that the results are not driven by gender differences.",3,6
+3,2011-12-4,2011,12,4,3,myve3,"16 million features, 16 billion samples",https://www.reddit.com/r/MachineLearning/comments/myve3/16_million_features_16_billion_samples/,delinquentme,1322935617,,0,28
+4,2011-12-4,2011,12,4,14,mzgxf,Strategic choices of machine learning architecture for clinical data mining,https://www.reddit.com/r/MachineLearning/comments/mzgxf/strategic_choices_of_machine_learning/,jonsca,1322975452,,0,9
+5,2011-12-4,2011,12,4,22,mzqah,Is it possible to use Etherpad ChangeSet data to understand how people type online?,https://www.reddit.com/r/MachineLearning/comments/mzqah/is_it_possible_to_use_etherpad_changeset_data_to/,johnyma22,1323006498,"I'm looking for some of MachineLearning's top experts to have some input into a question the University of Chicago and Etherpadians have been asking for some time.
+
+Is it possible, using machine learning, to understand how people work on collaborative documents in real time?  With that understanding, is it possible that we might be able to use real time assessment and/or encourage a certain type of collaborative behavior?
+
+[Etherpad](http://etherpad.org) is an open source online collaborative editor that stores user inputs in ordered change sets into a MySQL database.",7,5
+6,2011-12-5,2011,12,5,15,n0ui0,Do you think LDA can be used with PCA to get a better topic model?,https://www.reddit.com/r/MachineLearning/comments/n0ui0/do_you_think_lda_can_be_used_with_pca_to_get_a/,visarga,1323068311,"I am passing a corpus of news through LDA (using Vowpal Wabbit) and the results are nice, but some real world topics like football for example are spread over a number of LDA topics.
+
+So I was thinking, if I run PCA on top of that, I could perhaps separate the topics even better - it could be a good unsupervised topic discovery method.
+
+What do you think?",4,5
+7,2011-12-5,2011,12,5,23,n14ov,Explain Conditional Random Fields like I'm stupid?,https://www.reddit.com/r/MachineLearning/comments/n14ov/explain_conditional_random_fields_like_im_stupid/,crfplease,1323096658,"I have been reading about CRFs and nothing is seeming to click.  Can somebody give me a general idea of what CRFs are doing, persay?  I understand HMMs, and people often relate them in the literature but I don't understand the relationship.  
+
+Why are CRFs undirected?  When would you use CRFs over HMMs?  What extra power do they provide?  Thanks!",11,38
+8,2011-12-6,2011,12,6,4,n1ff5,career advices,https://www.reddit.com/r/MachineLearning/comments/n1ff5/career_advices/,whatifnow,1323113035,,2,3
+9,2011-12-6,2011,12,6,5,n1ja3,"RTextTools v1.3.2, a supervised learning library for text classification, now supports n-gram analysis.",https://www.reddit.com/r/MachineLearning/comments/n1ja3/rtexttools_v132_a_supervised_learning_library_for/,tymekpavel,1323118245,,0,6
+10,2011-12-6,2011,12,6,14,n25mj,"International Open Data Hackathon
+",https://www.reddit.com/r/MachineLearning/comments/n25mj/international_open_data_hackathon/,talgalili,1323148990,,0,3
+11,2011-12-6,2011,12,6,20,n2eu3,Creating a simple recommendation system for reddit: any advice?,https://www.reddit.com/r/MachineLearning/comments/n2eu3/creating_a_simple_recommendation_system_for/,joelthelion,1323171527,"I want to create a simple user-based recommendation system for reddit, mainly for personal use. The idea is to get training data in the ""liked"" and ""disliked"" items for the user (this requires the password, so training will be on one user only). The recommender will then periodically retrieve new links from reddit and present the most promising ones to the user.
+
+So far the features I've identified are the following: url domain, number of upvotes, number of downvotes, author id, and link title.
+
+**I don't really know what family of machine learning algorithms I should use. What would you recommend?**
+
+Thanks for your help!
+
+EDIT: if you want to try your hand at it, [here is](https://gist.github.com/1438003) a simple python script that retrieves the data from reddit.",43,22
+12,2011-12-6,2011,12,6,23,n2iwx,Can R be used with SQL Server in a production environment?,https://www.reddit.com/r/MachineLearning/comments/n2iwx/can_r_be_used_with_sql_server_in_a_production/,optiontrader1138,1323182503,I'm looking into replacing some of our old data mining algorithms implemented in SQL Server with R. I'm wondering if it's fast and stable enough to run in a high-volume production environment (I'm using Revolution R on win64).,2,0
+13,2011-12-7,2011,12,7,0,n2jtl,Stop getting people to click on ads and go fight cancer,https://www.reddit.com/r/MachineLearning/comments/n2jtl/stop_getting_people_to_click_on_ads_and_go_fight/,[deleted],1323184250,,2,1
+14,2011-12-7,2011,12,7,0,n2kz5,Dataspora is hiring a Chief Analytics Officer! Based in either Boston or San Francisco. Apply state-of-the-art machine learning techniques to interesting problems.,https://www.reddit.com/r/MachineLearning/comments/n2kz5/dataspora_is_hiring_a_chief_analytics_officer/,ohsnaaap,1323186269,"**Job Description**
+
+We are looking for a smart, innovative and detail-oriented Chief Analytics Officer to join our predictive analytics team. You should thrive on working in a fast-paced and exciting team environment in one of the fastest growing areas today  predictive analytics.  You will be working with leading domestic and global companies and Via Sciences predictive analytics team, bringing to bear your scientific and communications acumen, along with both proprietary and open-source analytics tools, to address critical business questions for our clients C-suites.  Work may include incorporation of analytics models built by the Dataspora team into client workflows and operational systems. 
+
+**Skills**
+
+* Demonstrate thought leadership in big data analytics through compelling blogs, white papers, public presentations, and existing/prospective client meetings.
+* Able to work in a fast-paced, multi-functional team environment and have a proactive mindset.
+* Comfortable handling and manipulating large datasets.
+* Excellent communication skills in order to relay technical findings to clients who may have no technical or mathematical background.
+* Ability to produce high-quality, impactful visualizations of scientific results highly desirable.
+
+**Requirements**
+
+B.Sc with relevant work experience (internships or cooperative placements) is a minimum; M.Sc or Ph.D with relevant post-graduate research strongly preferred, in each case in a quantitative scientific discipline with a heavy statistical or other mathematical component. Statistical programming experience in R preferred. Ability to extract insights from large datasets using an array of methods from clustering to regression to network modeling. Experience implementing analytics solutions with Hadoop/Hive/Pig. Strong SQL knowledge to extract data from and to load data to databases.  Excellent written and oral presentation skills required. Experience in Bayesian inference, noSQL, machine-learning methods, and network modeling (social networks or general network analysis) is a bonus
+
+Please PM me for more details.
+",0,15
+15,2011-12-7,2011,12,7,9,n38sb,Question about Backprop,https://www.reddit.com/r/MachineLearning/comments/n38sb/question_about_backprop/,brainsareneat,1323219442,"Let us suppose that you have a neural net with only one training example.  Will the final state of the network be the same if you run backprop for many iterations with a small learning rate as it would if you ran it for one iteration with a learning rate of 1?  My hypothesis is that it would not be the same, because the space is nonlinear and you are following the gradient of a sigmoid. But my friend thinks it would not be because of what a learning rate is.
+What do you guys think?",8,0
+16,2011-12-7,2011,12,7,11,n3df8,Any ideas on how to use machine learning to analyze fMRI data to determine if someone has ADHD?,https://www.reddit.com/r/MachineLearning/comments/n3df8/any_ideas_on_how_to_use_machine_learning_to/,p01ym47h,1323225818,"For my CS senior project next semester I'm going to be analyzing 4-dimensional (3 in space, 1 in time) fMRI data using machine learning. Ultimately, the goal is to be able to tell whether or not someone has ADHA given their fMRI data.  
+
+I just scored this gig a week ago and I'm very new to ML (I'm just finishing Stanford's free online course).  I thought I'd ask if anyone out there has any good ideas of how to go about it or where I should think about starting. My professor told me to ""throw an SVM at it.""",9,6
+17,2011-12-7,2011,12,7,23,n3x2a,Help. Would a markov chain suffice,https://www.reddit.com/r/MachineLearning/comments/n3x2a/help_would_a_markov_chain_suffice/,ReFrainOcO,1323267686,"I'm trying to quantify the likelihood of observing certain trajectories in a discrete (n by n by n) 3D space, i.e. moving from one bin to any adjacent bin. Someone proposed looking into HMMs, however, I'm not interested in the unobserved state transitions.
+
+Would a markov chain be a sufficient formulation of the problem? 
+Any good tutorials on how to condition/learn a markov chain given historical data?
+
+(excuse the ignorance)",7,9
+18,2011-12-9,2011,12,9,18,n62uw,A Word Cloud with Spatial (also special) Meaning,https://www.reddit.com/r/MachineLearning/comments/n62uw/a_word_cloud_with_spatial_also_special_meaning/,talgalili,1323422327,,0,0
+19,2011-12-9,2011,12,9,19,n64i7,"Eurisko, The Computer With A Mind Of Its Own",https://www.reddit.com/r/MachineLearning/comments/n64i7/eurisko_the_computer_with_a_mind_of_its_own/,Tarkaan,1323428026,"**I found this article a few years ago when I was looking at heuristics.  I can't find the article text online anywhere anymore.  I don't want the article to get lost. :(  So here it is.  I don't care if you upvote or downvote, just don't delete it.  This article deserves to be read.**
+
+Eurisko, The Computer With A Mind Of Its Own
+
+George Johnson
+
+On the July 4 weekend of 1981, while many Americans were preoccupied with barbecues or fireworks displays, players of an immensely complex, futuristic war game called Traveller gathered in San Mateo, California, to pick a national champion. Guided by hundreds of pages of design rules and equipment specifications, players calculate how to build a fleet of ships that will defeat all enemies without exceeding an imaginary defense budget of one trillion credits.
+
+To design just one vessel, some fifty factors must be taken into account: how thick to make the armor, how much fuel to carry, what type of weapons, engines, and computer guidance system to use. Each decision is a tradeoff: a powerful engine will make a ship faster, but it might require carrying more fuel; increased armor provides protection but adds weight and reduces maneuverability.
+
+Since a fleet may have as many as 100 shipsexactly how many is one more question to decidethe number of ways that variables can be juxtaposed is overwhelming, even for a digital computer. Mechanically generating and testing every possible fleet configuration might, of course, eventually produce a winner, but most of the computers time would be spent blindly considering designs that are nonsense. Exploring Travellers vast search space, as mathematicians call it, require the ability to learn from experience, developing heuristicsrules of thumbabout which paths are most likely to yield reasonable solutions.
+
+In 1981, Eurisko, a computer program that arguably displays the rudiments of such skills, easily won the Traveller tournament, becoming the top-ranked player in the United States and an honorary Admiral in the Traveller navy. Eurisko had designed its fleet according to principles it discovered itselfwith some help from its inventor, Douglas B. Lenat, an assistant professor in Stanford Universitys artificial-intelligence program.
+
+I never did actually play Traveller by hand, Lenat said, three years later. I dont think I even watched anybody play it. I simply talked to people about it and then had the program go off and design a fleetWhen I went into the tournament that was the first time that I had ever played the game.
+
+Euriskos fleet was so obviously superior to those of its human opponents that most of them surrendered after the first few minutes of battle; one resigned without firing a shot.
+
+Eurisko makes its discoveries by starting with a set of elementary concepts, given to it by a human programmer. Then, through a process not unlike genetic evolution, it modifies and combines them into more complex ideas. As structures develop, the most useful and interesting ones-judged according to standards encoded in the program-survive.
+
+At the time of the Traveller tournament, Lenat had already used a forerunner of Eurisko to grow mathematical concepts, getting the program to rediscover arithmetic and some theorems in elementary number theory. Now the structures Lenat wanted to see evolve were Traveller fleets. He provided the program with descriptions of 146 Traveller concepts, some of them as basic as Acceleration, Agility, Weapon, Damage, and even Game Playing and Game. Others were more specific: Beam Laser, Meson Gun, Meson Screen, and Computer Radiation Damage.
+
+A Eurisko concept can be thought of as a box containing slots filled with information describing it. For example, the Is A slot in the box representing Energy Gun indicates that it is a Defensive Weapon Type and an Offensive Weapon Typeand a Physical Game Object, as well. These concepts are, in turn, described by other boxes. Another slot tells Eurisko that information on Energy Guns firing range will be found in a box called Energy Gun Attack Info.
+
+Johnson01.jpg
+Douglas B. Lenat
+
+With a network of these boxes interlinked in its memory, Eurisko began designing ships and simulating battles. After each altercation, it analyzed the results, made adjustments to the fleets and tried the battle again. In the process, Eurisko tested Traveller concepts by natural selection. For example, after a number of battles, Eurisko discovered how easy it was to provide ships with enough armor to protect them against energy guns. Thus the value in the Worth slot of Energy Gun, which was originally set at 500, was eventually lowered to 100. Weapons that proved more valuable would increase in worth, toward a maximum value of 1000.
+
+Gradually an ever-more-invincible Traveller fleet evolved.
+
+At first, Lenat later wrote, mutations were random. Soon, patterns were perceived: more ships were better; more armor was better; smaller ships were better; etc. Gradually, as each fleet beat the previous oneits lessons were abstracted into new specific heuristics.
+
+When Eurisko began its experiments, the My Creator slot in each of its concepts all contained the name Lenat. But, as Eurisko played, an increasing number of the slots were filled with the name of the heuristic that had been used to synthesize them.
+
+Eurisko was creating concepts on its own. It was distilling thousands of experiences into the judgmental, almost intuitional, knowledge that constitutes expertiserules that cant always be proved logically, that cant guarantee a correct answer, but that are reliable guides to the way the world works, a means of cutting through complexity and chaos.
+",16,9
+20,2011-12-10,2011,12,10,7,n6rxo,The stability of classification trees vs logistic regression,https://www.reddit.com/r/MachineLearning/comments/n6rxo/the_stability_of_classification_trees_vs_logistic/,talgalili,1323469701,,0,3
+21,2011-12-10,2011,12,10,11,n708u,"Partial Least Squares: can I use it the same way as linear regression, except that multicollinearity is not considered bad?",https://www.reddit.com/r/MachineLearning/comments/n708u/partial_least_squares_can_i_use_it_the_same_way/,randombozo,1323484202,Any special considerations or limitations when compared to ordinary least squares?,6,10
+22,2011-12-10,2011,12,10,12,n71ew,looking for advice on manually labeling portions of unlabled images ,https://www.reddit.com/r/MachineLearning/comments/n71ew/looking_for_advice_on_manually_labeling_portions/,giror,1323486299,"I have a set of images that are somewhat complicated - they have many examples of what I am looking for on each image and they are currently unlabeled. 
+
+I am looking for a tool that would let me select rectangles on the image using my mouse/pointer to build up a training data set. Do you all know of any tools or simple code examples that might already do this? 
+
+code preference (best first): python, octave/matlab, R, java, C
+
+**EDIT: thanks all, here is an implementation in python if anyone is interested**
+
+
+	from pylab import *
+	
+	fish= imread('./stevesFish/1b2.tif')
+	
+	figsrc = figure()
+	figzoom = figure()
+	
+	axsrc = figsrc.add_subplot(111)
+	axzoom = figzoom.add_subplot(111, xlim=(0,20), ylim=(0, 20), autoscale_on=False)
+	
+	axsrc.set_title('Click to zoom')
+	axzoom.set_title('zoom window')
+	
+	axsrc.imshow(fish)
+	axzoom.imshow(fish)
+	
+	
+	def onClick(event):
+	    if event.button!=1: return
+	    x,y = event.xdata, event.ydata
+	    axzoom.set_xlim(x-25, x+25)
+	    axzoom.set_ylim(y-25, y+25)
+	    figzoom.canvas.draw()
+	
+	def onKeyPress(event):
+	    if event.key!='d': return
+	    print axzoom.get_xlim(), axzoom.get_ylim()
+	
+	
+	figsrc.canvas.mpl_connect('button_press_event', onClick)
+	figsrc.canvas.mpl_connect('key_press_event', onKeyPress)
+	show()
+",6,3
+23,2011-12-11,2011,12,11,15,n88ib,my experience with implementing mixture models for background modeling of videos,https://www.reddit.com/r/MachineLearning/comments/n88ib/my_experience_with_implementing_mixture_models/,mish4,1323583933,,2,8
+24,2011-12-11,2011,12,11,16,n8axk,The Machine Learning Personality Test,https://www.reddit.com/r/MachineLearning/comments/n8axk/the_machine_learning_personality_test/,tigerthink,1323589787,,2,8
+25,2011-12-11,2011,12,11,19,n8ddu,Rescuing Twapperkeeper Archives Before They Vanish,https://www.reddit.com/r/MachineLearning/comments/n8ddu/rescuing_twapperkeeper_archives_before_they_vanish/,[deleted],1323598356,,0,0
+26,2011-12-12,2011,12,12,10,n92cg,Anyone know where I can get the Netflix Prize dataset?,https://www.reddit.com/r/MachineLearning/comments/n92cg/anyone_know_where_i_can_get_the_netflix_prize/,descentintomael,1323652649,"It seems to have been taken down from all of the normal channels, but I was wondering if one of you might know where I could grab a copy?  Or maybe even torrent it from someone?",3,11
+27,2011-12-12,2011,12,12,18,n9ihf,Perceptual Learning Incepted by Decoded fMRI Neurofeedback Without Stimulus Presentation,https://www.reddit.com/r/MachineLearning/comments/n9ihf/perceptual_learning_incepted_by_decoded_fmri/,[deleted],1323681965,,0,1
+28,2011-12-13,2011,12,13,0,n9p12,"A nice, readable article on semi supervised naive bayes",https://www.reddit.com/r/MachineLearning/comments/n9p12/a_nice_readable_article_on_semi_supervised_naive/,rrenaud,1323702800,,16,34
+29,2011-12-13,2011,12,13,2,n9ujt,Videos and slides from useR2011 - the official R conference,https://www.reddit.com/r/MachineLearning/comments/n9ujt/videos_and_slides_from_user2011_the_official_r/,[deleted],1323712027,,0,0
+30,2011-12-13,2011,12,13,3,n9w1e,"Course website of course on mathematical problem solving techniques: Optimization, SVD, Kalman filters etc.",https://www.reddit.com/r/MachineLearning/comments/n9w1e/course_website_of_course_on_mathematical_problem/,satsatsat,1323714271,,3,9
+31,2011-12-13,2011,12,13,23,nb0vb,I summarised my experiences with learning a Partially Observable Markov Decision Process given input/output data - in case it helps anyone.,https://www.reddit.com/r/MachineLearning/comments/nb0vb/i_summarised_my_experiences_with_learning_a/,danielMe,1323787971,,4,11
+32,2011-12-14,2011,12,14,6,nbgpk,Divvy - unsupervised learning data exploration tool (OS/X),https://www.reddit.com/r/MachineLearning/comments/nbgpk/divvy_unsupervised_learning_data_exploration_tool/,b0b0b0b,1323810736,,10,15
+33,2011-12-14,2011,12,14,17,nc7cy,Fast and Accurate k-means For Large Datasets,https://www.reddit.com/r/MachineLearning/comments/nc7cy/fast_and_accurate_kmeans_for_large_datasets/,[deleted],1323852386,,1,0
+34,2011-12-15,2011,12,15,0,ncgbl,Is there a rule of thumb for how many layers should be in a neural net?  What about the weights initial range?,https://www.reddit.com/r/MachineLearning/comments/ncgbl/is_there_a_rule_of_thumb_for_how_many_layers/,pclogos,1323876859,"I have a dataset with one factor response and about 12 inputs, some factors.  I've been using R's nnet to try and create a nn and have the two questions listed in the title.   Thanks for any help.",31,5
+35,2011-12-15,2011,12,15,3,ncmca,"So, I'm doing some research on Parkinsons disease and  I've found some interesting china people work, but everything is written in chinese..",https://www.reddit.com/r/MachineLearning/comments/ncmca/so_im_doing_some_research_on_parkinsons_disease/,[deleted],1323885909,,3,0
+36,2011-12-15,2011,12,15,4,ncq0w,Proceedings of the Fifth ACM Conference on Recommender Systems,https://www.reddit.com/r/MachineLearning/comments/ncq0w/proceedings_of_the_fifth_acm_conference_on/,[deleted],1323890911,,1,0
+37,2011-12-15,2011,12,15,7,nczfy,"The wake-sleep algorithm for unsupervised
+neural networks [PDF]",https://www.reddit.com/r/MachineLearning/comments/nczfy/the_wakesleep_algorithm_for_unsupervised_neural/,[deleted],1323903409,,4,8
+38,2011-12-15,2011,12,15,9,nd38j,Is there a machine learning algorithm that does what I describe? (See text),https://www.reddit.com/r/MachineLearning/comments/nd38j/is_there_a_machine_learning_algorithm_that_does/,randombozo,1323908955,"While reading a textbook on data mining, I had an idea for an algorithm: it'd work like KNN, except that instead of averaging the 'K' nearest neighbors to estimate the response variable, all neighbors are weighed according to 1) their distance and 2) importance of the X variables (e.g. if X2 is more correlated/valuable than X1, distances among neighbors' X2 variables are weighed more heavily than X1).
+
+I'm sure this already had been thought of, so what family does something like this belong to?",4,7
+39,2011-12-15,2011,12,15,10,nd5vo,Well taught and extensive machine learning video series in a format a bit like Khan Academy,https://www.reddit.com/r/MachineLearning/comments/nd5vo/well_taught_and_extensive_machine_learning_video/,mycatharsis,1323912778,,4,67
+40,2011-12-16,2011,12,16,2,ndzi6,Probabilistic Graphical Models - Example Applications,https://www.reddit.com/r/MachineLearning/comments/ndzi6/probabilistic_graphical_models_example/,[deleted],1323970231,,3,0
+41,2011-12-16,2011,12,16,22,nf5mv,Suggestions for Quickly Coming Up to Speed in Math for Machine Learning,https://www.reddit.com/r/MachineLearning/comments/nf5mv/suggestions_for_quickly_coming_up_to_speed_in/,epios,1324043780,"Hi r/MachineLearning,
+I know there's lots of resources about what to learn, and they are really great.  If anything I have an embarrassment of riches and I am looking to prioritize.  The background is that I got accepted into a graduate certificate program in Data Mining that covers a lot of Machine Learning topics, and I am trying to make sure my math is up to speed.  I've got about a month before classes start and I'm trying to spend it on building math skills.  So I never had Linear Algebra so I am focusing on that and I am also planning to get in an overview of Probability Theory.  If I have extra time over the holidays (ha), I'm going to work on the rest of Statistics.  Is this the priority you guys would follow?  Is there another subject that I absolutely need to digest to hit the ground running?  I am obviously planning to continue to work to back fill my math as I get time, but looking to plan this initial flurry of activity 
+
+EDIT: Thanks everyone for the great suggestions!",16,12
+42,2011-12-17,2011,12,17,13,ng0ib,What's the difference between robust and generalized linear regression?,https://www.reddit.com/r/MachineLearning/comments/ng0ib/whats_the_difference_between_robust_and/,randombozo,1324095835,"If there are real differences, could anyone explain the difference(s) in how they're calculated, in laymen's terms?",4,5
+43,2011-12-17,2011,12,17,16,ng5kz,Is anybody going to the ICMLA conference this year?,https://www.reddit.com/r/MachineLearning/comments/ng5kz/is_anybody_going_to_the_icmla_conference_this_year/,anthonyt,1324106989,,4,4
+44,2011-12-18,2011,12,18,6,ngofk,Is it possible/worthwhile to implement batch learning for Kohonen networks?,https://www.reddit.com/r/MachineLearning/comments/ngofk/is_it_possibleworthwhile_to_implement_batch/,eubarch,1324157380,"The learning algorithm I'm familiar with adjust the network in response to a single training example at a time.  I can think of a couple ways off the top of my head to implement batch learning, but I was wondering if there is literature showing that one method performs better than others, or that batch learning is sort of pointless for SOFMs.",5,7
+45,2011-12-18,2011,12,18,18,nh7n8,Would anyone who is well versed in machine learning (and related areas) be willing to let me bounce some ideas off of them?,https://www.reddit.com/r/MachineLearning/comments/nh7n8/would_anyone_who_is_well_versed_in_machine/,FertileCroissant,1324199661,"I don't have a CS or math background, so my understanding of these concepts is relatively limited.
+
+I'm working on an idea for a recommendation website/service, and I'm trying to figure out first if it's feasible, and if it is, what types of people should I be looking for to help build it, and what the most practical approach might be. Without getting too specific (yet), I'm thinking of something along the lines of Pandora, Netflix, and Amazon. 
+
+From what I understand, Pandora actually has real people listening to every song and choosing (from a predefined list) which attributes best characterize it. When you ""like"" or ""dislike"" a song or artist, it uses that data to make future recommendations. However, others such as MusicBrainz/MusicIP use acoustic fingerprinting and feature extraction to gather data. 
+
+* What are some of the advantages and disadvantages of each method, and when might you use one over the other?
+
+* How about when applied to other multimedia, such as images and video?
+
+* Does the challenge lie more in figuring out how to choose meaningful attributes, the learning algorithm itself, or both equally? 
+
+* What are the advantages and disadvantages of a top-down method (pre-defined attributes typically hidden from the enduser) versus a bottom-up approach (something along the lines of tagging or user-defined attributes)? The most sucessful recommendation algorithms seem to use the former method, is there a reason for that?
+
+Any insight would be very much appreciated.",12,5
+46,2011-12-19,2011,12,19,5,nhlxh,Sample Search Data Needed,https://www.reddit.com/r/MachineLearning/comments/nhlxh/sample_search_data_needed/,descentintomael,1324240475,"I'm working on a personal project to use GA to enhance the configuration settings for Apache Solr, but the problem is that I don't have any test data to work with.
+
+Does anyone know where I could get some sample search data with associated queries and data on what the user clicked on?",5,6
+47,2011-12-19,2011,12,19,9,nhury,Ask r/ML: Why isn't R used often for game AI?,https://www.reddit.com/r/MachineLearning/comments/nhury/ask_rml_why_isnt_r_used_often_for_game_ai/,clarle,1324255597,"I'm an undergraduate student, learning R at school, and I've been lately exploring use cases for R, and taking a look at several of the packages on CRAN.
+
+I've noticed that there's a lot of data mining/classification type packages, and a lot for specialized fields, like ape for bioinformatics, and many more for natural language processing.  However, I haven't seen any for game decision trees, say chess or Go.  
+
+I guess that C++ is often used more, because every bit of speed matters and it's easier to write object-oriented code in C++, but I can't imagine why R wouldn't be a good contender either.  Could anyone with experience in this area maybe explain why?",20,14
+48,2011-12-20,2011,12,20,2,ningw,Tool detects patterns hidden in vast data sets | Broad Institute of MIT and Harvard,https://www.reddit.com/r/MachineLearning/comments/ningw/tool_detects_patterns_hidden_in_vast_data_sets/,jdw25,1324314699,,11,13
+49,2011-12-20,2011,12,20,16,njmg2,Computerized pathology,https://www.reddit.com/r/MachineLearning/comments/njmg2/computerized_pathology/,[deleted],1324367440,,5,15
+50,2011-12-22,2011,12,22,5,nln1w,Anyone know of an online course with video lectures &amp; homework (and sol'ns) on Signal Processing?,https://www.reddit.com/r/MachineLearning/comments/nln1w/anyone_know_of_an_online_course_with_video/,lpiloto,1324498318,"I work on time-series analysis (specifically fMRI) and it seems like the appropriate subject to teach myself.  If you guys have any other suggestions on relevant topics to study, please feel free to add them!",6,5
+51,2011-12-22,2011,12,22,10,nm1d4,Show r/ML: Classifying New Posts into Subreddits,https://www.reddit.com/r/MachineLearning/comments/nm1d4/show_rml_classifying_new_posts_into_subreddits/,webspiderus,1324518984,"Hi r/ML - I just finished a class in Applied Machine Learning, for which I was required to implement an open-ended project that would use some of the things taught to us during the quarter. Inspired by [this article](http://blog.notdot.net/2010/06/Trying-out-the-new-Prediction-API), I decided to build a system which could learn to predict the intended subreddit for a given post. Although I initially wanted to use dimensionality reduction techniques like PCA or LDA, it turned out that they offered little marginal benefit to warrant the added computational complexity. In the end, I decided to train independent supervised classifiers for the post's title text and its domain, and combined the two probability estimates for each subreddit to arrive at a holistic score for the post. I experimented with several types of classifier models (logistic regression, stochastic gradient descent, and naive bayes), and used the one-vs-all approach  to generalize the first two model types to handle more than two subreddits. Unfortunately, I did not have as much time as I hoped to explore the various avenues of this project (partially because I spent too long playing around with PCA and LDA, partially because I ended up spending more time than I wanted to on other classes), but I still feel I managed to get some decent results (which were comparable with the Prediction API results). 
+
+You can read my [project report](http://dl.dropbox.com/u/700763/229a_project.pdf) for more details about the exact implementation. Although it lacks any real figures because of the class-imposed 5 page limit, you can see some sample results in [this table](http://dl.dropbox.com/u/700763/table.pdf). You can also see the title text classifier features with the highest coefficients for each subreddit in [this table](http://dl.dropbox.com/u/700763/words.pdf), which can be thought of as the strongest indicators that a post should belong in that respective subreddit. Finally, you can see the code that I wrote for this project on [github](https://github.com/smoreinis/classificator), which also contains a data directory with a script to scrape new posts from Reddit (inspired by the same post from Nick Johnson) and some sample data for people to play around with.
+
+Code Miscellany: This code was written in python, and uses the numpy, scipy, simplejson, Stemmer, sklearn packages (and in fact was based on an sklearn tutorial on classifying newsgroup articles). The extract.py file handles the conversion of a JSON file full of posts into a feature dictionary, while models.py handles the actual supervised classification models provided by sklearn (as well as using CV grid search to find optimal parameters, and the CombinedClassifier which provides overall score posts). The gold.py file runs the whole thing - give it json files as arguments, and it should spit out the results for each type of sklearn classifier, which include a confusion matrix, overall F1-score, and a classification report like seen above. Finally, you can use the --topFeatures flag to print the highest coefficients (as seen above), but only if you are classifying on title text only (which is the way the code is set up now). To change it to classify posts based on title text and domain, change default value of combine to True on line 153 in models.py, comment out lines 173 an 178 in gold.py, and uncomment lines 174 and 177 (this is one of those things I'd have refactored to be prettier if I had the time, but hopefully it's not too confusing).
+
+I hope this can be of use to some of you - it seems there are several people trying to build recommendation systems for posts, so maybe this can provide at least a little insight into how much information can be gained from a post's title and domain. Although all posts are currently uniformly weighted when training the supervised classifiers, changing this weighting (to either reflect the post's number of upvotes, or some personalized ranking) could also yield some interesting results and potentially make the model's results even better. Let me know if there are any questions!",2,46
+52,2011-12-22,2011,12,22,15,nmbwh,"This picture is on page v of Christopher Bishop's ""Pattern Recognition and Machine Learning"".",https://www.reddit.com/r/MachineLearning/comments/nmbwh/this_picture_is_on_page_v_of_christopher_bishops/,MasCapital,1324535532,,0,0
+53,2011-12-23,2011,12,23,3,nmwq1,"This website aims to find out if it is possible to predict hits in the UK singles charts. They've come up with a system for working out which songs are more likely to 'make it' in the charts, and also the features which make up a hit.",https://www.reddit.com/r/MachineLearning/comments/nmwq1/this_website_aims_to_find_out_if_it_is_possible/,urish,1324579980,,4,11
+54,2011-12-24,2011,12,24,0,nnyju,How important is it to reach a local minimum during training?  ,https://www.reddit.com/r/MachineLearning/comments/nnyju/how_important_is_it_to_reach_a_local_minimum/,PeoriaJohnson,1324652598,"My minimization routine takes a very long time.  Specifically, if I allow it to run until it finds a local minimum to within machine precision, it can require thousands of iterations.  (Not surprisingly, the marginal improvement on each iteration falls steadily.)  Since I have limited CPU-hours to work with, how close to a local minimum should I get?  
+
+This question becomes especially relevant when I repeatedly retrain my neural network while iterating various parameters (regularization; number of features; network topology; size of dataset).  I'd like to determine good choices for each of these parameters.  Will halting minimization early interfere with that?  
+
+(Related: I'm using Octave and have implemented [fmincg.m](http://mlclass.googlecode.com/svn-history/r11/trunk/mlclass-ex5/fmincg.m) as created by the folks running the Stanford ML Class.  Suggestions for better minimization algorithms, particularly those with more documentation or with an adjustable learning rate, are welcome.)  ",11,6
+55,2011-12-25,2011,12,25,7,npkdb,"Interesting paper on the relationship between information, boosting, and philosophy",https://www.reddit.com/r/MachineLearning/comments/npkdb/interesting_paper_on_the_relationship_between/,rrenaud,1324767007,,2,19
+56,2011-12-26,2011,12,26,5,nqfi0,"What is the prerequisite knowledge to *really* ""get"" conditional random fields, HMMs, etc?",https://www.reddit.com/r/MachineLearning/comments/nqfi0/what_is_the_prerequisite_knowledge_to_really_get/,nopesocks,1324844650,"I do work in computer vision, but I have avoided these topics for a while since the Bayesian probability theory doesn't always seem to make sense to me in the context of computer vision.  
+
+I want to understand it right down to the theory.  I'm going to have some off time over the holidays that I will do some reading in.  If I want this stuff to be entirely concrete to me, what should I be reading?  It doesn't seem like starting right from the initial CRF paper is the right approach :)",4,18
+57,2011-12-27,2011,12,27,4,nre76,We are the 99%.,https://www.reddit.com/r/MachineLearning/comments/nre76/we_are_the_99/,gatr1126,1324928707,,7,135
+58,2011-12-27,2011,12,27,15,ns0yh,Opinion on most complete ML resource?,https://www.reddit.com/r/MachineLearning/comments/ns0yh/opinion_on_most_complete_ml_resource/,ants_rock,1324968240,"Hello friends. I am getting into the field of bioinformatics, after having pursued a degree in biomolecular engineering and biochemistry. Since I am not a CS student and still work in the field of biomolecular engineering, I do not have a significant amount of time to dump into learning machine learning, even though I think it is an amazing field. If you could recommend one resource/book, what would it be? I understand that there's no one resource to learn about all of the field.  ",9,5
+59,2011-12-29,2011,12,29,6,nu1kt,Has anyone used Microsoft's data mining tools?,https://www.reddit.com/r/MachineLearning/comments/nu1kt/has_anyone_used_microsofts_data_mining_tools/,yellowyn,1325107298,"SQL Server ships with Analysis services. Within AS there's algorithms for dtrees, clustering, NB, regressions and more. It also looks like there's plugins for SVMs and parallelization. Does anyone have experience with this? Are there any resources for learning to use AS that you'd recommend? I'm somewhat hopeful about it, as SQL Server is quite good. ",12,13
+60,2011-12-30,2011,12,30,4,nv7p0,Benchmarking time series models,https://www.reddit.com/r/MachineLearning/comments/nv7p0/benchmarking_time_series_models/,pandemik,1325185676,,0,12
+61,2011-12-30,2011,12,30,8,nvj2z,Strata2012,https://www.reddit.com/r/MachineLearning/comments/nvj2z/strata2012/,jonnydedwards,1325202853,"Hi, does anyone know of any data science conferences similar to the strata conference, that are later in the year or perhaps in europe? Strata2012 looks amazing but I just can't afford the time or money!!",2,0
+62,2011-12-30,2011,12,30,23,nw9u1,Is JINR still alive?,https://www.reddit.com/r/MachineLearning/comments/nw9u1/is_jinr_still_alive/,spazzm,1325256059,"Is the [Journal of Interesting Negative Results in Natural Language Processing and Machine Learning](http://jinr.org/) still alive? I think the idea is sound (that negative results should be published so that others don't waste their time), but regrettably I see that the latest and so far only issue is over three years old. 
+
+Is there any point submitting articles? 
+
+Where else should negative results be submitted?
+
+Perhaps negative results should not be published since there are effectively an infinite number of ML algorithms?",1,4

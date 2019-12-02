@@ -1,0 +1,9 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2012-12-16,2012,12,16,2,14wgla,How Much Data Do I Need For Predictive Analytics?,https://www.reddit.com/r/datascience/comments/14wgla/how_much_data_do_i_need_for_predictive_analytics/,CANWorkSmart,1355593598,,0,1
+1,2013-1-5,2013,1,5,1,15ydqn,What should I be looking for in buying hardware for Data Analysis?,https://www.reddit.com/r/datascience/comments/15ydqn/what_should_i_be_looking_for_in_buying_hardware/,[deleted],1357315245,"My company is about to replace a load of laptops that we've been using for analytics for the last 10 years or so. They were nothing special but did the job. My question, though, is 'are there any things that would make better/smarter choices for analytical purchases?'
+
+Current plan is just to get vanilla windows laptops (possibly sans graphics cards) to load SAS, SPSS, Excel and some modelling programs onto.
+
+As a sidenote, would there be any advantage in investing in a tower/server as a data cruncher? We normally have sets which are only 6-10m records but these can still take a while to chug through with our current setup.
+
+Thanks.",2,5

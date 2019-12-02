@@ -1,0 +1,166 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2011-3-1,2011,3,1,14,fuuru,Machinelearning masters?,https://www.reddit.com/r/MachineLearning/comments/fuuru/machinelearning_masters/,stonedfox8,1298957523,"Is it worth to spend 2 years in uni to get a masters of computer science where machine learning will just be one of the subjects?
+Is it better instead to do some self study?
+What is the current job market like for machine learning?",34,14
+1,2011-3-2,2011,3,2,5,fv9rf,ICDAR 2011 - Arabic Writer Identification Competition,https://www.reddit.com/r/MachineLearning/comments/fv9rf/icdar_2011_arabic_writer_identification/,cavedave,1299010553,,0,0
+2,2011-3-2,2011,3,2,6,fvc36,First Steps at Building a Classifier with Mahout,https://www.reddit.com/r/MachineLearning/comments/fvc36/first_steps_at_building_a_classifier_with_mahout/,mynameistaken,1299016561,,2,5
+3,2011-3-2,2011,3,2,22,fvrmb,The creator of the Creatures artificial life game series is looking for your help for a new game (r/artificial repost),https://www.reddit.com/r/MachineLearning/comments/fvrmb/the_creator_of_the_creatures_artificial_life_game/,cavedave,1299072492,,2,31
+4,2011-3-3,2011,3,3,5,fw17b,scikit-learn 0.7 machine learning lib for python / numpy is out: what's new?,https://www.reddit.com/r/MachineLearning/comments/fw17b/scikitlearn_07_machine_learning_lib_for_python/,ogrisel,1299098234,,1,17
+5,2011-3-4,2011,3,4,2,fwonm,A news reader that learns what you like,https://www.reddit.com/r/MachineLearning/comments/fwonm/a_news_reader_that_learns_what_you_like/,rhnet,1299175090,,2,3
+6,2011-3-4,2011,3,4,5,fwsv0,Overview: Extracting article text from HTML documents ,https://www.reddit.com/r/MachineLearning/comments/fwsv0/overview_extracting_article_text_from_html/,tomazk,1299185679,,4,24
+7,2011-3-4,2011,3,4,18,fx6kr,On the emerging Open-Source Analytics Stack,https://www.reddit.com/r/MachineLearning/comments/fx6kr/on_the_emerging_opensource_analytics_stack/,talgalili,1299231980,,1,11
+8,2011-3-5,2011,3,5,1,fxcy7,Top Authors in Machine Learning and Pattern Recognition (based on in-domain citations),https://www.reddit.com/r/MachineLearning/comments/fxcy7/top_authors_in_machine_learning_and_pattern/,kanak,1299257248,,10,14
+9,2011-3-5,2011,3,5,4,fxgst,Ask MachineLearning: Help with recommendation optimization?,https://www.reddit.com/r/MachineLearning/comments/fxgst/ask_machinelearning_help_with_recommendation/,[deleted],1299267583,"I've been working on a web-app (written in PHP) for awhile that basically lets you rate articles you have read from 1-5 stars, and it then gives you recommendations based on those rankings.
+
+So basically, I have a database of articles that look something like this:
+
+          Title     |     Submitter     |     Categories      |
+    The Son of Blah |    Mike Elantra   | Science, Technology |
+    Getting back t..|   Jacob Delilah   | Science, Programming|
+    Stories of Bef..|    Daniel Ellas   | History, English    |
+    Friends of Fam..|    Mike Elantra   | Science, English    |
+
+And after you rate a few articles, it looks through all the other articles in the database and looks for how many times you highly rated an article by a certain submitter, or a certain category. So if you 5 starred ""The Son of Blah"" above, it would most likely recommend ""Friends of Fam..."" because the submitter was the same, and it shares 1/2 of the categories of the first article (they both share ""science""). The more you 5 star articles, the more weight it gives to certain categories (so if you five starred the 1st, 2nd, and 4th articles, it would weight ""science"" more highly than other categories, or if you 5 starred the 3rd and 4th articles, it would weight English more highly, etc)
+
+The algorithm seems to work pretty well, but it is ridiculously slow. For 400 articles it took around 20 seconds for the page to load, and for &gt;1000 articles, it took over 40 seconds to load the page, and since I wanted my website to be used by more than one person (and with more than 1000 articles!!), I can just imagine that it will be unusable if 10, 100, or even 1000 people try to use it at once.
+
+The problem, I believe, resides in the fact that it calls the recommendation algorithm every time you visit the recommendation page. I do this because if a user rates a few more articles, I want them to see changes in their recommendations, so  I need to rerun the recommendation algorithm again against all articles to see what the new rankings are. I figure there has to be a better way than to re-rank against every single article, but I can't think of a good way to do so. Is there something I'm not seeing that could help make my page load time go way down?
+",9,2
+10,2011-3-6,2011,3,6,4,fy0sc,"doSMP, Parallel processing in R for Windows is finally GPL...",https://www.reddit.com/r/MachineLearning/comments/fy0sc/dosmp_parallel_processing_in_r_for_windows_is/,talgalili,1299352910,,0,6
+11,2011-3-6,2011,3,6,14,fy9t1,5 visualizations of (splom) pairwise comparisons - in R,https://www.reddit.com/r/MachineLearning/comments/fy9t1/5_visualizations_of_splom_pairwise_comparisons_in/,talgalili,1299389921,,0,3
+12,2011-3-6,2011,3,6,19,fycjp,Fun Genetic Algorithm Examples,https://www.reddit.com/r/MachineLearning/comments/fycjp/fun_genetic_algorithm_examples/,user24,1299406581,,8,48
+13,2011-3-8,2011,3,8,3,fz6tj,What are the 'hot topics' in MachineLearning right now?,https://www.reddit.com/r/MachineLearning/comments/fz6tj/what_are_the_hot_topics_in_machinelearning_right/,[deleted],1299524111,"I'm in my Masters now, and got the opportunity to write an essay/give a presentation about a 'hot topic' in Machine Learning.
+
+I was thinking to give it on ""deep learning"", since that's a term I encountered quite some times recently, but have no idea about. What other new techniques or topics are worth looking into right now?
+(Also, if you can point at 1-2 seminal papers about that topic, that'd be very awesome and helpful, as well)",24,28
+14,2011-3-9,2011,3,9,2,fzuin,"ML-Reddit, how can I determine if using a classifier for a more specific class is beneficial over just using a more generic prediction model?",https://www.reddit.com/r/MachineLearning/comments/fzuin/mlreddit_how_can_i_determine_if_using_a/,saprian,1299603728,"ML-Reddit, Ive a problem I cant seem to figure out. Maybe its really easy and Im just missing something. Either way Id appreciate any pointers anyone can give me. 
+
+Suppose you have a classifier that tells with an Area-under-ROC curve of 0.7 if somebody will develop cancer (any kind of cancer). Now I have a second classifier that tells with an AUC of 0.75 if somebody will develop lung cancer (more specific kind of cancer). The classes are obviously related (one more specific than the other). However, the base-rate of the lung cancer is only a third of what the rate of cancer is in the data set and I'm worried that the little bit of extra might not outweigh the raw chance of somebody just getting cancer. How do I test if my second, more specific classifier picks up on cases that the first one would have missed? To be more specific, how great is my benefit, if any, of using the second classifier in addition to the first one? How can I measure that gain in terms of some AUC-related measure or otherwise?",7,6
+15,2011-3-9,2011,3,9,8,g0319,March Madness: Structured Output Learning Formulation,https://www.reddit.com/r/MachineLearning/comments/g0319/march_madness_structured_output_learning/,danger_t,1299626916,,0,3
+16,2011-3-9,2011,3,9,23,g0g5t,"$5,000 Challenge: Visualizing the US Federal Budget",https://www.reddit.com/r/MachineLearning/comments/g0g5t/5000_challenge_visualizing_the_us_federal_budget/,talgalili,1299682263,,0,11
+17,2011-3-10,2011,3,10,0,g0h2m,Data Mining Useful in Preventing Death by Nosocomial Infection,https://www.reddit.com/r/MachineLearning/comments/g0h2m/data_mining_useful_in_preventing_death_by/,cavedave,1299684796,,2,3
+18,2011-3-10,2011,3,10,15,g10jd,Science Magazine | Special Online Collection: Dealing with Data,https://www.reddit.com/r/MachineLearning/comments/g10jd/science_magazine_special_online_collection/,Troybatroy,1299737983,,0,4
+19,2011-3-11,2011,3,11,0,g17wi,Help choosing a classifier,https://www.reddit.com/r/MachineLearning/comments/g17wi/help_choosing_a_classifier/,leondz,1299769921,"Hi,
+
+I'm a compsci academic. I have a problem for which I'm attempting to train a binary classifier, with some degree of success. The classifers I've tried are ID3, MaxEnt, and NaiveBayes (the versions built in to NLTK). I have a suspicion that to achieve great performance with my features requires a classifier that doesn't follow the independence assumption - that is, one that can weight feature values dependent on the values assigned to other features.
+
+ID3 intuitively doesn't follow this assumption, and naive Bayes does (that's its naivety). I'mm not sure about MaxEnt. In any case, my error reduction rate is 43% with MaxEnt, 12% with NBayes and 38% with ID3.
+
+Can anyone recommend a classifier that is good with handling noise, doesn't follow the independence assumption, and can accept nominal features without too much coaxing?
+
+Thanks!",33,14
+20,2011-3-11,2011,3,11,0,g18cl,GraphLab: A Parallel Framework for Machine Learning,https://www.reddit.com/r/MachineLearning/comments/g18cl/graphlab_a_parallel_framework_for_machine_learning/,cavedave,1299771118,,2,9
+21,2011-3-11,2011,3,11,5,g1f0a,Leslie G. Valiant of Harvard winner of the 2010 Turing Award,https://www.reddit.com/r/MachineLearning/comments/g1f0a/leslie_g_valiant_of_harvard_winner_of_the_2010/,agconway,1299788307,,0,17
+22,2011-3-11,2011,3,11,6,g1guv,ML Reddit: What's the best method to extract article text from HTML documents?,https://www.reddit.com/r/MachineLearning/comments/g1guv/ml_reddit_whats_the_best_method_to_extract/,tomazk,1299793127,"Given an HTML document, the algorithm must be capable of predicting/detecting article text and extracting it from that document. 
+
+I've covered some [here](http://tomazkovacic.com/blog/14/extracting-article-text-from-html-documents/).
+
+If you're aware of any paper/article/blog describing it or software/library/api capable of doing it, please let me know.
+
+**UPDATE**: I've written a [blog post](http://tomazkovacic.com/blog/56/list-of-resources-article-text-extraction-from-html-documents/) and summarized my quick research.",8,6
+23,2011-3-11,2011,3,11,22,g1wzz,DATA-MINING-CUP (DMC) 2011 student competition: Registration opened,https://www.reddit.com/r/MachineLearning/comments/g1wzz/dataminingcup_dmc_2011_student_competition/,fbahr,1299850344,,2,10
+24,2011-3-11,2011,3,11,23,g1yc4,"Armies of Expensive Lawyers, Replaced by Cheaper Software",https://www.reddit.com/r/MachineLearning/comments/g1yc4/armies_of_expensive_lawyers_replaced_by_cheaper/,cavedave,1299855239,,0,1
+25,2011-3-12,2011,3,12,0,g1yip,Readability-like API Using Machine Learning ,https://www.reddit.com/r/MachineLearning/comments/g1yip/readabilitylike_api_using_machine_learning/,jimktrains,1299855765,,0,10
+26,2011-3-12,2011,3,12,15,g2gts,Ensemble Learning for Variable selection; an easy read too!,https://www.reddit.com/r/MachineLearning/comments/g2gts/ensemble_learning_for_variable_selection_an_easy/,klavierspieler21,1299912488,,0,7
+27,2011-3-12,2011,3,12,16,g2h77,Rexer Survey: R is used by more data miners than any other tool,https://www.reddit.com/r/MachineLearning/comments/g2h77/rexer_survey_r_is_used_by_more_data_miners_than/,talgalili,1299914205,,0,14
+28,2011-3-13,2011,3,13,2,g2nnh,"I need to write a paper on ""recommendation 
+systems"" (academic name is - collaborative 
+filtering?) and looking for good books/articles to 
+start with. Can you suggest something?",https://www.reddit.com/r/MachineLearning/comments/g2nnh/i_need_to_write_a_paper_on_recommendation_systems/,[deleted],1299950517,"Also, keep in mind that I come from the field of computer science, though I took courses on statistics, probability theory, linear algebra. 
+Thank you. ",17,12
+29,2011-3-13,2011,3,13,23,g33pi,An idea for a platform where people can play the Turing game and chat bot developers can gather data and compete.,https://www.reddit.com/r/MachineLearning/comments/g33pi/an_idea_for_a_platform_where_people_can_play_the/,quiteamess,1300025390,"While discussing with nadie854 on his [reserbot](http://www.reddit.com/r/MachineLearning/comments/f3uvz/a_chatterbot_built_using_a_neural_networks/) I had an idea for a platform where people can play the Turing game and people can submit bots that participate in the Turing game. The key Idea is that data is gathered by the conversations. This data can be used to train bots. Another strength is that the chatter bots stand in competition and can be tested.
+
+The data-gathering idea is already there in [cleverbot](http://cleverbot.com/). But there is a key difference in this approach. In the original [Turing game](http://cogprints.org/499/1/turing.html) there is a human interrogator C, a Human A and a bot B. The interrogator tries to find out if A or B is the bot. Therefore, there are conversations between C and B, i.e. humans that can be used as training data. Imagine this on a large scale where many people play this game, as in google image labeler. This would bring a lot of good data with conversations that aim at the identification of chatbots. This data can then be used to further train chatbots. 
+
+Further the idea is not to train a single bot, but to provide a platform for chatbot developers. The bots can stand in competition, as it is already established in the research community (for example the [Loebner prize](http://www.google.com/url?sa=t&amp;source=web&amp;cd=1&amp;sqi=2&amp;ved=0CBcQFjAA&amp;url=http%3A%2F%2Fwww.loebner.net%2FPrizef%2Floebner-prize.html&amp;rct=j&amp;q=turing%20test%20competition&amp;ei=ZMd8TY6uLsbGswaNxsHbBw&amp;usg=AFQjCNGNmtOxBD5jb1UYDbd4Mp53MOKWyA&amp;cad=rja)). The incentive for developers to use this platform would be the possibility to gather data.
+
+I think this idea has quite a potential, if advertised in the AI-community. It is appealing to the general public as a game and appealing for developers as data-source and competition. As I won't have the time to implement this idea I wanted to share it here. ",8,12
+30,2011-3-14,2011,3,14,7,g3bci,Free access to government data at data.gov,https://www.reddit.com/r/MachineLearning/comments/g3bci/free_access_to_government_data_at_datagov/,mbmba,1300054722,,0,2
+31,2011-3-14,2011,3,14,11,g3ff1,Selection Sunday: Is your March Madness prediction algorithm ready?,https://www.reddit.com/r/MachineLearning/comments/g3ff1/selection_sunday_is_your_march_madness_prediction/,danger_t,1300069104,,1,4
+32,2011-3-14,2011,3,14,19,g3mfc,RStudio 0.92.44 Release: another great R IDE release...,https://www.reddit.com/r/MachineLearning/comments/g3mfc/rstudio_09244_release_another_great_r_ide_release/,talgalili,1300097787,,0,21
+33,2011-3-15,2011,3,15,2,g3sza,How The New York Times Graphics Department Uses R,https://www.reddit.com/r/MachineLearning/comments/g3sza/how_the_new_york_times_graphics_department_uses_r/,talgalili,1300124986,,2,7
+34,2011-3-15,2011,3,15,7,g3xz4,2011 March Madness Predictions with Probabilistic Matrix Factorization,https://www.reddit.com/r/MachineLearning/comments/g3xz4/2011_march_madness_predictions_with_probabilistic/,danger_t,1300140435,,2,11
+35,2011-3-16,2011,3,16,15,g4z6l,twitter chat bot!,https://www.reddit.com/r/MachineLearning/comments/g4z6l/twitter_chat_bot/,avonwodahs,1300257752,,3,3
+36,2011-3-17,2011,3,17,0,g56q5,Milk: (Yet Another) Machine Learning Toolkit for Python,https://www.reddit.com/r/MachineLearning/comments/g56q5/milk_yet_another_machine_learning_toolkit_for/,fbahr,1300288380,,3,14
+37,2011-3-17,2011,3,17,9,g5ihh,"In an effort to advance the understanding of market algorithms and Internet economics, Google has launched an academic research initiative focused on the underlying aspects of online auctions, pricing, game-theoretic strategies, and information exchange. (crosspost from /r/science/)",https://www.reddit.com/r/MachineLearning/comments/g5ihh/in_an_effort_to_advance_the_understanding_of/,mjanes,1300320639,,1,14
+38,2011-3-17,2011,3,17,11,g5l3c,"Have any publications, presentations, or posters demonstrating a contribution to the field of machine learning?  Post it in this thread!",https://www.reddit.com/r/MachineLearning/comments/g5l3c/have_any_publications_presentations_or_posters/,coopster,1300328873,,0,2
+39,2011-3-18,2011,3,18,5,g5xmt,$3.2M in prizes for predicting hospitalization,https://www.reddit.com/r/MachineLearning/comments/g5xmt/32m_in_prizes_for_predicting_hospitalization/,talgalili,1300394150,,2,9
+40,2011-3-18,2011,3,18,10,g646s,What does ML tell us about teaching kids? ,https://www.reddit.com/r/MachineLearning/comments/g646s/what_does_ml_tell_us_about_teaching_kids/,cavedave,1300410813,,2,6
+41,2011-3-19,2011,3,19,4,g6mu0,"A couple weeks ago, Huffington Post blogger Dan Mervish noted a funny trend: when Anne Hathaway was in the news, Warren Buffett's Berkshire Hathaway's shares went up. ",https://www.reddit.com/r/MachineLearning/comments/g6mu0/a_couple_weeks_ago_huffington_post_blogger_dan/,self,1300476112,,6,26
+42,2011-3-21,2011,3,21,6,g7rz6,Collecting labeled data for Classification Problem: Do we need even amounts for each label?,https://www.reddit.com/r/MachineLearning/comments/g7rz6/collecting_labeled_data_for_classification/,[deleted],1300657321,"I am working on a classification problem, with 5 different possible labels, let's call them Apple, Banana, Mango, Orange, and Pear.
+
+I have a large set of labeled data(10,000 data points) and the corresponding attributes, but I have an uneven amount of data for each of the fruits.
+Apple: 4,000
+Banana: 1,000
+Mango: 2,000
+Orange: 2,000
+Pear:1,000
+
+Collecting labeled data is a bit time consuming; I can, but prefer not to collect more Banana and Pear data. Does the amount of labeled data effect the results of the classification?  (I'm guessing SVMs, not so much since we're trying to find only the support vectors, but how about for Tree Based methods like Decision Trees and Random Forest?)",5,6
+43,2011-3-23,2011,3,23,21,g9n9z,Getting In Shape For The Sport of Data Science (Video on tools and strategies for doing well in data mining competitions by Jeremy Howard),https://www.reddit.com/r/MachineLearning/comments/g9n9z/getting_in_shape_for_the_sport_of_data_science/,mycatharsis,1300882054,,0,15
+44,2011-3-23,2011,3,23,22,g9p55,Screencast: How to successfully compete in data mining competitions (with R and Random forests),https://www.reddit.com/r/MachineLearning/comments/g9p55/screencast_how_to_successfully_compete_in_data/,talgalili,1300888122,,2,25
+45,2011-3-24,2011,3,24,1,g9sqy,"Comparing the Popularity of Data Analysis Software (R vs SAS vs SPSS, etc.)",https://www.reddit.com/r/MachineLearning/comments/g9sqy/comparing_the_popularity_of_data_analysis/,talgalili,1300897535,,0,2
+46,2011-3-24,2011,3,24,1,g9tfx,JMLR | Journal of Machine Learning Research,https://www.reddit.com/r/MachineLearning/comments/g9tfx/jmlr_journal_of_machine_learning_research/,Troybatroy,1300899137,,12,13
+47,2011-3-24,2011,3,24,14,ga9t2,Ireland's blood donations tank as of 2010,https://www.reddit.com/r/MachineLearning/comments/ga9t2/irelands_blood_donations_tank_as_of_2010/,[deleted],1300942823,,0,0
+48,2011-3-24,2011,3,24,16,gaccj,"Free E-Book on ""Text Algorithms"" (by M. Crochemore/W. Rytter. OUP, 1994)",https://www.reddit.com/r/MachineLearning/comments/gaccj/free_ebook_on_text_algorithms_by_m_crochemorew/,fbahr,1300952447,,3,10
+49,2011-3-24,2011,3,24,19,gaef5,So there was a link to JMLR posted yesterday...,https://www.reddit.com/r/MachineLearning/comments/gaef5/so_there_was_a_link_to_jmlr_posted_yesterday/,filox,1300963989,"Although I thought people would dismiss that submission as trivial since everyone already knows about it, I was surprised that some people said they never heard of it.  This is why I'm posting some ML conferences here in case some of you may not know about them.  This list is by no means complete, it's just my personal pick of the ""good"" conferences to follow if you're interested in ML.  So, here goes (I'm too lazy to actually put links):
+
+* ICML
+* NIPS
+* UAI
+* AISTATS
+* COLT
+* ACL, NAACL, EMNLP (they have pretty strong machine learning tracks)
+
+Other, less ML related, but still possibly interesting conferences (by possibly interesting I mean that they get the odd ML paper that can be very interesting):
+
+* KDD
+* ICDM
+* SIGIR
+* VLDB
+* COGSCI",31,25
+50,2011-3-24,2011,3,24,23,gahph,New free MATLAB machine learning toolbox ,https://www.reddit.com/r/MachineLearning/comments/gahph/new_free_matlab_machine_learning_toolbox/,shablinky,1300976567,"Hi ML Reddit,
+
+Were a couple of machine learning enthusiasts who have been working for a few years on a MATLAB toolbox to help in our research and projects.  We finally put the effort in to make the toolbox more than a hobby (maybe somewhat respectable even), and were looking for some feedback
+
+The toolbox is currently in a free Beta, and wed appreciate feedback from everyone who is interested in  machine learning with MATLAB.  Like I said, its completely free, and available [here](http://www.newfolderconsulting.com/prt).
+Just sign up for a free account (we promise to never sell your e-mail address, and we wont spam you).
+You can get a sense for how the toolbox works by checking out [the quick start guide](http://www.newfolderconsulting.com/prtdoc/prtDocQuickStart.html).
+
+Weve decided that the toolbox will always be free for academic/educational use (were still deciding what to do for commercial use).
+Although you do need MATLAB (later than 2009A) to use the toolbox, no additional MATLAB toolboxes (e.g., stats, optimization) are required.
+
+Thanks in advance for your time, and if anyone has any questions please e-mail one of us:
+
+* kenny@newFolderConsulting.com
+* pete@newFolderConsulting.com
+
+Or post on our [forum](http://www.newfolderconsulting.com/forum).
+
+Thanks again,
+
+-Kenny and Pete
+",6,20
+51,2011-3-25,2011,3,25,0,gaink,Anybody have a Part of Speech tagged corpus?,https://www.reddit.com/r/MachineLearning/comments/gaink/anybody_have_a_part_of_speech_tagged_corpus/,duinn,1300979030,"I'm training my own POS tagger (using Conditional Random Field) and tagging the training corpus is taking a very long tedious time. I need it in a sentence structure (since thats how CRFs work!) e.g.
+    My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+Not with these exact tags, but something along those lines!
+Ta.
+
+",5,6
+52,2011-3-25,2011,3,25,23,gbac1,Regression with R,https://www.reddit.com/r/MachineLearning/comments/gbac1/regression_with_r/,cavedave,1301063410,,1,16
+53,2011-3-26,2011,3,26,17,gbukw,Embedding R inside the Qt framework ,https://www.reddit.com/r/MachineLearning/comments/gbukw/embedding_r_inside_the_qt_framework/,talgalili,1301127778,,1,11
+54,2011-3-26,2011,3,26,22,gbxl4,Could someone familiar with weka spare a moment to answer a question for me - regarding the representation of missing nominal values in ARFF.,https://www.reddit.com/r/MachineLearning/comments/gbxl4/could_someone_familiar_with_weka_spare_a_moment/,[deleted],1301147148,"Apologies if this is an idiotic question. I've currently got a university project in which I am using weka to apply some classification algorithms to a collection of genotype values. I've had some success using a smaller dataset but now that I am scaling my investigations up to a larger data set with some missing values I am encountering a problem. I've got a list of attributes represented as follows in my arff file:
+
+@attribute blah {AA, CC, GG, TT, AG, AC, AT, CA, CG, CT, GA, GC, GT, TA, TC,TG}
+
+And then my data looks something like: AA,AA,AG,AG,GG,TC,? etc
+
+When I try to open the file in weka it bugs out and tells me that a nominal value has not been declared in the header. I thought that missing values were represented using a '?' character, but do I need to include the '?' as an option in my atrribute list as well?
+
+Thanks in advance for any help.",3,7
+55,2011-3-27,2011,3,27,15,gcdk3,Any MATLAB user interface mods out there?,https://www.reddit.com/r/MachineLearning/comments/gcdk3/any_matlab_user_interface_mods_out_there/,bciguy,1301207477,"does anyone know of any matlab hacks that let you alter the appearance of the command prompt and text editor beyond what's available in the preferences menu? This isnt super important, but was just wondering if there was any way to spice up my matlab workday.",13,2
+56,2011-3-28,2011,3,28,9,gcro2,Algorithmic March Madness: Machines Lock in Victory Over Humans,https://www.reddit.com/r/MachineLearning/comments/gcro2/algorithmic_march_madness_machines_lock_in/,danger_t,1301271472,,1,15
+57,2011-3-29,2011,3,29,7,gdgvf,Using R and snow on Ohio Supercomputer Centers Glenn cluster,https://www.reddit.com/r/MachineLearning/comments/gdgvf/using_r_and_snow_on_ohio_supercomputer_centers/,talgalili,1301350911,,0,9
+58,2011-3-29,2011,3,29,19,gdtv3,Critique this visual taxonomy of pattern recognition methods,https://www.reddit.com/r/MachineLearning/comments/gdtv3/critique_this_visual_taxonomy_of_pattern/,speciousfool,1301393038,,28,25
+59,2011-3-30,2011,3,30,4,ge5k9,Data Mining versus Data Protection ,https://www.reddit.com/r/MachineLearning/comments/ge5k9/data_mining_versus_data_protection/,locster,1301427606,,2,9
+60,2011-3-31,2011,3,31,17,gfe0c,EC2 + R + RStudio Server,https://www.reddit.com/r/MachineLearning/comments/gfe0c/ec2_r_rstudio_server/,talgalili,1301559043,,4,12

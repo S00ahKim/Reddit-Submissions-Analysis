@@ -1,0 +1,31 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2016-3-2,2016,3,2,5,48ihfh,Understanding Aesthetics with Deep Learning,https://www.reddit.com/r/deeplearning/comments/48ihfh/understanding_aesthetics_with_deep_learning/,harrism,1456864747,,0,5
+1,2016-3-4,2016,3,4,5,48ts6d,Deep Learning: an Interview with Yoshua Bengio,https://www.reddit.com/r/deeplearning/comments/48ts6d/deep_learning_an_interview_with_yoshua_bengio/,reworksophie,1457036115,,0,1
+2,2016-3-7,2016,3,7,3,498i7w,How fast should these processes run?,https://www.reddit.com/r/deeplearning/comments/498i7w/how_fast_should_these_processes_run/,MacroMeez,1457289143,"I am playing with the image analogies codebase (https://github.com/awentzonline/image-analogies) right now, and my desktop has a GTX770 4gig graphics card.  Currently the first passes take about a minute or two each, the second layer takes a few minutes but the 3rd layer of passes takes about 5 hours each.  Do i have something set up incorrectly or is that just the current state of things?  How much faster could I get if i upgraded to a 980ti or something?",1,0
+3,2016-3-8,2016,3,8,16,49hfxm,"Can you recommend me a book based on my knowledge, before diving deep into deep learning?",https://www.reddit.com/r/deeplearning/comments/49hfxm/can_you_recommend_me_a_book_based_on_my_knowledge/,Mr__Christian_Grey,1457422548,"I have questions regarding this Normalized weights and Initial inputs video on Udacity course Deep Learning.(https://www.udacity.com/course/viewer#!/c-ud730/l-6370362152/m-7119160655)
+
+In this video it talks about variables that go into Big-loss function should have zero mean and equal variances. I cant figure about which variables it is talking about? Are they weights and biases or are they soft-max function and labels in the Big-loss function? And how zero mean and equal variance would help in optimization?
+
+The other question I have is, in the video it talks about weight initialization randomly using Gaussian distribution, I cannot understand how can we initialize weights using gaussian distribution with zero mean and standard deviation sigma? And where optimizer will move the point (initialized weight), up or down to find the local minima?
+
+So can you recommend me a book that I should study before taking this course, so that problems like these don't occur ?",0,3
+4,2016-3-8,2016,3,8,17,49hmpy,Deep Learning in a Nutshell: Sequence Learning,https://www.reddit.com/r/deeplearning/comments/49hmpy/deep_learning_in_a_nutshell_sequence_learning/,harrism,1457426583,,0,4
+5,2016-3-11,2016,3,11,0,49tybk,"With AlphaGo in the news this week, we looked back at our interview with scientists from Google DeepMind - talking advancements in deep learning, DeepMind algorithms, and using games to teach machines.",https://www.reddit.com/r/deeplearning/comments/49tybk/with_alphago_in_the_news_this_week_we_looked_back/,reworksophie,1457624730,,0,1
+6,2016-3-14,2016,3,14,21,4acvo3,Deep Reinforcement Learning for Robotics - Pieter Abbeel presentation #reworkDL,https://www.reddit.com/r/deeplearning/comments/4acvo3/deep_reinforcement_learning_for_robotics_pieter/,reworksophie,1457958395,,0,1
+7,2016-3-17,2016,3,17,23,4atbj2,How to make image classification go real-time in Deep Learning ?,https://www.reddit.com/r/deeplearning/comments/4atbj2/how_to_make_image_classification_go_realtime_in/,nex_jeb,1458225320,"Training with well-known frameworks like caffe or torch isn't the hardest thing in deep learning. However, once the neural network trained, it's not that easy to make things go real-time. A lot of people seem to face this unfortunate constraint that limits the scope of R-T applications for Deep Learning with existing tools. 
+
+So, before giving up the deep learning approach, I would like to ask you guys if there are any heuristics that could boost the things up.
+
+Cheers,",1,4
+8,2016-3-18,2016,3,18,0,4athq7,Validation and training set. How to choose the ratio ?,https://www.reddit.com/r/deeplearning/comments/4athq7/validation_and_training_set_how_to_choose_the/,nex_jeb,1458227392,"I am a bit confused about the chosen ratio between the size of the validation &amp; training sets. 
+
+Some guys build a validation set taking about 20 to 25% of the training set, some choose a total independent data for it, etc ...
+
+Finally, is it better to choose a validation set from a part of the training set than to build a new one ?
+
+Thanks, ",0,3
+9,2016-3-18,2016,3,18,23,4aylix,Some insights from this training graph ?,https://www.reddit.com/r/deeplearning/comments/4aylix/some_insights_from_this_training_graph/,nex_jeb,1458312391,,0,3
+10,2016-3-23,2016,3,23,3,4binjf,Some Starting Points for Deep Learning and RNNs,https://www.reddit.com/r/deeplearning/comments/4binjf/some_starting_points_for_deep_learning_and_rnns/,60secs,1458670838,,0,0
+11,2016-3-25,2016,3,25,2,4bsi9n,"Experts from Deep Genomics, AiCure Stratified Medical, Cambridge University &amp; Twitter talk Deep Learning in Healthcare",https://www.reddit.com/r/deeplearning/comments/4bsi9n/experts_from_deep_genomics_aicure_stratified/,reworksophie,1458839599,,0,1
+12,2016-3-30,2016,3,30,0,4cg1m8,How is deep learning impacting radiological imaging &amp; anomaly detection?,https://www.reddit.com/r/deeplearning/comments/4cg1m8/how_is_deep_learning_impacting_radiological/,reworksophie,1459266859,,0,1
+13,2016-3-31,2016,3,31,21,4cpqtn,Experts discuss the opportunities and risks of integrating AI &amp; Deep Learning in healthcare,https://www.reddit.com/r/deeplearning/comments/4cpqtn/experts_discuss_the_opportunities_and_risks_of/,reworksophie,1459426572,,0,1

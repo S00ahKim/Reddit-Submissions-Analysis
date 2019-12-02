@@ -1,0 +1,200 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2011-4-2,2011,4,2,4,ggmg4,Is there standard optimization of Non Negative Matrix Factorization for Features?,https://www.reddit.com/r/MachineLearning/comments/ggmg4/is_there_standard_optimization_of_non_negative/,ml_zealot,1301685787,"Does anyone know of a documented approach to optimizing the number of features to use in applying non negative matrix factorization.  
+(don't want features with lowly relevant items contained within, want to optimize the number of features)",7,5
+1,2011-4-2,2011,4,2,6,ggpch,[impressive] Zdenek Kalal's object tracking algorithm learns on the fly,https://www.reddit.com/r/MachineLearning/comments/ggpch/impressive_zdenek_kalals_object_tracking/,tomazk,1301693003,,12,60
+2,2011-4-2,2011,4,2,15,ggyf8,cnc contour cutting machine Offer CHINA Dongguan,https://www.reddit.com/r/MachineLearning/comments/ggyf8/cnc_contour_cutting_machine_offer_china_dongguan/,techberth,1301724344,,0,1
+3,2011-4-5,2011,4,5,10,gis8o,Are there any good free alternatives to a LIWC like text analysis software?,https://www.reddit.com/r/MachineLearning/comments/gis8o/are_there_any_good_free_alternatives_to_a_liwc/,engineer_girl,1301967728,,4,3
+4,2011-4-5,2011,4,5,15,gixky,"Amazing object tracking using webcam even if scale changes, unstable camera, rotation etc. Use your webcam as virtual mouse!",https://www.reddit.com/r/MachineLearning/comments/gixky/amazing_object_tracking_using_webcam_even_if/,sytelus,1301983317,,4,7
+5,2011-4-5,2011,4,5,17,gizk8,Heritage Health Prize Launched,https://www.reddit.com/r/MachineLearning/comments/gizk8/heritage_health_prize_launched/,cavedave,1301993600,,0,5
+6,2011-4-5,2011,4,5,19,gj0s6,Zementis launches Gullibility Predictor,https://www.reddit.com/r/MachineLearning/comments/gj0s6/zementis_launches_gullibility_predictor/,cavedave,1301999627,,0,0
+7,2011-4-7,2011,4,7,9,gkbnj,How can classification be done with variable-sized data?,https://www.reddit.com/r/MachineLearning/comments/gkbnj/how_can_classification_be_done_with_variablesized/,StephenL,1302135067,"For instance, if I have n objects in the world, and each object has a feature vector of length m. Now I would like to do some binary classification on the world. Well I could train classifiers for each object individually, which would give me n different classifier decisions. But now I need to combine these decisions into a final classification (maybe by using another classifier, but here is where the variable-sized problem comes in). Traditional classification techniques assume a fixed-sized feature vector. Is there a way to overcome this?
+
+Edit: I may have been unclear in my original post: I'm referring to the case when n can take on any value - it is completely unknown and may vary for different instances of the world. That is, I may have one training example where there are 3 objects but I have another example where there are 10. Assume m is fixed and known.",18,15
+8,2011-4-9,2011,4,9,17,gm2qf,New versions of GGobi and rggobi for Windows users,https://www.reddit.com/r/MachineLearning/comments/gm2qf/new_versions_of_ggobi_and_rggobi_for_windows_users/,[deleted],1302338464,,1,2
+9,2011-4-10,2011,4,10,20,gmo37,Data analysis between laptop and server: Fast Two Way Sync in Ubuntu!,https://www.reddit.com/r/MachineLearning/comments/gmo37/data_analysis_between_laptop_and_server_fast_two/,[deleted],1302435622,,0,0
+10,2011-4-11,2011,4,11,7,gmyeo,"2011 Predictive Analytics Challenge Winner: Machines Beat Humans predicting the NCAA Tournament
+",https://www.reddit.com/r/MachineLearning/comments/gmyeo/2011_predictive_analytics_challenge_winner/,srt19170,1302476082,,1,8
+11,2011-4-12,2011,4,12,0,gngh1,"RStudio Beta 2 (v0.93)
+",https://www.reddit.com/r/MachineLearning/comments/gngh1/rstudio_beta_2_v093/,talgalili,1302536578,,0,13
+12,2011-4-12,2011,4,12,1,gnhnx,Image classification problems?,https://www.reddit.com/r/MachineLearning/comments/gnhnx/image_classification_problems/,mikebaud,1302539590,"Hello MLers,
+
+Im a newbie student on ML trying to develop a simple k-NN image classification algorithm with the MIR-Flickr and NUSWIDE image datasets using solely textual features (user tags).
+I defined a vector space model with all the possible keywords (after a little noise cleaning) for all the images: 
+
+an example of this vector is something like [0,1,0,1,0] where only tag1 and tag3 were present in this particular image.
+
+I then pass it through Pearson correlation to calculate the affinity matrix between all images.
+
+Now the k-NN phase i just iterate through the test set and check out the k nearest neighbors for each test image.
+From those k nearest neighbors i check their ground-truth (1 if they have the class im trying to classify 0 if they dont) - im doing binary classification.
+For classification i just average this result (k can only take odd numbers), so for a value superior to 0.5 the image is classified with having the class.
+
+I have tested with k from 1 to 21. From the literature i have read, and the metrics i have used (precision,recall,f-measure) i should have a chart that increases in recall/f-measure up/accuracy up to a certain k then starts a descent. But what i got is a continuous descent from recall and f-measure from k=1 onwards, coupled with an increasingly higher accuracy.
+Then i though, im really dumb, i need to weigth the neighbors according to class distribution in the dataset. So i added the weigth of each k neighbor according to the number of occurrences of the class in the dataset. 
+Basicly the weight of a neighbor is the total of images in the dataset divided by the number images with that class. This i thought reduces the problem of classes with few instances in the dataset.
+
+Re-ran the tests and what i got was almost the oppositive behaviour for the metrics, where recall steadily increases but accuracy drops with the increasingly higher values of k neighboring images.
+
+
+So, what are best practices in k-NN to treat these kinds of situations with data or can i try to mix these two approaches to get somekind of a precision/recall break-even?
+
+
+What is considered an acceptable precision/recall/f-measure metric in image classification?
+
+If im not clear enough with this explanation please tell me.
+
+TL;DR - k-NN with atypical behavior",9,10
+13,2011-4-12,2011,4,12,19,go4g6,"A huge, up to date tutorial about using graphical models for web-scale applications, by Alex Smola. Starts out fairly basic, but gets pretty deep. [Warning: 300 page PDF]",https://www.reddit.com/r/MachineLearning/comments/go4g6/a_huge_up_to_date_tutorial_about_using_graphical/,urish,1302605230,,3,33
+14,2011-4-14,2011,4,14,3,gp9gg,A stand alone simulated annealing package in python,https://www.reddit.com/r/MachineLearning/comments/gp9gg/a_stand_alone_simulated_annealing_package_in/,pwoolf,1302720098,,2,14
+15,2011-4-14,2011,4,14,16,gpqob,"sofia-ml: Suite of Fast Incremental Algorithms for Machine Learning (incl. methods for learning classification and ranking models, using Pegasos SVM, SGD-SVM, ROMMA, Passive-Aggressive Perceptron, Perceptron with Margins, and Logistic Regression)",https://www.reddit.com/r/MachineLearning/comments/gpqob/sofiaml_suite_of_fast_incremental_algorithms_for/,fbahr,1302765276,,4,27
+16,2011-4-14,2011,4,14,17,gprs8,R 2.13 released - with impressive gains in performance!,https://www.reddit.com/r/MachineLearning/comments/gprs8/r_213_released_with_impressive_gains_in/,talgalili,1302770343,,0,5
+17,2011-4-14,2011,4,14,19,gpt3i,Rstat x-post: new R release compiles code.,https://www.reddit.com/r/MachineLearning/comments/gpt3i/rstat_xpost_new_r_release_compiles_code/,[deleted],1302776793,,2,15
+18,2011-4-14,2011,4,14,22,gpvec,"If You Can Tell Boys From Girls, the Air Force May Give You 20 Grand",https://www.reddit.com/r/MachineLearning/comments/gpvec/if_you_can_tell_boys_from_girls_the_air_force_may/,cavedave,1302786230,,10,9
+19,2011-4-15,2011,4,15,6,gq8dy,"Prospects for a Phd with a bad GPA, without paper and slightly overaged(26)? ",https://www.reddit.com/r/MachineLearning/comments/gq8dy/prospects_for_a_phd_with_a_bad_gpa_without_paper/,agz,1302816261,"Hi guys,
+
+I will graduate in June and several years back then, I thought that I would try to apply for Phd programme in Europe. Now the time has come so I'm looking at my options and I would ask for your thoughts on it. About my chances the bad thing is that I have a horrible gpa(3.7 out of 5, in a not top500 university), not really good at math (I can understand proofs like Hopfield Net convergence, although never was top in class), and I'm quite old (turned into 26 yesterday). The good news are that I had several side projects, maybe I'm not braindead(iq ~131, standard mensa, although I assume it's normal within phd), and I have a quite good thesis from which I could extract a paper if would want to(at least I think). So my questions:
+
+1. What do you think, what are my odds getting into a funded phd programme in Europe(ger, gb, ireland, nl, ..)? I've searched for phd-sites but I haven't managed to find, so is there a unified ""phd-search-in-europe"" site? :O
+
+2. A friend interested in doing it in the USA and have done GRE and all the stuff. What are the chances having a phd there(not into ivy league, ""just"" top50 us university - or it's not worth it?) Also odds in other parts of the world?
+
+3. Am I too old, so I should get a life instead? :) I don't have problems with the industry, I just try to avoid ending up with a boring ""business logic"" job. Also I'm not in love with science or anything, I just like to think long on problems(walking in circles at midnights) and I would be dissatisfied if I should do this with problems I don't think worth it. Yeah it sounds lame and mediocre, and I'm aware that I'm not a top shot, but anyway I do this stuff. 
+
+I've made my cv for an internship position, so I would humbly ask you guys, what do you think about my prospects/what should I do? Thank you for any answer or sharing an experience related!
+
+
+
+Projects (reverse time order):
+- Thesis:
+  :: Audio signal classification by computer vision techniques:	
+  - Energy based learning: Restricted Boltzmann Machines, KMeans, CMeans 
+  - Support Vector Machines  
+
+- Erasmus Summer Scholarship at a top100 university:
+  :: Evolving Neural Nets as Controllers done in clojure 
+  - Boid/flocking environment simulation ""library""
+  - Functional neural net ""library""
+  - Topological evolution (NEAT)
+  - Framework and representation for evolving neural nets
+
+- Erasmus Scholarship at a top100 university:
+  - Data Mining, Bioinformatics, Cognitive Categorization, ML, SVM courses
+
+- Laboratory Work:
+  :: Algorithms for a GSM based positioning system
+  - Bayesian filtering and inference
+
+- Other side projects I had:
+  - Evolutionary Algorithms: Differential Evolution and it's derivatives
+  - Compiler for a functional language idea I have (not succeed yet)
+  - Several Sport predictor systems (not succeed)
+
+
+Technical Expertise:
+- Programming Languages:
+  - Good(1+ year continuous use): Common Lisp, Clojure, Matlab, C++
+
+- Interests:
+  - Machine Learning, Ai, Data Mining 
+  - Neurobiology, Evolutionary Psychology, ""Mind"" stuff
+  - Evolutionary Algorithms
+  - Functional Programming
+  
+
+EDIT: Several grammar errors here and there(Although I'm sure there are still more - anyway this is time for justice :)
+
+EDIT2: Thank you guys for the comments, they are really valuable for me! 
+I'm not that harsh on myself, I simply doesn't have a clear picture and wanted feedback(and yes maybe presented myself lower to prevent real dissapointment). Thanks again and please keep commenting, I think It can be valuable for prospective students.     
+  ",39,12
+20,2011-4-16,2011,4,16,2,gqws7,Machine Learning for Complex Language Entry,https://www.reddit.com/r/MachineLearning/comments/gqws7/machine_learning_for_complex_language_entry/,agconway,1302890381,,1,11
+21,2011-4-16,2011,4,16,12,gr8o7,Introductory tutorial on data munging with basic Unix tools,https://www.reddit.com/r/MachineLearning/comments/gr8o7/introductory_tutorial_on_data_munging_with_basic/,mycatharsis,1302925014,,2,10
+22,2011-4-17,2011,4,17,3,grkfk,Rank is an open source project consisting of various Machine Learning algorithms which uses Regression Trees,https://www.reddit.com/r/MachineLearning/comments/grkfk/rank_is_an_open_source_project_consisting_of/,cavedave,1302976912,,0,19
+23,2011-4-17,2011,4,17,6,gro5b,Is social network analysis useless?,https://www.reddit.com/r/MachineLearning/comments/gro5b/is_social_network_analysis_useless/,cavedave,1302988295,,9,26
+24,2011-4-17,2011,4,17,21,gs0t9,What we really need is a showmedo type video tutorial for retards(like me) who want to get into machine learning.,https://www.reddit.com/r/MachineLearning/comments/gs0t9/what_we_really_need_is_a_showmedo_type_video/,stonedfox8,1303042621,"The thing is that I am having a lot of trouble getting a simple machine learning program up and running. Once I get this done I know that I can run. 
+Is there any such resource out there which explains things in a really simple maner and where I don't have to scratch my head. ",1,1
+25,2011-4-18,2011,4,18,3,gs674,"rt-rank - An open source project consisting of various Machine Learning algorithms which uses Regression Trees (implemented to compete in Yahoo's ""Learning to Rank"" Challenge)",https://www.reddit.com/r/MachineLearning/comments/gs674/rtrank_an_open_source_project_consisting_of/,[deleted],1303064359,,0,3
+26,2011-4-18,2011,4,18,4,gs74e,Data science and the U.S. intelligence community ,https://www.reddit.com/r/MachineLearning/comments/gs74e/data_science_and_the_us_intelligence_community/,agconway,1303067145,,4,11
+27,2011-4-18,2011,4,18,8,gsclp,"After leaving my laptop on overnight yet again to train several models, I got to thinking: is it possible to rent a powerful remote desktop computer, hosted on a server elsewhere?",https://www.reddit.com/r/MachineLearning/comments/gsclp/after_leaving_my_laptop_on_overnight_yet_again_to/,chillage,1303083828,"This would be similar to the Amazon Cloud, but for personal use.  I tried renting server time at Amazon Web Services, but they seem to be focused entirely on web hosting, etc. I'm just looking to have a fully functional version of Windows/Linux hosted on a powerful server. I log into it and it behaves like a normal interactive desktop interface (with a bit of lag of course, since it's being processed elsewhere). But the upside is that it's so much more powerful since it's hosted on a very fast server elsewhere.
+
+This would make my work so much easier... Does this exist anywhere? And my school does give me access to some very mediocre Linux servers, but I can only ssh in through putty and then I have to deal with a command line interface. I would really like to find a fully functional version of Windows/Linux that I can log into remotely.
+
+
+
+EDIT:
+thanks DimeShake! Looks like this is exactly what I was looking for:
+
+http://blog.restbackup.com/how-to-use-amazon-ec2-as-your-desktop
+
+I'll try it out when I have some time soon",14,26
+28,2011-4-18,2011,4,18,12,gshlc,Solving Pursuit-Evasion Games,https://www.reddit.com/r/MachineLearning/comments/gshlc/solving_pursuitevasion_games/,[deleted],1303098685,"Hey Reddit,
+
+I've got a pursuit evasion game that I'm trying to solve for fun and I'm having trouble figuring out how to go about solving it.
+
+The particular games goes like this. We have a fixed undirected graph with edges pretty much randomly distributed, with the exception that each node has at least two edges.
+
+Then a monster, a princess, and an exit are each assigned a random location on the graph. The princess and monster are both informed of the starting location of each other. The princess wins if she can reach the exit. The monster wins if he reaches the princess. Each turn, both characters may move to an adjacent node, with the sole exception that the monster may not move onto the exit. Lastly, if a path consisting of at most 3 edges can be made from the princess to the monster, the two are said to hear each other, and both are informed of this event.
+
+My intuition says both should race to the exit. If the princess starts in a good location she can simply beat the monster to it. However, if the monster gets there first, then he should simply patrol around and try to listen for the princess. If he can hear her, he should be able to do a bit of triangulation by realizing that the first time he hears her she is exactly within three nodes of him. (Given this, if the princess cannot beat the monster, she should wait a while before trying to reach the exit.) If he hears her again, he can simply try to move inbetween the exit and the princess as best he can while simultaneously trying to capture the princess.
+
+So basically, my goal is to write the optimal bots for both the princess and monster. Links and insight are very much appreciated.",5,3
+29,2011-4-18,2011,4,18,17,gsmpp,Data Mining Drug Interactions,https://www.reddit.com/r/MachineLearning/comments/gsmpp/data_mining_drug_interactions/,cavedave,1303117162,,0,0
+30,2011-4-18,2011,4,18,20,gsoet,"HDPE Manufactures Mumbai, HDPE Manufactures India, Plastic Raw Materials Mumbai
+",https://www.reddit.com/r/MachineLearning/comments/gsoet/hdpe_manufactures_mumbai_hdpe_manufactures_india/,timmckay,1303125997,,0,1
+31,2011-4-19,2011,4,19,5,gt1di,EC2 AMI for scientific computing in Python and R,https://www.reddit.com/r/MachineLearning/comments/gt1di/ec2_ami_for_scientific_computing_in_python_and_r/,mish0k,1303160022,,5,12
+32,2011-4-19,2011,4,19,6,gt2v6,A short introduction to Sparse Coding and Dictionary Learning,https://www.reddit.com/r/MachineLearning/comments/gt2v6/a_short_introduction_to_sparse_coding_and/,ogrisel,1303163497,,2,5
+33,2011-4-19,2011,4,19,7,gt4gy,"Using R, Sweave and Latex to integrate animations into PDFs",https://www.reddit.com/r/MachineLearning/comments/gt4gy/using_r_sweave_and_latex_to_integrate_animations/,talgalili,1303167498,,0,3
+34,2011-4-19,2011,4,19,19,gtibq,"ECML/PKDD 2011 Recommender System Challenge
+5500 euro in Prizes!!!!",https://www.reddit.com/r/MachineLearning/comments/gtibq/ecmlpkdd_2011_recommender_system_challenge_5500/,m3g4n3,1303209330,,0,6
+35,2011-4-20,2011,4,20,4,gtu75,"How Kaggle competitors use R
+",https://www.reddit.com/r/MachineLearning/comments/gtu75/how_kaggle_competitors_use_r/,talgalili,1303241657,,2,21
+36,2011-4-20,2011,4,20,10,gu2es,Few draft chapters from Mike Jordan's Intro to Graphical Models.,https://www.reddit.com/r/MachineLearning/comments/gu2es/few_draft_chapters_from_mike_jordans_intro_to/,mashed_potato,1303262581,,15,4
+37,2011-4-20,2011,4,20,21,gues4,Penguin tickling,https://www.reddit.com/r/MachineLearning/comments/gues4/penguin_tickling/,[deleted],1303303230,,0,1
+38,2011-4-23,2011,4,23,12,gvhyw,Using zlib as a similarity metric,https://www.reddit.com/r/MachineLearning/comments/gvhyw/using_zlib_as_a_similarity_metric/,lrwiman,1303528459,,6,11
+39,2011-4-23,2011,4,23,16,gvmii,Visualizing iPhone location tracking with Google Maps and R,https://www.reddit.com/r/MachineLearning/comments/gvmii/visualizing_iphone_location_tracking_with_google/,talgalili,1303545235,,2,14
+40,2011-4-24,2011,4,24,15,gw6cp,Visualizing Android location tracking with Google Maps and R,https://www.reddit.com/r/MachineLearning/comments/gw6cp/visualizing_android_location_tracking_with_google/,talgalili,1303625919,,0,0
+41,2011-4-25,2011,4,25,16,gwuuw,Machine Learning PYthon (mlpy) - A high-performance Python library for predictive modeling,https://www.reddit.com/r/MachineLearning/comments/gwuuw/machine_learning_python_mlpy_a_highperformance/,fbahr,1303717946,,9,25
+42,2011-4-25,2011,4,25,23,gx0ae,The Deloitte/FIDE Chess Competition: Play by Play,https://www.reddit.com/r/MachineLearning/comments/gx0ae/the_deloittefide_chess_competition_play_by_play/,llimllib,1303742173,,1,5
+43,2011-4-26,2011,4,26,10,gxeae,"Amazons $23,698,655.93 book about flies",https://www.reddit.com/r/MachineLearning/comments/gxeae/amazons_2369865593_book_about_flies/,sytelus,1303779789,,0,1
+44,2011-4-26,2011,4,26,18,gxnz1,Cheese Winding Machine India,https://www.reddit.com/r/MachineLearning/comments/gxnz1/cheese_winding_machine_india/,vijaygroups,1303811865,,1,0
+45,2011-4-26,2011,4,26,22,gxr2b,Supreme Court Weighs Whether To Limit Data Mining,https://www.reddit.com/r/MachineLearning/comments/gxr2b/supreme_court_weighs_whether_to_limit_data_mining/,cavedave,1303824495,,1,26
+46,2011-4-27,2011,4,27,8,gy5x9,best  object recognition algorithm?,https://www.reddit.com/r/MachineLearning/comments/gy5x9/best_object_recognition_algorithm/,qwsazxerfdcv,1303859847,"hey, 
+I have heard of Sift and Surf , but i was wondering what is the best in object/pattern recognition technique out there ?",4,0
+47,2011-4-27,2011,4,27,8,gy66s,Deep Learning for Image Compression,https://www.reddit.com/r/MachineLearning/comments/gy66s/deep_learning_for_image_compression/,locster,1303860515,,3,18
+48,2011-4-27,2011,4,27,10,gy8ke,Best Java/Ruby/JRuby Machine Learning Libraries?,https://www.reddit.com/r/MachineLearning/comments/gy8ke/best_javarubyjruby_machine_learning_libraries/,lrwiman,1303867023,"I'm pretty familiar with the available Python machine learning libraries, but for various reasons, I'm thinking of moving to Ruby.  Unfortunately, Ruby doesn't seem to have great library support, but JRuby is pretty straightforward to set up.  I'm working on document clustering and classification, and looking for libraries that support standard algorithms (linear SVC, naive Bayes, perceptron, logistic regression, k-means, etc).  Something with the level of functionality of scikits.learn (or better), with simple, consistent interfaces that's still being actively developed would be ideal.  Any advice on libraries people have used would be greatly appreciated.",10,1
+49,2011-4-28,2011,4,28,4,gymv4,VideoLectures.net Recommender System Competition,https://www.reddit.com/r/MachineLearning/comments/gymv4/videolecturesnet_recommender_system_competition/,talgalili,1303932238,,4,16
+50,2011-4-28,2011,4,28,23,gzc9t,Please help me understand CRF's better :),https://www.reddit.com/r/MachineLearning/comments/gzc9t/please_help_me_understand_crfs_better/,[deleted],1304002425,"I don't know what to do about formatting, so please take lower-case as subscript, bold as vectors, and capital E as big epsilon.
+
+Here is where I am at (chain CRF's):
+
+We have P(**X**|**Y**) = 1/Z exp( En Ei Li Fi() ) for features F(Yn,Yn-1,N,**X**)
+
+Z = Ey exp( En Ei Li Fi() )
+
+where Ey is the sum over all possible outputs **Y**. Training is done by maximizing the log likelihood over i/o pairs (**X**m,**Y**m), or
+
+T = Em log( P(**Y**|**X**) )
+
+using partial derivatives of Lk's
+
+dT/dLk = Em (
+
+En Fk() -
+
+Ey( Fk() exp( En Ei Li Fi() ) )
+
+/
+
+Ey( exp( En Ei Li Fi() ) )
+
+)
+
+( I hope that is readable :( )
+
+Right now I am trying to find the maximum by gradient ascent. I am finding results for arbitrary input **X** by finding argmax(y) P(**Y**|**X**).
+
+Is this right? I'm having some success with it on algorithmically generated datasets, but it seems like the results are giving me too many mistakes even when the i/o pairs are Yn = Xn+1 and the features are only 1.0 for those equivalences.
+
+Can someone help me understand how many i/o training pairs I should have for satisfactory answers, how exactly to use Viterbi/Forward-Backward to reduce training time, and/or how to generalize CRFs to non-linear graphs (like it is used in images somehow)? I have read a number of papers and each uses different symbols and includes variables that they assume the reader would know (but I do not).",8,10
+51,2011-4-29,2011,4,29,2,gzg5j,"Pigs, Bees, and Elephants: A Comparison of Eight MapReduce Languages (cross-post from /r/bigdata)",https://www.reddit.com/r/MachineLearning/comments/gzg5j/pigs_bees_and_elephants_a_comparison_of_eight/,ohsnaaap,1304011170,,0,2
+52,2011-4-29,2011,4,29,9,gzrd0,Looking for good resources in NLP (Natural Language Processing).,https://www.reddit.com/r/MachineLearning/comments/gzrd0/looking_for_good_resources_in_nlp_natural/,Slimjim42,1304037456,"I've recently become interested in natural language processing but the field seem pretty big and I'm having trouble figuring out where to start, what would be the best place to start to learn the basics or if there any communities for this kind of stuff.",11,16
+53,2011-4-30,2011,4,30,1,h087t,"my stupid nlp comic, maybe people here will enjoy it",https://www.reddit.com/r/MachineLearning/comments/h087t/my_stupid_nlp_comic_maybe_people_here_will_enjoy/,ohashi,1304093868,,0,0

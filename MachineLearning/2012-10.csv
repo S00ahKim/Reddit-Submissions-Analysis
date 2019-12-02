@@ -1,0 +1,417 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2012-10-1,2012,10,1,12,10qt8q,Looking for an approachable explanation of Variational Bayes,https://www.reddit.com/r/MachineLearning/comments/10qt8q/looking_for_an_approachable_explanation_of/,giror,1349062800,"Hi all, 
+
+I am looking for an intuitive explanation of variational bayes. Does anyone know of an accessible tutorial or a video of someone who explains variational bayes as clearly as Andrew Ng?
+
+Thanks in advance :)",8,14
+1,2012-10-1,2012,10,1,14,10qxgz,The remarkable k-means++,https://www.reddit.com/r/MachineLearning/comments/10qxgz/the_remarkable_kmeans/,rrenaud,1349067681,,6,43
+2,2012-10-1,2012,10,1,16,10r290,Some questions on Text Analysis,https://www.reddit.com/r/MachineLearning/comments/10r290/some_questions_on_text_analysis/,DeusexConstantia,1349075399,"Hi, I hope this is the right subreddit.
+
+For a small project I'd like to sift through a large amount of articles and tag them according to category (Interview, News article etc.) and occurrence of a preset of notable items ( Names, Brands ).
+
+Later on I might want to add some language processing ( figure out if the article is FROM, WITH or ABOUT an item ) or sentiment analysis ( is this article positive or negative in tone ).
+
+I've googled around, and I'm torn between GATE, NTLK and Rapidminer. I also have a couple of questions:
+
+* I couldn't find an Open Source library or Suite  written in C or C++. Why is that? I'd think that it is quite resource hogging and using Java (which seems to be preferred ) or any other interpreter language would unneccesarilly bog down performance.
+* I'm not sure if any of the three tools above are really suited for the job. Especially GATE and Rapidminer seem like a bit of overkill. Your thoughts on that?
+*What are some good books/tutorials that will help me with this project? I've already bookmarked [this](http://www.puffinwarellc.com/index.php/news-and-articles/articles/33.html?showall=1) link which at the time of posting is on the top of this subreddit. It seems to be quite useful for my goal. Other than that I am lost as for example the NTLK examples use tags like NN, NP-BSJ which I guess are shorthand for some grammatical definition (Nominative Noun maybe?) but which don't really help understanding. Any recommendations?
+
+If you got this far, thanks for reading.",4,1
+3,2012-10-1,2012,10,1,17,10r4j5,Why/how does Gibbs sampling work?,https://www.reddit.com/r/MachineLearning/comments/10r4j5/whyhow_does_gibbs_sampling_work/,nickponline,1349080945,I can't find an explanation I understand as to why alternatively sampling from the conditional distributions of each variable asymptotically gives samples from the full joint distribution. Does anyone has an intuitive explanation or link to a a good source?,4,5
+4,2012-10-1,2012,10,1,21,10raf2,(Machine Learning) Dont like WEKA? I've been working on a new ML library JSAT - Hoping to get some feedback (x-post from programming) ,https://www.reddit.com/r/MachineLearning/comments/10raf2/machine_learning_dont_like_weka_ive_been_working/,EdwardRaff,1349094927,"For about 2 years now, I have been working on a library in my spare time. Like many of you, I took a Machine learning course in college and enjoyed it. However, I did not like Weka. So I decided I would do something about it. JSAT is my something.
+
+I've restricted myself to Classification, Regression, and Clustering - and have been implementing and testing several different algorithms. I've also been trying to implement much of it as a multi-threaded library, so you can take advantage of all that delicious processing power in your desktop.
+
+Its by no means perfect, and there are lots of spelling errors (dyslexia, I have trouble seeing them). But it is getting to a point where I think it may be usefull to others. So I'm trying to get it out a bit, and get feedback from anyone who feels like trying or using it.
+
+Hopefully I havent violated any horrible internet rules (mostly a lurker of funny pictures).
+
+I posted this in /r/programming as well. I'll be able to answer questions periodically throughout the day. ",26,12
+5,2012-10-2,2012,10,2,23,10tges,Does anyone know of any economic studies involving AI? E.g. using models like Conway's Game of Life,https://www.reddit.com/r/MachineLearning/comments/10tges/does_anyone_know_of_any_economic_studies/,iron_brew,1349189003,"I'm guessing you know all about http://en.wikipedia.org/wiki/Conway's_Game_of_Life
+
+edit - I can program and know a thing or two about economics. Just a bit of an AI novice so intro to any basics concepts I should look up are helpful too.",15,13
+6,2012-10-3,2012,10,3,1,10tm50,Oldie but a goodie: Stein's Paradox in statistics and Empirical Bayes (1977),https://www.reddit.com/r/MachineLearning/comments/10tm50/oldie_but_a_goodie_steins_paradox_in_statistics/,rrenaud,1349194772,,1,19
+7,2012-10-3,2012,10,3,5,10u4hq,What is the state of the art for efficient k-nearest neighbor search?,https://www.reddit.com/r/MachineLearning/comments/10u4hq/what_is_the_state_of_the_art_for_efficient/,rudyl313,1349211188,What is current the best algorithm/data-structure for efficiently finding the K nearest neighbors of an arbitrary point in a data set (using Euclidean distance)?,23,10
+8,2012-10-3,2012,10,3,8,10ugig,Help with Eureqa,https://www.reddit.com/r/MachineLearning/comments/10ugig/help_with_eureqa/,chumbaz,1349222182,"I'm just getting started with Eureqa, but even running a session against some predictable demo data is already frustrating.  
+  
+For example, I have 100 products with sales data for the first 30 days. I would like to see if there is a correlation in the first 5 days of sales what the sales will look like on day 30.  
+  
+However, even when I run predictable samples like every day is (prior day + 10) units, I get results back like ""day30 = day5"". I've played with both cumulative figures (d1: 10, d2: 20, d3: 30) and daily values (d1: 10, d2: 11, d3: 12) and neither really find a valuable solution.
+
+Am I completely missing something? I'd just like to understand this better before I throw a big data set at it.
+
+",1,1
+9,2012-10-3,2012,10,3,9,10uipo,Visually self-aware systems?,https://www.reddit.com/r/MachineLearning/comments/10uipo/visually_selfaware_systems/,rpiguy,1349224187,"Hi -- sorry I didn't go to grad school so forgive any confusion of vocabulary...
+
+I'm wondering if there has been any research into the potential usage/existence of a visually self-aware system... not quite sure how to formalize this outside a half-baked idea... but let's say:
+
+- A system (with or without human feedback) that generates something visually [a music visualizer, maybe].
+- A video camera watches the output on the screen, and this data stream as fed back into the system and utilized somehow [maybe a user-dependent reward function for current state].
+- ... magic ...
+- Thus the system is aware of it's own visual appearance!
+
+Again, sorry for the lack of appropriate vocabulary -- I'm trying to dive headfirst into the possibilities of the field.",3,1
+10,2012-10-3,2012,10,3,14,10v2bz,Deforestation of Random Forests,https://www.reddit.com/r/MachineLearning/comments/10v2bz/deforestation_of_random_forests/,folli,1349243887,"I'm doing some experiments in classification of genomic sequences using [Random Forests](http://www.stat.berkeley.edu/~breiman/RandomForests/).
+
+I was wondering if it makes sense to remove trees, which have a high error rate in out-of-bag samples, from the set of generated trees.
+The reason for this is that I want to save computations in the classification step (there is a huge amount of classifications to be performed).
+
+Does anyone have any experience in this topic? Do you think it's a good idea or will I be losing too much prediction power? Any hints for a sensible threshold to delete a tree?",18,2
+11,2012-10-3,2012,10,3,18,10v8wu,Random forest question,https://www.reddit.com/r/MachineLearning/comments/10v8wu/random_forest_question/,[deleted],1349257446,"Hi. Say I have a very large dataset and I want to built a random forests with 800 trees on it. I think I can split the resulting dataset into four, disjoint, random sampled parts, train 200 trees on them on four separate machines, then combine the resulting forests, and the result will be equivalent in predictive power to a forests trained in one step without spliting. Am I right?",0,1
+12,2012-10-3,2012,10,3,21,10vd8f,From Compressive Sensing to Machine Learning,https://www.reddit.com/r/MachineLearning/comments/10vd8f/from_compressive_sensing_to_machine_learning/,glasses1,1349266743,,0,1
+13,2012-10-4,2012,10,4,1,10vrpj,Statistical analysis on twitter data: differences between NYC and SF,https://www.reddit.com/r/MachineLearning/comments/10vrpj/statistical_analysis_on_twitter_data_differences/,rrenaud,1349282308,,8,42
+14,2012-10-4,2012,10,4,8,10wkiu,"You're handed a 5 years worth of ecommerce data from a large site and asked to find ""actionable insights to improve the bottomline"" - what would you look for?",https://www.reddit.com/r/MachineLearning/comments/10wkiu/youre_handed_a_5_years_worth_of_ecommerce_data/,stevestoe,1349307668,"I'm finding myself in similar corporate situations (this is a bit more general to make it interesting). Part of my work is to supply reports on sales and distribution numbers. Initially they were just interesting graphs, but since I 've got a background with some math and statistics I decided to learn data analysis with the goal of getting it to the level where I could apply it at work and turn it in to something more useful. At this point the biggest challenge is to know what to look for - knowing what to apply &amp; when to apply it. 
+
+I'm interested in hearing how someone with experience would approach a problem like this, where you basically have access to all the data you need (You can assume millions of records and full purchase info), but very limited instructions. What kind of analysis would you run first and why did you decide to use it? I would love to learn more about the process of approaching a data analysis problem, but not sure where to look for learning that specifically. 
+",18,23
+15,2012-10-4,2012,10,4,17,10xeur,NijrangGroup is Packaging Machinery Manufacturers,https://www.reddit.com/r/MachineLearning/comments/10xeur/nijranggroup_is_packaging_machinery_manufacturers/,nijrang,1349340816,,0,1
+16,2012-10-5,2012,10,5,10,10yyuw,Really cool machine learning job at D-wave.,https://www.reddit.com/r/MachineLearning/comments/10yyuw/really_cool_machine_learning_job_at_dwave/,[deleted],1349402103,,9,0
+17,2012-10-6,2012,10,6,6,110ja0,Weka - get the total number of errors per fold,https://www.reddit.com/r/MachineLearning/comments/110ja0/weka_get_the_total_number_of_errors_per_fold/,[deleted],1349474244,"http://stackoverflow.com/questions/12738658/why-does-wekas-experimenter-not-show-the-results-from-all-10-folds
+
+I asked this question on StackOverflow and haven't gotten an answer yet so I am expanding out here to see if someone can help me.
+
+I am looking to see the number of inaccuracies classifications per fold in Weka.  In experimenter it is only showing me 6 of the 10 folds.  In explorer it gives me one long list that I'd really prefer to not manually count.
+
+So how do I do this and why is it only giving me 6 of the 10 folds at the moment?",5,4
+18,2012-10-7,2012,10,7,3,111vlv,Long-time programmer: Where to begin?,https://www.reddit.com/r/MachineLearning/comments/111vlv/longtime_programmer_where_to_begin/,Neurotrace,1349548888,"Preface: my apologies if this has already been asked on here (I searched for similar posts and couldn't find anything really tackling it).
+
+I've been programming for a number of years and feel fairly confident in my understanding of essential comp sci, as well as being able to understand and implement various algorithms. I've had a passing interest in machine learning for quite some time but I can't seem to find a good place to start. I was looking through some of the stuff at *Quora* but nothing there feels like ""do this and you'll start to understand machine learning or at least know where to go.""
+
+So what I'm looking for is:
+
+* What books/websites/resources would you suggest for getting started?
+* I've seen R being talked about a lot, should I learn to use it?
+* I'm currently taking Calculus in college, should I learn any higher level math before continuing?",27,24
+19,2012-10-7,2012,10,7,14,112snv,"Eigenfaces, linear algebra for face recognition: a well done tutorial with proofs and pictures.",https://www.reddit.com/r/MachineLearning/comments/112snv/eigenfaces_linear_algebra_for_face_recognition_a/,rrenaud,1349587875,,1,71
+20,2012-10-8,2012,10,8,2,113en3,How would you build a system for recognizing collectible postage stamps?,https://www.reddit.com/r/MachineLearning/comments/113en3/how_would_you_build_a_system_for_recognizing/,videoj,1349630878,"Postage stamp collecting (/r/philately/) is a very popular hobby.  The hobby depends on several large paper catalogs issued to help collectors identify what they have.  But with over 1/2 million different major stamps issued over the last 170 years, and 1,000's more issued every year, identifying stamps is a time consuming task.
+
+Some of the issues faced are:
+
+1) Similar varieties that vary only by price and color, such as the [Machins](http://en.wikipedia.org/wiki/Machin_series) of the UK or [Washington-Franklin](http://en.wikipedia.org/wiki/Washington-Franklin_Issues) issues of the U.S.
+
+2) Cancellations, usually black, but sometimes other colors, can hide portions of the designs. 
+
+3) Differences in the number of perforations (the holes between stamps used to  separate them) can indicate different issues.
+
+
+So, /r/ml, how would you apply machine learning to this problem?   Assume you had access to clean, identified, copies of all the stamps you needed as a training set.",17,9
+21,2012-10-8,2012,10,8,4,113mjw,using Scipy.optimize to optimize a cost function in Neural Network,https://www.reddit.com/r/MachineLearning/comments/113mjw/using_scipyoptimize_to_optimize_a_cost_function/,leorahul16,1349639522,"I took Machine Learning course on Coursera. I'm trying to port some of my code to python. I'm specifically programming a 3 layer Neural Network. I realized that there is *scipy.optimize.fmin_bfgs* function to do cost function optimization. But, I don't how to use it? Here is my [question](http://stackoverflow.com/questions/12771441/scipy-optimize-usage).",15,5
+22,2012-10-9,2012,10,9,3,115du1,Trying to learn SVMs,https://www.reddit.com/r/MachineLearning/comments/115du1/trying_to_learn_svms/,HAESatEverySize,1349720382,"Good Day,
+
+I am trying to learn SVMs.  We went over them in class and I get the general idea of them.  But now I am trying to sit and learn the the math to actually learn the classifier.  
+
+Do you know of any good sources that teach SVMs?  Preferably ones with actual examples?
+
+Thanks",12,9
+23,2012-10-9,2012,10,9,22,116z4j,More Is Always Better: The Power Of Simple Ensembles,https://www.reddit.com/r/MachineLearning/comments/116z4j/more_is_always_better_the_power_of_simple/,ecsibleyjr,1349787678,,0,2
+24,2012-10-10,2012,10,10,22,1190ca,Machine Repairs Adelaide,https://www.reddit.com/r/MachineLearning/comments/1190ca/machine_repairs_adelaide/,jadewebber,1349874947,,1,1
+25,2012-10-11,2012,10,11,7,119x53,Understanding the structured perceptron for POS tagging,https://www.reddit.com/r/MachineLearning/comments/119x53/understanding_the_structured_perceptron_for_pos/,HerrKanin,1349906876,"I have some trouble understanding exactly how one should implement the structured perceptron for part-of-speech tagging. Could you please confirm or correct my thoughts, and/or fill in any gaps missing?
+
+So, basically the structured perceptron is a variant of the multiclass perceptron, except for how you implement collecting the best score. A first-order Markov assumption is made, saying that the current sequence index only depends on the previous index. The input is an entire sequence of words, instead of just one word as would be in a non-structured case, as well as a vector of all possible labels (y). The function f(x,y) returns a guessed label sequence for the given word sequence.
+
+In a multiclass perceptron, getting the best score is easily done through iteration since we only deal with classifying one label to one instance. The problem with classifying entire sequences is that it results in an exponential growth of the number of possible labelings. This is where the Viterbi algorithm is needed, which recursively finds the best path using two feature sets; one for determining how likely a given POS tag is to a certain word, and one for determining how likely a certain POS tag is coming directly after another POS tag. The score from each of these feature sets are multiplied with a unique weight for each state. If the chosen path is wrong, each weight in the states of the wrong path are punished, and the weights in the correct path are awarded.
+
+This is about how far I have (hopefully) understood. My biggest questions right now is how the features are structured (is the previous tag sequence a part of the features?), and how to actually implement the Viterbi algorithm. Also, is there an implementation of a POS tagger using structured perceptron anywhere I could analyze (preferably in Java)?
+
+I would be very grateful if you could give me some hints or resources to look into!",3,8
+26,2012-10-11,2012,10,11,17,11atyx,"E-book on the Netflix Prize, recommender systems, and machine learning in general",https://www.reddit.com/r/MachineLearning/comments/11atyx/ebook_on_the_netflix_prize_recommender_systems/,[deleted],1349943303,,0,1
+27,2012-10-11,2012,10,11,17,11audd,"E-book on the Netflix Prize, recommender systems, and machine learning in general",https://www.reddit.com/r/MachineLearning/comments/11audd/ebook_on_the_netflix_prize_recommender_systems/,arek1337,1349944324,,20,15
+28,2012-10-11,2012,10,11,23,11b5y1,Question on using EM algorithm for linear regression and GMM assumption.,https://www.reddit.com/r/MachineLearning/comments/11b5y1/question_on_using_em_algorithm_for_linear/,gholfali,1349965391,"I have a data set which are a mixture of K different Gaussian components. They consist of input data $X \in R^{mxN}$ and $Y \in R^{nxN}$. I have to find the regression coefficient (M) for each components, where
+Y = M * X + E,
+E is the noise part. Also I have to calculate variance of E.
+I googled that but no success! I am strongly looking for some helps or references.
+",4,4
+29,2012-10-11,2012,10,11,23,11b7br,Learning the structure of reddit?,https://www.reddit.com/r/MachineLearning/comments/11b7br/learning_the_structure_of_reddit/,ohell,1349966958,"Hello,
+
+Here is an interesting problem I have been thinking about - find a similarity metric over subreddits. E.g., from my subscribed subs, /r/bicycling and /r/motorcycles are closer to each other than either is to /r/machinelearning, which, in turn, is close to /r/maths and /r/programming.
+
+So, the problem is to find a way to scan the content in the subs (possibly only post titles and maybe text of self posts) and come up with a model that posits a distance.
+
+This seems like an unsupervised learning problem to me, possibly using something like a bag of words model. But I suppose the models can trained in a supervised manner as well, since most subreddits have a section for related subs in the sidebar. I'm hoping if people more experienced than myself can think of promising models to apply on this problem?
+
+Applications would be many - automatically recommending subreddits for a new post, suggesting related reddits to users and so on.
+
+btw, I'm not planning to build it or anything right now, since I haven't really looked into which models would be best to use. Just a thought experiment for now.
+
+Edit: changed ""distance metric"" to ""similarity metric"", since the former is a content-free phrase.",16,6
+30,2012-10-12,2012,10,12,2,11bfx3,"Design project using sensors, bigdata and machine learning.",https://www.reddit.com/r/MachineLearning/comments/11bfx3/design_project_using_sensors_bigdata_and_machine/,reddit_quora,1349975292,,2,2
+31,2012-10-12,2012,10,12,3,11bl9i,Article: Deconstructing Recommender Systems,https://www.reddit.com/r/MachineLearning/comments/11bl9i/article_deconstructing_recommender_systems/,amair,1349980132,,1,18
+32,2012-10-12,2012,10,12,5,11bty2,Feedback on text recommendation engine,https://www.reddit.com/r/MachineLearning/comments/11bty2/feedback_on_text_recommendation_engine/,sayhello,1349987828,"For a project I was working on, I made a proof-of-concept text [recommendation engine](https://github.com/oyiptong/pancake-smarts)
+
+However, my project got cancelled. That said, I had a lot of fun building it and would like to continue to work on it.
+
+* Is something like that any useful to anyone else?
+* If so, in what disciplines would something like that be useful?
+
+The basic idea is that documents that have similar ""semantic"" topic distributions would be similar.
+
+Here's how it works:
+
+* I have implemented an application that will use Latent Dirichlet Allocation to create topic models from a given corpus of data
+* Subsequent document queries will have their topic distribution inferred and matched for similarity via Random Projections and Levenshtein distance
+
+You can find an example running here: http://174.129.217.121/smarts/query/hnlinks/
+
+If you go to hacker news, and pick a url for an article and enter it in the textbox, there is a chance similar content will show up.
+
+EDIT: formatting
+
+EDIT2: The training set hasn't been picked for accuracy, so the recommendation results might be inaccurate unless its articles about education, startup fanboy pieces, nerd-shoe-gaze blog posts and articles about apple and google.
+
+EDIT3: The demo server now runs on port 80!",5,3
+33,2012-10-12,2012,10,12,10,11cdll,"I have the objective of creating the most comprehensive and intuitive ML book list to date, please suggest new titles.",https://www.reddit.com/r/MachineLearning/comments/11cdll/i_have_the_objective_of_creating_the_most/,leonoel,1350006559,,20,33
+34,2012-10-13,2012,10,13,0,11d95g,Machine Learning for your Robotic Army: An Intuitive Introduction,https://www.reddit.com/r/MachineLearning/comments/11d95g/machine_learning_for_your_robotic_army_an/,smerity,1350054328,,0,1
+35,2012-10-13,2012,10,13,2,11dis8,Competitive Astronomy: Crowdsourcing the Universe,https://www.reddit.com/r/MachineLearning/comments/11dis8/competitive_astronomy_crowdsourcing_the_universe/,willis77,1350063864,,2,14
+36,2012-10-13,2012,10,13,21,11euno,Project subjects,https://www.reddit.com/r/MachineLearning/comments/11euno/project_subjects/,[deleted],1350132533,"Hi, I'm currently taking a ML course and in two weeks we'll have to start a project. We can suggest a subject for the project ourselves. We have about five weeks to do this project with max 3 people. I like working with text (social media), like a simple naive bayes implementation... I was wondering if any of you might have a doable, cool idea for a ML project idea that can be done in 5 weeks by max 3 people.",0,1
+37,2012-10-15,2012,10,15,3,11gyko,Regarding Prediction using oneVsAll,https://www.reddit.com/r/MachineLearning/comments/11gyko/regarding_prediction_using_onevsall/,bge0,1350240598,,4,0
+38,2012-10-15,2012,10,15,11,11hqxu,What fields/jobs use machine/statistical learning on a daily basis?,https://www.reddit.com/r/MachineLearning/comments/11hqxu/what_fieldsjobs_use_machinestatistical_learning/,[deleted],1350269025,"I know machine learning algorithms (although perhaps not under that name) are used in speech/image processing, computational biology, quantitative finance, marketing, and astrophysics (according to a recent /MachineLearning post). I am wondering what other fields you can expect to find people using similar techniques as an integral part of their daily work? 
+
+(I am a master's electrical engineering student studying digital signal processing and considering work in fields utilizing statistical learning.) ",10,8
+39,2012-10-15,2012,10,15,22,11idgy,What data-mining/machine-learning software should I invest in learning?,https://www.reddit.com/r/MachineLearning/comments/11idgy/what_dataminingmachinelearning_software_should_i/,ashuttl,1350308363,"At my job, I have years of customer, sales, and demographic data. I'd like to explore options for mining and visualizing this data. Who buys X product but not Y product? Are our products in discrete groups that tend to be purchased together but with little overlap? Does AB marketing message work in one county, while XY marketing message works better in another?
+
+I want to become an expert in answering these kinds of questions. What software should I use for this? What software does, say, Nate Silver use for his computations? I'm willing to invest time and money to learn, but I don't know where to start.",45,28
+40,2012-10-16,2012,10,16,7,11jaud,Mini reviews of 10 popular books on Machine Learning,https://www.reddit.com/r/MachineLearning/comments/11jaud/mini_reviews_of_10_popular_books_on_machine/,rrenaud,1350340008,,9,27
+41,2012-10-16,2012,10,16,21,11kegx,"Can somebody ""explain like I am 5"", to me the ""no free lunch theorem for supervised machine learning""?",https://www.reddit.com/r/MachineLearning/comments/11kegx/can_somebody_explain_like_i_am_5_to_me_the_no/,SunnyJapan,1350389594,,45,25
+42,2012-10-17,2012,10,17,3,11kyvz,Machine Learning Prerequisites,https://www.reddit.com/r/MachineLearning/comments/11kyvz/machine_learning_prerequisites/,whism,1350411840,"Hello, I've decided to take advantage of the wealth of online materials and learn the basics of machine learning. I'm a self-taught computer programmer who went to art school, and the last math class I took was Algebra II/Trig in high school. So my question is, what are the maths I should study before getting into ML? From what I can gather, I'll need calculus, probability, and some kind of statistics -- but I'd like to hear from people who know :) Time is not an issue, I want to make sure I have the proper foundation so I can learn the topic well. Thanks!",23,15
+43,2012-10-17,2012,10,17,7,11lhjn,"R at 12,000 Cores!",https://www.reddit.com/r/MachineLearning/comments/11lhjn/r_at_12000_cores/,[deleted],1350428114,,0,1
+44,2012-10-17,2012,10,17,7,11lhlp,"R at 12,000 Cores!",https://www.reddit.com/r/MachineLearning/comments/11lhlp/r_at_12000_cores/,talgalili,1350428167,,6,22
+45,2012-10-17,2012,10,17,10,11lqeb,Comparison of different machine learning models.,https://www.reddit.com/r/MachineLearning/comments/11lqeb/comparison_of_different_machine_learning_models/,qkdhfjdjdhd,1350436063,,0,0
+46,2012-10-17,2012,10,17,18,11mepe,Story of reinventing machine learning as language learning,https://www.reddit.com/r/MachineLearning/comments/11mepe/story_of_reinventing_machine_learning_as_language/,arauhala,1350464553,,2,0
+47,2012-10-18,2012,10,18,3,11n409,How to measure the accuracy of a certain k-means implementation on a certain data set?,https://www.reddit.com/r/MachineLearning/comments/11n409/how_to_measure_the_accuracy_of_a_certain_kmeans/,mikabast,1350497622,"I've got a k-means implementation, and wondering how can I measure it's effectiveness on my data set.
+
+
+The details:
+
+My sample data is from a 12-96 dimension space, have about 1000-100000 samples at every run. The data is not well separated, but outliers can occur.
+
+I use the following initialization:
+I run the k-means N times on different subsamples, and cluster my k*N results with single linkage. I use the means of these clusters as my initial seed. (N is about 10, and the subsamples are the size of my original samples divided by N. I use different subset every time.)
+This is the initialization method suggested by Arai and Barakbah:
+https://portal.dl.saga-u.ac.jp:8443/bitstream/123456789/54922/1/ZR00005460.pdf
+With the modification of not using the whole sample set for the initialization. (If you have another recommendation, please let me know. I use this because its low memory consumption and I have good control over the calculation time.)",1,3
+48,2012-10-18,2012,10,18,5,11nbgv,David Wolpert responds to question about No Free Lunch,https://www.reddit.com/r/MachineLearning/comments/11nbgv/david_wolpert_responds_to_question_about_no_free/,[deleted],1350504103,,0,1
+49,2012-10-18,2012,10,18,15,11ofk8,[PDF] Bayesian Reasoning and Machine Learning by David Barber,https://www.reddit.com/r/MachineLearning/comments/11ofk8/pdf_bayesian_reasoning_and_machine_learning_by/,LADataJunkie,1350542683,,2,29
+50,2012-10-19,2012,10,19,3,11pbz4,Data science course notes on lecture by CTO of Hunch.com about recommendation engines and SVD,https://www.reddit.com/r/MachineLearning/comments/11pbz4/data_science_course_notes_on_lecture_by_cto_of/,rrenaud,1350586497,,0,27
+51,2012-10-19,2012,10,19,10,11q0gp,Question on protocol for learning user models,https://www.reddit.com/r/MachineLearning/comments/11q0gp/question_on_protocol_for_learning_user_models/,melipone,1350608415,"Please settle this question. I want to authenticate users. If I learn a user model based on some user data only, do I need to divide by user dataset into training and testing? I mean the data from the other users are not used in building the model, so why can't I use the entire dataset in learning a user model? ",1,0
+52,2012-10-19,2012,10,19,12,11qa54,Neyman Pearson with a non parametric model questions,https://www.reddit.com/r/MachineLearning/comments/11qa54/neyman_pearson_with_a_non_parametric_model/,duckandcover,1350617752,"I know that NP is optimal but as I understand it, that's with respect to the underlying density function and not some sample drawn from it.  If there is no model, than doing NP apparently corresponds to a something like a brute force search trying all combinations of the parameters (which implies imposing some discretization on continuous ones) and the finding the best best pD for each pFA.  This, in my mind, raises two questions
+
+1) Given some finite data set it may very well be that there may be pFA which are unique though many may be very close.  I imagine that this is handled by binning (e.g. all pFAs rounded to the nearest 0.05 - like a histogram)
+Right?
+
+2) Can NP overfit?  I know it's optimal for the exact underlying densities but how does sampling affect that?   If what I wrote above is correct, than the number of combinations of parameters can be ungodly (10 levels of 10 parameters ==&gt; 10^10).  It's not doing a fitting in the standard machine learning paradigm sense but I would think that as the parameter discretization increases the finer mesh will yield a higher fractional error per bin(like shot noise).
+In any event, I have no idea how to compare this to a standard classifier (be it boosted trees, svm, etc)",0,1
+53,2012-10-19,2012,10,19,14,11qflo,FTC Challenges Innovators to Do Battle with Robocallers,https://www.reddit.com/r/MachineLearning/comments/11qflo/ftc_challenges_innovators_to_do_battle_with/,Derpscientist,1350624010,,9,16
+54,2012-10-19,2012,10,19,23,11qx3a,Job opening at Lincoln Center in New York for a data-mining geek,https://www.reddit.com/r/MachineLearning/comments/11qx3a/job_opening_at_lincoln_center_in_new_york_for_a/,[deleted],1350656065,,0,1
+55,2012-10-20,2012,10,20,1,11r3y3,Job opening for a creative data-analysis job at Lincoln Center in New York,https://www.reddit.com/r/MachineLearning/comments/11r3y3/job_opening_for_a_creative_dataanalysis_job_at/,[deleted],1350662890,"If anyone lives in New York or knows someone who does, were hiring for a data-analysis position at Lincoln Center. Heres [the job listing itself](http://about.lincolncenter.org/about/employment/full-time/direct-marketing-manager) and [a little more information about the job](http://ashuttleworth.com/2012/10/wanted-data-mining-geek/).",0,1
+56,2012-10-20,2012,10,20,2,11r9l4,"Ghost in the Machine, How every Computer is unique ",https://www.reddit.com/r/MachineLearning/comments/11r9l4/ghost_in_the_machine_how_every_computer_is_unique/,iospakistan,1350668114,,0,0
+57,2012-10-20,2012,10,20,3,11rduk,Machine Learning and Dynamic Pricing? How does it work?,https://www.reddit.com/r/MachineLearning/comments/11rduk/machine_learning_and_dynamic_pricing_how_does_it/,stevestoe,1350671863,"Keep hearing about sites like amazon using dynamic pricing to change prices based on real time demand, and there are sites like [this](https://ventata.com/) and [this](http://wisepricer.com/) offering it as a service. Does anyone have any experience and can shed some light on how they work? Does learning &amp; prediction play a significant part (if so how)? ",0,1
+58,2012-10-20,2012,10,20,9,11rzn2,How can I get Weka to do a t-test on two classifiers built from the same data?,https://www.reddit.com/r/MachineLearning/comments/11rzn2/how_can_i_get_weka_to_do_a_ttest_on_two/,tekesavvy,1350693461,"I asked this question on Stack Overflow, I am putting it out there to see if I can get an answer.
+
+In Weka I can go to the experimenter. In the set-up I can load in an .arff file, and get weka to create a classifier (i.e. J48), then I can run it and then finally I can go to the analyze tab. In this tab it gives me an option to 'testing with Paired T-Test' but I cannot figure out how to create a second classifier (i.e. J48 unpruned) and do a T-Test on the two results.
+
+Google does not lead me to any tutorial or answers.
+
+How can I get Weka to do a T-Test on the results of two different classifiers, made from the same data?",1,2
+59,2012-10-21,2012,10,21,2,11szk9,I have just been Rickrolled in data form.,https://www.reddit.com/r/MachineLearning/comments/11szk9/i_have_just_been_rickrolled_in_data_form/,TheShwayze,1350754552,,2,4
+60,2012-10-21,2012,10,21,3,11t3ch,What kind of ML algorithms are commonly applied to data collected from mobile applications?,https://www.reddit.com/r/MachineLearning/comments/11t3ch/what_kind_of_ml_algorithms_are_commonly_applied/,[deleted],1350758755,"We collect data from mobile applications, which include the pages viewed and the actions completed within each page. It's collected across many of the mainstream platforms (e.g. Android, iPhone, iPad, BlackBerry, Mobile Website). We're trying to understand how the user is interacting with our applications, as well as how the users are connecting with each other. Please help me understand how ML can be applied to these kinds of data sets in a meaningful way.
+
+EDIT: I am looking for examples of ML being applied to web / mobile applications. I realize that there is no magical formula, I just need a starting point to understand how these algorithms could be applied in the mobile application context.",3,0
+61,2012-10-21,2012,10,21,14,11tzyq,Feature selection methodology,https://www.reddit.com/r/MachineLearning/comments/11tzyq/feature_selection_methodology/,[deleted],1350796742,"I have three sets of data, a training set, validation set, and a test set.  The validation set is used to optimize the parameters of the classifier.  
+
+Before I got the validation set I was using the performance on leave-one-out cross validation on the training set to select my features. 
+
+My question is, is the validation set only used to optimize the parameters of the classifier, like C in a SVM,  or can I also use it to select features? It makes sense to me that I could use it but I have never specifically seen someone select their features at that stage.",5,4
+62,2012-10-22,2012,10,22,19,11w22t,"Data scientists, help me out. How much can I expect to make annually as a fresh data scientist?",https://www.reddit.com/r/MachineLearning/comments/11w22t/data_scientists_help_me_out_how_much_can_i_expect/,omlettehead,1350903214,"I do not know if this is the right subreddit to post, but here goes anyways. I posted this previously on /r/datascience, but I was  suggested to post elsewhere.
+
+Data science has been my primary interest for a long while now, and I have just graduated with a Masters in Machine learning &amp; Data mining, before which I pursued a bachelors in Software engineering, both with excellent grades and from good schools. I am in the final stages of interviews for my dream job as a data scientist, at a good small-but-popular company. Everything has been good for me so far, fortunately.
+
+My problem is that I have no idea what to answer when they ask the inevitable question on what I expect to make. I really don't know what kind of compensation I should be looking for. I understand that this is a relatively new profession, but there just isn't enough information on the internet on salaries for data scientists. I have very little ""real world"" experience, except for several software engineering internships, totaling to about a year's worth, and several ML projects, both academic and personal. This would be my first ""real"" job. 
+
+Should I expect just as much as a software developer/engineer at the company? What other professional salaries are comparable to an entry level data-scientist? What was your starting salary as a data scientist? Any kind of information would be helpful. Thanks!",16,4
+63,2012-10-23,2012,10,23,1,11wgu0,Linkedin Endorsements: How Might They Affect Linkedins Search Algorithm?,https://www.reddit.com/r/MachineLearning/comments/11wgu0/linkedin_endorsements_how_might_they_affect/,[deleted],1350923206,,0,10
+64,2012-10-23,2012,10,23,16,11xpgg,"The MASH Factory: You can write and test image heuristics on-line, without installing anything on your computer.
+",https://www.reddit.com/r/MachineLearning/comments/11xpgg/the_mash_factory_you_can_write_and_test_image/,FrancoisFleuret,1350978017,"Dear all,
+
+I need your comments on the [MASH
+project](http://www.mash-project.eu/) we have been working on over the
+last few years.
+
+The core idea behind it is to allow contributors to write image
+feature extractors (edges, color, etc.), that will be automatically
+combined with machine learning methods we have developed, to get high
+performance image-based prediction system. By combining algorithms
+developed by people with very different backgrounds, we hope to
+achieve performance higher than the state-of-the-art.
+
+The [Factory](http://www.mash-project.eu/factory/) is the most recent
+incarnation of this idea. It allows you to write image features in C++
+and test them on-line. Performance is assessed on mimicking tasks: We
+train a virtual robot to mimic the choice of actions of a teacher, to
+reach a red flag in a 3d environment. Hence, your image features will
+be combined by our machine learning methods to predict what do to
+(""turn left"", ""turn right"", or ""go forward""), given what the
+robot sees, and has seen since the beginning of the current test.
+
+The web site is at
+
+  http://www.mash-project.eu/factory/
+
+and you can get documentation and a screen-cast at
+
+  http://www.mash-project.eu/wiki/index.php/MASH_Factory
+
+  http://www.mash-project.eu/files/screencast-factory.mpg
+
+Any comment is welcome. Please feel free to mail me if you have any
+question (francois.fleuret@idiap.ch).
+
+Cheers,
+",9,8
+65,2012-10-24,2012,10,24,0,11y963,Exploring parliamentarians similarity,https://www.reddit.com/r/MachineLearning/comments/11y963/exploring_parliamentarians_similarity/,kafka399,1351007774,,0,0
+66,2012-10-24,2012,10,24,2,11ygkk,The distribution of random correlation matrices,https://www.reddit.com/r/MachineLearning/comments/11ygkk/the_distribution_of_random_correlation_matrices/,drbabinski,1351014533,"Does anyone know of a way to randomly generate correlation matrices given that the sum of the correlation matrix's elements remains the same?  The motivation is to show that current correlations we have do indeed have structure, as opposed to chance.  However, it is difficult to show what structure there should be by chance.
+
+We could shuffle the correlations in the matrix: this ensures the sum of the elements remains the same.  However, doing this is computationally unfeasible---millions of shuffles proves not to find valid correlation matrices (positive definite).  Also, this by nature will not yield all possible correlation matrices that sum up to the same value.  For example, -1, 1, and 1 sum to 1 (as will 1, -1, and 1), but you could also have -.5, 1, .5 sum up to 1.  
+
+Other methods for generating covariance matrices include the Wishart distribution and factor analysis methods.  However, these will not fix the sum of the elements, and it's not entirely clear how these methods compare with the true distribution of correlation matrices.
+
+Just wondering if anyone has any experience here and can point me to some good directions!  It's an interesting problem.",5,5
+67,2012-10-24,2012,10,24,12,11zjd4,Sample size estimation for classification experiments,https://www.reddit.com/r/MachineLearning/comments/11zjd4/sample_size_estimation_for_classification/,somealiass,1351048418,"I am building two multi-class text classifiers on health care data for an experiment. 
+
+1. 11 classes
+2. 4 classes
+
+We are in the design phase and I've been asked to estimate the required sample size for the experiment. i.e. how many text reports do we need to extract, label, train and test the classifiers to meet a desired target performance (e.g. AUC 0.80).
+
+Sample size estimation is commonly performed in designing health and medical experiments. Researchers want to know how many participants they need to recruit before conducting the experiment to determine its feasibility. i.e. it might be too expensive or difficult. 
+
+From my understanding, sample size estimation are used for hypothesis testing. i.e. to ensure there is enough data to look for differences between control and experiment groups based on a specified statistical power, effect size and other factors. See http://en.wikipedia.org/wiki/Sample_size_determination#Required_sample_sizes_for_hypothesis_tests for some examples.
+
+There are two main reasons why I have been asked to provide a sample size estimate:
+
+1. Minimise costs: we need to pay domain experts to label reports so we don't want to label more data than is needed.
+
+2. Classifier confidence: The rarest class in the 4-class experiment comprises of 0.5% of the reports. If a small sample size is used and the classifier is only tested against  lets say 2 instances of the rare class then can we really be confident of the classifier's performance on this class?
+
+I came across a 2012 paper in Medical Informatics: Figueroa et al. ""Predicting sample size required for classification performance"" - http://www.biomedcentral.com/1472-6947/12/8 which proposed to:
+
+1. Build the learning curve on a small amount of labelled data
+2. Build a regression model (non linear, inverse power law) of the learning curve
+3. Use the model to predict how many samples are needed to achieve target performance
+
+I'm not sure if this is the way to go so I wanted some feedback. I come from a computing background (not Health / Medicine) and have NOT performed sample size estimation in my machine learning work so far. 
+
+Many thanks!
+
+P.S. I will update this post based on answers / discussions from the comments. Hopefully the answers will also be helpful to others with similar concerns.
+
+**TL;DR**
+
+I've been asked to provide sample size estimates for my text classification experiments. I've looked at some literature and online sources but not sure what are the most suitable models / methods.",0,3
+68,2012-10-25,2012,10,25,0,120eig,"Opinions on ""Machine Learning for Hackers"" for someone not interested in learning R",https://www.reddit.com/r/MachineLearning/comments/120eig/opinions_on_machine_learning_for_hackers_for/,[deleted],1351094393,"I don't have the time or energy to devote to learning another language.  My question is:  Can I read this book without having to know too much about R?  Or, will I have to dig through reference manuals in order to figure the details of the algorithms?  I suppose an equivalent, more general question is:  Is R readable by an experienced programmer (C, C++, Python, Common Lisp, Clojure)?
+
+For example, if someone knows C++ and they read a book that uses Python as the demonstration language, they'll be able to follow along as long as the writer doesn't make use of too many of the concepts that aren't shared between the two languages (list comprehensions, lambdas (pre 0x11), etc).
+
+Thanks ML!",0,1
+69,2012-10-25,2012,10,25,4,120upp,Learning in high dimensions (question),https://www.reddit.com/r/MachineLearning/comments/120upp/learning_in_high_dimensions_question/,PlayMeWhile,1351108215,"Hello Everyone,
+
+I am wondering about learning in very high dimensions:  n/p &gt; 1000.
+
+Any kind of learning is good (supervised/unsupervised/reinforcement).
+
+I have heard many negative talks about such tasks. Does anyone know any good ""positive"" research results about cases like that?",4,3
+70,2012-10-25,2012,10,25,8,121ahq,What should be a generic enough convergence criteria of Stochastic Gradient Descent.,https://www.reddit.com/r/MachineLearning/comments/121ahq/what_should_be_a_generic_enough_convergence/,akshayxyz,1351122063,"I am implementing a generic module for Stochastic Gradient Descent. That takes arguments: training dataset, loss(x,y), dw(x,y) - per sample loss and per sample gradient change.
+
+Now, for the convergence criteria, I have thought of :-
+
+a) Checking loss function after every 10% of the dataset.size, averaged over some window
+
+b) Checking the norm of the differences between weight vector, after every 10-20% of dataset size..
+
+c) Stabilization of error on the training set.
+
+d) Change in the sign of the gradient (again, checked after every fixed intervals) - 
+
+
+I have noticed that these checks (precision of check etc.) depends on other stuff also, like step size, learning rate.. and the effect can vary from one training problem to another.
+
+I can't seem to make up mind on, what should be the generic stopping criterion, regardless of the training set, fx,df/dw thrown at the SGD module. What do you guys do?
+
+Also, for (d), what would be the meaning of ""change in sign"" for a n-dimensional vector?
+
+Edit:formatting",11,7
+71,2012-10-25,2012,10,25,12,121q31,Been working on a neural network software pack for financial market analysis.  Unsure.  Looking for advice.,https://www.reddit.com/r/MachineLearning/comments/121q31/been_working_on_a_neural_network_software_pack/,emblem22,1351136279,"I'll try to make this brief.
+
+I graduated with a bachelors in electrical engineering in December of 2011.  I took an intro to neural networks course while in school.  Since then, I've been very interested in the topic and have done a lot of what I would call brainstorming.
+
+I have been clinging to the idea that I can apply neural networks to predicting financial markets and make a fortune.  I am sure that many others have had the same idea, and many have probably been disappointed.  However, I cannot shake the idea.
+
+My basic idea is to train a neural net with as much data as I can gather.  Even potentially unrelated data like average temperature in the US, number of international airline flights, moon phases...  I'll use historical data for training, and a small subset of it will be reserved for testing.
+
+If the net seems to be accurate, I would consider throwing some money into the market.  Really, though, my dream is to make millions by either managing other people's money or selling my services to some kind of hedge fund or other financial institution.  Trust me, I know that the odds are stacked heavily against me.  Just being honest about the hopes that are driving this.
+
+I have spent maybe 30 hours actually writing code for my project, all in my spare time, outside of my full time working hours.  So far, I have succeeded in doing the following.
+
+ - Programming a basic multilayer neural network class
+ - Writing a script which downloaded all available historical data for every security listed on the NYSE, from yahoo finance
+ - Writing a java class for generating some basic technical indicators
+
+I have a basic understanding of neural networks and I have actually programmed a few which did something useful, including one which classified handwritten numerical digits.  However, I know there is so much more that I could learn in the field of machine learning.
+
+I guess my questions are:
+
+1.  Is this even worth my time?  It's an interesting hobby but I would be disappointed if it never proved useful.
+
+2.  Would I be better off getting a stronger background in machine learning before even attempting this?
+
+3.  I am starved for good resources.  Everything is either way over my head, or way too basic.
+
+4.  Has anyone ever been independently successful at this type of thing?
+
+Any other advice is also welcome.  Thanks for reading.  I really appreciate any help.
+
+**tl;dr: Interested in machine learning for finance.  See questions above.**",0,1
+72,2012-10-26,2012,10,26,1,122m4r,Massive ML Project that will land you a job at facebook,https://www.reddit.com/r/MachineLearning/comments/122m4r/massive_ml_project_that_will_land_you_a_job_at/,themandotcom,1351182873,,32,32
+73,2012-10-26,2012,10,26,3,122vev,Anyone have any experience with the data from intrade.com?,https://www.reddit.com/r/MachineLearning/comments/122vev/anyone_have_any_experience_with_the_data_from/,WhereIsShellBeach,1351190881,"I saw on their website you could get data about open contracts, but you have to buy historical data (with a discount for academia). Has anyone used this data or know how much they charge? 
+
+Obviously stock market mining is a difficult problem, but this type of market may have some interesting properties.",5,2
+74,2012-10-26,2012,10,26,6,1237yr,[Meta Question] What are the rules/guidlines on this subreddit regarding discussing your current academic research?,https://www.reddit.com/r/MachineLearning/comments/1237yr/meta_question_what_are_the_rulesguidlines_on_this/,Omega037,1351201561,"*Mods: Please forgive me and delete this post if it falls outside of acceptable discussion for this subreddit.*
+
+I am a PhD student who has found discussions on this subreddit to be very rewarding, but so far I have been hesitant to ask any questions or start any discussions dealing with actual research work I am doing either for a paper or my dissertation.
+
+This has been for a few reasons:
+
+1. A fear of having my ideas stolen.  Some of my ideas are quite novel (others not so much), and I worry about making comments about my dissertation work and find out 6 months from now that I have to start over because similar work has just been published.
+
+2. A fear of having my work called into question as not being my own.  Certainly, I get input from my committee and other graduate students, but if there is a public discussion here which leads to a good idea, can I really claim it as my own contribution to the field?  What might happen if my committee or a potential employer sees that the idea was generated through a public thread on reddit and not a purely individual effort.
+
+3. A fear of being accused of plagiarism/stealing work for using ideas that someone else suggested here.
+
+Am I the only person who worries about these issues?
+
+**tl;dr: Is posting my current research methods/topics a bad idea or not?** ",29,3
+75,2012-10-26,2012,10,26,7,123c4f,"Webcast on basic Bayesian statistics in Python: Friday at 1pm EDT, O'Reilly Media.",https://www.reddit.com/r/MachineLearning/comments/123c4f/webcast_on_basic_bayesian_statistics_in_python/,AllenDowney,1351205253,,4,9
+76,2012-10-26,2012,10,26,19,1249ew,"Comparing SAS, Hadoop and R for Big-Data Insurance Models",https://www.reddit.com/r/MachineLearning/comments/1249ew/comparing_sas_hadoop_and_r_for_bigdata_insurance/,talgalili,1351248976,,0,1
+77,2012-10-26,2012,10,26,20,124aou,Detecting repeating patterns in a sequence of states,https://www.reddit.com/r/MachineLearning/comments/124aou/detecting_repeating_patterns_in_a_sequence_of/,woggy,1351251696,"Hey. I've got a project that I'm working on and trying to figure out.
+
+Say I'm trying to model something that has N states (in my case, N=27). The system is typically at a different state in each time step but it's not clear what the relationships are.
+
+How would I be able to detect common patterns in this sequence? I'd like to be able to do this in a 'fuzzy' way, so that very similar sequences count toward  the same pattern. 
+
+Any ideas?
+
+PS. I'm not a machine-learning guy",19,12
+78,2012-10-29,2012,10,29,14,129ff4,Peter Norvig at the Singularity Summit 2012,https://www.reddit.com/r/MachineLearning/comments/129ff4/peter_norvig_at_the_singularity_summit_2012/,[deleted],1351488345,,0,1
+79,2012-10-29,2012,10,29,14,129gsx,Peter Norvig reveals new developments by Google in hierarchical learning. Singularity Summit 2012,https://www.reddit.com/r/MachineLearning/comments/129gsx/peter_norvig_reveals_new_developments_by_google/,[deleted],1351490136,,8,111
+80,2012-10-30,2012,10,30,3,12ac4q,Dataset for emotion classification in social media,https://www.reddit.com/r/MachineLearning/comments/12ac4q/dataset_for_emotion_classification_in_social_media/,[deleted],1351533771,"Hi I would like to do emotion classification on text (posts from social media e.g. tweets, facebook wall posts). Though I can't find a good dataset with annotated data. I'm looking for more than just data annotated with positive and negative. I'm looking for a dataset with several emotions. This could be or discrete values (ekman 6 basic emotions) or continues values (arousal-valence model). Does anyone know where I can get such a dataset ?",0,1
+81,2012-10-30,2012,10,30,7,12avkr,Do a simple neural network with minimum of AI study,https://www.reddit.com/r/MachineLearning/comments/12avkr/do_a_simple_neural_network_with_minimum_of_ai/,iGalati,1351548976,"I'm a fairly good programmer, with a background of normal, procedural and object-oriented programming, using C/C++ on Unix, Java ( even on Android ) etc.
+
+I have this little college project for my AI class, and i don't have the time to study AI deep and intense, and i want, like a shortcut.
+
+My homework is like: Create a neural network which learns something and then recognize it.
+
+Please, guide me to some steps ( tutorials, chapters from various books etc ) so i can do this homework.
+
+As i said, time is precious. Thanks",15,0
+82,2012-10-30,2012,10,30,7,12ayxe,Analytics Made Skeezy - Logistic Regression for Tripping Acid,https://www.reddit.com/r/MachineLearning/comments/12ayxe/analytics_made_skeezy_logistic_regression_for/,john4man,1351551551,,0,1
+83,2012-10-30,2012,10,30,15,12bqxc,Should I take Intro to AI before Machine Learning,https://www.reddit.com/r/MachineLearning/comments/12bqxc/should_i_take_intro_to_ai_before_machine_learning/,dinkachik,1351576897,I am a second year computer science major really interested in AI. I've read a bit about ML and want to take a class in it. I am planning to take Intro to AI and ML together next semester. My friend said thats a bad idea to take ML before finishing Intro to AI. I really want to take both. What do you think I should do? I have a sound knowledge of all the basic data structures and algorithms including the popular graph algorithms. I have also already taken Linear Algebra and Applied Combinatorics. I haven't taken a Stats class yet.,13,4

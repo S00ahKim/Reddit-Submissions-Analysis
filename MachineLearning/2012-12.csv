@@ -1,0 +1,320 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2012-12-1,2012,12,1,14,143cdo,"Is it possible to ""learn how to cluster"" data points?",https://www.reddit.com/r/MachineLearning/comments/143cdo/is_it_possible_to_learn_how_to_cluster_data_points/,saprian,1354340756,,4,0
+1,2012-12-1,2012,12,1,17,143iq5,How do you approach a data mining contest? ,https://www.reddit.com/r/MachineLearning/comments/143iq5/how_do_you_approach_a_data_mining_contest/,naive_babes,1354352380,I'm just wondering what's the process each of you use when you are faced with a new Kaggle/other contest. Most of the winners seem to have a hybrid/kitchen sink approach to things. How do you get to there? Where do you start? I'd like to hear about how you work. ,0,2
+2,2012-12-2,2012,12,2,5,1447uj,Interactive Demonstration of a Digit-Recognizing Neural Network in Action (Explanation in the comments),https://www.reddit.com/r/MachineLearning/comments/1447uj/interactive_demonstration_of_a_digitrecognizing/,blindConjecture,1354393584,,13,14
+3,2012-12-2,2012,12,2,20,145cdg,Help implementing semantic hashing,https://www.reddit.com/r/MachineLearning/comments/145cdg/help_implementing_semantic_hashing/,gynnash,1354449481,"Recently I'm confused with semantic hashing. I want to, given a collect of documents, get the semantic hash codes for each document(semantic hashing is introduced here: http://www.cs.toronto.edu/~rsalakhu/papers/semantic_final.pdf). I downloaded the source code of Deep AutoEncoder from http://www.cs.toronto.edu/~hinton/MatlabForSciencePaper.html. It seems helpful but slightly different from semantic hashing especially in the fine-tuning part. That is, I don't know how to get binary codes for each document after fine-tuning. Anyone knows that? Any suggestions on learning semantic hashing are welcomed! Thank you!",9,15
+4,2012-12-3,2012,12,3,0,145i2f,Best Algorithms for twitter sentiment analysis in WEKA.,https://www.reddit.com/r/MachineLearning/comments/145i2f/best_algorithms_for_twitter_sentiment_analysis_in/,Lilykos,1354462193,"Hello everyone, I am trying to implement something and i need your help. I want to perform a sentiment analysis based on some hundreds of tweets and i use Weka. I am parsing the information through twitter4j and then analysing by hand the tweets. However i am at a total loss regarding the algorithms to use in Weka. Have you ever implemented something like that and do you have any ides for some of the best algorithms? Thanks in advance!",9,2
+5,2012-12-3,2012,12,3,11,146geb,Weka Experimenter 'Class attribute is not nominal' but data is processed from Explorer,https://www.reddit.com/r/MachineLearning/comments/146geb/weka_experimenter_class_attribute_is_not_nominal/,ArchangelleSareon,1354500818,,1,0
+6,2012-12-3,2012,12,3,18,146zlq,"My Education in Machine Learning via Cousera, A Review So Far",https://www.reddit.com/r/MachineLearning/comments/146zlq/my_education_in_machine_learning_via_cousera_a/,srkiboy83,1354527300,,16,54
+7,2012-12-4,2012,12,4,0,147d6u,Why am I normalizing data and/or weight vectors in SOMs?,https://www.reddit.com/r/MachineLearning/comments/147d6u/why_am_i_normalizing_data_andor_weight_vectors_in/,Ayakalam,1354550148,"
+So I have a simple question -  I have written a simple SOM code, using two-dimensional data to play around with. 
+
+As I understand it:
+
+1) The data used in SOMs must be normalized, to have unit length. 
+
+2) A weight vector that a SOM uses during the update is normalized to unit length every iteration as well, so that the weight vector doesnt 'blow up'.
+
+This is confusing to me however. If you look [here](http://imgur.com/bN7TA), this is my 2-dimensional original data that I would like to train a SOM to. (It is un-normalized). I can clearly make out 3 clusters. 
+
+If I normalize it however, that means I am projecting it unto the unit circle as shown [here](http://imgur.com/NoFGl). However if I do that... I lose the information about those 3 clusters from the above image... 
+
+Does this mean that SOMs are only capable of being used on normalized data? To me this would limit their capabilities...",0,1
+8,2012-12-4,2012,12,4,1,147eaa,Why should one normalize input data and outputs weight vectors of a SOM?...,https://www.reddit.com/r/MachineLearning/comments/147eaa/why_should_one_normalize_input_data_and_outputs/,Ayakalam,1354551346,"So I have a simple question -  I have written a simple SOM code, using two-dimensional data to play around with. 
+
+As I understand it:
+
+1) The data used in SOMs must be normalized, to have unit length. 
+
+2) A weight vector that a SOM uses during the update is normalized to unit length every iteration as well, so that the weight vector doesnt 'blow up'.
+
+This is confusing to me however. If you look [here](http://imgur.com/bN7TA), this is my 2-dimensional original data that I would like to train a SOM to. (It is un-normalized). I can clearly make out 3 clusters. 
+
+If I normalize it however, that means I am projecting it unto the unit circle as shown [here](http://imgur.com/NoFGl). However if I do that... I lose the information about those 3 clusters from the above image... 
+
+Does this mean that SOMs are only capable of being used on normalized data? To me this would limit their capabilities...",0,0
+9,2012-12-4,2012,12,4,2,147j6s,Do I have to normalize data and/or weight vectors in SOMs?...,https://www.reddit.com/r/MachineLearning/comments/147j6s/do_i_have_to_normalize_data_andor_weight_vectors/,Ayakalam,1354555919,"
+So I have a simple question -  I have written a simple SOM code, using two-dimensional data to play around with. 
+
+As I understand it:
+
+1) The data used in SOMs must be normalized, to have unit length. 
+
+2) A weight vector that a SOM uses during the update is normalized to unit length every iteration as well, so that the weight vector doesnt 'blow up'.
+
+This is confusing to me however. If you look [here](http://imgur.com/bN7TA), this is my 2-dimensional original data that I would like to train a SOM to. (It is un-normalized). I can clearly make out 3 clusters. 
+
+If I normalize it however, that means I am projecting it unto the unit circle as shown [here](http://imgur.com/NoFGl). However if I do that... I lose the information about those 3 clusters from the above image... 
+
+Does this mean that SOMs are only capable of being used on normalized data? To me this would limit their capabilities...",0,0
+10,2012-12-5,2012,12,5,0,149ihu,Help: Trying to understand the basics of bayesian inference,https://www.reddit.com/r/MachineLearning/comments/149ihu/help_trying_to_understand_the_basics_of_bayesian/,jokerbrb,1354633708,,0,1
+11,2012-12-5,2012,12,5,4,149ykw,[AskML] What schools should I apply to if I want to do deep learning but my GPA is not good?,https://www.reddit.com/r/MachineLearning/comments/149ykw/askml_what_schools_should_i_apply_to_if_i_want_to/,plc123,1354649674,"I'm looking to apply to either a Ph.D. or MS program in computer science, and I want to do machine learning, deep learning specifically. 
+
+The problem is that my GPA is not good. I graduated with a degree in physics in 2003, but I didn't really care about grades then, so my grades were terrible. A few years later I went back and got a degree in CS (graduated in 2010) and my grades were somewhat better (3.0), but still not what they should have been. Those two different degrees are combined on my transcript, and I had more hours in physics, so my transcript looks really bad.  
+
+I don't have any research experience, but I have been working in datamining/programming for the past couple of years since I got my CS degree, and I've learned a good bit in that time. Don't know that this will count for much, since it's not academic work, unfortunately.
+
+So I am wondering if some of you can give me a recommendation for a place to apply to that has faculty doing deep learning that might have me.",11,0
+12,2012-12-6,2012,12,6,2,14bvhv,How do you test a GIZA++ model?,https://www.reddit.com/r/MachineLearning/comments/14bvhv/how_do_you_test_a_giza_model/,yukw777,1354726814,"I'm using GIZA++ to align Korean and English sentences. I know how to train a model with GIZA++ with my parallel corpus, but I can't find a way to test my model and use it for future predictions. I see the -tc option that is supposed to be the test corpus, but not sure how to use the option to test the model (what format the test corpus should be in...) or make predictions. So any NLP gurus out there please help!!",7,1
+13,2012-12-6,2012,12,6,4,14c6qn,Need clarification on Dirichlet Process Inference,https://www.reddit.com/r/MachineLearning/comments/14c6qn/need_clarification_on_dirichlet_process_inference/,GratefulTony,1354736331,"Hello all:
+
+I need one point clarified for me regarding gibbs sampling on a dirichlet process--
+
+I am pretty much up-to-speed on the generative portion of the algorithm:
+
+for each datapoint to be generated:
+*Draw a partition, c_i, from a Chinese Restaurant Process, ployna urn, or STICK()...
+
+*look up the parameter vector, phi_i, associated with c_i
+
+*If there is currently no existing phi(c_i), draw one from the base measure Phi, and associate it with subsequent c_i
+
+ *generate datapoint based on F(phi_i )
+
+
+For gibbs sampling, we remove one datapoint at random from his table and sample a new table from the CRP...
+If he was the only datapoint at his old table, we can forget the index-&gt;parameter mapping previously associated with that table.
+We calculate the posterior: p(x|y,z) which is a lot like saying, p(x|y, Phi_z).
+
+What special sauce is my intuition missing here? it is not obvious to me how this will optimize the number of tables/clusters.
+",7,8
+14,2012-12-6,2012,12,6,14,14daen,Successful Test Flight of Autonomous Black Hawk Helicopter,https://www.reddit.com/r/MachineLearning/comments/14daen/successful_test_flight_of_autonomous_black_hawk/,stockthrow,1354770800,,1,17
+15,2012-12-7,2012,12,7,0,14dwa5,Code School - Try R,https://www.reddit.com/r/MachineLearning/comments/14dwa5/code_school_try_r/,[deleted],1354806567,,0,1
+16,2012-12-7,2012,12,7,8,14evef,NLTK + Scikit-Learn for Sentiment Classification,https://www.reddit.com/r/MachineLearning/comments/14evef/nltk_scikitlearn_for_sentiment_classification/,japerk,1354837593,,9,28
+17,2012-12-7,2012,12,7,9,14ex85,Has anyone ever use MetaMap / MMTx to expand text with features?,https://www.reddit.com/r/MachineLearning/comments/14ex85/has_anyone_ever_use_metamap_mmtx_to_expand_text/,[deleted],1354839232,"http://mmtx.nlm.nih.gov/
+
+I have been looking into it to expand this corpus of medical data I have but I am not quite sure how to use it.  ",0,0
+18,2012-12-7,2012,12,7,14,14fiji,construction heavy equipments,https://www.reddit.com/r/MachineLearning/comments/14fiji/construction_heavy_equipments/,ektaguptha,1354859168,,0,1
+19,2012-12-8,2012,12,8,7,14gwr8,Anyone have a good Cased Based Reasoning Tutorial?,https://www.reddit.com/r/MachineLearning/comments/14gwr8/anyone_have_a_good_cased_based_reasoning_tutorial/,daidoji70,1354920877,I don't know anything about Cased Based Reasoning and the Wikipedia's not really doing justice to this topic (imo).  Anyone got any good resources (from a modeler's not implementer's standpoint) on how to utilize such a tool for a n00b?,3,5
+20,2012-12-9,2012,12,9,6,14ij00,Pleases stop using Excel-like formats to exchange data,https://www.reddit.com/r/MachineLearning/comments/14ij00/pleases_stop_using_excellike_formats_to_exchange/,talgalili,1355001450,,0,1
+21,2012-12-9,2012,12,9,12,14j5hz,"Specialist knowledge is useless and unhelpful: When data prediction is a game, the experts lose out",https://www.reddit.com/r/MachineLearning/comments/14j5hz/specialist_knowledge_is_useless_and_unhelpful/,meyamashi,1355025114,,0,2
+22,2012-12-9,2012,12,9,13,14j890,What happens when you remove the support vectors from the training data and re-train?,https://www.reddit.com/r/MachineLearning/comments/14j890/what_happens_when_you_remove_the_support_vectors/,kripaks,1355028195,"Lets say I trained an SVM model on some training data. I then  remove the support vectors from the training data and re-train the model. The new model will have new support vectors. But, what all has changed in this new model? Can I confidently say that the new model performs worse than the previous one?",13,7
+23,2012-12-9,2012,12,9,17,14jh2m,What are good masters programs for ML?,https://www.reddit.com/r/MachineLearning/comments/14jh2m/what_are_good_masters_programs_for_ml/,[deleted],1355040487,"I'm applying right now and there aren't any definitive lists out there.  It's proving quite difficult to find programs.  Schools that are constantly thrown around on this subreddit often don't offer an M.S. in Machine Learning, ie. CMU (you have to be a Ph.D. to get their M.S. in ML), and Googling 'Master in Machine Learning"" turns up very little.
+Any help would be greatly appreciated.",0,0
+24,2012-12-10,2012,12,10,2,14jzjw,Options for Ranking/difficulty,https://www.reddit.com/r/MachineLearning/comments/14jzjw/options_for_rankingdifficulty/,skolor,1355075412,"I've been tasked with coming up with a way of ranking the difficulty of elements in a problem set. We have a set of about 30 ""problems"", which we will get a binary correct/incorrect outcome from when an individual goes through the problem set. We also have data now for about 300 individuals going through this set.
+
+The end result is we want a weighting for each of these problems, based on its difficulty, so that we can decide which did best. In earlier versions we have simply manually assigned a point value, and tallied up the points, but we are concerned about mis-valuing problems, since we have in the past. These problems have a large range of difficulty, the easiest of which nearly everyone got correct, while some of the most difficult on had a single solve (by different individuals).
+
+One of the proposed solutions is just to assign a point value for all problems, then simply decrease the point value by some scheme based on the number of correct solves. While that would certainly work and be fairly accurate, it seems like there should be a more elegant solution than that.
+
+I've spent some time looking for sources on how to do this, but I think a lot of the problem is I just don't know the right Machine Learning terms to find what I'm looking for. I'm hoping that you all will know what I'm talking about enough to point me in the right direction.",8,3
+25,2012-12-10,2012,12,10,8,14klwi,"Derivation of a novel efficient supervised learning algorithm from cortical-subcortical loops, Ashok Chandrashekar, Richard Granger",https://www.reddit.com/r/MachineLearning/comments/14klwi/derivation_of_a_novel_efficient_supervised/,locster,1355096196,,4,15
+26,2012-12-10,2012,12,10,15,14lc23,Looking for this kind of data...,https://www.reddit.com/r/MachineLearning/comments/14lc23/looking_for_this_kind_of_data/,Ayakalam,1355120923,"
+Hey all, 
+
+So I am looking for a particular kind of data: 
+
+What I would like to have, it higher than 3-d data, but where we know before hand the number of clusters that exist. 
+
+Through google I have already found a number of data sets that I can download and experiment on, but finding this particular combination has proven to be harder, so I am asking here in case anyone has this type of data. 
+
+So basically, any higher than 3-dimensional data, 5, 10, 20, 100-dimensional data, where we know before hand that there are 3, 8, 10, whatever, number of clusters. 
+
+Anyone know where I can get my hands on this? 
+
+Would really appreciate it, thanks! ",19,1
+27,2012-12-11,2012,12,11,1,14lx67,Is there a difference between computing parameters of GMMs and how EM-Algorithm works?,https://www.reddit.com/r/MachineLearning/comments/14lx67/is_there_a_difference_between_computing/,Ayakalam,1355155753,"
+Hey all, 
+
+So I have been studying up on the Expectation-Maximization algorithm, (EM), but I also know of Gaussian Mixture Models, (GMMs), that are used to describe data that is a Mixture of Gaussians. (MoG). 
+
+Some of what I will say here might be inaccurate, so please correct me, but my question is basically, what is the difference, if any, on the way the EM Algorithm works, VS the maximum likelihood algorithm in GMMs?
+
+I know that in EM, we are first computing the latent variables, (probability weights if we are clustering), and then we compute the new mu's and the new covariance matrix. We then repeat with the computation of the updated latent variables, etc etc. 
+
+So I get that, but in GMMs, arent we also kinda doing the same thing? How does this differ from how we would compute the parameters of a GMM for specific data?
+
+If there is a difference between computation of parameters of GMM and how EM-algorithm works, what is it? Are they the same thing? 
+
+Thanks!",27,10
+28,2012-12-11,2012,12,11,7,14mnks,predicting energy usage question,https://www.reddit.com/r/MachineLearning/comments/14mnks/predicting_energy_usage_question/,ireallylikedogs,1355178534,"Hi /r/machinelearning
+
+I was wondering if you folks might have any suggestions on a pet project that I've been thinking about. Also, if I'm barking up the wrong subreddit, please inform me.
+
+Anyways, I have my hands on data for thousands of households' energy usage for discrete fifteen minute time intervals over ~1+ years of time. I also have data like 'how many sq ft is the house' and 'what was the weather on whichever day' and some other interesting things.
+
+I was wondering if there might be some cool methods to implement in order to try to predict future energy usage amounts on a household basis. Something where I could say ""This household's energy usage for the past xxxx 15 minute blocks of time looks like this. I predict that in the next 15 minutes they will use y kWh.""
+
+I don't know too much about ML, but stuff like Markov Chains pop into my mind because I have discrete events. Unfortunately, my values for the events aren't very discrete and furthermore they are ordinal. I've never seen a MC that deals with this kind of data (then again, I have a really, really naive sense of MCs).
+
+I'm a decent programmer and mathematician, but haven't forayed into ML ever. I'd love to learn more if you all have any suggestions on how to approach this problem.
+
+Thanks!",14,8
+29,2012-12-12,2012,12,12,7,14ouu8,[Question] machine learning resources,https://www.reddit.com/r/MachineLearning/comments/14ouu8/question_machine_learning_resources/,amaboura,1355265747,,8,9
+30,2012-12-12,2012,12,12,17,14pufy,"our bricks can float on the water do you believe?
+visit our site",https://www.reddit.com/r/MachineLearning/comments/14pufy/our_bricks_can_float_on_the_water_do_you_believe/,sourceinfratech,1355301925,,0,1
+31,2012-12-12,2012,12,12,22,14q2n3,Data Science Community on G+ ,https://www.reddit.com/r/MachineLearning/comments/14q2n3/data_science_community_on_g/,mralexlin,1355318894,,1,16
+32,2012-12-13,2012,12,13,13,14rmwg,Andrew Ng's class vs Tom Mitchell's class,https://www.reddit.com/r/MachineLearning/comments/14rmwg/andrew_ngs_class_vs_tom_mitchells_class/,bachiki,1355371696,"I am a sophomore in CS and have taken Thrun's Intro to AI. I have good basics in linear algebra, probability and some basic stats. I want to take a ML class to learn about Machine Learning techniques to a point where it is intuitive and I can actually apply the techniques if I choose to work in a ML lab. 
+
+
+The most popular class seems to be Andrew Ng's ML class. I also came across CMU's Tom Mitchell's ML class. I'd like your opinion on which class would give me an intuitive understanding of the techniques in ML and prepare me to start off with research in ML. There are many labs doing AI and ML at the school I go to.
+
+Here's the link to Tom Mitchell's class videos and assignments: https://www.cs.cmu.edu/~tom/10701_sp11/lectures.shtml
+
+[EIDT] Sorry I should have made it clear that I am looking at Andrew Ng's Stanford class that was taken by Stanford students. They are lecture videos. I prefer this as many people have said the Coursera class is dumbed down.",10,19
+33,2012-12-14,2012,12,14,1,14sgv9,Machine Repairs Adelaide,https://www.reddit.com/r/MachineLearning/comments/14sgv9/machine_repairs_adelaide/,jadewebber78,1355415758,,1,1
+34,2012-12-14,2012,12,14,1,14si0a,The Naive Bayesian Approach to Machine Learning,https://www.reddit.com/r/MachineLearning/comments/14si0a/the_naive_bayesian_approach_to_machine_learning/,broccolilettuce,1355416884,,0,1
+35,2012-12-14,2012,12,14,6,14t2aj,Cat!,https://www.reddit.com/r/MachineLearning/comments/14t2aj/cat/,RichKatz,1355435161,,16,58
+36,2012-12-14,2012,12,14,13,14ttdv,variational Bayes approximation of Boltzmann machine (or restricted Boltzmann machine)?,https://www.reddit.com/r/MachineLearning/comments/14ttdv/variational_bayes_approximation_of_boltzmann/,magic_beans47,1355460699,"I apologize if this is the wrong subreddit to post to, but I was wondering if anyone is familiar with a variational Bayes algorithm to perform inference for either a general Boltzmann machine, or on the restricted Boltzmann machine?  Any help is greatly appreciated!  
+
+p.s. Also, has anyone seen a penalized Boltzmann machine (e.g. where the weights between layers have some sort of Lq norm on them? I've done a literature search, and can't seem to find anything along these lines.) ",3,1
+37,2012-12-15,2012,12,15,0,14uey7,Machine Repairs Adelaide,https://www.reddit.com/r/MachineLearning/comments/14uey7/machine_repairs_adelaide/,jadewebber78,1355497408,,3,0
+38,2012-12-15,2012,12,15,13,14vq1i,[Question] Multiple class decision trees,https://www.reddit.com/r/MachineLearning/comments/14vq1i/question_multiple_class_decision_trees/,badgerbro,1355545863,"Hey everybody,
+I have a question about using decision trees for multiclass classification. 
+
+I'm familiar with the concept of a ""One-vs-all"" approach where for N classes you would learn N models, where the *i*th model represents if an instance is classified as the *i*th class or not. This may seem silly, but my question is what do you do after you've trained those models and want to classify a new instance? What if more than one of your models say that this instance belongs in the *i*th class?
+
+Thanks for reading",6,5
+39,2012-12-16,2012,12,16,7,14wwx1,Moravec's_paradox - Evolution based explanation on why perceptual tasks are hard and cognitive ones are easy,https://www.reddit.com/r/MachineLearning/comments/14wwx1/moravecs_paradox_evolution_based_explanation_on/,rrenaud,1355611321,,2,35
+40,2012-12-17,2012,12,17,1,14y1g6,Data Dimensions and Geometry,https://www.reddit.com/r/MachineLearning/comments/14y1g6/data_dimensions_and_geometry/,reidhoch,1355675387,,1,13
+41,2012-12-17,2012,12,17,12,14z24n,[Question] Probabilities sensitive to the form of the question?,https://www.reddit.com/r/MachineLearning/comments/14z24n/question_probabilities_sensitive_to_the_form_of/,likesnoosnoo,1355713618,"I've been reading Machine Learning - A Probabilistic Perspective by Kevin P. Murphy.
+Each chapter features exercises and one that seems incredibly simple has me completely baffled.
+
+Here's the exercise:
+
+&gt; Probabilities are sensitive to the form of the question that was used to generate the answer.
+&gt;
+&gt; (Source: Minka.) My neighbor has two children. Assuming the gender of a child is like a coin flip, it is most likely, a priori, that my neighbor has one boy and one girl, with probability 1/2. The other possibilitiestwo boys or two girlshave probabilities 1/4 and 1/4.
+&gt;
+&gt; a. Suppose I ask him whether he has any boys and he says yes. What is the possibility that one child is a girl?
+&gt; 
+&gt;b. Suppose instead that I happen to see one of his children run by, and it is a boy. What is the porbability that the other child is a girl?
+
+As I understand it a. and b. are identical. But they wouldn't be asking the question if that was the case.
+
+What am I missing?
+",4,4
+42,2012-12-17,2012,12,17,17,14ziao,A List of Data Science and Machine Learning Resources [x-post Hacker News],https://www.reddit.com/r/MachineLearning/comments/14ziao/a_list_of_data_science_and_machine_learning/,worldsayshi,1355733561,,3,52
+43,2012-12-18,2012,12,18,1,14zyec,"Help: New to machine learning, writing a Bump Function regression algorithm",https://www.reddit.com/r/MachineLearning/comments/14zyec/help_new_to_machine_learning_writing_a_bump/,SlightlyReddishDawn,1355761392,"This is the first ever regression algorithm that I'm writing for practical purposes, so I'm sorry if this seems like child's play to you guys. I'm trying to write a program that models a 3D bump function:
+
+z = f(x,y) = 1/(1+x^2 +y^2 )
+
+I've identified my cost function as:
+
+f(P1...P5) = (^i=1:n (z_i - (P1/(1+P2(x_i^2 +P3) + P4(y_i^2 +P5))))^2 / 2n
+
+Where I have a data set of size n, with a z value for each integer x and y location.
+I'm trying to minimize f(P1...P5) by finding the lowest point where the partials of f(P1...P5) with respect to each P is 0. However, f_P1(P1...P5) evaluates as an expression that can never be 0. I've tried putting P1 in the denominator of the bump function, but again, the derivative involves a fraction and cannot ever be 0.
+
+Am I just bad at calculus, or is there really no way of directly evaluating the function's absolute minimum? If the latter is true, how do I minimize the cost function?
+My math level is high school AP Calc with some linear algebra and the basics of partials.
+
+oh god how ddid this get here i am not good with computer thank you for help",2,5
+44,2012-12-18,2012,12,18,16,151k62,Probability of Math category in ML literature,https://www.reddit.com/r/MachineLearning/comments/151k62/probability_of_math_category_in_ml_literature/,SpaceWizard,1355817266,"I was going to ask you guys what math (aside from linear algebra) would be most worth while, but if the question is formalized a bit better, it could make for a cool project question: could named math concepts/categories be automaticly identified in papers and books, how detailed could reliable classification be, and what are the most common math categories in the ML literature?
+
+If 'math category' was something you'd see in the title of a powerpoint slide in a college math course, what would your bets be for the most common math categories used in published ML research?
+
+",0,1
+45,2012-12-18,2012,12,18,18,151n1k,Wolf packs,https://www.reddit.com/r/MachineLearning/comments/151n1k/wolf_packs/,[deleted],1355822876,,0,1
+46,2012-12-18,2012,12,18,21,151rrp,Working on a libSVM GUI: how to get classification border?,https://www.reddit.com/r/MachineLearning/comments/151rrp/working_on_a_libsvm_gui_how_to_get_classification/,foolnotion,1355833437,"Hi guys,
+
+I was working on a C++ wrapper and a gui for [libsvm](http://www.csie.ntu.edu.tw/~cjlin/libsvm/). When it's ready it will be opensource.
+
+Right now, I can load data, plot it (if 2d), train a model and highlight the support vectors. [Screenshot](http://i.imgur.com/ECLmt.png).
+
+In their example app svm-toy, the libsvm autors iterate over the whole graphic window and for every pixel they call svm_predict to see which class it belongs to, then colorize it appropriately. That works but looks ugly and i don't want to do it.
+
+So my question? How can I find the classifying curve so I can plot it nicely? Any help from more experienced libsvm users would be greatly appreciated.
+
+Thanks.",9,7
+47,2012-12-19,2012,12,19,2,1527nn,"MetaOptimize QA: The ""StackOverflow"" for Machine Learning",https://www.reddit.com/r/MachineLearning/comments/1527nn/metaoptimize_qa_the_stackoverflow_for_machine/,shaggorama,1355853444,,3,29
+48,2012-12-19,2012,12,19,10,15313g,candy floss machine,https://www.reddit.com/r/MachineLearning/comments/15313g/candy_floss_machine/,zabuplunder,1355880917,,1,0
+49,2012-12-19,2012,12,19,11,15346d,[Question] Parallel implements for LASSO,https://www.reddit.com/r/MachineLearning/comments/15346d/question_parallel_implements_for_lasso/,javelinjs,1355883935,"Hi guys, 
+
+I wonder if there exists any MapReduce-based implement for LASSO, instead of MPI-based solutions? Or if I use bagging to combine several LARS results, will it be a good idea for large-scale data?
+
+Thanks.",5,5
+50,2012-12-20,2012,12,20,12,155arg,"Using satellite imagery to determine pedestrian, cyclist, car, bus modeshare for transportation planning.",https://www.reddit.com/r/MachineLearning/comments/155arg/using_satellite_imagery_to_determine_pedestrian/,youarearobot,1355973014,"For those of you who don't know, the current state of the art in determining the number of cyclists and pedestrians utilizing the streets is to put a volunteer on a street corner, and count them. For cars, we have those nice rubber bands you see placed across the street. Sad, right?
+
+I am hoping to improve on this situation by using the abundance of high quality satellite imagery available to count pedestrians, bicycles, and cars in a given image (just as a jumping off point) in order to determine modeshare.
+
+Putting the various issues that will eventually arise when analyzing this data, I was wondering if any of you might be able to help me find libraries that would help me perform this sort of analysis. Any sort of jumping off point, existing research, similar projects, really anything you can provide would be helpful.
+
+I am simply a web developer interested in alternative transportation and public policy who believes there must be a better way (cell phone location data would be nice, and better, but it is hard to get). The friendlier the language is with the web (python, javascript - Atwood's law anyone?, php, etc...), the better as what I would really like to build is a web service that allows policy makers to perform custom searches, and do their own analysis online.
+
+I am definitely willing to learn whatever I need to to optimize my results, but I'm starting from pretty much nothing when it comes to pattern recognition so please keep in mind I may not understand the vocabulary that goes along with it.
+
+If it means anything to anyone, I have access to ArcGIS Server if needed. I am hoping to submit this project for my Intro to Geospatial Technologies course, due late February. I plan to use imagery from my university, RIT, as a starting point as our Imaging Science department happens to like to take lots of pictures of campus from space.",5,2
+51,2012-12-21,2012,12,21,0,15650b,Do you really have big data?,https://www.reddit.com/r/MachineLearning/comments/15650b/do_you_really_have_big_data/,rrenaud,1356017055,,0,16
+52,2012-12-21,2012,12,21,1,1567oj,R+Moodle for generating customized {exams} in machine learning,https://www.reddit.com/r/MachineLearning/comments/1567oj/rmoodle_for_generating_customized_exams_in/,talgalili,1356019964,,0,1
+53,2012-12-21,2012,12,21,6,156sn8,Neural network for singing voice separation?,https://www.reddit.com/r/MachineLearning/comments/156sn8/neural_network_for_singing_voice_separation/,drubo,1356038822,"Hi everyone -- I'm fairly fresh into machine learning and was hoping to get some guidance...
+
+I'd like to construct a proof of concept algorithm that would take an MP3 encoded song, and output two files of the same length: one ""acapella"" and one ""instrumental"".  This was the first thing I thought of when reading about the Cocktail Party Algorithm.
+
+I would think to approach the problem in an ML one could use a neural network, and train it with studio quality song/acapella/instrumental tuples.
+
+As a beginner, the questions I have are:
+
+- Is this idea feasible?
+- How might you preprocess the data (if at all?)
+- What do you think would be the biggest roadblock?
+- How much training data would be necessary?
+- What kind of classifiers (in addition to or in lieu of a backprop NN) would you use to increase accuracy?
+- Other general advice?
+
+Thanks all in advance!",10,2
+54,2012-12-21,2012,12,21,7,156vyb,Approaches to deal with absent/null features in classification?,https://www.reddit.com/r/MachineLearning/comments/156vyb/approaches_to_deal_with_absentnull_features_in/,arcticlobo,1356041628,"I'm putting together a supervised classifier, where some of the features may be absent for a subset of the data. And by absent, those features do not exists, as opposed to missing.
+
+I was wondering if anyone had worked on building a classifier which had the same issue, what approaches they took, what was/was not successful, and any caveats to watch out for.
+
+As a side note, I was doing some research today and ran across this paper published 6 years ago from Gal Chechik and others: http://jmlr.csail.mit.edu/papers/volume9/chechik08a/chechik08a.pdf
+I was thinking along the same lines of classification on a subspace, and was glad to see that this was validated by the above paper.
+",3,7
+55,2012-12-21,2012,12,21,12,157i5c,Which machine learning algorithm would be ideal for this problem?,https://www.reddit.com/r/MachineLearning/comments/157i5c/which_machine_learning_algorithm_would_be_ideal/,girl_at_school,1356062136,Any help will be much appreciated. I am already working to see how I could change my data to make it suitable for learning but unfortunately not much luck so far.,4,0
+56,2012-12-21,2012,12,21,21,1582vx,Is there an simple form for a relationship between correlation and classification rates?,https://www.reddit.com/r/MachineLearning/comments/1582vx/is_there_an_simple_form_for_a_relationship/,szza,1356092806,"For example, if X and Y are linearly correlated at .8, are there something like confidence intervals I can put on the classification rate obtained when threshholding X to identify Y &gt; k?
+
+The motivation for the question comes from lots of research in the social sciences (particularly education research), where a high correlation is presented as evidence of a strong relationship. But many of the problems under consideration are best thought of as classification problems (e.g. does SAT predict college freshman grade of B+ or better? or Will Tatiana drop out of school?). So it's quite possible to have a 'strong' research result that's essentially meaningless unless there's an implication from correlation to classification.
+
+A discussion of SAT as classifier can be found in my blog post [here](http://highered.blogspot.com/2011/09/sat-error-rates.html).",4,3
+57,2012-12-24,2012,12,24,7,15ceea,"libsvm on Weka (GUI, on OSX): ""Problem Evaluating Classifier: Rand""",https://www.reddit.com/r/MachineLearning/comments/15ceea/libsvm_on_weka_gui_on_osx_problem_evaluating/,sculler,1356301900,"After playing around to get this library to work with Weka I finally figured it out by placing the libsvm.jar in the .app/Contents/Resource/Java folder and then pointing Info.plist to it.
+
+I try to use libsvm on my data and after a few seconds it says:
+
+&gt; Problem Evaluating Classifier:    
+Rand
+
+Googling this gives me no results.  The closest thing I can find is this StackOverflow post: http://stackoverflow.com/questions/13847942/prob-evaluating-classifier-rand-in-libsvm-weka
+
+So I cannot figure out what is wrong with this and how to fix it.  ",0,1
+58,2012-12-24,2012,12,24,8,15cgsi,"
+libsvm on Weka (GUI, on OSX): ""Problem Evaluating Classifier: Rand""",https://www.reddit.com/r/MachineLearning/comments/15cgsi/libsvm_on_weka_gui_on_osx_problem_evaluating/,[deleted],1356304672,"After playing around to get this library to work with Weka I finally figured it out by placing the libsvm.jar in the .app/Contents/Resource/Java folder and then pointing Info.plist to it.
+
+I try to use libsvm on my data and after a few seconds it says:
+
+&gt; Problem Evaluating Classifier:    
+Rand
+
+Googling this gives me no results.  The closest thing I can find is this StackOverflow post: http://stackoverflow.com/questions/13847942/prob-evaluating-classifier-rand-in-libsvm-weka
+
+So I cannot figure out what is wrong with this and how to fix it.  ",0,1
+59,2012-12-27,2012,12,27,9,15hqqo,"Active learning to reduce the cost and number of stored instances for ""instance-based"" (memory-based) methods? (x-post with metaoptimize)",https://www.reddit.com/r/MachineLearning/comments/15hqqo/active_learning_to_reduce_the_cost_and_number_of/,Omega037,1356567888,"I have been working on an ""active learning"" approach for jointly reducing the cost and number of labeled samples (instances) in ""instance-based"" methods and ensembles (specifically General Regression Neural Networks, Probabilistic Neural Networks, k-Nearest Neighbor, and ensembles based on these methods).
+
+The basic idea is that active learning will be used to first select from a pool of unlabeled samples, and then once labeled, determine whether said sample should be ""stored"" as an instance. Alternatively, this could be done for a stream of samples, where each new sample is chosen randomly and then requires a decision to label it, and a decision to keep it or not.
+
+Does this seem like it would make sense as an approach, or would it be better just to perform some kind of direct sample reduction technique (a la ""Reduction Techniques for Instance-Based Learning Algorithms"" by Wilson and Martizon, 2000)? Has something like this been attempted, or would it not really provide any value anyways?",4,5
+60,2012-12-27,2012,12,27,12,15i0o1,Can anyone provide an intuitive explanation of the Restricted Boltzmann Machine learning algorithm?,https://www.reddit.com/r/MachineLearning/comments/15i0o1/can_anyone_provide_an_intuitive_explanation_of/,sanity,1356578704,"I'm trying to figure out how well RBMs can handle very large numbers of sparse input neurons (over &gt;100k, but where all but 20 or 30 are set to 0).",7,18
+61,2012-12-28,2012,12,28,3,15j2le,A new reddit voting system?,https://www.reddit.com/r/MachineLearning/comments/15j2le/a_new_reddit_voting_system/,Taonyl,1356633492,"With the discussions about the [quality1](http://www.reddit.com/r/TheoryOfReddit/comments/15ijw8/are_subreddits_really_the_solution_to_eternal/) [loss2](http://www.reddit.com/r/TheoryOfReddit/comments/15goza/is_reddit_experiencing_a_brain_drain_of_sorts_or/) of reddit submissions and comments, I thought about a possible way of changing the voting system.    
+As a user, you currently have one upvote/downvote. This is obviously problematic, because not everybody views the same thing as good. You would have to somehow categorize what you like in different areas, so multidimensional upvotes? Sounds like a bad idea.    
+But you don't have to present this to the user. So, keep the current upvote/downvote arrows, but instead of directly adding them up, give posts an n-dimensional vector as rating. The user will recieve one as well, bound to his account and describing what he likes. The system can then compare the two vectors, a high similarity should indicate content the user wants to see, this will give it a high rating for this user. This could be done by projecting the vector of the post onto that of the user and then determine its length. The higher the value, the better.    
+How are these vectors generated? When a user votes on a post, his voting vector gets imprinted into the post vector, in the simplest case by just adding them up. At the same time, the post vector gets imprinted onto the user vector, for example by norming the length of the post vector to one and then taking the weighted average. To help set things up, a small random offset should be added to he user vector before adding it into an upvote.    
+This approach has of course some implementation problems, namely the by far increased computational costs (I don't know how much they take for the current reddit system).   
+
+I hope this is understandable, I am pretty much just an interested layman in machinelearning.",26,13
+62,2012-12-28,2012,12,28,21,15kj10,Manual Number Words Date Printing Machine for Bag &amp; Paper &amp; Film,https://www.reddit.com/r/MachineLearning/comments/15kj10/manual_number_words_date_printing_machine_for_bag/,yasonfei,1356696590,,0,1
+63,2012-12-28,2012,12,28,21,15kk4x,Manual Number Words Date Printing Machine for Bag &amp; Paper &amp; Film,https://www.reddit.com/r/MachineLearning/comments/15kk4x/manual_number_words_date_printing_machine_for_bag/,yasonjane,1356699127,,0,1
+64,2012-12-29,2012,12,29,7,15le9i,Learning spatio-temporal dynamics.,https://www.reddit.com/r/MachineLearning/comments/15le9i/learning_spatiotemporal_dynamics/,qkdhfjdjdhd,1356732932,,3,20
+65,2012-12-29,2012,12,29,15,15m57j,HK-88B Multi-function Pill Making Machine Pill Machine,https://www.reddit.com/r/MachineLearning/comments/15m57j/hk88b_multifunction_pill_making_machine_pill/,yasonjane,1356763236,,0,1
+66,2012-12-29,2012,12,29,17,15m8w1,HK-88B Multi-function Pill Making Machine Pill Machine,https://www.reddit.com/r/MachineLearning/comments/15m8w1/hk88b_multifunction_pill_making_machine_pill/,yasonfei,1356769245,,0,1
+67,2012-12-29,2012,12,29,22,15mh7q,[Question] Regression with many irrelevant variables?,https://www.reddit.com/r/MachineLearning/comments/15mh7q/question_regression_with_many_irrelevant_variables/,alfonsoeromero,1356789271,"Hello everybody. I've got a biological datasets of ~20K vectors (samples from tissues) with ~300 features (genes), most of them binary or categorical (0..n), except a few numeric (phenotypes from the organism where the tissue are extracted). I wanted to try the hypothesis that the binary/categorical features are enough to predict the numeric phenotypes (for instance, lifespan of the organism), but after some exploratory data analysis with Weka I could not get anything clear.
+
+Most of the binary or categorical features are mutations in some genomic regions, but in many cases (&gt;90%), the value is equal to 0 (no mutation). Besides, most of this mutations are known not to produce a particular effect (i.e. they are irrelevant wrt the phenotype).
+
+I have tried linear regression and lasso (the one implemented in Matlab) with no much success. I have tried to discretize the attribute into 3/4 classes, and tried several classifiers which finally gave really bad values.
+
+Should I try an specific technique apart from the classical ones? Do you recommend me certain preprocessing techniques? Could I assume that the phenotypes have nothing to do with the genomic mutations (and therefore I am just wasting my time [and yours])? Is there any preprocessing technique I am probably missing? Do you recommend any specific bibliography dealing with similar problems? 
+
+Thanks for your time, redditors!",15,9
+68,2012-12-31,2012,12,31,6,15ov5d,Kernel Approximations for Efficient SVMs (from r/compsci),https://www.reddit.com/r/MachineLearning/comments/15ov5d/kernel_approximations_for_efficient_svms_from/,yggdrasilly,1356904453,,0,29
+69,2012-12-31,2012,12,31,10,15p80b,Why Visualization Cannot Afford Ignoring Data Mining and Vice Versa,https://www.reddit.com/r/MachineLearning/comments/15p80b/why_visualization_cannot_afford_ignoring_data/,rrenaud,1356917720,,0,0
+70,2012-12-31,2012,12,31,10,15p968,Gaussian Processes in Machine Learning,https://www.reddit.com/r/MachineLearning/comments/15p968/gaussian_processes_in_machine_learning/,qkdhfjdjdhd,1356918910,,0,1
+71,2012-12-31,2012,12,31,16,15prv8,Interesting article by Gelman &amp; Shalizi about foundations of Bayesian inference.,https://www.reddit.com/r/MachineLearning/comments/15prv8/interesting_article_by_gelman_shalizi_about/,qkdhfjdjdhd,1356940666,,4,39

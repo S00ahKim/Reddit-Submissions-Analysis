@@ -1,0 +1,75 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2013-10-1,2013,10,1,23,1nigfp,"Nate Silver to would-be data scientists: Dont sweat the degree, just do the work",https://www.reddit.com/r/datascience/comments/1nigfp/nate_silver_to_wouldbe_data_scientists_dont_sweat/,jacek_,1380637705,,0,1
+1,2013-10-2,2013,10,2,12,1nk8ng,Notice to startups: You are doing data science wrong,https://www.reddit.com/r/datascience/comments/1nk8ng/notice_to_startups_you_are_doing_data_science/,samurai_rebellion,1380685883,,0,1
+2,2013-10-3,2013,10,3,3,1nlku5,Berkeley Master of Information and Data Science,https://www.reddit.com/r/datascience/comments/1nlku5/berkeley_master_of_information_and_data_science/,austinlyons,1380738581,,0,0
+3,2013-10-3,2013,10,3,23,1nnmcx,Is there a site like Hacker News Jobs for data scientists?,https://www.reddit.com/r/datascience/comments/1nnmcx/is_there_a_site_like_hacker_news_jobs_for_data/,alibrarydweller,1380811237,"I read Hacker News and every month they have a rich 'who's hiring' thread (https://news.ycombinator.com/item?id=6475879), however the jobs are clearly geared toward professional devs and Rails coders in particular. I've googled around for what I'm looking for, but sites like analytictalent.com and icrunchdata.com are mediocre at best.
+
+Is there a site where data science types can expect to find good candidates, like a Hacker News?",5,23
+4,2013-10-4,2013,10,4,5,1nodvl,Looking for a Name for Data Analytics Team,https://www.reddit.com/r/datascience/comments/1nodvl/looking_for_a_name_for_data_analytics_team/,atjones0011,1380831100,"My team is trying to come up with a team name. We are a data analytics team in the financial planning space. Does anyone have any ideas? The name does not necessarily need to refer to financial planning, but we are interested in having data and/or analytics in the name.",1,0
+5,2013-10-4,2013,10,4,21,1npy07,Which of the Five Types of Data Science Does Your Startup Need?,https://www.reddit.com/r/datascience/comments/1npy07/which_of_the_five_types_of_data_science_does_your/,seabass,1380891181,,0,1
+6,2013-10-5,2013,10,5,1,1nqdck,Tutorial: Using RHadoop to predict Web visitor numbers.,https://www.reddit.com/r/datascience/comments/1nqdck/tutorial_using_rhadoop_to_predict_web_visitor/,marcholmes,1380904735,,0,1
+7,2013-10-11,2013,10,11,4,1o5z8x,Calculating AUC the Hard Way,https://www.reddit.com/r/datascience/comments/1o5z8x/calculating_auc_the_hard_way/,likelihoodtprior,1381433043,,0,1
+8,2013-10-16,2013,10,16,22,1okkj4,The road to become a Data Scientist,https://www.reddit.com/r/datascience/comments/1okkj4/the_road_to_become_a_data_scientist/,[deleted],1381930337,,0,1
+9,2013-10-16,2013,10,16,23,1okn5p,How do you integrate your workflow/product back into business intelligence?,https://www.reddit.com/r/datascience/comments/1okn5p/how_do_you_integrate_your_workflowproduct_back/,flipstables,1381932884,"For those data scientists/data analysts that work in an enterprise environment, how do you re-integrate your product back into an enterprise data warehouse?
+
+It seems that all my data products are one-off ad-hoc stuff--either reports for my managers or new datasets that don't really integrate back into my environment.  It seems that there's a big disconnect between what I do and what the DBA/BI people do, and it's hard to communicate.
+
+Just to give you an idea, I work with mostly relational databases and OLAP cubes.  These answer a lot of the ""repeating"" business questions that slices an dices the data.  Sure, they can get pretty complex with the data mining stuff, but it's a pretty rigid environment.
+
+On the other hand, I work to add more challenging, non-repeatable questions that typically add an extra dimension or two to my datasets.  Things like ""should we change our business strategy due to the government shutdown?""  (not working on this specific question but just to give you an example).
+
+Here's my challenge--I usually have my products sitting in my own database somewhere or stored in a few documents/spreadsheets for my boss to digest.  (As an aside, I'm looking to present my findings using d3 or maybe tableu if they'll buy the license).  It seems a little silly to segregate this without somehow enriching our current data warehouse.
+
+What do you guys do?",4,6
+10,2013-10-23,2013,10,23,1,1ozg03,Data Scientist Interview,https://www.reddit.com/r/datascience/comments/1ozg03/data_scientist_interview/,tallhouse,1382458611,"I am primarily a pure mathematics kind of gent who has made it to a phone screening at a company that does data warehousing and I believe the position is similar to an entry level data scientist position. The interview will be an hour long 3/4 technical, with internet. this is time sensitive, how can I pull myself through?",2,0
+11,2013-10-24,2013,10,24,7,1p2ymi,SPOTLIGHT | Attention Data Scientists &amp; Data Analytsts! Here Is The Next Great Tool: MODE,https://www.reddit.com/r/datascience/comments/1p2ymi/spotlight_attention_data_scientists_data/,TedOBrien,1382566665,,0,0
+12,2013-10-27,2013,10,27,19,1pb2zj,2nd year Applied Math Major here. How do I get a job/internship doing data science?,https://www.reddit.com/r/datascience/comments/1pb2zj/2nd_year_applied_math_major_here_how_do_i_get_a/,sexualramen,1382869112,"Hi! I'm an Applied Math major. I have quite a bit of programming experience, mainly with Ruby/Rails, Python/Django, and JavaScript (I have made use of d3.js in a few projects).
+
+My question is this: how do I actually start on a path to becoming a data scientist?",3,0
+13,2013-10-29,2013,10,29,20,1pgir3,Ten Simple Rules for Reproducible Computational Research.,https://www.reddit.com/r/datascience/comments/1pgir3/ten_simple_rules_for_reproducible_computational/,rvprasad,1383047967,,1,1
+14,2013-10-29,2013,10,29,23,1pgsq1,Freely available/usable interesting data?,https://www.reddit.com/r/datascience/comments/1pgsq1/freely_availableusable_interesting_data/,realog173,1383057874,"Hello /r/datascience, a few friends and I are looking into doing something fun to build on our data science portfolios. What are the best freely available and usable data sets you know of that might lend themselves to an interesting analysis?",5,10
+15,2013-10-30,2013,10,30,0,1pgwt0,R and Quandl open data package cheat sheet,https://www.reddit.com/r/datascience/comments/1pgwt0/r_and_quandl_open_data_package_cheat_sheet/,16bitsquare,1383061089,,0,0
+16,2013-10-30,2013,10,30,4,1phgdn,DataSong in SF Rocks. (and we're Hiring),https://www.reddit.com/r/datascience/comments/1phgdn/datasong_in_sf_rocks_and_were_hiring/,caseymorris,1383074829,"Founded in 2003, we are a fast-growing analytics consulting and marketing solutions company based in San Francisco.  We are focused on solving complex analytic problems and understanding the impact of online and offline marketing on a consumers path to purchase. We employ a multi-disciplinary approach combining our backgrounds in business, computer science, math, physics and statistics to solve our clients complex business problems.
+
+Our clients are Fortune 500 companies that span the Retail, Automotive, Financial Services and Technology industries.  We are looking for a hands-on statistician eager to apply their technical skills to tackle tough data challenges.
+
+About the Role
+
+As Data Scientist, you will join our talented data science team and work on a variety of problems including revenue attribution, customer segmentation, and response modeling. You will build models and perform statistical analysis on large datasets for industry-leading companies. You will interpret results and have the ability to communicate results clearly to non-technical colleagues and clients.
+
+About You
+
+You enjoy big data, statistics and data mining. You are passionate about working with huge datasets to extract meaningful business insights and drive positive change. You are a self-starter, comfortable with ambiguity. You want to make a difference and play a large role in a fast-growing company and industry.
+
+Minimum Qualifications
+
+    Masters Degree in Statistics, Math, Computer Science, or similar quantitative field with a background in structured programming
+    10+ years work experience with statistical analysis, regression modeling, time series analysis, predictive modeling and customer segmentation
+    Statistical modeling with logistic, glm &amp; hazards
+    Strong data construction and exploration skills (SAS datastep &amp; macro, etc).
+    Experience with large datasets using statistical software (SAS, R, S-Plus, Matlab, or similar) and large databases (SQL)
+    Experience with text mining and experimental design
+    Ability to draw conclusions from data and recommend actions
+    Solid written and oral communication skills to define key questions and present data findings
+
+Preferred Qualifications
+
+    PhD in Statistics, Math, Operations Research or related field
+    Seeing research out of the lab to become applied statistics
+    Experience in retail business applications
+    Linear &amp; dynamic programming 
+    Experience with Hadoop, Python, JavaScript
+    Ability to convey rigorous mathematical concepts and considerations to non-experts
+    Aptitude/experience managing &amp; mentoring other statisticians 
+
+Benefits
+
+    Work environment - We have a fun team with an open environment and enjoy fresh organic fruit on our rooftop deck
+    Medical coverage - Full medical, dental, and vision plans. We cover full time employees 100%
+    Vacation  Everyone starts with three weeks of vacation
+    Location  DataSong is headquartered in downtown San Francisco
+
+Only applicants who can pass a thorough technical interview will be considered.
+
+Apply Here:  http://datasong.theresumator.com/apply/dYTHzI/Data-Scientist.html?source=Reddit
+",1,0

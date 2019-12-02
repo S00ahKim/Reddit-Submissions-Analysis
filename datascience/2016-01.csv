@@ -1,0 +1,1045 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2016-1-1,2016,1,1,11,3yz9vz,"So really, what is ""Data Science"" and how do I get started?",https://www.reddit.com/r/datascience/comments/3yz9vz/so_really_what_is_data_science_and_how_do_i_get/,datengineering,1451615393,"Hi everyone, I am a sophomore in computer engineering at UIUC and I have heard many great things about data science, big data, data mining, etc and how interesting it is and how it is the future/present of information.. but if you could describe in a simple way, what would you say it is? I am relatively naive to the field so I can't really speak to what I think it is which is why I am asking you guys.
+
+Also, what would you say is the best way to get involved? Is there a book that you have read that helped you get started down the data path? I purchased a 10$ course on Udemy (A-Z Data Science by Kiril Eremenko) and it's been pretty cool to learn how to use Tableau but I am only 10% in on the course so it's just been tableau basics and such. I will keep going in it as it is interesting but I'm just looking for other things. I will also look into courses at my college to help me learn more.",4,0
+1,2016-1-1,2016,1,1,16,3yzxtq,Is Twitter making us anxious? Neuroplasticity in the age of machine learning and streaming data.,https://www.reddit.com/r/datascience/comments/3yzxtq/is_twitter_making_us_anxious_neuroplasticity_in/,namenode5,1451632401,,0,1
+2,2016-1-1,2016,1,1,21,3z0i1t,"""Topological Data Analysis for the Working Data Scientist"" - Anthony Bak @ Trulia",https://www.reddit.com/r/datascience/comments/3z0i1t/topological_data_analysis_for_the_working_data/,virtualjd2015,1451651636,,0,1
+3,2016-1-2,2016,1,2,2,3z191z,New to Data Science: Where to start?,https://www.reddit.com/r/datascience/comments/3z191z/new_to_data_science_where_to_start/,xjellox,1451669139,"I have a degree in Economics, and recently learned about the field of Data Science. I really want to proceed in this field, but don't know where to start. I found some threads with a few pointers, but nothing exactly what I was looking for.
+
+Basically, MOOCs or online resources. I have a fair background in statistics, but could really use a brush-up. I'm looking for something that can start me from scratch, assuming little to no knowledge, and build up from there. I am completely comfortable with self-teaching. Additionally, would also like something I can use as a credential on my resume (paid is fine). 
+
+Any advice? Thanks a lot in advance!",17,10
+4,2016-1-2,2016,1,2,2,3z1aru,bicorner.com's Top 10 Posts of 2015,https://www.reddit.com/r/datascience/comments/3z1aru/bicornercoms_top_10_posts_of_2015/,derrickmartins,1451669936,,0,1
+5,2016-1-2,2016,1,2,3,3z1isk,Closing the books on 2015,https://www.reddit.com/r/datascience/comments/3z1isk/closing_the_books_on_2015/,Data_and_Donuts,1451673480,,0,1
+6,2016-1-2,2016,1,2,4,3z1qwt,How can I play with a huge dataset?,https://www.reddit.com/r/datascience/comments/3z1qwt/how_can_i_play_with_a_huge_dataset/,hsnk42,1451677216,"Hey guys,
+
+I have no background AT ALL in data science/stats/mathematics. However, I've always been interested in what data shows. 
+
+I have a huge dataset right now - daily attendance figures for a factory of ~300 for the past 10 years. I'm interested in finding out answers to questions like is there a pattern of leaves correlated with public holidays?
+
+Is there a tool I can plug this data in which can help me find these and maybe other ""hidden"" patterns? 
+
+I'd appreciate **any** advice! ",20,2
+7,2016-1-2,2016,1,2,6,3z26fj,"Forget #dataviz As immersive #VR emerges we will experience #datarealization which is the experience of touching, smelling, sensing and physically manipulating data in an immersive data art exhibit.",https://www.reddit.com/r/datascience/comments/3z26fj/forget_dataviz_as_immersive_vr_emerges_we_will/,namenode5,1451684095,,0,1
+8,2016-1-2,2016,1,2,10,3z35ll,Beginner stats book using Python?,https://www.reddit.com/r/datascience/comments/3z35ll/beginner_stats_book_using_python/,greatluck,1451699815,Can anyone recommend a highly regarded book/ebook similar to Tibshirani's intro to statistics but with code I can follow in Python?,5,22
+9,2016-1-2,2016,1,2,11,3z3a2f,"A system I've come up with for organising all my machine learning resources, hope some of the links are handy.",https://www.reddit.com/r/datascience/comments/3z3a2f/a_system_ive_come_up_with_for_organising_all_my/,jackbrucesimpson,1451701977,,7,33
+10,2016-1-2,2016,1,2,14,3z3tnu,Last Great Articles of 2015,https://www.reddit.com/r/datascience/comments/3z3tnu/last_great_articles_of_2015/,vincentg64,1451711723,,0,1
+11,2016-1-3,2016,1,3,9,3z7jow,A non-comprehensive list of awesome things other people did in 2015,https://www.reddit.com/r/datascience/comments/3z7jow/a_noncomprehensive_list_of_awesome_things_other/,Veerle2015,1451781104,,0,25
+12,2016-1-3,2016,1,3,10,3z7qb0,Foundational course in Java or Intro to Computational Social Science in Python/R? (x-post /r/computerscience),https://www.reddit.com/r/datascience/comments/3z7qb0/foundational_course_in_java_or_intro_to/,gradawayyy,1451783932,"I'm a graduate student in a social science with a tiny bit of experience in R and Python (the latter from Codecademy). I have the option of taking an introduction to programming course in Java (Stanford's 106A) or a course on ""big data"" approaches in the social sciences, which would involve exercises in Python and R. The professor for the latter has said my background would be fine, and I think it could be a good opportunity to see if I want to go further with computational social science and big data approaches.
+
+However, would it be best to take the intro course first? I've heard that it's sometimes good to learn things as you need them, but it also seems like a foundation would be helpful. For what it's worth, I didn't find the Python Codecademy course (which I'm aware is incredibly basic) to be difficult.
+
+I can take 106A or 106B later, but as time passes, I think I'm less and less likely to be able to sacrifice the time to take a time-consuming beginner's course *which focuses on projects with no application to my research*. Learning the basics now seems reasonable, but if I don't need to go that route at all, I'd just as soon learn by doing relevant things.",6,5
+13,2016-1-4,2016,1,4,4,3zb0s9,How is the current job market for data science in the finance field compared to the technology field,https://www.reddit.com/r/datascience/comments/3zb0s9/how_is_the_current_job_market_for_data_science_in/,datasciencequestion,1451848699,"Title says it all. More specifically, how are the opportunities, pay, best locations, like and how do the specific skill sets differ in each field.
+
+Thanks in advance for the replys ",20,27
+14,2016-1-4,2016,1,4,5,3zbebh,Smart meal planner,https://www.reddit.com/r/datascience/comments/3zbebh/smart_meal_planner/,mlbernauer,1451853967,"Link to the app: [here](https://mlbernauer.shinyapps.io/meal-planner)
+Hello guys, I'm a 4th year pharmacy student at the University of New Mexico. I've always been interested in nutrition, diet and lifestyle. During my diabetes rotation we would frequently administer a health literacy screening tool to assess a patients ability to read, interpret and act on information from a food label. I was surprised by how many people struggled to understand a basic food label including  simple carb counting, recommended daily intake and allowance. This was particularly concerning because the Dietary Approaches to Stop Hypertension (DASH) diet is one of the cornerstone non-therapeutic, lifestyle modifications recommended in patients with diabetes and hypertension. Knowing how many people struggle with carb counting I decided to try to create an [app](https://mlbernauer.shinyapps.io/meal-planner) that will design a meal plan that meets a persons individual dietary requirements. The idea is that a nutritionist/dietitian/physician will be able to use this tool to custom build a meal-plan that contains the required nutrients given a persons specific dietary needs (i.e. calorie restriction, potassium/salt restriction, sugar/carb restrcition, protein etc). As of now the app uses a database of 256 DASH compliant recipes from the Mayo Clinic. To use the app you first need to specify your dietary requirements in the 'Dietary restrictions' section (the default settings are from DASH guidelines). You then adjust nutritional weights in the 'Nutritional weights' section. Setting a nutrients weight to 0 will remove it from consideration when designing your meal plan (i.e. set protein to 0 if you do not care how much protein you will consume in a day), alternatively if you set the weight to 1, the algorithm will try really hard to satisfy that requirement. Finally, select which meal categories you would like to eat during a given day (salad, sandwich, main dish etc). Adjusting the 'Meal diversity' slider will vary the number of unique recipes in the final weekly meal-plan. This feature is useful to reduce the number of meals needed to be prepped for a given week. For example; setting meal diversity to 0 will generate redundant recipes in the weekly plan; this is useful as the redundant meals can be prepped in bulk on the same day and eaten throughout the week reducing the amount of time cooking. Once you have all the settings specified, hit 'Create plan!' to create your weekly meal plan. Links to recipes and schedule as well as the number of servings to consume will be listed below and can be downloaded as a CSV to use in Excel or other spreadsheet. Statistics such as average daily nutrients for the week as well as actual daily nutrients are also listed. These values should be relatively close to your specifications however due to the algorithm used the likely will not be exact. In any case, you can adjust nutrient weights and re-run the program to further tune your meal plan.
+#### Future direction
+In the future I would like to put more work into creating a grocery list from the recommended recipes as well as allow users to vote on recipes they liked to increase their chance of reappearing in future meal plans. Additionally, it would help if the app knew what groceries/ingredients you had on hand and would make recommendations based on these in order to reduce cost/trips to the grocery store.",2,2
+15,2016-1-4,2016,1,4,8,3zc6bw,Need advice on building a PC for data science...,https://www.reddit.com/r/datascience/comments/3zc6bw/need_advice_on_building_a_pc_for_data_science/,GenYDaily,1451865124,"I'm working towards an MS in Data Science and I would like to build a PC specifically for data analysis at the lowest possible cost  because I'm a poor grad student. I will probably only need the computer for a year or two and will be using it PC only software required for class. 
+
+So what specs do you guys think I'll need and should I build it myself?
+
+***I've been using a 3-year-old Macbook Pro, but it's showing some age and partitioning my hard drive has caused more problems than I'd like to share. I'm also not interested in using VMware.
+",15,1
+16,2016-1-4,2016,1,4,11,3zctgd,Oil and gas data scientist job listing,https://www.reddit.com/r/datascience/comments/3zctgd/oil_and_gas_data_scientist_job_listing/,mel_cache,1451874752,,0,0
+17,2016-1-4,2016,1,4,20,3zegxp,Data Science Company,https://www.reddit.com/r/datascience/comments/3zegxp/data_science_company/,IXdatascience,1451907756,,0,0
+18,2016-1-4,2016,1,4,22,3zercn,Aureus Analytics offers Big Data Analytics solutions,https://www.reddit.com/r/datascience/comments/3zercn/aureus_analytics_offers_big_data_analytics/,manohitasuri,1451914010,,0,1
+19,2016-1-5,2016,1,5,3,3zg2gr,The Star Wars social networks  who is the central character?,https://www.reddit.com/r/datascience/comments/3zg2gr/the_star_wars_social_networks_who_is_the_central/,musing5225,1451933513,,0,9
+20,2016-1-5,2016,1,5,5,3zgh0k,"Is admissions into MS Statistics programs getting increasingly difficult due to the popularization of ""data science""?",https://www.reddit.com/r/datascience/comments/3zgh0k/is_admissions_into_ms_statistics_programs_getting/,jl5892389621,1451939017,,5,14
+21,2016-1-5,2016,1,5,5,3zgh90,Help DARPA develop software to improve the efficiency and effectiveness of Big Data Analytic Applications,https://www.reddit.com/r/datascience/comments/3zgh90/help_darpa_develop_software_to_improve_the/,poorejc,1451939102,"The DARPA XDATA program is pioneering a new model of agile software development to support analysts working with big data. XDATA is developing a number of cutting edge software applications and components to address timely challenges in data science and intelligence analysis. DARPA has made these applications free and open to the public available as a downloadable [open catalog](http://opencatalog.darpa.mil/XDATA.html) of reconfigurable, open-source software components. XDATA is inviting analysts from the defense and intelligence communities, law enforcement, the private sector, and the public at large to download and use these open-source applications and underlying code. Building a community around the XDATA software catalog can help shape future versions of these applications through use and feedback. The applications developed by XDATA in 2015 address the following challenge problems:
+
+1. Mapping, predicting, and characterizing population movements within and between cities and regions
+
+2. Cross-dataset dealiasing to identify the same entities across different datasets
+
+3. Financial event detection, such as identifying evidence of market manipulation 
+
+**Operation XDATA: A Public Event**
+Through this site you can also learn how to volunteer to participate in Operation XDATA, which is a large-scale research program managed by Draper. This research is designed to evaluate and improve XDATA applications. As part of this research you will be able to use XDATA application with large data sets to complete challenging tasks. After using these applications, you can download them and their underlying code for your own purposes. More information about testing can be found below in our formal call for research participants. You can also find this information on our study portal (click Register) at [http://xdataonline.com/](http://xdataonline.com/). Please feel free to forward this announcement to others that might be interested!
+
+**Call for Research Participants**
+
+The purpose of this study is to determine whether certain kinds of interfaces and analytic tools affect your analytic workflow. This study is funded by the Defense Advanced Research Projects Agency. Your participation will include providing information about your basic demographics, personality, analytic abilities via online questionnaire. This will be followed by a testing session to be completed at your convenience through our online testing portal. During the testing session, you will be asked to participate in a variety of tasks, questionnaires and cognitive tests, as well as interactive tasks on a computer. 
+
+**Eligibility Information**
+
+Participation in this research is open to any persons between the ages of 18 and 60 years, that are not incarcerated (i.e., prisoners) or a member of another legally protected population (i.e., intellectually handicapped, children, etc.), with the exception of pregnant women (the procedures and materials used in this study do not limit the participation of pregnant women). You may be excluded from participation if you do not have sufficient formal training or experience in interpretation of data, hypothesis testing, or construction of reasoned argument to effectively answer questions about analytic process or participate in laboratory tasks. Ideally, potential participants have at least 3 years applied or working experience within an analytic vocation (e.g., intelligence, military, legal, business, marketing, credit, banking, finance, and capital markets, etc.), OR post-graduate training within a relevant area of study and associated analytic skills (e.g., economics, behavioral sciences, statistics, political science, etc.), OR have had relevant internships, post-doctoral, or research experience. However, should you feel that you meet the requirements given your applied experience, we will consider eligibility on a case-by-case basis. 
+ 
+**Additional Study Details**
+
+Study Duration:  Your participation in this study can involve up to 3 hours of your time: approximately 30-60 minutes to fill out online questionnaires, and 90-120 minutes as you engage in online analytic tasks. Additional follow-up tasks with similar content may be solicited, with your permission. Each of these are estimated to take between 90-120 minutes.
+
+*Participant Involvement*:  Participation involves both completion of the online questionnaires and online tasks, which involve using next generation analytic tools to solve difficult analytic problems using complex data sources. However, participation in the online questionnaires neither obligates you to participate in online analytic tasks nor guarantees that you will be invited for follow up tasks.
+ 
+*Compensation*:  Participation is strictly voluntarythere is no monetary compensation for participation in this study. However, participants being recruited from university research sites may be eligible for course/research credit commensurate with their participation as per their institutions guidelines. 
+
+To register as a participant or just to learn more about this unique research opportunity, please navigate to [http://xdataonline.com](http://xdataonline.com/), and click ""register"". You will be able to view more study information at this site as well as view our Online Consent Form. If you acknowledge the terms in the consent form, you can register a unique, but anonymous username that will be used to keep track of your data. If, after visiting our website, you have additional questions and concerns, please contact us at software-evaluation@draper.com.",0,4
+22,2016-1-5,2016,1,5,8,3zh7k2,"AI, BigData &amp; HPC Digest #3",https://www.reddit.com/r/datascience/comments/3zh7k2/ai_bigdata_hpc_digest_3/,flyelephant,1451949057,,0,1
+23,2016-1-5,2016,1,5,8,3zhepc,Ad Viewability and Feature Selection for Big Data (xpost /r/Python),https://www.reddit.com/r/datascience/comments/3zhepc/ad_viewability_and_feature_selection_for_big_data/,rileyberton,1451951835,,3,1
+24,2016-1-5,2016,1,5,13,3zil5m,Data Science and Child Welfare,https://www.reddit.com/r/datascience/comments/3zil5m/data_science_and_child_welfare/,Poor_cReddit,1451969491,"Hello all, over the past several years I have absolutely fell in love with statistics as they relate to child welfare. I am fortunate enough to have gained a quasi data science position with Child Protective Services. I refer to it as ""quasi"" because my position is pretty much whatever I'd like to make it. Obviously, there are some non-negotiable reports that I'm asked to create but outside of those weekly reports I have free time to muck around in all of the data available to me. So I like to think I'm pretty sharp with my statistics so I began introducing statistical analysis tools I learned in college to the data available to me at work. No other analyst with the agency had done this before so my boss was impressed. It was just a simple standard deviation of removals (removing an abused child from a home) per worker. My goal was to identify those who are removing significantly more children and determine the possibilities as to why that is occurring (eg. Poor decision making, bad zip code, etc.). 
+
+Anyways, the point I am trying to make was that I was trying to introduce stats to child welfare data and I thought that was data science. Then I find some resources on here which are suggesting machine learning as an important aspect to a data scientist. So I enrolled in a coursera course on machine learning. My concern is that I don't know if I'm headed in the right direction because the data I deal with isn't about property, money, medical measurements, etc. My data is on children and how long they have been in care, open investigations vs. closed, legal status, type of abuse, etc. I just don't want to spend a ton of time learning the wrong thing. So far I am keeping up with the machine learning course but it isn't easy. I'm also trying to learn R but so far the majority of my ""analysis"" is done in excel. 
+
+Thanks for any insight or input you can provide. I'd just like to add that I'm very passionate about this because I feel that I may be able to make a significant impact on the work done in my agency if I had the right knowledge. There are patterns everywhere in Child Welfare so I imagine there is something better I can do with the data instead of just reporting what happened in the past.",17,19
+25,2016-1-5,2016,1,5,15,3ziz4e,Question: Data Science Use Cases for ISP's,https://www.reddit.com/r/datascience/comments/3ziz4e/question_data_science_use_cases_for_isps/,[deleted],1451976448,[deleted],0,0
+26,2016-1-5,2016,1,5,16,3zj4z7,Machine Learning for Economists: An Introduction,https://www.reddit.com/r/datascience/comments/3zj4z7/machine_learning_for_economists_an_introduction/,perezpablo,1451979537,,0,4
+27,2016-1-5,2016,1,5,16,3zj5m3,[datascience] Base profiles unmarried women age 23 online. The base is available only 2 hours. ID:annaasldld,https://www.reddit.com/r/datascience/comments/3zj5m3/datascience_base_profiles_unmarried_women_age_23/,tela29935,1451979898,,0,0
+28,2016-1-5,2016,1,5,16,3zj5vr,Data Scientists at Work [ebook],https://www.reddit.com/r/datascience/comments/3zj5vr/data_scientists_at_work_ebook/,Dawny33,1451980023,,6,6
+29,2016-1-5,2016,1,5,21,3zjymz,Facebook's First Data Scientist [video interview],https://www.reddit.com/r/datascience/comments/3zjymz/facebooks_first_data_scientist_video_interview/,vanbelen14,1451997292,,0,1
+30,2016-1-5,2016,1,5,21,3zjzqi,Deep Learning with Python: An introduction to the Keras library,https://www.reddit.com/r/datascience/comments/3zjzqi/deep_learning_with_python_an_introduction_to_the/,vanbelen14,1451997908,,0,5
+31,2016-1-6,2016,1,6,2,3zl1cf,Power-Law Distribution Analysis based on Power-law distributions in Empirical data paper.,https://www.reddit.com/r/datascience/comments/3zl1cf/powerlaw_distribution_analysis_based_on_powerlaw/,shagunsodhani,1452013436,,0,1
+32,2016-1-6,2016,1,6,2,3zl3l8,Johns Hopkins University Data Science Team doing AMA on January 11th!,https://www.reddit.com/r/datascience/comments/3zl3l8/johns_hopkins_university_data_science_team_doing/,xIAmSpartacusx,1452014248,JHU's Data Science Team and creators of the Coursera Data Science Specialization will be conducting an AMA at 3pm next Monday over at /r/IAmA,7,29
+33,2016-1-6,2016,1,6,4,3zlpzl,Question: Second Bachelor's to further data science career,https://www.reddit.com/r/datascience/comments/3zlpzl/question_second_bachelors_to_further_data_science/,nicknowsnothing,1452022138,"I majored in engineering in undergrad.  I've had a two positions out of college as an analyst and my most recent position was as a data science associate at a startup.  Unfortunately I wasn't at either of these positions for more than 6 months so this looks pretty bad for applying to grad schools.  I'm currently in a data science boot camp, but I desire a more in depth curriculum and an opportunity to do research.  I've applied to a few grad programs and I'm waiting to hear back, but I'm considering the potential benefits of just starting over and getting another bachelor's at a university where I can do research and develop better letter of recs for grad school.  Thoughts?",3,2
+34,2016-1-6,2016,1,6,5,3zlz7h,[Q] Getting into Data Science from a different field?,https://www.reddit.com/r/datascience/comments/3zlz7h/q_getting_into_data_science_from_a_different_field/,iamnothyper,1452025313,"Hello, I currently work in corporate finance (at a data company ironically) and was wondering what the best course of action for crossing into data science is.
+
+My undergrad minor was comp sci/programming and I took some database courses, but aside from that my background basically has nothing to do with data science. Unless you count slaving over excel sheets/financial systems and crunching numbers. At my current company there is little chance of crossing over into a data science role as the people in those roles now are all PHDs and whatnot. So I would likely be starting fresh somewhere else.
+
+What's the best course of action? Grad school? Certificates? Not sure where to start. ",3,3
+35,2016-1-6,2016,1,6,6,3zm6gr,What to learn next: R or Python(or other) for my situation,https://www.reddit.com/r/datascience/comments/3zm6gr/what_to_learn_next_r_or_pythonor_other_for_my/,jazzmytableau,1452027919,"Im a data analyst who uses Tableau to explore/visualize. And uses SAS or Minitab to run statistical analysis.
+
+I like to continually upgrade my skillset.  so, what would be the next skillset to learn and why is it beneficial over the current programs im using?  My fear is learning R and it only being marginially more useful than SAS",20,10
+36,2016-1-6,2016,1,6,10,3zncrt,Analyze social media data in real time,https://www.reddit.com/r/datascience/comments/3zncrt/analyze_social_media_data_in_real_time/,acangiano,1452043146,,0,2
+37,2016-1-6,2016,1,6,10,3zni0e,What do you think about Galvanize Data Engineering program?,https://www.reddit.com/r/datascience/comments/3zni0e/what_do_you_think_about_galvanize_data/,JackFlamingo,1452045161,"I am interested in changing my career towards data engineering and came across two programs: [Galvanize](http://www.galvanize.com/courses/data-engineering/ ) and [Insight](http://insightdataengineering.com/). Right now I am working as a software engineer in one of the major tech companies and my work is not related to Big Data. What do you thing about those programs, are they worth time and money?",6,11
+38,2016-1-6,2016,1,6,11,3znmfk,"Hello boys, I want make new familiarity, spend a night in the pair ?",https://www.reddit.com/r/datascience/comments/3znmfk/hello_boys_i_want_make_new_familiarity_spend_a/,elcycgert52741,1452046895,,0,0
+39,2016-1-6,2016,1,6,20,3zpdpc,[datascience] My name is Laura! I want sex! HELP ME!!!,https://www.reddit.com/r/datascience/comments/3zpdpc/datascience_my_name_is_laura_i_want_sex_help_me/,squarboi91614,1452078878,,0,0
+40,2016-1-6,2016,1,6,21,3zpl8j,A Linear Regression Tutorial In R (explained in layman's terms),https://www.reddit.com/r/datascience/comments/3zpl8j/a_linear_regression_tutorial_in_r_explained_in/,selva86,1452083481,,0,8
+41,2016-1-6,2016,1,6,22,3zppjx,Data science student here. Need suggestions regarding purchasing a laptop.,https://www.reddit.com/r/datascience/comments/3zppjx/data_science_student_here_need_suggestions/,wayneguo,1452085754,"Intel Core i5-6300HQ (Quad Core 2.30GHz, 3.20GHz Turbo, 6MB 35W, w/Intel HD Graphics 530)1 Energy Star 6.11 15.6"" Non Touch FHD (1920x1080) with Camera and MIC1 No Fingerprint Reader and No Smart Card Reader (Contact and Contactless) 1 Non Touch WWAN HD/FHD LCD Backcover1 16GB (2x8G) 2133MHz DDR4 Memory Non ECC1 512GB M.2 SATA Solid State Drive, MPWS1 Intel Rapid Storage Technology1 130 W A/C Adapter1 Power Cord for 3-pin Adapter (IND)1 Primary 4-cell 62W/HR Battery1 Intel Core i5 Processor Label1 AMD FirePro W5130M w/2GB GDDR51 Intel Wireless 8260 (802.11ac) + Bluetooth 4.11 Intel Wireless 8260 Driver1 No Wireless WAN Card selected1 SSD Bracket for M2,SATA,PARK CITY1 Internal US/International Qwerty Non-backlit Keyboard1 Keyboard Lattice1 OS Recovery
+
+Are these specifications of a laptop (dell precision 3510) overkill or are they worth it? Should I get a quad core i7 or is this i5 good enough?
+Any recommendations are welcome. 
+Thanks in advance.",11,4
+42,2016-1-6,2016,1,6,22,3zpv65,"Canadian with int'l MSc, moving to Silicon Valley in 2 months. Questions about data science employment!",https://www.reddit.com/r/datascience/comments/3zpv65/canadian_with_intl_msc_moving_to_silicon_valley/,[deleted],1452088521,[deleted],2,1
+43,2016-1-7,2016,1,7,0,3zq4s6,AMA Data Scientist: Jake Porway of DataKind,https://www.reddit.com/r/datascience/comments/3zq4s6/ama_data_scientist_jake_porway_of_datakind/,jakeporway,1452092706,"Annnnnd AMA....complete - phew! What a great discussion, everyone! I'm hopping offline for now, but thank you all for your thoughtful questions. 
+
+We all had a blast and hope to see some of you at a DataKind event in the future! Learn more about how you can get involved with DataKind here: http://www.datakind.org/do-good-with-data
+
+J
+
+*****
+The AMA is underway now - post your questions now until 5pm ET!
+
+**PROOF**
+http://imgur.com/gallery/sW9S6so
+
+*****
+UPDATE - Jan 13
+
+Hey everyone! So excited to kick off this AMA with all of you - thanks for all the AMAzing questions!!
+
+Im posting some initial responses now and then we'll all be around for a LIVE discussion 2pm-5pm ET today so be sure to hop back on the thread if you want to chat more.
+
+To kick us off, a response to the question du jour: how do I get started in a career in data science? This seemed to be a pretty big topic so thought Id write to everyone at once. I've added a comment below but chime in with comments if you have advice and thoughts too! 
+
+Talk soon!
+J
+
+*****
+Hello! I'm Jake Porway and Im a machine learning and technology enthusiast who loves nothing more than seeing good values in data. I founded a nonprofit called DataKind in the hopes of creating a world in which the power of data science is harnessed in the service of humanity.
+
+In our 4 years here, DataKind has brought together volunteer data scientists to build predictive models to help Amnesty International prevent human rights violations, scraped websites to help the World Bank measure inflation and used satellite imagery to help GiveDirectly address poverty. Were headquartered in New York City and we have Chapters in Bangalore, Dublin, San Francisco, Singapore, the UK and Washington DC. You can find more about our projects through the case studies we've written up here -&gt; http://www.datakind.org/projects
+
+In terms of my background, I studied machine learning and AI as an undergrad in computer science at Columbia University and then later as a Ph.D. in Statistics at UCLA. Ive always been fascinated by the ways intelligent machines can be used to improve the world and took that interest into my work in computer vision in grad school and later to The New York Times R&amp;D Lab, where I built prototypes for the future of media. I think we live in one of the most exciting times in human history, in which we are just now realizing the power of a fully digitized world and the way that humans and machines can work together to actualize our visions for humanity.
+
+To get things rolling, allow me to intro some of my colleagues at DataKind who'll be joining me in answering questions (drumroll): 
+
+* Pete Darche, our Data Engineer and one of DataKinds first staff members
+* Nick Eng, our Data Science Manager and alumni of the UChicago Data Science for Social Good program
+* Miriam Young, our Communications Specialist and super fan of all things pro bono
+
+Well be online Wednesday January 13th 2-5pm ET to answer your questions live, but feel free to start posting questions and upvoting now so we can get the conversation going. Talk soon!",118,67
+44,2016-1-7,2016,1,7,2,3zqy22,Fighting Ebola with Data,https://www.reddit.com/r/datascience/comments/3zqy22/fighting_ebola_with_data/,hernamesbarbara,1452103112,,0,1
+45,2016-1-7,2016,1,7,7,3zsbv6,How to asses/show your coding skills when coming form a math background,https://www.reddit.com/r/datascience/comments/3zsbv6/how_to_assesshow_your_coding_skills_when_coming/,spring_m,1452120384,"Hey,
+
+I am on my way to finishing a Math PhD and am thinking of a career in data science. I have a very strong math background and solid stats/probability background - took two stats and a machine learning class in addition to most pure math classes out there.
+
+That being said - **there is nothing on my CV that showcases my coding/CS knowledge** (except for a theory of computation class I took way back). I would say I am intermediate at python (used it for some math stuff - I do discrete math/graph theory) and getting above average at R (used it in the machine learning/stats classes to implement stuff like adaboost or random forests, been playing around with Kaggle datasets for like 6 months now). 
+
+My main questions is: **given my credentials, what is the best way to show to a prospective employer that I can code?** github? blogs? And perhaps more subtly: **how can I asses my own level of coding skill?** It could be that I am fooling myself into thinking I know my stuff just to be completely overwhelmed in a real world situation.",15,11
+46,2016-1-7,2016,1,7,8,3zsm76,What do you think about using minimum spanning trees and pseudotime as a supervised differential expression algorithm?,https://www.reddit.com/r/datascience/comments/3zsm76/what_do_you_think_about_using_minimum_spanning/,VermillionAzure,1452124173,"Hi! I'm completely new to this, so please tell me if something's wrong with that I'm saying.
+
+Right now, I'm in the midst of a bioinformatics internship that works with single-celled RNA sequencing data analysis. However, I've encountered an interesting package called (Monocle)[https://www.bioconductor.org/packages/3.3/bioc/vignettes/monocle/inst/doc/monocle-vignette.pdf] that relies on this interesting concept of pseudotime and applies graph theory to try and find differentially expressed features from grouped samples.
+
+From what I understand, the analysis consists of four parts. It first represents each sample with a dimension per feature. It then reduces the number of components by trying to find the independent ones. A minimum spanning tree is constructed on the samples, and then tries to find the longest path through the tree. It then finds alternate paths.
+
+These paths represent gradual evolutions of samples where, I think, given the context of cell analysis, we are also looking for a spectrum of differences between cells but also want to find the progression from one state to another--for example, from healthy to cancerous cells.
+
+I just thought I'd post it here and share. What do you guys think about this analysis method? Do you know of similar ones? What do you think this is best suited for?
+
+",1,2
+47,2016-1-7,2016,1,7,15,3zua8y,Random Question: Is or Are - Plural or Singular - at Work?,https://www.reddit.com/r/datascience/comments/3zua8y/random_question_is_or_are_plural_or_singular_at/,ckatem,1452148360,"Today I was presenting a model to upper management and said something along the lines of ""I'm not sure how granular the data are...um...is"". My education/background wants me to say are, but seeing as I work with a lot of people that are on the business side using a plural form sounds weird to them. Can anyone else say how they handle this? ",9,1
+48,2016-1-7,2016,1,7,18,3zupwo,"BigData frameworks, libraries, and examples collection",https://www.reddit.com/r/datascience/comments/3zupwo/bigdata_frameworks_libraries_and_examples/,stkim1,1452157495,,0,1
+49,2016-1-7,2016,1,7,19,3zuvfk,Hands on Data Exploration with RStudio,https://www.reddit.com/r/datascience/comments/3zuvfk/hands_on_data_exploration_with_rstudio/,vanbelen14,1452160897,,0,1
+50,2016-1-7,2016,1,7,19,3zuwea,Data Visualization In a Nutshell,https://www.reddit.com/r/datascience/comments/3zuwea/data_visualization_in_a_nutshell/,vanbelen14,1452161495,,0,1
+51,2016-1-7,2016,1,7,19,3zuyw6,Data Visualization for Business,https://www.reddit.com/r/datascience/comments/3zuyw6/data_visualization_for_business/,vanbelen14,1452163048,,0,1
+52,2016-1-7,2016,1,7,20,3zv2iu,Using Data Science to Protect Small Businesses from Fraud,https://www.reddit.com/r/datascience/comments/3zv2iu/using_data_science_to_protect_small_businesses/,vanbelen14,1452165359,,0,1
+53,2016-1-7,2016,1,7,23,3zvr41,Seven things I learned at my first data science hackathon,https://www.reddit.com/r/datascience/comments/3zvr41/seven_things_i_learned_at_my_first_data_science/,dreyco,1452177973,,5,9
+54,2016-1-8,2016,1,8,0,3zw1p5,"Redshift case study: COPY speed of 3 input file compression algorithms: bzip2, gzip and LZO",https://www.reddit.com/r/datascience/comments/3zw1p5/redshift_case_study_copy_speed_of_3_input_file/,dan81989,1452182187,,0,1
+55,2016-1-8,2016,1,8,2,3zwgz8,Optimizing Fanduel (Fantasy Football) in R,https://www.reddit.com/r/datascience/comments/3zwgz8/optimizing_fanduel_fantasy_football_in_r/,TroyHernandez,1452187767,,5,23
+56,2016-1-8,2016,1,8,5,3zx8h5,Jason Atchley : Legal Tech News : Happy 2016! A New Open Source Data Law Blog for Data's Big Year,https://www.reddit.com/r/datascience/comments/3zx8h5/jason_atchley_legal_tech_news_happy_2016_a_new/,jason_atchley,1452197271,,0,1
+57,2016-1-8,2016,1,8,9,3zyixx,How can one go about learning how to make their own dashboard reporting system?,https://www.reddit.com/r/datascience/comments/3zyixx/how_can_one_go_about_learning_how_to_make_their/,bluerubez,1452213692,"How did companies like Salesforce, SiSense, and Qlik create their products? What programming languages were used? Once one gets data into a database, how can one go about querying that data in a visual way without using platforms that have already been built?",12,10
+58,2016-1-8,2016,1,8,12,3zz85p,Reddit hookup. Best girls for f*cking in the world! Reddit recommend! [datascience],https://www.reddit.com/r/datascience/comments/3zz85p/reddit_hookup_best_girls_for_fcking_in_the_world/,herdnful41051,1452223436,,0,1
+59,2016-1-8,2016,1,8,16,4001cd,What is the difference between Data Science and Data Analytics (as job roles)?,https://www.reddit.com/r/datascience/comments/4001cd/what_is_the_difference_between_data_science_and/,reddityee,1452236931,"I'm looking to go into the field but don't know much about the difference of these two.  Tried a google search but go varying answers.  What I gathered is data science is a bit more creative and math/programming heavy.
+
+If I do a 1-2 year masters program at Berkeley for example, I would be coming out and working as a data scientist, correct?  However I have a friend in the industry who says at his company that'll only land an analyst role, where the data scientists have stats/cs phds.",4,0
+60,2016-1-8,2016,1,8,18,400gs6,R Interview Questions,https://www.reddit.com/r/datascience/comments/400gs6/r_interview_questions/,Ravikumar_Rachuri,1452246498,,0,1
+61,2016-1-8,2016,1,8,21,400tih,[StackExchange] Export weights (formula) from Random Forest Regressor in Scikit-Learn,https://www.reddit.com/r/datascience/comments/400tih/stackexchange_export_weights_formula_from_random/,dantek88,1452254523,,4,1
+62,2016-1-8,2016,1,8,21,400ywg,Ontology for Data Science,https://www.reddit.com/r/datascience/comments/400ywg/ontology_for_data_science/,vanbelen14,1452257558,,0,1
+63,2016-1-8,2016,1,8,23,4017ts,Building a Data science tool based on Atom editor. Looking to have a quick chat with a Python Data scientist.,https://www.reddit.com/r/datascience/comments/4017ts/building_a_data_science_tool_based_on_atom_editor/,dhanainme,1452262185,"Me and one of my friend have been working on building some tools on top of atom editor for Data scientists. 
+
+We are looking forward to talk to few python data scientists to get some perspectives and validate out assumptions. 
+
+I would like to know if some one will be interested to speak to us about this. May be 10 mins. Coffee is on us :) 
+
+Please do PM me if you can talk to us for about 10 mins.",3,10
+64,2016-1-8,2016,1,8,23,401808,Software development skills for data scientists,https://www.reddit.com/r/datascience/comments/401808/software_development_skills_for_data_scientists/,Veerle2015,1452262276,,1,18
+65,2016-1-8,2016,1,8,23,4018ha,Undergraduate Statistician wishing to gain job as a business analyst,https://www.reddit.com/r/datascience/comments/4018ha/undergraduate_statistician_wishing_to_gain_job_as/,optitron26,1452262524,"Right, so I am a student at a russell group university studying financial mathematics (with a lot of emphasis on Statistics). I am in my final year and considering a masters. My grades aren't the best simply because I did not put the effort in last year. I am hoping that I will be able to lift them with my exams this year. 
+
+So I was wondering, what is the best way for me to get a job as a business analyst. I have a decent amount of experience in R and am self learning python. I have taken a few modules which are noteworthy
+-statistical inference
+-regression analysis
+-a few financial mathematics modules
+-generalised linear modules (next sem)
+
+I was thinking of teaching myself some data analysis using the likes of coursera as I don't have the practical knowledge on how to go about tackling a problem. 
+
+Any advice one can offer me?
+Note-no work experience. 
+
+EDIT-I have been thought about ditching the idea of python and learning SQL as that seems to be highly in demand (thoughts)",8,1
+66,2016-1-9,2016,1,9,0,401gg0,Seeking suggestions for a data science project topic,https://www.reddit.com/r/datascience/comments/401gg0/seeking_suggestions_for_a_data_science_project/,baoyu,1452265917,"Hi everyone, I am in the process of applying to full-time graduate school programs in data science. I am about to enroll in a 2 month course with General Assembly to further dip my feet in the data science world and get some experience under my belt. 
+A big part of the General Assembly course involves a final project. I think it would strengthen my application if I could show off a final project to the admissions committee before they make a final decision. So, I am wondering what some interesting areas are where I might choose a project to start working toward from day 1 of my program. 
+Any other advice or suggestions on this approach is also welcome. Thanks very much!",3,8
+67,2016-1-9,2016,1,9,0,401lfp,How Data Science Fueled the Largest Outreach Effort in the History of New York City,https://www.reddit.com/r/datascience/comments/401lfp/how_data_science_fueled_the_largest_outreach/,dataforgood,1452267953,,0,14
+68,2016-1-9,2016,1,9,1,401puc,"Large collection of AI, ML, and data science notes",https://www.reddit.com/r/datascience/comments/401puc/large_collection_of_ai_ml_and_data_science_notes/,don_chow,1452269735,,9,30
+69,2016-1-9,2016,1,9,1,401vps,"R-3.1.3 on SGE Linux cluster keeps throwing error ""cannot allocate vector of size 62.5 MB""",https://www.reddit.com/r/datascience/comments/401vps/r313_on_sge_linux_cluster_keeps_throwing_error/,ZeCapitain,1452271941,"Hey guys I'm trying to load in a file to R that is about 2GB in size in an interactive node on a SGE cluster.  At first I thought the default RAM of 4GB on the node wasn't enough so i boosted it up to a 30GB node and I'm still getting the same error of ""cannot allocate vector of size 62.5 MB"".  I know in windows there is a way to set the memory limit for R using memory.limit(size=XXX) but I don't know if there is a way to do it for linux.  Do you all have any suggestions or commands that would help me resolve this?  Thanks!",2,2
+70,2016-1-9,2016,1,9,1,401wlz,Introduction to Astronomy Data (UC Berkeley),https://www.reddit.com/r/datascience/comments/401wlz/introduction_to_astronomy_data_uc_berkeley/,virtualjd2015,1452272262,,0,1
+71,2016-1-9,2016,1,9,5,402t8u,JHU Data Science AMA on Jan 11,https://www.reddit.com/r/datascience/comments/402t8u/jhu_data_science_ama_on_jan_11/,akim1026,1452283678,"I'm taking a coursera data science course and got this email today.
+
+--------
+
+
+On January 11th, the Johns Hopkins University Data Science Team will be conducting a Reddit Ask Me Anything, and we would love for you to participate! You can do so by creating a free account on Reddit.com and, on January 11th at 3pm EST, visit www.reddit.com/r/IAmA and click on the thread where Roger Peng, Jeff Leek, and Brian Caffo will be standing by to answer any questions you may have about Coursera, Data Science, or anything you can think of!",5,9
+72,2016-1-9,2016,1,9,13,404sjw,"Checkout my Python script, Simulacram for creating Pandas DataFrames of fake data following various distributions, from python dictionaries",https://www.reddit.com/r/datascience/comments/404sjw/checkout_my_python_script_simulacram_for_creating/,jbrambledc,1452312675,,0,17
+73,2016-1-10,2016,1,10,0,406lan,Is data science for me?,https://www.reddit.com/r/datascience/comments/406lan/is_data_science_for_me/,Dragonstark,1452352300,"I'm looking into a master's degree and came across data science. 
+I've always dreamed about doing something with technology and computers for a career.
+
+I've read up on many websites and watched several videos on the subject, but I'm not too sure about whether this is the right choice.
+
+First of all, is it useful to obtain a degree in data science or is it seen as a waste and money-grabbing for universities. As it will be costly to get this degree, I don't want to waste my time and money into this, if other degrees are more worthwhile.
+
+What jobs can I expected to apply for afterwards and what would I be doing once I'm a data scientist?
+
+Thanks for your help!",22,4
+74,2016-1-10,2016,1,10,0,406m3w,[datascience] My ex-girlfriend cheated on me with a friend and I decided to post a link on its page with erotic pictures,https://www.reddit.com/r/datascience/comments/406m3w/datascience_my_exgirlfriend_cheated_on_me_with_a/,datstho88395,1452352706,,1,0
+75,2016-1-10,2016,1,10,1,406v31,Help: Building a model based on heuristics,https://www.reddit.com/r/datascience/comments/406v31/help_building_a_model_based_on_heuristics/,SpecialKtime,1452356608,"I am a newb in the ways of data science, and could use a nudge in the right direction.  I am attempting to model a very large dataset based on heuristics drawn from subject matter expertise as a hard truth data set is not available. I know this is not anywhere near ideal, but is it even possible as an exercise?  Essentially I need to pick a 'winner' based on 15-20 factors where, for example, logic would tell me that the higher factor #1 is, the more likely it would be the 'winner'.  I understand this may barely be considered data science, but if this is somewhat possible, does anyone have a link or even a topic I could google that would point me in the right direction?  ",2,0
+76,2016-1-10,2016,1,10,2,40737p,"So many researchers, practitioners and reporters appear to be utterly astounded when they contemplate big data.",https://www.reddit.com/r/datascience/comments/40737p/so_many_researchers_practitioners_and_reporters/,Jofferylan4,1452359789,,0,6
+77,2016-1-10,2016,1,10,5,407v41,48 Questions to Detect Fake Data Scientists,https://www.reddit.com/r/datascience/comments/407v41/48_questions_to_detect_fake_data_scientists/,vincentg64,1452370538,,0,1
+78,2016-1-10,2016,1,10,5,407yt1,My Top Security Data Science Predictions for 2016,https://www.reddit.com/r/datascience/comments/407yt1/my_top_security_data_science_predictions_for_2016/,Davisswi1Abigail,1452371925,,0,3
+79,2016-1-10,2016,1,10,14,409z5p,Data Science Question,https://www.reddit.com/r/datascience/comments/409z5p/data_science_question/,tcharnes1,1452402678,"I was wondering if learning in this John Hopkins University, Yelp, Swiftkey Coursera specialization would be enough to get a job or internship in the field?
+
+I'm planning on learning more after, just need a job/internship to pay off more education. Thanks in advance!
+
+https://www.coursera.org/specializations/jhu-data-science?utm_source=gg&amp;utm_medium=sem&amp;device=c&amp;keyword=coursera%20data%20science&amp;matchtype=e&amp;device=c&amp;network=g&amp;devicemodel=&amp;adpostion=1t1&amp;hide_mobile_promo&amp;gclid=Cj0KEQiA_MK0BRDQsf_bsZS-_OIBEiQADPf--pGcBqDTb9zfRwQywu6wd2hHjSbTWVXwVEyB0YBiw0UaAgC38P8HAQ",23,0
+80,2016-1-10,2016,1,10,22,40b850,Become a data scientist,https://www.reddit.com/r/datascience/comments/40b850/become_a_data_scientist/,bond5611,1452431342,,0,1
+81,2016-1-11,2016,1,11,0,40bnv9,"BigData framework, library, and example weekly roundup - Jan. 10, 2016",https://www.reddit.com/r/datascience/comments/40bnv9/bigdata_framework_library_and_example_weekly/,stkim1,1452439398,,0,1
+82,2016-1-11,2016,1,11,4,40clp2,Rocketgraph is a marketplace where you can sell cloud powered reports and analytics.,https://www.reddit.com/r/datascience/comments/40clp2/rocketgraph_is_a_marketplace_where_you_can_sell/,dnoparavandis,1452452452,,0,2
+83,2016-1-11,2016,1,11,4,40cojc,Need to learn Mathematics behind data science properly,https://www.reddit.com/r/datascience/comments/40cojc/need_to_learn_mathematics_behind_data_science/,Learningdatascience,1452453454,"Hi guys, 
+I'm using a throwaway to ask this question, coz my present employers are here on Reddit. So, I know a bit of data science, I have participated in a few Kaggle competitions, at times got in top 10 ranks in some small competitions (700 participants). But I think I don't have the key element it takes to become a data scientist i.e. Mathematics. I know stats well, but I am not good at this stuff I see on internet, like this completely went over my head http://engineering.flipboard.com/2015/05/scaling-convnets/. 
+How do I become like them? I know Naive Bayes, Decision Trees, etc and can implement them to get some results, but I feel like shooting in the dark. 
+
+I need a mathematics reference to learn step by step:
+1. Probability
+2. Algorithmic mathematics that goes behind these algorithms.
+
+What would you guys recommend? I don't live in a rich country, so my options are limited to online videos and books. 
+
+Your help will be much appreciated. :)
+Thanks!
+
+EDIT: Thank you folks for the awesome responses! I will make sure to update this thread once I become a data scientist. Thanks again! Your responses mean't a lot to me! ",16,51
+84,2016-1-11,2016,1,11,7,40dkqh,"Will a part time program , eg(General Assembly)help me transition from Project Management /Consulting to a Data scientist.",https://www.reddit.com/r/datascience/comments/40dkqh/will_a_part_time_program_eggeneral_assemblyhelp/,ppk2212,1452464686,Background -I have a computer science 4 year bachelor and have been doing Management consulting for the past 11years and exploring options to do a career transition.,6,0
+85,2016-1-11,2016,1,11,7,40dmjw,DataScience career Overrated?,https://www.reddit.com/r/datascience/comments/40dmjw/datascience_career_overrated/,ppk2212,1452465310,"1)With so many degree courses and bootcamp -is it really true that demand is more than the supply? 
+2)Are people really just getting caught by the Mckinsey report on Big 3)Data and the  HBR calling it the Sexiest job of 21st century?
+4)Is it something can one can learnt on Boot camps ??",15,11
+86,2016-1-11,2016,1,11,7,40dn87,Take a brief survey to help create example data for new R package to process Survey Monkey exports,https://www.reddit.com/r/datascience/comments/40dn87/take_a_brief_survey_to_help_create_example_data/,datatitian,1452465561,"I'm creating the monkeywrangler R package which will streamline reading, summarizing, and visualizing data exported from Survey Monkey. The package is able to recognize 6 question formats despite the lack of metadata in the Survey Monkey export files and provide appropriate summary statistics and visualizations based on the format. It also supports pooling multiple export files to show differences in survey responses from multiple time points or groups. Here are a couple example plots from the package: [1](https://raw.githubusercontent.com/wmurphyrd/MultipleResponseR/master/img/numblock_ex.png), [2](https://raw.githubusercontent.com/wmurphyrd/MultipleResponseR/master/img/mr_ex.png). 
+
+I need help in creating example data that I can freely distribute for the testing and vignettes. **If you could take this [8 question survey on Survey Monkey](https://www.surveymonkey.com/r/MQF8DW5), I would greatly appreciate it.** The survey is about food because I'm a dietitian and that's all that I think about. 
+
+The package [is on github](https://github.com/wmurphyrd/monkeywrangler). 
+
+Also, this is not my usual reddit account because I'm linking to my GitHub which can easily be traced back to my identity. ",1,0
+87,2016-1-11,2016,1,11,8,40dxol,Jupyter Notebook 4.1 released,https://www.reddit.com/r/datascience/comments/40dxol/jupyter_notebook_41_released/,Eazu,1452469303,,3,10
+88,2016-1-11,2016,1,11,11,40en2e,"The Authors of ""The Elements of Statistical Learning"" are teaching a free course hosted on Stanford Online that begins Tuesday",https://www.reddit.com/r/datascience/comments/40en2e/the_authors_of_the_elements_of_statistical/,henny_mac,1452479354,,4,65
+89,2016-1-11,2016,1,11,13,40ezge,[Question] Versatility of computational biology,https://www.reddit.com/r/datascience/comments/40ezge/question_versatility_of_computational_biology/,inbrsuan,1452484802,"I have a BS in biochemistry and am in the process of transitioning into data science. To keep options open, I decided to pursue a MS in data science/scientific computing/computational science (thesis option) instead of pursuing one in comp. bio. 
+
+But, due to my experience in genomics research, I'm afraid that I will be only competitive to enter a program if I write my thesis in biological sciences.
+
+First, is this the right approach or is it preferred to specialize? Is it possible to transition into other fields like cybersecurity, AI/machine learning, finance, neural net, database architecture? If so how can I find which topics are common to these fields?
+
+Another option would be to pursue a degree in math and take electives related to a specific field, but I don't know how much more marketable a MS in math is compared to one in data science.
+
+Thank you all for your time and help.",3,1
+90,2016-1-11,2016,1,11,16,40fs5g,Data Science Interview Questions for Top Tech Companies,https://www.reddit.com/r/datascience/comments/40fs5g/data_science_interview_questions_for_top_tech/,margarettecrystal,1452498756,,0,1
+91,2016-1-11,2016,1,11,20,40ggt2,Quick Social Media Sentiment Analysis with VADER,https://www.reddit.com/r/datascience/comments/40ggt2/quick_social_media_sentiment_analysis_with_vader/,ml4u,1452513125,,0,1
+92,2016-1-11,2016,1,11,22,40grby,[datascience],https://www.reddit.com/r/datascience/comments/40grby/datascience/,neappfunc95789,1452519053,,0,1
+93,2016-1-12,2016,1,12,2,40hu10,I need help with API's,https://www.reddit.com/r/datascience/comments/40hu10/i_need_help_with_apis/,not_an_allien,1452533888,"Can someone please explain to me what do I need to know to be able to extract data from API's, I tried searching but there seems to be many techniques( languages/packages/libraries) and I got overwhelmed xD, I need someone to tell me what I should learn and where can I learn it to be able to extract data from an API. ",3,0
+94,2016-1-12,2016,1,12,4,40iipc,JHU Data Science Team doing AMA in 5 mins!,https://www.reddit.com/r/datascience/comments/40iipc/jhu_data_science_team_doing_ama_in_5_mins/,xIAmSpartacusx,1452541997,,0,11
+95,2016-1-12,2016,1,12,5,40ira0,New tools (Octave &amp; Scilab) in FlyElephant and announcement of webinars,https://www.reddit.com/r/datascience/comments/40ira0/new_tools_octave_scilab_in_flyelephant_and/,flyelephant,1452544797,,0,1
+96,2016-1-12,2016,1,12,6,40iwyq,Jason Atchley : Legal Tech News : 5 eDiscovery New Years Resolutions! | Jason Atchley,https://www.reddit.com/r/datascience/comments/40iwyq/jason_atchley_legal_tech_news_5_ediscovery_new/,jason_atchley,1452546680,,0,1
+97,2016-1-12,2016,1,12,7,40j7dn,Model validation vs modeling,https://www.reddit.com/r/datascience/comments/40j7dn/model_validation_vs_modeling/,Bigchip01,1452550303,Which job role do you think gives more value as a developing data scientist? What are the main differences between the 2? Which will get paid more later? Thanks!,4,0
+98,2016-1-12,2016,1,12,7,40j9lj,Tips for my upcoming project,https://www.reddit.com/r/datascience/comments/40j9lj/tips_for_my_upcoming_project/,[deleted],1452551068,[deleted],10,0
+99,2016-1-12,2016,1,12,7,40jdbw,How Germany's manufacturing companies are moving into data and services,https://www.reddit.com/r/datascience/comments/40jdbw/how_germanys_manufacturing_companies_are_moving/,IndiaMars,1452552317,,0,4
+100,2016-1-12,2016,1,12,7,40jetv,Data Analyst Program Question,https://www.reddit.com/r/datascience/comments/40jetv/data_analyst_program_question/,duthrowayaccmeng,1452552843,"B.Sc Biology (Environ + Ecology specialsation) here graduate, quick question about a data science/analyst program. I plan on entering a masters program in Applied Math &amp; Statistics, Biostatistics spec. for Spring semester next year, but I recently got an offer to join this program (12-weeks): 
+
+http://rsquareedge.com/program-overview/ 
+
+Has anyone here started their career through a similar program? Would it be worth forsaking the masters (until a later date) and going through with this? Thanks for the help. ",2,1
+101,2016-1-12,2016,1,12,13,40ks8z,are data certificate programs worth it?,https://www.reddit.com/r/datascience/comments/40ks8z/are_data_certificate_programs_worth_it/,bootleg_pants,1452571507,"Hi guys, I was just wondering if anyone' s had any experiences or thoughts on certificate programs for data analytics like the one below (I understand this is a ""data science"" subreddit, but I don't see one for just ""data analytics""?). 
+
+
+
+[Ryerson Certificate in Data Analytics, Big Data and Predictive Analytics](http://ce-online.ryerson.ca/ce/default.aspx?id=3668)
+
+[University of Toronto Certificate in Management of Enterprise Data Analytics](http://learn.utoronto.ca/courses-programs/business-professionals/acourses/management-of-enterprise-data-analytics)
+
+Looking at previous posts, I know this isn't enough to become a data scientist. However, 
+
+-is it sufficient to transition into a data analyst job (assuming a background in an unrelated engineering field)? 
+
+
+-is it a good option for testing the waters before jumping in for a master's program, provided it is geared in the right direction (e.g. the first program seems more general whereas the second one seems to be geared towards business analytics)
+
+
+
+
+any feedback is much appreciated!
+
+
+edit: format fixes",14,20
+102,2016-1-12,2016,1,12,13,40kuj6,Modeling the Probability of a Strikeout for a Batter/Pitcher Matchup,https://www.reddit.com/r/datascience/comments/40kuj6/modeling_the_probability_of_a_strikeout_for_a/,carmichael561,1452572449,,0,3
+103,2016-1-12,2016,1,12,15,40l8v4,Simple question: Do you use Python 2 or 3 for your Data Science work (if you use python)?,https://www.reddit.com/r/datascience/comments/40l8v4/simple_question_do_you_use_python_2_or_3_for_your/,Zrob,1452578900,Title. Was discussing with someone. Personally I use python 2,14,9
+104,2016-1-12,2016,1,12,15,40lb30,The Hottest Weight Loss Solution! I lost weight by 15 lb share their results! And in bed I became a stallion! [datascience],https://www.reddit.com/r/datascience/comments/40lb30/the_hottest_weight_loss_solution_i_lost_weight_by/,amtran63110,1452579996,,0,1
+105,2016-1-12,2016,1,12,19,40lwnr,I implemented a module in python for oversampling skewed datasets. Would love to hear your thoughts on it!,https://www.reddit.com/r/datascience/comments/40lwnr/i_implemented_a_module_in_python_for_oversampling/,xristos_forokolomvos,1452592964,"It is an implementation of the ADASYN algorithm (link to paper: bit.ly/22KgAnP) and is designed to work along the scikit-learn API. I ran into the need of an oversampling module that focuses more on examples that are harder to classify, and I said, what the heck... I will implement it on my own. Feel free to use it in your projects and if you find any bugs just open an issue :)
+
+EDIT: forgot the link: https://github.com/stavskal/ADASYN
+
+EDIT2: Don't forget to star if you find it useful ;)",8,3
+106,2016-1-12,2016,1,12,23,40mjhj,"Continually updated Data Science IPython Notebooks: Deep learning, Spark, Hadoop MapReduce, Kaggle, scikit-learn, matplotlib, pandas, NumPy, AWS, Python essentials, and various command lines",https://www.reddit.com/r/datascience/comments/40mjhj/continually_updated_data_science_ipython/,[deleted],1452607424,[deleted],0,5
+107,2016-1-13,2016,1,13,0,40msp8,"Continually updated Data Science IPython Notebooks: Deep learning, Spark, Hadoop MapReduce, Kaggle, scikit-learn, matplotlib, pandas, NumPy, AWS, Python essentials, and various command lines",https://www.reddit.com/r/datascience/comments/40msp8/continually_updated_data_science_ipython/,[deleted],1452611752,[deleted],0,5
+108,2016-1-13,2016,1,13,1,40mzyw,Trying to figure out where to start,https://www.reddit.com/r/datascience/comments/40mzyw/trying_to_figure_out_where_to_start/,namer98,1452614810,"I want to get into the Data Science world. I have a math degree (not applied) and a lot of experience doing basic analysis in MS Excel. I know some basic stats and I am doing an EdX course in Python now. Am I on a good track with that? What should I focus on?
+
+Thanks",22,2
+109,2016-1-13,2016,1,13,1,40n1oy,Normalise for Logistic Regression,https://www.reddit.com/r/datascience/comments/40n1oy/normalise_for_logistic_regression/,BladderPython,1452615499,"My objective is to determine the variable/s that influence a binary shift (2 classifications 0, 1). For this I have chosen logistic regression in R. From my understanding I look at the summary output to see which values are significant (&lt;0.05) and then look at the exp(coefficient) to see how much of a ""weighting"" these significant variables have.
+
+When I chose to scale the variables, I get a coefficient of 0.25, however when I chose not to scale I get a coefficient of 0.02. Can anyone explain the best way to approach this problem?
+
+    df[ ,21:22] &lt;- scale(df[ ,21:22])
+
+    glm.logit &lt;- glm(df$x ~  df$y + df$z,
+    family = binomial(""logit""))
+
+    summary(logreg)
+
+    Coefficients:
+            Estimate Std. Error z value Pr(&gt;|z|)    
+    (Intercept)   -2.898      0.126  -22.99   &lt;2e-16 ***
+    df$y     0.257      0.109    2.35    0.019 *  
+    df$z   -0.104      0.184   -0.56    0.573 
+",7,1
+110,2016-1-13,2016,1,13,1,40n69j,Looking for resources about Data science/BI etc.,https://www.reddit.com/r/datascience/comments/40n69j/looking_for_resources_about_data_sciencebi_etc/,zcrnivec,1452617235,"Hello,
+
+so this year I have to do my diploma thesis and I am wondering if you have any great and useful resources about data science, business intelligence, business analytics, ETL and so on.
+
+Thanks for help!",2,0
+111,2016-1-13,2016,1,13,2,40nase,"BAE Systems seeks a Group Strategy Senior Manager to join their team in London, UK",https://www.reddit.com/r/datascience/comments/40nase/bae_systems_seeks_a_group_strategy_senior_manager/,MeganWellson,1452618830,,0,1
+112,2016-1-13,2016,1,13,2,40ncon,Python 3 Support in Jupyter,https://www.reddit.com/r/datascience/comments/40ncon/python_3_support_in_jupyter/,gregory_k,1452619487,,0,1
+113,2016-1-13,2016,1,13,6,40ogmj,"What is your best, ""Hmmm... That's interesting..."" moment?",https://www.reddit.com/r/datascience/comments/40ogmj/what_is_your_best_hmmm_thats_interesting_moment/,Poor_cReddit,1452633227,While mucking around in data I am sure we all have had a few of these moments where we identified something critical (to us at least). What is your best example of this?,3,9
+114,2016-1-13,2016,1,13,7,40oy8z,The Skynet is Falling!: Which Data Science Outsider are You?,https://www.reddit.com/r/datascience/comments/40oy8z/the_skynet_is_falling_which_data_science_outsider/,david1halberstan,1452639321,,0,1
+115,2016-1-13,2016,1,13,10,40po39,Choosing an Algorithm,https://www.reddit.com/r/datascience/comments/40po39/choosing_an_algorithm/,theycallmedumpsini,1452649320,How do you choose between the many algorithms available to solve a given problem -- e.g. How do I decide whether to use random forests or nearest neighbors for a classification problem?,10,3
+116,2016-1-13,2016,1,13,10,40pqlr,Why can't I find a job?,https://www.reddit.com/r/datascience/comments/40pqlr/why_cant_i_find_a_job/,confusedDSjobseeker,1452650288,"Hi r/datascience
+
+I've been into data science/analytics since my 2nd year of undergrad when I first learned about it. To prepare myself, I ended up double majoring in Computer Science and Economics from a top Canadian university. I am currently doing a masters in data science degree from a US top 30 school. 
+
+I did two summer internships during undergrad, one with a big US bank and the other with a insurance company. Both of them using SAS and SQL. I also have a lot of experience with python and R from my undergrad/graduate course works and research. 
+
+However, as I start to look for jobs, I've realized that Data Scientist jobs are mostly senior level and requires 5+ years of experience, while entry level data jobs are mostly business analyst doing SQL. The few junior data scientist positions I've applied to all had tons of applicants, and I don't hear back from many.
+
+I am really confused. I thought I prepared myself well to enter this field but the reality is much different than I imagined, and it's been really discouraging. Does anyone have any advice on how I should proceed with my job search? Should I just start off with a business analyst job even though my whole master's degree was about R/Python/ML? 
+
+edit: Wow, thank you all for your helpful comments and insights! If I can't find anything soon I guess I'll just have to start looking for analyst/BI until I gain more experience. It's just been disappointing since I did have jobs(not DS) lined up after my undergrad but I really wanted to do data science so I pursued a master's for it instead of working..",52,18
+117,2016-1-13,2016,1,13,12,40q3qu,Data Scientists Jobs in Top Firms,https://www.reddit.com/r/datascience/comments/40q3qu/data_scientists_jobs_in_top_firms/,analyticscosm,1452655503,,0,1
+118,2016-1-13,2016,1,13,13,40qbun,Thoughts on the UW Data Science certificate program?,https://www.reddit.com/r/datascience/comments/40qbun/thoughts_on_the_uw_data_science_certificate/,pfui,1452658925,"Hi all, I'm considering applying for the [UW Certificate in Data Science](http://www.pce.uw.edu/certificates/data-science.html) but can't seem to find any reviews of the program online. Could anyone who's familiar with the program share their feedback on the quality and relevance of the courses? It's quite a time investment (8 months!) so I'm looking for some insight on whether or not it's worth doing before I jump in. Thanks in advance!",4,5
+119,2016-1-13,2016,1,13,14,40qndu,I am looking for challenging data analytics problems to solve,https://www.reddit.com/r/datascience/comments/40qndu/i_am_looking_for_challenging_data_analytics/,HungryAnalyst,1452663982,"Hi, I am looking for new business analytics problems (eg:prediction, exploratory analysis, etc.) to solve for my capstone project. I would also like to work in collaboration with some company. Please contact me if you have any interesting projects.",3,2
+120,2016-1-13,2016,1,13,23,40s6cc,Bokeh 0.11 ist out!,https://www.reddit.com/r/datascience/comments/40s6cc/bokeh_011_ist_out/,cault,1452694255,,3,17
+121,2016-1-14,2016,1,14,4,40tjji,How We Approached The Allen A.I. Challenge on Kaggle,https://www.reddit.com/r/datascience/comments/40tjji/how_we_approached_the_allen_ai_challenge_on_kaggle/,gregory_k,1452712145,,0,1
+122,2016-1-14,2016,1,14,6,40u5al,Data analysis exam for politics job,https://www.reddit.com/r/datascience/comments/40u5al/data_analysis_exam_for_politics_job/,[deleted],1452719232,[deleted],2,3
+123,2016-1-14,2016,1,14,7,40ukbm,Business Intelligence for Small Businesses Customer Experience,https://www.reddit.com/r/datascience/comments/40ukbm/business_intelligence_for_small_businesses/,vanbelen14,1452724689,,0,1
+124,2016-1-14,2016,1,14,7,40um1i,Business Intelligence Value Chain,https://www.reddit.com/r/datascience/comments/40um1i/business_intelligence_value_chain/,vanbelen14,1452725304,,0,1
+125,2016-1-14,2016,1,14,8,40uodb,Changing the data visualization culture,https://www.reddit.com/r/datascience/comments/40uodb/changing_the_data_visualization_culture/,vanbelen14,1452726155,,0,1
+126,2016-1-14,2016,1,14,8,40upsr,Julia Statistics Roadmap,https://www.reddit.com/r/datascience/comments/40upsr/julia_statistics_roadmap/,tandim12,1452726683,,0,1
+127,2016-1-14,2016,1,14,8,40uq70,"Silk, a new tool for visualization",https://www.reddit.com/r/datascience/comments/40uq70/silk_a_new_tool_for_visualization/,vanbelen14,1452726824,,0,1
+128,2016-1-14,2016,1,14,8,40us2k,Julia Statistics Roadmap,https://www.reddit.com/r/datascience/comments/40us2k/julia_statistics_roadmap/,tandim12,1452727519,,0,1
+129,2016-1-14,2016,1,14,9,40v2xm,Is self-service computing and analytics software really important?,https://www.reddit.com/r/datascience/comments/40v2xm/is_selfservice_computing_and_analytics_software/,vanbelen14,1452731688,,0,1
+130,2016-1-14,2016,1,14,9,40v57t,Can data science make the scientific method obsolete?,https://www.reddit.com/r/datascience/comments/40v57t/can_data_science_make_the_scientific_method/,vanbelen14,1452732646,,0,1
+131,2016-1-14,2016,1,14,10,40v6p5,How can Machine Learning be useful for analyzing video?,https://www.reddit.com/r/datascience/comments/40v6p5/how_can_machine_learning_be_useful_for_analyzing/,vanbelen14,1452733267,,0,1
+132,2016-1-14,2016,1,14,10,40v82u,What are the leading BI tools?,https://www.reddit.com/r/datascience/comments/40v82u/what_are_the_leading_bi_tools/,vanbelen14,1452733864,,0,1
+133,2016-1-14,2016,1,14,10,40vc62,What is the best database system for BI?,https://www.reddit.com/r/datascience/comments/40vc62/what_is_the_best_database_system_for_bi/,vanbelen14,1452735574,,0,1
+134,2016-1-14,2016,1,14,10,40vdpw,How important are dashboards and pivot charts?,https://www.reddit.com/r/datascience/comments/40vdpw/how_important_are_dashboards_and_pivot_charts/,vanbelen14,1452736190,,0,1
+135,2016-1-14,2016,1,14,11,40vghk,"Hi reddit, I built a little profiling plugin for pandas and would like your comments before I post it elsewhere",https://www.reddit.com/r/datascience/comments/40vghk/hi_reddit_i_built_a_little_profiling_plugin_for/,jos_pol,1452737293,"I was tired of doing the same profiling steps all over again and again so I automated my thinking to do exactly as I like it. It is built using Python 2.7, pandas, matplotlib, Bootstrap and the Jupyter notebook (formerly IPython)
+
+Code can be found here:
+https://github.com/JosPolfliet/pandas-profiling
+
+And a demo report here:
+http://nbviewer.ipython.org/github/JosPolfliet/pandas-profiling/blob/master/examples/meteorites.ipynb
+
+I would very much appreciate any comments you have!",14,20
+136,2016-1-14,2016,1,14,11,40vhm9,"[Career Advice] I am in the middle of my CS degree, how to stir into Data?",https://www.reddit.com/r/datascience/comments/40vhm9/career_advice_i_am_in_the_middle_of_my_cs_degree/,RollinDyno,1452737763,"I was always lured by the power of data analytics, but I mistakenly thought Computer Science would be a good starting point.
+
+I have been visiting the LinkedIn profile of various successful Data Analysts in the industry and they all seem to have started with a more numerical undergrad like Economics, Statistics or pure Maths.
+
+Granted, it's too late for me to switch majors (I'm UK based), what would be a good strategy to start gaining the necessary skills? ",25,5
+137,2016-1-14,2016,1,14,11,40vkhe,Udacity Promises Refunds if You Dont Get a Job after its Machine Learning Nanodegree. Any thoughts?,https://www.reddit.com/r/datascience/comments/40vkhe/udacity_promises_refunds_if_you_dont_get_a_job/,spring_m,1452738948,,10,20
+138,2016-1-14,2016,1,14,13,40w0az,I don't recall what this dataset from my computer is about. Anyone wanna take a squiz? Behavioural economics related somehow?,https://www.reddit.com/r/datascience/comments/40w0az/i_dont_recall_what_this_dataset_from_my_computer/,MelbourneAustralia,1452745490,,1,1
+139,2016-1-14,2016,1,14,19,40wzvt,Free Download - Big Data for Dummies,https://www.reddit.com/r/datascience/comments/40wzvt/free_download_big_data_for_dummies/,OFrost,1452765878,,0,0
+140,2016-1-14,2016,1,14,21,40xesb,We developed a new peer-to-peer file system [X-Post from /r/DataHoarder],https://www.reddit.com/r/datascience/comments/40xesb/we_developed_a_new_peertopeer_file_system_xpost/,[deleted],1452775394,[deleted],0,0
+141,2016-1-14,2016,1,14,22,40xnfq,Competing for talent using people analytics,https://www.reddit.com/r/datascience/comments/40xnfq/competing_for_talent_using_people_analytics/,jonfla,1452779819,,1,6
+142,2016-1-15,2016,1,15,1,40y6aa,Yahoo Releases the Largest-ever Machine Learning Dataset for Researchers,https://www.reddit.com/r/datascience/comments/40y6aa/yahoo_releases_the_largestever_machine_learning/,srkiboy83,1452787241,,0,6
+143,2016-1-15,2016,1,15,1,40y8zs,Discovering The Social Connections: Data Mining Bipartite Graphs,https://www.reddit.com/r/datascience/comments/40y8zs/discovering_the_social_connections_data_mining/,musing5225,1452788260,,0,1
+144,2016-1-15,2016,1,15,1,40ybfz,"[Hiring] Data Scientist - Biotech in Cambridge, MA",https://www.reddit.com/r/datascience/comments/40ybfz/hiring_data_scientist_biotech_in_cambridge_ma/,ijmcf,1452789137,"I am searching for a talented data scientist to join my group at a leading Biotech company in Cambridge, MA. The position will involve working on a variety of challenging problems that will help progress the scientific platform of the company as a whole as well as individual therapeutic programs. 
+
+I have a full job description, but in short I'm looking for a PhD level candidate with rock-solid data modeling/mining, (bio)statistics, Python (and other), and communication skills. 
+
+Message me if interested and qualified.
+
+Apologies if it's not appropriate to post a job listing directly to this subreddit, but it seemed the obvious place to start. Please let me know if I need to modify / move / delete this post. ",4,14
+145,2016-1-15,2016,1,15,4,40z3w9,Using a mixture model to categorize blood glucose changes over thanksgiving,https://www.reddit.com/r/datascience/comments/40z3w9/using_a_mixture_model_to_categorize_blood_glucose/,Iamnotanorange,1452799049,,2,1
+146,2016-1-15,2016,1,15,7,4101cy,Identity Management for Multi-Tiered Big Data Environments,https://www.reddit.com/r/datascience/comments/4101cy/identity_management_for_multitiered_big_data/,KamrynnaAdyson5,1452810944,,0,3
+147,2016-1-15,2016,1,15,8,4106e6,Question: Using Regular Expression to Extract Data,https://www.reddit.com/r/datascience/comments/4106e6/question_using_regular_expression_to_extract_data/,geojs,1452812747,"I'm trying to map out the location of various New Deal Projects and came across a number of datasets in this format: http://viewshare.org/views/kcarter/fdr-librarys-list-of-new-deal-projects-part-2/
+
+I'm trying to find a way just to extract one or two of the data subsets (town/city and state) and I don't know exactly how to do that using regular expressions.
+
+ If anyone has some good advice or know of a better program to use please let me know!",3,1
+148,2016-1-15,2016,1,15,9,410g9w,"Data Shows 100% Of Living Beings On This World Aprove Of The Three Sciences Race,Spaceships,Drugs",https://www.reddit.com/r/datascience/comments/410g9w/data_shows_100_of_living_beings_on_this_world/,WhiteHarem,1452816516,[removed],0,1
+149,2016-1-15,2016,1,15,15,411vzb,Data Analysis Question: Excel to JAVA,https://www.reddit.com/r/datascience/comments/411vzb/data_analysis_question_excel_to_java/,eyeofthe_unicorn,1452838879,"Hello, I am attempting to perform analysis on a very complex Excel data sheet and I could use some guidance. A little background...
+
+Input: Observational data taken on 7 animals and their partner states. The data was taken in 10 second intervals, divided into sections of the enclosure, and coded by a letter. For example, if X and Y were in a tight group, they would be coded in ""Main"" as XY (or YX) for however long their partnership occurred. 
+
+Desired Output: I need gross tallies. I do not need to account for every single possible pairing as I am looking for specific trends and their frequencies. For example, X and R belong to different groups and I do not need to find their tally but X and Y are a common pair. 
+
+Issues: 
+- Usually I would use MATLAB for data analysis but as MATLAB cannot take letters, I would need to turn all of this into a numeric matrix. The problem with that is, not only are animals paired like this (XY) but they are also paired at each other (X&gt;Y) for aggressive interactions and in numeric form, MATLAB would treat that as an equality statement (or correct me if I am wrong). In addition, it would take a lot of fucking time to convert this data into MATLAB readable data. 
+-I do not know Python and do not have time to pick it up at this time. 
+
+Question: Can I use JAVA? I know JAVA and I feel like the code to find it would be relatively straightforward. (if(XY || YX) count)...etc. I understand that you can create and read Excel files in JAVA but either I did not understand or did not see how one can read a pre-existing file and analyze it through JAVA. 
+
+Any help or guidance would be appreciated at this point. ",6,1
+150,2016-1-15,2016,1,15,22,41352e,Masters advice. Msc Data Science UK,https://www.reddit.com/r/datascience/comments/41352e/masters_advice_msc_data_science_uk/,acemcs,1452865520,"Hi Reddit
+
+Can anyone offer any advice on UK masters degrees in data science? I have been working a data analyst role for a number of years (mainly SQL/SQL server based work) as well as following various MOOCs (R/Python) and am now looking into an MSc to progress hopefully into a data science role in the future.
+
+I'm leaning heavily towards the [MSc Data Analytics at Birkbeck](http://www.dcs.bbk.ac.uk/study-with-us/postgraduate-specialist/msc-data-analytics) as the modules are taught in the evening and I could most easily maintain my full-time job. I'm also considering [MSc Data Science at Goldsmiths](http://www.gold.ac.uk/pg/msc-data-science/) and [MSc Big Data Science at Queen Mary](http://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/121386.html)
+
+Does anyone have any experience with these courses or can offer an opinion of the module content? Would each of them give good/similar groundings in data science/machine learning techniques to pursue a career in the area? Does the title of the degree (e.g. MSc Data Analytics as opposed to MSc Data Science) mean anything at all to employers if the content is the same?
+
+Any advice is very much appreciated.",19,6
+151,2016-1-16,2016,1,16,3,4148r7,Mini AI app using TensorFlow and Shiny,https://www.reddit.com/r/datascience/comments/4148r7/mini_ai_app_using_tensorflow_and_shiny/,yukiegosapporo,1452881167,,0,1
+152,2016-1-16,2016,1,16,3,414b6d,A course like Stat111 from Harvard?,https://www.reddit.com/r/datascience/comments/414b6d/a_course_like_stat111_from_harvard/,mlwhiz,1452882020,I have already completed Stat110 and it was pretty interesting. Now i am looking to complete the material for STAT111 but couldn't find any resource. I learn best by watching lectures. Could someone please guide me to lecture resources if any on web?,1,4
+153,2016-1-16,2016,1,16,4,414nio,coursera data science specialization worth the money?,https://www.reddit.com/r/datascience/comments/414nio/coursera_data_science_specialization_worth_the/,segelah,1452886185,is it worth it to spend the money on the specialization to get a certificate? do hiring managers / companies care about the certificate? anyone have experience with this?,7,1
+154,2016-1-16,2016,1,16,4,414pek,List of Data Science Resources,https://www.reddit.com/r/datascience/comments/414pek/list_of_data_science_resources/,Eaglefan928,1452886838,"Hey everyone, over the past couple of months I have compiled a list of resources by reading this subreddit and asking around. Hopefully, this list helps somewhat even though there have been a ton of similar posts. If anyone has anything to add, I would really appreciate it!!
+
+**Math**
+
+1)Calc I-III
+
+Resources: Look up Professor Leonard's videos on Youtube ( he is the best resource for calc I and II IMO), Paul's Notes, and PatrickJMT's youtube account. Paul's Notes has a bunch of practice sets with answers that I can try to find if anyone is interested. 
+
+4)Linear Algebra ( Free textbooks: *Linear Algebra* from UC Davis, *Linear Algebra* from Saint Michael's College, and *Linear Algebra Done Wrong*) 
+
+**Statistics**
+Foundation:
+
+1) Intro to Statistics 
+
+    a)(https://www.openstaxcollege.org/textbooks/introductory-statistics)
+
+    b) Stanford's online Statistical Learning with R (started this week and is free)
+
+2) Probability (preferably using R)
+
+Books (http://ipsur.org/index.html &amp; http://publicifsv.sund.ku.dk/~pd/ISwR.html)
+
+3) Bonus: Econometrics
+
+**R**
+
+1) http://www.ats.ucla.edu/stat/r/
+
+2) http://tryr.codeschool.com/
+
+3) http://swirlstats.com/
+
+4)https://www.datacamp.com/ 
+
+**Python
+Intro:** 
+
+1)Automate the Boring Stuff Book/ Udemy course (Make sure to find a coupon for the class, the book is free online)
+
+2)Programming For Everyone (Michigan University)
+
+3) Rice University- An Introduction to Interactive Programming in Python (there is a part one and two)
+
+4)Introduction to Computer Science and Programming Using Python(MIT course on edx) - maybe a little more advanced.
+
+
+**Data Analysis**
+
+1)Data Science Class at Harvard (CS 109/ Stat 221)
+
+2)Introduction to Computational Thinking and Data Science(MIT course on edx) follow-up to the other MIT course for 
+python 
+
+3) Data Analysis and Statistical Inference (coursera)
+
+4) Codeacademy for Data Scientists 
+
+https://www.dataquest.io/
+
+**Machine Learning**
+
+1)Pretty much everyone recommends starting with Andrew Ng's class
+
+2)http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/
+
+3) Neural Networks for Machine Learning (Coursera)
+
+**SQL**
+
+1) SAMS Teach Yourself SQL in 10 Minutes
+
+2) Khan Academy course for introductory SQL 
+
+3) W3Schools
+
+
+**Extra Resources**:
+
+1) Join meet-up groups. For example, I just joined a group called DataPhilly
+
+2) The book Data Science from Scratch
+
+3) Finding data: data.gov, r/datasets, R10 - Yahoo News Feed dataset, version 1.0 (1.5TB), http://archive.ics.uci.edu/ml/datasets.html
+
+4) 100 free data science books:
+
+http://www.learndatasci.com/free-books/
+
+EDIT: Added more resources that people suggested. ",18,79
+155,2016-1-16,2016,1,16,5,414zps,Test drive big data for free with AWS and MapR,https://www.reddit.com/r/datascience/comments/414zps/test_drive_big_data_for_free_with_aws_and_mapr/,reliv,1452890479,,0,2
+156,2016-1-16,2016,1,16,7,415j5q,The Wrong (and Right) Way to Engage Data Science in Security Analytics,https://www.reddit.com/r/datascience/comments/415j5q/the_wrong_and_right_way_to_engage_data_science_in/,Daniellerussy,1452897826,,0,1
+157,2016-1-16,2016,1,16,9,415z7l,"Here's a free GIS tutorial on downloading, cleaning, analyzing, and mapping US census data.",https://www.reddit.com/r/datascience/comments/415z7l/heres_a_free_gis_tutorial_on_downloading_cleaning/,Ardit-Sulce,1452904274,,0,27
+158,2016-1-16,2016,1,16,14,4170a3,Volunteering for research at university if unable to land job for nearly a year?,https://www.reddit.com/r/datascience/comments/4170a3/volunteering_for_research_at_university_if_unable/,74throwaway,1452921525,"I am about to obtain a master's degree in which I mostly programmed. I have also worked on personal projects using R and learned machine learning on my own. I've been applying for data scientist and analyst jobs for nearly a year, but still haven't gotten any offers yet. I'm guessing its because I have numerous gaps on my resume and don't have much work experience or internships. I also have only taken a couple stats courses, and they were years ago. I've applied to small companies and startups too. Numerous times I've gotten interviews with recruiters or HR, only for them to then tell me they are only looking for phDs
+
+I heard one possible solution is to ""volunteer"" for a research group at the nearby university. I could do research for a field that is more relevant to CS and stats, since my master's project was mostly scientific in nature.
+
+Has anyone tried this before? Is this a good idea?",3,1
+159,2016-1-16,2016,1,16,17,417l22,How do I control for past waves of a survey when analysing the most recent survey data?,https://www.reddit.com/r/datascience/comments/417l22/how_do_i_control_for_past_waves_of_a_survey_when/,fruitheart,1452933682,,2,1
+160,2016-1-17,2016,1,17,6,41abx1,What is Google Analytics in Real Life ?,https://www.reddit.com/r/datascience/comments/41abx1/what_is_google_analytics_in_real_life/,HappyDataScientist,1452979088,,0,1
+161,2016-1-17,2016,1,17,8,41ax1f,Laptops for Data Scientists and Big Data Analysts,https://www.reddit.com/r/datascience/comments/41ax1f/laptops_for_data_scientists_and_big_data_analysts/,igbreviews,1452987128,,0,1
+162,2016-1-17,2016,1,17,10,41bc0t,Data science for web requires python...what about data scientists for mobile apps?,https://www.reddit.com/r/datascience/comments/41bc0t/data_science_for_web_requires_pythonwhat_about/,masudhossain,1452993410,"I know most competent data scientists for companies that are web based requires them to know python, but what about for app companies? What would they look for in qualifications in a data scientist?",11,3
+163,2016-1-17,2016,1,17,11,41bkxf,Help picking a topic for a basic college essay,https://www.reddit.com/r/datascience/comments/41bkxf/help_picking_a_topic_for_a_basic_college_essay/,HansMoleman55,1452997424,"I'm a senior in undergrad taking a class on statistical learning (I am a finance major but this is the first class I've ever taken on anything related to big data or analytics).  The professor just assigned us a 5 page essay in which we have to:
+
+1) Come up with an application of analytics where business intelligence could be used effectively in the real world.
+
+2) Give ideas on where the data would come from (I have no background in data collection, so I'm not sure at all how to answer this!).
+
+3) Describe the model that would be used with the data (we don't have to actually build the model, but again, I have very little experience with data models so I'm not exactly sure how to answer this).
+
+We also need to quote at least 5 sources!  It's a lot for the first week of a class that is supposed to be an intro to analytics.
+
+Does anybody have any ideas for topics that could be easy for a novice to write about?  Perhaps some insight as to how to get the data and what kind of models I should look into researching?  Appreciate any help you guys could give.  Thanks.
+",5,0
+164,2016-1-17,2016,1,17,12,41bs09,Volunteer Ops in for a Data Science Newbie?,https://www.reddit.com/r/datascience/comments/41bs09/volunteer_ops_in_for_a_data_science_newbie/,dshgna,1453000612,"Hi!
+
+I'm interested in getting started with data science volunteering or any open source work online. I've applied for DataKind, but as I do not live near any of their chapters.
+
+Would love to get pointers from this great community on places I could volunteer remotely in 'data for good' projects. I live in a developing country and there are no opportunities available locally. I want to get some experience through volunteering and remote work, and then move on to do a Masters. 
+
+I currently work as a developer. I've worked with Python's scikit-learn and am learning R. 
+
+Thanks a lot in advance :)",6,11
+165,2016-1-17,2016,1,17,23,41dma8,Pentaho DI for ETL - Blog Series,https://www.reddit.com/r/datascience/comments/41dma8/pentaho_di_for_etl_blog_series/,gavlaaaaaaaa,1453039331,,1,2
+166,2016-1-17,2016,1,17,23,41dmcl,"BigData tools, examples, and frameworks weekly roundup  Jan. 17 2016",https://www.reddit.com/r/datascience/comments/41dmcl/bigdata_tools_examples_and_frameworks_weekly/,stkim1,1453039355,,0,1
+167,2016-1-18,2016,1,18,2,41egtb,Visualizing Big Data with d3.js (x-post /r/d3.js),https://www.reddit.com/r/datascience/comments/41egtb/visualizing_big_data_with_d3js_xpost_rd3js/,roviz,1453051982,,0,1
+168,2016-1-18,2016,1,18,5,41f4q4,Getting started with data science in Python,https://www.reddit.com/r/datascience/comments/41f4q4/getting_started_with_data_science_in_python/,dataphysicist,1453060808,,3,17
+169,2016-1-18,2016,1,18,9,41gdzs,How BuzzFeed News Used Betting Data To Investigate Match-Fixing In Tennis,https://www.reddit.com/r/datascience/comments/41gdzs/how_buzzfeed_news_used_betting_data_to/,minhavoz,1453077607,,1,6
+170,2016-1-18,2016,1,18,11,41gujs,Which of these is better to learn with a math heavy background (High Performance Scientific Computing vs Probabilistic Graphical Models),https://www.reddit.com/r/datascience/comments/41gujs/which_of_these_is_better_to_learn_with_a_math/,datasciencequestion,1453084359,"Hello all,
+
+I have to decide between the following courses. I have a Mathematics background, and I only know how to use matlab at the moment. Which of the following courses will be more useful in the industry for people with my specific background?
+
+*A course specializing in High Performance Scientific (Shared/distributed memory parallel programming , hybrid programming). Added benefit is that I will learn how to use c++ in this course.
+
+*Probabilistic Graphical Models (conditional random fields, Boltzmann Machines). I would use matlab in this course. 
+
+Thanks in advance",6,1
+171,2016-1-18,2016,1,18,19,41ihi1,Is there any domain where Bayesian Networks outperform neural networks?,https://www.reddit.com/r/datascience/comments/41ihi1/is_there_any_domain_where_bayesian_networks/,Dawny33,1453114661,,0,3
+172,2016-1-18,2016,1,18,23,41j8t4,My Road To Data Science,https://www.reddit.com/r/datascience/comments/41j8t4/my_road_to_data_science/,virtualjd2015,1453128821,,0,1
+173,2016-1-19,2016,1,19,3,41k3q5,Analyst trying to get started in data science-advice on how to learn?,https://www.reddit.com/r/datascience/comments/41k3q5/analyst_trying_to_get_started_in_data/,ToucanSamClam,1453140256,"As the title says, I'm currently an analyst at my company. I am not sure that I want to fully transition over to data science, but would like to learn some of the basic/intermediate data science techniques to help me analyze data faster and better and to explore it as a potential career path. What courses, reading, or other ways of learning would you recommend?
+
+Part of what I would also like is to see if I like the more data sciency world and if I would potentially want to go to school for it and/or change general career paths.
+
+*About me:*
+-I'm about 5 years out of school with a BS/masters in social science, so I'm pretty well versed in the basics of analytical study design, basic econometrics, qualitative analysis, etc.
+
+-I took some basic programming classes and have since made a few websites, so I'm relatively comfortable with general programming 
+
+-my company offers around $8k a year in educational assistance, so I'm willing to pay some $$ for a course or program
+
+Thank you in advance!",4,9
+174,2016-1-19,2016,1,19,5,41kqlz,Saying no when you want to say yes to a job,https://www.reddit.com/r/datascience/comments/41kqlz/saying_no_when_you_want_to_say_yes_to_a_job/,mnky9800n,1453147921,"I have a PhD candidate offer in Europe (it's more like a job there) and another offer for a research scientist one year position with potential to continue. I love the scientist I would work with on the research scientist job. He is a great mentor and well established. I'm also more familiar with the work there where the PhD candidacy will be like being a new grad student.
+
+I don't have a PhD, only MS, and have seen lots of hurdles that would disappear with a PhD (according to hiring managers).
+
+I'm afraid of hurting the professional connection with the research scientist position.
+
+A lot of this has to do with fear of no longer being a subject matter expert, fear of disappointing a mentor, fear of failure in a new position.
+
+I suppose I don't have a specific question here, just general advice.
+",20,13
+175,2016-1-19,2016,1,19,7,41ldh3,New Job. Long Story. I need to learn some data science skills and fast.,https://www.reddit.com/r/datascience/comments/41ldh3/new_job_long_story_i_need_to_learn_some_data/,BoobRockets,1453155576,"Background: I have a bachelors in Math and minor in Physics 
+
+Situation: I have a job as a software engineer and ""data scientist"" 
+
+Issue: I want to be a real data scientist (what does that even mean?). I'm working on learning spark right now. I have to learn some machine learning, natural language processing, recap on some basic stats concepts and probably a lot more that I don't know about. My background is strong and my company is willing to expense me for an online course / set of courses. 
+
+What's the best place for someone like me to start? I'm looking at [the data science toolbox](https://www.coursera.org/specializations/jhu-data-science?utm_source=bing&amp;utm_medium=sem&amp;device=c&amp;keyword=coursera%20data%20science&amp;matchtype=b&amp;device=c&amp;network={network}&amp;devicemodel={devicemodel}&amp;adpostion={adposition}&amp;hide_mobile_promo) (coursera) but I'm sure there are better programs. I would like to learn to use spark in the process because we are currently transitioning to it. Any advice would be of great help. 
+
+Thank you! ",6,3
+176,2016-1-19,2016,1,19,10,41m9wo,"data science and information engineering? differences, similarities?",https://www.reddit.com/r/datascience/comments/41m9wo/data_science_and_information_engineering/,bootleg_pants,1453167814,"Hi there,
+so I'm looking at school programs related to data science and came across an information engineering program. I've done some googling and wiki-ing but I'm still struggling to understand how ""data science"" and ""information engineering"" relate to each other in terms of careers they lead to due to the significant overlap in course content. 
+
+
+
+Can anyone provide some insight? ",1,1
+177,2016-1-19,2016,1,19,14,41n6ay,Seeking Data Science mentor in SF Bay Area,https://www.reddit.com/r/datascience/comments/41n6ay/seeking_data_science_mentor_in_sf_bay_area/,tburke40,1453181795,"Recent grad living in Bay Area with interest in data science. I'd like to meet a working data scientist to learn more about the field and possibly get involved in some fun projects to learn more. 
+
+Full disclosure: I am new to programming, but am steadily picking up Python skills for the past month and a half, but just looking for a little guidance   ",9,6
+178,2016-1-19,2016,1,19,20,41o8zg,How to Choose the Best Data Science Programs,https://www.reddit.com/r/datascience/comments/41o8zg/how_to_choose_the_best_data_science_programs/,KristianBalding,1453203712,,1,1
+179,2016-1-20,2016,1,20,0,41p2bj,Big Data Processing with Apache Spark,https://www.reddit.com/r/datascience/comments/41p2bj/big_data_processing_with_apache_spark/,pralea,1453215986,,0,1
+180,2016-1-20,2016,1,20,0,41p5dq,[Begginer] I have a question about machine learning,https://www.reddit.com/r/datascience/comments/41p5dq/begginer_i_have_a_question_about_machine_learning/,plkost,1453217731,"Recently I started building a 'clever' web crawler. The task I have set is to scrape useful information,like product pages, categories etc from e-commerce websites. 
+So far I have managed to pull text and links with their context out of the html tree and exclude some useless data like contact pages, faq etc using a static blacklist method. This technique performs decently when sites share similar context but in general it feels really dumb. So I 've came up with the following idea:
+
+* Construct a large data set with pages containing useless information 
+
+* Use a part of this set to train a ML system and then whenever the crawler has to decide whether a piece of information is useful or not, it should ask the oracle for a prediction.
+
+What do you think about this approach?",2,0
+181,2016-1-20,2016,1,20,0,41p8ce,Annenberg Data Science Competition,https://www.reddit.com/r/datascience/comments/41p8ce/annenberg_data_science_competition/,AnnenbergDataScience,1453218823,"The Annenberg School at the University of Pennsylvania is holding a large Data Science Competition. Test your statistics skills against others from across the country.
+
+The next competition will be held this Thursday, Jan. 21st.
+
+To sign up, visit: [datascience.upenn.edu](http://datascience.upenn.edu).
+
+Can't make this date? Sign up anyway, and we'll include you in future competitions.",18,7
+182,2016-1-20,2016,1,20,2,41pqui,A Complete Tutorial to Learn Data Science with Python from Scratch,https://www.reddit.com/r/datascience/comments/41pqui/a_complete_tutorial_to_learn_data_science_with/,megzzinit,1453225216,,0,2
+183,2016-1-20,2016,1,20,6,41qxus,[Beginner] Connecting to a remote server locally for Pandas Analysis,https://www.reddit.com/r/datascience/comments/41qxus/beginner_connecting_to_a_remote_server_locally/,amaTrex,1453240141," have an Ubuntu desktop that i don't use at all, buts is has good components and lots of RAM that my laptop doesn't have and that i would like to leverage when working with Pandas on my laptop. How can i set it up so that i can store all the large data files in the Ubuntu but connect to it via my laptop so that all the heavy lifting computations are done at the Ubuntu desktop. Essentially mimicking a ""mini-AWS server"" locally.
+
+Any good reference material i can use to make this happen?",8,2
+184,2016-1-20,2016,1,20,7,41r4m0,Data Science And Stateful User Tracking: The Two Key UBA Enablers,https://www.reddit.com/r/datascience/comments/41r4m0/data_science_and_stateful_user_tracking_the_two/,MiccahAngeline,1453242452,,0,1
+185,2016-1-20,2016,1,20,8,41rcyl,Seeking Data Scientist Mentor in NYC Area,https://www.reddit.com/r/datascience/comments/41rcyl/seeking_data_scientist_mentor_in_nyc_area/,printerAA2X093872,1453245388,Pm me if interested,1,0
+186,2016-1-20,2016,1,20,8,41rfjf,Current Public Policy Grad Student looking to get into Data Science,https://www.reddit.com/r/datascience/comments/41rfjf/current_public_policy_grad_student_looking_to_get/,BoyScoutJimmy1,1453246326,"As the title says, I am a current graduate student in public policy and I am interested in particularly in data science as it relates to social problems. 
+
+I've seen on here that many seem to recommend kaggle as a starting point, along with a long list of online classes/books/blogs that would develop these skills. 
+
+I'm wondering that if I do pursue this path, how employers would perceive them and additionally, how I could profile these skills on a resume.
+
+Alternatively, I do have an option at my University to add a graduate minor in Computer Science which can include machine learning, data basing, and data structures, but the needed prerequisites  are all taught in Java.
+
+Do you all think it is best to just use these online sources to get the skills necessary? Or go with the minor and balance learning two separate languages? Or a mixture of both?
+
+Thanks!
+
+",8,1
+187,2016-1-20,2016,1,20,12,41sh3n,Data Science Career Paths: Finance vs. Tech,https://www.reddit.com/r/datascience/comments/41sh3n/data_science_career_paths_finance_vs_tech/,tennisace143,1453260852,"     Hi, I'm currently a data scientist working in finance and I'm curious about what kind of opportunities will be available to me in the future if I decide to stay in finance instead of tech or vice versa. 
+     One thing that scares me about moving to tech is that I don't have an advanced degree in computer science (I have an M.S. in chemistry) whereas in finance I've noticed that no one really cares about that. Furthermore, where does the data science career path lead in tech jobs (i.e. Oracle, TeraData, Amazon, etc.)? Do people usually top out at 'Lead Data Scientist' or is there a pretty smooth transition into management at some point? Is an MBA a prerequisite for management positions or is it just a function of exceptional work?
+     For those of you who have experience as data scientists in the financial industry, do you feel like your technical skills were adequately valued in your job? Did you feel like it was easy to make consistent progress in your role or did you feel like you were struggling to assert your usefulness? From my [limited] experience, it seems that, in finance, data staff hit a pretty hard glass ceiling; can others speak to this? Do you have any tips on how to advance your career as a data scientist working in finance?
+
+Any and all feedback is appreciated, thank you!",12,30
+188,2016-1-20,2016,1,20,15,41t4nx,Best Jobs in America: Data Scientist #1,https://www.reddit.com/r/datascience/comments/41t4nx/best_jobs_in_america_data_scientist_1/,ShakeNBakes,1453271369,,41,50
+189,2016-1-21,2016,1,21,0,41uvr9,Career Advice for Student finishing Masters,https://www.reddit.com/r/datascience/comments/41uvr9/career_advice_for_student_finishing_masters/,statstudent718,1453304669,"Hello.  I am currently finishing up a quantitative masters degree in New York City.  I am looking to break into the data science field but am finding it hard. Some background. I started my masters degree in Sept 2014 and have been going full time up until the end of this past semester.  As of now I only have one class left and will be going part time and graduating in May.  Through my school work I have pretty good experience with SAS and SQL.  I also have experience with R through the coursera data science specilization and have four classes left to finish that.  My internship over the summer wasn't anything special.  Before I went to graduate school I was a trader at a bank.
+
+I am currently applying to data analyst and data science jobs now but am not really getting any responses back.  My schools career services haven't been very helpful either.  I know the best way to get a job is to network and I plan to start going to meetups now that I have more free time.   But honestly I am feeling a little lost.  Does anyone have some advice or mentorship they can provide?  Should I be getting experience with other program languages like python or am I better off just getting really good at R?  Should I try to get experience with Hadoop etc. or is that something I wouldn't be expected to know for an entry level position?  Thank you for your time.",4,2
+190,2016-1-21,2016,1,21,1,41v3q8,"I'm getting interviews and passing the technical tests, but I'm just not getting any offers?",https://www.reddit.com/r/datascience/comments/41v3q8/im_getting_interviews_and_passing_the_technical/,tonym9428,1453307604,"My background is somewhat non-traditional. I have a social science background and dropped out of law school, then went on to become a statistician in tech industry for 
+the past four years before being laid off last month. I've been fairly happy with these roles, but have began slowly applying for data scientist jobs over the past few weeks. I'm getting lots of call back and second/third interview, but I'm getting passed over because my technical skills aren't as good as a CS person (other applicants). Should I quit applying to DS positions and just stick to statistician roles. My R and SQL skills are good, but Python skills are fairly weak. Over the past four weeks, I'm been on the short list for about four data scientist positions and haven't gotten any because of my technical experience not being good enough. What should I do? Should I bother improving my technical chops or just stick to being a statistician?
+
+",8,5
+191,2016-1-21,2016,1,21,3,41vio2,Why 2016 might be the year of citizen data scientists,https://www.reddit.com/r/datascience/comments/41vio2/why_2016_might_be_the_year_of_citizen_data/,shugert,1453313182,,1,0
+192,2016-1-21,2016,1,21,3,41vpzd,"Most Promising Job of 2016: Data Scientist, according to Forbes Magazine",https://www.reddit.com/r/datascience/comments/41vpzd/most_promising_job_of_2016_data_scientist/,vincentg64,1453315690,,0,1
+193,2016-1-21,2016,1,21,4,41vwrg,An overview of gradient descent optimization algorithms,https://www.reddit.com/r/datascience/comments/41vwrg/an_overview_of_gradient_descent_optimization/,carmichael561,1453318055,,0,8
+194,2016-1-21,2016,1,21,5,41w4ah,Skills to be a data scientist?,https://www.reddit.com/r/datascience/comments/41w4ah/skills_to_be_a_data_scientist/,GoldenWake,1453320640,"Hey guys currently a second year student in college who wants to get into data science. I'm working on a B.S in Management Information Systems. I know SQL and can work in Oracle and Microsoft environments. Furthermore, I know c# and working on having a sound understanding of python. Also declared a minor in statistics, thinking that would help.   
+
+So my question is, am I on a right path and what skills could I develop to become a data scientist. 
+
+",12,1
+195,2016-1-21,2016,1,21,5,41w8mv,Harvard 2013 CS109 Error,https://www.reddit.com/r/datascience/comments/41w8mv/harvard_2013_cs109_error/,greenbinder,1453322197,I'm having trouble loading the videos from the 2013 class [here](http://cm.dce.harvard.edu/2014/01/14328/publicationListing.shtml) - am I stuck with the 2014 version?,2,1
+196,2016-1-21,2016,1,21,6,41whid,"Data science as a de-facto tool for cybersecurity , Data Science Predictions for 2016",https://www.reddit.com/r/datascience/comments/41whid/data_science_as_a_defacto_tool_for_cybersecurity/,KamrynnAdyson5,1453325480,,0,1
+197,2016-1-21,2016,1,21,7,41wohj,What is the right path for a civil engineer to learn data science?,https://www.reddit.com/r/datascience/comments/41wohj/what_is_the_right_path_for_a_civil_engineer_to/,AhmedMorra,1453327982,"I am Civil engineer and i am interested in learning data science, what is the right path for me to learn and master the Data Science?
+The only programming experience i have is with Java and Android, Built few simple android apps as a hobby.
+Thanks.",1,0
+198,2016-1-21,2016,1,21,14,41ye7c,How to think about 3+ dimensional space,https://www.reddit.com/r/datascience/comments/41ye7c/how_to_think_about_3_dimensional_space/,sarihnlteecs,1453352473,"I'm relatively new to ML and haven't exceeded math past calculus  (taken econ, stats, finance, know python). I'm currently working on a logistic regression model with more than 3 features and I can't wrap my head around how this works. With 3 features you can visualize the data using a 3d plane of the sigmoid function - but what about more than 3. What if it's a multiclass classification problem?
+
+Is a logistic regression not the right model to use in this instance? ",16,3
+199,2016-1-21,2016,1,21,20,41zjxe,Data Science with Python to take your Analysis to the Next Level,https://www.reddit.com/r/datascience/comments/41zjxe/data_science_with_python_to_take_your_analysis_to/,michealjury,1453375913,,0,1
+200,2016-1-21,2016,1,21,22,42004a,How should a Data Scientist's resume differ from an Academic CV?,https://www.reddit.com/r/datascience/comments/42004a/how_should_a_data_scientists_resume_differ_from/,Veerle2015,1453383755,,0,0
+201,2016-1-21,2016,1,21,23,4206yn,NBA Power Rankings using PageRank,https://www.reddit.com/r/datascience/comments/4206yn/nba_power_rankings_using_pagerank/,squiiid,1453386713,,15,5
+202,2016-1-22,2016,1,22,0,420jzz,Pathway from Artist to Data Scientist (Please read),https://www.reddit.com/r/datascience/comments/420jzz/pathway_from_artist_to_data_scientist_please_read/,D0gFather,1453391615,"I'll try to keep this brief. I have been an actual professional artist since I was 16. I graduated with a BFA from a respectable public university. I started working with tech startups after I graduated 4 years ago, and have worked my way into a business development manager role. I have realized the importance of data science in my job over the past few years, and would love to figure out a way to transition to becoming a full fledged data scientist. I don't know the best way to do this, but after doing research, I know it's not as easy as a 12 week bootcamp. I was planning on taking two years off for an expensive MBA in the next few years, and would be willing to forego this option to instead put time and money into becoming data scientist. There seems to be so much info out there, but not sure where to begin. Any thoughts or suggestions for facilitating this process? Before you ask: I understand basics of coding but not proficient in any languages, have a semester of stats under my belt and generally very good at math despite my background. I'm 27 and willing to take a long path if necessary. Cheers. ",10,1
+203,2016-1-22,2016,1,22,5,421vlt,Do you recommend data science?,https://www.reddit.com/r/datascience/comments/421vlt/do_you_recommend_data_science/,whatIsNextInLife,1453408390,"Hey everyone.  I work for a large well known company as a research engineer.  I've got dual degrees in statistics and electrical engineering.  I've kind of come to a crossroads where my company has data scientists and their work is more intriguing than my own and I passionately crave doing more math.  I am definitely far from the world's best programmer, but I'm not a slouch.  I guess I don't mind programming, but I do not want to become a software developer.   I've been out of school for three years and been with this company since then (interned for a year while in school).
+
+The more I read about data science, the more interested I have become.  Studying up for the GRE and I have a few schools in mind.
+
+I just want some outsider's perspective based on what I've said.  Is this for me?  ",19,2
+204,2016-1-22,2016,1,22,7,422awm,Migrating data into Hive using Pentaho DI - Pentaho Blog series Part 3a,https://www.reddit.com/r/datascience/comments/422awm/migrating_data_into_hive_using_pentaho_di_pentaho/,gavlaaaaaaaa,1453413731,,0,2
+205,2016-1-22,2016,1,22,12,423t38,Linear Digressions: a podcast about machine learning and data science,https://www.reddit.com/r/datascience/comments/423t38/linear_digressions_a_podcast_about_machine/,multiarmbandit,1453434992,"Hi nerds, a friend and I have a podcast about machine learning n' data science n' stuff and thought some of you might like it.  It's called Linear Digressions, you can find it on iTunes or wherever fine podcasts are sold.
+
+lineardigressions.com",12,29
+206,2016-1-22,2016,1,22,14,4242s4,Recurring Prediction Model,https://www.reddit.com/r/datascience/comments/4242s4/recurring_prediction_model/,starkiller1990,1453439262,"Hi guys,
+
+Just want some advice, I am trying to design a pipeline for a prediction model for Customer Churn.
+
+What I aim to do is, come up with a list of customers ranked by their likelihood to churn. The problem I have is how to design this so It can be run every month.
+
+I want to avoid using the same data I have to build the model to also use in a testing set which is a big no no.
+
+Here are my ideas but i am having trouble articulating the pipeline:
+
+Start of next month: Extract a Dataset of current customers.
+End of next month: Flag the customers from the above set who churned. 
+
+Now I want to use that set as a train set, but obliviously I can't use the whole set to build the model, and I need a validation to internally validate the model.
+
+I thought I could sample that set, use the sample to train a model, then predict on the remainder.
+
+I then extract another list of customers at the start of the following month and repeat the process.   
+
+
+Is it silly to constantly train a new model? I want to have it dynamically change to include any time varying variables and thought it would be easier to do monthly evaluations on high important variables etc.  
+
+thanks for any input into this.",5,2
+207,2016-1-22,2016,1,22,14,4242tx,New to the field of Data Analytics/Data Science. Any guidance will truly be appreciated! ANY!!,https://www.reddit.com/r/datascience/comments/4242tx/new_to_the_field_of_data_analyticsdata_science/,n00bsauce03,1453439286,"I am currently a 2nd year medical student midway thru the curriculum and am more and more deviating away from the hands on patient care aspect of it. I graduated with a non traditional bachelors in History with minors in Bio and Chem for this field. Now as I am learning more about the field of data analysis and data science and the impact it could have on the field of healthcare.. I honestly feel I have found my niche... my true calling..
+
+I did VB, C++ and A+ in high school, which was ages ago. Hence I'm a n00b as the name suggests.. I did take Calc I and II with Intro to stat in undergrad but even then it would probably serve without a purpose.. 
+
+So what advice would you give someone starting afresh, from a complete non traditional background to scratch and dig their way into the field of Data Science.
+
+I have started learning how to code in Python and am learning up on stats/algorithms/machine learning and such but I feel that I should acquire some structured learning.. Should I divulge into a Masters program somewhere? Should I do some MOOCs/nanodegrees online and then apply or retake the prereqs and then look further.. are there any programs that can encompass all the prereqs and get me geared for a MS and a job in data analysis and furthermore in Data science in Healthcare??
+
+Guys, I don't want to jump in without any structure and regret making any proper turns therefore I'm looking for any help or guidance on how to pursue this... any guidance will be appreciated.. I mean it :) thanks in advance!",4,0
+208,2016-1-23,2016,1,23,0,4260pd,Big Data in Military Information &amp; Intelligence,https://www.reddit.com/r/datascience/comments/4260pd/big_data_in_military_information_intelligence/,rosemcreid,1453476872,,1,2
+209,2016-1-23,2016,1,23,7,427y2c,Recreating R's `plot(fit)` functionality in python,https://www.reddit.com/r/datascience/comments/427y2c/recreating_rs_plotfit_functionality_in_python/,EngineeredEdge,1453501451,"So I'm taking the Statistical Learning class from stanford right now which uses R and recreating it in python.
+
+I tried recreating the `plot(fit)` functionality that R has that helps evaluate the model. [Here is the gist that has my work](https://gist.github.com/EngineeredEdge/d124742d5ee4bd4d6398)
+
+I've always sucked at plotting, and definitely the axes need some work. Any tips / advice would be appreciated.
+
+PS: the dataset is the Boston dataset that comes with the R's MASS package.",2,3
+210,2016-1-23,2016,1,23,7,4282m8,So you want to be a Data Science superstar,https://www.reddit.com/r/datascience/comments/4282m8/so_you_want_to_be_a_data_science_superstar/,rasmusab,1453503112,,1,15
+211,2016-1-23,2016,1,23,9,428l54,BI on Hadoop in 2016  The Elephant in the Room,https://www.reddit.com/r/datascience/comments/428l54/bi_on_hadoop_in_2016_the_elephant_in_the_room/,remyrosen,1453510681,,2,1
+212,2016-1-23,2016,1,23,22,42arvt,Data Science conferences?,https://www.reddit.com/r/datascience/comments/42arvt/data_science_conferences/,Dawny33,1453554448,,3,5
+213,2016-1-23,2016,1,23,22,42av1w,Netflix Data,https://www.reddit.com/r/datascience/comments/42av1w/netflix_data/,dhumidifier,1453556320,Does anyone know if Netflix makes any data available openly?,4,0
+214,2016-1-24,2016,1,24,1,42bdp9,Some Comments on Donahos 50 Years of Data Science,https://www.reddit.com/r/datascience/comments/42bdp9/some_comments_on_donahos_50_years_of_data_science/,jaapwalhout,1453565105,,0,1
+215,2016-1-24,2016,1,24,1,42bhvd,"[Help] Survey ranked choices  Bigger population of choices  Visualization and significance testing; friend isn't getting any answers, was thinking someone here could know",https://www.reddit.com/r/datascience/comments/42bhvd/help_survey_ranked_choices_bigger_population_of/,CeterumCenseo85,1453566772,,5,1
+216,2016-1-24,2016,1,24,4,42cbss,Data Science Interview Questions,https://www.reddit.com/r/datascience/comments/42cbss/data_science_interview_questions/,[deleted],1453577897,[deleted],1,0
+217,2016-1-24,2016,1,24,7,42d2nj,Are unethical data practices jeopardizing your business?,https://www.reddit.com/r/datascience/comments/42d2nj/are_unethical_data_practices_jeopardizing_your/,BrysonVincent5_,1453587869,,0,3
+218,2016-1-24,2016,1,24,8,42d96h,Is there anywhere that I can find CSV/TSV/XLX files of precinct data for historical Iowa Caucuses?,https://www.reddit.com/r/datascience/comments/42d96h/is_there_anywhere_that_i_can_find_csvtsvxlx_files/,foxh8er,1453590338,,9,1
+219,2016-1-24,2016,1,24,9,42dnml,Automakers Bet Big on Data and Analytics,https://www.reddit.com/r/datascience/comments/42dnml/automakers_bet_big_on_data_and_analytics/,geopsis,1453595958,,0,1
+220,2016-1-24,2016,1,24,13,42ekkb,Hiring The Right Talent Using HR Analytics,https://www.reddit.com/r/datascience/comments/42ekkb/hiring_the_right_talent_using_hr_analytics/,poojaprakash,1453610755,,0,1
+221,2016-1-24,2016,1,24,13,42em4z,Visualizing data using Chernoff faces,https://www.reddit.com/r/datascience/comments/42em4z/visualizing_data_using_chernoff_faces/,poojaprakash,1453611554,,0,1
+222,2016-1-24,2016,1,24,14,42esox,What are the Best Ways for Students to get noticed by Employers for Data Science Jobs,https://www.reddit.com/r/datascience/comments/42esox/what_are_the_best_ways_for_students_to_get/,rujmsn,1453614898,"Hi,
+
+I think this is a question that pertains to many current students (at any level, Bachelors, Masters, or PhD). I am currently a Master's student in Statistics, and am interesting in and trying to get into the Data Science job market. I studied Statistics during my undergraduate years also, and have a couple of years of experience in research with applied statistics using R. I have recently taken great interest in machine learning methods and in addition to having taken a course on Big Data using Hadoop, I have been studying various machine learning methods with R on my own.
+
+I heard that having a portfolio of some sort of past or current projects related to statistics/data science is a great way to appeal to employers, and I am looking to create one for myself. I am wondering what would be the best means of showcasing my skills.
+
+One could be participating in Kaggle competitions and creating a reputation for myself by building a profile with my competition performances. Another could be contributing codes and programs from my past school projects or job experiences on Github. 
+
+Do these seem like reasonable ways for me to create some sort of portfolio for myself to show to employers to get a job/internship in Data Science roles? And if there are other or better ways to showcase my skills, how could I do that? 
+
+",5,13
+223,2016-1-24,2016,1,24,20,42fkna,Free Data Science Curriculum,https://www.reddit.com/r/datascience/comments/42fkna/free_data_science_curriculum/,Veerle2015,1453635360,,1,53
+224,2016-1-24,2016,1,24,22,42ftu1,Suitable datasets for teaching PCA (Principal Component Analysis) and FA (Factor Analysis),https://www.reddit.com/r/datascience/comments/42ftu1/suitable_datasets_for_teaching_pca_principal/,Siguchi,1453641560,"Dear all,
+
+I'm actually trying to put in place a course on exploratory data analysis intended for students in an engineering school (with a computer science background and a focus on practical aspects rather than the mathematical aspects).
+
+I'll be covering subjects such as Principal Component Analysis and Factor Analysis and therefore I would like to hear your opinions on which datasets are suitable to use in order to introduce these subjects (in the course and during the labs).
+
+Thanks in advance !",2,1
+225,2016-1-24,2016,1,24,22,42fwes,What will happen to our digital heritage?,https://www.reddit.com/r/datascience/comments/42fwes/what_will_happen_to_our_digital_heritage/,jonfla,1453643066,,0,2
+226,2016-1-25,2016,1,25,1,42gjmh,pygeohash 1.0.1: fast GIS with geohash and python,https://www.reddit.com/r/datascience/comments/42gjmh/pygeohash_101_fast_gis_with_geohash_and_python/,wdm006,1453653887,,0,2
+227,2016-1-25,2016,1,25,1,42gkrp,What KPIs/stats would management like to see?,https://www.reddit.com/r/datascience/comments/42gkrp/what_kpisstats_would_management_like_to_see/,rsxstock,1453654349,"I do data entry and would often do reports based on our company's sales transaction data. I would create simple dashboards to summarize the typical data like revenue, gross profit, cogs and top transactions/vendors. what other stats do you think i can get from this data that management might like to see or would catch their attention?",4,1
+228,2016-1-25,2016,1,25,10,42j061,Natural Language Processing with PySpark (github repo in comments),https://www.reddit.com/r/datascience/comments/42j061/natural_language_processing_with_pyspark_github/,dreyco,1453686669,,1,4
+229,2016-1-25,2016,1,25,12,42jacs,"Would like to recommend a book I just finished, 'How to Measure Anything' was a fantastic book for me as a recent addition to a company's analytics team. [Goodreads link, not an affiliate link]",https://www.reddit.com/r/datascience/comments/42jacs/would_like_to_recommend_a_book_i_just_finished/,thisfunnieguy,1453690858,,11,49
+230,2016-1-25,2016,1,25,17,42kibu,"What kind of university degree is the best for data science, and at which university?",https://www.reddit.com/r/datascience/comments/42kibu/what_kind_of_university_degree_is_the_best_for/,SophieFordham,1453712350,"
+I would like to be a data scientist, and am working out what would be my best option for uni.
+
+1. What would put me in a better position - a Masters in Data Science, statistics or anything else? And why?
+2. Is a PhD worth it?
+3. Does it really matter which uni I go to? Which would be good options in Australia? 
+",7,1
+231,2016-1-25,2016,1,25,20,42ky1b,I built a functional style toolkit for processing tabular data in Python and would like feedback,https://www.reddit.com/r/datascience/comments/42ky1b/i_built_a_functional_style_toolkit_for_processing/,reubano,1453721936,"I've been really getting into functional programming with Python and decided to build a data analysis library similar in functionality to pandas. The main difference is that I use pure functions, and an iterator of dictionaries as the primary data structure. Here's a basic example:
+
+    &gt;&gt;&gt; from io import StringIO
+    &gt;&gt;&gt; from meza import io, process as pr
+
+    &gt;&gt;&gt; f = StringIO(u'col1,col2\nhello,world\n')
+    &gt;&gt;&gt; records = io.read_csv(f) 
+    &gt;&gt;&gt; next(pr.cut(records, ['col1']))
+    {'col1': 'hello'}
+
+Code: https://github.com/reubano/meza
+Demo: http://nbviewer.jupyter.org/github/reubano/meza/blob/master/examples/usage.ipynb
+
+I'd love to hear feedback and comments from you all!",4,1
+232,2016-1-25,2016,1,25,23,42lj2x,"FlyElephant as a tool for calculations in C++, R, Python, or Octave",https://www.reddit.com/r/datascience/comments/42lj2x/flyelephant_as_a_tool_for_calculations_in_c_r/,flyelephant,1453731210,,1,5
+233,2016-1-26,2016,1,26,0,42lr53,Missing Values Imputation with Bayesian Networks,https://www.reddit.com/r/datascience/comments/42lr53/missing_values_imputation_with_bayesian_networks/,virtualjd2015,1453734053,,0,1
+234,2016-1-26,2016,1,26,2,42miet,What would you like to see from a new Data Science podcast?,https://www.reddit.com/r/datascience/comments/42miet/what_would_you_like_to_see_from_a_new_data/,Trenden12,1453742564,"Hello /r/datascience
+
+What would you like to see from a new Data Science podcast?
+
+
+I'm a huge fan of podcasts like Partially Derivative and Talking Machines and have recently moved to Berlin, a city with a great deal of data science companies and experts and want to take the opportunity to start work on a podcast.
+
+Are there any subjects that you don't think are currently covered enough in today's Data Science and Machine Learning podcasts and blogs?
+
+(This could be anything from more indepth ML concepts explained by experts to more conversations about job market with employers.)",5,2
+235,2016-1-26,2016,1,26,3,42mxi4,Email open-rate optimization,https://www.reddit.com/r/datascience/comments/42mxi4/email_openrate_optimization/,gecko_data,1453747232,,0,0
+236,2016-1-26,2016,1,26,4,42n8jm,(UCLA Online) M.S in Engineering - Data Science Engineering,https://www.reddit.com/r/datascience/comments/42n8jm/ucla_online_ms_in_engineering_data_science/,uclamsol,1453750553,"I'm seriously considering this program from UCLA http://www.msol.ucla.edu/data-science-engineering/
+
+
+
+
+
+I'm currently in my last semester pursuing a B.S in Computer Science. I will start my career Summer this year at a company that offers SaaS and deals with big data. (they use J2EE, Spring, Hibernate, etc.)
+
+
+
+
+
+
+I've a strong interest in Web Development, focusing on the backend. I've made applications with RoR, PHP, and many other tools, and I really love it. However, I want to step one step further and get a degree in Data Science. 
+
+
+
+
+
+
+At this point, I'm clueless about assessing the quality of the program offered by UCLA M.S online. So, I would really appreciate if you can take a brief look at the courses offered in this program (available on the link above) and tell me your opinion whether or not the degree is worthy. 
+
+
+
+
+
+
+
+By the way, I'm not interested in research/ pursuing a Ph.D in the future, so I prefer a hands on course that will teach me the most recent technologies that are being used in Data Science industry. ",3,2
+237,2016-1-26,2016,1,26,5,42ndp4,"As Computer Science developers, What improvements could be added to current Data Science framework or environment?",https://www.reddit.com/r/datascience/comments/42ndp4/as_computer_science_developers_what_improvements/,eslam93,1453752149,"it is a project we are working on, and it was an idea to work on data science tools and processes, so you are familiar with data science, what would you recommend to me to start with searching and give a try to develop?",3,0
+238,2016-1-26,2016,1,26,5,42ngbr,Data Science for Social Good Summer Fellowship,https://www.reddit.com/r/datascience/comments/42ngbr/data_science_for_social_good_summer_fellowship/,carmichael561,1453752951,,3,3
+239,2016-1-26,2016,1,26,6,42nvcm,Analysing the social network in Star Wars: The Force Awakens (contains spoilers),https://www.reddit.com/r/datascience/comments/42nvcm/analysing_the_social_network_in_star_wars_the/,evelinag,1453757582,,0,1
+240,2016-1-26,2016,1,26,6,42nw5e,"flex: a unified tool for managing compute tasks, data, and docs",https://www.reddit.com/r/datascience/comments/42nw5e/flex_a_unified_tool_for_managing_compute_tasks/,druths,1453757821,,3,11
+241,2016-1-26,2016,1,26,6,42nwwl,Big Data University Series - Part III: More Free Data Science Courses,https://www.reddit.com/r/datascience/comments/42nwwl/big_data_university_series_part_iii_more_free/,derrickmartins,1453758035,,0,1
+242,2016-1-26,2016,1,26,8,42og1u,Are the Coursera certificates viable for an entry level position?,https://www.reddit.com/r/datascience/comments/42og1u/are_the_coursera_certificates_viable_for_an_entry/,domestic_omnom,1453764173,"short background 32, recently separated veteran network admin background, will finish a BS in info systems in the next year or so. I like stats, and I'm ok... ish with some python. 
+
+That being said, for a newb such as myself would earning a [Data Science Certificate](https://www.coursera.org/browse/data-science?languages=en) from there help get into the field? If no; then what can a new college grad do to make himself stand out for  the analyst world? ",17,0
+243,2016-1-26,2016,1,26,9,42ou70,Which College Should I Choose? (R Script),https://www.reddit.com/r/datascience/comments/42ou70/which_college_should_i_choose_r_script/,shugert,1453769068,,0,2
+244,2016-1-26,2016,1,26,15,42qcee,"Hey, I'm Jenny and I'm wanting a nice fuck... Only for real men!",https://www.reddit.com/r/datascience/comments/42qcee/hey_im_jenny_and_im_wanting_a_nice_fuck_only_for/,iscasylfo19799727,1453790711,,0,1
+245,2016-1-26,2016,1,26,18,42qpsy,Handling model input tables when input examples have different numbers of variables?,https://www.reddit.com/r/datascience/comments/42qpsy/handling_model_input_tables_when_input_examples/,pm_ur_correlations,1453798889,"Using R as an example, most packages for regression or classification take a table something like this as input:
+
+| Var1 | Var2 | Var3 | Out |
+|:----|:----|:----|:----|
+| | | | |
+
+Where vars 1-3 are the variables which affect the outcome (out), and each row is a new example. 
+
+So let's say our table refers to chances of being asked out on Tinder, and our variables are ""Good Looking?"", ""In Shape?"", ""Works in Data Science?"" and are all Y/N variables, and the outcome is Y/N whether they got asked out. Each row then refers to a particular example, so guy 1 who was good looking and in shape but didn't work in data science obviously didn't get asked out, while guy 2 wasn't good looking or in shape but compensated by working in data science and so got asked out, etc. So far so good, and we can use a random forest with the tree package or whatever on this table.
+
+But what about when each example has a different number of variables? Let's say we're doing image classification, and want to know whether the image is happy or sad, and as model inputs, we use each pixel in the image as a variable. Now, each example has a different number of variables, because each image likely has a different number of pixels. We can't then make a table of standard input variables out of it, and so can't run a normal model package on it (which normally want to know the columns to use as inputs and those for outputs, consistent across the table).
+
+I have no idea how this works in practice and am keen to find out. I would guess you either process the image into some standard set of variables (e.g. top-left average colour, top-right average colour, bottom-left... etc) but maybe there's more to it?",2,3
+246,2016-1-26,2016,1,26,19,42qyn6,"[REQUEST] R's data.table &lt;-&gt; Python's pandas ""cheat-sheet"" (xpost from /r/rstats)",https://www.reddit.com/r/datascience/comments/42qyn6/request_rs_datatable_pythons_pandas_cheatsheet/,HelmsmanRobertson,1453804603,,0,1
+247,2016-1-27,2016,1,27,1,42s6ut,Applied Spatial Data Science with R,https://www.reddit.com/r/datascience/comments/42s6ut/applied_spatial_data_science_with_r/,gregory_k,1453824812,,0,1
+248,2016-1-27,2016,1,27,3,42svuf,Clojure for data science,https://www.reddit.com/r/datascience/comments/42svuf/clojure_for_data_science/,geebr,1453832758,"So obviously, most people in data science and academia use Python, R or Matlab (the latter mostly in academia). Has anyone ever used Clojure or other functional programming languages for DS work? It seems to me that its emphasis on immutable data structures and handling everything as it was data means it might a fairly natural tool for the sort of work we do.
+
+The biggest issue I imagine is the lack of packages/libraries/modules, effectively meaning that you may end up having to code your PCA from scratch. But there might be other issues I'm not appreciating. I've been thinking about picking up a new language (mostly just because), and if functional languages have utility in DS then I might be fairly inclined to do so.
+
+Happy to hear your thoughts!",7,5
+249,2016-1-27,2016,1,27,4,42tc52,Are you guys aware of hedge funds that are looking to hire data scientists or are expanding into big data?,https://www.reddit.com/r/datascience/comments/42tc52/are_you_guys_aware_of_hedge_funds_that_are/,datascinew,1453838068,Palantir Metropolis is used by hedge funds. ,5,0
+250,2016-1-27,2016,1,27,5,42teq2,&gt;This.Site Likely Contains Sexually Explicit Photos Of Someone You Know!&lt;datascience,https://www.reddit.com/r/datascience/comments/42teq2/thissite_likely_contains_sexually_explicit_photos/,oxapcare,1453838891,,0,1
+251,2016-1-27,2016,1,27,5,42tj6y,I just received my coursera certificate and graduated from a few MOOCs why can't I find a job.,https://www.reddit.com/r/datascience/comments/42tj6y/i_just_received_my_coursera_certificate_and/,XxStoudemire1xX,1453840355,I just got 3 data science certificates from coursera and just got graduated from a MOOC. I also live in Kentucky. I can't find a job. Where is my 6 figure salary the internet is talking about.,10,0
+252,2016-1-27,2016,1,27,7,42u2dl,Best BI and Data Science Conferences?,https://www.reddit.com/r/datascience/comments/42u2dl/best_bi_and_data_science_conferences/,LandofBoz88,1453846553,Looking for everyone's favorite conference for BI and/or Data Science.  Trying to figure out the best use of my travel budget this year. ,25,15
+253,2016-1-27,2016,1,27,7,42u9eh,5 Best Practices in Analytics,https://www.reddit.com/r/datascience/comments/42u9eh/5_best_practices_in_analytics/,poojaprakash,1453848904,,0,0
+254,2016-1-27,2016,1,27,9,42uscw,Solving the two envelopes problem with python and petersburg,https://www.reddit.com/r/datascience/comments/42uscw/solving_the_two_envelopes_problem_with_python_and/,wdm006,1453855670,,0,1
+255,2016-1-27,2016,1,27,13,42vper,Sales jobs in Big Data?,https://www.reddit.com/r/datascience/comments/42vper/sales_jobs_in_big_data/,Freedom_Quest,1453868329,"Hello, I am about to graduate college with a degree in communication. I was wondering if there are any sales positions in the Big Data industry? Any information would be appreciated very much thanks!",0,0
+256,2016-1-27,2016,1,27,15,42w7eg,Site Likely Contains Sexually Explicit Photos Of Someone You Know! Biggest in the world service for sseex!! ID:ootnaddggtgaatisaldg,https://www.reddit.com/r/datascience/comments/42w7eg/site_likely_contains_sexually_explicit_photos_of/,contpahattjost,1453876260,,0,1
+257,2016-1-27,2016,1,27,16,42wgc3,7 Common Data Science Mistakes and How to Avoid Them,https://www.reddit.com/r/datascience/comments/42wgc3/7_common_data_science_mistakes_and_how_to_avoid/,margarettecrystal,1453880758,,0,1
+258,2016-1-27,2016,1,27,23,42xp4d,Im Suing Civis Analytics | My experience at the Progressive tech startup in Chicago,https://www.reddit.com/r/datascience/comments/42xp4d/im_suing_civis_analytics_my_experience_at_the/,[deleted],1453904950,[deleted],0,1
+259,2016-1-28,2016,1,28,0,42xwp3,Targeted Marketing with Collaborative Filtering at iHeartRadio,https://www.reddit.com/r/datascience/comments/42xwp3/targeted_marketing_with_collaborative_filtering/,rm999,1453907967,,0,2
+260,2016-1-28,2016,1,28,0,42y230,"How to tell the company interviewing you doesn't have a clue what ""data science"" means.",https://www.reddit.com/r/datascience/comments/42y230/how_to_tell_the_company_interviewing_you_doesnt/,ReformedPhysicist,1453909901,"So, I've seen a lot of articles that are titled something like ""how to interview a data scientist"":
+
+http://firstround.com/review/how-to-consistently-hire-remarkable-data-scientists/
+http://www.sas.com/en_us/insights/articles/analytics/data-scientist-interview-questions.html
+http://www.kdnuggets.com/2015/01/how-to-interview-data-scientist.html
+etc.
+
+I'm more interested in how to tell a job description was written by someone who clearly has no idea what kind of person they're looking for. I've come across a few in the past few weeks (will have to dig them up again) and thought ""These guys have NO CLUE"".
+
+Partly this is to have fun with clueless job postings (which should be ruthlessly mocked), but partly it's to help younger people/new data scientists identify situations that may not be the best for them to dive into.
+
+Does anyone have any good examples?",30,32
+261,2016-1-28,2016,1,28,1,42ycus,What is the best type of graduate program for aspiring Data Scientists?,https://www.reddit.com/r/datascience/comments/42ycus/what_is_the_best_type_of_graduate_program_for/,Eaglefan928,1453913563,"What is the best type of graduate program for aspiring Data Scientists?
+
+----
+What is the best type of graduate program for individuals that want to  prepare themselves to get hired for any Data Science job they want?
+
+----
+|Vote Button| Poll Options|Current Vote Count|
+|:-----------:|:------------:|:------------|
+|**[Vote](http://redditpoll.com/vote/w5QvsE6D)**|Statistics |**10** Votes 
+|**[Vote](http://redditpoll.com/vote/ozJvHrln)**|Data Science|**4** Votes 
+|**[Vote](http://redditpoll.com/vote/xOGvi23E)**|Computer Science|**4** Votes 
+|**[Vote](http://redditpoll.com/vote/9lk7i20b)**|Economics|**1** Votes 
+----
+**Instructions:**
+
+* Click Vote to Register Your Vote.
+
+----
+**Note:** Vote Count in this post will be updated real time with new data.
+
+----
+Make Your Own Poll Here **[redditpoll.com](http://redditpoll.com)**.
+
+----
+See live vote count **[here](http://redditpoll.com/poll/what-is-the-best-type-of-graduate-program-for-aspiring-data-scientists)**",7,3
+262,2016-1-28,2016,1,28,2,42yeq9,iterating over a folder of files for data processing with bash script,https://www.reddit.com/r/datascience/comments/42yeq9/iterating_over_a_folder_of_files_for_data/,sme1776,1453914171,,0,1
+263,2016-1-28,2016,1,28,3,42yw0t,Logistic regression with statsmodels,https://www.reddit.com/r/datascience/comments/42yw0t/logistic_regression_with_statsmodels/,[deleted],1453919747,[deleted],4,2
+264,2016-1-28,2016,1,28,9,430stv,My YouTube channel on Python programming (specialized in Data Science),https://www.reddit.com/r/datascience/comments/430stv/my_youtube_channel_on_python_programming/,snazrul,1453942776,,0,1
+265,2016-1-28,2016,1,28,11,431b9v,"Do I need to know how to implement linked lists, stacks, and queues during DS interview?",https://www.reddit.com/r/datascience/comments/431b9v/do_i_need_to_know_how_to_implement_linked_lists/,anotherPostDoc,1453949817,"I am preparing for 5 1:1 in-person interviews. One of my interviews is going to be a SWE like interview. I was told to brush up on flow control, recursion, search, and data structures. The problem is it was worded as 'arrays, hashmaps, trees, etc.'
+
+There are many things that can fall into ""etc"". I have limited them to linked lists, stacks, and queues. How many people have been asked to implement these last three data structures during an interview? Would i be best to learn these or spend my time elsewhere?
+
+p.s. I know their time and space limitations and one or two scenarios where they can be used, but nothing else.  ",5,4
+266,2016-1-28,2016,1,28,19,432rf1,Most-Wanted Data Science Skills for 2016,https://www.reddit.com/r/datascience/comments/432rf1/mostwanted_data_science_skills_for_2016/,heenaji,1453977102,,0,1
+267,2016-1-28,2016,1,28,22,4337zd,Data Science and Security Research: Two Parts of the Whole,https://www.reddit.com/r/datascience/comments/4337zd/data_science_and_security_research_two_parts_of/,KamrynnAdyson5,1453986624,,0,1
+268,2016-1-28,2016,1,28,23,433g3e,Data manipulation exercises,https://www.reddit.com/r/datascience/comments/433g3e/data_manipulation_exercises/,genofon,1453990490,"I have an important interview for a data scientist position, and I want to be sure I prepare well for it.
+
+Can someone suggest me some good data manipulation exercises? Ideally python, if not possible SQL would be fine as well.",2,18
+269,2016-1-29,2016,1,29,0,433qmd,Cohort analyses,https://www.reddit.com/r/datascience/comments/433qmd/cohort_analyses/,[deleted],1453994862,[deleted],6,5
+270,2016-1-29,2016,1,29,1,4340qz,How are data scientists evaluated in a good organization?,https://www.reddit.com/r/datascience/comments/4340qz/how_are_data_scientists_evaluated_in_a_good/,dornstar18,1453998622,"[In this thread yesterday](https://www.reddit.com/r/datascience/comments/42y230/how_to_tell_the_company_interviewing_you_doesnt/), I asked the title in question and it got a lot of votes, but no answer.
+
+I would love to hear how data scientists are judged in your organization. Both quantitative and qualitative factors are appreciated. ",18,25
+271,2016-1-29,2016,1,29,1,4343b9,Machine Learning Meets Economics,https://www.reddit.com/r/datascience/comments/4343b9/machine_learning_meets_economics/,ddcarnage,1453999536,,0,1
+272,2016-1-29,2016,1,29,2,434f47,CUDA Programming in Data Science?,https://www.reddit.com/r/datascience/comments/434f47/cuda_programming_in_data_science/,jewami,1454003639,"Of course the more skills you have, the better; however, some skills are more important than others.  I'm trying to get a feel for whether or not being able to do stuff with CUDA can help you in the data science field.  Can anyone speak to this?  Thanks!",5,1
+273,2016-1-29,2016,1,29,3,434pk7,Using two files with pandas,https://www.reddit.com/r/datascience/comments/434pk7/using_two_files_with_pandas/,quantumloophole,1454007248,"Hi,
+
+I'm using the movilens db with the short version. I want to calculate the mean rating score of each film and then, calculate the mean rating per genre.
+
+Doing with arrays was unbearably slow so I thought that pandas would speedup. But I don't know how to use both files at the same time ( movies and ratings).
+
+Could someone explain to me how to do the panda's way:
+
+    1) Calculate  the mean rate score for each movieId
+    2) For each moveId select the gernes of the movie and add the rate
+    3) Take the mean of each genre",1,1
+274,2016-1-29,2016,1,29,3,434pof,"Using ""micro-tasking"" to analyze satelittle images for human rights abuses - interview with researcher from Amnesty Int'l",https://www.reddit.com/r/datascience/comments/434pof/using_microtasking_to_analyze_satelittle_images/,drewsaysgoveg,1454007289,,0,1
+275,2016-1-29,2016,1,29,4,434w4v,I just got a job! Here are my aggregated notes about the data analysis pipeline honed by months of interviews.,https://www.reddit.com/r/datascience/comments/434w4v/i_just_got_a_job_here_are_my_aggregated_notes/,juslan,1454009485,,10,12
+276,2016-1-29,2016,1,29,4,434zxy,[Article] Formalizing Semantics with Syntax: Using Data Models to Capture Precise Business Requirements,https://www.reddit.com/r/datascience/comments/434zxy/article_formalizing_semantics_with_syntax_using/,safaribooks,1454010811,,0,1
+277,2016-1-29,2016,1,29,6,435e6a,Advanced google queries- surprisingly useful for finding interesting files.,https://www.reddit.com/r/datascience/comments/435e6a/advanced_google_queries_surprisingly_useful_for/,bishopxi,1454015792,,0,1
+278,2016-1-29,2016,1,29,9,436894,Some Tips for Debugging in Deep Learning,https://www.reddit.com/r/datascience/comments/436894/some_tips_for_debugging_in_deep_learning/,amplifier_khan,1454026741,,0,1
+279,2016-1-29,2016,1,29,10,436g9d,Be a Data Hero! (in Tableau),https://www.reddit.com/r/datascience/comments/436g9d/be_a_data_hero_in_tableau/,vvan0016,1454029872,,0,1
+280,2016-1-29,2016,1,29,12,4370hf,KoboToolbox not an option. Need a great way to do some simple data input...,https://www.reddit.com/r/datascience/comments/4370hf/kobotoolbox_not_an_option_need_a_great_way_to_do/,siriusblank,1454038319,"Hi all - i've read a lot online to try to get somewhere with data input for a project i'm working on and i've come unstuck. 
+
+The project requires about 100 fields of data from a paper survey (can only be print, survey subjects are not able to get to phones or computers) from about 200 survey subjects to be input and then manipulated. 
+
+I had arrived at Kobo Toolbox as a good tool and was almost getting it installed on the organisation server before a pretty outrageous quote from an IT contractor put an end to that being done. We're a NFP so not easy to do things that cost much more than... nothing. 
+
+Anyway - I now need to simply set up a system by which the survey data can be input in a safe and clean way. By that I mean a way that prevents error etc. 
+
+It occurs to me that I could just have it input straight into Excel, or use an Excel data input form, but this is probably going to be an ongoing project so I really want to set up something great and workable and sustainable and easy. 
+
+Other constraints:
+
+- Not easy for things to be installed on servers due to IT ridiculousness;
+- Windows computers used - thin clients on a network;
+- Cannot use cloud based solutions as data is too sensitive and needs to be held securely. 
+
+I don't know - this is starting to seem pretty silly. But maybe someone out there has a solution that my endless Googling hasn't uncovered. 
+
+Thanks!",11,5
+281,2016-1-29,2016,1,29,15,437l7n,Research at Google: Open Datasets,https://www.reddit.com/r/datascience/comments/437l7n/research_at_google_open_datasets/,Dawny33,1454047803,,0,1
+282,2016-1-29,2016,1,29,17,4380w5,A Few Useful Things to Know about Machine Learning,https://www.reddit.com/r/datascience/comments/4380w5/a_few_useful_things_to_know_about_machine_learning/,shagunsodhani,1454057037,,0,1
+283,2016-1-29,2016,1,29,23,438zjo,Work/Life Balance in Smaller/Startup-y Companies,https://www.reddit.com/r/datascience/comments/438zjo/worklife_balance_in_smallerstartupy_companies/,Teigue,1454077646,"Hello,
+
+I currently work as a Data Scientist at a Fortune 100 company in the Midwest.  For a variety of reasons, I am interested in switching to a new place of employment.
+
+One of the main benefits of my current position is the fantastic Work/Life Balance.  I have a bunch of hobbies outside of work, so this is an important factor for me.  That said, there are a few companies I am interested in in the SF Bayarea, but they tend to have around ~300 employees.
+
+I know it can vary significantly by company culture, but does anyone here have any experience working at a company around this size and is willing to share their experiences?
+
+Thanks!",10,6
+284,2016-1-29,2016,1,29,23,4392kb,How do you store 20 TB of text files?,https://www.reddit.com/r/datascience/comments/4392kb/how_do_you_store_20_tb_of_text_files/,mnky9800n,1454078935,"Data Columns are mostly numeric and timestamps.
+
+RAID? S3? Something else?",12,5
+285,2016-1-30,2016,1,30,3,43a883,What are some data science events/meetups coming up in the Bay area?,https://www.reddit.com/r/datascience/comments/43a883/what_are_some_data_science_eventsmeetups_coming/,fatimaboots,1454093670,"I'm mainly interested in any upcoming events for February, but would also love to hear about major data science focused events coming up throughout year. What are some great networking events to attend?",3,2
+286,2016-1-30,2016,1,30,5,43an9k,This Site Likely Contains Sexual-ly Explicit Photos Of Someone You Kno-w! my ana,https://www.reddit.com/r/datascience/comments/43an9k/this_site_likely_contains_sexually_explicit/,comwimbbettpep,1454098809,,0,0
+287,2016-1-30,2016,1,30,5,43at0e,The Data Scientist Interview Questions You Need,https://www.reddit.com/r/datascience/comments/43at0e/the_data_scientist_interview_questions_you_need/,theottozone,1454100840,"http://www.sas.com/en_us/insights/articles/analytics/data-scientist-interview-questions.html
+
+If anyone would like to include the answer to the questions, feel free to enlighten us.",9,24
+288,2016-1-30,2016,1,30,7,43b7xn,"Democratizing Big Data value , Fast analytics enables businesses of all sizes to generate insights.",https://www.reddit.com/r/datascience/comments/43b7xn/democratizing_big_data_value_fast_analytics/,Ruth5Keaton1213,1454106239,,0,2
+289,2016-1-30,2016,1,30,10,43byy7,Budding Data Scientist here with a quick question!,https://www.reddit.com/r/datascience/comments/43byy7/budding_data_scientist_here_with_a_quick_question/,Matanatr96,1454116989,"Hey. I'm a second year cs undergrad with dreams big enough to work with all the data we have :D. I am starting to look into all the requirements i would need to be successful in the field.
+I've realized that a background in math is pretty mandatory. 
+
+And heres my question. At my university, there is a math minor i could take which would make me take 4 statistics classes and 2 other math classes. The other option for me is a minor in computational data. This seems more relevant to data science as a whole, but here i'm only required to take 1 stats class. The other classes are in data visualization/ analytics and such.
+
+I was hoping someone on reddit could point me in the right direction. I could specify classes i would be required to take if necessary. Thanks!",13,1
+290,2016-1-30,2016,1,30,23,43ecmc,Are You Actually Data-Driven? (The 7 steps you should be following),https://www.reddit.com/r/datascience/comments/43ecmc/are_you_actually_datadriven_the_7_steps_you/,vvan0016,1454165653,,0,1
+291,2016-1-31,2016,1,31,0,43edv7,Data Science For Mainframe Developers,https://www.reddit.com/r/datascience/comments/43edv7/data_science_for_mainframe_developers/,srinimf,1454166229,,1,1
+292,2016-1-31,2016,1,31,4,43fk1w,Web scraping advice?,https://www.reddit.com/r/datascience/comments/43fk1w/web_scraping_advice/,n3utrino,1454182714,"Hey all, I'm a hopeful data scientist coming from a particle physics background. I have very strong C++, python, and data analysis skills, but I've recently started to do some side projects (read: a blog to potentially help get a job after I graduate) that involve basic web scraping to get access to some data.
+
+The extent of my ability is to do a lot of this type of thing:
+
+    req = urllib2.Request(url_string)
+    con = urllib2.urlopen( req )
+    soup = BeautifulSoup( con )
+
+and then parse through the soup for the things I'm interested. Often I'm looping over tons of urls and looking for one very specific string inside of an enormous soup... which is all very slow. 
+
+Does anyone have advice for how to do this faster/more efficiently? Or perhaps some resource (MOOC maybe?) that might show me better guidelines to handle these types of tasks?
+
+Thanks!",11,14
+293,2016-1-31,2016,1,31,6,43g1rq,Opinions on Data Science BootCamp Bundle from Stack Social?,https://www.reddit.com/r/datascience/comments/43g1rq/opinions_on_data_science_bootcamp_bundle_from/,z4ni,1454189197,"[StackSocial Bundle](https://stacksocial.com/sales/ultimate-data-analytics-bundle?utm_source=StackSocial+Deals+Newsletter&amp;utm_campaign=20160130_StackSocial_DailyDeals_3178&amp;utm_medium=email)
+
+Stacksocial has a bundle available right now that includes all of the courses on [educba.com](https://www.educba.com/courses/all/data-analytics/) in the analytics category for $39. I'm wondering if they are worth it. 
+
+I reviewed the topics they covered in the SAS course as a barometer for the other courses, and it looks like they cover all the topics on the BASE and Advanced Certs... Does anyone else have any experience with Educba.com to know if it is worth it. I figure for $39 ill give it a shot...",2,1
+294,2016-1-31,2016,1,31,8,43glm8,How Do I Combine Three Datasets Into One,https://www.reddit.com/r/datascience/comments/43glm8/how_do_i_combine_three_datasets_into_one/,onedialectic,1454197489,"I have seven million rows in one dataset that hold:       
+       
+-------
+       
+1 . address and url
+       
+-------
+       
+2 . address and phone number
+       
+-------
+       
+3 . url and email
+       
+-------
+       
+I want to combine these datasets so that all matching data is set on the same row in one dataset. How would I do this?        
+       
+I would also consider paying someone to do this for me. You can PM me with offers.",25,6
+295,2016-1-31,2016,1,31,18,43ighw,Network Theory,https://www.reddit.com/r/datascience/comments/43ighw/network_theory/,n10w4,1454231203,,0,1

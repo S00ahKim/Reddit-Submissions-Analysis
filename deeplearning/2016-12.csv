@@ -1,0 +1,94 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2016-12-1,2016,12,1,14,5fusfy,MIT's Deep-learning system generates Videos that predict what will happen next in a scene.,https://www.reddit.com/r/deeplearning/comments/5fusfy/mits_deeplearning_system_generates_videos_that/,chrisqpt,1480568967,,0,1
+1,2016-12-2,2016,12,2,13,5g1g81,What does it mean when hidden layers are increasingly sparse?,https://www.reddit.com/r/deeplearning/comments/5g1g81/what_does_it_mean_when_hidden_layers_are/,nwpositronics,1480654349,,2,6
+2,2016-12-3,2016,12,3,22,5g9jiy,DNN architecture with variable-length output ?,https://www.reddit.com/r/deeplearning/comments/5g9jiy/dnn_architecture_with_variablelength_output/,asfarley,1480771548,"Anyone know about DNN architectures with variable-length outputs? A quick Google search doesn't turn up much. I'm not really interested in ideas like padding a maximum-length output with ""null"" - I'm looking for an architecture with a more natural representation of a variable length output.
+
+Specifically, I would like to represent image scenes as a partially-ordered graph/lattice where the ordering is equivalent to depth/Z-order in the image. ",1,1
+3,2016-12-4,2016,12,4,2,5gaiho,"Deep, Machine Learning, AI Developer jobs and salary.",https://www.reddit.com/r/deeplearning/comments/5gaiho/deep_machine_learning_ai_developer_jobs_and_salary/,petroDollaWarMachine,1480785155,"I've been researching jobs and salaries for deep learning, machine learning, AI developer and data scientists.  All of the job salary sites seem to report very average salaries for this new industry.  The salaries are on par with typical senior level Microsoft / LAMP / fullstack / web / java / ios developer positions.
+
+I don't get it?  For a field that requires such high level math, why isn't this level of difficulty reflected in the compensation?
+
+Could it be another case of this?
+
+http://www.zdnet.com/article/court-settlement-hides-how-silicon-valley-companies-saved-billions-in-secret-conspiracy-against-own-workers/
+
+http://www.nytimes.com/2014/03/01/technology/engineers-allege-hiring-collusion-in-silicon-valley.html?_r=0",2,7
+4,2016-12-4,2016,12,4,13,5gdndv,A summary of Udacity's lessons on DL pooling,https://www.reddit.com/r/deeplearning/comments/5gdndv/a_summary_of_udacitys_lessons_on_dl_pooling/,pkpp1234,1480824009,,0,1
+5,2016-12-6,2016,12,6,15,5grfsr,Computer Vision News of December (magazine format - click on Download icon if you prefer to read a PDF),https://www.reddit.com/r/deeplearning/comments/5grfsr/computer_vision_news_of_december_magazine_format/,Gletta,1481006463,,0,1
+6,2016-12-6,2016,12,6,22,5gssx9,How much of a difference does 16x vs 8x pci-e lanes make for multi-GPU training?,https://www.reddit.com/r/deeplearning/comments/5gssx9/how_much_of_a_difference_does_16x_vs_8x_pcie/,gr_eabe,1481030564,"My understanding is that with a 40 lane motherboard, you can have 4 GPUs running at 8x (~8GB/s) or 2 GPUs running at 16x (~16GB/s).  When you run the same model on multiple GPUs, you need to sync the parameters after every mini-batch (at least ideally).  It seems like you could potentially be bottlenecked by these transfer speeds, so there might be a big advantage to the 2 GPU setup.  On the other hand, things would seem to be even worse with distributed training.  Can anyone speak from experience about how big a deal 8x vs. 16x is and whether it could ever be good to use two machines with two GPUs each rather than one machine with four GPUs?  (Also, what do dual socket motherboards add to the mix?)",0,7
+7,2016-12-7,2016,12,7,3,5guoam,The major advancements in Deep Learning in 2016,https://www.reddit.com/r/deeplearning/comments/5guoam/the_major_advancements_in_deep_learning_in_2016/,[deleted],1481050539,[deleted],0,1
+8,2016-12-8,2016,12,8,2,5h16m9,"'A Deep Hierarchical Approach to Lifelong Learning in Minecraft' (AAAI-17), Tessler et al 2016",https://www.reddit.com/r/deeplearning/comments/5h16m9/a_deep_hierarchical_approach_to_lifelong_learning/,chentessler,1481131615,"Hi everyone, 
+
+We would like to share with you our recent work entitled 'A Deep Hierarchical Approach to Lifelong Learning in Minecraft' (AAAI-17) ([paper](https://arxiv.org/abs/1604.07255), [website](http://chentessler.wixsite.com/hdrlnminecraft)). This work presents a lifelong deep reinforcement learning system that is able to efficiently retain as well as transfer knowledge (via reusable skills) to solve new, unseen tasks; two of the key building blocks to lifelong learning.
+It is an exciting time for Deep Reinforcement Learning (DRL) research as new, complex gaming environments are being open sourced ([Minecraft - Malmo](https://www.microsoft.com/en-us/research/project/project-malmo/), [OpenAI - Universe](https://universe.openai.com/), [StarCraft - TorchCraft](https://arxiv.org/abs/1611.00625), [StarCraft 2](https://deepmind.com/blog/deepmind-and-blizzard-release-starcraft-ii-ai-research-environment/), [DeepMind Lab](https://deepmind.com/blog/open-sourcing-deepmind-lab/)
+) and shared with the AI community. We strongly believe that taking advantage of hierarchy as well as efficient mechanisms to transfer and retain knowledge are soon to play significant roles in the ability of DRL agents to scale in these new exciting environments. 
+
+Cheers",2,6
+9,2016-12-8,2016,12,8,2,5h16oh,Processing images of multiple sizes,https://www.reddit.com/r/deeplearning/comments/5h16oh/processing_images_of_multiple_sizes/,fusionlove,1481131631,"Hey :)
+
+We now have the ability to run CNNs on different sized images - thanks to convolutional layers (which don't care about the size) and spatial pooling layers (which convert multiple sized inputs to a fixed size representation).
+
+My question is about how to do this efficiently. Most implementations (I've tried Keras and Lasagne) batch images together for efficiency - but they do this by placing them into a big Numpy matrix, which constrains them all to be the same size!
+
+I've approached this by training on one image at a time - but sadly this slows down training time by a factor of 50 (in Lasagne).
+
+Any tips? :)",1,2
+10,2016-12-9,2016,12,9,5,5h9al9,DBN: generatively modeling the labels and data - Hinton's paper,https://www.reddit.com/r/deeplearning/comments/5h9al9/dbn_generatively_modeling_the_labels_and_data/,hassanzadeh,1481228816,"Hi everyone,
+In Hinton's paper (http://www.cs.toronto.edu/~hinton/absps/montrealTR.pdf) the MNIST data as well as the LABELS are generatively incorporated into the model, however, in the code provided for that paper (http://www.cs.toronto.edu/~hinton/MatlabForSciencePaper.html) labels are left out. I'm having a hard time understanding how the labels can be effectively incorporated there. Any thoughts?",0,0
+11,2016-12-10,2016,12,10,2,5hf7q5,making a Deep Learning Dataset in 24 hours,https://www.reddit.com/r/deeplearning/comments/5hf7q5/making_a_deep_learning_dataset_in_24_hours/,datasutra,1481306232,,1,1
+12,2016-12-10,2016,12,10,11,5hhsw8,How to add a new category to a deep learning model?,https://www.reddit.com/r/deeplearning/comments/5hhsw8/how_to_add_a_new_category_to_a_deep_learning_model/,robot_t0,1481335319,"Say I have done transfer learning on a pre-trained network to recognize 10 objects. How do add a 11th item that the network can classify without losing all the 10 categories that I already trained nor the information from the original pre-trained model ? A friend told me that active research is going on in this field, but I can't find any relevant papers or a name by which to search for ?
+Thank you.",6,2
+13,2016-12-10,2016,12,10,18,5hjf2p,Anyone trying to implement their own deep learning library ?,https://www.reddit.com/r/deeplearning/comments/5hjf2p/anyone_trying_to_implement_their_own_deep/,robot_t0,1481362412,"Ofcourse, it won't be as cool as Google's etc, but I think it is a awesome project. So much to learn ! ",8,3
+14,2016-12-10,2016,12,10,22,5hk876,Slides from Tutorials in NIPS 2016,https://www.reddit.com/r/deeplearning/comments/5hk876/slides_from_tutorials_in_nips_2016/,shubhamjain0594,1481378349,,0,9
+15,2016-12-11,2016,12,11,1,5hkygk,[Course] Accelerated Deep Learning with TensorFlow - London 24-25th January 17 [x-post from [r/learnmachinelearning](www.reddit.com/r/learnmachinelearning)],https://www.reddit.com/r/deeplearning/comments/5hkygk/course_accelerated_deep_learning_with_tensorflow/,Geilminister,1481388179,,0,1
+16,2016-12-11,2016,12,11,14,5hok9b,How is deep learning implemented in Amazon Go?,https://www.reddit.com/r/deeplearning/comments/5hok9b/how_is_deep_learning_implemented_in_amazon_go/,janeboo,1481433244,,2,3
+17,2016-12-13,2016,12,13,4,5hyr0m,CNN correctly detected 95% of diabetic retinopathy cases - leads in public dataset classification results  /r/computervision,https://www.reddit.com/r/deeplearning/comments/5hyr0m/cnn_correctly_detected_95_of_diabetic_retinopathy/,CyndaquilTurd,1481571993,,0,1
+18,2016-12-13,2016,12,13,5,5hz6am,Is it correct that we don't understand how neural nets actually arrive at their conclusions?,https://www.reddit.com/r/deeplearning/comments/5hz6am/is_it_correct_that_we_dont_understand_how_neural/,RefurbishedMac,1481576108,"To clarify, we understand how the NN architecture works, but we cannot define a neural net into a set of rules or laws that explain WHY it arrived at it's prediction?
+
+But we can do this with decision trees?",9,7
+19,2016-12-14,2016,12,14,2,5i4ybn,"NIPS 2016 Review, Day 2",https://www.reddit.com/r/deeplearning/comments/5i4ybn/nips_2016_review_day_2/,amplifier_khan,1481651033,,1,5
+20,2016-12-15,2016,12,15,20,5igxg2,A Deep Learning Study Group,https://www.reddit.com/r/deeplearning/comments/5igxg2/a_deep_learning_study_group/,jantanplan,1481799604,"Hi,
+I recently put together an open-source deep learning curriculum and after receiving feedback that it would be nice to have a central place to discuss the materials I created a Slack group to do just that. We just kicked off and are around 43 people. 
+If you are interested you can join here:
+http://www.deeplearningweekly.com/slack_invitations/new
+You can find the curriculum here:
+http://www.deeplearningweekly.com/pages/open_source_deep_learning_curriculum
+
+Cheers :)",1,4
+21,2016-12-16,2016,12,16,5,5ijsq2,A ConvLSTM cell for TensorFlow's RNN API.,https://www.reddit.com/r/deeplearning/comments/5ijsq2/a_convlstm_cell_for_tensorflows_rnn_api/,carlthome,1481832922,,0,3
+22,2016-12-16,2016,12,16,19,5injep,Multi label time series classification with LSTM,https://www.reddit.com/r/deeplearning/comments/5injep/multi_label_time_series_classification_with_lstm/,a_endurance,1481883260,,0,0
+23,2016-12-17,2016,12,17,20,5iu4un,Song style transfer AI test,https://www.reddit.com/r/deeplearning/comments/5iu4un/song_style_transfer_ai_test/,simpleuserhere,1481974986,,0,5
+24,2016-12-18,2016,12,18,10,5ixweo,[Hardware configuration] How to setup 4 GTX 1080 GPUs machine,https://www.reddit.com/r/deeplearning/comments/5ixweo/hardware_configuration_how_to_setup_4_gtx_1080/,zagwin,1482025162,"Hello, I am working on Deep Learning projects with single GPU system. I want to build a more powerful machine. However, I don't have experience to build a deep learning machine (hardware parts). After online research, I am confused.
+
+1. Is it possible to build system with 4 Nvidia GTX 1080 GPUs?
+
+EDIT: from answers, I know that it is ok with 4 GTX 1080.
+
+2. I found that the ""GTX 1080 GPUs won't support 4-way SLI"", does this mean I can only setup 2 GTX 1080 GPUs system? Or this is only for gaming/display not for deep learning computation?
+
+Edit: from answers and I understand, I think the 2-way SLI or 4-way SLI is mainly for display or gaming. For Deep learning compuatation, it should be ok.
+
+3. I found that GTX 1080 GPU's width is 2 slots. I think this means the motherboard should have 8 slots to support 4 GPUs. However, All (to my best knowledge) Asus workstation motherboards have 7 slots at max. Can they hold 4 gpus? Does the 4th GPU blocks pins on the mohterboard (at the bottom part along side the PCIE_7)?
+
+Edit: from answers, Asus x99-e WS works well alghough the 4rd GPUs will block some connectors. and cheaper one GIGABYTE GA-X99P-SLI also work if update BIOS. Also, for speedup, it will be better to buy motherboard supports m2 ssd.
+
+Thanks very much!
+Weldon",14,2
+25,2016-12-18,2016,12,18,11,5iy35s,neural song style,https://www.reddit.com/r/deeplearning/comments/5iy35s/neural_song_style/,simpleuserhere,1482027888,,0,3
+26,2016-12-19,2016,12,19,7,5j2xip,Blind spot in PixelCNN?,https://www.reddit.com/r/deeplearning/comments/5j2xip/blind_spot_in_pixelcnn/,jsuit38,1482101829,"The paper ""Conditional Image Generation with PixelCNN Decoders"" says PixelCNN have a blind spot. But I don't see why this is true. 
+
+For background: see https://arxiv.org/pdf/1606.05328v2.pdf section 2.2. ",2,2
+27,2016-12-19,2016,12,19,11,5j3tvy,Is there any implementation of a neural model that extracts semantic label maps from portrait photos?,https://www.reddit.com/r/deeplearning/comments/5j3tvy/is_there_any_implementation_of_a_neural_model/,afg500,1482113061,I want to integrate it with a neural style transfer calibrated on portraits,0,1
+28,2016-12-19,2016,12,19,15,5j50oh,Amazon Go : The Just Walk out Technology,https://www.reddit.com/r/deeplearning/comments/5j50oh/amazon_go_the_just_walk_out_technology/,dataaspirant,1482130134,,0,1
+29,2016-12-20,2016,12,20,0,5j6vop,question about document embedding,https://www.reddit.com/r/deeplearning/comments/5j6vop/question_about_document_embedding/,davido1221,1482160594,"Is there any approach today to embed documents in a vector form ,via sentiment  analysis ? (for example DocumentA speaks positively about Apple &amp; DocumentB also speaks positively about apple ,so the cosine distance between the 2 documents will be high).",3,0
+30,2016-12-20,2016,12,20,7,5j9f66,Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling,https://www.reddit.com/r/deeplearning/comments/5j9f66/learning_a_probabilistic_latent_space_of_object/,rozgo,1482186295,,0,1
+31,2016-12-23,2016,12,23,11,5jujto,Understanding Locally Connected Layers In Convolutional Neural Networks,https://www.reddit.com/r/deeplearning/comments/5jujto/understanding_locally_connected_layers_in/,AlexanderYau,1482458519,,0,3
+32,2016-12-26,2016,12,26,0,5k8quh,need a companion to finish this,https://www.reddit.com/r/deeplearning/comments/5k8quh/need_a_companion_to_finish_this/,PhpDev2k14,1482679807,"anybody with me to complete this : http://neuralnetworksanddeeplearning.com/ 
+
+we could connect over teamviewer. I am good at math, but need motivation to go faster with this resource. It is always better when you have a group.",2,3
+33,2016-12-26,2016,12,26,4,5k9t6y,2016: The Year That Deep Learning Took Over the Internet,https://www.reddit.com/r/deeplearning/comments/5k9t6y/2016_the_year_that_deep_learning_took_over_the/,MavraSay,1482695364,,0,5
+34,2016-12-28,2016,12,28,9,5kn54b,TensorFlow on Azure GPU,https://www.reddit.com/r/deeplearning/comments/5kn54b/tensorflow_on_azure_gpu/,lutzr,1482884652,,0,4
+35,2016-12-29,2016,12,29,1,5kqyea,RGB-D image segmentation using deep learning,https://www.reddit.com/r/deeplearning/comments/5kqyea/rgbd_image_segmentation_using_deep_learning/,NailIbrahimli,1482941379,Is there any new paper about  segmentation of RGB-D images using deep learning approach? ,2,2
+36,2016-12-30,2016,12,30,7,5kzr5u,Deep Learning Gallery - a curated list of awesome deep learning projects. Any feedback?,https://www.reddit.com/r/deeplearning/comments/5kzr5u/deep_learning_gallery_a_curated_list_of_awesome/,alecmgo,1483050977,,3,18
+37,2016-12-30,2016,12,30,13,5l1iw9,"AutoDiff Graph that supports BatchNorm, Conv2d, LSTM built from scratch on numpy, with a Tensorflow-like interface and highly readable code.",https://www.reddit.com/r/deeplearning/comments/5l1iw9/autodiff_graph_that_supports_batchnorm_conv2d/,[deleted],1483072537,[deleted],0,1
+38,2016-12-31,2016,12,31,3,5l4s5g,Collection of Deep Learning Cyber Security Research Papers,https://www.reddit.com/r/deeplearning/comments/5l4s5g/collection_of_deep_learning_cyber_security/,jt6211,1483120851,,0,10

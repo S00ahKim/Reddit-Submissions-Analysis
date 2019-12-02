@@ -1,0 +1,69 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2013-8-5,2013,8,5,0,1jom8v,[Ask r/datascience/] Choosing a data science technology stack,https://www.reddit.com/r/datascience/comments/1jom8v/ask_rdatascience_choosing_a_data_science/,ieeamo,1375630975,,0,1
+1,2013-8-5,2013,8,5,21,1jqjof,Data Recovery | Hard Drive Recovery,https://www.reddit.com/r/datascience/comments/1jqjof/data_recovery_hard_drive_recovery/,BruceUngersbock,1375707477,,0,1
+2,2013-8-6,2013,8,6,6,1jrotl,"Heatmapping Washington, DC Rental Price Changes using OpenStreetMaps",https://www.reddit.com/r/datascience/comments/1jrotl/heatmapping_washington_dc_rental_price_changes/,[deleted],1375739611,,0,1
+3,2013-8-7,2013,8,7,2,1jtnau,Alpha release of graph mining library for GPUs and Many-Core CPUs.,https://www.reddit.com/r/datascience/comments/1jtnau/alpha_release_of_graph_mining_library_for_gpus/,mhermans,1375809978,,1,6
+4,2013-8-8,2013,8,8,0,1jvzxi,Instant Feedback Tool for Apache Pig,https://www.reddit.com/r/datascience/comments/1jvzxi/instant_feedback_tool_for_apache_pig/,thmsmlr,1375889766,,0,10
+5,2013-8-9,2013,8,9,22,1k0wey,Learn Data Science,https://www.reddit.com/r/datascience/comments/1k0wey/learn_data_science/,gthank,1376055820,,2,21
+6,2013-8-13,2013,8,13,7,1k8lqg,The power of connected data goes way beyond social networks.,https://www.reddit.com/r/datascience/comments/1k8lqg/the_power_of_connected_data_goes_way_beyond/,meyamashi,1376347467,,0,7
+7,2013-8-15,2013,8,15,4,1kd8bz,Recommender Tips: Product Is More Important Than Math,https://www.reddit.com/r/datascience/comments/1kd8bz/recommender_tips_product_is_more_important_than/,collocations,1376507633,,0,9
+8,2013-8-16,2013,8,16,22,1khhlu,"Data Science 101: Agile Data Science with R, Shiny and a little magic from the R Forecast package",https://www.reddit.com/r/datascience/comments/1khhlu/data_science_101_agile_data_science_with_r_shiny/,syntaxspectrum,1376658417,,1,0
+9,2013-8-17,2013,8,17,5,1kif29,I hate data wrangling (aka data munging). Any tips/tools/recommendations to make it easier?,https://www.reddit.com/r/datascience/comments/1kif29/i_hate_data_wrangling_aka_data_munging_any/,flipstables,1376686328,"I hate data wranging.  What are your favorite tools for this?
+
+Currently, I do as much as I can with SQL since all my sources are (usually) from relational sources.  I bring them into Excel for some quick checking and converting, but for the most part, I load it straight into R.
+
+I'm finding the built-in R tools to be cumbersome to work with.  Perhaps it's because I need more practice with it, but it takes me a long time to clean up the data and split vectors/dataframes.
+
+I'm thinking about switching to python/pandas.  I'd hate to use *both* because it would make the workflow a lot more difficult.  Also, I don't really like working with data frames.  I mean, it's much better than vectors and matrixes, but it still feels awkward for me (I have a background in SQL and Excel).
+
+I could defintely use some pointers on making this part of my life easier.
+
+Thanks.",6,4
+10,2013-8-17,2013,8,17,7,1kim4b,Has anyone taken the online UCSD Data Mining Cert?,https://www.reddit.com/r/datascience/comments/1kim4b/has_anyone_taken_the_online_ucsd_data_mining_cert/,nomaroma,1376692187,"Poseted this on ML but no one really had an answer..
+  
+Has anyone completed/ enrolled in the UCSD Data Mining certificate program? I am looking for some 3rd party feedback before I bring it up with some of my coworkers and my boss.
+  
+Does the online set-up work well? Is it easy to understand?
+
+[UCSD DM info here](http://extension.ucsd.edu/programs/index.cfm?vAction=certDetail&amp;vCertificateID=128&amp;vStudyAreaID=14)",0,1
+11,2013-8-19,2013,8,19,7,1kmpr0,Want to work in data science..currently a neuroscience PhD. Switch to master's or stay in PhD?,https://www.reddit.com/r/datascience/comments/1kmpr0/want_to_work_in_data_sciencecurrently_a/,KaptainKancho,1376866197,"Hi r/datascience.  Sorry for the wall of text.  I'm not sure if this is the wrong place to post a question like this but I'm looking for some advice on education and qualifications for data scientists.  I know data science is a very new field so there aren't hard and fast rules on what makes a great data scientist but I'd like to maximize my employability in the future.  About me: My bachelor's degree is in physics.  I did undergraduate research in quantum optics and cryptography as well as a project where I analyzed spectral data from large sets of human and rodent high density electrophysiological recordings (almost exclusively in Matlab, I developed some novel techniques for visualizing big data that I'm pretty proud of).  I'm entering my 3rd year of graduate school in a world renowned lab doing experimental work and computational modelling of electrophysiological properties of single neurons and microcircuits.  Grad school has made me realize that I don't want to go into academia, prefer math and analyzing data to collecting data and want to get a job one day instead of being a post-doc bitch until I'm 40.  
+
+My problem is that I don't know if I should quit the PhD in neuroscience to go to a data science master's (which is offered at my school) or continue my PhD and go the industry route after graduating. 
+
+Pros/Cons of both:
+ 
+Pros of PhD: fully funded with generous stipend, in a famous lab, freedom from debt, cool research.  Cons of PhD: probably not as much math/programming as I want in my education, might not qualify me for the type of career I want later, people in academia push you to follow the academic route which might sabotage chances of a high level industry job later.  
+
+Pros of master's: directly learning about topics in data science rather than more tangential topics in my PhD, master's in data science would look good on a resume (I think) if I'm looking for a job in data science (although I'm not sure if master's in data science&gt;&gt;PhD in quantitative stem field), connections in the field which I could gain from being in a data science department.  Cons of master's: DEBT and cost of living in the most expensive city in the country, not the same prestige as PhD (not sure if true), employment ceiling may be lower than that of a PhD (i.e. moving into management roles later on, etc.).  
+
+I know there's no magical answer to this question but I'd appreciate some advice from people in the field or with more knowledge about the field than me.  Also, I have the opportunity to take some courses in the data science department in my PhD but definitely not all (or even a lot) of the courses required for the masters.
+
+Hopefully this is enough data points for some good advice.  My life is in your hands.
+
+TL;DR: Strong quantitative background, currently in neuroscience PhD, hate academia, want to go into data science.  Stay in PhD or go for master's in data science?",0,1
+12,2013-8-19,2013,8,19,14,1knfnp,Evaluating data science as a career (and leaving marketing behind)looking for guidance and info [xpost /r/montreal],https://www.reddit.com/r/datascience/comments/1knfnp/evaluating_data_science_as_a_career_and_leaving/,[deleted],1376890510,"I'm interested in learning how to process, visualize, and extract patterns from big sets of data. I started investigating data science as a potential career path recently, however, I find the multitude of technical skills necessary to become a data scientist somewhat daunting.
+
+For reference, my background is in business; specifically, search engine marketing. I finished university years ago. The only courses I took which seem to have relevancy to my new career interest would be calculus and business statistics. I don't have any kind of computer science or database engineering background.
+
+How long have you worked in data science, informatics? What's it like? How did you get involved? What kind of training do you have? (Also, any practitioners from Montreal?)
+
+I have many more questions but hopefully the above ones will help kick things off.",0,1
+13,2013-8-19,2013,8,19,20,1knsfw,RSWA: A web app I am working on that intends to introduce concepts in data science and web scraping.,https://www.reddit.com/r/datascience/comments/1knsfw/rswa_a_web_app_i_am_working_on_that_intends_to/,matthewhughes,1376911645,,0,1
+14,2013-8-20,2013,8,20,22,1kqc80,Question regarding the O'Reilly Data Science Kit,https://www.reddit.com/r/datascience/comments/1kqc80/question_regarding_the_oreilly_data_science_kit/,new_to_datascience,1377004762,"So I am a Computer Science major and am really interested in the whole Data Science field and have even successfully taken the Coursera Introduction to Data Science course but want to take it a bit further. So I googled around and found this page:
+
+http://shop.oreilly.com/category/get/data-science-kit.do
+
+I was wondering what professional Data Scientist's take on the order that they should read those books. I would assume that the Python for Data Analysis would be a good start but what about the rest of those books? Should I read R in a Nutshell before R Cookbook and then read Machine Learning for Hackers? or vice versa? 
+
+Sorry if this isn't the correct subreddit for these kinds of questions. ",8,12
+15,2013-8-20,2013,8,20,22,1kqcay,How to Create an Effective Data Science Department - Kim Stedman,https://www.reddit.com/r/datascience/comments/1kqcay/how_to_create_an_effective_data_science/,jgomo3,1377004865,,0,1
+16,2013-8-21,2013,8,21,6,1krbz5,"Sparklines, datawords and explorable explanations",https://www.reddit.com/r/datascience/comments/1krbz5/sparklines_datawords_and_explorable_explanations/,danielpradilla,1377032514,,0,1
+17,2013-8-28,2013,8,28,2,1l79dp,Long running processes - monitoring and automatic restart,https://www.reddit.com/r/datascience/comments/1l79dp/long_running_processes_monitoring_and_automatic/,dasfaha,1377626148,,1,5
+18,2013-8-28,2013,8,28,14,1l8p4k,Salary for Data Science/ ML Algorithm engineer with Phd?,https://www.reddit.com/r/datascience/comments/1l8p4k/salary_for_data_science_ml_algorithm_engineer/,brownck,1377666115,"Hi All, 
+
+I was wondering if you could help me out. I just got an offer for a data scientist/ machine learning engineer at a company in SF (not a startup) and don't really have a good idea about what salary to expect. I have a PhD with a year postdoc experience where I was making well below six figures (around avg postdoc salary). Any help would be great!",11,4
+19,2013-8-29,2013,8,29,16,1lbgbz,Machine Learning The Ultimate Paula Deen Dessert (a series),https://www.reddit.com/r/datascience/comments/1lbgbz/machine_learning_the_ultimate_paula_deen_dessert/,[deleted],1377762155,,5,0
+20,2013-8-30,2013,8,30,1,1lc8ld,Job offer startup help!,https://www.reddit.com/r/datascience/comments/1lc8ld/job_offer_startup_help/,brownck,1377794343,"I got an offer from a ""stealth startup"" (at least that's what they called it) and they say it's only for 24 hours. It's great pay and benefits and interesting work, but I feel like they are bullying me into signing up with them immediately. I asked for a standard 1-2 weeks to think about this. Any experience with this?",0,1
+21,2013-8-30,2013,8,30,6,1lcuga,Good resources for learning SQL?,https://www.reddit.com/r/datascience/comments/1lcuga/good_resources_for_learning_sql/,blind_swordsman,1377810131,"Title is pretty self-explanatory. I am very familiar analyzing data in R and MATALB, an I would like to start working with databases in SQL. Can you recommend any tutorials/books/videos etc. to get started?",0,1
+22,2013-8-30,2013,8,30,6,1lcv3g,What is a Data Scientist? (Illustrated),https://www.reddit.com/r/datascience/comments/1lcv3g/what_is_a_data_scientist_illustrated/,dataarchaeology,1377810603,,0,1
+23,2013-8-31,2013,8,31,5,1lf8se,Libraries for map visualizations?,https://www.reddit.com/r/datascience/comments/1lf8se/libraries_for_map_visualizations/,jchucks,1377895756,"What are the best libraries for generating map visualizations? Open source and Python would be ideal, but I'd love to hear about anything.",0,1

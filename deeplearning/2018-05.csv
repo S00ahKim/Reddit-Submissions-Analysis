@@ -1,0 +1,1201 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2018-5-1,2018,5,1,19,8g7gdz,Links to the May issue of COMPUTER VISION NEWS,https://www.reddit.com/r/deeplearning/comments/8g7gdz/links_to_the_may_issue_of_computer_vision_news/,Gletta,1525170792,"Here is the May 2018 issue of **Computer Vision News**, published by RSIP Vision: **52 pages** about Computer Vision, Biomedical Imaging, **Deep Learning** and Artificial Intelligence. Technical reviews of new papers and technologies \(with codes!\), including YOLO version 3! **Free subscription** at page 52.
+
+HTML5 version \(recommended\) ==\&gt; [http://www.rsipvision.com/ComputerVisionNews\-2018May/](http://www.rsipvision.com/ComputerVisionNews-2018May/)
+
+and PDF version ==\&gt; [http://www.rsipvision.com/computer\-vision\-news\-2018\-may\-pdf/](http://www.rsipvision.com/computer-vision-news-2018-may-pdf/)
+
+**Enjoy!**",0,6
+1,2018-5-2,2018,5,2,6,8gbv9j,Feature-matching Generative Adversarial Networks,https://www.reddit.com/r/deeplearning/comments/8gbv9j/featurematching_generative_adversarial_networks/,not_untrue,1525208404,,0,10
+2,2018-5-2,2018,5,2,7,8gck4k,road sign recognition ?,https://www.reddit.com/r/deeplearning/comments/8gck4k/road_sign_recognition/,1CSX,1525214193,"Hello everyone, I was wondering if any of you have any paper that deals with the recognition of road signs \(using deep learning\). Thanks very much. ",2,5
+3,2018-5-2,2018,5,2,13,8getdl,Network with Binary weights?,https://www.reddit.com/r/deeplearning/comments/8getdl/network_with_binary_weights/,atenaNg,1525236386,"I would like to restrict particular Convolution layers in a network to have binary weights. Any suggestion for paper or reference code?
+
+Thank you",5,2
+4,2018-5-3,2018,5,3,1,8girh0,Getting started with deep learning and NLP?,https://www.reddit.com/r/deeplearning/comments/8girh0/getting_started_with_deep_learning_and_nlp/,Param-eter,1525278719,"So I've been doing the Fast AI deep learning course, and while it's got some really good content, the code isn't the greatest and I'm getting errors when running some of the lessons and sometimes doing a git pull just breaks parts of my script.
+
+I'm getting into deep learning to improve my NLP skills to incorporate embeddings.
+
+What's the best way to get into deep learning, particularly with a focus on NLP?
+
+",5,9
+5,2018-5-3,2018,5,3,7,8glf5a,PyTorch 1.0 is going to be awesome - an engineering perspective,https://www.reddit.com/r/deeplearning/comments/8glf5a/pytorch_10_is_going_to_be_awesome_an_engineering/,not_untrue,1525299503,,1,18
+6,2018-5-3,2018,5,3,15,8goapy,Creating Music by Beatboxing using Deep Learning.,https://www.reddit.com/r/deeplearning/comments/8goapy/creating_music_by_beatboxing_using_deep_learning/,sksiitb,1525328509,"Do you guys think its possible?  
+
+If it is, is anyone already doing it?
+
+If not, can we create an opensource project and crowdsource the data?",5,4
+7,2018-5-3,2018,5,3,15,8goept,"Browse all deep learning projects, papers and pre trained models in a detailed list sorted by categories. Moreover it gives links to numerous tutorials on each project, paper and model. And the list is daily updated, so subscribe to the newsletter to get notified of latest content.",https://www.reddit.com/r/deeplearning/comments/8goept/browse_all_deep_learning_projects_papers_and_pre/,kotkaramit,1525329987,,0,1
+8,2018-5-3,2018,5,3,16,8gojf0,Hello World  Raven Protocol  RavenProtocol  Medium,https://www.reddit.com/r/deeplearning/comments/8gojf0/hello_world_raven_protocol_ravenprotocol_medium/,kailashahirwar12,1525331673,,0,2
+9,2018-5-3,2018,5,3,16,8gop18,ConvNet on satellite imagery time series and missing data,https://www.reddit.com/r/deeplearning/comments/8gop18/convnet_on_satellite_imagery_time_series_and/,perilo,1525333933,"
+Let's suppose I want to use convnets for a segmentation task on satellite imagery. Using the information of the evolution of a given area over time would be great, let's say the last 4 months. The problem is that clouds are a big issue and a lot of images are simply unusable. For example, in the period of one month, of the 6 images captured (one every 5 days), only one is not completely covered by clouds.
+
+What are some common practices for cases like this?",1,1
+10,2018-5-3,2018,5,3,17,8goyt2,Disentanglement in NLP - toy dataset equivalent to dSprites dataset,https://www.reddit.com/r/deeplearning/comments/8goyt2/disentanglement_in_nlp_toy_dataset_equivalent_to/,solingermuc,1525337977,"Hello Deep Learning Reddit community,
+
+I am working on disentanglement in the area of natural language processing and I am wondering if anyone has an idea, if there is a similar dataset to the one used for disentanglement of images published by Deepmind. Their dataset is called ""dSprites - Disentanglement testing Sprites dataset"". 
+
+Link:
+https://github.com/deepmind/dsprites-dataset
+
+
+I am looking for a similar dataset for text learning, where one can generate/got simple sentences with different subjects (I,you,he,she,...), different verbs and also different objects and therefore get a dataset with all grammatical correct variations of combinations.
+
+Thank you!",0,1
+11,2018-5-3,2018,5,3,21,8gpw2g,OCR model,https://www.reddit.com/r/deeplearning/comments/8gpw2g/ocr_model/,hristo_rv,1525349542,"Hello, i am looking for an OCR model that can recognize images with text like the Quotes/Memes found on the internet. That means different colors,positions and angles of the text. With that said i cant use Tessaract and i need a better solution.
+
+Is there any trained model for OCR capable of doing this? I cant train it myself since i dont have the hardware or the money to use the cloud solutions.",1,4
+12,2018-5-3,2018,5,3,22,8gqax9,[Blog] Managing Deep Learning Workloads on Japans RAIDEN Supercomputer with Univa Grid Engine http://bit.ly/2HP22O2,https://www.reddit.com/r/deeplearning/comments/8gqax9/blog_managing_deep_learning_workloads_on_japans/,alejandralopzs,1525353561,,0,6
+13,2018-5-4,2018,5,4,2,8gs1nl,"[PyTorch for Computer Vision 2]: GPU in Deep Learning, do you need one? - The AI Journal",https://www.reddit.com/r/deeplearning/comments/8gs1nl/pytorch_for_computer_vision_2_gpu_in_deep/,databiryani,1525367871,,0,3
+14,2018-5-4,2018,5,4,4,8gt25o,Disentanglement in NLP - toy dataset equivalent to dSprites dataset,https://www.reddit.com/r/deeplearning/comments/8gt25o/disentanglement_in_nlp_toy_dataset_equivalent_to/,solingermuc,1525375806,,0,7
+15,2018-5-4,2018,5,4,9,8gvd8j,Can you provide tutorials and guides for totally new students?,https://www.reddit.com/r/deeplearning/comments/8gvd8j/can_you_provide_tutorials_and_guides_for_totally/,KevinNintyNine,1525395429,,7,1
+16,2018-5-4,2018,5,4,14,8gx0kp,Convolutional Neural Networks: The Biologically-Inspired Model,https://www.reddit.com/r/deeplearning/comments/8gx0kp/convolutional_neural_networks_the/,janemoz,1525413124,,0,1
+17,2018-5-4,2018,5,4,18,8gxzlw,Export images from Tensorboard / read tensorboard raw data?,https://www.reddit.com/r/deeplearning/comments/8gxzlw/export_images_from_tensorboard_read_tensorboard/,Jadeyard,1525426550,"How can I extract the data from the tensorboard visualization/files in order to plot it with a different program or include it as .png somewhere else? Googled for a while, but didn't find a clear answer yet. I saw some comments about csv export but didnt find a tutorial for it.
+
+Thanks!",0,1
+18,2018-5-5,2018,5,5,11,8h4lej,"Are you interested in AI and want to start learning more with Tutorials? Check out this new Subreddit, called AI Tutorials. :)",https://www.reddit.com/r/deeplearning/comments/8h4lej/are_you_interested_in_ai_and_want_to_start/,DiscoverAI,1525487310,,1,13
+19,2018-5-5,2018,5,5,14,8h5i7r,Average salary in data/AI-related professions,https://www.reddit.com/r/deeplearning/comments/8h5i7r/average_salary_in_dataairelated_professions/,_data_scientist_,1525498112,"In today's job market in the States and Canada, which group of people make the most on average?
+
+\- Data Scientists?
+
+\- Applied \(Deep Learning\) Research Scientists who put recent research results into production?
+
+\- Pure \(Deep Learning\) Research Scientists who come up with novel algorithms and architectures?",0,2
+20,2018-5-6,2018,5,6,0,8h8bck,AI Weekly 5 May 2018,https://www.reddit.com/r/deeplearning/comments/8h8bck/ai_weekly_5_may_2018/,TomekB,1525535102,,0,1
+21,2018-5-6,2018,5,6,2,8h8uy9,[YouTube] Neural Voice Cloning,https://www.reddit.com/r/deeplearning/comments/8h8uy9/youtube_neural_voice_cloning/,ajhalthor,1525540115,,5,20
+22,2018-5-6,2018,5,6,4,8h9y9y,Deep Learning in Python,https://www.reddit.com/r/deeplearning/comments/8h9y9y/deep_learning_in_python/,whimsical_monkey,1525550022,"A new version of [Conx](http://conx.readthedocs.io/en/latest/), a Deep Learning library in Python, allows easy exploration of sophisticated models. Start here: [http://conx.readthedocs.io/en/latest/](http://conx.readthedocs.io/en/latest/) but check out AlphaZero: [http://nbviewer.jupyter.org/github/Calysto/conx\-notebooks/blob/master/work\-in\-progress/AlphaZero.ipynb](http://nbviewer.jupyter.org/github/Calysto/conx-notebooks/blob/master/work-in-progress/AlphaZero.ipynb) and VGG16: [http://nbviewer.jupyter.org/github/Calysto/conx\-notebooks/blob/master/VGG16&amp;#37;20and&amp;#37;20ImageNet.ipynb](http://nbviewer.jupyter.org/github/Calysto/conx-notebooks/blob/master/VGG16%20and%20ImageNet.ipynb) Demonstrations at PyCon 2018.",0,1
+23,2018-5-6,2018,5,6,7,8hayux,Concepts heavily involved or related with text/natural language processing,https://www.reddit.com/r/deeplearning/comments/8hayux/concepts_heavily_involved_or_related_with/,seands,1525559767,As a programmer and marketer I notice most of my projects on the drawing board require heavy use of text / natural language processing. Being a motivated self learner I'd like to put together a list of concepts to make sure I'm checking all the right boxes; what are the important concepts I should put on my list for this subset of deep learning?,0,1
+24,2018-5-6,2018,5,6,12,8hcnqv,"Deep Learning from first principles in Python, R and Octave  Part 8",https://www.reddit.com/r/deeplearning/comments/8hcnqv/deep_learning_from_first_principles_in_python_r/,tvganesh,1525577860,,0,1
+25,2018-5-6,2018,5,6,17,8hducp,LSTM Networks (RNN/GRUs) Explained,https://www.reddit.com/r/deeplearning/comments/8hducp/lstm_networks_rnngrus_explained/,vector_machines,1525593865,,1,15
+26,2018-5-6,2018,5,6,17,8he0ep,Rephrase Neural Network : Find the Fittest Word for Given Meaning,https://www.reddit.com/r/deeplearning/comments/8he0ep/rephrase_neural_network_find_the_fittest_word_for/,complectere,1525596510,"Hi, I am a sophomore student who's interested in deep learning and its method layering up some linear/non-linear operations and makes up the complex function through the network.
+
+I'd like to comprise a network that finds the word for the given explanation ; 
+
+e.g. input: a spherically shaped fruit which tastes sour and sweet and gets red when matured well output: apple 
+
+e.g., input: to make up the boundary between multiple options for the base of one's behavior or decision output: determine.
+
+
+So basically it's a classification problem but the class might be more than 20,000.
+
+I'd like to name this task ""rephrase neural network"". 
+
+Any good reference or starting point, or, any network recommendation for comprising this neural network?
+
+",1,2
+27,2018-5-6,2018,5,6,22,8hf6od,"What is some software that takes my favourites, files, and/or email and categorizes them into different area of interests?",https://www.reddit.com/r/deeplearning/comments/8hf6od/what_is_some_software_that_takes_my_favourites/,Italian_Nerd,1525613358,"It would use a hierarchical and/or tag categorization. Ideally it would also suggest new content based on my interests.
+
+Do you know of any such thing?",2,1
+28,2018-5-7,2018,5,7,10,8hjtt0,How could i import U-Net using caffe in matlab (windows 8),https://www.reddit.com/r/deeplearning/comments/8hjtt0/how_could_i_import_unet_using_caffe_in_matlab/,ahmedsharf11,1525655735,Iam trying to import U-net a pre trained  network to matlab using caffe but every time i try to it get an error while i import .prototxt and .caffemodel files,1,1
+29,2018-5-7,2018,5,7,16,8hlr6y,"Deep Conversations: Lisha Li, Principal at Amplify Partners",https://www.reddit.com/r/deeplearning/comments/8hlr6y/deep_conversations_lisha_li_principal_at_amplify/,molode,1525678553,,0,6
+30,2018-5-7,2018,5,7,16,8hlrsn,How to do Semantic Segmentation using Deep learning,https://www.reddit.com/r/deeplearning/comments/8hlrsn/how_to_do_semantic_segmentation_using_deep/,magneticono,1525678791,,2,21
+31,2018-5-7,2018,5,7,21,8hmy2l,What is the best (Tesorflow) Optimizer for multi label classification ?,https://www.reddit.com/r/deeplearning/comments/8hmy2l/what_is_the_best_tesorflow_optimizer_for_multi/,Naughty_Nagaland,1525694450,,7,4
+32,2018-5-7,2018,5,7,22,8hnesl,Validation loss never decreases,https://www.reddit.com/r/deeplearning/comments/8hnesl/validation_loss_never_decreases/,rotronic,1525699044,"I am training a sentiment analysis model using different methods on IMDB dataset. I have tried out BoW model till now and used a MLP and a CNN for classification. But in all the models the validation loss always increases. even if i change the learning rate. What am i doing wrong?
+I have plotted the train and val loss.
+link to project: https://github.com/rgujju/sentiment-analysis
+
+",1,1
+33,2018-5-8,2018,5,8,0,8ho85z,Any experience with graying out background in training images for CNN?,https://www.reddit.com/r/deeplearning/comments/8ho85z/any_experience_with_graying_out_background_in/,eobermuhlner,1525705961,"I currently have the \(not unusual\) problem of having not many samples for some categories in a classification project using CNN. Besides the usual augmentation tricks \(crop, rotation, scale, illumination, ...\) I wonder whether I could improve the training set be graying out the non\-relevant part \(background\) of some images.
+
+My reasoning is that the CNN would then be less confused by the background and only learn the relevant features.
+
+A possible enhancement would be to make this an additional augmentation step that adds random noise to the background \(thereby creating even more samples out of every original image\).
+
+I am a bit afraid that the CNN might learn the editing artifacts instead.
+
+Has anybody done this already or knows any relevant papers about this?",3,8
+34,2018-5-8,2018,5,8,3,8hpu9c,Case study: How Google Is Using Deep Learning AI,https://www.reddit.com/r/deeplearning/comments/8hpu9c/case_study_how_google_is_using_deep_learning_ai/,jonfla,1525718486,,0,1
+35,2018-5-8,2018,5,8,9,8hsi26,Deep Learning A-Z: Hands-On Artificial Neural Networks,https://www.reddit.com/r/deeplearning/comments/8hsi26/deep_learning_az_handson_artificial_neural/,SmartUdemy,1525739800,"Appreciate your review. Thanks in advance. Smile Android Game Development for Beginners - Promotion For limited time! Limited coupons.
++23 hours Learn to create Deep Learning Algorithms in Python from two Machine Learning &amp; Data Science experts. Templates included.
+
+This course is simply awesome. Anyone get an understanding about deep learning within such a short time. This could be a starting point for deep learning enthusiastic persons.It gives perfect overview about deep learning, though some in-depth explanations needed.
+https://deal5star.com/deep-learning-a-z-hands-on-artificial-neural-networks-2/",4,0
+36,2018-5-8,2018,5,8,10,8hstu5,"If we combine one trainable parameters with a non-trainable parameter, is the original trainable param trainable?",https://www.reddit.com/r/deeplearning/comments/8hstu5/if_we_combine_one_trainable_parameters_with_a/,real_charlie_parker,1525742604,[https://stackoverflow.com/questions/50144597/if\-we\-combine\-one\-trainable\-parameters\-with\-a\-non\-trainable\-parameter\-is\-the\-or/50215456#50215456](https://stackoverflow.com/questions/50144597/if-we-combine-one-trainable-parameters-with-a-non-trainable-parameter-is-the-or/50215456#50215456),0,1
+37,2018-5-8,2018,5,8,20,8hw0p2,Video Object Detection: Detecting object in the video frames (sequentially),https://www.reddit.com/r/deeplearning/comments/8hw0p2/video_object_detection_detecting_object_in_the/,uridah,1525779789,"My goal is to detect an object that is being flashed in front of a camera. Therefore, the input is a video (converted into images (frames)) and the sequence matters.
+I am trying to figure out how to go about training it. Usually video object detection algorithms detect objects in each frame. My problem is that the objects I am trying to classify are similar and the object is not fully visible in any single frame (because of a hand holding it). In order to correctly tell what the object is you have to look at multiple frames.
+I found https://www.tensorflow.org/versions/master/tutorials/recurrent_quickdraw which looks at the data sequentially but I am not sure how to map it to my situation. Anyone else knows about any implementations of a similar problem or potential ways of solving it.",3,6
+38,2018-5-8,2018,5,8,21,8hw6ub,Keras random_rotation introducing noise. Have used code arguments direct from API. Not sure what the problem is?,https://www.reddit.com/r/deeplearning/comments/8hw6ub/keras_random_rotation_introducing_noise_have_used/,errminator,1525781556,,1,0
+39,2018-5-8,2018,5,8,21,8hwakm,Instance Segmentation using Deep Learning,https://www.reddit.com/r/deeplearning/comments/8hwakm/instance_segmentation_using_deep_learning/,Zeolearn,1525782579," As we all know, object detection is the task of detecting objects in an image in the form of a bounding box. What if we wanted to get a more accurate information about the object? Youd go for more than a rectangle \(bounding box\), maybe a polygon which represents the object more tightly. But thats still not the best way. The best way would be to assign each pixel inside the bounding box which actually has the object. This task is called as Instance segmentation, where you segment the object instances. ",2,2
+40,2018-5-9,2018,5,9,0,8hxj6c,Detecting Uncertainty from Facial Images,https://www.reddit.com/r/deeplearning/comments/8hxj6c/detecting_uncertainty_from_facial_images/,Goron97,1525793018,,0,10
+41,2018-5-9,2018,5,9,1,8hy07q,"AI at massive scale, and Reinforcement Learning in industry",https://www.reddit.com/r/deeplearning/comments/8hy07q/ai_at_massive_scale_and_reinforcement_learning_in/,e_ameisen,1525796550,,0,12
+42,2018-5-9,2018,5,9,5,8i00c5,"Getting an error ""ValueError: The first layer in a Sequential model must get an `input_shape` or `batch_input_shape` argument.""",https://www.reddit.com/r/deeplearning/comments/8i00c5/getting_an_error_valueerror_the_first_layer_in_a/,haidershahzeb,1525811262,"I am trying to combine CNN with LSTM but getting the error in when executes the 2nd line in the following code:
+model=Sequential()
+model.add(TimeDistributed(Convolution2D(64, (2,2), border_mode= 'valid' , input_shape=( 2, 2), dim_ordering='th' activation= 'relu')))
+model.add(TimeDistributed(Convolution2D(64, (1,1), border_mode= 'valid', activation= 'relu')))
+model.add(TimeDistributed(MaxPooling2D(pool_size=(1,1))))
+model.add(TimeDistributed(Convolution2D(64, (1,1), activation= 'relu' )))
+model.add(TimeDistributed(MaxPooling2D(pool_size=(1,1))))
+model.add(TimeDistributed(Dropout(0.0)))
+model.add(TimeDistributed(Flatten()))
+model.add(TimeDistributed(Dense(16, activation= 'relu' )))
+model.add(TimeDistributed(Dense(16, activation= 'relu' )))
+#lstm
+m=Sequential()
+m.add(LSTM(units = 1, activation='sigmoid'))",0,1
+43,2018-5-9,2018,5,9,14,8i3idq,Regression model never converge,https://www.reddit.com/r/deeplearning/comments/8i3idq/regression_model_never_converge/,L_E_I,1525843405,"Hi all, I am a new to deep learning, now I implemented a Fully-connected neural network and CNN based model to do prediction task, and the loss is defined by RMSE. 
+1. However, I found that the training loss will keep getting lower, no matter how many epochs I use. Is this normal or I do something wrong?
+2. Besides, for prediction task, is there any good regularization norms?",4,1
+44,2018-5-9,2018,5,9,15,8i3tg5,[P] Seg-mentor - A TF based sanbox for exploring semantic segmentation,https://www.reddit.com/r/deeplearning/comments/8i3tg5/p_segmentor_a_tf_based_sanbox_for_exploring/,falex-ml,1525847236,,0,1
+45,2018-5-9,2018,5,9,20,8i5bhh,The Difference Between AI and Machine Learning,https://www.reddit.com/r/deeplearning/comments/8i5bhh/the_difference_between_ai_and_machine_learning/,y-emre,1525866442,,0,0
+46,2018-5-9,2018,5,9,22,8i5vt3,Building a simple Generative Adversarial Network (GAN) using TensorFlow,https://www.reddit.com/r/deeplearning/comments/8i5vt3/building_a_simple_generative_adversarial_network/,keghn,1525871734,,1,24
+47,2018-5-9,2018,5,9,22,8i65ez,Five Important Techniques That You Should Know About Deep Learning,https://www.reddit.com/r/deeplearning/comments/8i65ez/five_important_techniques_that_you_should_know/,Zeolearn,1525874092,,0,0
+48,2018-5-10,2018,5,10,14,8icmze,RMDL: Random Multimodel Deep Learning for Classification,https://www.reddit.com/r/deeplearning/comments/8icmze/rmdl_random_multimodel_deep_learning_for/,kk7nc,1525931400,,0,2
+49,2018-5-10,2018,5,10,21,8iekkl,Q learning help,https://www.reddit.com/r/deeplearning/comments/8iekkl/q_learning_help/,Jandevries101,1525956142,"Hey,
+
+ i am new to the Q learning coding. And i am wondering how it is done. I watched alot of tutorials and i know the state and trail and error terms, but when it gets to the code i don't really get what to do.... if somebody could help/explain to me some more information, would be appreciated!
+
+so what i want to create with this code = Input is numbers or visual, doesn't matter for the outcome really... by the way is only numbers even possible with qlearning? the AI will make a decision when he feels like its the right moment, between action1 or action2. When action1 or action2 is performed the game will return a number above 0 or higher, or 0 or lower. when he gets 0 or higher that will mean a trail, i heard with qlearning they give alot of examples with +1 and -1, but i think higher numbers can do the same? objective is of course get the highest number possible and if its a high number and the AI thinks it won't go ""Higher"" he will perform another command that will restart the game.
+
+the code sample i think i will ""need"" (got from a youtuber, not touched), if you could maybe let me know if this is indeed enough for my plan, let me know. I don't need you to tell exactly how to code the whole plan, but some help would be appreciated :), cause i am stuck at this. 
+
+N_STATES = 6				#Lenght of the 1 dimensional world
+ACTIONS = ['LEFT', 'RIGHT']	#Available action
+EPSILON = 0.9				#Greedy police
+ALPHA = 0.1					#Dearning rate
+GAMMA = 0.9					#Discount factor
+MAX_EPISODES = 13			#Maximum episodes
+FRESH_TIME = 0.3			#Fresh time for one move
+
+
+def build_q_table(n_states, actions):					#Enviroment
+	table = pd.DataFrame(
+		np.zeros((n_states, len(actions))),				#Q_table initial values	
+		columns=actions, 								#Action name
+		
+	)
+	print(table)										#Show Table
+	return table
+#build_q_table(4, ['a', 'b'])
+#exit()
+		
+		
+		
+		
+def choose_action(state, g table):						#Actie plek
+	state_actions = q_table.iloc[state, :]
+	if (np.random.uniform() &gt; EPSILON or (state_actions.all() == 0): #act non greedy or state-iets
+		action_name = np.random.choice(ACTIONS)
+	else: #act greedy
+		action_name = state_actions.argmax()
+	return action_name
+	
+	
+	
+	
+def get_env_feedback(S, A):
+    # This is how agent will interact with the environment
+    if A == 'right':    # move right
+        if S == N_STATES - 2:   # terminate
+            S_ = 'terminal'
+            R = 1
+        else:
+            S_ = S + 1
+            R = 0
+    else:   # move left
+        R = 0
+        if S == 0:
+            S_ = S  # reach the wall
+        else:
+            S_ = S - 1
+    return S_, R
+
+
+	
+	
+def update_env(S, episode, step_counter):
+    # This is how environment be updated
+    env_list = ['-']*(N_STATES-1) + ['T']   # '---------T' our environment
+    if S == 'terminal':
+        interaction = 'Episode %s: total_steps = %s' % (episode+1, step_counter)
+        print('\r{}'.format(interaction), end='')
+        time.sleep(2)
+        print('\r                                ', end='')
+    else:
+        env_list[S] = 'o'
+        interaction = ''.join(env_list)
+        print('\r{}'.format(interaction), end='')
+        time.sleep(FRESH_TIME)
+
+
+		
+		
+def rl():
+    # main part of RL loop
+    q_table = build_q_table(N_STATES, ACTIONS)
+    for episode in range(MAX_EPISODES):
+        step_counter = 0
+        S = 0
+        is_terminated = False
+        update_env(S, episode, step_counter)
+        while not is_terminated:
+
+            A = choose_action(S, q_table)
+            S_, R = get_env_feedback(S, A)  # take action &amp; get next state and reward
+            q_predict = q_table.loc[S, A]
+            if S_ != 'terminal':
+                q_target = R + GAMMA * q_table.iloc[S_, :].max()   # next state is not terminal
+            else:
+                q_target = R     # next state is terminal
+                is_terminated = True    # terminate this episode
+
+            q_table.loc[S, A] += ALPHA * (q_target - q_predict)  # update
+            S = S_  # move to next state
+
+            update_env(S, episode, step_counter+1)
+            step_counter += 1
+    return q_table
+
+	
+	
+
+if __name__ == ""__main__"":
+    q_table = rl()
+    print('\r\nQ-table:\n')
+    print(q_table)
+
+
+
+Already thanks for replying on this post!
+
+~Jan",0,1
+50,2018-5-10,2018,5,10,22,8iewxr,fast.ai course part 2 (2018 New!),https://www.reddit.com/r/deeplearning/comments/8iewxr/fastai_course_part_2_2018_new/,ScotchMonk,1525959292,,1,21
+51,2018-5-10,2018,5,10,22,8ieywp,Introduction to Recommender Systems in 2018,https://www.reddit.com/r/deeplearning/comments/8ieywp/introduction_to_recommender_systems_in_2018/,minmidinosaur,1525959804,,2,5
+52,2018-5-10,2018,5,10,23,8ifdsh,How to implement a YOLO (v3) object detector from scratch in PyTorch: Part 1,https://www.reddit.com/r/deeplearning/comments/8ifdsh/how_to_implement_a_yolo_v3_object_detector_from/,bzindovic,1525963246,,0,34
+53,2018-5-10,2018,5,10,23,8iffta,Deep Learning in Scala Part 1: Basics and Libraries by Soren Brunk,https://www.reddit.com/r/deeplearning/comments/8iffta/deep_learning_in_scala_part_1_basics_and/,EdmundWorks,1525963692,,1,4
+54,2018-5-11,2018,5,11,0,8ifl1m,What are some original graduation projects ideas that uses deep learning?,https://www.reddit.com/r/deeplearning/comments/8ifl1m/what_are_some_original_graduation_projects_ideas/,ASamir,1525964802,"We're interested in building a product whether a website or an app that includes deep learning in areas like CV, NLP or etc. ",1,3
+55,2018-5-11,2018,5,11,10,8ik4ic,"How to calculate/compare the quality of text generated by two RNNs, w.r.t to data which is used to train it?",https://www.reddit.com/r/deeplearning/comments/8ik4ic/how_to_calculatecompare_the_quality_of_text/,ghost-research,1526002926,"Consider two RNN based on LSTMs, which are trained on same text data. Is there any way to measure the quality of text generated by them? [ NOT talking about translation]. Can we use BLEU score for the same? BLEU score can be used to evaluate translations, but not sure about if can use it in this case also... In this case, we have RNN based on LSTM, which is first trained on a text dataset, and then at inference, it outputs some textual data.",9,5
+56,2018-5-12,2018,5,12,4,8iqisb,AI Weekly 11 May 2018,https://www.reddit.com/r/deeplearning/comments/8iqisb/ai_weekly_11_may_2018/,TomekB,1526067332,,0,3
+57,2018-5-12,2018,5,12,9,8isnt4,What's wrong with my variational autoencoder?,https://www.reddit.com/r/deeplearning/comments/8isnt4/whats_wrong_with_my_variational_autoencoder/,domokato,1526086462,"Hi guys, new here, and somewhat new to deep learning. I've been stuck on this thing for a couple days and could use some help. [Here's my VAE](https://render.githubusercontent.com/view/ipynb?commit=4cc9fcaee4f6b9798e4344a3d88e6e9557ebfdfa&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f646f6d6f6b61746f2f6d6e697374636e6e2f346363396663616565346636623937393865343334346133643838653665393535376562666466612f6d6e6973746175746f656e636f6465722e6970796e62&amp;nwo=domokato%2Fmnistcnn&amp;path=mnistautoencoder.ipynb&amp;repository_id=131773529&amp;repository_type=Repository#2.-Variational-Autoencoder-(VAE)---(WIP)). Please scroll down to section 2. I used these [two](https://blog.keras.io/building-autoencoders-in-keras.html) [webpages](https://wiseodd.github.io/techblog/2016/12/10/variational-autoencoder/) as a rough guide. You can see at the bottom of my jupyter notebook that my generated digits look nothing like the digits at the bottom of the first page I mentioned. I tried using the simple two\-layer Dense network architecture that they used just to check if my architecture was the problem, but it ended up looking even worse. I'm not sure what I'm doing wrong? Thanks",5,3
+58,2018-5-13,2018,5,13,23,8j3zkl,Help with multi-label classification,https://www.reddit.com/r/deeplearning/comments/8j3zkl/help_with_multilabel_classification/,mkinkela,1526220338,"Hi, I'm new to deep learning. I got huge amount of movie posters and I have to classify them to 11 movie genres. One movie can have multiple genres. I split images into train and test subsets. Then I made 2 directories (train and test) and inside them I made one directory for each of the genres. 
+
+So, my question is. Why is my trained model giving me strange results? For instance, if learning rate is below 1e-4 then both accuracies are stuck at 0.9091 and if i set learning rate to something close to 1e-6 then in 30 epochs I get from 50% to 60% train accuracy and 70-80% validation accuracy. When I make a graph, those 2 lines don't ever intersect (the same is with loss lines). When I try to make bar graph it shows me that 1 or 2 classes are inferior to others and predicted arrays arent event close to given test outputs.
+
+Since my problem explaining capabilities aren't very good, I think that the best way to show you my problem is by pasting part of my code:
+
+MODEL
+model = Sequential()
+
+model.add(Conv2D(32, (3, 3), activation='relu', input_shape=(img_width, img_height, channels)))
+model.add(Conv2D(32, (3, 3), activation='relu'))
+model.add(MaxPool2D(pool_size=(2, 2)))
+model.add(Dropout(0.25))
+
+model.add(Conv2D(32, (3, 3), activation='relu'))
+model.add(Conv2D(32, (3, 3), activation='relu'))
+model.add(MaxPool2D(pool_size=(3, 3)))
+model.add(Dropout(0.25))
+
+model.add(Conv2D(64, (3, 3), activation='relu'))
+model.add(Conv2D(64, (3, 3), activation='relu'))
+model.add(MaxPool2D(pool_size=(3, 3)))
+model.add(Dropout(0.25))
+
+model.add(Flatten())
+model.add(Dense(256, activation='relu'))
+model.add(Dense(128, activation='relu'))
+model.add(Dense(64, activation='relu'))
+model.add(Dense(32, activation='relu'))
+model.add(Dropout(0.5))
+model.add(Dense(11,activation='sigmoid'))
+
+opt=SGD(lr=1e-3, decay=0.1)
+reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.2, patience=1, min_lr=1e-5)
+model.compile(loss='binary_crossentropy', optimizer=opt, metrics=['accuracy'])
+
+train_datagen = ImageDataGenerator(rescale=1./255,)
+test_datagen = ImageDataGenerator(rescale=1./255)
+
+train_generator = train_datagen.flow_from_directory(
+        'train',  
+        target_size=(256, 256), 
+        batch_size=batch_size)
+
+test_generator = test_datagen.flow_from_directory(
+        'test',
+        target_size=(256, 256),
+        batch_size=batch_size)
+
+history = model.fit_generator(
+        train_generator,
+        steps_per_epoch=n_train // batch_size,
+        epochs=10,
+        validation_data=test_generator,
+        validation_steps=n_test // batch_size,
+        callbacks=[reduce_lr],
+        shuffle=True
+)
+
+model.save_weights('model_wieghts.h5')
+model.save('model_keras.h5')
+
+",15,5
+59,2018-5-14,2018,5,14,5,8j6sos,ELI5 Deep Learning starting with Zero Abstractions. [Long Post],https://www.reddit.com/r/deeplearning/comments/8j6sos/eli5_deep_learning_starting_with_zero/,sksiitb,1526244079,"I wanted to make the perfect tea. I couldnt take the taste of the ginger tea I recently had in Bangalore. That ginger, the perfect amount of milk! Neither too much, nor too less. The satisfaction of the hot sip of tea making its way through my throat in that chilly winter morning was something that I was craving for a very long time. I needed this. I indeed did.
+
+I looked up recipes for making ginger tea, but if you are anything like me, You know that we almost always screw up any dish. So I decided to do it myself. No recipe. No formula. But my goal was to feel that satisfaction again. 
+
+Note that I did know where to begin, I knew the ingredients were tea leaves, water, milk, sugar &amp; ginger. I knew I had to experiment with these items, these inputs to my recipe. I had to create a drink out of so many individual ingredients, so many inputs, there was some secret unknown proportion of these very ingredients, these inputs that made the tea perfect or ruined it. This proportion was the key. The amount of each ingredient, How many cups of water, how many cups of milk, how many grams of ginger, how many grams of sugar do I need to add? What the right weights of each ingredients?
+
+And in that moment a thought crossed my head, Tea doesnt actually exist. Tea is just a name we have given to the mixture of all these individual ingredients, these individual items, inputs. Its still all these inputs, but at the same time neither one of them. Its something more. Had I chucked milk, It would have black tea. Again, common base ingredients but something new. Oh and if I had kept it in a freezer, it would be an ice\-tea? Isnt it still the same common base ingredients? The same inputs? But now its something new. Oh and add lemon to it, its a lemon\-ice\-tea now isnt it? Tea doesnt actually exist! Its just the ingredients mixed in a certain proportion. Lemon\-ice\-tea doesnt actually exist, the ingredients do. Its just a name weve given to the mixture of inputs. At the core of it, its still about the ingredients and the proportions. Its still about the inputs and the weights. And there was something that we did to those ingredients which turned them into tea. We transformed those ingredients to something special. We transformed those inputs. So it wasnt just about the right proportions i.e. the right weights but also about the transformation.
+
+Anyhow, lets come back to the main story. The satisfaction of ginger tea!
+
+So I started. I put half a cup of water. Note two things here. Water \(My ingredient / My input\). Half a cup \(The proportion / The weights\). Then I added a cup of milk to it. Note again, Milk = Ingredient / Input. A cup = Proportion / Weight. A tea spoon of Tea Leaves. As you must have already noticed by now, Tea Leaves = Inputs, A tea Spoon = weight. Two tea spoons of sugar \(Sugar = input, A spoon = weight\) and of course, my favourite, a ginger slice approximately half the size of your thumb \(Ginger = input, half a thumb = weight\) 
+
+And then came the important step! Boiling. The transformation. Transformation of our ingredients into something new \(Tea\). Transformation of our inputs.
+
+When it was done, it was time to taste the tea, the output. What was I looking for? The satisfaction. I closed my eyes, finally took the first sip and although fine, it was no where near what I really wanted. To put it in numbers, I was perhaps just 60&amp;#37; satisfied. Well If I really want to have success at making this work, maybe I shouldnt be satisfied, I should be dissatisfied. Dissatisfied until there is no more dissatisfaction. I should measure my dissatisfaction instead. I was 60&amp;#37; satisfied so that makes 100&amp;#37;\-60&amp;#37;=40&amp;#37; Dissatisfied. I knew it was very watery. Water was a major contributor to this disaster. The Ginger was about fine, but a little more would be better. But very sweet. Yes Sugar was a major contributor to the disaster too
+
+The next day I began again. But this time, I had insight. I had to reduce water, reduce sugar, add ginger. But note one thing here! I had to reduce sugar a LOT. I had to reduce water SOMEWHAT. I had to add ginger a LITTLE more. 
+
+I repeated the process again. Added the ingredients\(inputs\) in the new proportion\(weights\). Boiled them\(transformed\).
+
+Now it was the testing time again. I tasted it. Well, not bad. But not the best either. 80&amp;#37; satisfied. Oops, I mean 20&amp;#37; dissatisfied. Ginger was a little more and Sugar less. I had to correct my recipe. I had to Optimise it. I had to reduce the ginger now, by a very little value. So I made my changes and followed the process again. 
+
+The next few days went on like this. 
+
+Added the ingredients\(inputs\) in the new proportion\(weights\). Boiled them\(transformed\).Tasted\(tested\). Corrected\(Optimised\). Repeat. The dissatisfaction kept reducing.
+
+And then one fine day, I took the hot sip of tea making its way through my throat and there it was. 0&amp;#37; dissatisfaction, or let me call it 100&amp;#37; satisfaction now.
+
+And in this moment another profound thought came to my mind. Isnt this how the world works? Few people are dissatisfied. Be it a teacher in the school, who wants his students to achieve an A\+? He starts with teaching the syllabus \(Inputs\), few topics more important than others \(the weights\), gives them assignments to make them understand the knowledge better \(transform\) Give them exams \(Tests\) take feedback and improve knowledge of students \(Optimise\) and repeat until it all works out?
+
+Isnt that how a cricket team wins the World Cup? They start by sending out certain players \(inputs\) with a certain proportion of bowlers / batsmen / allrounders. They play the match \(transformation\). See the result of a match\(Test\). Make changes to team based on performance \(optimising\) and repeat until you have the perfect team?
+
+This process of achieving solutions to problems which dont have a formula is somewhat interesting. 
+
+Few days back, when I was reading about deep learning, I couldnt help but notice how the Deep Neural Networks work. They have a certain inputs like numbers / images / etc \(ingredients in our case\),with certain weights, which are transformed into newer numbers and then tested based on a criteria called loss function\(like satisfaction&amp;#37; in our case\) and then optimised using an optimiser function\(changing quantities\) and repeating the process several times until the loss function gives a reduced value \(reducing the dissatisfaction in our case\) and achieving the goal.",3,0
+60,2018-5-14,2018,5,14,18,8jatzx,Loss going to infinity on siamese network with contrastive loss,https://www.reddit.com/r/deeplearning/comments/8jatzx/loss_going_to_infinity_on_siamese_network_with/,FrStealer,1526288642,"Hello, 
+I want to train a siamese network on my own dataset. I've got 10 classes and my goal is to finetune AlexNet in order to compare the class with each other.
+I am struggling on the contrastive loss minimisation, it goes to NaN  even when i change the learning_rate, the batch_size or the dropout_rate = 0.2.
+
+A little sample of my code, i will show more if you need more:
+
+left = model1.fc8 #Model1 is a simple AlexNet
+right= model2.fc8 #Model2 is Model1 with shared weigths
+
+#### contrastive loss ####
+d = tf.reduce_sum(tf.square(left - right), 1)
+d_sqrt = tf.sqrt(d)
+loss = y * tf.square(tf.maximum(0., margin - d_sqrt)) + (1 - y) * d
+loss = 0.5 * tf.reduce_mean(loss)
+ 
+### Optimization ### 
+train_op=tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(loss)
+
+I also tried:
+gradients = tf.gradients(loss, var_list)
+gradients = list(zip(gradients, var_list))
+optimizer = tf.train.GradientDescentOptimizer(learning_rate)
+train_op = optimizer.apply_gradients(grads_and_vars=gradients)  
+
+#train_op=optimizer.minimize(loss=loss,global_step=tf.train.get_global_step))
+
+The rest of the code is  actually classic (batch, sess.run).
+
+I just do not understand why the loss is going to Nan after a few iteration, even when i lower the learning rate to 10^-20.
+
+Sorry for my english, it is not my first language, thank you in advance.
+        ",0,2
+61,2018-5-14,2018,5,14,20,8jbgho,"Text summarize with Google, Amazon or Azure?",https://www.reddit.com/r/deeplearning/comments/8jbgho/text_summarize_with_google_amazon_or_azure/,duyth,1526296838,"hi guys,
+I'm evaluating Amazon, Google and Azure for a small project that involves text summarization. Has anyone had experience with one of these 3 platforms and can recommend one?  Or is there a better solution that I should know of?
+Thanks",0,1
+62,2018-5-14,2018,5,14,22,8jcbou,Currently experimenting with two-layer LSTMs. Should I continue training?,https://www.reddit.com/r/deeplearning/comments/8jcbou/currently_experimenting_with_twolayer_lstms/,E-3_A-0H2_D-0_D-2,1526305315,"I'm currently playing around with LSTMs in Keras. For starters, I decided to go for character generation. I'm using Pink Floyd's lyrics as a corpus. Here are the details:
+
+Number of unique characters in the corpus:  **48**
+
+Sequence length: **50**
+
+Number of sequences generated:  **113627** 
+
+Input shape:  **\(113627, 50, 1\)** 
+
+Output shape:  **\(113627, 48\)** 
+
+Word Embedding used: **No**
+
+A small code snippet of the architecture:
+
+    def build_model(in_shape, out_shape):
+      # Keras imports.
+      from keras.layers import LSTM
+      from keras.layers import Activation
+      from keras.models import Sequential
+      from keras.layers import Dropout
+      from keras.layers import Dense
+      
+      # Start building the model.
+      model = Sequential()
+      
+      # Add the first LSTM layer. Remember to set the return_sequences argument to
+      # True, and specify the input shape.
+      model.add(LSTM(64, input_shape=(in_shape[1], in_shape[2]),
+                     return_sequences=True))
+      
+      # Add Dropout.
+      model.add(Dropout(0.6))
+      
+      # Add the second LSTM layer. Do not set return_sequences=True here.
+      model.add(LSTM(64))
+      
+      # Add Dropout.
+      model.add(Dropout(0.55))
+      
+      # Add the final softmax layer.
+      model.add(Dense(out_shape[1], activation='softmax'))
+      
+      print(""Model built!"")
+      return model
+
+**Side Note:** I've also used the `LearningRateScheduler` to decay the Learning Rate \(1e\-3\) by 10&amp;#37; every 25 epochs.
+
+A small snippet of the setup:
+
+    def schedule(epoch, lr):
+      # Reduce learning rate every e epochs.
+      if epoch % LR_DECAY_INTERVAL == 0 and epoch != 0:
+        
+        old_lr = lr
+        
+        # decay the lr by x% of it's original value.
+        lr = lr - (LR_DECAY_INTENSITY * lr)
+        
+        print(""Epoch number %d: Reduced lr by %f percent. Old lr = %s, new lr = %s"" 
+              % (epoch, LR_DECAY_INTENSITY*100, str(old_lr)[:6], str(lr)[:6]))
+        
+      return lr
+    
+    
+    # Start the model training.
+    def train_model(model, X, y, num_epochs, b_size):
+      from keras.callbacks import EarlyStopping
+      from keras.callbacks import LearningRateScheduler
+      
+      # Set up the scheduler.
+      lr_scheduler = LearningRateScheduler(schedule, verbose=0)
+      
+      print(""Fitting data to model..."")
+      
+      stopper = EarlyStopping(monitor='val_loss', min_delta=0, patience=3, 
+                              verbose=0, mode='min')
+      
+      # Save all the epoch data in the history object.
+      history = model.fit(X, y, batch_size=b_size, epochs=num_epochs, 
+                          validation_split=0.2
+                          ,callbacks=[lr_scheduler]
+                         )
+
+After \~50 epochs, here's how the loss graph looks:
+
+[Loss after 50 epochs](https://i.redd.it/hv24s6maptx01.png)
+
+After \~80 epochs:
+
+[Loss after 80 epochs](https://i.redd.it/im7h2eo1rtx01.png)
+
+My question is this \- Should I train the network for a longer time? You all might be noticing the drift between the validation and training loss at around 45^(th) epoch, denoting the onset of a variance problem. Some more additional follow\-up questions:
+
+* Should I increase the regularization strength?
+* Reducing the sequence length seems like a viable option to me. Should I try that out?
+
+Any tips would be appreciated. Please let me know if any additional code is required. 
+
+Thanks!",5,4
+63,2018-5-15,2018,5,15,4,8jfaih,RMDL: Random Multimodel Deep Learning for Classification,https://www.reddit.com/r/deeplearning/comments/8jfaih/rmdl_random_multimodel_deep_learning_for/,kk7nc,1526327563,,0,4
+64,2018-5-15,2018,5,15,7,8jgmeh,unsupervised clustering of short text based on similarity - which model do you recommend me?,https://www.reddit.com/r/deeplearning/comments/8jgmeh/unsupervised_clustering_of_short_text_based_on/,juice_456,1526338012,"Hi guys
+
+Im very new in deeplearning and have a problem..
+
+i have a dataset of one milion rows with short text and i want to cluster them based on their similarity
+
+my question is now which model do you recommend me to do that or a better question is if it is even possible to do that?
+
+would really appreciate if you could give me some advise/personal experience...
+",1,2
+65,2018-5-15,2018,5,15,12,8jim5z,Visualizing the activations within an RNN?,https://www.reddit.com/r/deeplearning/comments/8jim5z/visualizing_the_activations_within_an_rnn/,quackzilla2,1526356252,"I would like to see the values of each activation inside of an RNN after making a prediction. I would like to find which neurons get excited when predicting text. 
+
+I want to write a program that makes a prediction, and then grabs random activations and overlays them on a graph with the string printed and show a heatmap of what kind of text gets that neuron excited. I hope to find out and visualize some of the rules that it learns. 
+
+But I've spent a while trying to figure out how to extract this information from a Tensorflow model at the prediction step and have gotten nowhere. 
+
+I'm open to using any framework. Tensorflow, PyTorch, Keras, etc. 
+
+Thanks in advance! ",1,2
+66,2018-5-15,2018,5,15,15,8jjdtc,"CNN training, oversampled a minority class for the training set, should I also do the same for validation set?",https://www.reddit.com/r/deeplearning/comments/8jjdtc/cnn_training_oversampled_a_minority_class_for_the/,CaliforniaCoder,1526364759,"I have oversampled a minority class in my training set, should I also oversample that same class for my validation set? I know not to do that for my test case.
+I have not oversampled that class in my validation set because I thought it would be more representative of what the test case would ultimately look like.
+
+Just wanted to see what your thoughts were.",1,1
+67,2018-5-15,2018,5,15,17,8jk2m3,Deep Learning Applications - Live Session with Mike Tamir (Head of Data Science UBER ATG)- May 16 - 3.30 PM(GMT),https://www.reddit.com/r/deeplearning/comments/8jk2m3/deep_learning_applications_live_session_with_mike/,pooja307,1526374177,,0,6
+68,2018-5-15,2018,5,15,23,8jm40l,Interesting TechCrunch article on how deep learning with synthetic data will democratize the tech industry!,https://www.reddit.com/r/deeplearning/comments/8jm40l/interesting_techcrunch_article_on_how_deep/,happymod,1526395450,,4,8
+69,2018-5-16,2018,5,16,2,8jnaxo,"Where do I find medical imaging datasets for deep-learning, apart from kaggle?",https://www.reddit.com/r/deeplearning/comments/8jnaxo/where_do_i_find_medical_imaging_datasets_for/,ritabratamaiti,1526404446,,2,4
+70,2018-5-16,2018,5,16,4,8joc0m,What if AI makes play too predictable?,https://www.reddit.com/r/deeplearning/comments/8joc0m/what_if_ai_makes_play_too_predictable/,stinkytofu415,1526412029,,0,0
+71,2018-5-16,2018,5,16,5,8jos5p,Deep learning real time analytics,https://www.reddit.com/r/deeplearning/comments/8jos5p/deep_learning_real_time_analytics/,catchergg,1526415373,"Hi,
+
+I'm responsible for Outliers detection at my job. We currently do a hourly batch statistical model analysis of our data. So that once every hour we aggregate our data and then run analysis process which updates our statistical models and if something is abnormal it set up an alert.
+
+This approach was fine for a while, but now we are trying to push towards two things (possibly combined):
+1. Real time analytics.
+2. Deep learning.
+
+We've started going towards streams. 
+
+Our data is mainly textual (Username, IP, Session start / End and so on) , but we also have a 'free text' (represent user query with the system) - We have a predefined language so users could interact with the system. Similar to any command line interface. Users can create objects and interact with them using the language. The data is ordered by time and is quite repetitive (Users tend to do roughly same queries with different values) 
+
+I thought about using LSTMs, since from what I understand it works with sequenced data. The thing is - can it work with streams? Can it learn from the stream? Are there any references for this kind of thing?
+
+Am I even going to the right direction?  What do you think? Got any suggestions or other references? ",8,6
+72,2018-5-16,2018,5,16,7,8jpt7g,"from tensorflow to fpga , is it possible ?",https://www.reddit.com/r/deeplearning/comments/8jpt7g/from_tensorflow_to_fpga_is_it_possible/,batbouyassou,1526423422,"hello guys,
+
+I've compiled a python program using tensorflow functions, now that i have the ready trained model can i transfer it to an fpga ? maybe extract registers and then convert them to describe the neural net hardwarely ?
+
+thank you !
+",4,3
+73,2018-5-16,2018,5,16,22,8juuhw,Using parallel capsules with Keras in Python.,https://www.reddit.com/r/deeplearning/comments/8juuhw/using_parallel_capsules_with_keras_in_python/,mount_sumInt,1526476814,I need to make the most of my GPU. How can I compute thousands of capsules in parallel? Thank you for the help. :),2,6
+74,2018-5-17,2018,5,17,4,8jxjdq,Comparison of DL frameworks,https://www.reddit.com/r/deeplearning/comments/8jxjdq/comparison_of_dl_frameworks/,ejpak,1526497296,"Hey guys,
+
+I'm new to deep learning and was wondering if there is an updated version of this link \(which describes the best frameworks for different uses\), OR if an expert could update on this. \[Something along the lines of the attached pic\]
+
+Thank you very much. ",5,3
+75,2018-5-17,2018,5,17,4,8jxkfd,Get dzdx of of a any NN layer in python,https://www.reddit.com/r/deeplearning/comments/8jxkfd/get_dzdx_of_of_a_any_nn_layer_in_python/,imransalam,1526497515,"In matlab we use matconvnet's vl_nnconv with x, F, B, Y. This is how it looks in matlab. 
+
+Example 1
+l = net.layers{i}
+[res(i).dzdx, dzdw{1}, dzdw{2}] = vl_nnconv(res(i).x, l.weights{1}, l.weights{2}, res(i+1).dzdx)
+
+Example 2
+l = net.layers{i}
+[res(i).dzdx] = vl_nnpool(res(i).x, res(i+1).dzdx)
+
+
+Assume that in Example 2 res(i).x is a matrix of size (29, 29, 512) and res(i+1).dzdx is a matrix of size (15, 15, 512). The result is res(i).dzdx, of shape (29, 29, 512) respectively.
+
+I am interested in exactly the same thing but in python, pytorch or keras precisely. I am trying to use just a simple numpy array (or a pytorch tensor/variable) for my equivalent of res(i).x and res(i+1).dzdx (and weights). Is there anyway that can be achieved? Thanks.",0,1
+76,2018-5-17,2018,5,17,4,8jxo6l,An Introduction to Deep Learning for Tabular Data,https://www.reddit.com/r/deeplearning/comments/8jxo6l/an_introduction_to_deep_learning_for_tabular_data/,gagejustins,1526498285,,0,9
+77,2018-5-17,2018,5,17,4,8jxoip,2D to 3D image representation - Deep Learning (Caffe help),https://www.reddit.com/r/deeplearning/comments/8jxoip/2d_to_3d_image_representation_deep_learning_caffe/,ejpak,1526498363,"Hi guys, 
+
+I'm trying to implement this algorithm to represent a 2D image with a dense 64D feature. Paper: [https://arxiv.org/abs/1603.08637](https://arxiv.org/abs/1603.08637) Code: [https://github.com/rohitgirdhar/GenerativePredictableVoxels](https://github.com/rohitgirdhar/GenerativePredictableVoxels) 
+
+This algorithm in built on Caffe, and I'm having a hard time setting it up. Not much help online. I would have preferred to use PyTorch/ Tensorflow, since they have a lot of support. Do you guys know of any similar implementation/codes? 
+
+Thanks for your help! ",0,4
+78,2018-5-17,2018,5,17,6,8jyhmh,Auto-Deep Learning for Video &amp; Images,https://www.reddit.com/r/deeplearning/comments/8jyhmh/autodeep_learning_for_video_images/,sumitg,1526504519,"Please check out this new software that we built that automatically picks a model and trains it using deep learning for videos &amp; images.   This software called PowerAI Vision, also enables semi-automatic labeling, because you can label a small set of images or video frames, train a model, and then used the trained model for labeling the rest of the data.  Then correct some labels, retrain, relabel, and repeat.   This makes it much easier to label image / video data
+[Blog on PowerAI Vision](https://medium.com/@sumitg_16893/deep-insights-with-ai-for-video-analytics-5464fd30ebe1)
+
+Sumit",0,1
+79,2018-5-17,2018,5,17,10,8k0efz,CNN,https://www.reddit.com/r/deeplearning/comments/8k0efz/cnn/,1CSX,1526521371,"I know that convolutional neural networks regularly are supervised learning, but ... do they use backpropagation? or do they use another algorithm? Thank you.",4,1
+80,2018-5-17,2018,5,17,14,8k1w0k,[R] Arbitrary Facial Attribute Editing: Only Change What You Want,https://www.reddit.com/r/deeplearning/comments/8k1w0k/r_arbitrary_facial_attribute_editing_only_change/,LynnHoHZL,1526536224,,1,2
+81,2018-5-17,2018,5,17,15,8k20l6,[P] AttGAN-Tensorflow,https://www.reddit.com/r/deeplearning/comments/8k20l6/p_attgantensorflow/,LynnHoHZL,1526537620,,0,1
+82,2018-5-17,2018,5,17,15,8k26t6,Deep Learning with Ensembles of Neocortical Microcircuits - Dr. Blake Richards,https://www.reddit.com/r/deeplearning/comments/8k26t6/deep_learning_with_ensembles_of_neocortical/,otakuman,1526539618,,1,24
+83,2018-5-17,2018,5,17,16,8k2fyg,"Deep text summarization: of amazon reviews, github issues and news articles",https://www.reddit.com/r/deeplearning/comments/8k2fyg/deep_text_summarization_of_amazon_reviews_github/,tttttm,1526542613,,1,7
+84,2018-5-17,2018,5,17,17,8k2rff,Deep Learning top relevant and latest news feed,https://www.reddit.com/r/deeplearning/comments/8k2rff/deep_learning_top_relevant_and_latest_news_feed/,mr_j_b,1526547195,,0,1
+85,2018-5-17,2018,5,17,20,8k3o75,Q-Learning,https://www.reddit.com/r/deeplearning/comments/8k3o75/qlearning/,Jandevries101,1526558234," Hey Reader
+
+ &amp;nbsp; 
+
+I am pretty new to the Q\-Learning area, but i really want to learn it! I watched some tutorials already, but i don't really understand how to code it, for example if i see some example code for Q\-Learning i don't really understand what it going on. I know the terms for the most part, but not were to implement them in the code.
+
+ &amp;nbsp; 
+
+**Main Question** 
+
+* Explanation of Q\-Learning code \(Also Where Parameters should be placed\) 
+* What exactly is ""Gamma""? I can't really find a clear answer on the internet for that. 
+* How much space does a ""big"" Q\-Learning dataset take? do i need like TBs or are we talking about somewhere between 100Gb for a pretty learned Dataset? 
+* Is there a point where the Q\-Learning AI doesn't need much more Data anymore? I mean that it saves on a certain point ony useful data? 
+* Does the Q\-Learning has to do constantly actions or can you make it that it waits with his next action when he needs to \(if not maybe create action ""do nothing""?\)
+
+ &amp;nbsp; 
+
+Already thank you for your response!
+
+ &amp;nbsp; 
+
+Greetings, 
+
+ &amp;nbsp; 
+
+Jan",1,5
+86,2018-5-17,2018,5,17,21,8k40a9,Re-train model with new classes,https://www.reddit.com/r/deeplearning/comments/8k40a9/retrain_model_with_new_classes/,dilipajm,1526561525,"I have built an image classifier with 2 classes, say 'A' and 'B'. I have also saved this model, using model.save().
+
+Now, after a certain time, the requirement arose to add one more class 'C'. Is it possible to load_model() and then add only one class to the previously saved model so that we have the final model with 3 classes ('A','B' and 'C'), without having to retrain the whole model, for classes 'A and 'B' again?
+
+Can anyone help?
+
+I have tried this:
+
+I used vgg16 as a base model and pop out its last layer, freeze weights and added one dense layer (DL2), trained it for predicting 2 classes.
+
+Then I added one more dense layer on top of DL2 say DL3, freeze weights and train with class C only but now its always predicting class C.
+
+https://stackoverflow.com/questions/50366160/re-train-model-with-new-classes
+",0,1
+87,2018-5-18,2018,5,18,2,8k5xs6,"Diffrence between model.compile(), model.fit(), model.evaluate(), model.predict() ?",https://www.reddit.com/r/deeplearning/comments/8k5xs6/diffrence_between_modelcompile_modelfit/,Dump7,1526577211,"I am new to ML and trying to build a basic NN using Keras.
+I am not able to understand the difference help me out will you? ",2,0
+88,2018-5-18,2018,5,18,5,8k7i3f,3D Coordinates to Voxel to 3DCNN,https://www.reddit.com/r/deeplearning/comments/8k7i3f/3d_coordinates_to_voxel_to_3dcnn/,VoxelHelp,1526589177,"I have a list of 3D coordinates and am trying to take it to a voxel for a 3DCNN in Python.
+
+1. I re\-orgin the coordinates around a point.
+2. Convert/round raw coordinates so that 1 voxel equal 1 original X,Y, Z coordinate.
+3. Trim down to \+/\- a certain dimension value in X Y and Z direction. I.E. only a certain distance away from the origin is used, going from 500x500x500 to 30x30x30.
+4. Go from the new coordinates to 0s and 1s in an 3d array.
+
+I am having trouble with 3 things.
+
+1. Rotating the voxel/array so that each one will have the same rotation according to a point\(s\) near the origin.
+2. There will need to be multiple channels, probably 4, of multiple voxels that feed into the network.
+3. Gaussian or Interpolation to make the voxels spherical.
+
+I've looked for info on the last 3 parts and can't seem to find any sort of information on how to accomplish it. Any help would be appreciated.",0,1
+89,2018-5-18,2018,5,18,8,8k8ud9,What are some simple and easy neural network modules in Python?,https://www.reddit.com/r/deeplearning/comments/8k8ud9/what_are_some_simple_and_easy_neural_network/,Dragonnova5091,1526600687,Me and my friend are new to the game of deep learning and are having trouble finding modules that have good documentation for us to use. I have made only one small network and we are looking to make a decent sized project that requires a NN. What are some simple modules for us to use?,2,2
+90,2018-5-18,2018,5,18,8,8k8v3e,Discriminative Separable Networks (DSN),https://www.reddit.com/r/deeplearning/comments/8k8v3e/discriminative_separable_networks_dsn/,kamranjanjua,1526600880,"Do you guys think there could exist a network that would be extact replica of GAN i.e. instead of generating samples from same distribution, it would distinguish between samples in a sense to check for pirated content. Much like hashing images to detect pirated images/copied images. Maybe a hidden watermark which will not be exactly visible but will exist in the image so that when features are extracted, there is an added feature(s) of that hidden mark as well. 
+So, do you think DSN could exist? If so, how?? ",1,6
+91,2018-5-18,2018,5,18,20,8kcjzx,My book Deep Learning from first principles now on Amazon,https://www.reddit.com/r/deeplearning/comments/8kcjzx/my_book_deep_learning_from_first_principles_now/,tvganesh,1526644231,,0,1
+92,2018-5-18,2018,5,18,21,8kcupa,TensorFlow Tutorial- Explained For Beginners,https://www.reddit.com/r/deeplearning/comments/8kcupa/tensorflow_tutorial_explained_for_beginners/,pooja307,1526647267,,0,12
+93,2018-5-19,2018,5,19,1,8keiqb,[N] Call for papers: iMIMIC - Workshop on Interpretability of Machine Intelligence in Medical Image Computing @ MICCAI,https://www.reddit.com/r/deeplearning/comments/8keiqb/n_call_for_papers_imimic_workshop_on/,pereirasrm,1526661213,"We would like to invite you to submit your contributions to the Workshop on Interpretability of Machine Intelligence in Medical Image  Computing ([iMIMIC](https://imimic.bitbucket.io/)) at the 2018 [MICCAI](https://www.miccai2018.org) conference in Granada.
+
+iMIMIC is a half-day workshop to be held on September 16th, 2018. The program features two excellent keynote speakers as well as oral presentations from selected paper contributions.
+
+This workshop aims at introducing the challenges and opportunities related to the topic of interpretability of ML systems in the context of Medical Image Computing and Computer Assisted Intervention.
+
+Call for papers
+----------------------
+There will be a regular paper track (8 pages LNCS format). We intend to join the MICCAI Satellite Events joint proceedings published in LNCS. We encourage participants to submit their exploratory research work. Covered topics include but are not limited to:
+
+- Definition of interpretability in context of medical image analysis.
+- Visualization techniques useful for model interpretation in medical image analysis.
+- Local explanations for model interpretability in medical image analysis.
+- Methods to improve transparency of machine learning models commonly used in medical image analysis
+- Textual explanations of model decisions in medical image analysis.
+- Uncertainty quantification in context of model interpretability.
+- Quantification and measurement of interpretability.
+- Legal and regulatory aspects of model interpretability in medicine.
+
+Please, submit your paper [here](https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FIMIMIC2018).
+
+Important dates
+----------------------
+- **Submission deadline (11th June)**
+- Reviews due (9th July)
+- Notification of acceptance (13th July)
+- Camera-ready papers (20th July)
+- Half- day workshop (16th September, afternoon)
+
+Invited speakers
+----------------------
+- Been Kim (Google Brain)
+- Scott Lundberg (University of Washington)
+
+More information
+----------------------
+For more information, please, visit the workshop's website, or, feel free to contact the organization.
+
+Website: https://imimic.bitbucket.io/",0,9
+94,2018-5-19,2018,5,19,6,8kgry0,New AI tool controls people in videos!,https://www.reddit.com/r/deeplearning/comments/8kgry0/new_ai_tool_controls_people_in_videos/,NicoleK1993,1526679951,[https://www.youtube.com/watch?v=qc5P2bvfl44&amp;feature=youtu.be&amp;t=59s](https://www.youtube.com/watch?v=qc5P2bvfl44&amp;feature=youtu.be&amp;t=7s),0,1
+95,2018-5-19,2018,5,19,7,8kgxg3,New AI tool controls people in videos!,https://www.reddit.com/r/deeplearning/comments/8kgxg3/new_ai_tool_controls_people_in_videos/,NicoleK1993,1526681396,,1,72
+96,2018-5-19,2018,5,19,14,8kj9a2,"Google TPU * 1  vs NVIDIA V100 *4, does it worth for rewrite my TensorFlow codes?",https://www.reddit.com/r/deeplearning/comments/8kj9a2/google_tpu_1_vs_nvidia_v100_4_does_it_worth_for/,helmetti,1526707254,"Currently I'm coding on CPU Jupyter Notebook and train by GPU.
+
+TensorFlow works both on CPU or GPU, but when I want to use TPUs, I need to rewrite code for TPU
+
+\(such as tf.contrib.tpu.TPUEstimator\) 1TPU and 4V100s are almost same performance and cost for now.
+
+I wonder how you guys do debugging on TPU?",1,3
+97,2018-5-20,2018,5,20,3,8kmx3p,AI Weekly 19 May 2018,https://www.reddit.com/r/deeplearning/comments/8kmx3p/ai_weekly_19_may_2018/,TomekB,1526752894,,0,1
+98,2018-5-20,2018,5,20,6,8ko7gh,How to CNN count the dogs in an image with detection or without detection?,https://www.reddit.com/r/deeplearning/comments/8ko7gh/how_to_cnn_count_the_dogs_in_an_image_with/,piskil,1526764962,I want to count the dogs in a given image by employing CNNs. First alternative is to train the CNN such that it detects dog objects then count them seperately. Second one is that CNN is trained such that it directly regress to the number of dogs without explicitly detecting dogs.  Can anybody compare the alternatives?,2,3
+99,2018-5-20,2018,5,20,16,8kr8d0,"[P] ""I Pity the fool"", Deep Learning style",https://www.reddit.com/r/deeplearning/comments/8kr8d0/p_i_pity_the_fool_deep_learning_style/,rragundez,1526801450,,0,11
+100,2018-5-21,2018,5,21,4,8kv2r5,Real-time Sudoku Solver,https://www.reddit.com/r/deeplearning/comments/8kv2r5/realtime_sudoku_solver/,tahaemara,1526846169,,9,19
+101,2018-5-21,2018,5,21,9,8kwwom,Really nice summary of AI history,https://www.reddit.com/r/deeplearning/comments/8kwwom/really_nice_summary_of_ai_history/,ScotchMonk,1526863265,,2,11
+102,2018-5-21,2018,5,21,10,8kx3ty,Collaboration,https://www.reddit.com/r/deeplearning/comments/8kx3ty/collaboration/,kamranjanjua,1526865311,"Anybody up for collaborating on a DL based network and then publishing in a decent conference? 
+I have an idea regarding a network but I don't have enough time to pull it off alone. I am looking for collaboration. If you are up for it, do reach out at kamranejaz98@gmail.com. 
+
+Thanks. ",0,2
+103,2018-5-21,2018,5,21,12,8kxtng,Image clustering,https://www.reddit.com/r/deeplearning/comments/8kxtng/image_clustering/,guruji93,1526872630,"Can you suggest a good unsupervised clustering algorithm for images, preferably with open source implementation?",7,7
+104,2018-5-21,2018,5,21,19,8kzsqr,What Is Deep Learning and How Does It Work,https://www.reddit.com/r/deeplearning/comments/8kzsqr/what_is_deep_learning_and_how_does_it_work/,imarticus_nirmal,1526898523,,0,1
+105,2018-5-21,2018,5,21,20,8l03mf,Fizzbuzz zero,https://www.reddit.com/r/deeplearning/comments/8l03mf/fizzbuzz_zero/,chocolechat,1526902203,,0,2
+106,2018-5-21,2018,5,21,21,8l0kwy,What's the best deep learning machine I can build on a $500 budget?,https://www.reddit.com/r/deeplearning/comments/8l0kwy/whats_the_best_deep_learning_machine_i_can_build/,bonbonbaron,1526907176,,7,6
+107,2018-5-22,2018,5,22,3,8l2vqr,Deep Q-Learning,https://www.reddit.com/r/deeplearning/comments/8l2vqr/deep_qlearning/,Jandevries101,1526925708,"Hey Reader
+
+I am pretty new to the Q\-Learning area, but i really want to learn it! I watched some tutorials already, but i don't really understand how to code it, for example if i see some example code for Q\-Learning i don't really understand what it going on. I know the terms for the most part, but not were to implement them in the code.
+
+**Main Question**
+
+* Explanation of Q\-Learning code \(Also Where Parameters should be placed\)
+* How much space does a ""big"" Q\-Learning dataset take? do i need like TBs or are we talking about somewhere between 100Gb for a pretty learned Dataset?
+* Is there a point where the Q\-Learning AI doesn't need much more Data anymore? I mean that it saves on a certain point ony useful data?
+* Does the Q\-Learning has to do constantly actions or can you make it that it waits with his next action when he needs to \(if not maybe create action ""do nothing""?\)
+
+Please do respond or contact me if you have any ideas, also leave your own thoughts.
+
+Already thank you for your response!
+
+Greetings,
+
+Jan",4,11
+108,2018-5-22,2018,5,22,13,8l7682,Deploy Keras neural network to Flask web service - Video Series,https://www.reddit.com/r/deeplearning/comments/8l7682/deploy_keras_neural_network_to_flask_web_service/,blackHoleDetector,1526962438,"Learn how to deploy and host your machine learning model as a Flask web service, build a front end web application to access your model, and interact with your model in the browser with this video series.
+
+- [Part 1 - Overview](https://youtu.be/SI1hVGvbbZ4)
+- [Part 2 - Build your first Flask app](https://youtu.be/_yoxrAIf5u4)
+- [Part 3 - Send and Receive Data with Flask](https://youtu.be/RkmfXz304ck)
+- [Part 4 - Build a front end web application](https://youtu.be/TW_ck9NDMGI)
+- [Part 5 - Host VGG16 image classification model with Flask](https://youtu.be/XgzxH6G-ufA)
+- [Part 6 - Build web app to send images to VGG16](https://youtu.be/eCz_DTtUBfo)",0,12
+109,2018-5-22,2018,5,22,18,8l8roa,Searching for a good text/article/book on what is deep learning and what are the differences to machine learning,https://www.reddit.com/r/deeplearning/comments/8l8roa/searching_for_a_good_textarticlebook_on_what_is/,jakjfkea,1526982443,"im studying computer science and starting just now with deep learning.
+any help or pointers in the right direction are welcome :)",5,1
+110,2018-5-22,2018,5,22,21,8l9rlw,"Date Extended June 05, 2018: 10th International Conference on Intelligent Human Computer Interaction (IHCI 2018)",https://www.reddit.com/r/deeplearning/comments/8l9rlw/date_extended_june_05_2018_10th_international/,ihciconf,1526993787,[removed],0,1
+111,2018-5-23,2018,5,23,7,8lea19,YOLOv2 Output Tensor,https://www.reddit.com/r/deeplearning/comments/8lea19/yolov2_output_tensor/,Esc99,1527028421,Hi! I was playing around with the Darkflow version of Yolov2  \([https://github.com/thtrieu/darkflow](https://github.com/thtrieu/darkflow)\) and I was wondering how the hell is built the predictions dictionary from the output tensor of the network. This is pretty important because if you want to use the network outside the darkflow package \(for example using a generated .pb file\) you need that interpretation. Without it you have a only a 1D tensor! Is there someone that knows how to do it? ,4,4
+112,2018-5-23,2018,5,23,15,8lh2di,Input to a neural network.,https://www.reddit.com/r/deeplearning/comments/8lh2di/input_to_a_neural_network/,Dump7,1527055304,"How does the NN take input? For example, I have an 8 input variables and 1 output variable dataset, then will I give single input variable to a single neuron which will result in 8 neurons in the input layer? If that's the case what if we have 100 input parameters will we have 100 neurons in the input layer?",15,0
+113,2018-5-23,2018,5,23,19,8li6hu,Getting into it or first steps,https://www.reddit.com/r/deeplearning/comments/8li6hu/getting_into_it_or_first_steps/,Asrijaal,1527069978,"I'm trying to get a deeper understanding on the whole machine learning/deeplearning subject (it got my attention by the Tensorflow Google I/O 18 talks). Where - tbh - I don't understand everything totally, I'm willing to pay in time to get it. So most examples out there use preformatted datasets which is kinda nice for get something running on your machine but I struggle to ""produce"" something out of my own, in case of missing knowledge to preformat my data.
+
+First idea/experiment:
+
+I've got folders of source code in different programming languages and now I want a model which will predicate programming language on given text/sourceode. How are big chunks of raw data preprocessed? Keras as example operates on Numpy arrays, converting a huge list of textfiles into Numpy arrays results in Out of Memory exceptions on my machine. 
+I can't really imagine that this is something out standing what I'm trying to do. 
+
+So for my conclusion: I'm just missing theory and overview of technology. Are there resources/books/examples (beyond them with preformatted datasets) which could help me on getting into this?
+
+
+
+",3,3
+114,2018-5-23,2018,5,23,23,8ljxz0,"Searching for a 3D Dataset, segmented by 2 or more Experts",https://www.reddit.com/r/deeplearning/comments/8ljxz0/searching_for_a_3d_dataset_segmented_by_2_or_more/,ThrawNeX,1527086914,"We are looking for data sets with 3D images, preferably from the medical field. It is important that they have been segmented by more than one person/expert. An example of this is the BraTS Challenge dataset \([https://www.med.upenn.edu/sbia/brats2018/data.html](https://www.med.upenn.edu/sbia/brats2018/data.html)\) or the LIDC IDRI Dataset \([https://wiki.cancerimagingarchive.net/display/Public/LIDC\-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI)\), but we need more datasets for our research.
+
+Many thanks in advance!",0,5
+115,2018-5-23,2018,5,23,23,8ljy9m,Where to go with algorithmic breakthrough?,https://www.reddit.com/r/deeplearning/comments/8ljy9m/where_to_go_with_algorithmic_breakthrough/,4rtemi5,1527086978,Partly by chance and partly by very hard work I stumbled upon an algorithm to speed up training of most deep neural networks by \&gt;10x. I am fully aware of the absurdity of the situation since I am by no means an established researcher in the field so just in case you dont believe me \(which i fully understand\) I pose this as a hypothetical question: what would you do in my situation? Who would you approach with your discovery? How would you try to prove your claim? Or should I just write a paper and throw it out there? Really happy for any thoughts and suggestions!,14,0
+116,2018-5-24,2018,5,24,1,8lkow8,A simple webapp using face detection directly in the browser (webGL &amp; deep-learning),https://www.reddit.com/r/deeplearning/comments/8lkow8/a_simple_webapp_using_face_detection_directly_in/,StartupJeeliz,1527092630,"[On the occasion of the soccer world cup 2018, we have released a webapp featuring makeup for fans...](https://jeeliz.com/demos/faceFilter/demos/threejs/football_fan_app/)
+
+https://i.redd.it/plvzdtttsmz01.gif",0,5
+117,2018-5-24,2018,5,24,3,8llv0q,How to build Amazon like text recognition system in python?,https://www.reddit.com/r/deeplearning/comments/8llv0q/how_to_build_amazon_like_text_recognition_system/,xpbit1024,1527101336,"I was just playing around with Amazons rekognition API and it works amazingly well with detecting text from images, how would one go about building something like that?",2,3
+118,2018-5-24,2018,5,24,17,8lr3ou,Perceptual Super-Resolution Challenge @ ECCV 2018 Workshop,https://www.reddit.com/r/deeplearning/comments/8lr3ou/perceptual_superresolution_challenge_eccv_2018/,YocB,1527151135,,1,3
+119,2018-5-24,2018,5,24,21,8lsczo,Deep Learning With Apache Spark: Part 2,https://www.reddit.com/r/deeplearning/comments/8lsczo/deep_learning_with_apache_spark_part_2/,polllyyy,1527166002,,0,12
+120,2018-5-25,2018,5,25,2,8lumdz,ResNet Question,https://www.reddit.com/r/deeplearning/comments/8lumdz/resnet_question/,deepmariaaa,1527184058,"Hi guys!
+
+In ResNet-50: 
+
+http://ethereon.github.io/netscope/#/gist/db945b393d40bfa26006
+
+What is suppossed to be doing the first pooling layer right at the begging (""pool1""). I mean, the input size is 224x224 and after the first convolution and pooling the size goes to 56x56. At that point the net starts becoming dense and doing the residual branches stuff. But why that preprocessing. Is that computionally better? Could you get better results if you dont reduce the size like that so early? 
+
+Regards
+",1,5
+121,2018-5-25,2018,5,25,6,8lweof,How much of a person's face is required to ID that person?,https://www.reddit.com/r/deeplearning/comments/8lweof/how_much_of_a_persons_face_is_required_to_id_that/,PullThisFinger,1527197835,"A colleague has pretty deep roots at a Tier\-1 e\-commerce retailer. He's been told that well under 7&amp;#37; of a person's face is required to ID that person with \(TBD&amp;#37;\) confidence.
+
+Before I dive into ArXiV \- has anybody seen a metric or paper on this?",5,3
+122,2018-5-25,2018,5,25,14,8lzdgb,Setup guide for TensorFlow GPU latest release 1.8,https://www.reddit.com/r/deeplearning/comments/8lzdgb/setup_guide_for_tensorflow_gpu_latest_release_18/,DecipherTechnic,1527226482,,0,18
+123,2018-5-25,2018,5,25,14,8lzgut,How do I apply deep learning model over the following dataset?https://github.com/urwithajit9/ClaMP/blob/master/dataset/ClaMP_Raw-5184.csv,https://www.reddit.com/r/deeplearning/comments/8lzgut/how_do_i_apply_deep_learning_model_over_the/,Abhijeet2410,1527227624,"How do I apply deep learning to malware dataset? Below I mentioned link malware dataset? How do I apply lstm, lstm+1D convolution, convolution+fully connected model over below given malware dataset?",0,1
+124,2018-5-25,2018,5,25,15,8lzimj,How do I apply deep learning model over below mentioned malware dataset?,https://www.reddit.com/r/deeplearning/comments/8lzimj/how_do_i_apply_deep_learning_model_over_below/,Abhijeet2410,1527228246,"How do I apply LSTM, LSTM+1D convolution model, 1D convolution+fully connected model to following malware dataset  https://github.com/urwithajit9/C... by using the below-mentioned code in colab? https://colab.research.google.com/drive/1-S0c1e52mTvsqDEcdSpBJ6ZysJI9oi3T",0,1
+125,2018-5-25,2018,5,25,16,8lztvg,Builders Clean London,https://www.reddit.com/r/deeplearning/comments/8lztvg/builders_clean_london/,Bfacleaning,1527232212,,0,1
+126,2018-5-25,2018,5,25,19,8m0net,Deep Learning - From the Scratch for Beginners - PART 1,https://www.reddit.com/r/deeplearning/comments/8m0net/deep_learning_from_the_scratch_for_beginners_part/,pooja307,1527243408,,0,1
+127,2018-5-25,2018,5,25,19,8m0nty,Deep Learning - Explained from Scratch(Tensorflow Object Detection) - Part 2,https://www.reddit.com/r/deeplearning/comments/8m0nty/deep_learning_explained_from_scratchtensorflow/,pooja307,1527243566,,0,1
+128,2018-5-25,2018,5,25,19,8m0pcb,Deep Learning - Explained from Scratch(Tensorflow) - Part 1,https://www.reddit.com/r/deeplearning/comments/8m0pcb/deep_learning_explained_from_scratchtensorflow/,pooja307,1527244082,,0,13
+129,2018-5-25,2018,5,25,19,8m0psk,Deep Learning - Explained from Scratch(TensorFlow Object Detection) - Part 2,https://www.reddit.com/r/deeplearning/comments/8m0psk/deep_learning_explained_from_scratchtensorflow/,pooja307,1527244234,,0,7
+130,2018-5-25,2018,5,25,19,8m0tq6,Understanding Convolutional Neural Networks  Adel Nehme,https://www.reddit.com/r/deeplearning/comments/8m0tq6/understanding_convolutional_neural_networks_adel/,jackblun,1527245627,,0,3
+131,2018-5-25,2018,5,25,20,8m147s,Computer Vision System Design Deep Learning and 3D Vision,https://www.reddit.com/r/deeplearning/comments/8m147s/computer_vision_system_design_deep_learning_and/,tiagomoraismorgado88,1527248867,,0,4
+132,2018-5-25,2018,5,25,22,8m1or6,"Been There, Done That: Meta-Learning with Episodic Recall",https://www.reddit.com/r/deeplearning/comments/8m1or6/been_there_done_that_metalearning_with_episodic/,PullThisFinger,1527254392,,1,5
+133,2018-5-25,2018,5,25,22,8m1vbu,"Loss getting close to zero, no overfit, bad result.",https://www.reddit.com/r/deeplearning/comments/8m1vbu/loss_getting_close_to_zero_no_overfit_bad_result/,FrStealer,1527256022,"Hello,
+
+I was theoretically wondering why doesn't my data overfit.
+
+It is in a classification problem, the loss is getting close to zero but when i test the same image \(the one i just fed the network with\), i got bad accuracy.
+
+My question is theoretical, if you need to know more about my work in order to answer, i will be more precise.
+
+Sorry for my English, it is my second language.
+
+Thank you in advance.",7,2
+134,2018-5-26,2018,5,26,22,8ma5nf,Q-Learning Python,https://www.reddit.com/r/deeplearning/comments/8ma5nf/qlearning_python/,Jandevries101,1527341439," Hey Reader
+
+&amp;nbsp;
+
+I am pretty new to the Q\-Learning area, but i really want to learn it! I watched some tutorials already, but i don't really understand how to code it, for example if i see some example code for Q\-Learning i don't really understand what it going on. I know the terms for the most part, but not were to implement them in the code. 
+
+**Main Question**
+
+&amp;nbsp;
+
+* How to input the values S, A , Env in code?
+* I want to predict, i should MDP for that correct?
+* How much Gb space will a Q\-Learning AI take?
+* Can somebody post some very easy python code about Q\-Learning and explain where every value should be placed?
+* PM me to get my Discord/Telegram if you want to really help me out further.
+
+&amp;nbsp;
+
+Please do respond or contact me if you have any ideas, also leave your own thoughts. if you don't know the answer too, don't forget to upvote this post, so more people will see it!
+
+&amp;nbsp;
+
+Already thank you for your response!
+
+&amp;nbsp;
+
+ Greetings, 
+
+&amp;nbsp;
+
+Jan ",5,1
+135,2018-5-27,2018,5,27,1,8mbehs,"Are you interested in AI and want to start learning more with Tutorials? Check out this new Subreddit, called AI Tutorials. :)",https://www.reddit.com/r/deeplearning/comments/8mbehs/are_you_interested_in_ai_and_want_to_start/,DiscoverAI,1527353517,,1,1
+136,2018-5-27,2018,5,27,3,8mbx57,https://arxiv.org/pdf/1704.04760.pdf,https://www.reddit.com/r/deeplearning/comments/8mbx57/httpsarxivorgpdf170404760pdf/,PullThisFinger,1527358110,How Google's TPU does its magic.,2,8
+137,2018-5-27,2018,5,27,3,8mbzsq,AI Weekly 26 May 2018,https://www.reddit.com/r/deeplearning/comments/8mbzsq/ai_weekly_26_may_2018/,TomekB,1527358767,,0,1
+138,2018-5-27,2018,5,27,4,8mck2p,How to build an Artificial Neural Network in Java,https://www.reddit.com/r/deeplearning/comments/8mck2p/how_to_build_an_artificial_neural_network_in_java/,EndyJBC,1527363894,,0,1
+139,2018-5-27,2018,5,27,9,8me9t6,Online discussion group for deeplearningbook by Ian Goodfellow,https://www.reddit.com/r/deeplearning/comments/8me9t6/online_discussion_group_for_deeplearningbook_by/,ashunigion,1527380329,"Hello everyone,
+
+ i have started reading the deep learning  book by Ian Goodfellow, anyone out there who have already read it or is reading it and is willing to form an online discussion group?",3,11
+140,2018-5-27,2018,5,27,11,8meyml,Deep Learning vs Classical Machine Learning for Healthcare,https://www.reddit.com/r/deeplearning/comments/8meyml/deep_learning_vs_classical_machine_learning_for/,kbnewreddit,1527387948,"In general, which is more preferable in the Healthcare industry? DL or Classical ML? I would love some insights from every scenario .i.e. ease of development of the product to launching it into the market.",3,2
+141,2018-5-27,2018,5,27,11,8mezch,Tensor Transport Protocol v1.0.0-alpha!,https://www.reddit.com/r/deeplearning/comments/8mezch/tensor_transport_protocol_v100alpha/,sbsends,1527388192,,0,1
+142,2018-5-27,2018,5,27,14,8mfwdo,Deep Reinforcement Learning For Sequence to Sequence Models (Source Code),https://www.reddit.com/r/deeplearning/comments/8mfwdo/deep_reinforcement_learning_for_sequence_to/,yaserkl,1527399553,,0,8
+143,2018-5-27,2018,5,27,17,8mgmom,Tensorflow Debugging,https://www.reddit.com/r/deeplearning/comments/8mgmom/tensorflow_debugging/,ragas_,1527411420,"Hi,
+
+I'm looking for how to debug tensorflow codes. Can someone please guide me to resources regarding this?
+
+Thanks!",6,5
+144,2018-5-27,2018,5,27,21,8mhib7,The Significance of Poisson Distribution in Statistics | Hashtag Statistics,https://www.reddit.com/r/deeplearning/comments/8mhib7/the_significance_of_poisson_distribution_in/,LearningFromData,1527424978,,1,3
+145,2018-5-28,2018,5,28,15,8mo1f8,Whats the different between causal convolution and the regular one and what makes it special?,https://www.reddit.com/r/deeplearning/comments/8mo1f8/whats_the_different_between_causal_convolution/,chengchingwen,1527489141,"  Im study on using convolution for sequence and structured data and I find that they often use a causal convolution like the one in TCN(Temporal convolution network). But in my understanding, it just a convolution with padding at the beginning of the input sequence or cropping the output that involve the end padding. It doesnt seem to have any super power or stronger than the regular one.",14,7
+146,2018-5-28,2018,5,28,18,8movgq,Object Detection for Similar objects,https://www.reddit.com/r/deeplearning/comments/8movgq/object_detection_for_similar_objects/,uridah,1527500409,What algorithms/networks are good for detecting similar looking objects?,1,2
+147,2018-5-28,2018,5,28,23,8mq9e2,"How to easily do Topic Modeling with LSA, PSLA, LDA &amp; lda2Vec",https://www.reddit.com/r/deeplearning/comments/8mq9e2/how_to_easily_do_topic_modeling_with_lsa_psla_lda/,digitalson,1527516148,,4,11
+148,2018-5-28,2018,5,28,23,8mqc2b,Graph in TensorBoard or Model Problem.,https://www.reddit.com/r/deeplearning/comments/8mqc2b/graph_in_tensorboard_or_model_problem/,FrStealer,1527516757,"Hello,
+
+I want to use the same variable in two ""different"" network \(I want to use a Siamese Network\). To do so i used Reuse=True/False in the scope i wanted and then get the variable i wanted, the variable of the first model in the second one. However, when i check the model in tensorboard, the convolution layers are not linked and i am wondering why.   
+
+
+Below a small portion of my code, where i am struggling. 
+
+    def create(self, reuse=False):
+            """"""Create the network graph.""""""
+            # 1st Layer: Conv (w ReLu) -&gt; Lrn -&gt; Pool
+    
+            conv1 = conv(self.X, 11, 11, 96, 4, 4, padding='VALID', name='conv1',reuse=reuse)
+            
+            
+            print(""conv1:"",conv1.name)
+            norm1 = lrn(conv1, 2, 1e-05, 0.75, name='norm1')
+            
+            pool1 = max_pool(norm1, 3, 3, 2, 2, padding='VALID', name='pool1')
+            conv2 = conv(pool1, 5, 5, 256, 1, 1, groups=1, name='conv2',reuse=reuse)
+            pool2 = max_pool(conv2, 3, 3, 2, 2, padding='VALID', name='pool2')
+            norm2 = lrn(pool2, 2, 2e-05, 0.75, name='norm2')
+    
+    def conv(x, filter_height, filter_width, num_filters, stride_y, stride_x, name,
+             padding='SAME', groups=1, reuse=False):
+        
+        convolve = lambda i, k: tf.nn.conv2d(i, k,
+                                               strides=[1, stride_y, stride_x, 1],
+                                                padding=padding)
+        with tf.variable_scope(name,reuse=reuse) as scope:
+            weights = tf.get_variable('weights', shape=[filter_height,
+                                                        filter_width,
+                                                        input_channels/groups,
+                                                        num_filters])
+            biases = tf.get_variable('biases', shape=[num_filters])
+                
+        conv = convolve(x, weights)
+     
+        # Add biases
+        bias = tf.reshape(tf.nn.bias_add(conv, biases), tf.shape(conv))
+        # Apply relu function
+        relu = tf.nn.relu(bias, name=scope.name)
+    
+       return relu
+    
+    
+    
+    To see the graph of the session in tensorboard: 
+        writer = tf.summary.FileWriter(path, sess.graph)
+    ",0,1
+149,2018-5-29,2018,5,29,0,8mqy1j,MTailor Deep Learning,https://www.reddit.com/r/deeplearning/comments/8mqy1j/mtailor_deep_learning/,harrybhines,1527521843,"Does anybody know how MTailor works to measure body parts accurately? I assume they use some type of deep learning. When using their app, they require you to place your phone on the ground up against a wall at a certain angle. I assume they use this angle to undistort the perspective of the photo. Does anyone know of the math required to go about doing this?",1,6
+150,2018-5-29,2018,5,29,8,8muazb,Unsure what input data structure to use,https://www.reddit.com/r/deeplearning/comments/8muazb/unsure_what_input_data_structure_to_use/,Hexillium,1527549519,"If I have data on two teams competing, and say a pool of exactly 20 people that can play at any given time on either of the teams and get a strict team 1 won or team 2 won result, what's the best input layer structure to have?
+
+I tried having 40 input nodes (the first 20 for each of the players being on team 1 [each node being 1 or 0 for the player being there or not] second 20 for the other team), but this didn't work well and effectively creates two players per player.
+
+What is the best structure for trying to analyse which team will win? ",2,4
+151,2018-5-29,2018,5,29,10,8mv794,is it possible to build an ASR specific to a business domain ?,https://www.reddit.com/r/deeplearning/comments/8mv794/is_it_possible_to_build_an_asr_specific_to_a/,Abhijeet3922,1527557912,I am about to start exploring KALDI toolkit to build a production level ASR system for a specific business domain (for example say banking or insurance domain) . I wanted to know how realistic it is to build such a product. Has anyone here had developed such systems with KALDI ?,2,5
+152,2018-5-29,2018,5,29,11,8mvj74,Identical object - Image Classification,https://www.reddit.com/r/deeplearning/comments/8mvj74/identical_object_image_classification/,tilakd,1527560898,[removed],0,1
+153,2018-5-29,2018,5,29,17,8mxgv2,Deep learning: Memory error with arrays and lists in python,https://www.reddit.com/r/deeplearning/comments/8mxgv2/deep_learning_memory_error_with_arrays_and_lists/,Moni93,1527582247,"Before reading
+
+I couldn't fit the text to the adequate format: so here is the original thread I posted on stack and i t is more readible than this one : https://stackoverflow.com/questions/50570305/deep-learning-memory-error-with-arrays-and-lists-in-python  
+
+
+Goal
+
+I am trying to build a neural network that recognizes multiple label within a given image. I started with a database composed of 1800 images (each image is an array of shape (204,204,3). I trained my model and concluded that data used wasn't enough in order to build a good model ( with respect to chosen metric). So i decided to apply data augmentation technique in order to get more images. I managed to get 25396 images ( all of them are of shape (204,204,3)). I stored all of them in arrays . I obtained (X,Y) where X are the training examples (is an array of shape (25396,204,204,3)) and Y are the labels ( an array of shape (25396,39) : the number 39 refers to the possible labels in a given image).
+Issues
+My data (X,Y) weights approximately arround 26 giga bytes. I successfully managed to use them . However, when i try to do manipulation (like permutations) I encounter memory Error in python. Exemple
+1. I started jupyter and successfully imported my data (X,Y)  
+
+```
+x=np.load('x.npy')
+y=np.load('y.npy')
+```
+
+```
+output: x is an np.array of shape (25396,204,204,3) and y is an np.array of shape (25396,39).
+```
+2. I divide my dataSet in train and test by using sklearn built in function train_test_split
+
+```
+X_train, X_valid, Y_train, Y_valid= `train_test_split(x_train,y_train_augmented,test_size=0.3, random_state=42)`
+```
+```
+output
+```
+-------------testing size of different elements et toplogie: 
+```
+```
+-------------x size:  (25396, 204, 204, 3)
+```
+```
+-------------y size:  (25396, 39)
+```
+```
+-------------X_train size:  (17777, 204, 204, 3)
+```
+```
+-------------X_valid size:  (7619, 204, 204, 3)
+```
+```
+-------------Y_train size:  (17777, 39)
+```
+```
+-------------Y_valid size:  (7619, 39)
+```
+3. I am creating a list composed of random batches extracted from (X,Y) and then iterate over the batches in order to complete the learning process for a given epoch :'this opperation is done in each epoch of the training part. Here is the function used in order to create the list of random batches:
+
+def random_mini_batches(X, Y, mini_batch_size = 64, seed = 0):
+    """"""
+    Creates a list of random minibatches from (X, Y)
+
+    Arguments:
+    X -- input data, of shape (input size, number of examples)
+    Y -- true ""label"" vector (1 for blue dot / 0 for red dot), of shape (1, number of examples)
+    mini_batch_size -- size of the mini-batches, integer
+
+    Returns:
+    mini_batches -- list of synchronous (mini_batch_X, mini_batch_Y)
+    """"""
+
+
+    np.random.seed(seed)            
+    m = X.shape[0]                  
+    mini_batches = []
+    # Step 1: Shuffle (X, Y)
+    permutation = list(np.random.permutation(m))
+
+
+
+    shuffled_X = X[permutation,:]
+    shuffled_Y = Y[permutation,:]
+
+
+    # Step 2: Partition (shuffled_X, shuffled_Y). Minus the end case.
+    num_complete_minibatches = floor(m/mini_batch_size) # number of mini batches of size mini_batch_size in your partitionning
+    for k in range(0, num_complete_minibatches):
+
+
+        mini_batch_X = shuffled_X[k * mini_batch_size : (k + 1) * mini_batch_size, :]
+        mini_batch_Y = shuffled_Y[k * mini_batch_size : (k + 1) * mini_batch_size, :]
+        mini_batch = (mini_batch_X, mini_batch_Y)
+        mini_batches.append(mini_batch)
+        '''
+        mini_batches.append((X[permutation,:][k * mini_batch_size : (k + 1) * mini_batch_size, :], Y[permutation,:][k * mini_batch_size : (k + 1) * mini_batch_size, :]))
+        '''
+    # Handling the end case (last mini-batch &lt; mini_batch_size)
+    if m % mini_batch_size != 0:
+        ### START CODE HERE ### (approx. 2 lines)
+        mini_batch_X = shuffled_X[ num_complete_minibatches * mini_batch_size:, :]
+        mini_batch_Y = shuffled_Y[ num_complete_minibatches * mini_batch_size:, :]
+        ### END CODE HERE ###
+        mini_batch = (mini_batch_X, mini_batch_Y)
+        mini_batches.append(mini_batch)
+        '''
+        mini_batches.append((X[permutation,:][ num_complete_minibatches * mini_batch_size:, :], Y[permutation,:][ num_complete_minibatches * mini_batch_size:, :]))
+        '''
+    shuffled_X=None
+    shuffled_Y=None
+    return mini_batches
+4. I am creating a loop (of 4 iterations) and i am testing the random_mini_batch function in each iteration. At the end of each iteration I am assigning None values to the list of mini_batches in order to liberate memory and redo the random_mini_batch_function in the next iteration .So these line of codes works fine and I ve got no memory issues:
+minibatch_size=32
+seed=2
+for i in range(4):
+    seed=seed+1
+    minibatches = random_mini_batches(X_train, Y_train, minibatch_size, seed)
+
+    minibatches=None 
+    minibatches_valid=create_mini_batches(X_valid, Y_valid, minibatch_size)
+    print(i)
+minibatches_valid=None
+5. If I add iteration over the different batches! then I am getting a memory issue. In other words, if a run this code i get an error:
+minibatch_size=32
+seed=2
+for i in range(4):
+    seed=seed+1
+    minibatches = random_mini_batches(X_train, Y_train, minibatch_size, seed)
+    #added code: iteration over mini_batches
+    for minibatch in minibatches:
+                print('batch training number ')
+    #end of added code        
+    minibatches=None 
+    minibatches_valid=create_mini_batches(X_valid, Y_valid, minibatch_size)
+    print(i)
+    minibatches_valid=None
+MemoryError                               Traceback (most recent call last)
+&lt;ipython-input-13-9c1942cdf0bc&gt; in &lt;module&gt;()
+      3 for i in range(4):
+      4     seed=seed+1
+----&gt; 5     minibatches = random_mini_batches(X_train, Y_train, minibatch_size, seed)
+      6     
+      7     for minibatch in minibatches:
+
+&lt;ipython-input-3-2056fee14def&gt; in random_mini_batches(X, Y, mini_batch_size, seed)
+
+     23 
+---&gt; 24     shuffled_X = X[permutation,:]
+     25     shuffled_Y = Y[permutation,:]
+     26 
+
+MemoryError: 
+Does any one knows what's the issue with np.arrays ? And why does the simple fact of adding an loop (iterating over the list of batches) result in a memory error.",4,5
+154,2018-5-29,2018,5,29,18,8mxuz3,Suggestions on the relevant tutorial in pytorch,https://www.reddit.com/r/deeplearning/comments/8mxuz3/suggestions_on_the_relevant_tutorial_in_pytorch/,[deleted],1527587512,[deleted],0,1
+155,2018-5-29,2018,5,29,18,8mxvnv,Advanced scheduling of experiments and jobs on Polyaxon,https://www.reddit.com/r/deeplearning/comments/8mxvnv/advanced_scheduling_of_experiments_and_jobs_on/,molode,1527587763,,0,3
+156,2018-5-29,2018,5,29,19,8mxysa,Suggestions for good implementation oriented tutorials of seq2seq models pytorch,https://www.reddit.com/r/deeplearning/comments/8mxysa/suggestions_for_good_implementation_oriented/,[deleted],1527588785,[deleted],0,1
+157,2018-5-29,2018,5,29,19,8my1d4,Suggestions for implementation oriented tutorials of seq2seq models preferably in pytorch,https://www.reddit.com/r/deeplearning/comments/8my1d4/suggestions_for_implementation_oriented_tutorials/,TrustAnonymity,1527589636,Any suggestions would be helpful. Thanks. ,0,2
+158,2018-5-29,2018,5,29,19,8my5my,Does memory frequency matter in computation?,https://www.reddit.com/r/deeplearning/comments/8my5my/does_memory_frequency_matter_in_computation/,OhmSnail,1527591057,"I would like to start with 2x8 GB RAM, and there are two plans, **2400MHz DDR4 for about 155 USD**, and **3600MHz DDR4 for about 200 USD\(with Samsung B die\)**. Is the additional 50 buck worth it?
+
+My CPU is 7820x, so with a **x299** motherboard, I guess I could **OC the ram to 4000MHz**?
+
+And I am doing **reinforcement learning**. Using methods like MCTS\(Monte Carlo Tree Search, It doesn't matter\). So I think there would be a lot of work to do for CPU, so the RAM frequency should play a role?",0,5
+159,2018-5-29,2018,5,29,23,8mzf9h,Jeeliz FaceFilter API: the javaScript library detects and tracks the face from the videofeed (available on gitHub)...,https://www.reddit.com/r/deeplearning/comments/8mzf9h/jeeliz_facefilter_api_the_javascript_library/,StartupJeeliz,1527603355,,0,1
+160,2018-5-29,2018,5,29,23,8mzfih,Jeeliz FaceFilter API: the javaScript library detects and tracks the face from the videofeed (available on gitHub)...,https://www.reddit.com/r/deeplearning/comments/8mzfih/jeeliz_facefilter_api_the_javascript_library/,StartupJeeliz,1527603409,,1,17
+161,2018-5-29,2018,5,29,23,8mzj2t,Best way to learn model sequence models ?,https://www.reddit.com/r/deeplearning/comments/8mzj2t/best_way_to_learn_model_sequence_models/,TrustAnonymity,1527604231,,0,1
+162,2018-5-30,2018,5,30,14,8n5x7c,Batch Normalization smooths parameter landscape,https://www.reddit.com/r/deeplearning/comments/8n5x7c/batch_normalization_smooths_parameter_landscape/,pete0273,1527656497,,0,7
+163,2018-5-30,2018,5,30,16,8n6l3a,What are the good courses on Natural Language Understanding?,https://www.reddit.com/r/deeplearning/comments/8n6l3a/what_are_the_good_courses_on_natural_language/,kpshah,1527664363,Are there any courses available online for learning Natural Language Understanding(NLU)? I found a good course from Stanford but could not find lecture videos.(http://web.stanford.edu/class/cs224u/index.html) ,0,7
+164,2018-5-30,2018,5,30,18,8n79as,classification network predicts same class for the entire batch,https://www.reddit.com/r/deeplearning/comments/8n79as/classification_network_predicts_same_class_for/,lazygoldenpanda,1527673313,"Hi.
+
+I have a simple classification network \(9 conv layers with relu activation, followed by 3 fully connected\). If I use batch norm after each conv layer everything is great, the classification accuracy is 93&amp;#37; after a few epochs.  
+If I don't use batch norm the classification accuracy is 0&amp;#37; even after many epochs, and the prediction for each element batch element is constant. For example, in the first iteration it predicts class 6 for all the inputs and after several iterations it predicts class 20 for all the inputs. I've normalized and scaled my data, tried to use a different weight initialization, nothing works. The problem gets solved when I use batch norm but I'm afraid there's some code bug that I'm not aware of. 
+
+This is my network:
+
+    class myClasifier_1_6(nn.Module):
+    
+        def __init__(self, nClasses):
+            super(myClasifier_1_6, self).__init__()
+            # conv2d(in_channels, outChannels, kernel_size
+            self.conv1 = nn.Conv2d(1, 32, 2)
+            self.conv2 = nn.Conv2d(32, 32, (2, 1))
+            self.conv3 = nn.Conv2d(32, 32, (1, 2))
+            self.pool = nn.MaxPool2d(2, 2)
+    
+            self.conv4 = nn.Conv2d(32, 48, 2)
+            self.conv5 = nn.Conv2d(48, 48, 2)
+            self.conv6 = nn.Conv2d(48, 48, 2)
+    
+            self.conv7 = nn.Conv2d(48, 80, 2)
+            self.conv8 = nn.Conv2d(80, 80, 2)
+            self.conv9 = nn.Conv2d(80, 80, 2)
+    
+            self.fc1 = nn.Linear(80 * 5 * 5, 800)
+            self.fc2 = nn.Linear(800, 500)
+            self.fc3 = nn.Linear(500, nClasses)
+    
+            for m in self.modules():
+                if isinstance(m, nn.Conv2d):
+                    m.weight.data.normal_(0.0, 0.02)
+                elif isinstance(m, nn.BatchNorm2d):
+                    nn.init.constant_(m.weight, 1)
+                    nn.init.constant_(m.bias, 0)
+    
+        def forward(self, x):
+            x = F.relu(self.conv1(x))
+            x = F.relu(self.conv2(x))
+            x = self.pool(F.relu(self.conv3(x)))
+    
+            x = F.relu(self.conv4(x))
+            x = F.relu(self.conv5(x))
+            x = self.pool(F.relu(self.conv6(x)))
+    
+            x = F.relu(self.conv7(x))
+            x = F.relu(self.conv8(x))
+            x = self.pool(F.relu(self.conv9(x)))
+    
+            x = x.view(-1, 80 * 5 * 5)
+    
+            x = F.relu(self.fc1(x))
+            x = F.relu(self.fc2(x))
+            x = self.fc3(x)
+    
+            return x
+
+and here is my training code:
+
+    train_ds = dataLoaderLetters.LettersDataset(csvFilePathTrain, rootDirTrain, classesDir, True)
+    
+    trainLoader = torch.utils.data.DataLoader(train_ds, batch_size=opt.batchSize,
+                                               num_workers=int(opt.workers), 
+                                               drop_last = True, shuffle=True)
+    
+    
+    myClassifier = myClasifier_1_6(opt.nClasses)
+    if opt.cuda:
+         myClassifier.cuda()
+    
+    criterion = nn.CrossEntropyLoss()
+    optimizer = optim.SGD(myClassifier.parameters(), lr=opt.lr, momentum=0.9)
+    
+    for epoch in range(opt.nEpochs):  # loop over the dataset multiple times
+        myClassifier.train()
+    
+        running_loss = 0.0
+        correctTrain = 0
+        totalTrain = 0
+        for i, data in enumerate(trainLoader, 0):
+            # get the inputs
+            inputs, labels = data
+    
+            # wrap them in Variable
+            if opt.cuda:
+                inputs, labels = Variable(inputs.cuda()), Variable(labels.cuda())
+            else:
+                inputs, labels = Variable(inputs), Variable(labels)
+    
+            # zero the parameter gradients
+            optimizer.zero_grad()
+            outputs = myClassifier(inputs)
+    
+            _, predictedTrain = torch.max(outputs.data, 1)
+            totalTrain += labels.size(0)
+            correctTrain += (predictedTrain == labels.data).cpu().sum()
+    
+            loss = criterion(outputs, labels)
+            loss.backward()
+            optimizer.step()
+    ",0,1
+165,2018-5-30,2018,5,30,20,8n7tpc,Top 10 Datasets for Deep Learning,https://www.reddit.com/r/deeplearning/comments/8n7tpc/top_10_datasets_for_deep_learning/,rennytech,1527679910,,5,24
+166,2018-5-31,2018,5,31,3,8nb30f,"Aspiring Deep Learning Researcher/Engineer Here, Grad School Advice?",https://www.reddit.com/r/deeplearning/comments/8nb30f/aspiring_deep_learning_researcherengineer_here/,jonboighini,1527705811,"Im in my junior year of my undergrad in mathematical science. I recently took numerical linear algebra. We talked a lot about machine learning/deep learning and it has sparked my interest.
+
+Ive been looking at graduate schools for machine learning. A lot of them are far away from where I currently reside. There is a few schools around me (Georgia tech, UNC) that have caught my attention, but I'm just exploring my options.
+
+So in order to become a DL researcher/engineer, would I have to attend one of these colleges that offer ML as a graduate program? Or if I got my masters or phD in computer science would that be sufficient? Any guidance would be greatly appreciated! ",3,1
+167,2018-5-31,2018,5,31,5,8nbqqf,Is it possible to explain Stochastic gradient descent in layman's term?,https://www.reddit.com/r/deeplearning/comments/8nbqqf/is_it_possible_to_explain_stochastic_gradient/,bharadwajp,1527710634,Is it possible to explain Stochastic gradient descent in layman's term?,7,1
+168,2018-5-31,2018,5,31,5,8nc0hr,Heat Map of Crowd,https://www.reddit.com/r/deeplearning/comments/8nc0hr/heat_map_of_crowd/,ragas_,1527712628,"Hi,
+
+I want to generate heat map based on number of individuals in a space.
+
+Can anyone please suggest how to do it?
+
+Thanks! ",5,2
+169,2018-5-31,2018,5,31,14,8nfvxs,Will GTX1080 and GTX1070TI make a huge difference while training?,https://www.reddit.com/r/deeplearning/comments/8nfvxs/will_gtx1080_and_gtx1070ti_make_a_huge_difference/,OhmSnail,1527745172,"1080 will cost **additional 100 bucks** over 1070TI, it seems like their performance is very close, but what **the real difference in practice** they could make?
+
+Is the 100 bucks worth the improvement?",14,6
+170,2018-5-31,2018,5,31,17,8ngra1,DepthWise Weparable Convolutions,https://www.reddit.com/r/deeplearning/comments/8ngra1/depthwise_weparable_convolutions/,bluesky314,1527755244,How come we dont loose much accuracy in case of Depth wise separable convolution even when the number of learnable parameters reduces significantly? Im specifically talking about the MobileNet paper where there is a drastic reduction in parameter numbers. What is the intuition behind dept wise separation capturing important patters from the image?,0,1
+171,2018-5-31,2018,5,31,17,8ngudl,Alexnet Finetune,https://www.reddit.com/r/deeplearning/comments/8ngudl/alexnet_finetune/,FrStealer,1527756428,"Hello,
+
+I want to finetune AlexNet model using tf.layers. I have created the model \(below first layer\): 
+
+    with tf.variable_scope(""conv1"",reuse=reuse) as scope:
+                conv1 = tf.layers.conv2d(inputs=self.X, filters=96, kernel_size=[11, 11], strides=4, padding=""valid"", activation=tf.nn.relu)
+                lrn1 = tf.nn.lrn(input=conv1, depth_radius=5, bias=1.0, alpha=0.0001/5.0, beta=0.75); 
+                pool1_conv1 = tf.layers.max_pooling2d(inputs=lrn1, pool_size=[3, 3], strides=2)
+                
+     
+
+However, when i try to load the finetuned weigth, the name of the weigth and the bias doesn't match. ""ValueError: Variable conv1/weights does not exist, or was not created with tf.get\_variable\(\). Did you mean to set reuse=tf.AUTO\_REUSE in VarScope?""
+
+Is it possible to name the weight and the bias in tf.layers.conv2d ?
+
+Thank you in advance",0,1
+172,2018-5-31,2018,5,31,20,8nhmki,3 ways how Deep Learning is personalizing the Internet and inducing better engagement,https://www.reddit.com/r/deeplearning/comments/8nhmki/3_ways_how_deep_learning_is_personalizing_the/,alzador123,1527765859,,0,0
+173,2018-5-31,2018,5,31,21,8nhwea,An Introduction to Deep Learning for Tabular Data,https://www.reddit.com/r/deeplearning/comments/8nhwea/an_introduction_to_deep_learning_for_tabular_data/,dearpetra,1527768630,,3,11

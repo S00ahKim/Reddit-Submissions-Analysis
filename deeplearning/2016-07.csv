@@ -1,0 +1,74 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2016-7-1,2016,7,1,14,4qq1gi,TFLearn: A Simplified Interface for TensorFlow,https://www.reddit.com/r/deeplearning/comments/4qq1gi/tflearn_a_simplified_interface_for_tensorflow/,malleus17,1467349423,,0,11
+1,2016-7-4,2016,7,4,17,4r6bmv,Any insights on how to remove heat haze from an image using deep learning ?,https://www.reddit.com/r/deeplearning/comments/4r6bmv/any_insights_on_how_to_remove_heat_haze_from_an/,nex_jeb,1467621592,,3,3
+2,2016-7-6,2016,7,6,19,4rhv9u,Machine Intelligence Allows Robots to Work in Unfamiliar Environments,https://www.reddit.com/r/deeplearning/comments/4rhv9u/machine_intelligence_allows_robots_to_work_in/,reworksophie,1467800952,,0,1
+3,2016-7-6,2016,7,6,20,4ri1y3,Word Embeddings and Their Challenges,https://www.reddit.com/r/deeplearning/comments/4ri1y3/word_embeddings_and_their_challenges/,[deleted],1467804828,[deleted],0,1
+4,2016-7-6,2016,7,6,20,4ri3oi,Word Embeddings and their challenges,https://www.reddit.com/r/deeplearning/comments/4ri3oi/word_embeddings_and_their_challenges/,MikeWally,1467805748,,0,2
+5,2016-7-8,2016,7,8,11,4rseb1,How the hell do you measure accuracy in the TensorFlow Playground?,https://www.reddit.com/r/deeplearning/comments/4rseb1/how_the_hell_do_you_measure_accuracy_in_the/,zbplot,1467944866,"I'm using the playground to experiment with hyperparameters and am about to pull my hair out. 
+
+Is there a way to observe the accuracy of your network in the TensorFlow Playground? I've noted how little the test loss and training loss have to do with accuracy....there must be an acccuracy metric somewhere though, right? 
+
+Surely the best way isn't to count the dots? Please don't make me count the dots.",1,4
+6,2016-7-9,2016,7,9,6,4rwytt,Humans are not random,https://www.reddit.com/r/deeplearning/comments/4rwytt/humans_are_not_random/,iliar87,1468012207,"I wanted to share a program that guesses the next digit you're about to enter (0 or 1).
+
+https://github.com/iliar1987/RealTimeRecurrentLearning2
+
+Works on theano on python 2.7.
+
+First time running it, it will hang for a minute or two as the theano graph is being compiled so be patient.
+
+Please tell me if you like it.
+",6,10
+7,2016-7-9,2016,7,9,16,4rzayc,Best Data science articals on june2016,https://www.reddit.com/r/deeplearning/comments/4rzayc/best_data_science_articals_on_june2016/,dataaspirant,1468048360,,0,1
+8,2016-7-11,2016,7,11,6,4s7kxb,Generative Adversarial Networks - Fresh ML #2,https://www.reddit.com/r/deeplearning/comments/4s7kxb/generative_adversarial_networks_fresh_ml_2/,llSourcell,1468187493,,0,7
+9,2016-7-12,2016,7,12,8,4se210,Keras: pixel-wise softmax from output of a convolutional autoencoder?,https://www.reddit.com/r/deeplearning/comments/4se210/keras_pixelwise_softmax_from_output_of_a/,planaria123,1468281173,"
+I'm working on a segmentation problem.  There are 4 classes for the pixels in the masks for the ground truth data.
+
+I would like to use softmax + categorical_cross_entropy as the last layer to classify each pixel in the output.
+
+The general network structure is a pretty standard convolutional autoencoder: Conv2D/MaxPool2D layers followed by ""deconvolution layers"" (UpSampling2D/Conv2D).
+
+Currently, the penultimate layer is this: 
+
+Convolution2D(num_classes, 1, 1, activation='sigmoid',  border_mode='same')
+
+My problem is understanding how can I put a softmax layer as the last layer.  Also, I believe what I want is to recod the training masks as one-hot encoded of the 4 pixel classes.
+
+Any suggestions would be most welcome; thanks in advance!
+
+Cheers,
+Mark
+",2,2
+10,2016-7-18,2016,7,18,1,4taexg,How to evaluate the process of the training and test loss,https://www.reddit.com/r/deeplearning/comments/4taexg/how_to_evaluate_the_process_of_the_training_and/,miguka,1468774137,"When I am training a deep network, I usually plot the training and validation loss for each epoch. I would like to know what kind of hints can I get from the curve progressions to optimize my parameters to get a better result. 
+
+For example [here](https://s32.postimg.org/9yytm932d/curve_progression.png) is an image of a training process for 200 Epochs. The blue curve is the training process and the red one is the loss from the test set.
+As you can see, the the network works fairly well on the training data set but not on the test set.
+What I would like to know is how do I have to read the curve progressions to know which parameters I should change in which direction.  
+
+My initial guess is that due to the progression of the blue curve the learning rate and its scheduling plan is quite fine.
+But the network has a heavy problem with overfitting (dropout was used in this example with a probability of 0.5).  
+Does that indicate that the network is too small? Or am I wrong with my guess about the learning rate? 
+
+Are there tricks and tips that are generally applicable for specific loss progressions, that reveal how to optimize parameters?",0,1
+11,2016-7-18,2016,7,18,19,4tem3g,Should We Be Rethinking Unsupervised Learning?,https://www.reddit.com/r/deeplearning/comments/4tem3g/should_we_be_rethinking_unsupervised_learning/,reworksophie,1468839265,,0,1
+12,2016-7-19,2016,7,19,20,4tkmw3,Exploring the Artificially Intelligent Future of Finance,https://www.reddit.com/r/deeplearning/comments/4tkmw3/exploring_the_artificially_intelligent_future_of/,reworksophie,1468927358,,0,1
+13,2016-7-20,2016,7,20,0,4tlsmt,Torch-rnn breaking down for large token counts,https://www.reddit.com/r/deeplearning/comments/4tlsmt/torchrnn_breaking_down_for_large_token_counts/,[deleted],1468943213,[deleted],0,1
+14,2016-7-20,2016,7,20,10,4tomxx,[1607.04793] Learning to Decode Linear Codes Using Deep Learning,https://www.reddit.com/r/deeplearning/comments/4tomxx/160704793_learning_to_decode_linear_codes_using/,vikarpa,1468977431,,0,2
+15,2016-7-20,2016,7,20,11,4tow69,Why are my LSTMs performing worse on the training set with higher cell size?,https://www.reddit.com/r/deeplearning/comments/4tow69/why_are_my_lstms_performing_worse_on_the_training/,[deleted],1468980980,[deleted],0,1
+16,2016-7-21,2016,7,21,10,4tuhfv,Standalone Free Chapter from Tensorflow for Machine Intelligence,https://www.reddit.com/r/deeplearning/comments/4tuhfv/standalone_free_chapter_from_tensorflow_for/,gbin,1469063677,,2,7
+17,2016-7-25,2016,7,25,5,4uer73,dracula.js: an LSTM-based sentiment analyser running in your browser,https://www.reddit.com/r/deeplearning/comments/4uer73/draculajs_an_lstmbased_sentiment_analyser_running/,acornalert,1469390509,,0,3
+18,2016-7-25,2016,7,25,21,4uicxd,"do you guys know of a good place(groups,forums...) to ask experts for technical advises in neural computation?",https://www.reddit.com/r/deeplearning/comments/4uicxd/do_you_guys_know_of_a_good_placegroupsforums_to/,asafamr,1469450018,"my final goal is to create a network that auto encode MNIST images as a series of pen strokes and train it with unsupervised learning. I also have several ideas i would like to throw in that i'm pretty sure somebody has already tried.
+I'm looking for a place to ask experts familiar with latest approaches to this. any help could be great. Thanks!",1,3
+19,2016-7-26,2016,7,26,3,4uk97q,Tensorflow 3 Ways,https://www.reddit.com/r/deeplearning/comments/4uk97q/tensorflow_3_ways/,amplifier_khan,1469472797,,0,2
+20,2016-7-26,2016,7,26,5,4ukohs,Ask Reddit: What GPUs should I purchase?,https://www.reddit.com/r/deeplearning/comments/4ukohs/ask_reddit_what_gpus_should_i_purchase/,jtwarren,1469477777,"For context: I've been experimenting with training deep NNs on my MBP with a GTX 750M for some time now (mostly ML class homework and TF tutorials).  I'm starting to see a bottle neck and looking for a better option -- more performance, longer training, etc.  Since it might be relevant I'm doing mostly text but I don't want to preclude myself from working with larger image data sets.
+
+My server has 3-way SLI so I'm trying to determine if multi-GPU is the way to go over a single (more robust) GPU.  I'm looking to spend in the ballpark of a couple hundred ($300?), but really mostly interested in getting the most bang for my buck.  
+
+I'm aware AWS offers GPU instances but I'd like to use my server for ""development"" purposes and go with AWS when I have everything more fleshed out.",5,5
+21,2016-7-27,2016,7,27,0,4upbak,how creative types are driving the deep learning revolution,https://www.reddit.com/r/deeplearning/comments/4upbak/how_creative_types_are_driving_the_deep_learning/,toisanji,1469548336,,0,2
+22,2016-7-27,2016,7,27,13,4usy4p,20+ Use cases of deep learning in various fields,https://www.reddit.com/r/deeplearning/comments/4usy4p/20_use_cases_of_deep_learning_in_various_fields/,datameer,1469595216,,0,5
+23,2016-7-28,2016,7,28,23,4v0xad,deep learning for text analysis,https://www.reddit.com/r/deeplearning/comments/4v0xad/deep_learning_for_text_analysis/,[deleted],1469715505,[deleted],0,1
+24,2016-7-28,2016,7,28,23,4v10ps,deep learning for video analysis,https://www.reddit.com/r/deeplearning/comments/4v10ps/deep_learning_for_video_analysis/,riyijiye,1469716664,Can anyone suggest some existing good work of deep learning for video analysis? thanks!,2,2
+25,2016-7-29,2016,7,29,3,4v22nb,eBooks/Papers for beginners in Deep Learning,https://www.reddit.com/r/deeplearning/comments/4v22nb/ebookspapers_for_beginners_in_deep_learning/,redrum88_,1469728929,"What ebook, scientific paper, or tutorial do you suggest for a beginner in deep learning?",1,5
+26,2016-7-29,2016,7,29,19,4v6090,Meet the Woman Creating AI Assistant Cortana's Personality,https://www.reddit.com/r/deeplearning/comments/4v6090/meet_the_woman_creating_ai_assistant_cortanas/,reworksophie,1469789203,,0,1
+27,2016-7-31,2016,7,31,5,4vdqxe,Learn to code with tensorflow from raw equations,https://www.reddit.com/r/deeplearning/comments/4vdqxe/learn_to_code_with_tensorflow_from_raw_equations/,kazi_shezan,1469909376,,0,2

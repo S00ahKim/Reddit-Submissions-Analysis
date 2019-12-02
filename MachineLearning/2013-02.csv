@@ -1,0 +1,384 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2013-2-1,2013,2,1,10,17nzv9,Text Classification and Feature Hashing: Sparse Matrix-Vector Multiplication with Cython,https://www.reddit.com/r/MachineLearning/comments/17nzv9/text_classification_and_feature_hashing_sparse/,fusiformgyrus,1359681224,,5,18
+1,2013-2-2,2013,2,2,5,17pqa3,First video/slides from John Langford and Yann LeCun's large scale ML class,https://www.reddit.com/r/MachineLearning/comments/17pqa3/first_videoslides_from_john_langford_and_yann/,rrenaud,1359750916,,3,32
+2,2013-2-2,2013,2,2,6,17pw2v,"NYU Course on Big Data, Large Scale Machine Learning",https://www.reddit.com/r/MachineLearning/comments/17pw2v/nyu_course_on_big_data_large_scale_machine/,Jmartin024,1359755500,,0,0
+3,2013-2-2,2013,2,2,7,17q0od,"New to ML, stupid question",https://www.reddit.com/r/MachineLearning/comments/17q0od/new_to_ml_stupid_question/,purpleladydragons,1359759270,"I apologize if this better belongs in r/learnprogramming or r/mlclass. I'm very new to machine learning and figured that a good way to learn would be to implement an agent that can predict illness spreading by using twitter. Right now, I don't even know how to actually determine if someone is sick from his/her tweet. Obviously, if someone uses the phrase 'sick of', he probably doesn't mean he is actually ill. But I'm sure there are plenty of other indicators that I'm unaware of. How would I or the program be able to discover these additional factors? 
+
+The closest thing I can think of is that I would train the program on hundreds of tweets that I would manually label as sick or not; it could then build up a probability model of words following 'sick' to determine if the tweet is actually about illness, but I have no idea how I can get the program to pick up on other patterns like preceding words or friends that also used 'sick' in their tweets without explicitly telling the program to look at those as well. I apologize for the stupid question, as I imagine this is probably a huge part of ML, but I couldn't find anything through google.",4,2
+4,2013-2-3,2013,2,3,1,17r9dc,Large scale malicious domain classification using only textual features,https://www.reddit.com/r/MachineLearning/comments/17r9dc/large_scale_malicious_domain_classification_using/,rrenaud,1359821523,,0,16
+5,2013-2-3,2013,2,3,4,17rka4,Can anyone point me to work on a neural network that can respond to pleasure or pain?,https://www.reddit.com/r/MachineLearning/comments/17rka4/can_anyone_point_me_to_work_on_a_neural_network/,sanity,1359832533,"I'm interested in building a system which takes information about it's environment, some notion of pleasure and pain, and then has some kind of output, which influences the environment.  
+
+They system's goal is, given what it knows of the environment from its inputs, influence the environment to seek pleasure, and avoid pain.
+
+Can anyone point me to research in this area, particularly anything on how biological systems solve this problem?",4,2
+6,2013-2-3,2013,2,3,8,17rz4m,"Does anyone know of a free, open Korean named entity recognition tool or named entity corpus?",https://www.reddit.com/r/MachineLearning/comments/17rz4m/does_anyone_know_of_a_free_open_korean_named/,yukw777,1359846253,,5,2
+7,2013-2-3,2013,2,3,11,17sb87,Dilbert's Definition of Machine Learning,https://www.reddit.com/r/MachineLearning/comments/17sb87/dilberts_definition_of_machine_learning/,derzelas,1359858171,,18,16
+8,2013-2-3,2013,2,3,13,17sk46,Machine Learning based Business News Platform,https://www.reddit.com/r/MachineLearning/comments/17sk46/machine_learning_based_business_news_platform/,[deleted],1359867354,,0,1
+9,2013-2-4,2013,2,4,9,17u322,Seeking a student to help with machine learning projects,https://www.reddit.com/r/MachineLearning/comments/17u322/seeking_a_student_to_help_with_machine_learning/,tectonic,1359936906,"I'm involved with a startup that is working on some hard machine learning and image analysis problems. We're looking for a student or freelancer to help us with one in particular. We want to estimate a person's height based on rectified facial photos. Existing research shows this to be possible, but there are no good available implementations. We'll gladly pay for your time and, if you're a student, work with you to help you publish your work.
+
+Is anyone interested? What's the best way to seek someone for an academic/startup partnership like this?
+
+Contact qe0akevaur8icxp@jetable.org if you're interested or have advice.",9,5
+10,2013-2-4,2013,2,4,20,17v1xq,Can anybody suggest some interesting articles on Machine Learning?,https://www.reddit.com/r/MachineLearning/comments/17v1xq/can_anybody_suggest_some_interesting_articles_on/,gerry87,1359977410,"The place I work has sends around innovative articles each week, I've been asked to pick some for this week. I wanted to pick a few interesting ones on machine learning applications/successes/innovations in business. Can anyone suggest some good ones? 
+
+One good one I've found so far is http://swampland.time.com/2012/11/07/inside-the-secret-world-of-quants-and-data-crunchers-who-helped-obama-win/ but it's more about analytics than machine learning.",15,21
+11,2013-2-4,2013,2,4,22,17v4uc,State-of-the-art Ensemble (Diversity) Methods?,https://www.reddit.com/r/MachineLearning/comments/17v4uc/stateoftheart_ensemble_diversity_methods/,donlnz,1359983075,"I'm writing a short report on ensembles and diversity, and have been asked to outline current theory on diversity, as well as describe state-of-the-art methods and algorithms for constructing diverse ensembles.
+
+Now, I haven't had much problem with the theory-bit (much thanks to the hard work of Brown and Kuncheva), but am quite stumped regarding the actual methods. I'm aware of a number of ensemble algorithms/methods (e.g. bagging, boosting, rotation forest, random oracle, random subspace method), but I'm hesitant towards classifying these as state-of-the-art, seeing as they are all ~5-10 years old.
+
+So, am I missing something obvious, or are the methods mentioned above what would be considered state-of-the-art? I'm not interested in specific implementations or variants (i.e. subagging, nice bagging), but rather would like to know if there's any overall paradigm I'm missing. I would especially appreciate hints at diversity-explicit ensemble methods, but I would of course also appreciate information on any implicit methods that I've overlooked.
+
+If it's not too much to ask, links to related articles would be preferred over summarizing descriptions.",0,1
+12,2013-2-5,2013,2,5,0,17vb08,Don't know if anyone is interested but the Midwest Cognitive Science Conference is at Ohio State University this year.,https://www.reddit.com/r/MachineLearning/comments/17vb08/dont_know_if_anyone_is_interested_but_the_midwest/,[deleted],1359991407,,1,7
+13,2013-2-5,2013,2,5,2,17vkxd,"Looking for simple algorithm to recognize ""trigger words"" in audio.",https://www.reddit.com/r/MachineLearning/comments/17vkxd/looking_for_simple_algorithm_to_recognize_trigger/,UserNotAvailable,1360000503,"While watching Dexter yesterday, I got the idea to build a ""fucking"" counter.
+
+For those unfamiliar with the show: The characters on the show swear a lot. Especially the sister of the main character. I now want to automatically tag all the scenes in which a character uses the word ""fuck"".
+
+I know speech recognition packages like CMU spinx exist, but I was wondering if for this task something simpler and more targeted would be appropriate. My previous ML experience is limited to computer vision, so my first instinct would be to train a linear SVM with a few dozen examples and see how well it does. However, I have no idea what kind of features I should use. Would a simple fourier transformation suffice?
+
+I don't have a problem with false positives, and I could easily retrain the algorithm over a few iterations, but I just don't feel like watching the entire 56 hours of material.",30,8
+14,2013-2-6,2013,2,6,0,17xqf9,How to the Showdown on The Price is Right,https://www.reddit.com/r/MachineLearning/comments/17xqf9/how_to_the_showdown_on_the_price_is_right/,[deleted],1360079532,,0,1
+15,2013-2-6,2013,2,6,0,17xqhf,How to win the Showdown on the Price is Right.,https://www.reddit.com/r/MachineLearning/comments/17xqhf/how_to_win_the_showdown_on_the_price_is_right/,HootBack,1360079583,,5,32
+16,2013-2-8,2013,2,8,10,183qrp,Sports Betting and Machine Learning,https://www.reddit.com/r/MachineLearning/comments/183qrp/sports_betting_and_machine_learning/,sculler,1360287762,"I am looking for a project for my data mining and machine learning class and one thing I am interested in is sports betting.  I am sure there are many applications of machine learning within sports betting but as I look at [google scholar](http://scholar.google.ca/scholar?hl=en&amp;q=machine+learning+sports+betting&amp;btnG=&amp;as_sdt=1%2C5&amp;as_sdtp=) I am not really finding that many journals which really surprises me.
+
+Do you know of any good resources on this topic that would help me flush out the topic?",6,2
+17,2013-2-8,2013,2,8,18,184hq0,"My R script has been running for almost 10 hours now, is it normal?",https://www.reddit.com/r/MachineLearning/comments/184hq0/my_r_script_has_been_running_for_almost_10_hours/,dem358,1360317053,"I am using R64, I am trying to cluster more than 10 thousand documents using k-medoids. I was trying out methods on a dataset quarter this one's size, and stopword removal used to take at least 45-55 minutes, I now let this run overnight and it is still busy. However, I am on a mac and I can see the spinning wheel, and the application is not responding. But I don't want to force quit it, since whenever R64 is busy with a bigger task, the application always stops responding until it is finished with the task. Do you think it is normal for clustering to take so long or has R really stopped working?",0,2
+18,2013-2-9,2013,2,9,0,184tzf,How do you train a kernel support vector machine?,https://www.reddit.com/r/MachineLearning/comments/184tzf/how_do_you_train_a_kernel_support_vector_machine/,subtlearray,1360336604,"Edit: I've found a [solution](http://www.reddit.com/r/MachineLearning/comments/184tzf/how_do_you_train_a_kernel_support_vector_machine/c8bzffp).
+And I've written a [tutorial](http://subtlearray.tumblr.com/post/42779370765).",20,0
+19,2013-2-9,2013,2,9,6,185m9h,Is there an ensemble technique package for unsupervised learning in R?,https://www.reddit.com/r/MachineLearning/comments/185m9h/is_there_an_ensemble_technique_package_for/,rightname,1360359623,"I am trying to implement unsupervised learning algorithms on an unlabeled data set in R. I have used the algorithms like PCA and KNN, I want to see if I can further improve my results using ensemble methods. I am trying to search for a package that is already built for this purpose.
+
+An example for a package for supervised learning is [Adaboost](http://rss.acs.unt.edu/Rdoc/library/boost/html/adaboost.html) for classification. I am looking for an equivalent for unsupervised learning. Please suggest packages you know or you have used.",8,6
+20,2013-2-9,2013,2,9,8,185szw,Similarity Metrics on Twitter,https://www.reddit.com/r/MachineLearning/comments/185szw/similarity_metrics_on_twitter/,winkywooster,1360365120,,0,7
+21,2013-2-9,2013,2,9,9,185wkb,help with odd learning behaviour on MLP training test sample,https://www.reddit.com/r/MachineLearning/comments/185wkb/help_with_odd_learning_behaviour_on_mlp_training/,d3pd,1360368156,"I have a MLP based neural network producing the following learning graph for the training *test* sample:
+
+http://i.imgur.com/bi6cD6K.jpg
+
+My understanding is that, as the number of training cycles increases, the error (squared difference between neural network output and target value) for the training sample should drop to a minimum while the error for the training *test* sample should drop to a minimum and then rise (as the neural network becomes more schizophrenic).
+
+The result I'm getting here for the training test sample has the error decrease, then increase, then decrease and stabilise near the minimum. Does anyone know what may be causing this behaviour?",11,3
+22,2013-2-9,2013,2,9,9,185zfy,Non-linear least squares and machine learning,https://www.reddit.com/r/MachineLearning/comments/185zfy/nonlinear_least_squares_and_machine_learning/,dedekind_cutlet,1360370418,"My research group does work in nonlinear dynamics and parameter fitting.  We don't exactly approach the problem as one of machine learning though it arguably is a form of it.  Part of our work involves mapping vectors into a higher dimensional space, predicting forward in time in the higher dimensional space, and then converting those predictions back into the lower dimensional space (a classically ill-posed problem).  This last step seems to be an example of some form of non-linear regression, specifically NLLS (for us).  The wikipedia page doesn't seem to be very helpful, so I was curious if anyone here had a good reference or tutorial on the matter of non-linear least squares.",8,5
+23,2013-2-9,2013,2,9,14,186gex,Big Data can produce Big Errors.,https://www.reddit.com/r/MachineLearning/comments/186gex/big_data_can_produce_big_errors/,qkdhfjdjdhd,1360387178,,16,34
+24,2013-2-9,2013,2,9,16,186m8o,Ensemble learning with multiple feature sets: what is it called?,https://www.reddit.com/r/MachineLearning/comments/186m8o/ensemble_learning_with_multiple_feature_sets_what/,hadian,1360394725,"In a learning task (web page classification), I have used 3 classifiers on a training set. Namely,
+
+*classifier 1 uses feature set A (extracted with feature_extractor_A), eg. using features from HTML structure
+
+*classifier 2 with feature set B (extracted with feature_extractor_B), eg. features from words in each page
+
+*classifier 3 with feature set C (extracted with feature_extractor_C), eg. using features from byte contents of each page
+
+As you see, all of the 3 classifiers are trained with the same instances, but using different feature extractors (and hence different feature sets).
+
+I have then used the output of these 3 classifiers, and used them as inputs for a meta-classifier (i.e. random forest). 
+
+I'm wondering what is this system formally called in machine learning literature? I think the term *stacked generalization* is used when their feature sets are the same for all classifiers (see figure 7. in this link: http://www.scholarpedia.org/article/Ensemble_learning ) 
+
+Is my method still called a stacked generalization method? If not, what is it?",9,4
+25,2013-2-10,2013,2,10,0,1871k8,Suggest appropriate unsupervised methods for a two variable marketing problem. ,https://www.reddit.com/r/MachineLearning/comments/1871k8/suggest_appropriate_unsupervised_methods_for_a/,[deleted],1360425185,"As part of a marketing research at grad school, I have been given a huge data set with about a million observations. It is a result of rating collected by a questionnaire set up by a store to rate the customer experience from 1 to 10 with 1 being very poor to 10 being highly enjoyable with no other particular coding in-between. And the other accompanying data is the date when the rating was collected. Each observation has an unique customer id. Sometimes the same customer might have filled the form multiple times over the time(the data was collected over 20 years). 
+
+Questions I am trying to answer:
+
+* What is the appropriate cut-off to determine, the customer had a pleasant experience and can send discount  offers to them?
+* For a particular customer, what percentage of his total visits did he find it to be a pleasant experience?  
+
+I can see that this is an unsupervised learning problem. But I am not sure which might be the correct technique. ",3,2
+26,2013-2-10,2013,2,10,3,187c01,Neural Nets: how do hidden units and sigmoids approximate nonlinear functions?,https://www.reddit.com/r/MachineLearning/comments/187c01/neural_nets_how_do_hidden_units_and_sigmoids/,ace2525,1360435576,"Just learning about neural nets and haven't really seen how/if the hidden units with sigmoid activation functions lead to the approximation of arbitrary nonlinear functions.
+
+Any intuition or proof is useful, thanks!",12,5
+27,2013-2-10,2013,2,10,20,188s60,Document representation for information retrieval systems,https://www.reddit.com/r/MachineLearning/comments/188s60/document_representation_for_information_retrieval/,dtosato,1360496976,"Hi everyone, I am trying to figure out which is the best document representation for an information retrieval (IR) system. There are two popular options at the state-of-the-art: (1) BOW (Bag Of Words), adopted by IR systems like Lucene (http://lucene.apache.org/core/); (2) BOF (Bag Of Features), exploited by LETOR (http://research.microsoft.com/en-us/um/beijing/projects/letor/).
+BOW is apparently able to capture documents semantic, but it only happens if you consider small vocabularies (eg., 5000 words), so it is not scalable. On the other hand, BOF is independent from the vocabulary size, and it may be easily combined to machine learning techniques to build an ad hoc ranking system, even though it is not able to capture the semantic. The question is: which is the most important feature for an IR system? Capturing the semantic or learning how to rank a document? Which basically means: which is the best representation between BOW and BOF?",2,7
+28,2013-2-11,2013,2,11,6,189nh5,Support Vector Machines: A Step-by-Step Introduction,https://www.reddit.com/r/MachineLearning/comments/189nh5/support_vector_machines_a_stepbystep_introduction/,[deleted],1360533084,,0,1
+29,2013-2-11,2013,2,11,8,189vby,What method best to use for On-Line learning for Human attitude classification,https://www.reddit.com/r/MachineLearning/comments/189vby/what_method_best_to_use_for_online_learning_for/,[deleted],1360539619,"Hi,
+So i was thinking of a small project,that would classify a person as being from a set group of categories ,based on what he says in a dialogue.Not doing any natural language  here ,the stuff a person says comes in as labeled data (+1 douche rating for example 0 Nice guy) .I know that i could use a simple naive Bayes to classify this ,but the thing is i would like it to learn over time with new dataset coming in at some points in time.
+
+So any suggestions and maybe even implementations for the proposed method would be great.
+
+P.S . First post ...be gentle.
+
+Edit.Made a mistake in the title.",0,0
+30,2013-2-11,2013,2,11,20,18ay0g,What is the current state of artificial creativity?,https://www.reddit.com/r/MachineLearning/comments/18ay0g/what_is_the_current_state_of_artificial_creativity/,MindArchitect,1360581540,"I have no idea how are the developments in this area, and I'm willing to try emulating creativity (literature, music, painting... etc).",22,20
+31,2013-2-12,2013,2,12,1,18bddf,Support Vector Machines: A Step-by-Step Introduction,https://www.reddit.com/r/MachineLearning/comments/18bddf/support_vector_machines_a_stepbystep_introduction/,subtlearray,1360600862,,0,1
+32,2013-2-12,2013,2,12,5,18bu8c,Quality score for MC PageRank approximation,https://www.reddit.com/r/MachineLearning/comments/18bu8c/quality_score_for_mc_pagerank_approximation/,Barbas,1360614266,"Hey people, I'm implementing a Monte Carlo PageRank approximation. I want to measure it's accuracy when compared to the ""true"" scores that power iteration gets. So I have two probability distribution vectors that I compare.
+
+I'm trying to come up with a metric that should show what is expected for this method, that is that the values are close for the larger values in the vector (ir. more important PageRank values are approximated closer to their true value) and less so for the smaller PageRank values.
+
+Any ideas?
+",3,1
+33,2013-2-12,2013,2,12,16,18d6kj,Entry level jobs in Machine Learning?,https://www.reddit.com/r/MachineLearning/comments/18d6kj/entry_level_jobs_in_machine_learning/,harfharf11,1360652512,"Hi all,
+
+I'm wondering what an entry level job for an ML career would look like. Embarrassingly, I actually have a Master's in ML, but I know I'm not qualified to tackle the ML jobs listed on Monster.com. I was lucky to survive with a diploma - I can program decently well, but I don't have the intuition behind the math (also, I believe it's hard to fail out of Master's programs in general because they are cash cows for Universities, and hence there is a general reluctance to punish people that are reasonably smart and paying a lot of money). And so I just don't have the confidence to tackle the Amazon/IBM type jobs that I often see. I've done some courses on Coursera (ML with Andrew Ng, which was awesome, and PGM, which is a total beast), and some self-study on statistics, but I would really like an entry level job in ML. However, the search terms ""entry level"" and ""machine learning"" don't really turn up sensible results when I use them. Is there another, easier job title that eventually leads to ML? Or, what else can I be doing to kick start a career in ML?
+
+I apologize if this is a noob/frequently posted query.
+
+Edit: Thanks all! I think I'll hang out here more often for inspiration and industry news. ",29,21
+34,2013-2-13,2013,2,13,0,18dqx2,AskML:  Machine Learning and Cloud Cover Forecasting,https://www.reddit.com/r/MachineLearning/comments/18dqx2/askml_machine_learning_and_cloud_cover_forecasting/,metaobject,1360684267,"We have a 300 x 300 element data set that represents some geographic area, where each element/pixel is about 1km on a side.  Each element holds one of two values:  clear or cloud.  The data is represented as a 2D array of 8-bit values.  The data set is updated every 10 minutes, and we already have about 5 months of historical data. 
+
+This data can be considered ""observed data"" or truth data, and we wish to use this data to forecast future situations.  Specifically, what sorts of ML algorithms/techniques could be used to forecast the future position of the cloud pixels in the dataset at times t=1, 2, ...n?  I've been working on an algorithm that utilizes something like an SVD, finding a linear transformation from the t=-1 and the current (t=0) data set, and then applying the transformation to the current data set to predict where the elements will be at t=1, 2, n.  A very early/rough implementation shows that it is very computationally expensive (which isn't a deal breaker, but is of moderate concern), and it seems to not perform that well when comparing the predicted positions of cloud pixels back to the truth/observed data that finally comes into the data set.
+
+Any ideas for alternative approaches?  Anyone know of any similar problems?  White papers, books?  Cheers!
+",1,0
+35,2013-2-13,2013,2,13,1,18dtxy,I've done a comparison of Mini Batch &amp; Elkan's k-Means,https://www.reddit.com/r/MachineLearning/comments/18dtxy/ive_done_a_comparison_of_mini_batch_elkans_kmeans/,EdwardRaff,1360686851,"I've made this a text post since it seems submitting to your own blog is a no no. Its been a little sparse in here, so I figured I would submit some of my own investigation into [Mini Batch k-Means and Elkan's k-Means](http://jsatml.blogspot.com/2013/02/mini-batch-k-means-vs-elkan.html). Turns out the speed improvements are not quite as good as advertised when compared with more advanced exact k-Means implementations. 
+
+Any feed back on other things to investigate in the future is also welcome. 
+",3,2
+36,2013-2-13,2013,2,13,1,18durx,Darwin: framework for machine learning and computer vision research and development,https://www.reddit.com/r/MachineLearning/comments/18durx/darwin_framework_for_machine_learning_and/,therobot24,1360687558,,4,4
+37,2013-2-13,2013,2,13,2,18dwog,Researchers say AI prescribes better treatment than doctors,https://www.reddit.com/r/MachineLearning/comments/18dwog/researchers_say_ai_prescribes_better_treatment/,Barbas,1360689233,,16,40
+38,2013-2-13,2013,2,13,7,18elol,A simplistic introduction to ML estimators,https://www.reddit.com/r/MachineLearning/comments/18elol/a_simplistic_introduction_to_ml_estimators/,myle,1360708806,,0,0
+39,2013-2-13,2013,2,13,23,18g0vl,Explainlikeimfive: Jacobian factor,https://www.reddit.com/r/MachineLearning/comments/18g0vl/explainlikeimfive_jacobian_factor/,coumineol,1360764674,"I'm reading ""Pattern Recognition and Machine Learning"" of C. Bishop and somewhere he says ""Under a nonlinear change of variable, a probability density transforms differently from a simple function, due to the Jacobian factor."" I looked at Wikipedia too but that just made me more confused. Can anybody explain this statement to me please?",1,1
+40,2013-2-14,2013,2,14,0,18g5l3,First UK-Ireland IEEE-SMC-CLS 2013 will be held on 25 March 2013,https://www.reddit.com/r/MachineLearning/comments/18g5l3/first_ukireland_ieeesmccls_2013_will_be_held_on/,Zigus,1360769549,,0,0
+41,2013-2-14,2013,2,14,3,18gjdz,The secret of the big guys: K-means clustering + a linear model = good results,https://www.reddit.com/r/MachineLearning/comments/18gjdz/the_secret_of_the_big_guys_kmeans_clustering_a/,Foxtr0t,1360780925,,18,80
+42,2013-2-14,2013,2,14,5,18gqaz,"Request: database of spoken (English) phrases, including same phrase said multiple times",https://www.reddit.com/r/MachineLearning/comments/18gqaz/request_database_of_spoken_english_phrases/,vcxzzxcv,1360786142,"I'm creating an audio comparison program that will take phraseA.wav, phraseB.wav, and assign them a similarity score out of 100. 
+
+The phrases should ideally be anywhere from ""How are you"" (3 syllables), to a longer sentence; but no more than 1 sentence. 
+
+But the database can't just be a bunch of phrases said only once - otherwise I can't learn how to identify the same phrase said slightly differently. So I'd need:
+
+- phrase1a.wav
+- phrase1b.wav
+- phrase1c.wav
+- phrase1d.wav (all the same sentence so far)
+
+...
+
+- phraseNa.wav
+- phraseNb.wav
+- phraseNc.wav
+- phraseNd.wav (e.g. each of the N phrases has 4 samples of it being said slightly different)
+
+Thank you for any help, hopefully others can benefit too from these resources!",0,0
+43,2013-2-14,2013,2,14,5,18grk6,Aligning new sentence pairs with the Berkeley Aligner,https://www.reddit.com/r/MachineLearning/comments/18grk6/aligning_new_sentence_pairs_with_the_berkeley/,yukw777,1360787082,"I'm trying to use the Aligner (unsupervised) to align Korean and English sentences. I see that when I run the aligner on the example data, it does the ""test"" step on the example test corpus. Based on this, I'm assuming the Aligner can align unknown pairs of sentences using the model obtained through the alignment process with the train corpus. However, I couldn't find a way to use the Aligner to align unknown parallel sentences. How can I perform this task? Poking around the code, I discovered an abstract class called WordAligner, but I'm not too sure how to load a model on to a class that implements it.  ",0,1
+44,2013-2-14,2013,2,14,7,18h0et,Support Vector Machines: A Step-by-Step Introduction,https://www.reddit.com/r/MachineLearning/comments/18h0et/support_vector_machines_a_stepbystep_introduction/,subtlearray,1360793710,"I wrote a post to help beginners get better acquainted with support vector machines. If you see any errors, or have any suggestions on details I should add, please let me know.
+
+[Support Vector Machines: A Step-by-Step Introduction](http://subtlearray.tumblr.com/post/42779370765)
+
+My next post will likely be on optimization theory.",0,0
+45,2013-2-14,2013,2,14,9,18hbh0,"An introductory course on machine learning that covers the basic theory, algorithms, and applications (Caltech Lectures). ",https://www.reddit.com/r/MachineLearning/comments/18hbh0/an_introductory_course_on_machine_learning_that/,seouldavid,1360801921,,0,0
+46,2013-2-14,2013,2,14,10,18hi1z,Backpropagation neural network: choosing the number of input neurons and output neurons,https://www.reddit.com/r/MachineLearning/comments/18hi1z/backpropagation_neural_network_choosing_the/,[deleted],1360807150,"So I'm building a 3-layer backprop neural network to help me transform a feature vector input of roughly 50 elements into a score from 0 - 100. EDIT - should mention I plan on having at least 1000 training vectors (depending on how many I can find lol).
+
+I've found some good rules of thumb about choosing the number of neurons in the hidden layer: http://www.heatonresearch.com/node/707
+
+But how should I go about choosing the number of input neurons, and the number of output neurons? It seems like such an obvious question but I haven't seen it addressed in my research thus far. 
+
+Thanks for any help.",3,1
+47,2013-2-15,2013,2,15,0,18iowc,Fast Modularity Clustering for Twitter users,https://www.reddit.com/r/MachineLearning/comments/18iowc/fast_modularity_clustering_for_twitter_users/,pulkit110,1360857118,,1,9
+48,2013-2-15,2013,2,15,5,18jb1q,Analyzing IMDB reviews,https://www.reddit.com/r/MachineLearning/comments/18jb1q/analyzing_imdb_reviews/,winkywooster,1360873902,,4,24
+49,2013-2-15,2013,2,15,6,18jg9m,Thesis: Linking tweets to events,https://www.reddit.com/r/MachineLearning/comments/18jg9m/thesis_linking_tweets_to_events/,Xochipilli,1360877483,"Hi,
+
+I'm a CS student majoring in ML and I'm searching for some thesis topic for next year.
+
+One idea I have is to try to find methods to automatically link certain tweets to certain events (people tweeting about sports event, release of new iphone, ...). Does anyone know of research like this that I could use to start? I couldn't find much interesting research myself.",5,4
+50,2013-2-16,2013,2,16,3,18ldxx,"Suggestions for online courses in machine learning, AI and/or mathematical prequisites for such studies? (also posted to Compsci)",https://www.reddit.com/r/MachineLearning/comments/18ldxx/suggestions_for_online_courses_in_machine/,locoDad,1360954227,"My workplace (a history research institute) is asking me to submit right away (as in, today) a list of courses that I might like to take. I am a research technician with lots of programming experience but almost no formal studies in CS. I've almost finished a Ph. D. in Anthropology and develop computer programs for social science research, especially for modelling qualitative data, for which we've used the Semantic Web. I'd like to expand our work to include neural networks and other AI techniques. I was good at math in high school, but have not studied it since then... Any suggestions for interesting online courses would be greatly appreciated.
+
+Edit: I'm looking at both free and paid courses. The main reason my employer is asking me now is so they can set aside funds.
+
+Edit: Anything that relates these topics to Cognitive Science in some way (does that make sense?) would also be fantastic, since I'm also interested in Cognitive Anthropology.
+
+Edit: Thanks for the great suggestions, everyone!",19,10
+51,2013-2-16,2013,2,16,11,18m79f,GUESS: Awesome Network Graph Exploration System,https://www.reddit.com/r/MachineLearning/comments/18m79f/guess_awesome_network_graph_exploration_system/,Keajer,1360980754,,2,2
+52,2013-2-16,2013,2,16,19,18mtbg,How to use a pmml and a neural net?,https://www.reddit.com/r/MachineLearning/comments/18mtbg/how_to_use_a_pmml_and_a_neural_net/,nerdmeister,1361012380,"Sorry for the dumb questions. Basically I have the work of a former student and I'm trying to use it to get some quick results in my paper.
+
+He has the neural net in a pmml file and I'm trying to figure out what software to use / how to use that.
+
+Basically it models cost vs. different cpu architectural parameters. I'm trying to figure out how to use this pmml and input the parameters and get it to spit out a cost.
+
+Any ideas? 
+
+As far as software, really need it to be free, and I have Ubuntu 12.04 and Windows 7 at my disposal.",1,0
+53,2013-2-17,2013,2,17,10,18o237,Any possible interesting project topic for NLP?,https://www.reddit.com/r/MachineLearning/comments/18o237/any_possible_interesting_project_topic_for_nlp/,Keajer,1361064242,I learned some NLP techniques and want to apply them to the real world to enhance my skills. Can any one suggest some interesting topics for me please?,12,0
+54,2013-2-17,2013,2,17,18,18opa3,"Microsoft, Big Data Pick Oscar Winners - And They Are...",https://www.reddit.com/r/MachineLearning/comments/18opa3/microsoft_big_data_pick_oscar_winners_and_they_are/,Barbas,1361092709,,4,5
+55,2013-2-19,2013,2,19,4,18rp2g,Javascript MCMC demo (versus two-tailed t-test),https://www.reddit.com/r/MachineLearning/comments/18rp2g/javascript_mcmc_demo_versus_twotailed_ttest/,b0b0b0b,1361217548,,10,31
+56,2013-2-19,2013,2,19,22,18tfmb,"David Brooks, on ""What Data Can't Do""",https://www.reddit.com/r/MachineLearning/comments/18tfmb/david_brooks_on_what_data_cant_do/,agconway,1361282212,,6,4
+57,2013-2-20,2013,2,20,1,18tqa4,NYU announces new Data Science department headed by Yann LeCun,https://www.reddit.com/r/MachineLearning/comments/18tqa4/nyu_announces_new_data_science_department_headed/,rrenaud,1361292795,,22,28
+58,2013-2-20,2013,2,20,3,18txm7,Predicting closed questions on Stack Overflow,https://www.reddit.com/r/MachineLearning/comments/18txm7/predicting_closed_questions_on_stack_overflow/,winkywooster,1361298712,,1,10
+59,2013-2-20,2013,2,20,5,18u65n,Backpropagation implementation questions - normalizing data and using the net after training,https://www.reddit.com/r/MachineLearning/comments/18u65n/backpropagation_implementation_questions/,[deleted],1361305219,"Hello, 
+
+I'm having some problems with my backpropagation implementation. Background: I have feature vectors (inputs) of 40 elements each. I have only 1 output value which is to be a score from 0 to 100 (per feature vector). So I have 40 input nodes, 20 hidden nodes, and 1 output node. 
+
+My feature vectors have values from 0 to +1300, so when I take my weight matrix (initialized uniformly with the value 0.5) and multiply it by a layer's output, then take the sigmoid (activation function), I get numbers that saturate to 1. So my network doesn't learn. I've since tried dividing all feature numbers by 1000 to get over this, but I'm unsure if this is correct. 
+
+In terms of actually using the network: do I just save my trained-up weight matrices, and then do the feed-forward part of the algorithm with new data I wish to score? One last question - a recommended learning rate? From gradient descent I've seen people use 0.01 and the like, but some online examples of backprop I saw them use 0.9 and I don't know why. 
+
+I can post my MATLAB code if it will help. Thanks.  ",4,4
+60,2013-2-20,2013,2,20,6,18ud4h,"What are some algorithms for feature extraction, particularly when dealing with frequency data of human voices?",https://www.reddit.com/r/MachineLearning/comments/18ud4h/what_are_some_algorithms_for_feature_extraction/,ilikecomputahs,1361310410,I am currently working on a voice identification project and my current dataset is a 250-dimensional vector of intensities at frequency intervals. This was calculated with FFT. Are there any recommended techniques for extracting important features of such data to improve classification and filter out noise?,6,2
+61,2013-2-20,2013,2,20,14,18vbyz,Random-walk domination in large graphs: problem definitions and fast solutions,https://www.reddit.com/r/MachineLearning/comments/18vbyz/randomwalk_domination_in_large_graphs_problem/,StatML,1361337510,,0,1
+62,2013-2-20,2013,2,20,18,18vmyv,Choosing a Cloud Service Offering.,https://www.reddit.com/r/MachineLearning/comments/18vmyv/choosing_a_cloud_service_offering/,AnkushPuri,1361352420,,0,1
+63,2013-2-21,2013,2,21,5,18wlfx,Recommendations on which algorithms in WEKA perform well at classifier/clustering underrepresented classes in large data sets.,https://www.reddit.com/r/MachineLearning/comments/18wlfx/recommendations_on_which_algorithms_in_weka/,jwgibbo,1361390695,"Hello /r/machinelearning,
+
+If anyone has already been the through the gauntlet of working with data sets with underrepresented classes I'd be grateful for any recommendation on which algorithms and parameters you prefer.  
+
+I have a data set with about 10,000 samples and only 14 of a certain class.  So far, decision table, and SMO have been doing poorly at classifying the underrepresented class during the training phase.  I'll keep running it through the different classifiers.
+
+Thanks in advance!",9,7
+64,2013-2-21,2013,2,21,16,18xz2e,Machine Learning: 5 examples of what it is and why you should care,https://www.reddit.com/r/MachineLearning/comments/18xz2e/machine_learning_5_examples_of_what_it_is_and_why/,buddybjames,1361432076,,7,17
+65,2013-2-22,2013,2,22,7,18zcme,Sentiment Analysis in the real world,https://www.reddit.com/r/MachineLearning/comments/18zcme/sentiment_analysis_in_the_real_world/,duckstreet,1361485146,"Hi r/machinelearning,
+
+I'm experimenting with performing a sentiment analysis (positive/negative classification) on review text for a commercial application.
+
+As a training set I have ~200k labeled reviews from a popular domain specific website. I intend to experiment with training a classifier at the sentence and at the paragraph (or complete review) level.
+
+The data to be classified is ~300k labeled reviews from the same domain. Due to legal reasons I am not able to train my classifier(s) with this data.
+
+The approaches I am considering for constructing the feature vectors include: uni/bigrams, parts of speech filtered uni/bigrams, and parts of speech tagged uni/bigrams.
+
+
+Anyways, to my questions:
+
+Is it even feasible to train a model with a feature vector so large? Imagine each review is only 100 words, then the feature space of my training set is as high as 20 million dimensions.
+
+If my feature vectors are all essentially bags of words, how can I use a model trained on the words in my training set to classify the words in my test set? That is to say, will there not be an issue with finding overlap between the vocabulary in the review to be classified and the group of reviews used to train the model?
+
+Thanks :)",11,15
+66,2013-2-22,2013,2,22,10,18zrxj,Results and Metrics in a multi-class classification problem,https://www.reddit.com/r/MachineLearning/comments/18zrxj/results_and_metrics_in_a_multiclass/,[deleted],1361497356,"I'm trying to find a better way of presenting results and metrics in a multi-class classification problem.
+
+Here is the [link](http://bit.ly/ZlnqOO) to the question
+
+As I read somewhere, isn't just presenting accuracy more easier/clearer way of doing this?",0,1
+67,2013-2-22,2013,2,22,18,190h60,Sentiment Analysis in Python,https://www.reddit.com/r/MachineLearning/comments/190h60/sentiment_analysis_in_python/,srkiboy83,1361523721,,0,1
+68,2013-2-22,2013,2,22,22,190qig,Learning resources for predictive modeling.,https://www.reddit.com/r/MachineLearning/comments/190qig/learning_resources_for_predictive_modeling/,sathish1,1361541274,"I am a computer science student who would like to learn about predictive modeling from scratch(logistic regression models, linear regression models).
+
+I do not have much knowledge except basic statistics. Could someone please recommend me some good books/online resources?
+",4,2
+69,2013-2-23,2013,2,23,5,191hbc,Backpropagation - how much training data do I need?,https://www.reddit.com/r/MachineLearning/comments/191hbc/backpropagation_how_much_training_data_do_i_need/,bvcxxcvb,1361565092,"Hello, 
+
+For the last few weeks I've been working on a backprop network and posting a few questions to this forum; I thank you for all the help so far. I've gone from concept, to buggy implementation, to something that works. 
+
+As a quick recap of my network - my network takes input/feature vectors of length 43, has 25 nodes in the hidden layer (arbitrary parameter choice I can change), and has a single output node. I want to train my network to take the 43 features and output a single value between 0 and 100. 
+
+Unfortunately, I currently only have a very small pool or training data - 162 sets of feature vectors with corresponding scores out of 100 (I have to manually label this lol! Working on creating more data though obviously). So I take this limited training set, and here's a snapshot of how well my network adapts to it:
+
+Output value:0.90406 | Test value:0.9 (pretend to multiply all values by 100)
+
+Output value:0.21558 | Test value:0.2 
+
+Output value:0.60394 | Test value:0.6
+
+Output value:0.79604 | Test value:0.8
+
+Output value:0.99846 | Test value:0.85
+
+Output value:0.23444 | Test value:0.2
+
+Output value:0.19609 | Test value:0.2
+
+Output value:0.88889 | Test value:0.9
+
+Output value:0.19178 | Test value:0.2
+
+Output value:0.20549 | Test value:0.2
+
+Output value:0.63248 | Test value:0.64
+
+Output value:0.74367 | Test value:0.74
+
+Output value:0.15477 | Test value:0.17
+
+Output value:0.17084 | Test value:0.18
+
+Output value:0.21143 | Test value:0.19
+
+Output value:0.16179 | Test value:0.17
+
+Output value:0.081413 | Test value:0.18
+
+Output value:0.18287 | Test value:0.19
+
+Output value:0.19118 | Test value:0.17
+
+Output value:0.20018 | Test value:0.18
+
+Output value:0.19222 | Test value:0.19
+
+Output value:0.20719 | Test value:0.2
+
+Output value:0.18718 | Test value:0.2
+
+Output value:0.18064 | Test value:0.2
+
+Output value:0.20925 | Test value:0.2
+
+Output value:0.20731 | Test value:0.2
+
+Output value:0.19914 | Test value:0.2
+
+Output value:0.6033 | Test value:0.6
+
+Output value:0.63723 | Test value:0.64
+
+Output value:0.77831 | Test value:0.78
+
+Output value:0.23468 | Test value:0.2
+
+Output value:0.87713 | Test value:0.9
+
+Output value:0.23822 | Test value:0.2
+
+Output value:0.18954 | Test value:0.15
+
+Output value:0.19912 | Test value:0.2
+
+At first I'm like, ""wow this is sick!"" The results are much, much better than when I originally tried gradient descent on its own. Like, this is too good to be true. Hmm, maybe it is. So I decide to try something - use the same test/target values, but create 162 completely *random* feature vectors. 
+
+Uh oh - my network was able to fit the random training data *even better* than my actual training data! In fact, it fit the random data perfectly. Shit:
+
+Output value:0.92 | Test value:0.92
+
+Output value:0.2 | Test value:0.2
+
+Output value:0.2 | Test value:0.2
+
+Output value:0.2 | Test value:0.2
+
+Output value:0.2 | Test value:0.2
+
+Output value:0.2 | Test value:0.2
+
+Output value:0.2 | Test value:0.2
+
+Output value:0.2 | Test value:0.2
+
+Output value:0.2 | Test value:0.2
+
+Output value:0.2 | Test value:0.2
+
+Output value:0.62 | Test value:0.62
+
+Output value:0.7 | Test value:0.7
+
+Output value:0.77 | Test value:0.77
+
+Now I'm thinking one of two possibilities:
+
+1) Because I have so few training samples (only 162), my 3-layer network of 43-&gt;25-&gt;1 is able to over-fit the data with all its weights. 
+
+2) My original feature vectors are absolutely worthless, and just as good as inputting plain garbage. These feature vectors I hand-coded based on what I researched would be appropriate to my problem domain. 
+
+What do you guys think is going on, and will I only know once I have more training data? Given the topology of my network, any idea how much data I'll actually need? 
+
+Cheers.
+",10,12
+70,2013-2-23,2013,2,23,6,191ns5,"From 1th to 15th at Kaggle challenge ""Event recommendation engine""",https://www.reddit.com/r/MachineLearning/comments/191ns5/from_1th_to_15th_at_kaggle_challenge_event/,kafka399,1361570246,,7,23
+71,2013-2-24,2013,2,24,7,193lhb,MaxOut - new deep architecture using dropout and max units sets new records on a few data sets,https://www.reddit.com/r/MachineLearning/comments/193lhb/maxout_new_deep_architecture_using_dropout_and/,rrenaud,1361656825,,1,35
+72,2013-2-24,2013,2,24,19,194mq1,Machine learning resources for .NET developers,https://www.reddit.com/r/MachineLearning/comments/194mq1/machine_learning_resources_for_net_developers/,buddybjames,1361702610,,4,10
+73,2013-2-25,2013,2,25,15,196hsc,Traitor - associating Concepts using the World Wide Web - Norvig Web Data Science Award Winner,https://www.reddit.com/r/MachineLearning/comments/196hsc/traitor_associating_concepts_using_the_world_wide/,rrenaud,1361774422,,4,21
+74,2013-2-25,2013,2,25,17,196m1k,Machine learning: bitly can do a lot more for you than shrink URLs.  Check out these awesome APIs for machine learning!,https://www.reddit.com/r/MachineLearning/comments/196m1k/machine_learning_bitly_can_do_a_lot_more_for_you/,buddybjames,1361780698,,0,1
+75,2013-2-26,2013,2,26,3,197czf,Detecting A Specific Object (not class of objects),https://www.reddit.com/r/MachineLearning/comments/197czf/detecting_a_specific_object_not_class_of_objects/,machineVis,1361816581,"Hi all, I'm familiar with some of the state of the art methods for detecting classes of objects in an image (ie, Cars, humans, CIFAR-classes, etc...).
+
+However, if I am going to try to recognize a specific object in an image instead of a class of objects, it seems like a much simpler problem. Suppose I have an object in my room and I want my system to recognize this object when it is in an image (preferably with some invariance to rotation/lighting conditions), are there any algorithms that can take relatively few input examples of my object and then learn to recognize it in images? Unless I'm remembering wrong, I thought I had seen algorithms that could do this before...
+
+Any help pointing me in the right direction would be appreciated. Thanks!",9,8
+76,2013-2-26,2013,2,26,5,197oq5,Best way to reduce data in Weka so algorithms run in decent time,https://www.reddit.com/r/MachineLearning/comments/197oq5/best_way_to_reduce_data_in_weka_so_algorithms_run/,DarkSareon,1361825963,"I am trying a bunch of data against a bunch of different algorithms in Weka but some of these are so slow.  I have a large amount of data, 10000 items, represented by 5 classes and each item is represented in a BOW/TF-IDF.
+
+Some algorithms run slowly like NB (30 seconds to build a model).  Some run quickly (MNB, CNB) and some take 5+ min to build a model so I end up stopping it from running (JRip, J48, SMO).
+
+What are some good strategies to use to reduce the data so the classifiers can at least run in an acceptable amount of time?
+
+I am running 10-fold cross-validation in Weka... would be trying 5x2 cv in experimenter speed it up?
+
+Thanks",10,4
+77,2013-2-26,2013,2,26,23,199c6c,"Efficient Estimation of Word Representations in Vector Space -- vec(""King"") - vec(""Man"") + vec(""Woman"") ~= vec(""Queen"")",https://www.reddit.com/r/MachineLearning/comments/199c6c/efficient_estimation_of_word_representations_in/,rrenaud,1361888081,,2,55
+78,2013-2-27,2013,2,27,5,19a2wp,5 Lessons Learned from the Event Recommendation Challenge,https://www.reddit.com/r/MachineLearning/comments/19a2wp/5_lessons_learned_from_the_event_recommendation/,winkywooster,1361911028,,0,13
+79,2013-2-27,2013,2,27,9,19alds,"Trying to understand an equation in ""Regularized Multi-Class Semi-Supervised Boosting""",https://www.reddit.com/r/MachineLearning/comments/19alds/trying_to_understand_an_equation_in_regularized/,zionsrogue,1361924691,"I have been reading [Regularized Multi-Class Semi-Supervised Boosting](http://www.cs.washington.edu/research/insects/CVPR2009/optim_learning/multicls_semisup_boosting.pdf) and I can't seem to understand equation 2. From my understanding, the loss function ""l"" times the probability of ""p"" is the expected loss (i.e. how likely **x** is of class y). However, I have no idea what the ""d"" function is, the author never defines it.
+
+Can someone please explain this equation to me? I've been trying to wrap my head around it.",4,1
+80,2013-2-28,2013,2,28,1,19bzni,Best resource for learning about the basics of ML (I am a non-programmer),https://www.reddit.com/r/MachineLearning/comments/19bzni/best_resource_for_learning_about_the_basics_of_ml/,balthus1880,1361981405,"I would like to begin thinking about ML and how it can help my company (music industry) to utilize user data. But I am not a programmer, nor do I really have access to talk to the programmers. But I want to learn! I will poke around on Kaggle. But any other resources would be great. Thanks",1,1
+81,2013-2-28,2013,2,28,1,19c0lb,Music recommendations at Spotify - Machine Learning (x/post from r/spotify),https://www.reddit.com/r/MachineLearning/comments/19c0lb/music_recommendations_at_spotify_machine_learning/,balthus1880,1361982175,,10,36
+82,2013-2-28,2013,2,28,8,19d043,Fast clustering algorithms for massive datasets,https://www.reddit.com/r/MachineLearning/comments/19d043/fast_clustering_algorithms_for_massive_datasets/,winkywooster,1362008988,,0,1

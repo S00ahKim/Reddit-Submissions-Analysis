@@ -1,0 +1,324 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2012-9-2,2012,9,2,5,z74p9,ML and the 10.000 hour rule,https://www.reddit.com/r/MachineLearning/comments/z74p9/ml_and_the_10000_hour_rule/,Barbas,1346529862,"OK so I'm going to share here something that has been bothering me.
+
+I am a CS graduate and I just started my Masters in ML.
+What I want to do is become, a really, really good ML scientist/expert/whatever.
+
+Now, I am a big fan of ""practice makes perfect"", and the 10000 hour rule. What has been bothering me though is:
+
+How does one ""practice"" in Machine Learning?
+
+In other disciplines it's pretty straightforward.
+If you want to become a good weight lifter, you lift.
+If you want to become a great violin player, you practice violin.
+
+How does one become ""better"" at Machine Learning though?",16,24
+1,2012-9-3,2012,9,3,5,z8u92,help with Multiclass classification using WEKA,https://www.reddit.com/r/MachineLearning/comments/z8u92/help_with_multiclass_classification_using_weka/,WEKAnewb,1346618206,"So after a few months and some hard work and learning, I've progressed to multiclass classifiers.  The problem my research professor has given me now is to classify the dataset used in Blitzer, et al (though I likely will not achieve anything like the results that some of the research teams have, given my inexperience). 
+Problem number one:  using the standard, textdirectoryloader, WEKA wants to take in data that is:  A. in raw text form of some sort, rather than pre-organized into some other sort of vector or feature file.    and B.  binary in nature   
+
+Unfortunately, the datasets provided in the Blitzer, et all are what appear to be feature vectors (you can go look for yourself).  After doing some somewhat rigorous searches, I am no more sure how to change these feature vectors into arff format, or how to arrange the directory structure.  I tried arranging the directory structure as a tree, for the most part, and it complained about all the branches, all the way down about how it was not binary.   Even with just two simple branches on one category, it didn't recognize the sparse vector nature of the data and simply assumed that the_dog:3 was a single feature, rather than something with its frequency already specified.
+
+So what i'm asking for here is:  how do I get WEKA to take in the data in the format provided, and  how do I arrange the directories in this case so that it can be used with a multiclass classifier? 
+
+You can see the datasets (processed) at www.cs.jhu.edu/~mdredze/datasets/sentiment/
+
+I was trying to use the acl one as apposed to the stars one. Thank you very much.
+",12,1
+2,2012-9-3,2012,9,3,20,z9yy0,"A Year of Reproducible Research in Compressive Sensing, Advanced Matrix Factorization and more",https://www.reddit.com/r/MachineLearning/comments/z9yy0/a_year_of_reproducible_research_in_compressive/,pegasusbridge,1346673243,,0,1
+3,2012-9-4,2012,9,4,4,zakxi,Applying finite element method to neural networks can give supercomputer scale machine learning,https://www.reddit.com/r/MachineLearning/comments/zakxi/applying_finite_element_method_to_neural_networks/,marshallp,1346699615,"By applying the finite element method to neural networks supercomputer scale machine learning can done.
+
+In fact, supercomputer scale FULLY AUTOMATED machine learning.
+
+The finite elements would be autoencoders and logistic regression. Bulk synchronous parallel graph database such as Pregel or Graphlab would be used for greatly simplify coding. Graph partitioning software Chaco would be used to partition the graph (as is often done in finite element on supercomputers).
+
+Finite element method is used to avoid the need for expensive global optimization.
+It would allow for a larger scale version of this work done by Jeff Dean of Google. http://techtalks.tv/talks/57639/
+",0,0
+4,2012-9-4,2012,9,4,7,zaxvw,Looking for ideas: processing and predicting arbitrary sequences of inputs using libmind,https://www.reddit.com/r/MachineLearning/comments/zaxvw/looking_for_ideas_processing_and_predicting/,galapag0,1346711631,"Hello redditers!
+
+
+I would like to present a [small project](https://github.com/neuromancer/libmind) i was working during the last months. 
+It aims to solve the problem in Machine Learning of processing sequences of inputs, instead of a fixed size vector that many algorithms requires to perform classification or regression and also providing a minimalist interface to learn and predict sequences in almost any domain. 
+
+
+The basic idea is to use an [Echo State Networks](http://www.scholarpedia.org/article/Echo_state_network) to generate a single fixed size vector in R^n from a sequence of inputs of vectors in R^k. Then, we can use this representation to perform some kind of classification or regression. Also, a dual procedure can be used to reconstruct a sequence of vectors in R^k from a fixed size vector in R^n.
+
+
+This project is called [libmind](https://github.com/neuromancer/libmind). It is also designed to be a simple way for a programmer to learn sequences of arbitrary elements, as long as they can be vectorized.   
+
+
+In the repository of libmind two examples of its use are included: 
+
+
+* Identification of part of speech (POS) of English words only using their letters.
+
+* Reduction of variableless propositional logic formulas.
+
+
+I would like to hear if it can be improved and/or extended. So, in the spirit of open research, i'm publishing all the code, data and instructions, so anyone can view and improve this small project.
+
+
+Thanks!",0,3
+5,2012-9-4,2012,9,4,19,zbuzm,Why hasn't finite element method been applied to neural networks?,https://www.reddit.com/r/MachineLearning/comments/zbuzm/why_hasnt_finite_element_method_been_applied_to/,marshallp,1346753494,,0,0
+6,2012-9-4,2012,9,4,19,zbv6d,Looking for an open source machine learning project,https://www.reddit.com/r/MachineLearning/comments/zbv6d/looking_for_an_open_source_machine_learning/,sse_throwaway,1346753925,"I'm a senior software engineer for a big European corporation. I've got master's degree in machine learning, specialised in classification and semi-supervised learning. I haven't put this knowledge to use in almost three years now, except for solving some simple clustering problems. I'd really appreciate any suggestions of open source projects that I could contribute to. I just want to keep my skills sharp. Since I don't get any challenging tasks at work (I slack off), I'd rather spend this time doing something useful.
+
+I have a slight preference for Java projects because I used to work with WEKA a lot. But I can learn a new language too.
+
+Sorry for using throwaway, some of my colleagues are redditors, I'm pretty sure sure they don't browse r/MachineLearning, but I don't want to take any chances.",39,34
+7,2012-9-6,2012,9,6,9,zf9tu,What is a good kernel for sparse binary features?,https://www.reddit.com/r/MachineLearning/comments/zf9tu/what_is_a_good_kernel_for_sparse_binary_features/,nickponline,1346892778,"I am using a large number of features (around 200K) which are mostly zero with the occasional 1 and am performing a binary SVM classification task with this data. I was wondering what kind of kernels would be useful fo this data. Normalizing the data to have mean of zero and std of one is out of the question as it would stop the data being sparse. 
+
+I have tried all the usual kernels RBF, Linear etc ... and am happy with the results, I just want to know if there are any specific kernels for sparse binary features as there are for string etc ..",6,12
+8,2012-9-6,2012,9,6,11,zfh5k,Vending Ice Machines ,https://www.reddit.com/r/MachineLearning/comments/zfh5k/vending_ice_machines/,icevendingnet,1346899643,,0,1
+9,2012-9-6,2012,9,6,22,zg6hj,Document clustering evaluation: Divergence from a random baseline,https://www.reddit.com/r/MachineLearning/comments/zg6hj/document_clustering_evaluation_divergence_from_a/,[deleted],1346939672,"This paper I wrote describes an approach to dealing with ineffective or pathological cases in clustering evaluation. It can be applied to internal or external measures of quality. This paper introduces the approach and analyses it using document clustering.
+
+Abstract:
+Divergence from a random baseline is a technique for the evaluation of document clustering. It ensures cluster quality measures are performing work that prevents ineffective clusterings from giving high scores to clusterings that provide no useful result. These concepts are defined and analysed using intrinsic and extrinsic approaches to the evaluation of document cluster quality. This includes the classical clusters to categories approach and a novel approach that uses ad hoc information retrieval. The divergence from a random baseline approach is able to differentiate ineffective clusterings encountered in the INEX XML Mining track. It also appears to perform a normalisation similar to the Normalised Mutual Information (NMI) measure but it can be applied to any measure of cluster quality. When it is applied to the intrinsic measure of distortion as measured by RMSE, subtraction from a random baseline provides a clear optimum that is not apparent otherwise. This approach can be applied to any clustering evaluation. This paper describes its use in the context of document clustering evaluation.",0,1
+10,2012-9-6,2012,9,6,22,zg6m5,Document clustering evaluation: Divergence from a random baseline,https://www.reddit.com/r/MachineLearning/comments/zg6m5/document_clustering_evaluation_divergence_from_a/,cmmdevries,1346939845,,3,7
+11,2012-9-8,2012,9,8,2,ziiyq,The Wisdom of Crowds: Using Ensembles for Machine Learning,https://www.reddit.com/r/MachineLearning/comments/ziiyq/the_wisdom_of_crowds_using_ensembles_for_machine/,rudyl313,1347038240,,12,15
+12,2012-9-8,2012,9,8,2,zil84,Toolbox for learning machine learning and data science,https://www.reddit.com/r/MachineLearning/comments/zil84/toolbox_for_learning_machine_learning_and_data/,pacmanisfun,1347040653,,0,5
+13,2012-9-8,2012,9,8,3,zinl8,Looking for algorithms to 'sync' recordings of speech,https://www.reddit.com/r/MachineLearning/comments/zinl8/looking_for_algorithms_to_sync_recordings_of/,[deleted],1347043110,"Let's say I have recording of two persons (A &amp; B) reading the same block of text. Of course their voices sound different, they read at different speeds, etc. But let's assume:
+
+* they read exactly the same text
+* they have the same accent
+* there's no coughing, hiccups, major background noise, etc.
+* no major reading errors
+
+Basically, we can assume both the reading and the recording are pretty 'clean'. What's a good algorithm to 'sync' up the recordings ?
+
+By 'sync' I mean you somehow break up the recordings into a sequence of 'sound bites', and the two recording share the same sequence, and the algorithm should output the time each speaker spent on each sound bite. For example:
+
+* sound-bite-0: t=[0.1,0.3] for A; t=[0.11, 0.28] for B
+* sound-bite-1: t=[0.32,0.39] for A; t=[0.29, 0.35] for B
+
+Each 'sound bite' can be a word, a syllable, a group of words, etc, but let's say sound bites should be between 0.1 to 2 seconds (or any reasonable range) in length.
+
+There's no need to do speech recognition on the recording, in fact if they read a list of unintelligible, random syllables, the algorithm should still work. Bonus point if the algorithm works on songs too.
+",5,6
+14,2012-9-8,2012,9,8,6,ziy1s,"Re-expression method, new powerful approach for machine learning",https://www.reddit.com/r/MachineLearning/comments/ziy1s/reexpression_method_new_powerful_approach_for/,arauhala,1347053266,,17,14
+15,2012-9-8,2012,9,8,11,zje90,"""Neural Networks for Machine Learning"" - Geoffrey Hinton (Coursera course)",https://www.reddit.com/r/MachineLearning/comments/zje90/neural_networks_for_machine_learning_geoffrey/,d3pd,1347071172,,0,2
+16,2012-9-9,2012,9,9,18,zlh2m,Clustering high dimensional trajectories,https://www.reddit.com/r/MachineLearning/comments/zlh2m/clustering_high_dimensional_trajectories/,thrope,1347181746,"I am not at all a machine learning expert and as I am setting out on a new project I thought I would ask for some pointers.
+
+I would like to cluster some high-dimensional trajectories. They are quite short - between 10-20 time points in a 50-dimensional space. I will have several hundred trials and expect there to be around 5-20 clusters.
+
+What would people recommend to approach this problem? At first I thought just ignore the time structure so I have 50 dims x 10 time points = 500 features. Another approach might be to define distance between two trajectories as the sum over time points of the euclidean distances in the 50dim space and then cluster the similarity matrix. Would this be better - I don't have a good intuition for how it would differ from the full 500 feature vector? Are there any better techniques or approaches?
+
+I actually have an external labelling of the data into 6 classes - but I would like to try an unsupervised approach to see if the same comes out of the data, or if there might be more structure - and also investigation the evolution with time of the cluster structure.",19,22
+17,2012-9-10,2012,9,10,14,zn2oc,Internship Opportunities in ML as an Undergrad,https://www.reddit.com/r/MachineLearning/comments/zn2oc/internship_opportunities_in_ml_as_an_undergrad/,punjabdasher,1347255329,"I am a 4th year student in Bioinformatics who has taken a strong liking to ML. My university has a couple of ML courses that I have taken, and I have also coded my own suite of classifiers (SVM, HMM, kNN, kMeans, Perceptron, Naive Bayes, etc.) in Python. I am currently based out of San Diego, and was wondering if anyone had ideas as to where I could find a part time internship during the school year. Thank you all in advance, and thanks for creating such an awesome subreddit!",0,0
+18,2012-9-10,2012,9,10,23,znjxb,Screw Conveyor,https://www.reddit.com/r/MachineLearning/comments/znjxb/screw_conveyor/,conveyorbeltsystemsn,1347287597,,0,1
+19,2012-9-11,2012,9,11,1,znqrk,Machine Learning of Links that I would click on,https://www.reddit.com/r/MachineLearning/comments/znqrk/machine_learning_of_links_that_i_would_click_on/,redditpad,1347295018,"As a personal project I want to create an extension of sorts that would highlight links that I would be likely to click on (based on history of clicked on and not clicked on)
+
+I intend on using this as a filter as well in the future. Are there any projects like, is there anything I should know before embarking?
+
+Thanks for reading!",18,15
+20,2012-9-11,2012,9,11,12,zox2k,How can we make machines see?,https://www.reddit.com/r/MachineLearning/comments/zox2k/how_can_we_make_machines_see/,[deleted],1347335823,"I'm a bit of a noob when it comes to these things, but I want to learn. I was thinking about AI and started to wonder how you could give it vision. Once you attach a camera to a robot, how is it able to use it to see? What would you connect the camera to so that it can see?",5,0
+21,2012-9-11,2012,9,11,19,zpayl,"In a Bayesian Network how do I 
+""neutralize"" a node?",https://www.reddit.com/r/MachineLearning/comments/zpayl/in_a_bayesian_network_how_do_i_neutralize_a_node/,Jigsus,1347360866,"If I have a node in the network that's no longer functioning or observable what probability do I have to assign to it to neutralize it completely.
+
+Say for example that I have the [sprinkler, rain, wetgrass network example from wikipedia](http://upload.wikimedia.org/wikipedia/commons/f/f7/SimpleBayesNetNodes.png). If my sprinklers break how I do I make it so their variable doesn't  affect the outcome anymore? 
+
+Obvsiouly I could remove the variable from the network but that's quite difficult to do in programming because it alters the structure. Instead I would like to assign it a probability that no longer alters the final result.  What's the proper way to deal with this?",11,13
+22,2012-9-11,2012,9,11,22,zphtb,Ask r/ML:  Seeking advice on how ML techniques can be used to parse data from XML files,https://www.reddit.com/r/MachineLearning/comments/zphtb/ask_rml_seeking_advice_on_how_ml_techniques_can/,metaobject,1347371441,"We have about 30,000 XML files that contain financial information.  We're trying to parse 10 pieces of data from each of these files, but the problem is that the xml tags that contain the data are not consistently named.  Let's say we're looking for 'revenue'.  Some files may have 'revenues', some may have 'TotalRevenue', etc.  
+
+Are there any ML techniques that would allow us to extract this data that are better than the naive approach of building a dictionary of terms, scoring matches, and taking the one with the highest score?
+
+I would imagine that some sort of supervised learning algorithm that uses n-grams (or some other markov-like approach) might yield interesting results.  I'm just getting into NLP (hence the fascination with n-grams), so please forgive my misuse of any terms.  
+
+I'm sure this problem has been solved before ... is there a name for it?
+
+Thank you so much for your time!",14,7
+23,2012-9-12,2012,9,12,2,zpu10,The Unreasonable Effectiveness of Data,https://www.reddit.com/r/MachineLearning/comments/zpu10/the_unreasonable_effectiveness_of_data/,Naurgul,1347383755,,0,2
+24,2012-9-12,2012,9,12,6,zq96b,Vacuum Pack Machine,https://www.reddit.com/r/MachineLearning/comments/zq96b/vacuum_pack_machine/,bagsealernet,1347397412,,0,1
+25,2012-9-12,2012,9,12,18,zrc82,[Please Don't Bite] I would like to know where to learn the basics,https://www.reddit.com/r/MachineLearning/comments/zrc82/please_dont_bite_i_would_like_to_know_where_to/,Malharhak,1347443887,"Hi,
+
+I'm a programmer for some time now, working in web and video games.
+I have been fascinated by the things we can do with machine learning for a while and would like to know ""how to get my feet in"".
+
+Is there any resources for noobs or whatever you could share ?
+
+Thanks :)",27,25
+26,2012-9-12,2012,9,12,23,zrnf6,"Taking beginner's course in machine learning focusing on NLP, and not very happy with the literature so far. What's your recommendation for beginner's book in ML?",https://www.reddit.com/r/MachineLearning/comments/zrnf6/taking_beginners_course_in_machine_learning/,HerrKanin,1347461513,"The course book we're using is 'Introduction to Machine Learning' by Ethem Alpayden, and feel like I have a difficulty of understanding his explanations within certain areas. I would like to have some extra literature for guidance when I feel like I'm stuck. Any recommendations?",13,14
+27,2012-9-14,2012,9,14,2,ztxic,good matrix analysis online reference (for machine learning)?,https://www.reddit.com/r/MachineLearning/comments/ztxic/good_matrix_analysis_online_reference_for_machine/,pcoat,1347556846,"Hi, folks, 
+
+Is there any good online reference (open course) on advanced matrix analysis
+I know Stephen Boyd's convex optimization, but it is more on optimization side, 
+and I also know pretty much about basic theory on spectral decomposition, eigenvalue, etc
+
+so I would like to know more about matrix analysis, like svd,  stability, all sorts of matrix product, matrix inequality
+thanks",6,7
+28,2012-9-14,2012,9,14,8,zukgd,Gradient Boosting: Annealing vs Constant Learning Rate,https://www.reddit.com/r/MachineLearning/comments/zukgd/gradient_boosting_annealing_vs_constant_learning/,CPlusPlusDeveloper,1347579418,"Is there any theoretical or practical reason to use a constant learning rate in a gradient boosting machine? That is compared to annealing (decreasing the learning rate every iteration until it reaches zero or some trivial epsilon).
+
+It seems that using a constant learning rate with a set number of iterations is just a degenerate case of annealing. One that doesn't particularly make any sense as the learning rate stays constant than arbitrarily falls to zero at iteration N.
+
+Also is there any reason to prefer linearly vs exponentially decaying annealing schedules? In practice when I've played around with this linear vs exponential tends to perform pretty similarly with most datasets I've applied it to. (Both of which tend to consistently beat out constant learning rates).
+
+But I'm wondering if there's any foundational logic or practical approach that dictates when certain types of annealing (or lack thereof) in gradient boosting will outperform other types.",6,12
+29,2012-9-14,2012,9,14,20,zve1y,"What is a ""graph kernel""",https://www.reddit.com/r/MachineLearning/comments/zve1y/what_is_a_graph_kernel/,PlayMeWhile,1347621454,"Hello ML community.
+
+I just found this place and probably will lurk around more from now on. Some great threads here!.
+
+Maybe I will just go straight to the question:
+
+Can someone explain to me the idea behind ""graph kernels"" in some simple terms? I haven't been able to find any educational material on it, just read some papers. It looked like they are reconstructing the graph into various parts (like walks, paths, etc) and then comparing those parts to get the distances between graphs. Is it the whole idea or did I miss it?
+
+So for example: would simply taking all minimum spanning trees of some weighted graphs and then comparing the sets of those trees be a kernel? Or does it have to be something more (like satisfy triangle inequalities or something else).
+
+best,
+PMW.",15,16
+30,2012-9-15,2012,9,15,3,zvybw,[Ask ML] Does the Reduced Allowable LASSO dominate the LASSO approach?,https://www.reddit.com/r/MachineLearning/comments/zvybw/ask_ml_does_the_reduced_allowable_lasso_dominate/,[deleted],1347645721,,0,1
+31,2012-9-16,2012,9,16,5,zxu96,Big data from the viewpoint of statisticians -- interesting discussion at crossvalidated,https://www.reddit.com/r/MachineLearning/comments/zxu96/big_data_from_the_viewpoint_of_statisticians/,wookietrader,1347739998,,0,28
+32,2012-9-17,2012,9,17,5,zzir6,What is your favorite Machine Learning lecture on YouTube?,https://www.reddit.com/r/MachineLearning/comments/zzir6/what_is_your_favorite_machine_learning_lecture_on/,sanity,1347827591,"I'll start.  I really enjoyed [Brains, Sex, and Machine Learning](http://www.youtube.com/watch?v=DleXA5ADG78) by Geoffrey Hinton.
+
+I'm limiting it to YouTube for the selfish reason that I like to be able to download lectures so that I can watch them on TV :-)",11,41
+33,2012-9-17,2012,9,17,15,100fob,A Non-Mathematical Introduction to Using Neural Networks,https://www.reddit.com/r/MachineLearning/comments/100fob/a_nonmathematical_introduction_to_using_neural/,the_awesome_machine,1347863476,,6,22
+34,2012-9-19,2012,9,19,6,103lw5,"The most comprehensive, concise and up to date resource on major funded AI &amp; Neural network simulation projects I've found (includes grant details, project timelines, milestones hit etc)",https://www.reddit.com/r/MachineLearning/comments/103lw5/the_most_comprehensive_concise_and_up_to_date/,stevestoe,1348002911,,1,1
+35,2012-9-19,2012,9,19,7,103rik,Kaggle's WordPress Challenge: The Like Graph,https://www.reddit.com/r/MachineLearning/comments/103rik/kaggles_wordpress_challenge_the_like_graph/,willis77,1348007931,,1,19
+36,2012-9-20,2012,9,20,0,1050hm,Videos of all talks from DataGotham,https://www.reddit.com/r/MachineLearning/comments/1050hm/videos_of_all_talks_from_datagotham/,agconway,1348067915,,0,1
+37,2012-9-20,2012,9,20,4,105g43,Big Data And Its Big Problems,https://www.reddit.com/r/MachineLearning/comments/105g43/big_data_and_its_big_problems/,reidhoch,1348082735,,8,23
+38,2012-9-20,2012,9,20,10,1064xb,Understanding gain and decision trees,https://www.reddit.com/r/MachineLearning/comments/1064xb/understanding_gain_and_decision_trees/,[deleted],1348105914,"I am trying to understand the gain formula for decision trees and I am currently going off of this slide deck: http://www.site.uottawa.ca/~stan/csi5387/set1.pdf
+
+(Look at slides 25-30).
+
+I am not quite following this information as the deck isn't the best put together.  Do you know of any sources that can explain the same topic in a way I can actually understand?
+
+Thanks",4,2
+39,2012-9-20,2012,9,20,20,106qqs,Mapping functions to reduce Time Complexity? PhD Qual Item,https://www.reddit.com/r/MachineLearning/comments/106qqs/mapping_functions_to_reduce_time_complexity_phd/,osazuwa,1348140064,"
+
+This was on my last comp stat qual. I gave an answer I thought was pretty good. We just get our score on the exam, not whether we got specific questions right. Hoping the community can give guidance on this one, I am not interested in the answer so much as what is being tested and where I can go read more about it and get some practice before the next exam.
+
+At first glance it looks like a time complexity question, but when it starts talking about mapping-functions and pre-sorting data, I am not sure how to handle. So how would you answer?
+
+Here it is:
+
+    Given a set of items X = {x1, x2, ..., xn} drawn from some domain Z, your task is to find if a query item q in Z occurs in the set. For simplicity you may assume each item occurs exactly once in X and that it takes O(l) amount of time to compare any two items in Z.
+
+    (a) Write pseudo-code for an algorithm which checks if q in X. What is the worst case time complexity of your algorithm?
+
+    (b) If l is very large (e.g. if each element of X is a long video) then one needs efficient algorithms to check if q \in X. Suppose you are given access to k functions h_i: Z -&gt; {1, 2, ..., m} which uniformly map an element of Z to a number between 1 and m, and let k &lt;&lt; l and m &gt; n. Write pseudo-code for an algorithm which uses the function h_1...h_k to check if q \in X. Note that you are allowed to preprocess the data. What is the worst case time complexity of your algorithm?
+
+    Be explicit about the inputs, outputs, and assumptions in your pseudocode.
+
+",2,0
+40,2012-9-20,2012,9,20,20,106rcc,Time series: Finding the point of saturation. Or: What's the value of D for T -&gt; \infinity,https://www.reddit.com/r/MachineLearning/comments/106rcc/time_series_finding_the_point_of_saturation_or/,qwertz_guy,1348141318,"Hi folk,
+I'm from physics and very new to this topic, so I don't know a good approach yet and I hope you can help me.
+
+Here is the material of interest: http://imgur.com/DagJD,f9OcR,g7BKf,8crYb
+These are some examples of how my data looks like. The data is based on numerical integration and I have a lot more time series (&gt;10000). Qualitatively, they all look similar: They start at T=0, D=0, have a maximum at some point T_max, fall of (some fall off more, some less, depends on the parameters) and then they go into saturation, oscillating (due to the noise) around the value of D for T-&gt;oo (infinity).
+
+Since the time, which the time series needs to go into saturation, is in general not known, I have to write an on-line algorithm/method (I don't save the data, it's too much) which detects when the time series is oscillating about a specific value of D and doesn't change anymore (so there is no bias/trend anymore).
+
+Meanwhile, I'm working on this specific problem for several weeks now and I haven't found a satisfying solution yet. Is there any known method for problems like that which I don't know about yet? Do you have any ideas or a good approach?
+
+If it is of interest: I'm programming in C (using GSL).
+_________________________________________________
+
+
+What I've done so far: juggling with average/variance/standard-deviation of time windows of a fixed size. My first approach was averaging over these windows and then looking for abs(WindowAverage_1 - WindowAverage_2)/WindowAverage_2 to drop below an arbitrary treshold (which I set to a small number). The time series I linked above are the result of this method. Nevertheless, I'm not sure if this is finally a good way, because although my treshold is very small, there could still be a small bias/trend which lead to another value of D than calculated with this method.
+
+
+My second approach, which I haven't finished yet due to some problems, is plotting D over 1/T instead of T. The sense behind this is, that at some point I can extrapolate my data to the y-Axis (D-Axis) to receive the value of D for T-&gt;inifnity. So I reduced the problem from infinity to finite. The problem is, that with increasing T, 1/T decreases stronger and with decreasing (1/T_1 - 1/T_2) the data oscillation increases, which does not make it easier.
+
+_________________________________________________
+
+
+My mind is open for any ideas.
+I hope that this is the right subreddit. Excuse my English please, it's not my native language.
+",2,2
+41,2012-9-20,2012,9,20,23,106xdc,"Xerox now leaves all hiring for its 48,700 call-center jobs to software ",https://www.reddit.com/r/MachineLearning/comments/106xdc/xerox_now_leaves_all_hiring_for_its_48700/,cavedave,1348150021,,10,30
+42,2012-9-21,2012,9,21,1,1074rh,Reservoir Computing,https://www.reddit.com/r/MachineLearning/comments/1074rh/reservoir_computing/,marshallp,1348157532,,5,0
+43,2012-9-22,2012,9,22,3,109dbg,"Forget your fancy data science, try overkill analytics",https://www.reddit.com/r/MachineLearning/comments/109dbg/forget_your_fancy_data_science_try_overkill/,ecsibleyjr,1348252104,,6,14
+44,2012-9-22,2012,9,22,14,10acpk,Best way to scale up/parallelize evolutionary algorithms?,https://www.reddit.com/r/MachineLearning/comments/10acpk/best_way_to_scale_upparallelize_evolutionary/,Omega037,1348292390,"I wrote code for an evolutionary algorithm that performs feature selection on a fairly feature rich (300-500 feature) dataset whose fitness function is an SVM.
+
+It functions correctly, but the speed of the algorithm leaves much to be desired.  I was wondering what some suggestions for parallelizing or scaling up the code might be.  Specifically, in a given generation, I will have 200-400 chromosomes whose fitnesses (area under ROC) need to be determined but can be done so independently.
+
+However, an additional challenge is that the dataset changes each generation (both a resampling and noise perturbation), and thus the data might need to be synchronized if the solution is network based.
+
+The algorithm itself is not my design, and thus I cannot change the way it fundamentally functions to speed it up.  I have heard of MPI, OpenMP, and Hadoop, but I would like to get some input before I learn a new technique.
+
+I should note that I have decent experience with C/C++, Java, Python, C#, R, and have done a little with PHP/MySQL a while ago.  I dual boot Windows and Linux, and can use both proficiently.  I have a hexacore processor in my personal desktop, and I also have access to 10-20 desktop machines (friend's computers).
+
+Any advice?",14,6
+45,2012-9-23,2012,9,23,5,10b9sy,SharpNEAT - Evolution of neural networks (in C# / .Net / Task Parallel Library),https://www.reddit.com/r/MachineLearning/comments/10b9sy/sharpneat_evolution_of_neural_networks_in_c_net/,locster,1348347203,,0,15
+46,2012-9-23,2012,9,23,7,10bezv,Decision trees and Information Gain highest IG doesn't necessarily mean root?,https://www.reddit.com/r/MachineLearning/comments/10bezv/decision_trees_and_information_gain_highest_ig/,HerrKanin,1348353253,"I have recently enrolled in a beginner's course in machine learning for NLP, and we are now getting familiar with using Weka for decision tree and information gain analysis. For this, we got a data set of German plural relations, and was tasked to perform information gain analysis using InfoGainAttributeEval algorithm. Later, we classified the data using J48, and one thing that hit me when looking at the result was that the root node in the decision tree (""gender"") wasn't the same feature as the one scoring the best in the IG analysis (""p6""). 
+
+What is the reason for this?
+
+Some data from the IG analysis:
+
+    Ranked attributes:
+     0.79096   7 p6
+     0.71869   8 gender
+     0.70808   6 p5
+     0.30862   5 p4
+     0.17876   3 p2
+     0.14806   4 p3
+     0.11683   2 p1
+     0.00266   1 frequency
+
+EDIT: You will find the output from the classifier [here](http://pastebin.com/Q4WjwUYy).",5,6
+47,2012-9-23,2012,9,23,23,10ccbg,Prismatic Architecture - Using Machine Learning On Social Networks To Figure Out What You Should Read On The Web ,https://www.reddit.com/r/MachineLearning/comments/10ccbg/prismatic_architecture_using_machine_learning_on/,greenrd,1348411587,,0,2
+48,2012-9-25,2012,9,25,1,10eek5,Learning ML on Weka and R with Decisions Trees,https://www.reddit.com/r/MachineLearning/comments/10eek5/learning_ml_on_weka_and_r_with_decisions_trees/,[deleted],1348505834,"Given that it is September, I, and many others like me are taking out first ML course at a university (or other places).
+
+I was given an .arff file of data and can easily figure out on weka how to make a decision tree, both pruned and unpruned.  What I am to do next is where I am having problems.  
+
+I am to evaluate the results of these trees by using cross-validation, and then execute statistical tests (T and Wilconox).  We are given the hint to use experimentalComparison() in the DMwR package on R as well as the function compAnalysis() for the Wilconox test.  This is where I am getting stuck.  Is that cross-validation not part of Weka when building the decision tree?  i.e. using 10-fold cross validation.
+
+Another issue is I can't figure out (by using Google to first try and help) to take these trees from Weka, place them in R and do these tests.  I guess a part of this problem is never having used R.  
+
+What are some good resources on R that might help me with figuring this out?",7,3
+49,2012-9-25,2012,9,25,5,10espa,How to choose k in cross validation?,https://www.reddit.com/r/MachineLearning/comments/10espa/how_to_choose_k_in_cross_validation/,MicturitionSyncope,1348519203,"How should one choose k when doing a k-fold cross validation? Are there any advantages/disadvantages to going lower or higher than 10? If the training set is relatively small, would it be better to use a lower k?
+
+Thank you!",11,9
+50,2012-9-26,2012,9,26,1,10gfj0,Statistical significance between classifiers using different sets,https://www.reddit.com/r/MachineLearning/comments/10gfj0/statistical_significance_between_classifiers/,[deleted],1348590223,"I'm going to preface this in saying that I have almost no statistics background, so forgive my ignorance.
+
+I have a four-class classification problem where I am using both a SVM and bagging with logistic regression as the base classifier.
+
+My validation set has 35 instances (10,8,10,7 for each class) and my test set has 38 instances (10, 9, 11, 8 for each class).  The sets are small but it's a medical imaging problem and getting more data isn't feasible.  
+
+When I run the bagging on the validation set I get a classification rate of about 89%, and 94% on the test set.
+
+On the SVM I get 83% on the validation set but 94% on the test set, which seems abnormal.  
+
+I'm thinking that because the sets are so small that the difference isn't really that significant even if it looks a lot in percent form.
+
+I know you can use t-tests to look for significant differences between two classifiers which use the same set, but how would I go about checking for non-significant difference between two classifiers on different sets?  
+
+edit:  poor title choice.  What I am really interested in is checking for non-significant difference between the SVM on the validation set and the SVM on the test set.  The training set has 73 instances.",3,7
+51,2012-9-26,2012,9,26,1,10ggxx,A mathematical model for accessing web page quality,https://www.reddit.com/r/MachineLearning/comments/10ggxx/a_mathematical_model_for_accessing_web_page/,rrenaud,1348591500,,0,13
+52,2012-9-26,2012,9,26,10,10hgdr,AskMachineLearning: has anyone enhanced the quality of audio voice recognition by reading lips?,https://www.reddit.com/r/MachineLearning/comments/10hgdr/askmachinelearning_has_anyone_enhanced_the/,skytomorrownow,1348624479,"There are many facial recognition algorithms, eye and mouth recognition algorithms. I was wondering if anyone had tried utilizing them to enhance voice recognition algorithms. 
+
+I thought of this while I was trying to dictate on my Mac and was staring at the little Hal9000 camera in the middle of the screen. I searched around on Google Scholar and couldn't find anything.
+
+Just thought I'd ask.
+
+cheers",8,17
+53,2012-9-26,2012,9,26,22,10i725,Finding accuracy of k-Means (xpost form /r/matlab),https://www.reddit.com/r/MachineLearning/comments/10i725/finding_accuracy_of_kmeans_xpost_form_rmatlab/,rorschach122,1348666193,"I'm clustering the given data using k-means and I'm trying to find the accuracy of that clustering by comparing the labels got from clustering to class labels I've. The K-means gives its own ordering ie whole of class 1 in my labeling might be called class 2 by k-means which doesn't indicate that clustering is wrong.
+How do I find the accuracy of clustering in cases like these?
+
+A matlab code snippet might be most helpful to me. 
+Thanks",9,2
+54,2012-9-27,2012,9,27,3,10iqxu,"AskMachineLearning: can anyone define a deterministic vs. a stochastic policy for a beginner? What it means to ""back up"" states? ",https://www.reddit.com/r/MachineLearning/comments/10iqxu/askmachinelearning_can_anyone_define_a/,tigergirl22,1348685816,I am reading Sutton and Barto's Reinforcement Learning for a paper on temporal difference learning for my neuroscience major. I have only taken calculus and some statistics so the math is quite challenging for me. Could anyone explain these concepts to me? Thanks! ,10,3
+55,2012-9-28,2012,9,28,0,10kes5,Where to start in NLP?,https://www.reddit.com/r/MachineLearning/comments/10kes5/where_to_start_in_nlp/,urmyheartBeatStopR,1348759999,"Hi, I am currently review my maths and following this suggestion (http://pindancing.blogspot.in/2010/01/learning-about-machine-learniing.html).
+
+I would like the shortest route or base math requirement before tackling NLP subject. But, I want to have a solid foundation first before even trying NLP.
+
+What math does NLP requires?  
+
+After reviewing my math where do I start with NLP? I saw a coursera class for it and will take it eventually. I also bought O'Reilly NLP python book.
+
+What programming languages does the industries mostly use for NLP? I've seen Scala &amp; Python. What about Mathlab, R, Java? 
+
+Thank you for taking the time to read this.",6,1
+56,2012-9-28,2012,9,28,0,10kg4s,"A few useful things to know about machine learning (CACM article, pdf)",https://www.reddit.com/r/MachineLearning/comments/10kg4s/a_few_useful_things_to_know_about_machine/,kmjn,1348761346,,4,35
+57,2012-9-29,2012,9,29,0,10mdtf,LSA vs pLSA vs LDA,https://www.reddit.com/r/MachineLearning/comments/10mdtf/lsa_vs_plsa_vs_lda/,GratefulTony,1348845614,"Hi all, I am having a bit of trouble getting my head around LSA and pLSA. I have been working for a while in the field of generative-model-type NLP algorithms like LDA PAM and CTM, but I can't seem to fold the non-generative method LSA into my cognitive ""fold""... as it were of conceptual continuity.
+
+Comparing the generative algorithms is fairly strightforward for me as thier model is explicitly stated in thier formation, however, I am trying to understand the differences in the interpretation between LSA and generative model results.
+
+Can anyone help me out or point me to a good paper?",5,9
+58,2012-9-29,2012,9,29,19,10nvy0,What would be a trivial statistical baseline for comparison with SVM based text categorization?,https://www.reddit.com/r/MachineLearning/comments/10nvy0/what_would_be_a_trivial_statistical_baseline_for/,[deleted],1348915823,"I got an assignment to implement a classifier that will categorize documents in quite large corpus. I decided to go with SVMs with linear kernel, achieved good results, moved on to theoretical questions and got stuck on this one...
+
+I admit that my statistical knowledge has gotten a little bit rusty, so... halp! I'm not looking for complete solutions, any suggestions would be much appreciated.",5,2
+59,2012-9-30,2012,9,30,5,10okc6,Relationship between joint probability distribution and causality?,https://www.reddit.com/r/MachineLearning/comments/10okc6/relationship_between_joint_probability/,revocation,1348952073,"I'm trying to interpret the results of some measurements in geophysics and thought this crowd might know the answer:
+
+If a set of events A and B have a joint probability distribution P(A,B), how might this causality be described (in laymen English) between A and B from this joint probability? 
+
+If A and B have a joint expectation E(AB), how can causality be described from the elements of the matrix that can be written for each of the expected interactions A and B? [For instance, E(A_1B_1), E(A_2B_1), and so on]",7,14
