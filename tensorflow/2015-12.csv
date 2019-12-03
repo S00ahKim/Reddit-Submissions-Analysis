@@ -1,0 +1,16 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2015-12-3,2015,12,3,3,3v6edj,"Keras, now running on TensorFlow",https://www.reddit.com/r/tensorflow/comments/3v6edj/keras_now_running_on_tensorflow/,fhoffa,1449082567,,0,5
+1,2015-12-9,2015,12,9,2,3vya92,What is TensorFlow? (Part 1),https://www.reddit.com/r/tensorflow/comments/3vya92/what_is_tensorflow_part_1/,redgansai,1449595172,,0,1
+2,2015-12-12,2015,12,12,5,3wf85q,Could someone explain the logicality of these artificial intelligent algorithms the closest possible to standard programming?,https://www.reddit.com/r/tensorflow/comments/3wf85q/could_someone_explain_the_logicality_of_these/,kafeaccount,1449865343,"( *I'm an experienced programmer, from Java to PHP, nodejs to ruby, c++ to # and I also have done a lot of work with system administration and amateurish electronics.* )
+
+(but) I can't understand the first and deepest layers of these algorithms. I just can't do. 
+
+1.  Could I **rudely** compare *tensorflow* to an optimization of *traditional algorithm* (searching similar images by comparing files, searching pattern *x* in a database, etc.) barely as jquery is to javascript? (just a library?)
+
+2. What exactly constitutes the layers of automation, superficial middle and deep? Traditional code? OOP or nOOP? How does it adapt so inteligentelly to different situations? Because of *1*? Is it closer to being just a complicated function ""compareImages()"" which is just really well developed and engineered?
+3. Is there any **heavy-tech and demonstrative** docs I could check to understands how tensorflow works? I have gone through the website information but didn't get that much of an intelectual applaud (please do understand I don't seek an analogy to rael life about this processing, be heavily techy on me or else I won't fully understand it)
+
+Any help regarding this would be highly appreciated :) thank you!",5,5
+3,2015-12-20,2015,12,20,19,3xkfkx,"What exactly is a ""device"", mentioned in the whitepaper? (link in body)",https://www.reddit.com/r/tensorflow/comments/3xkfkx/what_exactly_is_a_device_mentioned_in_the/,kafeaccount,1450608725,"Here is the link to TF whitepaper http://download.tensorflow.org/paper/whitepaper2015.pdf
+
+My question being: what exactly is a device that gets *reset whenever operation fails*, *passing data through devices*, (etc). **Is a device a computer/node/processing unit?** Why can't TF operate solely on one device? What makes it essential for the algorithm?",0,3

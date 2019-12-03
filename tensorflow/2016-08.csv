@@ -1,0 +1,133 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2016-8-2,2016,8,2,11,4vqck4,Tensorflow support for GTX1080 status,https://www.reddit.com/r/tensorflow/comments/4vqck4/tensorflow_support_for_gtx1080_status/,lbruck,1470106103,"I've read various blog posts (like http://textminingonline.com/dive-into-tensorflow-part-iii-gtx-1080-ubuntu16-04-cuda8-0-cudnn5-0-tensorflow) about how to get CUDA 8.0, CUDnn 5, and Tensorflow compiled and running on Ubuntu 16.04 with a GTX 1080.  However, as I work through the various errors (switch to gcc 4.9, add various CFLAGS, etc), I eventually run into errors that, when I look up on the TF github issues page, have comments that the configuration is known not to work (https://github.com/tensorflow/tensorflow/issues/3571).  Is this a recent regression?  I was building the tip of the mainline branch; is there a better tag that is known to work?",1,4
+1,2016-8-3,2016,8,3,4,4vu7qg,"Tutorial on Image classification ""from the scratch"" ?",https://www.reddit.com/r/tensorflow/comments/4vu7qg/tutorial_on_image_classification_from_the_scratch/,[deleted],1470165060,[deleted],0,1
+2,2016-8-3,2016,8,3,4,4vuaag,"Tensorflow Tutorial on Image classification ""from the scratch"" ?",https://www.reddit.com/r/tensorflow/comments/4vuaag/tensorflow_tutorial_on_image_classification_from/,Nuesjanix,1470165819,"Dear Internet people.
+
+I want to learn about neural networks and image recognition/classification.
+I already did severel Tutorials on the Tensorflow website and watched a lot Youtube tutorials.
+
+My problem is that all tutorials that i did so far, worked with prebuilt datasets, or pretrained models.
+Iam interessted in something that teaches how to build a simple neural net in Tensorflow. Including:
+
+-decoding/implementing image data
+-training/testing
+
+Is there anything you could recommend? 
+
+Thanks in advance",1,3
+3,2016-8-3,2016,8,3,5,4vurbw,Learn to create dynamic recurrent neural networks model from raw equations with tensorflow,https://www.reddit.com/r/tensorflow/comments/4vurbw/learn_to_create_dynamic_recurrent_neural_networks/,kazi_shezan,1470171081,,0,1
+4,2016-8-3,2016,8,3,22,4vylc2,Tensorflow officially support GPU running on MAC,https://www.reddit.com/r/tensorflow/comments/4vylc2/tensorflow_officially_support_gpu_running_on_mac/,machrisaa,1470232464,,5,15
+5,2016-8-4,2016,8,4,13,4w2pbt,Noob with some dumb questions,https://www.reddit.com/r/tensorflow/comments/4w2pbt/noob_with_some_dumb_questions/,ssreekanth2000,1470283638,"I was trying to install tensorflow on my mac (CPU only) and I am able to import and run the test script without any issue. So I copy and pasted the iris flower classification script and tried to run it and got the following error.
+/ http://imgur.com/a/Mins2
+.I reinstalled the whole thing but to no avail. Any suggestions?
+/Thanks",4,2
+6,2016-8-5,2016,8,5,21,4wa3oi,Tensorflow crashing,https://www.reddit.com/r/tensorflow/comments/4wa3oi/tensorflow_crashing/,[deleted],1470399582,[deleted],0,1
+7,2016-8-7,2016,8,7,11,4wj08m,TensorFlow - Not Just for Deep Learning,https://www.reddit.com/r/tensorflow/comments/4wj08m/tensorflow_not_just_for_deep_learning/,terrytangyuan,1470536403,,0,9
+8,2016-8-9,2016,8,9,1,4wqv1t,Does anyone know how to save/load a complete model?,https://www.reddit.com/r/tensorflow/comments/4wqv1t/does_anyone_know_how_to_saveload_a_complete_model/,johsm6699,1470672199,"I would like to find some simple example code for saving a model in a way that would allow me to restore the model completely in a different session, without knowing anything at all about the model, except maybe the name of the top node of the graph (i.e. of the variable v that I would put into session.run(v,...). 
+
+So essentially I would like the equivalent of v.save(filename) and something like vloaded = model.load(filename) so that the restored v can be used with another sess.run(vloaded) but I was unable to find anything that actually works that way. The crucial thing is that the code that loads the model should not need to know anything about the graph and just load the model as a black box that can be handed to sess.run().
+
+Does anyone know how to do this?",1,6
+9,2016-8-11,2016,8,11,7,4x4pp3,LSTM Incredibly Slow,https://www.reddit.com/r/tensorflow/comments/4x4pp3/lstm_incredibly_slow/,[deleted],1470866846,[deleted],0,1
+10,2016-8-13,2016,8,13,19,4xikdv,An implementation of word2vec applied to stanford philosophy encyclopedia,https://www.reddit.com/r/tensorflow/comments/4xikdv/an_implementation_of_word2vec_applied_to_stanford/,pipado,1471084383,,0,4
+11,2016-8-19,2016,8,19,19,4yi56j,Define filters and pooling of FDCNN,https://www.reddit.com/r/tensorflow/comments/4yi56j/define_filters_and_pooling_of_fdcnn/,zzw922cn,1471602190,"I am doing research on Deep CNNs ,but I don't have a efficient way to select the number of filters or number of pooling layers? Do you know any good way to set these hype-parameters in deep CNN?",1,1
+12,2016-8-22,2016,8,22,2,4yw2or,Unsupervised Learning example,https://www.reddit.com/r/tensorflow/comments/4yw2or/unsupervised_learning_example/,AnimatedSnake,1471801685,"Hey guys.
+
+First off: I've been doing the examples from the tutorial site on Tensorflow, and also the tutorials on LearningTensorflow.
+
+The project I want to work on is about unsupervised learning. 
+
+But I can't seem to find any real example from Tensorflow or otherwise that does it unsupervised. It seems like everything uses labels.
+
+Any good links, ideas or hints? :-)",5,3
+13,2016-8-22,2016,8,22,7,4yxhcs,Noob question about expected output when using GPU version of TF. Convergence problem.,https://www.reddit.com/r/tensorflow/comments/4yxhcs/noob_question_about_expected_output_when_using/,machinegunmax,1471818284,"I have created conda environments for both the CPU and GPU version of Tensorflow. When running the mnist example as recommended in [Run a TensorFlow demo model](https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html#run-a-tensorflow-demo-model) inside my conda GPU environment, by typing
+
+    python -m tensorflow.models.image.mnist.convolutional
+
+I get the following output:
+
+    I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcublas.so locally
+
+    I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcudnn.so locally
+
+    I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcufft.so locally
+
+    I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcuda.so.1 locally
+
+    I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcurand.so locally
+
+    Extracting data/train-images-idx3-ubyte.gz
+
+    Extracting data/train-labels-idx1-ubyte.gz
+
+    Extracting data/t10k-images-idx3-ubyte.gz
+
+    Extracting data/t10k-labels-idx1-ubyte.gz
+
+    I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:925] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+
+    I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 0 with properties: 
+
+    name: GeForce GTX 1080
+
+    major: 6 minor: 1 memoryClockRate (GHz) 1.7335
+
+    pciBusID 0000:03:00.0
+
+    Total memory: 7.92GiB
+
+    Free memory: 7.68GiB
+
+    I tensorflow/core/common_runtime/gpu/gpu_init.cc:126] DMA: 0 
+
+    I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 0:   Y 
+
+    I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:0) -&gt; (device: 0, name: GeForce GTX 1080, pci bus id: 0000:03:00.0)
+
+    Initialized!
+
+...
+
+    Step 8500 (epoch 9.89), 4.4 ms
+
+    Minibatch loss: 3.877, learning rate: 0.006302
+
+    Minibatch error: 87.5%
+
+    Validation error: 88.7%
+
+    Test error: 89.7%
+
+
+So it does not converge. When using the CPU version I get the output:
+
+    Step 8500 (epoch 9.89), 102.3 ms
+
+    Minibatch loss: 1.604, learning rate: 0.006302
+
+    Minibatch error: 0.0%
+
+    Validation error: 0.9%
+
+    Test error: 0.7%
+
+Presumably this is what its supposed to be. I do not know the meaning of the beginning of the output when running it on the GPU, does this mean it has successfully used my GPU?
+
+If I had set up CUDA and CUDNN incorrectly, would the test program be able to run? 
+
+What I'm getting at is: does this mean I have incorrectly setup CUDA and CUDNN, or is it different problem? I have heard of people getting issues when changing batch sizes and things.
+
+I am quite new to Linux, it took me about a week to finally get the nvidia driver working on my distro. It also was quite complicated to install CUDA and CUDNN and add all the correct path environment variables etc. and all the numerous workarounds on many forums. I feel I have come so far and I am so close to getting it working on my GPU, I don't want to give up now. The graphics card I am using is GTX 1080.",1,2
+14,2016-8-27,2016,8,27,19,4ztrz8,Noob questions about gen_word2vec,https://www.reddit.com/r/tensorflow/comments/4ztrz8/noob_questions_about_gen_word2vec/,lastranger8811,1472295504,"I am new to tensorflow and want to build my own version of word2vec. I read the source of word2vec and word2vec_optimized in models.embedding. I found they are using gen_word2vec. But when I read the source of gen_word2vec, I do not understand what the examples and labels actually are, which are returned by gen_word2vec.skipgram. Could anyone please tell me what they are?",0,2
+15,2016-8-28,2016,8,28,18,4zyp2x,Face recognition with Tensorflow and OpenCV,https://www.reddit.com/r/tensorflow/comments/4zyp2x/face_recognition_with_tensorflow_and_opencv/,gabegabe6,1472375307,"Hy!
+
+I worked with OpenCV and I built a little face recognition app but I used there Eigenfaces and I know that that's not the best method. So I found this tensorflow and it looks cool.
+
+Where should I start to create a face recognizer?
+
+I have a script where I can detect a face with Haar Cascades and than I would like to recognize that face (so I only got an image about the person's face).
+
+I have another script where I can prepare dataset for people. Crops every face from the photo (about a person) and reduce the size of the photo to 512x512 and place the cropped faces to a folder with the persons name. So I think I'll have 40-50 photos from a person.
+
+So my question again...How can I start to use tensorflow for this kind of recognition?",1,2
+16,2016-8-29,2016,8,29,22,504wa5,TensorFlow Post  Deep Learning with TensorFlow,https://www.reddit.com/r/tensorflow/comments/504wa5/tensorflow_post_deep_learning_with_tensorflow/,redgansai,1472475891,,0,1

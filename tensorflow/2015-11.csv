@@ -1,0 +1,18 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2015-11-10,2015,11,10,2,3s5kw9,Google releases the Tensorflow open source project,https://www.reddit.com/r/tensorflow/comments/3s5kw9/google_releases_the_tensorflow_open_source_project/,cdibona,1447089292,,4,22
+1,2015-11-13,2015,11,13,6,3sl2t2,"Anyone have performance benchmarks in various configurations (CPU, GPU, combos)?",https://www.reddit.com/r/tensorflow/comments/3sl2t2/anyone_have_performance_benchmarks_in_various/,livingonthehedge,1447365054,"One of the touted benefits of TensorFlow is ""write once, run anywhere"".  Meaning you can run the same graph on different hardware.
+
+Has anyone done a performance comparison of varous CPU and GPU combos?  
+
+I'd love to see both training (mini-batch) and execution (one-off) benchmarks.
+
+I don't have an Nvidia card or I would volunteer to do it myself.",4,2
+2,2015-11-15,2015,11,15,12,3sutgc,K-Means Clustering with TensorFlow,https://www.reddit.com/r/tensorflow/comments/3sutgc/kmeans_clustering_with_tensorflow/,sachinrjoglekar,1447556559,,1,8
+3,2015-11-16,2015,11,16,19,3t08fy,Try Tensor Flow in this online environment,https://www.reddit.com/r/tensorflow/comments/3t08fy/try_tensor_flow_in_this_online_environment/,ahmed_ajaali,1447668769,,2,11
+4,2015-11-21,2015,11,21,2,3tl6r2,Recursively copying elements from one Graph to another in TensorFlow,https://www.reddit.com/r/tensorflow/comments/3tl6r2/recursively_copying_elements_from_one_graph_to/,sachinrjoglekar,1448040054,,0,1
+5,2015-11-23,2015,11,23,3,3tu557,"How I succeeded in installing TensorFlow on debian, when I got: 'not a supported wheel on this platform' error?",https://www.reddit.com/r/tensorflow/comments/3tu557/how_i_succeeded_in_installing_tensorflow_on/,redgansai,1448216023,,0,1
+6,2015-11-24,2015,11,24,5,3tzfbf,Can anyone help me wrap my head around implementing an Echo State Network using Tensorflow?,https://www.reddit.com/r/tensorflow/comments/3tzfbf/can_anyone_help_me_wrap_my_head_around/,jiminiminimini,1448309460,"I cannot understand how I am supposed to superclass RNNCell, initialize my weights according to specification, set some weights as untrainable, modify a weight to keep its spectral radius below one, etc.
+
+[Here](http://stackoverflow.com/questions/33879281/how-can-i-implement-a-custom-rnn-specifically-an-esn-in-tensorflow) is my StackOverflow question about this subject.",0,1
+7,2015-11-25,2015,11,25,0,3u3962,Install and Run TensorFlow on Windows,https://www.reddit.com/r/tensorflow/comments/3u3962/install_and_run_tensorflow_on_windows/,Budincsevity,1448380544,,0,1
+8,2015-11-28,2015,11,28,23,3ul8nq,Self-Organizing Maps with Googles TensorFlow,https://www.reddit.com/r/tensorflow/comments/3ul8nq/selforganizing_maps_with_googles_tensorflow/,sachinrjoglekar,1448722111,,0,2

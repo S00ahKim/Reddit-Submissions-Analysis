@@ -1,0 +1,960 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2018-8-2,2018,8,2,5,93sw78,When in the pipeline should data be vectorized?,https://www.reddit.com/r/tensorflow/comments/93sw78/when_in_the_pipeline_should_data_be_vectorized/,kei_kuro,1533156725,"Hi, I'm trying to learn the TensorFlow API, but I'm coming from PyTorch, so some things aren't translating cleanly. If I could get some clarifications, that would be great.
+
+I want to use the Estimator API, and let's say that I have raw data in a .csv file with ints, floats, and strings. It seems like the Dataset allows you to map a csv row into a feature, either as a tensor directly or as a feature_column, which is later converted into a tensor. At this stage, I can only perform tf operations on the string data, making more sophisticated string preprocessing difficult. Some things that would be nice are incorporating NER tagging or POS tagging from SpacyNLP for instance.
+
+Is this just the wrong place to do any preprocessing? I can imagine it's not so hard to vectorize / preprocess in pure Python before reading it with the Dataset API, but this won't leverage TensorFlow. I'd appreciate any help! Thanks",2,1
+1,2018-8-2,2018,8,2,5,93swas,Object-oriented reusable TF models using tf.data.Dataset,https://www.reddit.com/r/tensorflow/comments/93swas/objectoriented_reusable_tf_models_using/,nschejtman,1533156744,"I find many problems when trying to structure my TensorFlow model in an object oriented fashion, in particular while using tf.data.Dataset. Ideally my model exposes the following interface:
+
+```
+class MyModel:
+    def fit(self, x):
+        pass
+    def transform(self, x):
+        pass
+```
+Pretty straight forward. The problems come while using tf.data.Dataset.
+
+tf.data.Dataset reads data from a variety of sources and produces Tensors as outputs. These Tensors can then be multiplied, added, etc. to the other Tensors composing your computation graph. The problem is that this couples the Tensors produced by your Dataset in your computation graph. This breaks this object-oriented interface because ideally I would like to call the fit and transform methods on different Datasets without having to construct a new computation graph every time.
+
+Does some one have any solution to this issue?",0,1
+2,2018-8-2,2018,8,2,8,93u47s,is there a beta for python 3.7?,https://www.reddit.com/r/tensorflow/comments/93u47s/is_there_a_beta_for_python_37/,whirl_and_twist,1533165643,"I don't want to downgrade my python, its already so well set-up and clean. ",4,6
+3,2018-8-2,2018,8,2,11,93vf3n,Is threading in Python can make real parallelism in TensorFlow?,https://www.reddit.com/r/tensorflow/comments/93vf3n/is_threading_in_python_can_make_real_parallelism/,AlexanderYau,1533177097,"Actually in Python threading cannot make real parallelism, and in TensorFlow does it possible to make multi threads run parallel?",7,2
+4,2018-8-2,2018,8,2,18,93xnt2,"Realtime gesture classification using LSTM Neural Network, quick Question",https://www.reddit.com/r/tensorflow/comments/93xnt2/realtime_gesture_classification_using_lstm_neural/,shyrzaza,1533200513,"Hey guys, I have a stupid Question...
+
+I am doing hand gesture recognition based of EMG Data that I aquired. I set the sequence length to 40 frames, recorded some gestures, labeld the sequence according to the gesture performed. I then proceeded to train a simple LSTM Recurrent Neural Network, and I am able to do predictions quite well. However, my prediction data so far has been other 40 frame long prerecorded gestures. 
+Now I want to go ahead and do real time gesture recognition and I have one big question:
+
+Do I need to take the whole last 40 frames and put it into my Network to do the prediction EVERY frame?
+
+Because I thought, that now I could somehow throw the data of single frames sequentially into my Network, and at each timestep I could see how high the predictionvalues are...?
+
+I am quite new to tensorflow and machine learning, so sorry if this is a stupid question.
+
+Love, 
+shyrzaza",2,2
+5,2018-8-2,2018,8,2,23,93zo1r,toco removed --quantize_weights?,https://www.reddit.com/r/tensorflow/comments/93zo1r/toco_removed_quantize_weights/,chris-paterson,1533219595,"Hey! I'm trying to reduce the size of my tflite graph and came across the `--quantize_weights` flag in `toco`. I've found that I had to roll back to Tensorflow v1.7 to get it working. I've looked around to see why it was removed but I couldn't find anything.
+
+Does anyone know why `--quantize_weights` isn't available in Tensorflow v1.9, and if it will be added in the future?
+
+Thanks!",0,2
+6,2018-8-3,2018,8,3,1,940m66,Training and Serving ML models with tf.keras,https://www.reddit.com/r/tensorflow/comments/940m66/training_and_serving_ml_models_with_tfkeras/,derniu,1533226194,,1,10
+7,2018-8-3,2018,8,3,5,942ofa,Desenvolvimento de IA [PT-BR] [ING],https://www.reddit.com/r/tensorflow/comments/942ofa/desenvolvimento_de_ia_ptbr_ing/,Ianetta,1533240071,"Bom dia/tarde/noite.  
+No tenho nenhum conhecimento a respeito de IA e nem de programao, mas estou comeando a estudar...
+
+Gostaria de desenvolver uma IA para fins que se adequem a necessidade do usurio, uma companhia, uma assistente, um buscador, ( um assistente para dominar o mundo ) tanto faz, pois o usurio que iria escolher a qual fim ser usado.
+
+A pouco li que o TensorFlow  uma plataforma do Google Open Source, e gostaria de saber se existem outros Open Source que possam ajudar a desenvolver essa ideia.
+
+Minha ideia  de desenvolver a IA para ser usada entre Smartphones, Tablets, Notebooks, uma IA que poderia ser usada por at mesmo 2 usurios ou mais, tendo uma interao entre os usurios a IA saberia quem ela , mas poderia conversar livremente entre os usurios, como um usurio, qualquer indicao de plataforma, comentrio ou ajuda  bem vinda, podem postar aqui suas ideia, e caso queira um contato mais imediato pode me contactar no Twitter @\_Ianetta, obrigado pela ateno de todos.
+
+\---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Good morning / afternoon / evening. I do not have any knowledge about AI or programming, but I'm starting to study ... 
+
+I would like to develop an AI for purposes that suit the user's need, a company, an assistant, a search engine, (an assistant to dominate the world) either because the user would choose which end to use. 
+
+I barely read that TensorFlow is a Google Open Source platform, and I would like to know if there are other Open Source that can help to develop this idea. 
+
+ My idea is to develop the AI to be used between Smartphones, Tablets, Notebooks, an AI that could be used by even 2 users or more, having an interaction between the users the AI would know who it is, but could talk freely between the users, as a user, any indication platform, comment or help is welcome, you can post your idea here, and if you want a more immediate contact you can contact me at Twitter @\_Ianetta, thanks for everyone's attention. ",0,1
+8,2018-8-3,2018,8,3,5,942pa5,Step by step installation for ubuntu 16.04 and ubuntu 18.04(easiest way),https://www.reddit.com/r/tensorflow/comments/942pa5/step_by_step_installation_for_ubuntu_1604_and/,rava-dosa,1533240229,,1,0
+9,2018-8-4,2018,8,4,3,94bv63,Question about Tensorflow/Tensorflow.js performance when retrieving results,https://www.reddit.com/r/tensorflow/comments/94bv63/question_about_tensorflowtensorflowjs_performance/,ootsby,1533319208,"I've been looking at a toy problem using Mobilenet on tensorflow.js. I want to be able to classify many images as fast as possible so I've been experimenting with batching under the assumption that reducing communication to and from the GPU is a good idea.
+
+I noticed that a large chunk of time was being spent reading texture data when retrieving the prediction results. As Mobilenet produces probability outputs for 1000 classes and I'm only interested in a few of those I thought it would be a good idea to add a filter layer to the model that simply gathers the outputs I care about and only returns those as output. I thought this would all happen on the GPU and therefore be far faster.
+
+It turns out that this makes no discernible difference AFAICT. Is this a quirk of the WebGL implementation of Tensorflow.js or is my thinking just wrong for Tensorflow on all platforms? Please clue me up!",0,2
+10,2018-8-4,2018,8,4,3,94cdb9,Question understanding time series tutorial,https://www.reddit.com/r/tensorflow/comments/94cdb9/question_understanding_time_series_tutorial/,TheOneRavenous,1533322654,"Looking at RNN time series prediction tutorials and really most tutorials, the author usually creates two tensors.
+
+One is usually ````xs =tf.tensor([data array], shape) ````
+
+And the other is ````ys =tf.tensor([data array], shape)````
+
+For time series is ys usually the time steps? I'm a little confused because I haven't found a good example as to how the author is splitting the data to get xs and ys. Usually the example loads some preprocessed data into the example. 
+
+I think of ""xs"" as x-axis and ""ys"" as y-axis. Am I thinking about the data correctly. 
+
+The data is rain Gage data and time stamps of that data.
+
+ Example ( [{rainfall:0.4, time:8/26/18 04:04:56},...]) ",3,2
+11,2018-8-4,2018,8,4,6,94dn4f,Appropriate method for time series,https://www.reddit.com/r/tensorflow/comments/94dn4f/appropriate_method_for_time_series/,Atma-n,1533331870,"Hi! I am trying to use TensorFlow to help me predict events in a time series. Lets say each day has a value, such as temperature, price or anything that varies with time and I have some attributes that is calculated from the value. For example when the moving average for two windows are crossing each other. One attribute will be if the next day is more or less than ""today"". In the example I have called it Attribute 1. Attribute 2 and 3 are just made up.
+
+I want to use the value and the attributes to predict a value for tomorrow.
+
+By adding and removing attributes I want to test if it is possible to predict better or worse for various time series.
+
+What kind of algorithm should I use with tensorflow?
+
+Thanks for any help or suggestions!
+
+Time|Value|Attribute 1|Attribute 2|Attribute 3|
+
+\--:|--:|:-:|:-:|:-:|
+
+2018-01-01|10|TRUE|TRUE|FALSE|
+
+2018-01-02|11|TRUE|FALSE|FALSE|
+
+2018-01-03|12|TRUE|TRUE|FALSE|
+
+2018-01-04|13|FALSE|FALSE|FALSE|
+
+2018-01-05|12|FALSE|FALSE|FALSE|
+
+2018-01-06|8|FALSE|FALSE|FALSE|
+
+2018-01-07|5|TRUE|FALSE|TRUE|
+
+2018-01-08|10|TRUE|FALSE|TRUE|
+
+2018-01-09|15|TRUE|FALSE|TRUE|
+
+2018-01-10|20|TRUE|FALSE|TRUE|
+
+2018-01-11|25|FALSE|FALSE|FALSE|
+
+2018-01-12|25|FALSE|FALSE|TRUE|
+
+2018-01-13|25|FALSE|TRUE|FALSE|
+
+2018-01-14|25|FALSE|TRUE|FALSE|
+
+2018-01-15|24|FALSE|TRUE|FALSE|
+
+2018-01-16|22|FALSE|FALSE|FALSE|
+
+2018-01-17|20|FALSE|TRUE|TRUE|
+
+2018-01-18|19|FALSE|TRUE|TRUE|
+
+2018-01-19|17|FALSE|TRUE|TRUE|",3,1
+12,2018-8-4,2018,8,4,22,94izcn,DDPG With Tensorflow questions and problems,https://www.reddit.com/r/tensorflow/comments/94izcn/ddpg_with_tensorflow_questions_and_problems/,Jandevries101,1533387932,"Hey reader,
+
+\-
+
+\-
+
+\-
+
+So i have been studying alot of things in reinfocrement learning and came to an conclusion that i wanna try the ddpg algorithm. i tried code from; [https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow/blob/master/contents/9\_Deep\_Deterministic\_Policy\_Gradient\_DDPG/DDPG\_update2.py](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow/blob/master/contents/9_Deep_Deterministic_Policy_Gradient_DDPG/DDPG_update2.py) but when using this code i had directly a million questions... i tried running it first to see if it works fine and uit worked good enough with the pendeluem example environment, but then i realized that i couldn't get my environment hooked up/working with this existing code!?.
+
+\-
+
+\-
+
+\-
+
+My environment consists atleast of reset, action and init function. the reset function should\* return pictures in 1080x720 pixels in what i believe a rgb array...? my action function consists of needing an environment and choosing based on the q values an action, i understand i will need to update that to something more suiteable for this algorithm. the actions are ""up"" ""down"" ""right"" . when for example up is called it will call a function that does his job... it is not so relevant on what the actions do (?). and in my init function i do some init things, but not really anything related to the ddpg algorithm. this environment file is first been used for normal q-learning i understand there needs to be things changed, but i don't get how/where..
+
+\-
+
+\-
+
+\-
+
+init looks like:
+
+        def __init__(self):
+            super(Environment, self).__init__()
+            self.action_space = ['up', 'down', 'right']
+            self.n_actions = len(self.action_space)
+    #        self.n_features = 3 #this is i think needed for ddpg, don't know wich value it should be also
+
+\-
+
+\-
+
+\-
+
+Thats around everything i have in my environment... if i need more in my environment just let me know...
+
+i know that my environment is continious states/actions and that i then need ""box"" environment to be created, but then again i have no idea how to set this up with this ddpg code i currently have.
+
+\-
+
+\-
+
+\-
+
+End goal:
+
+\-
+
+\-
+
+\-
+
+1: The AI should be build properly and should have all the ddpg aspects in his algorithm
+
+2: The AI is attached to the environment, input as images and actions as 0, 1, 2 (0=up,1=down,2=down)
+
+3: The AI should save his progress somewhere (like a pickle)
+
+\-
+
+\-
+
+\-
+
+At last: i can't share my environment code with you, but it doens't has anything strange in it, just a reset and step function , with reset (should\*) returning a picture. and step having the actions 0,1,2 in it, i know there should be something switched that the actions aren't chosen in step but in the algo but atleast from step it should return the action chosen right?
+
+\-
+
+\-
+
+\-
+
+Should\* : i have pictures that are timeframes from the game, there .png and are 1080x720 (will change later size) i want the ai to get so see the pictures i don't have any good ways yet to feed the pictures to the environment, but i think i've read something about array's and rgb modes?
+
+\-
+
+\-
+
+\-
+
+If you know anything about let me know on things that may help (please don't just post only links to documentations, i've read them all, explaining is allowed?), if you know all/some answers please let me know, if you could send some example code with it aswell, so i can understand it? if you really wanna help me out with live chat we can skype/discord, just send a pm with your discord/skype name so we can talk about it?
+
+\-
+
+\-
+
+\-
+
+Thanks already in advance for reading and responding!
+
+\-
+
+\-
+
+\-
+
+Jan",0,1
+13,2018-8-5,2018,8,5,1,94kh2k,[Q] Why is this happening? (Normal Distribution Sampling Get Slower and Slower),https://www.reddit.com/r/tensorflow/comments/94kh2k/q_why_is_this_happening_normal_distribution/,Jonas_SV,1533400953,"Repeatedly calling sample from normal dist gets very slow.
+
+Is this supposed to happend?
+
+I'm running Tensorflow 1.8
+
+Timestamp 0: 0.020380735397338867
+
+Timestamp 100: 0.04753875732421875
+
+Timestamp 200: 0.08234620094299316
+
+Timestamp 300: 0.12919116020202637
+
+Timestamp 400: 0.1656949520111084
+
+Timestamp 500: 0.21046710014343262
+
+Timestamp 600: 0.22464704513549805
+
+Timestamp 700: 0.2586097717285156
+
+Timestamp 800: 0.30599498748779297
+
+Timestamp 900: 0.3456001281738281
+
+\# to reproduce
+
+import tensorflow as tf
+
+import time
+
+import numpy as np
+
+scale   = tf.Variable(np.ones(4), dtype=tf.float32)
+
+loc     = tf.Variable(np.zeros(4), dtype=tf.float32)
+
+samples = tf.distributions.Normal(loc=loc, scale=scale)
+
+with tf.Session() as sess:
+
+[sess.run](https://sess.run)(tf.global\_variables\_initializer())
+
+i = 100000
+
+for j in range(i):
+
+stamp = time.time()
+
+[sess.run](https://sess.run)(samples.sample())
+
+if j % 100 == 0:
+
+print(""Timestamp {}: {}"".format(j, time.time() - stamp))",2,1
+14,2018-8-5,2018,8,5,12,94p1xw,"Are you interested in Computer Science and want to start learning more with Tutorials? Check out this new Youtube Channel, called Discover Artificial Intelligence. :)",https://www.reddit.com/r/tensorflow/comments/94p1xw/are_you_interested_in_computer_science_and_want/,ailearn12,1533440554,,1,7
+15,2018-8-6,2018,8,6,7,94vtvu,How similar is Tensorflow API of python compare to Javascript?,https://www.reddit.com/r/tensorflow/comments/94vtvu/how_similar_is_tensorflow_api_of_python_compare/,GTHell,1533508167,I'm starting to learn to Tensorflow but it would be interesting to know the similarity between the two the languages as my prefer language is Javascript but TF has a huge tutorial on Python. ,9,4
+16,2018-8-6,2018,8,6,14,94yg0o,NVS 5400M is not recognized by tensorflow-gpu,https://www.reddit.com/r/tensorflow/comments/94yg0o/nvs_5400m_is_not_recognized_by_tensorflowgpu/,Nyd3r,1533531704,"anyone know how to get tf-gpu to recognie the graphics card ?
+
+theano is able to see the card, but not tf , why ?",4,1
+17,2018-8-6,2018,8,6,18,94zr9e,Complete Guide Of Tensorflow For Beginners,https://www.reddit.com/r/tensorflow/comments/94zr9e/complete_guide_of_tensorflow_for_beginners/,KiranKiller,1533546740,[removed],0,1
+18,2018-8-7,2018,8,7,0,952gae,Is there any way to visualize TF.js with Tensorboard or anything similar existing tool?,https://www.reddit.com/r/tensorflow/comments/952gae/is_there_any_way_to_visualize_tfjs_with/,janixwow,1533570832,,0,3
+19,2018-8-7,2018,8,7,1,952jc6,What is val_mean_absolute_error?,https://www.reddit.com/r/tensorflow/comments/952jc6/what_is_val_mean_absolute_error/,NitcombReaper3,1533571401,"I have been using tensor flow tutorials but cannot figure this out. I understand what train loss is but val loss is a bit of an unknown. I can't find anything online, so here I am asking the kind people of Reddit. ",3,1
+20,2018-8-7,2018,8,7,2,953iw5,Crypto portfolio optimization with Python and Tensorflow  Matrix calculus approach,https://www.reddit.com/r/tensorflow/comments/953iw5/crypto_portfolio_optimization_with_python_and/,ledfusion,1533578150,,3,9
+21,2018-8-8,2018,8,8,8,95gxdo,Python code snippets to try out a neural network to predict daily market movements by using Tensorflow,https://www.reddit.com/r/tensorflow/comments/95gxdo/python_code_snippets_to_try_out_a_neural_network/,alpacahq,1533685637,,2,7
+22,2018-8-8,2018,8,8,19,95krb7,TensorFlow C API on Windows without pain.,https://www.reddit.com/r/tensorflow/comments/95krb7/tensorflow_c_api_on_windows_without_pain/,Neargye,1533723210,,1,10
+23,2018-8-8,2018,8,8,23,95mowv,Trying to get a small proof of concept working with an Estimator and some feature columns. Having some resource utilization issues and could use some help.,https://www.reddit.com/r/tensorflow/comments/95mowv/trying_to_get_a_small_proof_of_concept_working/,patricktoner,1533740054,"Currently I'm having some performance issues with Estimators and Feature Columns. It's possible that I'm somehow misunderstanding how these are intended to be used, but I can't come up with an example that utilizes more than 5-10% of my CPU.
+
+Here's the code. I'm generating a dataframe with an arbitrary number of float features (100 in this case). I then create a numeric\_column for each one of these features and then try to train it. 
+
+It never tasks the CPU no matter what I make the batch size, the number of records, or the number of features. Smaller batches? Bigger ones? Less features? More features? Is there a dataset size that would actually use the available resources appropriately? Am I doing something fundamentally incorrect here? Is this not how I should use feature columns? 
+
+    import tensorflow as tf
+    from tensorflow.python.estimator import estimator
+    from tensorflow.python.estimator.canned.linear import LinearClassifier
+    from tensorflow.python.training.ftrl import FtrlOptimizer
+    from tensorflow.python.training.session_run_hook import SessionRunHook, SessionRunArgs
+    import pandas as pd
+    import numpy as np
+    from sklearn.model_selection import train_test_split
+    
+    device_name = ""/cpu:0""
+    num_rows = 88000
+    num_features = 100
+    
+    def train():
+    
+        tf.logging.set_verbosity(tf.logging.INFO)
+    
+        with tf.device(device_name):
+    
+            X = generate_data(num_rows)
+            Y = X.pop(""Y"")
+    
+            train_X, test_X, train_Y, test_Y = train_test_split(X, Y, train_size=0.8, test_size=0.2)
+    
+    
+            train_input_fn = tf.estimator.inputs.pandas_input_fn(
+                x=train_X,
+                y=train_Y,
+                batch_size=10240,
+                num_epochs=100,
+                shuffle=True
+            )
+    
+    
+            eval_input_fn = tf.estimator.inputs.pandas_input_fn(
+                x=test_X,
+                y=test_Y,
+                num_epochs=1,
+                shuffle=False
+            )
+    
+    
+            feature_columns = []
+            for i in range(num_features):
+                feature_columns.append(tf.feature_column.numeric_column(""X"" + str(i)))
+    
+    
+    
+            estimator = LinearClassifier(
+    
+                config = tf.estimator.RunConfig(
+                    save_checkpoints_secs=60,
+                    model_dir=""model"",
+                    session_config=tf.ConfigProto(
+                    )
+                ),
+                optimizer=FtrlOptimizer(
+                    learning_rate= 0.001,
+                    l1_regularization_strength= 0.001,
+                    l2_regularization_strength= 0.001
+                ),
+    
+                feature_columns=feature_columns
+            )
+    
+    
+            train_spec = tf.estimator.TrainSpec(
+                input_fn=train_input_fn,
+                max_steps=200000
+            )
+    
+            eval_spec = tf.estimator.EvalSpec(
+                input_fn=eval_input_fn,
+                throttle_secs=180,
+                start_delay_secs=60
+            )
+    
+            tf.estimator.train_and_evaluate(estimator, train_spec, eval_spec)
+    
+    
+    def generate_data(num_rows):
+    
+        columns = []
+        for i in range(num_features):
+            columns.append(""X"" + str(i))
+    
+        df = pd.DataFrame(np.random.randn(num_rows, num_features), columns=columns)
+        arr = np.random.randint(0, 2, num_rows)
+        df['Y'] = arr.tolist()
+    
+        return df
+    
+    
+    train()",0,2
+24,2018-8-9,2018,8,9,4,95p1q1,Tensorflow for beginners,https://www.reddit.com/r/tensorflow/comments/95p1q1/tensorflow_for_beginners/,richardsmith7021,1533755574,"Who wants to get deep information about Tensorflow just read that answer it had a great information. it is useful for beginners also.just check it
+
+https://www.quora.com/What-are-the-best-course-to-learn-TensorFlow-Foundation",0,2
+25,2018-8-9,2018,8,9,17,95urah,"How to determine a ""good"" geometry for a CNN",https://www.reddit.com/r/tensorflow/comments/95urah/how_to_determine_a_good_geometry_for_a_cnn/,IceGuerilla,1533804945,"I am looking for decent resources on how to pick a reasonable or even optimal:
+*number of layers
+*size of each layer
+*order of convolution/pooling *etc* layers
+for a CNN, preferably for image recognition, classification and the like. For example, how should one change these quantities based on the input image size, aspect ratio, whether it is color or grayscale *etc*.",8,2
+26,2018-8-9,2018,8,9,18,95uyvi,The Complete Guide to TensorFlow for Deep Learning with Python,https://www.reddit.com/r/tensorflow/comments/95uyvi/the_complete_guide_to_tensorflow_for_deep/,jbvmt,1533807371,,1,0
+27,2018-8-10,2018,8,10,1,95xpn4,How does this neural network load the parameters?,https://www.reddit.com/r/tensorflow/comments/95xpn4/how_does_this_neural_network_load_the_parameters/,Dinosaur_Boner,1533830462,"https://pastebin.com/TBJd0mJ2
+
+The load_weights method goes throught the dictionary loaded from the data file and assigns the values to the self.parameters array. It's confusing because I only see values being assigned to the self.parameters array, but I don't see them being used at all. It works though. How are the parameters actually being loaded into the nueral network? Outside of the load_weights method, self.parameters is only used like ""self.parameters += [weights, biases]"".",2,1
+28,2018-8-10,2018,8,10,4,95zj4k,Real like Pokdex built using Tensorflow,https://www.reddit.com/r/tensorflow/comments/95zj4k/real_like_pokdex_built_using_tensorflow/,the-dagger,1533842512,"Pokmon fans, heres an AI experiment that I hacked together last week.
+
+https://play.google.com/store/apps/details?id=app.harshit.pokedex
+
+Built using **Tensorflow Lite** and **Firebase**, It detects and identifies the Pokmon from the provided image. Would appreciate your feedback in making this even better and more accurate!
+
+P.S. The app is fully open sourced, so youre more than welcome to submit patches, report issues, etc.
+
+https://github.com/the-dagger/Pokidex/",6,7
+29,2018-8-10,2018,8,10,22,966q51,How should i start with Image recognition using tensorflow??,https://www.reddit.com/r/tensorflow/comments/966q51/how_should_i_start_with_image_recognition_using/,Pingofdeath01,1533906105,"Hello I want to eliminate the problem of clickbait videos on youtube. Idea is that i will match the thumbnail of the video with rest of video and if somehow thumbnail matches some part of the video then it's fine otherwise they are clickbait videos. I will divide video into image at particular fps.
+
+plzz can anyone suggest how can i implement it, i am currently in first year engineering. I am good at python and have some basic knowledge of tensorflow.",12,3
+30,2018-8-10,2018,8,10,22,966yon,Electron wraped Bitcoin chart predicter with Tensorflow JS &amp; Binance API,https://www.reddit.com/r/tensorflow/comments/966yon/electron_wraped_bitcoin_chart_predicter_with/,janixwow,1533908007,"I made a simple example to run pre-trained Tensorflow JS modell in Electron, until CLI version can't use GPU under Windows 10.  
+
+
+\- [https://github.com/Palabola/BinanceTensorFlowSandbox](https://github.com/Palabola/BinanceTensorFlowSandbox)  
+",0,1
+31,2018-8-11,2018,8,11,3,969fxq,"How to fix InvalidArgumentError (see above for traceback): Matrix size-incompatible: In[0]: [1,4], In[1]: [423,1000] Ask Question",https://www.reddit.com/r/tensorflow/comments/969fxq/how_to_fix_invalidargumenterror_see_above_for/,bharddwaj,1533925192,Not sure if this subreddit is appropriate to ask for help but this error comes up when I'm trying to use my model and I don't know what to do. Here is the link to my stackoverflow question which contains all the code: [https://stackoverflow.com/questions/51790415/how-to-fix-invalidargumenterror-see-above-for-traceback-matrix-size-incompat](https://stackoverflow.com/questions/51790415/how-to-fix-invalidargumenterror-see-above-for-traceback-matrix-size-incompat),0,2
+32,2018-8-11,2018,8,11,21,96g3rq,Crypto portfolio optimization with Python and Tensorflow  Matrix calculus approach (part 2),https://www.reddit.com/r/tensorflow/comments/96g3rq/crypto_portfolio_optimization_with_python_and/,ledfusion,1533989518,,1,5
+33,2018-8-11,2018,8,11,21,96g4x1,Using GIF in retrain.py for Inception v3,https://www.reddit.com/r/tensorflow/comments/96g4x1/using_gif_in_retrainpy_for_inception_v3/,Arkhaya,1533989875,"I saw that there was a GIF decoder for Tensorflow and I want to know how to be able to train the model on GIF format, if possible.
+
+And also are there any tips on how to change the [retrain.py](https://retrain.py) to train better, like shuffle image set and grayscale, blurring, flipping etc and also how to implement them.",0,4
+34,2018-8-12,2018,8,12,1,96hvgh,Conceptualizing how a model will work (comparing text files),https://www.reddit.com/r/tensorflow/comments/96hvgh/conceptualizing_how_a_model_will_work_comparing/,Kar_Athri,1534005493,"Hey, I'm knew to TensorFlow and I'm trying to build a project for a hackathon with it. After coming up with an idea, me and my team mates and having a difficult time figuring out how a specific aspect is going to work in the process as we're all knew to the tool. What we want is a model that's given a large amount of different text files as training data, and then will be able to be given a new text file and output the text file most similar to it. What I'm unsure with here is, will we need a database with all the input data or something for the model to continually access to be able to output the most similar text file? As far as I understand that should be the case, but I wanted to make sure before going down this route. Thanks. ",0,1
+35,2018-8-13,2018,8,13,22,96y8wn,TensorFlow 1.10 has just been released. Heres whats new.,https://www.reddit.com/r/tensorflow/comments/96y8wn/tensorflow_110_has_just_been_released_heres_whats/,coinmonks,1534166514,,0,26
+36,2018-8-14,2018,8,14,2,9707l0,Setting TF Lucid's visualized activations to music (code in comments),https://www.reddit.com/r/tensorflow/comments/9707l0/setting_tf_lucids_visualized_activations_to_music/,cosmic_dozen,1534180778,,1,2
+37,2018-8-14,2018,8,14,2,970gjq,TFLite: difference between .lite and .tflite?,https://www.reddit.com/r/tensorflow/comments/970gjq/tflite_difference_between_lite_and_tflite/,acidafterglow,1534182435,"I've been working with the TFLite demo provided in the ""Tensorflow for Poets"" codelab:  
+[https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0)
+
+The models here are "".lite"" files.
+
+But this seems to be using some old gradle dependencies which were causing conflicts with my project. So then I cloned the Tensorflow repo and tried to run the Tflite demo there (tensorflow/contrib/lite/java/demo). But this one uses "".tflite"" files....  
+If I try to use my old model, the compiler gives me a buffer size inconsistency error.
+
+If I convert the original "".pb"" file using ""*tf\_lite convert*"" command, I can run the demo with the generated .tflite file, but it doesn't work any bit as good as using the .lite file with the ""Tensorflow for Poets"" demo.
+
+I did the conversion with this command:  
+tflite\_convert \\   --output\_file=\*.tflite \\   --graph\_def\_file=\*.pb \\   --input\_arrays=input \\   --output\_arraysfinal\_result
+
+Is there something I'm missing?",0,1
+38,2018-8-14,2018,8,14,4,9719x2,When would a network take more memory on GPU?,https://www.reddit.com/r/tensorflow/comments/9719x2/when_would_a_network_take_more_memory_on_gpu/,SoFarFromHome,1534188088,"I'm currently training a (relatively simple) feedforward neural network.  When training on a Docker instance with 6gb RAM and GPU, it trains albeit very slowly.  When on a Docker instance with 12gb GPU RAM (using a Tesla K80), the tf.Session() throws out-of-memory (OOM) errors during training, usually during the first or second training step, even if I reduce the graph size moderately (reducing the network depth and width).
+
+Any ideas on what the difference in the CPU vs. GPU implementation might be that it is more than doubling the memory requirement?  Any tips to avoid this?
+
+For now, my only intuition is to switch to small minibatches (currently using the full 150k x 100 input stored as tf.constant, since it trains fine on CPU).",4,1
+39,2018-8-14,2018,8,14,16,976er6,hanxiao/tf-nlp-blocks: A collection of frequently-used deep learning NLP blocks implemented in Tensorflow,https://www.reddit.com/r/tensorflow/comments/976er6/hanxiaotfnlpblocks_a_collection_of_frequentlyused/,h_xiao,1534232446,,0,5
+40,2018-8-14,2018,8,14,19,9775ef,"How to fix ""No dashboards are active for the current data set."" for Mac OS?",https://www.reddit.com/r/tensorflow/comments/9775ef/how_to_fix_no_dashboards_are_active_for_the/,ByMAster2,1534241703,,0,0
+41,2018-8-14,2018,8,14,23,978ykc,Have Tensorflow return classification value for each row,https://www.reddit.com/r/tensorflow/comments/978ykc/have_tensorflow_return_classification_value_for/,darchcruise,1534257972,"I want to know  1) if it is possible to output the classification value w tensorflow    and   2) Links and quick description of how to do it using MNIST as an example. For instance, I know how to get accuracy, but how can I submit my own pixels (photos of hand-drawn digits) and have tensorflow return ""row 1 = this is the number 8"", ""row 2 = this is the number 3"",  ""row 3 = this is the number 1"", etc..  I trying to get the same capability I got with Scikit-Learn where I would pass the input and it would return the value it should be (i.e. Titanic Dataset - male or female and age --&gt; input |  survived or died --&gt; output). Thanks",0,1
+42,2018-8-15,2018,8,15,1,979rdm,Chain execution of tensorflow operations with list parameters,https://www.reddit.com/r/tensorflow/comments/979rdm/chain_execution_of_tensorflow_operations_with/,Maciekism,1534263687,"I figure it is going to be much easier for people to understand this question if i offer a little explanation of how tf works on lists. If you already know this you can skip to end of refresher
+
+If we take a tf operation like matmul and give 2 tensors as arguments tensorflow will treat these arguments as matrices and multiply them giving a result as a tensor (i used matrix of (1,1) shape to make it easier to multiply)
+
+`mat_a = [[3]]`
+
+`mat_b = [[4]]`
+
+`tf.matmul(mat_a, mat_b) = [[12]]` 
+
+you can easily chain this operation feeding the resulting tensor into another matmul.
+
+However if you feed a list of tensors into a matmul it will treat each element of the list as a matrix and multiply it by each element of the second list. Which is extremely useful way to multiply multiple matrices at the same time
+
+`list_a = [mat_a, mat_b, mat_c]`
+
+`list_b = [mat_x, mat_z, mat_y]`
+
+`tf.matmul(list_a, list_b)  = mat_a*mat_x, mat_b*mat_z, mat_c*mat_y`
+
+Alas the result of this operation is not a list of tensors but a tensor that contains all the tensors. 
+
+If a tensor is fed into the matmul it is treated as a matrix not as a list so this operation cannot be easily chained.
+
+End of refresher
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+I am trying to execute tf operations that take a list argument in succession.
+
+Because the result of the tensorflow operations are tensors and not lists you cannot simply feed the resulting tensor into the next operation.
+
+I have found a very useful function  [tf.create\_partitioned\_variables](https://www.tensorflow.org/api_docs/python/tf/create_partitioned_variables)  which returns a list from a tensor.
+
+The only problem is that you need to know the shape of the tensor beforehand which is impossible when feeding a dictionary into a model
+
+Using tf.reshape to make sure the shape is right beforehand will still end up throwing an error.
+
+What is a proper way of chaining such operations?",1,1
+43,2018-8-15,2018,8,15,1,979tfc,Tensorflow oscillating Test and Train Accuracy?,https://www.reddit.com/r/tensorflow/comments/979tfc/tensorflow_oscillating_test_and_train_accuracy/,ByMAster2,1534264083,"I have implemented a CNN with images as input and 2 classes as output. I have applied mean subtraction to the input for normalisation before giving it as input to the network. But on compiling the code multiple times, there testing accuracy seems to be too unstable as I have in the pastebins
+
+[CODE](https://pastebin.com/6zMgmgaM)
+
+Testing Accuracy -- &gt; 0.40
+https://pastebin.com/ByV0hgfs 
+
+Testing Accuracy -- &gt; 0.57 https://pastebin.com/e2LxssAB 
+
+Testing Accuracy -- &gt; 0.77 https://pastebin.com/WiiGW0nS 
+
+I am TRAINING on 1028 samples and testing on 300 samples
+",1,1
+44,2018-8-15,2018,8,15,2,97aj5m,TensorFlow: A new paradigm for large scale ML in distributed systems,https://www.reddit.com/r/tensorflow/comments/97aj5m/tensorflow_a_new_paradigm_for_large_scale_ml_in/,coinmonks,1534269134,,0,12
+45,2018-8-15,2018,8,15,14,97fll2,I am having trouble learning Tensorflow,https://www.reddit.com/r/tensorflow/comments/97fll2/i_am_having_trouble_learning_tensorflow/,scarletred94,1534309473,"I know how convolutional neural networks work but when I am trying to make one on Tensorflow, I am having a hard time understanding the tutorials I find on the internet because most of them use MNIST database for their datasets while I have datasets of my own. I am creating a OCR for Baybayin Characters (the writing system used by Filipinos before the arrival of the Spanish) and I hope I will be able to train and test my datasets (images of handwritten Baybayin Characters) on the google cloud. Do you have any suggestions to help me on my plight?",5,2
+46,2018-8-15,2018,8,15,20,97hm5v,Building Pokdex in Android using TensorFlow Lite and Firebase ML Kit,https://www.reddit.com/r/tensorflow/comments/97hm5v/building_pokdex_in_android_using_tensorflow_lite/,the-dagger,1534334124,,0,9
+47,2018-8-16,2018,8,16,11,97ol2n,Failed Style Transfer(X-post /r/learnmachinelearning),https://www.reddit.com/r/tensorflow/comments/97ol2n/failed_style_transferxpost_rlearnmachinelearning/,SechetBot,1534387792,,0,3
+48,2018-8-16,2018,8,16,18,97qp8h,Tensorflow for Beginners,https://www.reddit.com/r/tensorflow/comments/97qp8h/tensorflow_for_beginners/,groundtoearth,1534410367,"Devices are getting smarter thanks to machine learning and artificial intelligence, and that is definitely going to continue. Machines are going to continue getting better and evolve, making tasks easier for humans. With machine learning and AI in the picture, the role of TensorFlow is unavoidable.
+
+TensorFlow is an open-source library that is commonly used for data flow programming. It also includes a symbolic math library that can be used for machine learning applications and neural networking. TensorFlow was built by the Google Brain Team for their internal development needs on AI and ML, before it was released to the public.
+
+However, its currently playing a huge role in helping technology advance to the next level. This makes TensorFlow a powerful technology to learn and master and this is exactly why we have designed this no-nonsense and no-fuss course here \~  &lt;!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--&gt;r/https://www.udemy.com/tensorflow-for-beginners/?couponCode=DUAUG18 ",4,0
+49,2018-8-16,2018,8,16,19,97qzyh,[Help] Question regarding variable_scopes and the resulting Graph.,https://www.reddit.com/r/tensorflow/comments/97qzyh/help_question_regarding_variable_scopes_and_the/,julianCP,1534413894,"Hi,
+I created a minimal example here: https://pastebin.com/TEVn6EKr     
+Essentially I open a variable_scope where have multiple LSTM or Conv layers etc. Then I work with the reults of this layer(s). Much like the model that is shown in the minimal example, the tensorflow graph shows multiple DIFFERENT nodes(scopes) with the names ""reuse"", ""reuse_1"", ""reuse_2"".... I wonder if these are refering to the SAME objects. So if I train the layers in the scope ""reuse"" am I also training the objects in the scope ""reuse_1"" ... so. So I wonder if ""reuse"" and ""reuse_n""... refer to the same objects.
+Here is a screenshot of the tensorboard graph: https://imgur.com/a/CFkIFUS",0,1
+50,2018-8-17,2018,8,17,0,97t2ur,Object Detection with YOLOv2 + Tensorflow [UE4 Tech Demo],https://www.reddit.com/r/tensorflow/comments/97t2ur/object_detection_with_yolov2_tensorflow_ue4_tech/,humanovan,1534432006,,3,14
+51,2018-8-17,2018,8,17,6,97w9ml,How do I plot validation set accuracy in tensorboard scalars?,https://www.reddit.com/r/tensorflow/comments/97w9ml/how_do_i_plot_validation_set_accuracy_in/,tensor_dude,1534454222,"I'm trying to create a scalar summary of the overall accuracy on the validation set. The problem is that, for the way I create the graph, I only grab the accuracy of a batch to put into a summary. As you can imagine this is not very useful, ideally I would plot the accuracy on the whole dataset not just a batch. Let me show you some code, most of it is coming from [this example](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/recurrent_network.py):
+
+    correct_pred = tf.equal(tf.argmax(prediction, axis=1), tf.argmax(label, axis=1))
+    accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
+    tf.summary.scalar('batch_accuracy', accuracy)
+    
+    ...
+    
+    if step % 1000 == 0:
+        val_step = 1
+        val_acc = 0
+        
+        while val_step * val_batch_size &lt; val_set_size:
+            valid_x, valid_y = val_set.next(val_batch_size)
+            step_acc = sess.run(accuracy, feed_dict={x: valid_x, y: valid_y})
+            val_acc += step_acc
+            val_step += 1
+        
+        val_acc = val_acc / val_step
+        # If I do this it will create a new summary every time this code is run
+        # thus creating 'accuracy', 'accuracy_1', 'accuracy_2'
+        tf.summary.scalar('accuracy', val_acc) print(""Validation set accuracy: %s"" % val_acc)
+
+How would I go about preventing the creation of multiple summaries ?",0,1
+52,2018-8-17,2018,8,17,8,97xacw,anyone wanna work on a neural network that creates its own music?,https://www.reddit.com/r/tensorflow/comments/97xacw/anyone_wanna_work_on_a_neural_network_that/,bharddwaj,1534462123,As the title says I'm looking for people who wanna work on a project to create a neural network that creates its own music. I'm a beginner who is just looking to work on this project as a learning experience.,3,2
+53,2018-8-17,2018,8,17,10,97y64x,Teaching NoodleFeet to See and Recognize Mommy!,https://www.reddit.com/r/tensorflow/comments/97y64x/teaching_noodlefeet_to_see_and_recognize_mommy/,spetku,1534469563,,0,8
+54,2018-8-17,2018,8,17,11,97yr4n,Just Installed Tensorflow and I am receiving this Error,https://www.reddit.com/r/tensorflow/comments/97yr4n/just_installed_tensorflow_and_i_am_receiving_this/,CountJeewb,1534474780,"Hi, so I just installed tensorflow using pip and python 3.6. Hwne i try to import tensorflow in python, I get this error.
+
+Traceback (most recent call last):
+
+  File ""C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\tensorflow\\python\\platform\\self\_check.py"", line 75, in preload\_check
+
+ctypes.WinDLL(build\_info.cudart\_dll\_name)
+
+  File ""C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python36\\lib\\ctypes\\\_\_init\_\_.py"", line 348, in \_\_init\_\_
+
+self.\_handle = \_dlopen(self.\_name, mode)
+
+OSError: \[WinError 126\] The specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+
+  File ""&lt;stdin&gt;"", line 1, in &lt;module&gt;
+
+  File ""C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\tensorflow\\\_\_init\_\_.py"", line 22, in &lt;module&gt;
+
+from tensorflow.python import pywrap\_tensorflow  # pylint: disable=unused-import
+
+  File ""C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\tensorflow\\python\\\_\_init\_\_.py"", line 49, in &lt;module&gt;
+
+from tensorflow.python import pywrap\_tensorflow
+
+  File ""C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\tensorflow\\python\\pywrap\_tensorflow.py"", line 30, in &lt;module&gt;
+
+self\_check.preload\_check()
+
+  File ""C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\tensorflow\\python\\platform\\self\_check.py"", line 82, in preload\_check
+
+% (build\_info.cudart\_dll\_name, build\_info.cuda\_version\_number))
+
+ImportError: Could not find 'cudart64\_90.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. Download and install CUDA 9.0 from this URL: [https://developer.nvidia.com/cuda-90-download-archive](https://developer.nvidia.com/cuda-90-download-archive)
+
+I just installed CUDA so idea whats wrong. Anyone have any advice",6,1
+55,2018-8-17,2018,8,17,16,980evm,Need help understanding tf.sequence_mask(),https://www.reddit.com/r/tensorflow/comments/980evm/need_help_understanding_tfsequence_mask/,cant-find-user-name,1534492639,"Hello all,   
+
+
+I am a newbie to tensorflow. I have been studying lstms and was looking at implementing lstms for Named entity recognition. I came across this tutorial: [https://guillaumegenthial.github.io/sequence-tagging-with-tensorflow.html](https://guillaumegenthial.github.io/sequence-tagging-with-tensorflow.html)   
+
+
+While I am understanding the theory, this part confuses me:
+
+losses **=** tf**.**nn**.**sparse\_softmax\_cross\_entropy\_with\_logits(logits**=**scores, labels**=**labels)
+
+ *# shape = (batch, sentence, nclasses)*
+
+ mask **=** tf**.**sequence\_mask(sequence\_lengths) 
+
+*# apply mask* 
+
+losses **=** tf**.**boolean\_mask(losses, mask) 
+
+loss **=** tf**.**reduce\_mean(losses)
+
+What is tf.sequence\_mask() and tf.boolean\_mask() doing here? I looked through the documentation but I still don't understand it much. Any help would be greatly appreciated.   
+
+
+TIA :) ",0,0
+56,2018-8-17,2018,8,17,23,982ylo,Stuck. Can't even install properly (Windows 10),https://www.reddit.com/r/tensorflow/comments/982ylo/stuck_cant_even_install_properly_windows_10/,Alliat,1534517983,"I'm very new to TensorFlow and I'm also fairly new to Windows (I live in MacOS and Linux world). I'm trying to install TensorFlow but it looks like the install didn't take.
+
+Sniplet from Command Prompt:
+
+\---------------------------------------------------------------
+
+\&gt;&gt;&gt; import tensorflow as tf
+
+Traceback (most recent call last):
+
+  File ""C:\\Users\\Alliat\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\tensorflow\\python\\platform\\self\_check.py"", line 47, in preload\_check
+
+ctypes.WinDLL(build\_info.msvcp\_dll\_name)
+
+  File ""C:\\Users\\Alliat\\AppData\\Local\\Programs\\Python\\Python36\\lib\\ctypes\\\_\_init\_\_.py"", line 348, in \_\_init\_\_
+
+self.\_handle = \_dlopen(self.\_name, mode)
+
+OSError: \[WinError 126\] The specified module could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+
+  File ""&lt;stdin&gt;"", line 1, in &lt;module&gt;
+
+  File ""C:\\Users\\Alliat\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\tensorflow\\\_\_init\_\_.py"", line 22, in &lt;module&gt;
+
+from tensorflow.python import pywrap\_tensorflow  # pylint: disable=unused-import
+
+  File ""C:\\Users\\Alliat\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\tensorflow\\python\\\_\_init\_\_.py"", line 49, in &lt;module&gt;
+
+from tensorflow.python import pywrap\_tensorflow
+
+  File ""C:\\Users\\Alliat\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\tensorflow\\python\\pywrap\_tensorflow.py"", line 30, in &lt;module&gt;
+
+self\_check.preload\_check()
+
+  File ""C:\\Users\\Alliat\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\tensorflow\\python\\platform\\self\_check.py"", line 55, in preload\_check
+
+% build\_info.msvcp\_dll\_name)
+
+ImportError: Could not find 'msvcp140.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. You may install this DLL by downloading Visual C++ 2015 Redistributable Update 3 from this URL: [https://www.microsoft.com/en-us/download/details.aspx?id=53587](https://www.microsoft.com/en-us/download/details.aspx?id=53587)
+
+\-------------------------------------------
+
+End Sniplet from Command Prompt
+
+I searched my computer for the msvcp140.dll file and found a few of them. I chose the one that came with the Anaconda install and created an Environment Variable for it's location and retried with no luck. Then I tried copying the file into the Python directory and trying again only to receive a different set of errors ending with: ""Failed to load the native TensorFlow runtime.""  
+
+
+I'm feeling pretty stupid already. The install instructions stated the installation would only need a single pip3 command. Somehow that is too much for me to do right.
+
+P.S. I need to have established functioning object recognition by Monday morning. So far so good, eh?",7,0
+57,2018-8-18,2018,8,18,1,983ymo,Books and Courses to Learn Tensorflow,https://www.reddit.com/r/tensorflow/comments/983ymo/books_and_courses_to_learn_tensorflow/,hey_krish,1534525089,"After doing python for roughly 2 years, I've recently become interested in Tensorflow for machine learning. Does anyone have any recommendations for good books and courses to learn Tensorflow on python.",5,2
+58,2018-8-18,2018,8,18,4,985bf0,"When trying the ""Hello Tensorflow"" python code i get this",https://www.reddit.com/r/tensorflow/comments/985bf0/when_trying_the_hello_tensorflow_python_code_i/,CountJeewb,1534534794,"So i just went through 12 hours of trying to install tensorflow and i finally though i had done it till i tried the ""hello tensorflow"" code which is 
+
+    &gt;&gt;&gt; import tensorflow as tf
+&gt;&gt;&gt; hello = tf.constant('Hello, TensorFlow!')
+&gt;&gt;&gt; sess = tf.Session()
+&gt;&gt;&gt; print(sess.run(hello))
+
+
+when i compiled it in python 3.6 using cmd this is what i got.
+
+2018-08-17 15:36:59.512316: I T:\\src\\github\\tensorflow\\tensorflow\\core\\platform\\cpu\_feature\_guard.cc:141\] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+
+2018-08-17 15:36:59.723277: I T:\\src\\github\\tensorflow\\tensorflow\\core\\common\_runtime\\gpu\\gpu\_device.cc:1405\] Found device 0 with properties:
+
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7335
+
+pciBusID: 0000:01:00.0
+
+totalMemory: 8.00GiB freeMemory: 6.59GiB
+
+2018-08-17 15:36:59.728205: I T:\\src\\github\\tensorflow\\tensorflow\\core\\common\_runtime\\gpu\\gpu\_device.cc:1484\] Adding visible gpu devices: 0
+
+2018-08-17 15:37:00.361005: I T:\\src\\github\\tensorflow\\tensorflow\\core\\common\_runtime\\gpu\\gpu\_device.cc:965\] Device interconnect StreamExecutor with strength 1 edge matrix:
+
+2018-08-17 15:37:00.364078: I T:\\src\\github\\tensorflow\\tensorflow\\core\\common\_runtime\\gpu\\gpu\_device.cc:971\]      0
+
+2018-08-17 15:37:00.365476: I T:\\src\\github\\tensorflow\\tensorflow\\core\\common\_runtime\\gpu\\gpu\_device.cc:984\] 0:   N
+
+2018-08-17 15:37:00.366971: I T:\\src\\github\\tensorflow\\tensorflow\\core\\common\_runtime\\gpu\\gpu\_device.cc:1097\] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6360 MB memory) -&gt; physical GPU (device: 0, name: GeForce GTX 1080, pci bus id: 0000:01:00.0, compute capability: 6.1)
+
+b'Hello, TensorFlow!'
+
+is it supposed to be like this or should it be different?",7,3
+59,2018-8-18,2018,8,18,15,989qr3,8 Things To Do Differently in Tensorflows Eager Execution Mode,https://www.reddit.com/r/tensorflow/comments/989qr3/8_things_to_do_differently_in_tensorflows_eager/,coinmonks,1534574614,,0,13
+60,2018-8-19,2018,8,19,0,98ccin,"Elegant way to create a tensor like [0, 0, 0, 1, 1, 1, 2, 2, 2,..]?",https://www.reddit.com/r/tensorflow/comments/98ccin/elegant_way_to_create_a_tensor_like_0_0_0_1_1_1_2/,PKJY,1534605011,Anyone know a good way to do this?,5,1
+61,2018-8-19,2018,8,19,8,98fxl5,"I have a multi-gpu machine but I think TF is only utilizing one, can anyone help me verify this?",https://www.reddit.com/r/tensorflow/comments/98fxl5/i_have_a_multigpu_machine_but_i_think_tf_is_only/,Xyoloswag420blazeitX,1534635083,,4,2
+62,2018-8-19,2018,8,19,9,98gfjv,NoodleVision: Testing the 5th Training Session!,https://www.reddit.com/r/tensorflow/comments/98gfjv/noodlevision_testing_the_5th_training_session/,spetku,1534639751,,1,13
+63,2018-8-20,2018,8,20,8,98oke8,What's the usage of normalizer_fn in tf.feature_column in TensorFlow,https://www.reddit.com/r/tensorflow/comments/98oke8/whats_the_usage_of_normalizer_fn_in_tffeature/,jingw222,1534720801,"Reading the docs, I run across this code block below from \[TensorFlow Guide\]([https://www.tensorflow.org/guide/estimators](https://www.tensorflow.org/guide/estimators)):
+
+    # Define three numeric feature columns.
+    population = tf.feature_column.numeric_column('population')
+    crime_rate = tf.feature_column.numeric_column('crime_rate')
+    median_education = tf.feature_column.numeric_column('median_education',
+    normalizer_fn=lambda x: x - global_education_mean)
+
+And a couple of things really confused me:
+
+1. where does the `global_education_mean` come from? Is it a `tf.constant`, or `tf.Variable`, or some other intermediate calculation which the doc does not explicitly specify here.
+2. how can I pass an arbitrary transformation function to `normalizer_fn`, which might be a little bit complicated? For example,to normalize inputs with global means and variances first and then do some value clipping, and finally get their log values.",0,2
+64,2018-8-20,2018,8,20,18,98s77z,A complete guide On Tensorflow for Beginners for building machine learning and deep learning solutions using Tensorflow,https://www.reddit.com/r/tensorflow/comments/98s77z/a_complete_guide_on_tensorflow_for_beginners_for/,groundtoearth,1534758033,,0,1
+65,2018-8-20,2018,8,20,20,98syu9,How Tensorflow manages batchs?,https://www.reddit.com/r/tensorflow/comments/98syu9/how_tensorflow_manages_batchs/,theslt,1534766374,"Hi. I wrote a custom layer and also a custom loss for a tensorflow model. The model gets and outputs more than one value. So in both the `CustomLayer_Function` and the `CustomLoss_Function`, i used `tf.split` to use each spliced `Tensor` as a parameter. Here comes the problem. Both  functions work well when the `batch_size` is equal to 1, but because of the `tf.split` method, functions will no longer work on batches of data.
+
+I searched for it and did not find anything useful, So, **How Tensorflow sends batches of data points to a function (layer/loss/anything)?**
+
+ps: My own suspicion is on the -1 dimension in tensor shape. Tensorflow documentation says the None/-1 dimension is for batches of data. But how? should i rewrite the Functions to handle this extra dimension to be compatible with batch sizes grater than 1?",4,3
+66,2018-8-21,2018,8,21,1,98uwow,"Help! Fashion MNIST tutorial, I'm nowhere close to 80%, even with hundreds of passes",https://www.reddit.com/r/tensorflow/comments/98uwow/help_fashion_mnist_tutorial_im_nowhere_close_to/,Alliat,1534781309,,7,1
+67,2018-8-21,2018,8,21,2,98vjx1,Transitioning from shallow learning to reward based Deep Q in Tensorflow with tabular data,https://www.reddit.com/r/tensorflow/comments/98vjx1/transitioning_from_shallow_learning_to_reward/,runedalton,1534785811,"I am in the middle of a performance and accuracy experiment between a few shallow learning algorithms and deep learning algorithms, and both need to solve the same problem and operate from a CSV based data sheet.
+
+Now, I am trying to transition from shallow learning to a Deep Q network in Tensorflow, but have an issue getting started with it.
+
+What I really would like, is an extremely simple reward based script, which can train itself over time based on simple tabular data, with a finite amount of actions to take and predefined rewards for each action on each sample.
+
+Ideally, the sample format could be the following:
+feature1, feature2, feature3, feature4, feature5, feature6
+42, 1, 0.43, 0, 1, 57.59
+11, 1, 2.09, 1, 0, 112.00
+
+Then the actions/rewards could be defined in a separate CSV like this:
+reward for action1, reward for action2, reward for action3
+50, 0, -100
+-30, -10, 20
+
+Meaning if the RL algorithm takes action1 on sample1, it would gain a reward of +50, and if it takes action2 on sample2 it would suffer a -10 penalty.
+
+Now, in shallow learning and with Scikit Learning, this is perhaps one of the simplest way to train an algorithm (perhaps with a few adjustments, as a Deep Q isnt available in shallow learning, to accommodate shallow learning algorithms like Logistic Regression etc.). So I assume there must be a super simple way to train a Reinforcement Learning or other Deep Q Learning algorithm like that in Tensorflow, but I seem unable to find any examples.
+
+Any help would be much appreciated - even if its just a link to some example I might have missed on Google. :)
+
+Thanks!",0,1
+68,2018-8-21,2018,8,21,2,98vtua,[P] TensorFlow.js video and blog series - Deep Learning in the Browser with JavaScript,https://www.reddit.com/r/tensorflow/comments/98vtua/p_tensorflowjs_video_and_blog_series_deep/,blackHoleDetector,1534787679,"- [Click here for the video series only](https://www.youtube.com/playlist?list=PLZbbT5o_s2xr83l8w44N_g3pygvajLrJ-)  
+- [Click here for the blog and video series](http://deeplizard.com/learn/playlist/PLZbbT5o_s2xr83l8w44N_g3pygvajLrJ-)
+
+In this series, we'll learn how to deploy and run models, along with full deep learning applications, in the browser! To implement this cool capability, well use TensorFlow.js (TFJS), TensorFlows JavaScript library, which allows us to build and access models in JavaScript. Topics include client-server deep learning architectures, converting Keras models to TFJS models, serving models with Node.js, building deep learning browser applications, tensor operations, and more!",0,14
+69,2018-8-21,2018,8,21,16,9918j5,How to use jpeg images as datasets on a convolutional neural network on tensorflow?,https://www.reddit.com/r/tensorflow/comments/9918j5/how_to_use_jpeg_images_as_datasets_on_a/,scarletred94,1534837853,I'm still a newbie on machine learning and i am trying to use my own image datasets (jpeg pictures of handwritten characters in Baybayin) that i obtained. However I can't find any tutorial in the internet wherein I can input those images into a convolutional neural network. I'm trying to look in Github but i can't find any specific instructions and codes that might help me.,8,7
+70,2018-8-21,2018,8,21,22,9930gc,Recommendations for new image classification model,https://www.reddit.com/r/tensorflow/comments/9930gc/recommendations_for_new_image_classification_model/,jango1502,1534857130,"I am doing a project where the first thing I have to do is classify custom images to different categories, I want to use a latest model such as Inception v4 or NESnet for the classification part. The problem I am facing is that there are no tutorial on these models or good blog or something from where I can study the model to have better understanding before implementing it.
+
+I need suggestions for
+1. Whether I should use old classification models or look for the latest ones(2016-2017-...) 
+2. I have a custom dataset(cuisines and food dishes images (country specific)) which I am sure is not available in Imagenet challenge, so what should be my approach for this problem",1,1
+71,2018-8-22,2018,8,22,13,99a98p,Looking to retrain tensorflow inception resnet v3 on animated GIFs.,https://www.reddit.com/r/tensorflow/comments/99a98p/looking_to_retrain_tensorflow_inception_resnet_v3/,Arkhaya,1534911577,"I think there is a way but the retrain.py is giving me a problem with the tf.decode.decode_gif(). 
+
+Has anyone come up with a solution or q method to get it working?",1,2
+72,2018-8-22,2018,8,22,17,99bltp,Free eBook: Deep Learning with TensorFlow [PDF],https://www.reddit.com/r/tensorflow/comments/99bltp/free_ebook_deep_learning_with_tensorflow_pdf/,PacktStaff,1534926732,,0,1
+73,2018-8-24,2018,8,24,4,99qegu,Looking for opinions on the newest release,https://www.reddit.com/r/tensorflow/comments/99qegu/looking_for_opinions_on_the_newest_release/,MarkyMark255,1535052460,"Hey all! I'm writing up an article for searchEnterpriseAI\[dot\]com on the recent 1.10 release and the upcoming 2.0 beta. I'd love to get the opinions of TensorFlow users on either/both releases, so please message me if you'd like to share your thoughts!",0,3
+74,2018-8-24,2018,8,24,7,99rrvh,"My Robot, Noodle's First Peek-a-boo With Mommy",https://www.reddit.com/r/tensorflow/comments/99rrvh/my_robot_noodles_first_peekaboo_with_mommy/,spetku,1535062370,,2,20
+75,2018-8-24,2018,8,24,18,99vzzu,How to import Tensorflow using python in windows 8,https://www.reddit.com/r/tensorflow/comments/99vzzu/how_to_import_tensorflow_using_python_in_windows_8/,YishuVohra,1535103361," 
+
+Hi All, I am using Python to develop a sample project.
+
+I am working on windows platform so please help me how i can run below command
+
+import tensorflow I am getting lots of error while loading this particular file I installed the tensorflow using **pip install tensorflow** but its showing various errors. I look of answers on google and applied the solution but still not working Please help me, my project is stuck because of this only.
+
+Thanks in advance.",7,0
+76,2018-8-24,2018,8,24,19,99w6mh,Free PDF eBook: TensorFlow Machine Learning Cookbook,https://www.reddit.com/r/tensorflow/comments/99w6mh/free_pdf_ebook_tensorflow_machine_learning/,PacktStaff,1535105520,,0,1
+77,2018-8-24,2018,8,24,22,99xl6o,Is it correct to take average of testing accuracy obtained for various test data batches?,https://www.reddit.com/r/tensorflow/comments/99xl6o/is_it_correct_to_take_average_of_testing_accuracy/,ByMAster2,1535118777,"So I am sending my test data from the **same dataset** in batches, and then I am calculating the test accuracy by finding the average of those results. But I am having second doubts about this because my testing accuracy is coming out to be greater than training accuracy
+
+Total Number of Testing Samples = 3276
+
+Number of Batches = 3276/40 = 81
+
+-------------------
+    for i in range(81):
+            Global_Data = np.arange(0, 3276)
+            batch3, batch4 = next_batch(40, Training, Class_Training)
+            test = accuracy.eval(feed_dict={x: batch3, y_: batch4, keep_prob: 1.0})
+            avg = avg + test 
+
+    avg_ = (avg/81) #Calculating the average for 81 test results
+    print('Testing Accuracy is ',avg_)",1,3
+78,2018-8-25,2018,8,25,5,9a129f,"Image Recognition: My Robot, Noodle Thinks anyone Wearing my Glasses is Me",https://www.reddit.com/r/tensorflow/comments/9a129f/image_recognition_my_robot_noodle_thinks_anyone/,spetku,1535143793,,1,6
+79,2018-8-25,2018,8,25,23,9a7bxt,How can I retrieve values of weights and biases of retrained layers after MobileNet transfer learning?,https://www.reddit.com/r/tensorflow/comments/9a7bxt/how_can_i_retrieve_values_of_weights_and_biases/,botperson,1535208819,"I've used transfer learning with MobileNet to create an image classifier, following the [Tensorflow for Poets](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/) tutorial.
+
+What I'd like to do is create an array that stores all the weights and biases that make up the retrained layers. I'm not sure how to retrieve these values from the retrained network, or even which parts of the MobileNet are retrained.
+
+As a secondary, but related question, how can I replace these values with my own? (i.e. have an array of values and use them as the weights and biases for the layers that were supposed to be retrained and generate a model with that)
+
+Thank you for the help.",6,2
+80,2018-8-26,2018,8,26,4,9a9mcq,How to make a predictor?,https://www.reddit.com/r/tensorflow/comments/9a9mcq/how_to_make_a_predictor/,rust4yy,1535226780,"I got taught that machine learning is `f(x) = r`, where you can supply *x* and the known corresponding *r* and it creates *f* for you, so you can use it on unknown *x* values and get a predicted value for *r*.
+
+How do I implement this in TensorFlow? The only tutorials I found only do image classifiers etc.
+
+Also, how do I make it so I can have multiple values e.g. *x* and *y* for lets say `f(x, y) = r`",4,0
+81,2018-8-26,2018,8,26,5,9a9xn4,Free servers with 1080Ti for deep learning,https://www.reddit.com/r/tensorflow/comments/9a9xn4/free_servers_with_1080ti_for_deep_learning/,woyoru,1535229312,"There's no catch. We're on very early stage with [https://tensorpad.com](https://tensorpad.com/)  it works pretty well already but we are looking for as much feedback as possible to improve the overall experience and make the product perform better. 
+
+We are offering free 1080Ti GPU instances for deep learning. 
+
+Sign up at [https://dashboard.tensorpad.com/signup](https://dashboard.tensorpad.com/signup) 
+
+\- The instances have 16GB RAM, 4 CPU cores (Ryzen Threadripper), and one 1080Ti GPU, and you can run up to two instances in parallel. Contact us if you need more. 
+
+\- Instances run a customizable JupyterLab deployments (currently there's TensorFlow 1.10, 1.9, 1.8, 1.7 and 1.5 with Keras on CuDNN 9.0, as well as PyTorch 0.4 and prebuilt [fast.ai](https://fast.ai) instance) 
+
+\- You can access the command line and with full root access and use at as regular Linux server 
+
+Our goal is to lower the entry barrier for deep learning so we will work hard to make sure we support the community. We are inviting you to help us learn how we can better support researchers in the field of AI. We want to improve the product, and so we are exploring the community feedback. 
+
+We will be providing free GPU time, reaching out to the registered users and asking for feedback. If this sounds like something that would fit you, please don't hesitate to sign up at [https://dashboard.tensorpad.com/signup](https://dashboard.tensorpad.com/signup) 
+
+If you have any questions, feature requests or any other feedback, reach us using the chat button in dashboard, or drop an email to [support@tensorpad.com](mailto:support@tensorpad.com) 
+
+Thanks for your attention! ",9,29
+82,2018-8-26,2018,8,26,22,9afoyr,I'm new to Python and Tensorflow,https://www.reddit.com/r/tensorflow/comments/9afoyr/im_new_to_python_and_tensorflow/,xbatery,1535291808,"&amp;#x200B;
+
+I want to implement Tensorflow in a Python trading algorithm. How  should I move forward? I've installed Tensorflow CPU with Anaconda, and  would like to start working with it now- what's next? Any courses, pdf's  etc?",4,0
+83,2018-8-26,2018,8,26,23,9afpwd,Whats your take on google colab?,https://www.reddit.com/r/tensorflow/comments/9afpwd/whats_your_take_on_google_colab/,imposter3c,1535292044,I would like to hear your opinion on what you think about google CoLab? Is there a reason youll never use this free tool?,4,5
+84,2018-8-27,2018,8,27,0,9ag7xq,Tensorflow Basic LSTM cell input,https://www.reddit.com/r/tensorflow/comments/9ag7xq/tensorflow_basic_lstm_cell_input/,user01052018,1535296307,"Just having a small doubt. Suppose I want to make an encoder for encoding sentences of length 5.
+
+Example wise:- ""I am a good boy"" I will tokenize it and will convert them to some word vectors of dimension 1x 4.
+
+`[[0 1 2 3],[4,5,6,7],[8,9,10,11][12,13,14,15],[16,17,18,19]]`
+
+`I              am         a         good            boy`
+
+`[[20 21 22 23],[24,25,26,27],[28,29,30,31][32,33,34,35],[36,37,38,39]]`
+
+  `He                is          very         bad            person`
+
+&amp;#x200B;
+
+Now I want to codify each of these sentence.  I am confused regarding initializing the LSTM cell and how to pass the data to it. 
+
+&amp;#x200B;
+
+For example,
+
+1.  Should I pass the data like this?
+
+`[`
+
+`[[0 1 2 3],[4,5,6,7],[8,9,10,11][12,13,14,15],[16,17,18,19]],`
+
+`[[20 21 22 23],[24,25,26,27],[28,29,30,31][32,33,34,35],[36,37,38,39]]`
+
+`]`
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+or
+
+`[`
+
+`[[0 1 2 3],[20,21,22,23]],`
+
+`[[4,5,6,7],[24,25,26,27]],`
+
+`[[8,9,10,11],[28,29,30,31]],`
+
+`....`
+
+`]`
+
+&amp;#x200B;
+
+2. Also what will be the output in this case?  ***Suppose I want to have LSTMcell with 16 hidden units.*** 
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+&amp;#x200B;",0,1
+85,2018-8-27,2018,8,27,2,9ah1vy,Intro to tensor flow that isn't just running other people's scripts?,https://www.reddit.com/r/tensorflow/comments/9ah1vy/intro_to_tensor_flow_that_isnt_just_running_other/,vibrunazo,1535302857,"I've done the basic MNIST tutorial on the official docs. I've done some of the YouTube videos that showed up when googling. I have done the (highly recommend here) tensor flow for poets.
+
+But all of those share a common problem: they're basically ""A run this command to download this premade data set"". Then ""B run this script I made for you"". That's it. See those numbers on the screen? That's tensor flow. So, have you learned tensor flow yet? No I'm pretty sure I have not.
+
+I still have no clue how to adapt what I ""learned"" to different use cases. I have no idea how to use my own data sets and solve my own problems. I was particularly interested in object detection. But even the custom object detection tutorials I found have the same problem. Literally all of them use a third party script from a guy who made a raccoon detection and just tell me to run his script with my images instead of raccoons. But that isn't teaching me *how* the API works. It just telling me to run someone else's script. I have no idea how his script loads images to form tfrecords (which is apparently something I have to understand, but I still don't).
+
+Is there any guide, tutorial, video, whatever, that actually teaches how to use the API instead of just telling me to run other people's scripts?",5,3
+86,2018-8-27,2018,8,27,5,9aijuz,Changing the batch size of a frozen graph (.pb)?,https://www.reddit.com/r/tensorflow/comments/9aijuz/changing_the_batch_size_of_a_frozen_graph_pb/,MogwaiAllOnYourFace,1535314078,"I've looked all over for this and I can't find anything but I think that may be due to me using the incorrect language so bare with me.
+
+&amp;#x200B;
+
+I have trained a model, and have it frozen as a .pb file - within tensorboard this is looking exactly how it should.
+
+&amp;#x200B;
+
+The problem I have is it is set with a variable batch size such that the input dimension is \[?,480,360,3\].
+
+&amp;#x200B;
+
+Now I am trying to convert to a TF Lite file, and it's having a real issue with this, and I've read that TF Lite wants a fixed batch size to optimise which is fine. It is a real time model so I want to set the batch size to 1.
+
+&amp;#x200B;
+
+So I am looking for a way, preferably from the command line as I'd rather avoid retraining, to change all the questions marks in the graph to ones.
+
+&amp;#x200B;
+
+I've looked all over, it seems like it is something that would be quite common to me so I'm confused as to why I can't find anything about it",7,5
+87,2018-8-27,2018,8,27,22,9aosb6,How does my optimizer know which variables to perform gradient descent on when i call optimizer.minimize(cost.fn),https://www.reddit.com/r/tensorflow/comments/9aosb6/how_does_my_optimizer_know_which_variables_to/,ady_anr,1535375344,,3,0
+88,2018-8-28,2018,8,28,2,9aqowf,Is there a way to download tensorboard plots?,https://www.reddit.com/r/tensorflow/comments/9aqowf/is_there_a_way_to_download_tensorboard_plots/,CognitiveDiagonal,1535389201,"Is there a way to download the plots that tensorboard shows in the scalar dashboard?
+
+I've seen them used multiple times as images in presentations or blogs but I can't find an option to download them and after some googling I didn't find anything. I know I can download the csv or json with the values ploted, but given that tensorboard already plots it it'd be nice to simply download it as an image.
+
+Thanks in advance!!",5,3
+89,2018-8-29,2018,8,29,6,9b2vah,I have problems import Tensorflow with gpu backend,https://www.reddit.com/r/tensorflow/comments/9b2vah/i_have_problems_import_tensorflow_with_gpu_backend/,Dropcunts,1535490772,"I always get the same error. Can anybody help please? 
+
+&amp;#x200B;
+
+           _pywrap_tensorflow_internal = swig_import_helper()
+          File ""C:\Python\Python36\lib\site-packages\tensorflow\python\pywrap_tensorflow_internal.py"", line 17, in swig_import_helper
+            return importlib.import_module(mname)
+          File ""C:\Python\Python36\lib\importlib\__init__.py"", line 126, in import_module
+            return _bootstrap._gcd_import(name[level:], package, level)
+        ImportError: DLL load failed: A dynamic link library (DLL) initialization routine failed.
+    
+    
+        Failed to load the native TensorFlow runtime.
+    
+        See https://www.tensorflow.org/install/install_sources#common_installation_problems
+    
+        for some common reasons and solutions.  Include the entire stack trace
+        above this error message when asking for help.
+
+&amp;#x200B;",6,2
+90,2018-8-30,2018,8,30,0,9bahr0,Where can I find labled training data?,https://www.reddit.com/r/tensorflow/comments/9bahr0/where_can_i_find_labled_training_data/,WarrantyVoider,1535557984,"Hi,
+im playing around with the object detection part of tensorflow and already successfully trained my first model to detect cars, so thats cool already. My plan is to detect and count cars in a webcam feed, but I noticed my results arent very pretty yet (multiple boxes around a car instead of one) and I suspect my training data isnt good enough.
+I downloaded 110 images of cars via google image search, labeled them per hand and then split them up in 10 test images and 100 training images. But it seems the training doesnt want to go under 2% loss, so I guess I need more or better data. 
+I assume im not the first person that wants to detect cars, and I wanna learn how to train it myself, so I dont wanna use a ready-to-use model... are there any places where I could download pre labeled training images of f.e. cars? If not, what should I take care of when labeling the images myself to get better results? simply ""more""? thanks for your time in advance
+
+greetz",6,1
+91,2018-8-30,2018,8,30,1,9baqp2,How to use Keras with tfrecords,https://www.reddit.com/r/tensorflow/comments/9baqp2/how_to_use_keras_with_tfrecords/,smokrow,1535559657,,0,11
+92,2018-8-30,2018,8,30,3,9bc18c,I am almost defeated by an error in loading variables. It has persisted for months and I cannot solve it. Can anyone please look at my stackoverflow link and help me determine the issue?,https://www.reddit.com/r/tensorflow/comments/9bc18c/i_am_almost_defeated_by_an_error_in_loading/,Xyoloswag420blazeitX,1535568386,https://stackoverflow.com/questions/52084151/tensorflow-error-when-loading-model-trained-using-tf-layers-api,3,5
+93,2018-8-30,2018,8,30,16,9bhmrh,Image Classification,https://www.reddit.com/r/tensorflow/comments/9bhmrh/image_classification/,jango1502,1535615247,"I am starting a new project on image classification. I have tried using transfer learning on my training dataset but didn't work well...tried changing hyperparameters too but no sign of improvement shown. Accuracy for all the epochs were exactly same and it seems the model is not training at all.
+
+So I have thought of training a new model, a simplest CNN model with three convolutional layers with fully connected layers and pooling layers. 
+
+I will train my model from scratch on my dataset
+
+What should be my approach ?? Can anyone give me some suggestions ?? What model I can use to train from scratch ?? Anything good that I should know ?? ",14,1
+94,2018-8-31,2018,8,31,6,9bnvve,Best way of importing scipy sparse matrices (32MB each when dense) as a dataset?,https://www.reddit.com/r/tensorflow/comments/9bnvve/best_way_of_importing_scipy_sparse_matrices_32mb/,elpaw,1535666356,"I have a folder containing 100,000 files (let's call them images), each one a sparse matrix (stored in numpy's npz format). Each image is 32MB when unsparsified.
+
+I wish to use these as a training dataset in tensorflow(/keras).
+
+They are too large to load completely into memory, so I would like batches of them loaded at a time. A batch of N images is randomly selected from the files on disk, then loaded, *some processing here*, fed into training session.
+
+Does a solution for this already exist somewhere out there?",4,3
+95,2018-8-31,2018,8,31,23,9btzhk,How Do I Use My Retrained Inception_v3 Model?,https://www.reddit.com/r/tensorflow/comments/9btzhk/how_do_i_use_my_retrained_inception_v3_model/,PhoebusElpollo,1535725057,"when I use the command on the website, it doesn't work, I get a bunch of errors that all end in:```
+ ; No such process
+         [[Node: file_reader = ReadFile[_device=""/job:localhost/replica:0/task:0/device:CPU:0""](file_reader/filename)]]
+```
+I did change out the image path to my own image, please help, I have been stuck on this for a while now
+",8,1

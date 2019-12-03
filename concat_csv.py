@@ -20,4 +20,11 @@ def concat_csv(subreddit):
     combined_csv = pd.concat([pd.read_csv(f) for f in all_filenames ])
 
     # 하나로 합친 후 csv로 저장
-    combined_csv.to_csv( "combined_csv.csv", index=False, encoding='utf-8-sig')
+    filename = "../combined/{}.csv".format(subreddit)
+    combined_csv.to_csv(filename, index=False, encoding='utf-8-sig')
+
+# todo = ['aiyu', 'bangtan', 'deeplearning', 'exo', 'Got7', 'kpop', 'kpoppers', 'MachineLearning', 'red_velvet', 'snsd', 'twice']
+# todo = ['datascience', 'computerscience', 'tensorflow']
+# for task in todo:
+#     os.chdir('D:\디렉토리 이름')
+#     concat_csv(task)

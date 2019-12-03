@@ -1,0 +1,2251 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2019-11-1,2019,11,1,19,dq2k8b,Can anyone please help me with adding a crf_forward() layer to a Sequential model?,https://www.reddit.com/r/tensorflow/comments/dq2k8b/can_anyone_please_help_me_with_adding_a_crf/,Microbot_,1572605366,"Hello everyone,
+
+I am trying to use tensor flow 2 to develop a simple model for naked entity recognition. For that I have been using a Sequential model and then added layers to it. I want to add crf layer at the end inorder to get the output but I am not sure how to do that. If it was with keras I know what to do , like ill first define a model and then add layers to it. Then ill create a crf object from CRF class and then Pass my model to the object. I am not sure how to do this.
+
+I have tried following similar way as to create a crf object but I get an error saying ""missing three required position al arguments"".
+Can anyone please help me how to implekent crf in tensor flow model? Thank you.",2,2
+1,2019-11-1,2019,11,1,20,dq35u7,Getting started with tensorflow JS project,https://www.reddit.com/r/tensorflow/comments/dq35u7/getting_started_with_tensorflow_js_project/,StressedOutBox,1572609088,"So, I'm looking to get started with a JS project. I'm looking to create a gesture based image recognition tool where if I preform X gesture it would preform Y action. However, I'm not quite sure how it works. So from my current understanding, I'll need to take pictures of me preforming that gesture and than have the dataset be used to detect the said gesture? 
+
+&amp;#x200B;
+
+Could someone also provide me a place where I can get started because this is quite confusing for a beginner like me.",2,5
+2,2019-11-2,2019,11,2,8,dqcc2a,"Possible to add tf.signal.mfccs_from_log_mel_spectrograms as a custom ""preprocessing""-layer""?",https://www.reddit.com/r/tensorflow/comments/dqcc2a/possible_to_add_tfsignalmfccs_from_log_mel/,goodiegoodgood,1572651197,"I've been getting my feet wet with Tensorflow in the last weeks, and have build some sequential models. I would like to add the mfcc-converison *into the model* as a first layer, is that possible? 
+
+It would be really nice if I could feed the network raw sound-data (PCM) and convert it to mfcc before it reaches the CNN-layer.  
+Thanks in advance for any help :)",4,2
+3,2019-11-2,2019,11,2,17,dqh8lg,Starting point for a continous sign language recognition in tensorflow.js?,https://www.reddit.com/r/tensorflow/comments/dqh8lg/starting_point_for_a_continous_sign_language/,R1BNC,1572681659,"Hi, I need some advise to start my project, it is a sign language recognition (not per letter) but per word/phrase. I want to start this project in tensorflow.js? Will that be possible?
+
+Is video captioning is a good starting point or just a gesture classification?
+
+The datasets will be a person performing the  sign languages per word/phrase ( I may need to create my own since no one has done this before). What is the best method to use? 3D CNN (will this work with TF.js?) 
+
+I found a github, it is the alexa sign language recognition but the author said that he used K nearest neighbors, but it is only limited to few data set. I would want just the basic sign language words. I am just beginning tensorflow.
+
+Thank You",0,7
+4,2019-11-3,2019,11,3,9,dqtd05,How do I operate an older version of tensorflow when I am already running on tf 2.0?,https://www.reddit.com/r/tensorflow/comments/dqtd05/how_do_i_operate_an_older_version_of_tensorflow/,TYLER_DURDEN_JIMMY,1572742202,"Im trying to run on tf 1.14 because the lab I will be working in has been coding on tf 1. However, when I am using Jupyter Notebook, stuck with tf 2.0. Any suggestions?",11,2
+5,2019-11-4,2019,11,4,5,dr61p6,Input function - struggling to work with variable-length arrays/lists,https://www.reddit.com/r/tensorflow/comments/dr61p6/input_function_struggling_to_work_with/,wuthuong,1572812264,"Hi there, I have a dataset with a number of different shapes and sizes that I want to use to train a model.
+
+The data is in a pandas dataframe. Some of the features are lists containing a variable amount of string items. For example one data point could look like this: \['item1', 'item2', 'item3'\] while another may look like: \['item1'\] or sometimes even : \[\] 
+
+From what I have gathered, I need to use from\_generator for that specific column to build a dataset. I have done this by defining a very simple generator function:
+
+  def array\_generator(dataframe\_column):
+
+for i in dataframe\_column:
+
+yield (i)
+
+And then: 
+
+new\_ds = tf.data.Dataset.from\_generator(lambda: array\_generator(dataframe\[column\_name\]), (tf.string), (tf.TensorShape(\[None\])))
+
+My thinking was that the tf.TensorShape(\[None\]) would take care of the variable-length aspect of my data, but when I go ahead and turn it into an iterator and use next it flags an error.
+
+new\_ds = new\_ds.batch(10).take(1).\_\_iter\_\_()
+
+next(new\_ds)
+
+ InvalidArgumentError: Cannot batch tensors with different shapes in component 0. First element had shape \[1\] and element 1 had shape \[3\]. \[Op:IteratorGetNextSync\] 
+
+Appreciate if someone can offer advice and show me where I am going wrong with this. Thanks in advance!",9,3
+6,2019-11-5,2019,11,5,4,drmg2n,Use custom imageset in tutorial,https://www.reddit.com/r/tensorflow/comments/drmg2n/use_custom_imageset_in_tutorial/,ZerxXxes,1572894754,"Hi, I am reading through the tutorials and want to try the [DCGAN](https://www.tensorflow.org/tutorials/generative/dcgan) but with a custom image-set.
+
+As I understand it the 
+
+    tf.keras.datasets.mnist.load_data()
+
+function will return the images as some kind of numpy arrays?
+
+I have a folder of png-images, how can I process them to the same kind of arrays as the rest of the code expects?",2,1
+7,2019-11-5,2019,11,5,6,dronx6,Why does uint8 quantized model take longer to infer one image than original model?,https://www.reddit.com/r/tensorflow/comments/dronx6/why_does_uint8_quantized_model_take_longer_to/,Phat_N_Sassy33,1572903477,"Hello!
+
+I recently trained a CNN on MNIST. I used quantization aware training and then quantized to a uint8 model using the tf-lite converter. Can anyone explain why the average time to run .predict on the original model is shorter than running .invoke on the quantized model? This is against my intuition because I assumed the quantized model would run faster because it uses integer math instead of floating point math.
+
+Thanks!",4,1
+8,2019-11-5,2019,11,5,7,drp8tm,Nice article on tensorflow 2 and Learning Rates,https://www.reddit.com/r/tensorflow/comments/drp8tm/nice_article_on_tensorflow_2_and_learning_rates/,shawemuc,1572905905,,1,6
+9,2019-11-5,2019,11,5,15,drvkw0,Why UNet inference time grows when I add more classes for segmentation?,https://www.reddit.com/r/tensorflow/comments/drvkw0/why_unet_inference_time_grows_when_i_add_more/,gogasius,1572936799,"I don't understand why inference time grows. I trained UNet with mobilenetv2 backbone for single class segmentation and got ~0.02 inference time for 512x512 rgb image. I added output classes for same model and got ~0.024 time for 6 classes and also tested time for 100 classes with ~0.1 result. I measured time in python tf 1.14 and using C API but both results are comparable. 
+
+The problem is that I don't understand why inference time grows and how to avoid it if it is possible. I thought that the number of output classes should not influence inference time significantly because the model remains the same and only last layer changes, so the number of performed operations should not increase too much. So is this normal or I have some hardware or code problems?
+
+My computer configuration is: i7-6700k, 64 GB RAM, geforce GTX 1080.",2,2
+10,2019-11-5,2019,11,5,18,drx2dn,Tensorboard flush crashes?,https://www.reddit.com/r/tensorflow/comments/drx2dn/tensorboard_flush_crashes/,Jandevries101,1572947697,"In tensorboard/tensorboardx I am facing a crash in my run without an Error. Its weird And the run Just stops/freezes, script doesnt end But it Also doesnt give me an Error. I calculated that this happens around 40% of my runs so Its not always But it happens to often. 
+
+I also found out that the moment of crash is at the flush time of tensorboard of 2 minutes into the run aka 120 seconds. Are there any known issues of tensorboard freezing your script? I think it may have something to do that Its unable to write the event files. On a crash it shows that he has written the files in a map, But if youd try to delete them it would Say the file is still in use, thus making me think it crashed mid writing. 
+
+Does anyone have an idea?",0,1
+11,2019-11-5,2019,11,5,22,drz4fk,Why does TensorFlow not provide AVX2/FMA implementations out of the box in the default wheel?,https://www.reddit.com/r/tensorflow/comments/drz4fk/why_does_tensorflow_not_provide_avx2fma/,Dobias,1572960422,"When working without a GPU, one quickly runs into `Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA` messages. To improve performance, it's helpful to find and install a wheel that was compiled with those CPU instructions (or compile manually).
+
+Since the library should work on older CPU architectures too, it, of course, does not make sense to only support new CPUs.
+
+Would it be possible for the TensorFlow binaries to have pre-compiled versions of the core algorithms for multiple CPU-instruction sets and then dynamically dispatch (adjusting some function pointers) after checking for the available CPU while starting up? I'm not familiar with how the library is built, but from an ivory-tower perspective, it sounds like a good solution to me.",5,3
+12,2019-11-5,2019,11,5,23,drzt1p,How did TensorFlow increase its convolution-on-CPU performance that much between versions 1.13.2 and 1.15.0?,https://www.reddit.com/r/tensorflow/comments/drzt1p/how_did_tensorflow_increase_its_convolutiononcpu/,Dobias,1572963773,"I've noticed, TensorFlow has become a lot faster. I verified using the following test code:
+
+    # conv2d_performance_test.py
+    import datetime
+
+    import numpy as np
+    import tensorflow as tf
+    from tensorflow.keras.layers import Input, Conv2D
+    from tensorflow.keras.models import Model
+
+    inputs = Input(shape=(1024, 1024, 3))
+    x = Conv2D(128, (3, 3))(inputs)
+    model = Model(inputs=inputs, outputs=x)
+    model.compile(loss='categorical_crossentropy', optimizer='nadam')
+
+    data_in = np.random.normal(size=(1, 1024, 1024, 3))
+    model.predict(data_in)
+    print(f'tensorflow=={tf.__version__}')
+    for _ in range(5):
+        start_time = datetime.datetime.now()
+        model.predict(data_in)
+        duration = datetime.datetime.now() - start_time
+        print('Forward pass took {} s.'.format(duration.total_seconds()))
+
+Running with different TensorFlow versions:
+
+    sudo pip3 uninstall tensorflow -y
+    sudo pip3 install tensorflow==1.13.1
+    CUDA_VISIBLE_DEVICES='' taskset --cpu-list 1 python3 conv2d_performance_test.py
+    sudo pip3 uninstall tensorflow -y
+    sudo pip3 install tensorflow==1.13.2
+    CUDA_VISIBLE_DEVICES='' taskset --cpu-list 1 python3 conv2d_performance_test.py
+    sudo pip3 uninstall tensorflow -y
+    sudo pip3 install tensorflow==1.14.0
+    CUDA_VISIBLE_DEVICES='' taskset --cpu-list 1 python3 conv2d_performance_test.py
+    sudo pip3 uninstall tensorflow -y
+    sudo pip3 install tensorflow==1.15.0
+    CUDA_VISIBLE_DEVICES='' taskset --cpu-list 1 python3 conv2d_performance_test.py
+    sudo pip3 uninstall tensorflow -y
+    sudo pip3 install tensorflow==2.0.0
+    CUDA_VISIBLE_DEVICES='' taskset --cpu-list 1 python3 conv2d_performance_test.py
+
+Results (on an Intel Core i5-6600 CPU @ 3.30GHz):
+
+    tensorflow==1.13.1
+    Forward pass took 0.949945 s.
+    Forward pass took 0.952494 s.
+    Forward pass took 0.948515 s.
+    Forward pass took 0.950895 s.
+    Forward pass took 0.96188 s.
+
+    tensorflow==1.13.2
+    Forward pass took 0.943243 s.
+    Forward pass took 0.947731 s.
+    Forward pass took 0.942158 s.
+    Forward pass took 0.94615 s.
+    Forward pass took 0.946767 s.
+
+    tensorflow==1.14.0
+    Forward pass took 0.758585 s.
+    Forward pass took 0.75338 s.
+    Forward pass took 0.749206 s.
+    Forward pass took 0.74818 s.
+    Forward pass took 0.74659 s.
+
+    tensorflow==1.15.0
+    Forward pass took 0.518368 s.
+    Forward pass took 0.520312 s.
+    Forward pass took 0.517211 s.
+    Forward pass took 0.520846 s.
+    Forward pass took 0.51732 s.
+
+    tensorflow==2.0.0
+    Forward pass took 0.59772 s.
+    Forward pass took 0.597734 s.
+    Forward pass took 0.595437 s.
+    Forward pass took 0.595418 s.
+    Forward pass took 0.587147 s.
+
+`0.95 s` to `0.59 s` is pretty amazing progress to me!
+
+Since I'm maintaining [a library](https://github.com/Dobiasd/frugally-deep) that also needs fast convolution on CPU, I'm very interested in learning what the TensorFlow developers did to achieve that. The commit history of the TensorFlow repository is very long, so I was hoping for somebody who can point me in the right direction. :D",7,16
+13,2019-11-6,2019,11,6,2,ds2rkj,Training tensor2tensor on my own dataset?,https://www.reddit.com/r/tensorflow/comments/ds2rkj/training_tensor2tensor_on_my_own_dataset/,kausarahmad,1572976261,"I'm working on a project where I'm required to train T2T on a custom dataset.
+
+I've looked at tensor2tensor's own brief documentation ([https://tensorflow.github.io/tensor2tensor/new\_problem.html](https://tensorflow.github.io/tensor2tensor/new_problem.html)) on how to do this. I have also browsed the short amount of implementations available online which are either unclear or incomplete.
+
+As you can infer by now, I haven't found a very clear solution yet. Why is there a general lack of discussion about this? Have any of you trained t2t on your own dataset?",0,4
+14,2019-11-6,2019,11,6,3,ds3d7g,Creating a Machine Learning Framework on the top of Tensorflow,https://www.reddit.com/r/tensorflow/comments/ds3d7g/creating_a_machine_learning_framework_on_the_top/,Kaljit,1572978778,"Hey Wizards, I am creating a Machine Learning a Framework on the top of Tensorflow to accelerate the compute involved on GPUs. Any suggestions are welcome!!!!
+
+Here's the GitHub link of my code: 
+
+ [https://github.com/kaljitism/TensorML](https://github.com/kaljitism/TensorML)",2,0
+15,2019-11-6,2019,11,6,12,dsals2,How to incorporate preprocessing pipeline into Tensorflow serving?,https://www.reddit.com/r/tensorflow/comments/dsals2/how_to_incorporate_preprocessing_pipeline_into/,EthanPhan,1573011437,"I've just fine-tuned a text classification model using DistilBertT from HuggingFace. Now I want to serve my model with tensorflow serving but the problem is I don't know how to add the preprocessing pipeline ( tokenization, truncating , etc) into the server. 1 solution that I know is using another service for data preprocessing but It's not an elegant solution. Any idea how to solve this? can I use tf.Transform to construct a pipeline with arbitrary python code?",4,1
+16,2019-11-6,2019,11,6,17,dsdpk7,Detecting hand-marked video clips with TensorFlow,https://www.reddit.com/r/tensorflow/comments/dsdpk7/detecting_handmarked_video_clips_with_tensorflow/,smlaccount,1573030725,,0,6
+17,2019-11-6,2019,11,6,22,dsgmj1,Help with tensorboard,https://www.reddit.com/r/tensorflow/comments/dsgmj1/help_with_tensorboard/,Ste29ebasta,1573048539,"Hi, i'm trying to learn tensorboard and tensorflow probability, so for this reason i was looking at the examples page and in particular at this tutorial:
+
+ [https://github.com/tensorflow/probability/blob/master/tensorflow\_probability/examples/cifar10\_bnn.py](https://github.com/tensorflow/probability/blob/master/tensorflow_probability/examples/cifar10_bnn.py) 
+
+&amp;#x200B;
+
+I understood more or less the ratio, but i cannot show its results on tensorboard, could you help me please? :)",3,1
+18,2019-11-7,2019,11,7,2,dsjrn6,"Help with an error: ""Allocator (GPU_0_bfc) ran out of memory trying to allocate when using pure tensorflow vs no error on more complex model on keras """,https://www.reddit.com/r/tensorflow/comments/dsjrn6/help_with_an_error_allocator_gpu_0_bfc_ran_out_of/,lior_A_,1573062169,"Hi,
+
+I'm trying to implement things I wrote in keras in tensorflow 1.14 but the thing is I get ""ran out of memory"" error but the thing is I used more complex models in keras(tf backend) with the same GPU (nvidia geforce 1050ti) and I don't get this error with the same batch size and dataset, can anyone explain why is that?
+
+I've attached a link to my question in stackoverflow(no one have yet responded to this question)
+
+how can I solve it without reducing my batch size?
+
+thanks!",3,2
+19,2019-11-7,2019,11,7,7,dsnit4,Tensorboard freezing script without errors?,https://www.reddit.com/r/tensorflow/comments/dsnit4/tensorboard_freezing_script_without_errors/,Jandevries101,1573078159,"Hi,
+
+In my code I am Just using the most basic tensorboard writing code And it works fine, however it freezes the code usually around flush time. Its either tje first if not later into the run. The code stops without any shown errors And When I try to delete the event file it says there still in use. How is this possible And what is causing it?
+
+Thanks",0,2
+20,2019-11-8,2019,11,8,1,dt047k,What should i learn next?,https://www.reddit.com/r/tensorflow/comments/dt047k/what_should_i_learn_next/,gokulPRO,1573144230," I started learning sci-kit learn in python,then i started Tensorflow-Gpu. I managed to learn linear regression,non linear regression,CNN,And some neural networks with Keras. I am now actually interested in making an AI that can play games.I came to know about reinforcement learning in Tensorflow with deep-Q-learning and Genetic Algorithim . What is the difference in their usage and advantages?Which should i learn first or should i learn anything before this as an prerequisite.And also is there any other way to make an AI that can play games like snake,Mario where the AI needs to survive and gain points.",4,1
+21,2019-11-8,2019,11,8,21,dtevo0,Tf.session running once,https://www.reddit.com/r/tensorflow/comments/dtevo0/tfsession_running_once/,afiqarifen95,1573216782,"I'm currently learning TensorFlow as my hobby and very new to Python.
+I'm trying to do a project when a camera snaps a picture and goes to the TensorFlow directory, (the Object detection andtf.sessionalready done running).
+It will detect the new image without running thetf.sessionagain. I don't want to use real-time object detection. Thank you for the help!",2,1
+22,2019-11-9,2019,11,9,3,dtjq6a,Shape != int_shape,https://www.reddit.com/r/tensorflow/comments/dtjq6a/shape_int_shape/,decrement--,1573238568,"Im trying to debug this backend code, and I have a tensor of shape (None, 10, 16, None)
+
+When I call int_shape, I get that, but if I call array_ops.shape(x), all I get is (None, None, None, None)
+
+Anyone know why this is?",2,1
+23,2019-11-9,2019,11,9,4,dtkjf1,Tensorflow with an AMD GPU in 2019/2020,https://www.reddit.com/r/tensorflow/comments/dtkjf1/tensorflow_with_an_amd_gpu_in_20192020/,mobo392,1573241927,"Does anyone have a link to someone describing their experience with tensorflow on a recent AMD GPU on Linux? Eg, the Radeon VII.
+
+I already have an AMD RX 580 in the machine for display, this new GPU would be added for solely compute purposes. Ideally it would be a step-by-step guide to installing the drivers, dependencies, etc.",12,1
+24,2019-11-9,2019,11,9,7,dtncxn,Help Installing tensorflow,https://www.reddit.com/r/tensorflow/comments/dtncxn/help_installing_tensorflow/,WesReynolds,1573253759,"I am using Python 3.7 in Visual Studio Code.
+
+I (thought) I installed tensorflow. When I import tensorflow, I get no compiler errors. However I am having trouble accessing some of the methods. 
+
+Here is my code:
+
+import tensorflow as tf
+tf.placeholder(tf.float32, ([None, 784])
+
+I dont get a compiler error for tf.float32
+I only get an error for tf.placeholder()
+
+Any ideas why?",3,1
+25,2019-11-9,2019,11,9,15,dtsa8s,Cost is exploding! Can anyone help me with this code. I am trying to implement a basic logistic regression code using tensorflow.,https://www.reddit.com/r/tensorflow/comments/dtsa8s/cost_is_exploding_can_anyone_help_me_with_this/,_-K1L4-_,1573280372," `import tensorflow as tf`
+
+`import numpy as np`
+
+&amp;#x200B;
+
+`(x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data(path='mnist.npz')`
+
+`x_train,x_test = tf.reshape(x_train,[len(x_train),784]),tf.reshape(x_test,[len(x_test),784])`
+
+`y_train,y_test = tf.one_hot(y_train,10),tf.one_hot(y_test,10)`
+
+&amp;#x200B;
+
+`learning_rate = 0.001`
+
+`training_epochs = 25`
+
+`batch_size = 100`
+
+`total_batch = int(60000/batch_size)`
+
+`display_step = 1`
+
+&amp;#x200B;
+
+`#tf Graph Input`
+
+&amp;#x200B;
+
+`x = tf.placeholder(tf.float64,[None,784])`
+
+`y = tf.placeholder(tf.float64,[None,10])`
+
+&amp;#x200B;
+
+`W = tf.Variable(np.random.randn(784,10))`
+
+`b = tf.Variable(np.random.randn(1,10))`
+
+&amp;#x200B;
+
+`pred = tf.nn.softmax(tf.add(tf.matmul(x,W),b))`
+
+&amp;#x200B;
+
+`cost = tf.reduce_mean(-tf.reduce_sum(tf.multiply(y,tf.log(pred)),1))`
+
+&amp;#x200B;
+
+`optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost)`
+
+&amp;#x200B;
+
+`init = tf.global_variables_initializer()`
+
+&amp;#x200B;
+
+`with tf.Session() as sess:`
+
+[`sess.run`](https://sess.run)`(init)`
+
+`X_train,X_test =` [`sess.run`](https://sess.run)`(x_train).astype('float64'),`[`sess.run`](https://sess.run)`(x_test).astype('float64')`
+
+`Y_train,Y_test =` [`sess.run`](https://sess.run)`(y_train).astype('float64'),`[`sess.run`](https://sess.run)`(y_test).astype('float64')`
+
+
+
+`for epoch in range(training_epochs):`
+
+`avg_cost = 0`
+
+`for i in range(total_batch):`
+
+`batch_x,batch_y = X_train[i*batch_size:(i+1)*batch_size],Y_train[i*batch_size:(i+1)*batch_size]`
+
+
+
+`_,c =` [`sess.run`](https://sess.run)`([optimizer,cost],feed_dict = {x:batch_x,y:batch_y})`
+
+
+
+`avg_cost += c/total_batch`
+
+
+
+
+
+
+
+`print(""Optimization Finished!"")`",3,1
+26,2019-11-10,2019,11,10,11,du5fhe,Tensorflow 1.13.1 packages do not match the hashes?,https://www.reddit.com/r/tensorflow/comments/du5fhe/tensorflow_1131_packages_do_not_match_the_hashes/,doopdooperofdopping,1573351688,"I'm having an issue with pip3 installing tensorflow version 1.13.1 onto a Raspberry Pi Zero W. It is an Linux armv6l.
+
+Keep getting ""Packages do not match the hashes"".
+
+What can I do to resolve this?",2,1
+27,2019-11-10,2019,11,10,12,du6ib1,How can I keep the gradient of my tensor when converting from a tf.float32 to tf.int32?,https://www.reddit.com/r/tensorflow/comments/du6ib1/how_can_i_keep_the_gradient_of_my_tensor_when/,kashiman290,1573357879,"Hi everyone! I am currently trying to build a neural network that requires the use of a tf.gather function from the output of a float32 type tensor. However, the problem is that I lose my gradients through the model after using tf.cast, which I am sure is something that many people have come across before. My question is, how can I take a tf.float32 type Tensor, and change its datatype to a tf.int32 tensor such that I can use it in tensorflow functions that require integer inputs, such as tf.linspace or tf.gather? An extremely simplified example of what I am doing is seen below:
+
+sin_tensor = tf.sin(x)
+
+sin_tensor = tf.math.round(sin_tensor)
+
+sin_tensor = tf.cast(sin_tensor, tf.int32)
+
+tf.gather(other_input, sin_tensor)
+
+The problem comes from the sin_tensor = tf.cast(sin_tensor, tf.int32). Is there any way I can get around this problem? Thanks!",2,1
+28,2019-11-10,2019,11,10,13,du6muq,Tensorflow 1.14 / Ubuntu 18.04 LTS / RTX 2070 Super / CUDA 10.0,https://www.reddit.com/r/tensorflow/comments/du6muq/tensorflow_114_ubuntu_1804_lts_rtx_2070_super/,bonie10,1573358620,"**GPU:** RTX 2070S 
+
+**Operating System &amp; Version:**  Ubuntu 18.04.03 LTS
+
+**GPU Drivers:** nvidia-driver-430
+
+**Tensorflow Version:**  tensorflow-gpu==1.14
+
+**Description of Problem:**
+
+I have been trying to install tensorflow for the past week and haven't been successful. I have wiped out my system 3 times now and I am starting from scratch one more time. Has anyone had a success installation with the RTX SUPER gpu? I am using PyCharm with python3 for the env. to install tensorflow. Any other env. suggestions? It seems like there is not much support out there for this relatively new gpu. There is no nvidia supported driver for this gpu is listed in the ndvidia website, is that an issue?. Any help would be greatly appreciate it! A step by step tutorial would be amazing!
+
+Thank you very much.",15,1
+29,2019-11-10,2019,11,10,17,du8tw1,TF is eating all my ram when training nmt example,https://www.reddit.com/r/tensorflow/comments/du8tw1/tf_is_eating_all_my_ram_when_training_nmt_example/,supercatfishpro,1573373538,"I'm following along with [this example](https://www.tensorflow.org/tutorials/text/nmt_with_attention) 
+With some minor differences (I'm using my own input dataset)
+
+Everything has gone fairly smoothly until i get to the actual training.
+It seems like my training function just starts allocating memory until my computer crashes :/ (I've tried a few times while looking at my system monitor)
+I found a [github issue where a guy was experienceing something similar](https://github.com/tensorflow/tensorflow/issues/32707) but it seemed like it was because his train_step function didnt have a @tf.function...
+I'm not really sure what could be causing this, so any help could be appreciated. (I'll also link some of the code below)
+
+A few extra notes. I'm running this in a jupyter notebook (i can't imagine that would be the cause), and my dataset has roughly 4x more unique tokens than the dataset used in the tutorial.
+
+@tf.function
+def train_step(inp, targ, enc_hidden):
+  loss = 0
+
+  with tf.GradientTape() as tape:
+    enc_output, enc_hidden = encoder(inp, enc_hidden)
+
+    dec_hidden = enc_hidden
+
+    dec_input = tf.expand_dims([target_tokenizer.word_index['&lt;start&gt;']] * BATCH_SIZE, 1)
+
+    # Teacher forcing - feeding the target as the next input
+    print(f'Passing encoder outputs: {targ.shape[1]}')
+    for t in range(1, targ.shape[1]):
+      # passing enc_output to the decoder
+      predictions, dec_hidden, _ = decoder(dec_input, dec_hidden, enc_output)
+
+      loss += loss_function(targ[:, t], predictions)
+
+      # using teacher forcing
+      dec_input = tf.expand_dims(targ[:, t], 1)
+
+    batch_loss = (loss / int(targ.shape[1]))
+    variables = encoder.trainable_variables + decoder.trainable_variables
+    gradients = tape.gradient(loss, variables)
+    optimizer.apply_gradients(zip(gradients, variables))
+    return batch_loss
+
+    EPOCHS = 10
+    
+    for epoch in range(EPOCHS):
+      start = time.time()
+    
+      enc_hidden = encoder.initialize_hidden_state()
+      total_loss = 0
+      print(f'Beginning epoch {epoch + 1}')
+      for (batch, (inp, targ)) in enumerate(dataset.take(steps_per_epoch)):
+        batch_loss = train_step(inp, targ, enc_hidden)
+        total_loss += batch_loss
+        print(f'batch: {batch}, loss: {batch_loss}')
+        if batch % 25 == 0:
+            print(f'Epoch {epoch + 1} Batch {batch} Loss {round(batch_loss.numpy(), 4)}')
+      # save model (checkpoint) every 2 epochs
+      if (epoch + 1) % 2 == 0:
+        checkpoint.save(file_prefix = checkpoint_prefix)
+    
+      print(f'Epoch {epoch + 1} Loss {round(total_loss / steps_per_epoch, 4)}')
+      print(f'Time taken for 1 epoch {time.time() - start} sec\n')
+    
+
+Thanks in advance",6,1
+30,2019-11-11,2019,11,11,6,duhhx9,Anyone got experience with running TF models that require multiple eg Google Corals?,https://www.reddit.com/r/tensorflow/comments/duhhx9/anyone_got_experience_with_running_tf_models_that/,beemar,1573420254,I trying to find some motherboard where I could host multiple Corals and run parallel or multiple models but no luck so far. Any pointers appreciated!,3,1
+31,2019-11-11,2019,11,11,12,dum4hh,Best way to handle negative sampling in Tensorflow 2.0 with Keras,https://www.reddit.com/r/tensorflow/comments/dum4hh/best_way_to_handle_negative_sampling_in/,BatmantoshReturns,1573441253,"Tensorflow released an official guide to implementing word2vec in TF 2.0 Keras
+
+https://www.tensorflow.org/tutorials/text/word_embeddings
+
+However, it's missing negative sampling, which is very important in word2vec, which is unfortunate, because the original tensorflow has some great candidate sampling functions. 
+
+My best guess on what to do is augment the model,
+
+    model = keras.Sequential([
+      layers.Embedding(encoder.vocab_size, embedding_dim),
+      layers.GlobalAveragePooling1D(),
+      layers.Dense(1, activation='sigmoid')
+    ])
+
+Perhaps use the functional API instead of the sequential API. 
+
+I see that the c++ TF 2.0 has candidate sampling ops https://www.tensorflow.org/api_docs/cc/group/candidate-sampling-ops
+
+Can these be incorporated into Keras?",0,1
+32,2019-11-11,2019,11,11,19,duqjla,Transfer Learning with TensorFlow 2,https://www.reddit.com/r/tensorflow/comments/duqjla/transfer_learning_with_tensorflow_2/,RubiksCodeNMZ,1573467677,,0,1
+33,2019-11-11,2019,11,11,20,dur38o,Learning TensorFlow: A Guide to Building Deep Learning Systems now 54% off,https://www.reddit.com/r/tensorflow/comments/dur38o/learning_tensorflow_a_guide_to_building_deep/,Wasoness70,1573471331,,1,1
+34,2019-11-11,2019,11,11,23,dusu2u,Creating a multiclass CNN: data in csv,https://www.reddit.com/r/tensorflow/comments/dusu2u/creating_a_multiclass_cnn_data_in_csv/,mich2000222,1573481186,"Hello
+
+I'm trying to create a CNN for image classification. I have a total of 8 classes. An image can belong to more than one class. 
+
+Right now, I have separated a training set, validation set and test set. I have already preprocessed my images (resize) and saved them in two different folders. One folder contains the subfolders ''train'', ''valid'' and ''test'' (and the other one contains the subfolders ''train'', ''valid'' and ''test'' which each contain subfolders for the eight classes with the corresponding images in it, but because an image can belong to multiple classes some images are in multiple folders).
+
+I have a csv file ''train_csv.csv'' that contains the filenames and the labels, a row can look like this:
+    [''100.jpg'',0,0,1,0,0,1,0,0]
+This row is about image ''100.jpg'' and the image belongs to class 3 and 6.
+
+How can I best load in the images and labels into my CNN using Tensorflow 2?
+
+Thanks in advance.",2,1
+35,2019-11-12,2019,11,12,6,duz8wu,Embedding nodes with custom loss function,https://www.reddit.com/r/tensorflow/comments/duz8wu/embedding_nodes_with_custom_loss_function/,palestitch,1573507279,"Hi everyone,
+
+as the title describes I am trying to create a model which takes as input a node with some attributes and embeds it. I couldn't find much on how to this, my current approach is using softmax as the output function and using that as the embedding after seeing that suggestion on Stackoverflow. 
+Do you know of a better way to do this?
+My second question is more technical. I am building my NN with keras and I would like to use a custom loss function which takes in two tensors instead of a y_data and y_pred. Is there a a way to do this? 
+
+Please let me know if anything is unclear, I'd gladly give more details if that would help solve my problems.
+Thank you so much in advance,
+
+Stitch",0,1
+36,2019-11-12,2019,11,12,13,dv4lx2,Football Frenzy ,https://www.reddit.com/r/tensorflow/comments/dv4lx2/football_frenzy_/,ojhpjhh5,1573531523,,1,1
+37,2019-11-12,2019,11,12,18,dv7jye,Change operations in Graph and then execute model with changes,https://www.reddit.com/r/tensorflow/comments/dv7jye/change_operations_in_graph_and_then_execute_model/,AkinoJoy,1573550003,"Hello everyone. Im trying to change some operations in graph in simple model and then execute predict function. But operations list in graph doesn't change at all, so, predict value doesn't change also. However, in API documentation for Graph Google says:
+
+"" get\_operations()  
+
+
+Return the list of operations in the graph.
+
+**You can modify the operations in place, but modifications to the list such as inserts/delete have no effect on the list of operations known to the graph.**""
+
+My code:
+
+    import tensorflow as tf
+    import numpy as np
+    
+    mnist = tf.keras.datasets.mnist
+    (x_train, y_train), (x_test, y_test) = mnist.load_data()
+    x_train, x_test = x_train / 255.0, x_test / 255.0
+    
+    g = tf.Graph()
+    
+    
+    @tf.function
+    def custom_operation(x):
+        return x*0
+    
+    
+    with g.as_default():
+        m = tf.keras.models.Sequential(
+            [
+                tf.keras.layers.Flatten(input_shape=(28, 28)),
+                tf.keras.layers.Dense(128, activation=""relu""),
+                tf.keras.layers.Dropout(0.2),
+                tf.keras.layers.Dense(10, activation=""softmax""),
+            ]
+        ) 
+        m.compile(
+            optimizer=""adam"", loss=""sparse_categorical_crossentropy"", metrics=[""accuracy""]
+        )
+        m.fit(x_train, y_train, epochs=5)
+        m.evaluate(x_test, y_test, verbose=2)
+        m.summary()
+        previous_predict = np.argmax(m.predict(x_test[0, tf.newaxis]))
+        
+        print('Y value for simple model: {0} predicted value: {1}'.format(y_test[0], previous_predict))
+        previous_operations = m._graph.get_operations()  
+    
+        operations = m._graph.get_operations()
+        i_max = len(operations)
+        i = 0
+        while i &lt; i_max:
+            if operations[i].type == 'Mul':
+                operations[i] = custom_operation(0)
+            i += 1
+        post_pred = np.argmax(m.predict(x_test[0, tf.newaxis]))
+        m.summary()
+    
+        print('Y value with changed operations: {0} predicted value: {1}'.format(y_test[0], post_pred))
+        post_operations = m._graph.get_operations()
+
+And as we can see ""previous\_operations"" and ""post\_operations"" are equal, however, ""operations"" has custom operation in right place.
+
+So, I need to find way to change operations in Graph and then execute predict function in model with changed graph. And I have to do it without sessions. Is it even possible to do?
+
+P.S. Im so sorry for my English.",0,1
+38,2019-11-12,2019,11,12,18,dv7ma7,TensorFlow vs Caffe - Javatpoint,https://www.reddit.com/r/tensorflow/comments/dv7ma7/tensorflow_vs_caffe_javatpoint/,nehapandey01,1573550446,,0,1
+39,2019-11-12,2019,11,12,20,dv8gwd,A great and thorough explanation of Convolutional Neural Networks,https://www.reddit.com/r/tensorflow/comments/dv8gwd/a_great_and_thorough_explanation_of_convolutional/,antaloaalonso,1573556438,,2,1
+40,2019-11-13,2019,11,13,12,dvlygb,Out of Memory (But It Allocates Less Than I Have),https://www.reddit.com/r/tensorflow/comments/dvlygb/out_of_memory_but_it_allocates_less_than_i_have/,spot4992,1573617073,"So I get the following message:
+
+W tensorflow/core/common\_runtime/bfc\_allocator.cc:215\] Allocator (GPU\_0\_bfc) ran out of memory trying to allocate 3.96GiB
+
+While I realize this is not an error, I am confused. An earlier output of the same script is:
+
+freeMemory: 9.11GiB
+
+So why is it running out of memory when there is another 5 GiB to go?",13,1
+41,2019-11-13,2019,11,13,14,dvn4a6,"Docker container ""latest-gpu-py3"" having trouble installing cuDNN/dlib",https://www.reddit.com/r/tensorflow/comments/dvn4a6/docker_container_latestgpupy3_having_trouble/,gnuforlyfe,1573623396,"I'm trying to install https://github.com/davisking/dlib on a Tensorflow Docker container invoked via `docker run --gpus all -it --rm tensorflow/tensorflow:latest-gpu-py3`. Tensorflow itself runs find and CUDA is not an issue. I am having major problems trying to install cuDNN so that I can use dlib.
+
+Here is my compilation error message:
+
+` -- Found CUDA: /usr/local/cuda (found suitable version ""10.0"", minimum required is ""7.5"") 
+-- Looking for cuDNN install...
+-- Found cuDNN: /usr/lib/x86_64-linux-gnu/libcudnn.so
+-- Building a CUDA test project to see if your compiler is compatible with CUDA...
+-- Checking if you have the right version of cuDNN installed.
+-- Enabling CUDA support for dlib.  DLIB WILL USE CUDA
+-- C++11 activated.
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+CUDA_cublas_LIBRARY (ADVANCED)
+    linked by target ""dlib"" in directory /home/project/dlib/dlib
+CUDA_curand_LIBRARY (ADVANCED)
+    linked by target ""dlib"" in directory /home/project/dlib/dlib
+CUDA_cusolver_LIBRARY (ADVANCED)
+    linked by target ""dlib"" in directory /home/project/dlib/dlib`
+
+-- Configuring incomplete, errors occurred!
+See also ""/home/project/dlib/build/CMakeFiles/CMakeOutput.log"".
+See also ""/home/project/dlib/build/CMakeFiles/CMakeError.log"".
+make: *** No targets specified and no makefile found.  Stop.
+
+I am currently using this method of installing cuDNN:
+
+(from host):
+
+`sudo docker cp libcudnn7_7.6.5.32-1+cuda10.0_amd64.deb c7f1e218bc6f:/ &amp;&amp; sudo docker cp libcudnn7-dev_7.6.5.32-1+cuda10.0_amd64.deb c7f1e218bc6f:/ &amp;&amp; sudo docker cp libcudnn7-doc_7.6.5.32-1+cuda10.0_amd64.deb c7f1e218bc6f:/`
+
+`#note: c7e21....is just the container ID, it will be different every time I open a new container`
+
+(on container):
+
+`sudo docker cp libcudnn7_7.6.5.32-1+cuda10.0_amd64.deb c7f1e218bc6f:/ &amp;&amp; sudo docker cp libcudnn7-dev_7.6.5.32-1+cuda10.0_amd64.deb c7f1e218bc6f:/ &amp;&amp; sudo docker cp libcudnn7-doc_7.6.5.32-1+cuda10.0_amd64.deb c7f1e218bc6f:/
+`
+
+When I don't install cuDNN this way, Cmake does NOT detect CUDA and therefore does NOT compile dlib with GPU support.",1,1
+42,2019-11-13,2019,11,13,14,dvn7bk,How to Size Up GPU Need for External Dev Board,https://www.reddit.com/r/tensorflow/comments/dvn7bk/how_to_size_up_gpu_need_for_external_dev_board/,___sy___,1573623885,"Hey there -- I'm trying to figure out which dev board to use for some inference task I have. 
+
+First, a bit of context: I've previously trained and saved three cnn nets on a Nvidia 1080ti. I'm now looking to perform inference on an external device using those 3 networks at a frame rate of about 5-10 fps. The external device itself is for an aerial application so it's very weight limited ( but no limits on power).
+
+I was planning on using Tensorflow Lite to prep the nets before porting them. Beyond that, I've been looking at both Colab and Jetson, but I'm not entirely sure what is the smallest/lightest board I can get away with given that the 3 networks need to run in parallel. 
+
+**Does anyone know if there is a good heuristic for sizing up the size of the GPU I will need on the dev board?** For example, how do I calculate my GPU memory needs? Thanks!!",0,1
+43,2019-11-13,2019,11,13,17,dvou79,Trouble installing tensorflow in a VDI environment,https://www.reddit.com/r/tensorflow/comments/dvou79/trouble_installing_tensorflow_in_a_vdi_environment/,Everlast7,1573634038,"I wonder if anyone has experienced any problems installing tensorflow in a Citrix VDI environment?
+
+I am just unable to get it installed. Somehow my VDI machine set up is making the setup process not find the appropriate tensorflow version.
+
+Any advice is appreciated.
+Thanks",2,1
+44,2019-11-13,2019,11,13,23,dvsrlk,Tensorflow 2.0 InaccessibleTensorError,https://www.reddit.com/r/tensorflow/comments/dvsrlk/tensorflow_20_inaccessibletensorerror/,Cha-Dao_Tech,1573656434,"I'm prety new to Tensorflow and am just starting out, so I'm kinda confused half the time.   
+Here is a Problem that I am struggling with right now.  
+It is effectivley copy pasted from my Stackoverflow post, so I've provided the link to that too.  
+
+
+So I'm trying to load Array Data from TFRecords. But I'm getting a Error Message while trying to parse the file Path into the Array.
+
+If I just call t= functions.parse\_TFR\_to\_tens(filenames) with one single file path, everything works out fine, but if it is being called inside of ""process\_path"" The Error message appears. 
+
+I have no clue what is going on, and couldn't fix the problem. after all the Function in itself works, so what am I missing? 
+
+functions:
+
+def \_parse\_image\_function(example\_proto):
+
+image\_feature\_description = {
+
+'feature3': tf.io.FixedLenFeature(\[\], tf.string),
+
+}
+
+&amp;#x200B;
+
+return tf.io.parse\_single\_example(example\_proto, image\_feature\_description)
+
+&amp;#x200B;
+
+def parse\_TFR\_to\_tens(file\_name):
+
+raw\_dataset = tf.data.TFRecordDataset(file\_name)
+
+parsed\_image\_dataset = raw\_dataset.map(\_parse\_image\_function)
+
+s = \[\]
+
+for image\_features in parsed\_image\_dataset:
+
+image\_raw = tf.io.parse\_tensor(image\_features\['feature3'\], out\_type=tf.float64)
+
+s.append(image\_raw)
+
+t = tf.stack(s)
+
+return t
+
+&amp;#x200B;
+
+def process\_path(file\_path,verbose=False):
+
+parts = tf.strings.split(file\_path, '/')
+
+label = 0
+
+print(parts\[-2\])
+
+&amp;#x200B;
+
+pd = settings.pd
+
+l = 0
+
+for p in pd:
+
+if parts\[-2\] == p:
+
+label = 1
+
+\#return tf.io.read\_file(file\_path), label
+
+t = parse\_TFR\_to\_tens(file\_path)
+
+return t, label
+
+&amp;#x200B;
+
+def create\_ds(sets=\[True,True,True\], snaps=3, mode=1,verbose=False):
+
+sets = settings.settings\[""sets""\]
+
+snaps= settings.settings\[""snaps""\]
+
+mode = settings.settings\[""mode""\]
+
+verbose = settings.settings\[""verbose""\]
+
+ds=\[\]
+
+if sets\[0\]:
+
+path = globstringPET(sets=sets,snaps=snaps,mode=mode)
+
+list\_ds = tf.data.Dataset.list\_files(path)
+
+labeled\_ds\_PET = list\_ds.map(process\_path)
+
+ds.append(labeled\_ds\_PET)
+
+if sets\[1\]:
+
+path = globstringMRT(sets=sets, snaps=snaps, mode=mode)
+
+list\_ds = tf.data.Dataset.list\_files(path)
+
+labeled\_ds\_MRT = list\_ds.map(process\_path)
+
+ds.append(labeled\_ds\_MRT)
+
+if verbose: print(""Sets: "",ds)
+
+first = True
+
+for d in ds:
+
+if first:
+
+labeled\_ds = d
+
+first = False
+
+else:
+
+labeled\_ds.concatenate(d)
+
+&amp;#x200B;
+
+return labeled\_ds, list\_ds
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+The Error Message:
+
+&amp;#x200B;
+
+/misc/no\_backup/d1325/CNNMEL/functions.py:257 process\_path  \*
+
+t = parse\_TFR\_to\_tens(file\_path)
+
+/misc/no\_backup/d1325/CNNMEL/functions.py:144 parse\_TFR\_to\_tens  \*
+
+t = tf.stack(s)
+
+/no\_backup/d1325/.local/lib/python3.6/site-packages/tensorflow\_core/python/util/dispatch.py:180 wrapper
+
+return target(\*args, \*\*kwargs)
+
+/no\_backup/d1325/.local/lib/python3.6/site-packages/tensorflow\_core/python/ops/array\_ops.py:1165 stack
+
+return gen\_array\_ops.pack(values, axis=axis, name=name)
+
+/no\_backup/d1325/.local/lib/python3.6/site-packages/tensorflow\_core/python/ops/gen\_array\_ops.py:6304 pack
+
+""Pack"", values=values, axis=axis, name=name)
+
+/no\_backup/d1325/.local/lib/python3.6/site-packages/tensorflow\_core/python/framework/op\_def\_library.py:793 \_apply\_op\_helper
+
+op\_def=op\_def)
+
+/no\_backup/d1325/.local/lib/python3.6/site-packages/tensorflow\_core/python/framework/func\_graph.py:544 create\_op
+
+inp = self.capture(inp)
+
+/no\_backup/d1325/.local/lib/python3.6/site-packages/tensorflow\_core/python/framework/func\_graph.py:603 capture
+
+% (tensor, tensor.graph, self))
+
+&amp;#x200B;
+
+InaccessibleTensorError: The tensor 'Tensor(""ParseTensor:0"", dtype=float64)' cannot be accessed here: it is defined in another function or code block. Use return values, explicit Python locals or TensorFlow collections to access it. Defined in: FuncGraph(name=reduce\_reduce\_body, id=139628601725840); accessed from: FuncGraph(name=Dataset\_map\_process\_path, id=139630684432872).",8,1
+45,2019-11-15,2019,11,15,2,dwd1tv,whats happed in the last year? data scientist getting back into it,https://www.reddit.com/r/tensorflow/comments/dwd1tv/whats_happed_in_the_last_year_data_scientist/,philmtl,1573753758,"pretty much i was working in data science end of 2018,  and was stuck making a python 2.7 environment since it was not compatible with python 3.0. i got hired in BI Dev have not touched TS or anything data science-related since. 
+
+&amp;#x200B;
+
+so what changed in a year?
+
+just i want to be up to date for interviews ect. 
+
+new tools or features?",3,1
+46,2019-11-15,2019,11,15,13,dwlsjr,Problems with Tensorflow 1.14 and Titan X (pascal) - running on CPU?,https://www.reddit.com/r/tensorflow/comments/dwlsjr/problems_with_tensorflow_114_and_titan_x_pascal/,geometrikal,1573793535,"Anyone having problems with their Titan X (pascal) and Tensorflow 1.14?
+
+I've got two machines - one with a 2080 Ti at home and one with a Titan X (pascal) at work. I've been doing most development at home on the 2080 Ti (CNN image classification) using TF 1.14 (1.15 has an issue) with no problems.
+
+I upgraded the work one from TF 1.13.1 to 1.14  (using conda) and started getting weird issues where training would just freeze or stopping the training (in PyCharm) would not kill the underlying python process. 
+
+So I did a new environment and new install (conda) and for some reason training is progressing as though it is running on CPU. It doesn't say that though, it spits out all the usual text about setting up GPU device, and even fills the GPU memory, but \_GPU usage is 0%\_ and the training speed is the same as CPU. 
+
+Reverting to 1.13 works. I'm kinda stumped. Got the latest NVIDIA drivers and CUDA 10.0 installed... Any ideas? Been trying different permutations for two days now with no luck.",0,1
+47,2019-11-15,2019,11,15,16,dwnfd0,Model not found while running run_in_docker.sh in Tensorflow Serving,https://www.reddit.com/r/tensorflow/comments/dwnfd0/model_not_found_while_running_run_in_dockersh_in/,davislf2,1573803678,"I followed [a suggested solution for issue #325 on sentencepiece](https://github.com/google/sentencepiece/issues/325#issuecomment-547610907) and changed some parts to adapt to RHEL. However, I got errors in the last step. This is my script:
+```
+CWD=$(pwd)
+GPROTOBUF_URL=https://github.com/protocolbuffers/protobuf/releases/download/v3.7.0/protobuf-cpp-3.7.0.tar.gz
+
+compile_gprotobuf () {
+    sudo yum install autoconf automake libtool curl make gcc-c++ unzip &amp;&amp; # gcc-c++ instead of (Ubuntu) g++
+    wget $GPROTOBUF_URL &amp;&amp;
+    fname=protobuf-cpp-3.7.0.tar.gz &amp;&amp;
+    tar xvzf $fname &amp;&amp; rm $fname &amp;&amp;
+    cd protobuf-3.7.0 &amp;&amp;
+    ./configure CXXFLAGS=""-D_GLIBCXX_USE_CXX11_ABI=0"" &amp;&amp;
+    make &amp;&amp;
+    make check &amp;&amp;
+    sudo make install &amp;&amp;
+    sudo ldconfig # refresh shared library cache. 
+    cd $CWD
+}
+
+build_tensorflow_serving_and_sentencepiece () {
+    git clone -b 'r1.14' --single-branch --depth 1 https://github.com/tensorflow/serving.git &amp;&amp;
+    mkdir -p serving/tensorflow_serving/custom_ops/sentencepiece_processor &amp;&amp;
+    git clone https://github.com/google/sentencepiece.git serving/tensorflow_serving/custom_ops/sentencepiece_processor/sentencepiece &amp;&amp;
+    sudo yum install gcc gcc-c++ kernel-devel &amp;&amp; # instead of (Ubuntu) sudo apt-get install build-essential
+    sudo yum install cmake &amp;&amp; 
+    sudo yum provides */pkg-config &amp;&amp;
+    sudo yum install google-perftools google-perftools-devel &amp;&amp; # (Ubuntu) sudo apt-get install libgoogle-perftools-dev &amp;&amp;
+    cd serving/tensorflow_serving/custom_ops/sentencepiece_processor/sentencepiece &amp;&amp;
+    mkdir build &amp;&amp;
+    cd build &amp;&amp;
+
+    cmake -DSPM_USE_BUILTIN_PROTOBUF=OFF -DSPM_ENABLE_TENSORFLOW_SHARED=ON .. &amp;&amp;
+    make -j $(nproc) &amp;&amp;
+    sudo make install &amp;&amp;
+    sudo ldconfig -v &amp;&amp;
+
+    cd $CWD &amp;&amp;
+    # cp ./build ./serving/tensorflow_serving/custom_ops/sentencepiece_processor/build &amp;&amp; # I can't find this BUILD directory
+    sed -i.bak '/@org_tensorflow\/\/tensorflow\/contrib:contrib_ops_op_lib/a\    ""\/\/tensorflow_serving\/custom_ops\/sentencepiece_processor:sentencepiece_processor_ops"",' ./serving/tensorflow_serving/model_servers/BUILD &amp;&amp;
+    sed -i '/name = ""tensorflow_model_server"",/a\    linkopts = [""-Wl,--allow-multiple-definition"", ""-Wl,-rpath,/usr/lib""],' ./serving/tensorflow_serving/model_servers/BUILD
+
+    wget https://copr.fedorainfracloud.org/coprs/vbatts/bazel/repo/epel-7/vbatts-bazel-epel-7.repo
+    sudo cp vbatts-bazel-epel-7.repo /etc/yum.repos.d/vbatts-bazel-epel-7.repo
+    sudo yum install bazel
+    # https://docs.bazel.build/versions/master/install-redhat.html
+
+    cd serving &amp;&amp; 
+    tools/run_in_docker.sh bazel build tensorflow_serving/model_servers:tensorflow_model_server
+}
+
+main () {
+    echo ""Workdir: ${CWD}""
+    compile_gprotobuf
+    build_tensorflow_serving_and_sentencepiece
+}
+
+main
+```
+
+I removed `--max_idle_secs` because it gives me an error `ERROR: Unrecognized option: --max_idle_secs=60`. But this script still cause a problem in `Fetching @org_tensorflow`, which shows
+```
+ERROR: error loading package '': in /my_path/serving/tensorflow_serving/workspace.bzl: Encountered error while reading extension file 'tensorflow/workspace.bzl': no such package '@org_tensorflow//tensorflow': java.io.IOException: Error downloading [https://mirror.bazel.build/github.com/tensorflow/tensorflow/archive/87989f69597d6b2d60de8f112e1e3cea23be7298.tar.gz, https://github.com/tensorflow/tensorflow/archive/87989f69597d6b2d60de8f112e1e3cea23be7298.tar.gz] to /my_path/serving/.cache/_bazel_opc/3fa7ae51721c1323b37adf18f7a53821/external/org_tensorflow/87989f69597d6b2d60de8f112e1e3cea23be7298.tar.gz: All mirrors are down: []
+```
+
+I tried several methods to change the `http_proxy` (Use `HTTP_PROXY`, download the tar.gz file and put it in the dir, `--action_env=HTTP_PROXY=$HTTP_PROXY`, ...), but none of them worked.
+
+Finally, I changed the image from `IMAGE=""tensorflow/serving:nightly-devel""` to `IMAGE=""tensorflow/serving:1.14.0""` in `run_in_docker.sh`, and it doesn't require `bazel fetch`.
+
+However, it shows this error: `unknown argument: bash`, and also `FileSystemStoragePathSource encountered a filesystem access error: Could not find base path /models/model for servable model.` Does anyone have any idea how I can assign the correct model base? Thanks.",0,1
+48,2019-11-16,2019,11,16,9,dwzpmf,Is there a place for newbie questions?,https://www.reddit.com/r/tensorflow/comments/dwzpmf/is_there_a_place_for_newbie_questions/,tamman2000,1573864940,"Is there a weekly thread for simple questions or anything like that?  
+
+
+If not:  
+I have a dataset that is images and scalar features associated with said images.  I would like to use both for my model, but I can't seem to find documentation on how to go about this.  Everything I can find is using either image data or a feature vector...  how can I use both together?  
+
+
+Thanks in advance!",7,1
+49,2019-11-16,2019,11,16,15,dx33g0,[question] I'm getting errors when trying to run TF,https://www.reddit.com/r/tensorflow/comments/dx33g0/question_im_getting_errors_when_trying_to_run_tf/,dikbum,1573884159,"I've been dying here, I was able to build the GPT2 project on my laptop but now when I try and build it on my PC I'm unable to, and have no idea why. 
+
+I need to run `tensorflow-gpu==1.12`
+
+Here's my specs:
+
+* Windows 10, 64 bit 
+* Python 3.6.6
+* NVIDIA GPU Computing Toolkit\\CUDA\\v10.1
+
+&amp;#x200B;
+
+![img](biuoh9ilnzy31 ""CPU
+"")
+
+[2x \(sli\) GPU](https://preview.redd.it/l6z4z6wqnzy31.png?width=293&amp;format=png&amp;auto=webp&amp;s=8b27d3d6eb5e3585f24fd6b11fd5bd928358e86f)
+
+[All the python packages](https://preview.redd.it/0x2k3zlgnzy31.png?width=312&amp;format=png&amp;auto=webp&amp;s=c22bbf903da43b1dd393b6bdb75fae1787d04c74)
+
+[All the GPT2 requirements](https://preview.redd.it/ycr8582cnzy31.png?width=473&amp;format=png&amp;auto=webp&amp;s=2922ef094b2e4f8c54f7517202df83f76c39fb76)
+
+And the error I'm getting:
+
+`&gt;&gt;&gt;py import tensorflow as tf`
+
+`C:\Users\user\AppData\Local\Programs\Python\Python36\python.exe: can't open file 'import': [Errno 2] No such file or directory`
+
+`PS C:\Users\user\Documents\Development\machineLearning\gpt-2&gt; py .\src\interactive_conditional_samples.py`
+
+`Traceback (most recent call last):`
+
+  `File ""C:\Users\user\AppData\Local\Programs\Python\Python36\lib\site-packages\tensorflow\python\pywrap_tensorflow.py"", line 58, in &lt;module&gt;`
+
+`from tensorflow.python.pywrap_tensorflow_internal import *`
+
+  `File ""C:\Users\user\AppData\Local\Programs\Python\Python36\lib\site-packages\tensorflow\python\pywrap_tensorflow_internal.py"", line 28, in &lt;module&gt;`
+
+`_pywrap_tensorflow_internal = swig_import_helper()`
+
+  `File ""C:\Users\user\AppData\Local\Programs\Python\Python36\lib\site-packages\tensorflow\python\pywrap_tensorflow_internal.py"", line 24, in swig_import_helper`
+
+`_mod = imp.load_module('_pywrap_tensorflow_internal', fp, pathname, description)`
+
+  `File ""C:\Users\user\AppData\Local\Programs\Python\Python36\lib\`[`imp.py`](https://imp.py)`"", line 243, in load_module`
+
+`return load_dynamic(name, filename, file)`
+
+  `File ""C:\Users\user\AppData\Local\Programs\Python\Python36\lib\`[`imp.py`](https://imp.py)`"", line 343, in load_dynamic`
+
+`return _load(spec)`
+
+`ImportError: DLL load failed: A dynamic link library (DLL) initialization routine failed.`
+
+`During handling of the above exception, another exception occurred:`
+
+`Failed to load the native TensorFlow runtime.`
+
+I can't figure this out. Please help!",6,1
+50,2019-11-16,2019,11,16,18,dx50fm,Saving a model with multiple branches,https://www.reddit.com/r/tensorflow/comments/dx50fm/saving_a_model_with_multiple_branches/,ssd123456789,1573898399,"In keas, for a model with multiple input branches that I concatenate later, do I need to save all model weights separately or can I just save the model weights where I combine everything?",1,1
+51,2019-11-17,2019,11,17,1,dx8yk8,"[Question] Many of the official tutorials are still written in TensorFlow 1.x, does anyone know if there's an upgrade plan?",https://www.reddit.com/r/tensorflow/comments/dx8yk8/question_many_of_the_official_tutorials_are_still/,Ninjakannon,1573921539,"Will these be migrated to 2.x or marked as old? I would be happy to update the occasional tutorial to the latest version, if contributions are welcome, but I can't find any information about the intentions here.",3,1
+52,2019-11-17,2019,11,17,2,dx9qht,Help for tensor slice assignment,https://www.reddit.com/r/tensorflow/comments/dx9qht/help_for_tensor_slice_assignment/,Swecar,1573925121,"I'm new to tensorflow and I need to write a custom flattening method where I want the channel index to be the slowest varying ""index"" in the flattened tensor. 
+
+To do this I tried converting the tensor to a numpy array, which were quite to manage and the rest of the algorithm wasn't hard to implement. This worked well when I was manually inputting images through the network but when I wanted to train the model using this things broke.
+
+Apparently [model.fit](https://model.fit)() firstly sends a tensor of shape (None, Width, Height, Channel) which my code didn't like since after converting to a numpy array it got the shape (1,) and my assignments width = width = input\_shape\[1\] got index out of bounds error.
+
+Someone mentioned that I should write my layer entirely using tensorflow operations instead which seemed to be fine until I needed to assign tensors to a subset of a tensor axis; i.e. finalTensor\[ i , a : b \] = otherTensor.
+
+I found `tensor_strided_slice_update` in `tensorflow_core` but I can't get it to work. 
+
+To start out i created `tens = tf.zeros([2,3,4])` to which I wanted to assign the middle the tensor `array2 = tf.ones([3])` by using the indices `begin=tf.constant([0,0,2])`, `end = tf.constant([0,2,2])`, and stride `stride = tf.constant([0,1,0])` thinking that this would walk along the second axis at position 2 with a step length of 1. But stride can't be non-zero, so I don't know how to use this.
+
+Any help would be appreciated! (This test case is a inserting along a whole axis but I would like an answer for the more general case, unfortunately the documentation is rather dense...)",8,1
+53,2019-11-17,2019,11,17,15,dxiyd9,Installing Tensorflow-GPU on Ubuntu(Dual Boot along with Windows),https://www.reddit.com/r/tensorflow/comments/dxiyd9/installing_tensorflowgpu_on_ubuntudual_boot_along/,_-K1L4-_,1573970620,"Can someone please guide me in installing tensorflow-gpu in ubuntu(Dual boot alongside Windows). 
+
+The last time I installed it, it showed numa node zero error while running the script.
+
+Thanks in advance.",7,1
+54,2019-11-17,2019,11,17,21,dxm7ep,How to get tensor values in a tensorflow estimator?,https://www.reddit.com/r/tensorflow/comments/dxm7ep/how_to_get_tensor_values_in_a_tensorflow_estimator/,ReasonablyBadass,1573995222,"A tensorflow estimator is wrapped around my code.
+
+* Which prevents me from accessing tensor values by starting a session.
+* The estimator get\_variable\_value function needs an existing checkpoint...which doesn't exist yet because the code can't run while I can't access the tensor.
+* I don't see a way to get the estimator session itself to run an evaluation.
+* The numpy() attribute does not work because due to the estimator the code won't run in Eager Execution mode.",0,1
+55,2019-11-17,2019,11,17,23,dxmxle,passing argument to loss function during training,https://www.reddit.com/r/tensorflow/comments/dxmxle/passing_argument_to_loss_function_during_training/,progmayo,1573999644,"Hi guys. Couldn't find a suitable solution online for this, and I'd appreciate help in this matter.
+
+Basically, as the title says, I want to pass a dynamic argument to my loss function during training, that isn't part of the training data. The return value of the loss function depends on this argument of course.
+
+Here are some workarounds I've thought of. Perhaps one of these is the 'correct' way of implementing this, but to me they seemed like workarounds, and not real solutions.
+
+1. Have this argument be an additional input to my network.
+2. Pass it as part of my training data, and slice the data accordingly in the loss function to separate this parameter and the ""real"" training data
+
+**Thank you very much in advance for any help.**",1,1
+56,2019-11-18,2019,11,18,0,dxnnq2,I am getting an error while running the RNN LSTM model,https://www.reddit.com/r/tensorflow/comments/dxnnq2/i_am_getting_an_error_while_running_the_rnn_lstm/,gokulPRO,1574003622,"Everything was working fine.I was able to use tensorflow gpu in running CNN models,linear regression models etc.I was learning RNN with Tensorflow  in [https://www.tensorflow.org/guide/keras/rnn](https://www.tensorflow.org/guide/keras/rnn) .I ran the following code in my jupyter notebook:-
+
+#  CODE:-
+
+    batch_size = 64
+# Each MNIST image batch is a tensor of shape (batch_size, 28, 28).
+# Each input sequence will be of size (28, 28) (height is treated like time).
+input_dim = 28
+
+units = 64
+output_size = 10 # labels are from 0 to 9
+
+# Build the RNN model
+def build_model(allow_cudnn_kernel=True):
+ # CuDNN is only available at the layer level, and not at the cell level.
+ # This means `LSTM(units)` will use the CuDNN kernel,
+ # while RNN(LSTMCell(units)) will run on non-CuDNN kernel.
+ if allow_cudnn_kernel:
+ # The LSTM layer with default options uses CuDNN.
+  lstm_layer = tf.keras.layers.LSTM(units, input_shape=(None, input_dim))
+ else:
+ # Wrapping a LSTMCell in a RNN layer will not use CuDNN.
+  lstm_layer = tf.keras.layers.RNN(
+    tf.keras.layers.LSTMCell(units),
+    input_shape=(None, input_dim))
+ model = tf.keras.models.Sequential([
+   lstm_layer,
+   tf.keras.layers.BatchNormalization(),
+   tf.keras.layers.Dense(output_size, activation='softmax')]
+ )
+ return model
+    mnist = tf.keras.datasets.mnist
+    
+    (x_train, y_train), (x_test, y_test) = mnist.load_data()
+    x_train, x_test = x_train / 255.0, x_test / 255.0
+    sample, sample_label = x_train[0], y_train[0]
+    model = build_model(allow_cudnn_kernel=True)
+    
+    model.compile(loss='sparse_categorical_crossentropy', 
+                  optimizer='sgd',
+                  metrics=['accuracy'])
+    model.fit(x_train, y_train,
+              validation_data=(x_test, y_test),
+              batch_size=batch_size,
+              epochs=5)
+
+# The output and the error was:-
+
+    Train on 60000 samples, validate on 10000 samples
+    Epoch 1/5
+       64/60000 [..............................] - ETA: 4:27:04
+    ---------------------------------------------------------------------------
+    UnknownError                              Traceback (most recent call last)
+    &lt;ipython-input-6-58e50c3dedff&gt; in &lt;module&gt;()
+          2           validation_data=(x_test, y_test),
+          3           batch_size=batch_size,
+    ----&gt; 4           epochs=5)
+    
+    ~\AppData\Roaming\Python\Python35\site-packages\tensorflow_core\python\keras\engine\training.py in fit(self, x, y, batch_size, epochs, verbose, callbacks, validation_split, validation_data, shuffle, class_weight, sample_weight, initial_epoch, steps_per_epoch, validation_steps, validation_freq, max_queue_size, workers, use_multiprocessing, **kwargs)
+        726         max_queue_size=max_queue_size,
+        727         workers=workers,
+    --&gt; 728         use_multiprocessing=use_multiprocessing)
+        729 
+        730   def evaluate(self,
+    
+    ~\AppData\Roaming\Python\Python35\site-packages\tensorflow_core\python\keras\engine\training_v2.py in fit(self, model, x, y, batch_size, epochs, verbose, callbacks, validation_split, validation_data, shuffle, class_weight, sample_weight, initial_epoch, steps_per_epoch, validation_steps, validation_freq, **kwargs)
+        322                 mode=ModeKeys.TRAIN,
+        323                 training_context=training_context,
+    --&gt; 324                 total_epochs=epochs)
+        325             cbks.make_logs(model, epoch_logs, training_result, ModeKeys.TRAIN)
+        326 
+    
+    ~\AppData\Roaming\Python\Python35\site-packages\tensorflow_core\python\keras\engine\training_v2.py in run_one_epoch(model, iterator, execution_function, dataset_size, batch_size, strategy, steps_per_epoch, num_samples, mode, training_context, total_epochs)
+        121         step=step, mode=mode, size=current_batch_size) as batch_logs:
+        122       try:
+    --&gt; 123         batch_outs = execution_function(iterator)
+        124       except (StopIteration, errors.OutOfRangeError):
+        125         # TODO(kaftan): File bug about tf function and errors.OutOfRangeError?
+    
+    ~\AppData\Roaming\Python\Python35\site-packages\tensorflow_core\python\keras\engine\training_v2_utils.py in execution_function(input_fn)
+         84     # `numpy` translates Tensors to values in Eager mode.
+         85     return nest.map_structure(_non_none_constant_value,
+    ---&gt; 86                               distributed_function(input_fn))
+         87 
+         88   return execution_function
+    
+    ~\AppData\Roaming\Python\Python35\site-packages\tensorflow_core\python\eager\def_function.py in __call__(self, *args, **kwds)
+        455 
+        456     tracing_count = self._get_tracing_count()
+    --&gt; 457     result = self._call(*args, **kwds)
+        458     if tracing_count == self._get_tracing_count():
+        459       self._call_counter.called_without_tracing()
+    
+    ~\AppData\Roaming\Python\Python35\site-packages\tensorflow_core\python\eager\def_function.py in _call(self, *args, **kwds)
+        518         # Lifting succeeded, so variables are initialized and we can run the
+        519         # stateless function.
+    --&gt; 520         return self._stateless_fn(*args, **kwds)
+        521     else:
+        522       canon_args, canon_kwds = \
+    
+    ~\AppData\Roaming\Python\Python35\site-packages\tensorflow_core\python\eager\function.py in __call__(self, *args, **kwargs)
+       1821     """"""Calls a graph function specialized to the inputs.""""""
+       1822     graph_function, args, kwargs = self._maybe_define_function(args, kwargs)
+    -&gt; 1823     return graph_function._filtered_call(args, kwargs)  # pylint: disable=protected-access
+       1824 
+       1825   @property
+    
+    ~\AppData\Roaming\Python\Python35\site-packages\tensorflow_core\python\eager\function.py in _filtered_call(self, args, kwargs)
+       1139          if isinstance(t, (ops.Tensor,
+       1140                            resource_variable_ops.BaseResourceVariable))),
+    -&gt; 1141         self.captured_inputs)
+       1142 
+       1143   def _call_flat(self, args, captured_inputs, cancellation_manager=None):
+    
+    ~\AppData\Roaming\Python\Python35\site-packages\tensorflow_core\python\eager\function.py in _call_flat(self, args, captured_inputs, cancellation_manager)
+       1222     if executing_eagerly:
+       1223       flat_outputs = forward_function.call(
+    -&gt; 1224           ctx, args, cancellation_manager=cancellation_manager)
+       1225     else:
+       1226       gradient_name = self._delayed_rewrite_functions.register()
+    
+    ~\AppData\Roaming\Python\Python35\site-packages\tensorflow_core\python\eager\function.py in call(self, ctx, args, cancellation_manager)
+        509               inputs=args,
+        510               attrs=(""executor_type"", executor_type, ""config_proto"", config),
+    --&gt; 511               ctx=ctx)
+        512         else:
+        513           outputs = execute.execute_with_cancellation(
+    
+    ~\AppData\Roaming\Python\Python35\site-packages\tensorflow_core\python\eager\execute.py in quick_execute(op_name, num_outputs, inputs, attrs, ctx, name)
+         65     else:
+         66       message = e.message
+    ---&gt; 67     six.raise_from(core._status_to_exception(e.code, message), None)
+         68   except TypeError as e:
+         69     keras_symbolic_tensors = [
+    
+    c:\users\gokul adethya\appdata\local\programs\python\python35\lib\site-packages\six.py in raise_from(value, from_value)
+    
+    UnknownError:  [_Derived_]  Fail to find the dnn implementation.
+    	 [[{{node CudnnRNN}}]]
+    	 [[sequential/lstm/StatefulPartitionedCall]] [Op:__inference_distributed_function_3409]
+    
+    Function call stack:
+    distributed_function -&gt; distributed_function -&gt; distributed_function
+
+# Configurations:-
+
+    tensorflow-gpu version -- 2.0.0
+    CUDA version - v10.0
+
+I searched for the reason and found  [https://github.com/keras-team/keras/issues/10634](https://github.com/keras-team/keras/issues/10634) .The solutions were by either upgrading the cuddnn version or by  
+
+    allow_growth = True 
+
+I seems to be not working.I don't know if i did that correct too.Can anybody help me with this.",4,1
+57,2019-11-18,2019,11,18,0,dxnuw1,Multiple predictions in a single model,https://www.reddit.com/r/tensorflow/comments/dxnuw1/multiple_predictions_in_a_single_model/,Cjbconnor,1574004588,"I'm trying to use a CNN model to predict more than one value based on the input image. I have my model set up correctly (I think) but I get an error every time I try and train it. The error I get is: `ValueError: too many values to unpack (expected 3)`. How can I build my model to predict multiple values?
+
+
+
+    def decode_img(img):
+      img = tf.image.decode_png(img, channels=3)
+      img = tf.image.convert_image_dtype(img, tf.float32)
+      return tf.image.resize(img, [IMG_WIDTH, IMG_HEIGHT])
+    
+    def process_path(file_path):
+        parts = tf.strings.split(file_path, '_')
+        file = tf.io.read_file(file_path)
+        img = decode_img(file)
+        return img, (tf.strings.split(parts[0], '/')[5], parts[1], parts[2], parts[3], tf.strings.split(parts[4], '.p')[0])
+    
+    def prepare_for_training(ds, cache=False, shuffle_buffer_size=1000):
+      if cache:
+        if isinstance(cache, str):
+          ds = ds.cache(cache)
+        else:
+          ds = ds.cache()
+    
+      ds = ds.shuffle(buffer_size=shuffle_buffer_size)
+      ds = ds.repeat()
+      ds = ds.batch(BATCH_SIZE)
+      ds = ds.prefetch(buffer_size=AUTOTUNE)
+    
+      return ds
+    
+    data_dir = pathlib.Path(""/home/connor/capstone/train3/"")
+    image_count = len(list(data_dir.glob('*.png')))
+    print(image_count)
+    image_generator = tf.keras.preprocessing.image.ImageDataGenerator(rescale=1./255)
+    BATCH_SIZE = 4
+    IMG_HEIGHT = 1024
+    IMG_WIDTH = 1024
+    STEPS_PER_EPOCH = np.ceil(image_count/BATCH_SIZE)
+    
+    list_ds = tf.data.Dataset.list_files(""/home/connor/capstone/train3/*.png"")
+    
+    labeled_ds = list_ds.map(process_path, num_parallel_calls=AUTOTUNE)
+    train_ds = prepare_for_training(labeled_ds)
+    
+    model = models.Sequential()
+    model.add(layers.Conv2D(32, (3, 3), activation='relu', input_shape=(IMG_HEIGHT, IMG_WIDTH, 3)))
+    model.add(layers.MaxPooling2D((2, 2)))
+    model.add(layers.Conv2D(64, (3, 3), activation='relu'))
+    model.add(layers.MaxPooling2D((2, 2)))
+    model.add(layers.Conv2D(64, (3, 3), activation='relu'))
+    model.add(layers.Flatten())
+    model.add(layers.Dense(64, activation='relu'))
+    model.add(layers.Dense(5, activation='softmax'))
+    model.compile(optimizer='adam',
+                  loss='sparse_categorical_crossentropy',
+                  metrics=['mae'])
+    
+    model.fit(train_ds, epochs=2, steps_per_epoch=STEPS_PER_EPOCH)",1,1
+58,2019-11-18,2019,11,18,7,dxtsn2,What types of problems will be more useful to use PyMC4 than TensorFlow Probability?,https://www.reddit.com/r/tensorflow/comments/dxtsn2/what_types_of_problems_will_be_more_useful_to_use/,o-rka,1574029950,"Im a big fan in PyMC3 and also a fan of TensorFlow.  I was very excited to see that PyMC4 would be using TensorFlow for the backend.  I was less enthused when I saw the new stylistic changes, though I understand why they used these changes since the graph paradigms are different between theano and TensorFlow.
+
+Looking at TensorFlow Probability it looks pretty powerful and especially with the canned estimators.
+
+Can someone explain a situation where it would make more sense to use PyMC4 than just a TensorFlow probability?",1,1
+59,2019-11-18,2019,11,18,17,dy0n5y,Transfer Learning with TensorFlow 2  Model Fine Tuning,https://www.reddit.com/r/tensorflow/comments/dy0n5y/transfer_learning_with_tensorflow_2_model_fine/,RubiksCodeNMZ,1574067003,,0,1
+60,2019-11-18,2019,11,18,23,dy47oi,Beginner - Installing Tensorflow ?,https://www.reddit.com/r/tensorflow/comments/dy47oi/beginner_installing_tensorflow/,Kappa7862,1574088977,"I did !pip install tensorflow, but when I run:
+
+%tensorflow\_version 1.x
+
+It says: 
+
+UsageError: Line magic function \`%tensorflow\_version\` not found.
+
+What does did mean and how to solve? #Python",3,1
+61,2019-11-19,2019,11,19,0,dy4h8y,Virtual GPUs in TF 1.x,https://www.reddit.com/r/tensorflow/comments/dy4h8y/virtual_gpus_in_tf_1x/,antonkollmats,1574090227,"Hi,  
+
+
+TensorFlow 2.0 provides the means for mocking a multi-GPU machine via the tf.config.experimental.VirtualDeviceConfiguration class. This allows for easy experimentation with the various distribution strategies of TensorFlow.  
+
+
+I'm looking for a way to do the same with TensorFlow 1.x, so if anyone has some advice that'd be much appreciated.   
+
+
+I have made attempts to use the tf.compat.v2 implementation in 1.15 to no avail. I'm also open to broader solutions such as mocking the GPU on the OS level somehow.
+
+&amp;#x200B;
+
+Thanks.",0,1
+62,2019-11-19,2019,11,19,2,dy5vwm,Unsupervised Learning Tutorial for Tensorflow 2?,https://www.reddit.com/r/tensorflow/comments/dy5vwm/unsupervised_learning_tutorial_for_tensorflow_2/,Noahwar97,1574096444,"I started learning TensorFlow 2 from a video at free code camp as well as a few others but no one mentions how to use unsupervised learning. I searched the tutorial section of TensorFlow and couldn't find anything that said ""Unsupervised"". Any tips on where i can find a tutorial for this?",7,1
+63,2019-11-19,2019,11,19,7,dyajkl,How are you parallelising image augmentation with TF2.0 on Windows?,https://www.reddit.com/r/tensorflow/comments/dyajkl/how_are_you_parallelising_image_augmentation_with/,geometrikal,1574115344,"Due to python GIL, parallel processing is a bit more difficult on Windows and Keras fit doesnt support multiprocessing with a generator. So I implement augmentation using tf.contrib.image  and the map function of Dataset. 
+
+However tf.contrib.image got moved to tf.addons with TF2 and is not currently implemented for Windows, so Im stuck on TF1.x. 
+
+What are some other strategies for performing parallel augmentation I could try?",0,1
+64,2019-11-20,2019,11,20,5,dypuqk,Feed data into a deployed model in Tensorflow 2.0,https://www.reddit.com/r/tensorflow/comments/dypuqk/feed_data_into_a_deployed_model_in_tensorflow_20/,AndreaCatania,1574193825,"I'm checking the new features of Tensorflow 2.0, and I saw that the `placeholder`s got deprecated. Now is possible to use directly a python object.
+
+```python
+# Define the SummatorModule that sum the submitted value with the previously
+# submitted one
+class SummatorModule(tf.Module):
+    def __init__(self):
+        super(SummatorModule, self).__init__()
+        self.a = tf.Variable(tf.zeros(shape=(1, 1)), name='a')
+
+    @tf.function
+    def __call__(self, x):
+        self.a.assign(self.a + x)
+        return self.a
+```
+As you can see here: `self.a.assign(self.a + x)`, I'm summing `self.a` (which is a __named__ `Variable`) with `x` (I assume that under the hood it is converted to a __unnamed__ `Variable`).
+
+Let's suppose that I deploy this model into the application; so I need to feed the data into the model, but since `x` doesn't have a name I can't take the operation as I was able to do before with `placeholder`. So how can I feed the data into a deployed model in Tensorflow 2.0?
+
+Probably even TF 2.0 server APIs got changed, but I'm not able to find anything about it; I hope that you can clean out my doubts.",2,1
+65,2019-11-20,2019,11,20,9,dytmm9,Is TF suitable for my timeseries project?,https://www.reddit.com/r/tensorflow/comments/dytmm9/is_tf_suitable_for_my_timeseries_project/,CorerMaximus,1574209388,"I'm currently trying to explore whether Tensorflow and RNNs are the correct for my timeseries problem and was looking for some input to that end before jumping in with both feet. I'm looking for something that is/can deal with the following; and was wondering what is and is not possible: 
+
+* Deals with missing data/ allows adding new features/signals
+* Deals with seasonality seasonality
+* Allows what-if analysis (i.e.- change a predictor variable and see the effect it has)
+* Incremental training (feed in new data and update the model)
+* Transfer learning: Generalize the effect of predictor variables enough that the model can be applied to data that has a very different shape/ subset of time, but still retains a similar effect of predictor variables.
+* Is able to derive that some weights shift in importance over time. i.e.- a variable is perhaps only useful during 1 month of the year.",2,1
+66,2019-11-20,2019,11,20,15,dyxzk2,How to use GPU in Google Colab when using Tensorflow 2.0,https://www.reddit.com/r/tensorflow/comments/dyxzk2/how_to_use_gpu_in_google_colab_when_using/,alwinaind,1574230772,"I want to run my notebook with GPU on Colab, and when I use the function
+
+`tf.test.gpu_device_name()` it returns `''`.
+
+However, when I reset all of my runtimes and use tensorflow 1.15.0 and call the same function it returns 
+
+`'/device:GPU:0'`",6,1
+67,2019-11-20,2019,11,20,15,dyy3cn,Twitch Score Finder - Looking for a teammate,https://www.reddit.com/r/tensorflow/comments/dyy3cn/twitch_score_finder_looking_for_a_teammate/,Migleytime,1574231437,"I am a student studying Computer Science and have some experience with computer vision at my internship and enjoy doing programming projects to learn more. I want to use TensorFlow to analyze different video game screens and gather data such as kills, scores and other stats. I was thinking this could be applied to Twitch streams to gather data of their current scores in games. I enjoy working on projects in teams, which is why I am looking for a teammate who would be interested in joining me on this project. Let me know if you're interested!",4,1
+68,2019-11-20,2019,11,20,21,dz1k37,TensorFlow Emotion Text Detector,https://www.reddit.com/r/tensorflow/comments/dz1k37/tensorflow_emotion_text_detector/,timedjama5262,1574253752,"I am new to TensorFlow and TensorFlow serving and tried to create a newbie app from it and that is an emotion text detector. Used docker and TensorFlow/serving docker image as base image to create my very own.  Please check out and maybe help me state out some of the things I can improve on. Thanks, [https://github.com/jama5262/tensorflow-emotion-text-detector](https://github.com/jama5262/tensorflow-emotion-text-detector)
+
+[https://github.com/jama5262/tensorflow-emotion-text-detector/blob/react-client/gif/image1.gif](https://github.com/jama5262/tensorflow-emotion-text-detector/blob/react-client/gif/image1.gif)",0,1
+69,2019-11-21,2019,11,21,5,dz7kan,tensorflow lite raspberian image,https://www.reddit.com/r/tensorflow/comments/dz7kan/tensorflow_lite_raspberian_image/,cajun1689,1574280586,anyone have base raspberian image with tensorflow lite compiled and installed on it? for those of us who are beginners?,1,1
+70,2019-11-21,2019,11,21,6,dz8m5p,Merging two Layers of different shapes.,https://www.reddit.com/r/tensorflow/comments/dz8m5p/merging_two_layers_of_different_shapes/,Research_point,1574285613,"I'M performing pruning (removing unimportant filters within each convolution layer) on the network shown. After pruning, conv2d\_7 output shape is \[None,7,7,32\]  and conv2d\_8 output shape is \[None,7,7,15\]. I would like to know what is the best way in tensorflow to merge two layer of different shape. Thanks
+
+https://preview.redd.it/fx7h93j0uwz31.png?width=1363&amp;format=png&amp;auto=webp&amp;s=d323d11110d85122bc4650bfcd2ff25aab0a2cb3",6,1
+71,2019-11-21,2019,11,21,8,dza3d5,Can I specify which steps the exporter will export a saved model?,https://www.reddit.com/r/tensorflow/comments/dza3d5/can_i_specify_which_steps_the_exporter_will/,MLn00bie22,1574291949,"In the `export/exporter` folder of a TensorFlow job, there are a series of saved models with timestamps. Here's an example of what the exporter directory looks like: 
+
+    |export/
+     exporter/
+          1574213833/
+          1574213867/
+          1574213901/
+          1574213935/
+          1574213970/
+
+Can we control at which steps these saved models will be saved? I know in the `tf.estimator.LatestExporter` there is a field called `exports_to_keep` but that doesn't help me understand at which step these saved models were saved. I've run my model for 10,000 steps, and would like to extract the model at 1,000 steps (other than re-running the job). Is there a way to specify the LatestExporter to create a saved model for every 1,000 steps or so? 
+
+[https://www.tensorflow.org/versions/r1.15/api\_docs/python/tf/estimator/LatestExporter](https://www.tensorflow.org/versions/r1.15/api_docs/python/tf/estimator/LatestExporter)
+
+It does seem like we can use the checkpoints and convert the checkpoints into a saved model, but it seems a little bit more involved. I'm about to give it a try, but wanted to ask around and see if saving the model at specific steps was possible. 
+
+[https://blog.metaflow.fr/tensorflow-how-to-freeze-a-model-and-serve-it-with-a-python-api-d4f3596b3adc](https://blog.metaflow.fr/tensorflow-how-to-freeze-a-model-and-serve-it-with-a-python-api-d4f3596b3adc)
+
+Thanks!",0,1
+72,2019-11-21,2019,11,21,14,dzertr,Not a valid application,https://www.reddit.com/r/tensorflow/comments/dzertr/not_a_valid_application/,Gaba1504,1574315059,"Hi! whenever i try use tensorflow in any project i get this long error:
+
+C:\\Users\\sebas\\AppData\\Local\\Programs\\Python\\Python36-32\\python.exe ""C:/Users/sebas/OneDrive/Desktop/coding/Python/Tumor detection/engine/app.py""
+
+`Traceback (most recent call last):`
+
+  `File ""C:/Users/sebas/OneDrive/Desktop/coding/Python/Tumor detection/engine/app.py"", line 1, in &lt;module&gt;`
+
+`import tensorflow.keras`
+
+  `File ""C:\Users\sebas\AppData\Roaming\Python\Python36\site-packages\tensorflow\__init__.py"", line 98, in &lt;module&gt;`
+
+`from tensorflow_core import *`
+
+  `File ""C:\Users\sebas\AppData\Roaming\Python\Python36\site-packages\tensorflow_core\__init__.py"", line 40, in &lt;module&gt;`
+
+`from` [`tensorflow.python.tools`](https://tensorflow.python.tools) `import module_util as _module_util`
+
+  `File ""&lt;frozen importlib._bootstrap&gt;"", line 971, in _find_and_load`
+
+  `File ""&lt;frozen importlib._bootstrap&gt;"", line 947, in _find_and_load_unlocked`
+
+  `File ""C:\Users\sebas\AppData\Roaming\Python\Python36\site-packages\tensorflow\__init__.py"", line 50, in __getattr__`
+
+`module = self._load()`
+
+  `File ""C:\Users\sebas\AppData\Roaming\Python\Python36\site-packages\tensorflow\__init__.py"", line 44, in _load`
+
+`module = _importlib.import_module(self.__name__)`
+
+  `File ""C:\Users\sebas\AppData\Local\Programs\Python\Python36-32\lib\importlib\__init__.py"", line 126, in import_module`
+
+`return _bootstrap._gcd_import(name[level:], package, level)`
+
+  `File ""C:\Users\sebas\AppData\Roaming\Python\Python36\site-packages\tensorflow_core\python\__init__.py"", line 47, in &lt;module&gt;`
+
+`import numpy as np`
+
+  `File ""C:\Users\sebas\AppData\Roaming\Python\Python36\site-packages\numpy\__init__.py"", line 140, in &lt;module&gt;`
+
+`from . import _distributor_init`
+
+  `File ""C:\Users\sebas\AppData\Roaming\Python\Python36\site-packages\numpy\_distributor_init.py"", line 26, in &lt;module&gt;`
+
+`WinDLL(os.path.abspath(filename))`
+
+  `File ""C:\Users\sebas\AppData\Local\Programs\Python\Python36-32\lib\ctypes\__init__.py"", line 348, in __init__`
+
+`self._handle = _dlopen(self._name, mode)`
+
+`OSError: [WinError 193] %1 is not a valid Win32 application`
+
+&amp;#x200B;
+
+Im running python 3.6
+
+and here is my code: 
+
+`import tensorflow.keras`  
+`from PIL import Image`  
+`import numpy as np`  
+
+
+`np.set_printoptions(suppress=True)`  
+
+
+`model = tensorflow.keras.models.load_model('keras_model.h5')`  
+
+
+`data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)`  
+
+
+`path = input(""Enter path to MRI scan: "")`  
+`image = Image.open(path)`  
+
+
+`image = image.resize((224, 224))`  
+`image_array = np.asarray(image)`  
+
+
+`normalized_image_array = image_array / 255.0`  
+`data[0] = normalized_image_array`  
+
+
+`prediction = model.predict(data)`  
+`print(prediction)`  
+
+
+`this error occurs with any tensor flow project,` 
+
+&amp;#x200B;
+
+Then model im using is a simple one trained from teachable machine",6,1
+73,2019-11-21,2019,11,21,20,dzi42v,Pretrained model prediction CPU vs GPU,https://www.reddit.com/r/tensorflow/comments/dzi42v/pretrained_model_prediction_cpu_vs_gpu/,ihababdk,1574336571,"Hey guys
+
+Im working on a project that uses a pretrained CNN (Inception pretrained on imagenet) and I want to do feature vector extraction with this model (Prediction function) , how much would it differ if I ran the model prediction using the CPU or GPU , and would I need a GPU-Specific model or library to use the GPU ?  
+
+
+Sorry if my question is broad and vague.
+
+Thanks!",1,1
+74,2019-11-22,2019,11,22,0,dzkqi1,Using iPad Pro NPU for training,https://www.reddit.com/r/tensorflow/comments/dzkqi1/using_ipad_pro_npu_for_training/,fucilator_3000,1574349560,"Hi Guys!
+
+
+I'm currently using TensorFlow with my MacBook Pro and Google Colab.  
+
+I was wondering if it would possible to use the computational power of the 2019 iPad Pro (in particular the NPU) to carry out the training phase.  
+
+Does it make sense to do it? Will I have any limitations?
+
+Thank you in advance!",7,1
+75,2019-11-22,2019,11,22,1,dzlzfe,I am trying to load a hub.Module in Colab but there is problem with the localhost container?,https://www.reddit.com/r/tensorflow/comments/dzlzfe/i_am_trying_to_load_a_hubmodule_in_colab_but/,ReasonablyBadass,1574354593,"I am trying to use the hub BERT module but I get the following error:
+
+&gt;FailedPreconditionError: Error while reading resource variable module/bert/encoder/layer\_6/output/LayerNorm/beta   
+&gt;  
+&gt;from Container: localhost. This could mean that the variable was uninitialized.   
+&gt;  
+&gt;Not found: Container localhost does not exist. (  
+&gt;  
+&gt;Could not find resource: localhost/module/bert/encoder/layer\_6/output/LayerNorm/beta) 	   
+&gt;  
+&gt;\[\[node module\_apply\_tokens/bert/encoder/layer\_6/output/LayerNorm/batchnorm/ReadVariableOp (defined at /usr/local/lib/python3.6/dist-packages/tensorflow\_core/python/framework/ops.py:1748) \]\]
+
+I have found no solution online to this problem that worked. 
+
+I have tried to set 
+
+&gt;os.environ\['TFHUB\_CACHE\_DIR'\] = ""my directory""
+
+But that made no difference.
+
+Has anyone seen this error before?",1,1
+76,2019-11-22,2019,11,22,13,dzvny5,Create action based on when a object class leaves the frame,https://www.reddit.com/r/tensorflow/comments/dzvny5/create_action_based_on_when_a_object_class_leaves/,cajun1689,1574395869,"hey guys im writting a python code to open a cover when my dog is present and need it to close after a certain amount of time once the go is no longer detected. i have this 
+
+`# Check the class of the top detected object by looking at classes[0][0].`
+
+`# If the top detected object is a cat (17) or a dog (18) (or a teddy bear (88) for test purposes),`
+
+`# find its center coordinates by looking at the boxes[0][0] variable.`
+
+`# boxes[0][0] variable holds coordinates of detected objects as (ymin, xmin, ymax, xmax)`
+
+`if ((int(classes[0][0] == 18)) and (pause == 0)):`
+
+`x = int(((boxes[0][0][1]+boxes[0][0][3])/2)*IM_WIDTH)`
+
+`y = int(((boxes[0][0][0]+boxes[0][0][2])/2)*IM_HEIGHT)`
+
+`# Draw a circle at center of object`
+
+[`cv2.circle`](https://cv2.circle)`(frame,(x,y), 5, (75,13,180), -1)`
+
+
+
+
+
+`# If object is in inside box, increment inside counter variable`
+
+`if ((x &gt; TL_food[0]) and (x &lt; BR_food[0]) and (y &gt; TL_food[1]) and (y &lt; BR_food[1])):`
+
+`dog_counter = dog_counter + 1`
+
+and then
+
+`# If dog has been detected inside for more than 10 frames, set detected_dog flag`
+
+`# and send a text to the phone.`
+
+`if dog_counter &gt; 10:`
+
+`detected_dog = True`
+
+`dog = true`
+
+`if gate_open == False`
+
+`for i in range(200):`
+
+`kit.stepper1.onestep(direction=stepper.BACKWARD,style=stepper.MICROSTEP)`
+
+`gate_open = True`
+
+`#message = client.messages.create(`
+
+`#   body = 'Your pet wants outside!',`
+
+`#  from_=twilio_number,`
+
+`#  to=my_number`
+
+`# )`
+
+`dog_counter = 0`
+
+`#outside_counter = 0`
+
+`# Pause pet detection by setting ""pause"" flag`
+
+`pause = 1`
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+	`if (detected_dog == False) and (gate_open == true)`
+
+		`for i in range(200):`
+
+`kit.stepper1.onestep(style=stepper.MICROSTEP)`
+
+`gate_open = False`
+
+&amp;#x200B;
+
+My problem is i dont understand tensorflow enough to know how to code when the dog is no longer in the frame",2,1
+77,2019-11-22,2019,11,22,19,dzzcne,Dockerized Tensorflow and reactJS-flask emotion text detector,https://www.reddit.com/r/tensorflow/comments/dzzcne/dockerized_tensorflow_and_reactjsflask_emotion/,timedjama5262,1574419533,,0,1
+78,2019-11-22,2019,11,22,22,e00ool,Is there any text on the internals of TF ?,https://www.reddit.com/r/tensorflow/comments/e00ool/is_there_any_text_on_the_internals_of_tf/,SecondEpoch,1574427774,"I've been trying to read through the Tensorflow codebase  to understand how it works inside, and honestly I find it a bit complex and intimidating. Are there any articles that gives a high level overview of how the framework is organised ? It would help any potential code contributors.",1,1
+79,2019-11-23,2019,11,23,5,e0796a,What's the loss function used in the LinearEstimator class?,https://www.reddit.com/r/tensorflow/comments/e0796a/whats_the_loss_function_used_in_the/,iamiamwhoami,1574456325,"I'm trying replicate results I'm getting using the estimator api in Keras, and I can't find this info.",0,1
+80,2019-11-23,2019,11,23,11,e0brzy,Multilabel image classifier outputting almost the same probabilities for each class independent of image,https://www.reddit.com/r/tensorflow/comments/e0brzy/multilabel_image_classifier_outputting_almost_the/,ski233,1574476721,"I have a multilabel image classification model that I had refined and had working. However, now I'm trying to use this model with a different dataset (where at the moment most images only have one label). However, during training, the f1 score goes incredibly low and never increases and if I do prediction, the output probabilities for each class are almost the same no matter what image I input. I'm using XCeption base model with a sigmoid final layer with binary\_crossentropy and adam optimizer. I tried using resnet50 with the same approach and it is producing the same issue. I've tried everything I can think of to fix this but I'm not getting anywhere. Any help would be greatly appreciated and I can post any more information that anyone thinks might be helpful.",38,1
+81,2019-11-23,2019,11,23,16,e0ejz9,Installation of TensorFlow Through pip - Javatpoint,https://www.reddit.com/r/tensorflow/comments/e0ejz9/installation_of_tensorflow_through_pip_javatpoint/,nehapandey01,1574492950,,0,1
+82,2019-11-23,2019,11,23,17,e0fcgn,Free or trial Cloud Computing for TensorFlow,https://www.reddit.com/r/tensorflow/comments/e0fcgn/free_or_trial_cloud_computing_for_tensorflow/,fucilator_3000,1574498641,"Hi guys! I'm actually using Google CoLab which is free.
+
+Is there any other similar solution with trial period?
+
+I know Google Cloud Drive but 300$ can't be used for ML :(",4,1
+83,2019-11-23,2019,11,23,18,e0fo47,Can anyone explain how to use a sigmoid layer in tensorflow is,https://www.reddit.com/r/tensorflow/comments/e0fo47/can_anyone_explain_how_to_use_a_sigmoid_layer_in/,Ravenclaw6706,1574501052,Ive been trying to use a sigmoid layer but I dont know how.,3,1
+84,2019-11-23,2019,11,23,19,e0ggji,"TensorFlow 1.0 vs 2.0, Part 3: tf.keras",https://www.reddit.com/r/tensorflow/comments/e0ggji/tensorflow_10_vs_20_part_3_tfkeras/,staged_blue,1574506597,,0,1
+85,2019-11-23,2019,11,23,20,e0go6i,Video Semantic Search in Large Scale using GNES and Tensorflow 2.0,https://www.reddit.com/r/tensorflow/comments/e0go6i/video_semantic_search_in_large_scale_using_gnes/,h_xiao,1574508050,,0,1
+86,2019-11-23,2019,11,23,22,e0hryr,"Tensorflow.JS, sigmoid activation layer.",https://www.reddit.com/r/tensorflow/comments/e0hryr/tensorflowjs_sigmoid_activation_layer/,Ravenclaw6706,1574515336,How do I use sigmoid activation layers in tensorflow.js,3,1
+87,2019-11-24,2019,11,24,17,e0vu7m,How to use TensorFlow Queue API to speed up performance for custom data?,https://www.reddit.com/r/tensorflow/comments/e0vu7m/how_to_use_tensorflow_queue_api_to_speed_up/,madebymaze,1574583329,"I am using TensorFlow 1.13. I am training my simple NN model to train on simple imagery data.
+
+I have been using feed_dict to pass data to the graph, however, I have found it extremely slow as CPU and GPU are running in sequence. Hence, I wanted to speed up this process by introducing parallelism aspect to the pipeline in order to speed up the performance.
+
+I have successfully implemented TensorFlow Queue API but it doesn't show a lot of improvements (just .1% faster). Therefore, I don't think I am using the full potentials of TensorFlow Queue API.
+
+I didn't use TensorFlow Data API because it requires TFRecords as an input, which isn't what I want to do. I just want to pass the imagery data with their labels to the graph and apply training on them.
+
+**I think these areas might cause slow performance, but I don't know how to fix them:**
+
+ - Enqueuing is happening then training starts.
+ - A single thread handles enqueue and the main thread handles dequeuing.
+ - Waiting for the enqueue thread to stop.
+
+Here is my code:
+
+* Shared functions for feed_dict :
+```
+def mini_batches(X, Y, mini_batch_size = 64, seed = 0):
+   ...
+def create_placeholders(n_x, n_y):
+    X = tf.placeholder(tf.float32, name = ""Placeholder_1"",shape=[n_x,None])
+    Y = tf.placeholder(tf.float32, name = ""Placeholder_2"",shape=[n_y,None])
+    return X, Y
+def initialize_parameters():
+   ...
+def forward_propagation(X, parameters):
+   ...
+def compute_cost(Z3, Y):
+    logits = tf.transpose(Z3)
+    labels = tf.transpose(Y)
+    cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits = logits, labels = labels))
+    return cost
+```
+* Queue functions:
+```
+def set_queue(n_x, n_y, X, Y, capacity):
+    q = tf.PaddingFIFOQueue(capacity=capacity, dtypes=[tf.float32, tf.float32], shapes=[(n_x,None),(n_y,None)], name=""q"", shared_name=""shared_q"")
+    en = q.enqueue((X, Y))
+    de = q.dequeue()
+    q_size = q.size()
+    close_q = q.close()
+
+def set_tf_vars():
+    en_epoch = tf.Variable(initial_value=0, trainable=False, dtype=tf.int32)
+    inc_en_epoch = tf.assign(en_epoch, en_epoch + 1, use_locking=True)
+    return en_epoch, inc_en_epoch
+
+def enqueue_thread(coord, sess, X, Y, en, en_epoch, inc_en_epoch, q_size, X_data, Y_data, lock, seed, num_epochs, m, minibatch_size):
+        while not coord.should_stop():
+          lock.acquire()
+          currepoch = sess.run(en_epoch)
+          queue_size = sess.run(q_size)
+          thread_name = threading.current_thread().name
+          if sess.run(en_epoch) &lt; num_epochs:
+              num_minibatches = int(m / minibatch_size)
+              seed = seed + 1
+              minibatches = mini_batches(X_data, Y_data, minibatch_size, seed)
+              for minibatch in minibatches:
+                  (minibatch_X, minibatch_Y) = minibatch
+                  sess.run(en, feed_dict={X:minibatch_X, Y:minibatch_Y})
+              sess.run(inc_en_epoch)
+              nextepoch = sess.run(en_epoch)
+              queue_size = sess.run(q_size)
+          else:
+              coord.request_stop()
+              break
+          lock.release()
+```
+
+* My implementation of TensorFlow Queue API:
+```
+def model_queue(X_train, Y_train, X_test, Y_test, capacity, learning_rate = 0.0001,
+          num_epochs = 100, minibatch_size = 32, print_cost = True):
+    ops.reset_default_graph()
+    sess = tf.InteractiveSession()
+    coord = tf.train.Coordinator() ##
+
+    tf.set_random_seed(1)
+    seed = 3
+
+    (n_x, m) = X_train.shape
+    n_y = Y_train.shape[0]
+    costs = []
+
+    X, Y = create_placeholders(n_x, n_y)
+    parameters = initialize_parameters()
+    Z3 = forward_propagation(X, parameters)
+    cost = compute_cost(Z3, Y)
+    optimizer = tf.train.AdamOptimizer(learning_rate = learning_rate).minimize(cost)
+
+    # create a queue
+    q, en, de, q_size, close_q = set_queue(n_x, n_y, X, Y, capacity) ##
+    
+    # create tensorflow variables to be used in enqueue_threading
+    en_epoch, inc_en_epoch = set_tf_vars() ##
+
+    init = tf.global_variables_initializer()
+    sess.run(init)
+
+    # create a locker to control the thread
+    lock = threading.Lock() ##
+    threads = [threading.Thread(target=enqueue_thread, args=(coord, sess, X, Y, en, en_epoch, inc_en_epoch, q_size, X_train, Y_train, lock, seed, num_epochs, m, minibatch_size,))] ##
+    
+    # start the enqueue_thread
+    for t in threads: t.start() ##
+
+    # main thread will be responsible of dequeuing of data and applying training
+    for epoch in range(num_epochs):
+        epoch_cost = 0.
+        num_minibatches = int(m / minibatch_size)
+        ##
+        for _ in range(num_minibatches):
+            minibatch_X, minibatch_Y = sess.run(de) ##
+            _ , minibatch_cost = sess.run([optimizer, cost], feed_dict={X: minibatch_X, Y: minibatch_Y})
+            epoch_cost += minibatch_cost / num_minibatches
+        if print_cost == True and epoch % 10 == 0:
+            print (""Cost after epoch %i: %f"" % (epoch, epoch_cost))
+        if print_cost == True and epoch % 5 == 0:
+            costs.append(epoch_cost)
+    parameters = sess.run(parameters)
+    correct_prediction = tf.equal(tf.argmax(Z3), tf.argmax(Y))
+    accuracy = tf.reduce_mean(tf.cast(correct_prediction, ""float""))
+    t_acc = accuracy.eval({X: X_train, Y: Y_train})
+    T_acc = accuracy.eval({X: X_test, Y: Y_test})
+    print (""Train Accuracy:"", t_acc)
+    print (""Test Accuracy:"", T_acc)
+    coord.request_stop()
+    coord.join(threads)
+    sess.run(close_q)
+    sess.close()
+    return parameters, t_acc, T_acc
+```",4,1
+88,2019-11-24,2019,11,24,19,e0ws7d,How to use bias and weights,https://www.reddit.com/r/tensorflow/comments/e0ws7d/how_to_use_bias_and_weights/,Ravenclaw6706,1574590498,"Im leaning how to use tensorflow.js, and I am not sure how to use weight and biases",4,1
+89,2019-11-25,2019,11,25,5,e13y07,Datasets from numpy arrays,https://www.reddit.com/r/tensorflow/comments/e13y07/datasets_from_numpy_arrays/,Ste29ebasta,1574626618,"I'm trying to create a Dataset object in tensorflow 1.14 (I have some legacy code that i can't change for this specific project) starting from numpy arrays, but everytime i try i get everything copied on my graph and for this reason when i create an event log file it is huge (719 MB in this case).
+
+&amp;#x200B;
+
+Originally i tried using this function ""tf.data.Dataset.from\_tensor\_slices()"", but it didn't work, then i read it is a common problem and someone suggested me to try with generators, thus i tried with the following code, but again i got a huge event file (719 MB again)
+
+&amp;#x200B;
+
+\`\`\`
+
+def fetch\_batch(x, y, batch):
+
+i = 0
+
+while i &lt; batch:
+
+yield (x\[i,:,:,:\], y\[i\])
+
+i +=1
+
+&amp;#x200B;
+
+train, test = tf.keras.datasets.fashion\_mnist.load\_data()
+
+images, labels = train  
+
+images = images/255
+
+&amp;#x200B;
+
+training\_dataset = tf.data.Dataset.from\_generator(fetch\_batch, 
+
+args=\[images, np.int32(labels), batch\_size\], output\_types=(tf.float32, tf.int32), 
+
+output\_shapes=(tf.TensorShape(features\_shape), tf.TensorShape(labels\_shape)))
+
+&amp;#x200B;
+
+file\_writer = tf.summary.FileWriter(""/content"", graph=tf.get\_default\_graph())
+
+\`\`\`
+
+&amp;#x200B;
+
+I know in this case I could use tensorflow\_datasets API and it would be easier, but this is a more general question, and it involves how to create datasets in general, not only using the mnist one.
+
+Could you explain to me what am i doing wrong? Thank you",15,1
+90,2019-11-25,2019,11,25,17,e1d2lf,"Tensorflow conda install guide points to Tf v1, not v2.",https://www.reddit.com/r/tensorflow/comments/e1d2lf/tensorflow_conda_install_guide_points_to_tf_v1/,Fenr-i-r,1574670125,"This link for installing Tensorflow in conda: https://www.tensorflow.org/install/pip?lang=python3#conda points to TF1. I'm not sure how to recommend an edit to point it to v2, at https://anaconda.org/anaconda/tensorflow-gpu (or https://anaconda.org/anaconda/tensorflow).
+
+Can someone tell me how, or suggest the change themselves?
+Cheers",3,1
+91,2019-11-25,2019,11,25,18,e1dmz7,Problem with GPT-2 (Raspi),https://www.reddit.com/r/tensorflow/comments/e1dmz7/problem_with_gpt2_raspi/,Chris-CR,1574673934,"I got some errors while testing GPT-2
+It says something with Tensorflow, so I thought it could belong here...
+
+[Link to Github Issue](https://github.com/rish-16/gpt2client/issues/21)",7,1
+92,2019-11-25,2019,11,25,18,e1dx47,Deep Learning for Programmers Ebook,https://www.reddit.com/r/tensorflow/comments/e1dx47/deep_learning_for_programmers_ebook/,RubiksCodeNMZ,1574675827,,2,1
+93,2019-11-26,2019,11,26,5,e1lvz9,Implementing custom models into tensorflow js,https://www.reddit.com/r/tensorflow/comments/e1lvz9/implementing_custom_models_into_tensorflow_js/,TechGenius28,1574712786,"I would like to create a website that can classify different types of cars. I have manage to get the website working to use the mobile net model, but I would like to use a custom model that I trained in google colab. Does anyone know how I could achieve this?",1,1
+94,2019-11-26,2019,11,26,11,e1qxv9,Is there a way to algorithmically trade with google colon?,https://www.reddit.com/r/tensorflow/comments/e1qxv9/is_there_a_way_to_algorithmically_trade_with/,Coffee4thewin,1574733810,"I want to try trading some paper stocks and maybe some really money one day(a long way off)
+
+Whats the best way to write code in jupyter notebooks and algorithmically trade?",9,1
+95,2019-11-26,2019,11,26,18,e1vnk4,Upgrading to TF2. Am I being forced into containers? What might I lose?,https://www.reddit.com/r/tensorflow/comments/e1vnk4/upgrading_to_tf2_am_i_being_forced_into/,bwllc,1574760703,"I use my home PC for a lot of scientific computing tasks, with Tensorflow being one of these.  I'm a native Linux user.  I typically upgrade my Ubuntu distro within weeks of a new release.  I do this because, while I have compiled applications I need from source, it's painful.  Upgraded repositories of many apps are immediately accessible from Canonical when you upgrade Ubuntu.
+
+I've been running Tensorflow 1.x for about 18 months.  I never succeeded in installing Bazel and compiling from source.  I always get warnings from Tensorflow that I'm not taking advantage of vectorized operations that my CPU has available.   
+ However, I did manage to install CUDA and cuDNN, and use my NVidia 970 GPU for Tensorflow.  I upgraded 3 or 4 times.
+
+This week I decided to install Ubuntu 19.10, the newest version; and, to switch to Tensorflow 2.0.  I just tried my usual methods for installation, and they failed.  I'll admit that I don't always fully understand the multiple versions of Python which end up on a modern Linux system.  I may have installed everything that I need this time -- but I sent something to the wrong place.  It's so hard to keep track.
+
+The Tensorflow 2.0 documentation strongly advises you to install Docker and run Tensorflow in a container.  Apparently, this solves a lot of installation problems.  Does it?
+
+Up to now, my Python setup has been very direct, and I use it in ways that others may not.  For many people, Tensorboard output might provide enough real-time information for them.  In my case, I learned a lot about the model architecture in one project by writing a Keras Callback which periodically graphed the predictions of a regression as the model trained.  This was much more important to me than simply graphing the model weights.  I had Tensorflow and Matplotlib running together in a single program.  I like having every line of code in my lightweight IDE (Geany) and to be able to modify it without thinking about where it is.
+
+I'm not familiar with containers.  I have worked with virtual machines.  If I wanted to run Tensorflow, Matplotlib, and Geany the way that I'm doing now, would all of that software go inside the container?  Would I be looking at an annoying, small, screen-inside-a-screen display when I'm doing my development?
+
+If the logical thing to do is to have only Tensorflow inside the container, how would it communicate outside the container?  Can that communication be reasonably fast and responsive?
+
+I've done multiprocessing in Python before.  I've used the /tmp folder in the Linux file hierarchy to pass data between programs.  These aren't impossible tasks for me, I'm just wondering how cumbersome this will be.
+
+Thanks for your insights.",6,1
+96,2019-11-26,2019,11,26,19,e1w4xp,[Project] My implementation of 9 knowledge distillation methods by Tensorflow2.0 and benchmark results,https://www.reddit.com/r/tensorflow/comments/e1w4xp/project_my_implementation_of_9_knowledge/,sseung0703,1574763921,[removed],0,1
+97,2019-11-26,2019,11,26,19,e1wfcr,Use tfhub module as video feature extractor,https://www.reddit.com/r/tensorflow/comments/e1wfcr/use_tfhub_module_as_video_feature_extractor/,WiIzaaa,1574765899,"Hi! I am trying to use [this module](https://tfhub.dev/deepmind/i3d-kinetics-600/1) as a video feature extractor and I was wondering if it was possible to use an intermediate layer instead of the default ""logits"". 
+
+I've tried to use their repo and compile the modle using their weights but their code hasn't been ported to TF2 :(
+
+Any idea would be welcome. Thanks a lot and have a good day!",1,1
+98,2019-11-27,2019,11,27,0,e1zbyp,"currently doing Bootcamp, can TS replace scikit-learn?",https://www.reddit.com/r/tensorflow/comments/e1zbyp/currently_doing_bootcamp_can_ts_replace/,philmtl,1574781630,"in 2018 i got certified in DS with python and used Scikit-learn for most of my models. As im going through this Bootcamp they are applying TS for many of the same uses i would use Scikit-learn for. 
+
+ex classification, linear regression, and forecasting. 
+
+i thought TS was mainly for image recognition, but im see it can do more. 
+
+yes i understand its better to know both, but if i were to focus on one to get a job which is more in demand?",8,1
+99,2019-11-27,2019,11,27,17,e2dar5,tensorflow 2.0 with compute capability 3.0,https://www.reddit.com/r/tensorflow/comments/e2dar5/tensorflow_20_with_compute_capability_30/,AlanRoofies,1574844471,"Hello, 
+
+I have a GT 740 2GB and i want to use it with tensorflow but i need to build tf with compute capability 3.0 and it is not working 
+
+is there a dockerized automatique builder or maybe someone can share an already built version",6,1
+100,2019-11-27,2019,11,27,20,e2ers6,"Learn more about the performance of distributed TensorFlow in a multi-node and multi-GPU configuration, running on an Amazon EC2 cluster. Download the research paper",https://www.reddit.com/r/tensorflow/comments/e2ers6/learn_more_about_the_performance_of_distributed/,benjamin_brook,1574853882,,0,1
+101,2019-11-27,2019,11,27,20,e2eyap,Training a Boltzmann machine with Tensorflow 2,https://www.reddit.com/r/tensorflow/comments/e2eyap/training_a_boltzmann_machine_with_tensorflow_2/,fori1to10,1574855078,"I am trying to find a tutorial or some documentation on how to train a Boltzmann machine (restricted or deep) with Tensorflow. All the resources I've found are for Tensorflow 1, and it's difficult for a beginner to understand what I need to modify.
+
+Can someone suggest something?",0,1
+102,2019-11-27,2019,11,27,23,e2h0a8,Is it possible to retrain a model in tensorflow-cpu if the original model was trained in tensorflow-gpu,https://www.reddit.com/r/tensorflow/comments/e2h0a8/is_it_possible_to_retrain_a_model_in/,begooboi,1574866131,I want to do some part of training in a gpu and other in cpu. If I use `pip install tensorflow-gpu` for training a model in gpu machine and then transfer the same model in a different cpu only machine with `pip install tensorflow` (same versions). Will the gpu trained model be able to train in cpu machine? or it will cause problems?,4,1
+103,2019-11-28,2019,11,28,4,e2kw96,Nan Predictions from Sequential Model,https://www.reddit.com/r/tensorflow/comments/e2kw96/nan_predictions_from_sequential_model/,yus0359_2,1574881498,"So I'm new to tensorflow, and I built a model to classify some random data. The model fit works and evaluate work, but when I try to predict with the fitted model I get a bunch of NAN values. The 'label' field is binary, 1 r 0. What am I doing wrong?
+
+&amp;#x200B;
+
+\`import tensorflow as tf  
+import pandas as pd  
+from sklearn.model\_selection import train\_test\_split  
+import copy as cp  
+import pickle as pkl  
+
+
+with open('data.pkl', 'rb') as f:  
+df = pkl.load(f)  
+
+
+del df\['dif'\]  
+del df\['start'\]  
+del df\['line\_speed'\]  
+del df\['time'\]  
+
+
+train, test = train\_test\_split(df, test\_size=0.2, stratify=df\['line'\])  
+
+
+x\_train = cp.deepcopy(train)  
+del x\_train\['label'\]  
+x\_train = x\_train.values.tolist()  
+y\_train = cp.deepcopy(train\['label'\]).values.tolist()  
+x\_test = cp.deepcopy(test)  
+del x\_test\['label'\]  
+x\_test = x\_test.values.tolist()  
+y\_test = cp.deepcopy(test\['label'\]).values.tolist()  
+
+
+\# sess = tf.Session()  
+model = tf.keras.models.Sequential(\[  
+tf.keras.layers.Dense(443, activation='sigmoid'),  
+ tf.keras.layers.Dense(2 \* 443, activation='sigmoid'),  
+ tf.keras.layers.Dense(2 \* 443, activation='sigmoid'),  
+ tf.keras.layers.Dropout(0.2),  
+ tf.keras.layers.Dense(1, activation='sigmoid')  
+\])  
+
+
+model.compile(optimizer='adam',  
+ loss=tf.losses.binary\_crossentropy,  
+ metrics=\['accuracy'\])  
+
+
+model.fit(x\_train, y\_train, epochs=5, batch\_size=2\*64)  
+model.evaluate(x\_test,  y\_test, verbose=2)  
+
+
+y = model.predict(x\_test, verbose=2)  
+print(y)  
+
+
+confusion = tf.math.confusion\_matrix(labels=y\_test, predictions=y, num\_classes=1)\`",0,1
+104,2019-11-28,2019,11,28,4,e2lr5u,What is the technology behind tensorboard?,https://www.reddit.com/r/tensorflow/comments/e2lr5u/what_is_the_technology_behind_tensorboard/,jfk9720,1574884662,"I really like the tensorboard function and was thinking about implementing a watered down version (html based visualisation etc.) for a project of mine. But I cannot find anything like it, except for the TensorBoard code itself of course, so I was wondering is there a name for tensorboard-like solutions?",5,1
+105,2019-11-28,2019,11,28,12,e2s3pr,TensorFlowLiteSwift support for GPU?,https://www.reddit.com/r/tensorflow/comments/e2s3pr/tensorflowliteswift_support_for_gpu/,john-c34,1574912141,"I'm working on deploying a model on an  iOS device using swift and tflite, however I need to speed up the inference time. Naturally, my initial thought was to utilize the device's GPU, however it seems that tflite-gpu is only supported with Objective-C.
+
+Will TensorFlowLiteSwift support GPU usage anytime soon?
+
+Thanks
+
+0",0,1
+106,2019-11-28,2019,11,28,20,e2wlsu,Tensorflow 2.0 (Keras) Show Labels ?,https://www.reddit.com/r/tensorflow/comments/e2wlsu/tensorflow_20_keras_show_labels/,m4ctep,1574939169,"Hello ,
+
+&amp;#x200B;
+
+i created an Keras Model with [https://teachablemachine.withgoogle.com/train](https://teachablemachine.withgoogle.com/train) .
+
+&amp;#x200B;
+
+I Test the Code With :
+
+    import cv2 # import opencv
+    import tensorflow.keras as keras
+    import numpy as np
+    
+    webcam = cv2.VideoCapture(0)
+    model = keras.models.load_model('keras_model.h5')
+    
+    data_for_model = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
+    
+    # This function proportionally resizes the image from your webcam to 224 pixels high
+    def image_resize(image, height, inter = cv2.INTER_AREA):
+        dim = None
+        (h, w) = image.shape[:2]
+        r = height / float(h)
+        dim = (int(w * r), height)
+        resized = cv2.resize(image, dim, interpolation = inter)
+        return resized
+    
+    # this function crops to the center of the resize image
+    def cropTo(img):
+        size = 224
+        height, width = img.shape[:2]
+    
+        sideCrop = (width - 224) // 2
+        return img[:,sideCrop:(width - sideCrop)]
+    
+    while True:
+        ret, img = webcam.read()
+        if ret:
+            #same as the cropping process in TM2
+            img = image_resize(img, height=224)
+            img = cropTo(img)
+    
+            # flips the image
+            img = cv2.flip(img, 1)
+    
+            #normalize the image and load it into an array that is the right format for keras
+            normalized_img = (img.astype(np.float32) / 127.0) - 1
+            data_for_model[0] = normalized_img
+     
+            #run inference
+            prediction = model.predict(data_for_model)
+    
+            print(prediction)
+    
+            cv2.imshow('webcam', img)
+            if cv2.waitKey(1) == 27:
+                break
+    
+    cv2.destroyAllWindows()
+    
+    The Result is :
+    
+    [[0.58780265 0.06445915 0.18077235 0.16696586]
+    
+    i heave a labels.txt file in the zip archive with The Labels :
+    
+    0 dog
+    1 cat
+    2 hamster
+    3 bird 
+     
+    
+    How Can i show the Results with the Labels Text ?",4,1
+107,2019-11-29,2019,11,29,11,e3838c,"Doing a NLP project for the Tensorflow 2.0 Hackathon, and looking for teammates.",https://www.reddit.com/r/tensorflow/comments/e3838c/doing_a_nlp_project_for_the_tensorflow_20/,AdditionalWay,1574993568,"We are looking to this hackathon. We are a team of 3, looking or 1 or 2 other people. 
+
+We are looking to do some tricky things in Keras, so deep Keras experience is a huge plus.",6,1
+108,2019-11-29,2019,11,29,21,e3e340,Status of LSTM/GRU Support for TF Lite in TF 2.0?,https://www.reddit.com/r/tensorflow/comments/e3e340/status_of_lstmgru_support_for_tf_lite_in_tf_20/,craaaft,1575030132,"Does anyone know the state of full support of LSTM/GRU for TFLite in TF2.0? In the [roadmap](https://www.tensorflow.org/lite/guide/roadmap) it should be implemented by end of 2019 which is near, and I couldn't find any news besides the workarounds that seem to work very suboptimally....
+
+Any dev here that works on it maybe here and could share the status?",0,1
+109,2019-11-29,2019,11,29,22,e3esu5,"This video goes over a breast cancer diagnosis model that uses neural networks, implemented in Python.",https://www.reddit.com/r/tensorflow/comments/e3esu5/this_video_goes_over_a_breast_cancer_diagnosis/,antaloaalonso,1575034466,,2,1
+110,2019-11-29,2019,11,29,23,e3fji9,Making a tensorflow model,https://www.reddit.com/r/tensorflow/comments/e3fji9/making_a_tensorflow_model/,StressedOutBox,1575038409,"Hey there,
+
+So i'm going to be making a tensorflow project based on gestures but these gestures will be ones that will require movement. So I'll need to use videos instead of images..
+
+So, Is it possible to make a tensorflow model based on videos and how could I do this?",6,1
+111,2019-11-30,2019,11,30,17,e3sxlx,Keras model keeps getting stuck on first epoch,https://www.reddit.com/r/tensorflow/comments/e3sxlx/keras_model_keeps_getting_stuck_on_first_epoch/,MSute,1575101249,I have been trying to build an image classification model using transfer learning and it keeps getting stuck on the first epoch,5,1
+112,2019-11-30,2019,11,30,22,e3w3wp,Tensorflow suitable for hobbyist project?,https://www.reddit.com/r/tensorflow/comments/e3w3wp/tensorflow_suitable_for_hobbyist_project/,negro_scholarship,1575119701,"I am working on a simple project.  I have 600 frames of an animation.  I would like to take a folder full of style images, and then perform a neural style transfer on each of these 600 frames using said style images.  I thought Tensorflow would be perfect for this, since I do have a bit of experience with Python, but I am having a hell of a time getting it working.
+
+I am following the guide here - [https://www.tensorflow.org/tutorials/generative/style\_transfer](https://www.tensorflow.org/tutorials/generative/style_transfer) and this is the code I am using:
+
+    from __future__ import absolute_import, division, print_function, unicode_literals
+    import tensorflow as tf
+    import IPython.display as display
+    
+    import matplotlib.pyplot as plt
+    import matplotlib as mpl
+    mpl.rcParams['figure.figsize'] = (12,12)
+    mpl.rcParams['axes.grid'] = False
+    
+    import numpy as np
+    import PIL.Image
+    import time
+    import functools
+    def tensor_to_image(tensor):
+      tensor = tensor*255
+      tensor = np.array(tensor, dtype=np.uint8)
+      if np.ndim(tensor)&gt;3:
+        assert tensor.shape[0] == 1
+        tensor = tensor[0]
+      return PIL.Image.fromarray(tensor)
+    
+    content_path = tf.keras.utils.get_file('YellowLabradorLooking_new.jpg', 'https://storage.googleapis.com/download.tensorflow.org/example_images/YellowLabradorLooking_new.jpg')
+    
+    # https://commons.wikimedia.org/wiki/File:Vassily_Kandinsky,_1913_-_Composition_7.jpg
+    style_path = tf.keras.utils.get_file('kandinsky5.jpg','https://storage.googleapis.com/download.tensorflow.org/example_images/Vassily_Kandinsky%2C_1913_-_Composition_7.jpg')
+    
+    def load_img(path_to_img):
+      max_dim = 512
+      img = tf.io.read_file(path_to_img)
+      img = tf.image.decode_image(img, channels=3)
+      img = tf.image.convert_image_dtype(img, tf.float32)
+    
+      shape = tf.cast(tf.shape(img)[:-1], tf.float32)
+      long_dim = max(shape)
+      scale = max_dim / long_dim
+    
+      new_shape = tf.cast(shape * scale, tf.int32)
+    
+      img = tf.image.resize(img, new_shape)
+      img = img[tf.newaxis, :]
+      return img
+    
+    def imshow(image, title=None):
+      if len(image.shape) &gt; 3:
+        image = tf.squeeze(image, axis=0)
+    
+      plt.imshow(image)
+      if title:
+        plt.title(title)
+        
+    content_image = load_img(content_path)
+    style_image = load_img(style_path)
+    
+    plt.subplot(1, 2, 1)
+    imshow(content_image, 'Content Image')
+    
+    plt.subplot(1, 2, 2)
+    imshow(style_image, 'Style Image')
+    
+    
+    import tensorflow_hub as hub
+    hub_module = hub.load('https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/1')
+    stylized_image = hub_module(tf.constant(content_image), tf.constant(style_image))[0]
+    tensor_to_image(stylized_image)
+    
+    x = tf.keras.applications.vgg19.preprocess_input(content_image*255)
+    x = tf.image.resize(x, (224, 224))
+    vgg = tf.keras.applications.VGG19(include_top=True, weights='imagenet')
+    prediction_probabilities = vgg(x)
+    prediction_probabilities.shape
+    
+    predicted_top_5 = tf.keras.applications.vgg19.decode_predictions(prediction_probabilities.numpy())[0]
+    [(class_name, prob) for (number, class_name, prob) in predicted_top_5]
+    
+    vgg = tf.keras.applications.VGG19(include_top=False, weights='imagenet')
+    
+    print()
+    for layer in vgg.layers:
+      print(layer.name)
+    
+    # Content layer where will pull our feature maps
+    content_layers = ['block5_conv2'] 
+    
+    # Style layer of interest
+    style_layers = ['block1_conv1',
+                    'block2_conv1',
+                    'block3_conv1', 
+                    'block4_conv1', 
+                    'block5_conv1']
+    
+    num_content_layers = len(content_layers)
+    num_style_layers = len(style_layers)
+    
+    def vgg_layers(layer_names):
+      """""" Creates a vgg model that returns a list of intermediate output values.""""""
+      # Load our model. Load pretrained VGG, trained on imagenet data
+      vgg = tf.keras.applications.VGG19(include_top=False, weights='imagenet')
+      vgg.trainable = False
+      
+      outputs = [vgg.get_layer(name).output for name in layer_names]
+    
+      model = tf.keras.Model([vgg.input], outputs)
+      return model
+    
+    style_extractor = vgg_layers(style_layers)
+    style_outputs = style_extractor(style_image*255)
+    
+    #Look at the statistics of each layer's output
+    for name, output in zip(style_layers, style_outputs):
+      print(name)
+      print(""  shape: "", output.numpy().shape)
+      print(""  min: "", output.numpy().min())
+      print(""  max: "", output.numpy().max())
+      print(""  mean: "", output.numpy().mean())
+      print()
+    
+    def gram_matrix(input_tensor):
+      result = tf.linalg.einsum('bijc,bijd-&gt;bcd', input_tensor, input_tensor)
+      input_shape = tf.shape(input_tensor)
+      num_locations = tf.cast(input_shape[1]*input_shape[2], tf.float32)
+      return result/(num_locations)
+    
+    class StyleContentModel(tf.keras.models.Model):
+      def __init__(self, style_layers, content_layers):
+        super(StyleContentModel, self).__init__()
+        self.vgg =  vgg_layers(style_layers + content_layers)
+        self.style_layers = style_layers
+        self.content_layers = content_layers
+        self.num_style_layers = len(style_layers)
+        self.vgg.trainable = False
+    
+      def call(self, inputs):
+        ""Expects float input in [0,1]""
+        inputs = inputs*255.0
+        preprocessed_input = tf.keras.applications.vgg19.preprocess_input(inputs)
+        outputs = self.vgg(preprocessed_input)
+        style_outputs, content_outputs = (outputs[:self.num_style_layers], 
+                                          outputs[self.num_style_layers:])
+    
+        style_outputs = [gram_matrix(style_output)
+                         for style_output in style_outputs]
+    
+        content_dict = {content_name:value 
+                        for content_name, value 
+                        in zip(self.content_layers, content_outputs)}
+    
+        style_dict = {style_name:value
+                      for style_name, value
+                      in zip(self.style_layers, style_outputs)}
+        
+        return {'content':content_dict, 'style':style_dict}
+    
+    extractor = StyleContentModel(style_layers, content_layers)
+    
+    results = extractor(tf.constant(content_image))
+    
+    style_results = results['style']
+    
+    print('Styles:')
+    for name, output in sorted(results['style'].items()):
+      print(""  "", name)
+      print(""    shape: "", output.numpy().shape)
+      print(""    min: "", output.numpy().min())
+      print(""    max: "", output.numpy().max())
+      print(""    mean: "", output.numpy().mean())
+      print()
+    
+    print(""Contents:"")
+    for name, output in sorted(results['content'].items()):
+      print(""  "", name)
+      print(""    shape: "", output.numpy().shape)
+      print(""    min: "", output.numpy().min())
+      print(""    max: "", output.numpy().max())
+      print(""    mean: "", output.numpy().mean())
+    
+    style_targets = extractor(style_image)['style']
+    content_targets = extractor(content_image)['content']
+    
+    image = tf.Variable(content_image)
+    
+    def clip_0_1(image):
+      return tf.clip_by_value(image, clip_value_min=0.0, clip_value_max=1.0)
+    
+    opt = tf.optimizers.Adam(learning_rate=0.02, beta_1=0.99, epsilon=1e-1)
+    
+    style_weight=1e-2
+    content_weight=1e4
+    
+    def style_content_loss(outputs):
+        style_outputs = outputs['style']
+        content_outputs = outputs['content']
+        style_loss = tf.add_n([tf.reduce_mean((style_outputs[name]-style_targets[name])**2) 
+                               for name in style_outputs.keys()])
+        style_loss *= style_weight / num_style_layers
+    
+        content_loss = tf.add_n([tf.reduce_mean((content_outputs[name]-content_targets[name])**2) 
+                                 for name in content_outputs.keys()])
+        content_loss *= content_weight / num_content_layers
+        loss = style_loss + content_loss
+        return loss
+    
+    @tf.function()
+    def train_step(image):
+      with tf.GradientTape() as tape:
+        outputs = extractor(image)
+        loss = style_content_loss(outputs)
+    
+      grad = tape.gradient(loss, image)
+      opt.apply_gradients([(grad, image)])
+      image.assign(clip_0_1(image))
+    
+    train_step(image)
+    train_step(image)
+    train_step(image)
+    tensor_to_image(image)
+    
+    import time
+    start = time.time()
+    
+    epochs = 10
+    steps_per_epoch = 100
+    
+    step = 0
+    for n in range(epochs):
+      for m in range(steps_per_epoch):
+        step += 1
+        train_step(image)
+        print(step, end='')
+      display.clear_output(wait=True)
+      display.display(tensor_to_image(image))
+      print(""Train step: {}"".format(step))
+      
+    end = time.time()
+    print(""Total time: {:.1f}"".format(end-start))
+    
+    
+
+&amp;#x200B;
+
+And here is Python's output after running this code:
+
+    input_2
+    block1_conv1
+    block1_conv2
+    block1_pool
+    block2_conv1
+    block2_conv2
+    block2_pool
+    block3_conv1
+    block3_conv2
+    block3_conv3
+    block3_conv4
+    block3_pool
+    block4_conv1
+    block4_conv2
+    block4_conv3
+    block4_conv4
+    block4_pool
+    block5_conv1
+    block5_conv2
+    block5_conv3
+    block5_conv4
+    block5_pool
+    block1_conv1
+      shape:  (1, 336, 512, 64)
+      min:  0.0
+      max:  835.5257
+      mean:  33.97525
+    
+    block2_conv1
+      shape:  (1, 168, 256, 128)
+      min:  0.0
+      max:  4625.8857
+      mean:  199.82687
+    
+    block3_conv1
+      shape:  (1, 84, 128, 256)
+      min:  0.0
+      max:  8789.24
+      mean:  230.78099
+    
+    block4_conv1
+      shape:  (1, 42, 64, 512)
+      min:  0.0
+      max:  21566.133
+      mean:  791.24005
+    
+    block5_conv1
+      shape:  (1, 21, 32, 512)
+      min:  0.0
+      max:  3189.2544
+      mean:  59.179478
+    
+    Styles:
+       block1_conv1
+        shape:  (1, 64, 64)
+        min:  0.0055228467
+        max:  28014.568
+        mean:  263.79025
+    
+       block2_conv1
+        shape:  (1, 128, 128)
+        min:  0.0
+        max:  61479.504
+        mean:  9100.95
+    
+       block3_conv1
+        shape:  (1, 256, 256)
+        min:  0.0
+        max:  545623.44
+        mean:  7660.9766
+    
+       block4_conv1
+        shape:  (1, 512, 512)
+        min:  0.0
+        max:  4320501.5
+        mean:  134288.86
+    
+       block5_conv1
+        shape:  (1, 512, 512)
+        min:  0.0
+        max:  110005.38
+        mean:  1487.0381
+    
+    Contents:
+       block5_conv2
+        shape:  (1, 26, 32, 512)
+        min:  0.0
+        max:  2410.8796
+        mean:  13.764152
+    123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100[2K
+    [2K
+    &lt;PIL.Image.Image image mode=RGB size=512x422 at 0x12E858099E8&gt;
+    Train step: 100
+    101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132133134135136137138139140141142143144145146147148149150151152153154155156157158159160161162163164165166167168169170171172173174175176177178179180181182183184185186187188189190191192193194195196197198199200[2K
+    [2K
+    &lt;PIL.Image.Image image mode=RGB size=512x422 at 0x12E858152E8&gt;
+    Train step: 200
+    201202203204205206207208209210211212213214215216217218219220221222223224225226227228229230231232233234235236237238239240241242243244245246247248249250251252253254255256257258259260261262263264265266267268269270271272273274275276277278279280281282283284285286287288289290291292293294295296297298299300[2K
+    [2K
+    &lt;PIL.Image.Image image mode=RGB size=512x422 at 0x12E85820BA8&gt;
+    Train step: 300
+    301302303304305306307308309310311312313314315316317318319320321322323324325326327328329330331332333334335336337338339340341342343344345346347348349350351352353354355356357358359360361362363364365366367368369370371372373374375376377378379380381382383384385386387388389390391392393394395396397398399400[2K
+    [2K
+    &lt;PIL.Image.Image image mode=RGB size=512x422 at 0x12E85824F60&gt;
+    Train step: 400
+    401402403404405406407408409410411412413414415416417418419420421422423424425426427428429430431432433434435436437438439440441442443444445446447448449450451452453454455456457458459460461462463464465466467468469470471472473474475476477478479480481482483484485486487488489490491492493494495496497498499500[2K
+    [2K
+    &lt;PIL.Image.Image image mode=RGB size=512x422 at 0x12E857EEFD0&gt;
+    Train step: 500
+    501502503504505506507508509510511512513514515516517518519520521522523524525526527528529530531532533534535536537538539540541542543544545546547548549550551552553554555556557558559560561562563564565566567568569570571572573574575576577578579580581582583584585586587588589590591592593594595596597598599600[2K
+    [2K
+    &lt;PIL.Image.Image image mode=RGB size=512x422 at 0x12EE137FB00&gt;
+    Train step: 600
+    601602603604605606607608609610611612613614615616617618619620621622623624625626627628629630631632633634635636637638639640641642643644645646647648649650651652653654655656657658659660661662663664665666667668669670671672673674675676677678679680681682683684685686687688689690691692693694695696697698699700[2K
+    [2K
+    &lt;PIL.Image.Image image mode=RGB size=512x422 at 0x12E857EEFD0&gt;
+    Train step: 700
+    701702703704705706707708709710711712713714715716717718719720721722723724725726727728729730731732733734735736737738739740741742743744745746747748749750751752753754755756757758759760761762763764765766767768769770771772773774775776777778779780781782783784785786787788789790791792793794795796797798799800[2K
+    [2K
+    &lt;PIL.Image.Image image mode=RGB size=512x422 at 0x12EE137FB00&gt;
+    Train step: 800
+    801802803804805806807808809810811812813814815816817818819820821822823824825826827828829830831832833834835836837838839840841842843844845846847848849850851852853854855856857858859860861862863864865866867868869870871872873874875876877878879880881882883884885886887888889890891892893894895896897898899900[2K
+    [2K
+    &lt;PIL.Image.Image image mode=RGB size=512x422 at 0x12E857EEFD0&gt;
+    Train step: 900
+    9019029039049059069079089099109119129139149159169179189199209219229239249259269279289299309319329339349359369379389399409419429439449459469479489499509519529539549559569579589599609619629639649659669679689699709719729739749759769779789799809819829839849859869879889899909919929939949959969979989991000[2K
+    [2K
+    &lt;PIL.Image.Image image mode=RGB size=512x422 at 0x12EE137FB00&gt;
+    Train step: 1000
+    Total time: 13161.4
+    &gt;&gt;&gt; 
+    
+
+So a few things - I am thinking that ""display.display(tensor\_to\_image(image))"" is supposed to display the transformed image?  Well, it doesn't - instead it prints a pointer or something?  Also, it seems like this one transform took an extremely long time!  If I have to wait this long for each of the 600 frames I need to apply the NST to, it doesn't seem feasible.
+
+Anyone have any suggestions here?  Is Tensorflow perhaps the wrong tool to use here, should I be using something like PyTorch instead?",4,1
+113,2019-11-30,2019,11,30,23,e3wv98,Tensorflow 2.0  tf.data.Dataset vs tf.keras.Model.fit() Batching,https://www.reddit.com/r/tensorflow/comments/e3wv98/tensorflow_20_tfdatadataset_vs_tfkerasmodelfit/,OftenPerspicacious,1575123122,"The docs for tf.keras.Model.fit() say not to specify a batch_size argument if you are using a Dataset, generator, etc., because these create their own batches.
+
+Looking at the shapes of the input tensors within the call() function of my subclassed tf.keras.Model, it seems that using the Dataset batches will force your Model to deal with the batching (i.e., the full batch is passed at once), whereas setting the batch size using fit() will pass a single element of the batch to your model.
+
+Is that correct? I'm asking because I'm having problems with tf.keras.backend's batch_dot() and sum() that seem to be a product of using tf.data.Dataset to load Iris data. A similar architecture that doesn't use TF's Dataset, but calls model.fit() sets a batch size, but doesn't generate these errors. The models use custom weight vectors (defined in the model's .build() function) that don't have a ""batch_size"" 'placeholder' (e.g., None), but this only seems to be an issue with tf.data.Dataset's batching, not model.fit().
+
+My main questions are:
+
+1) Do you have to explicitly handle the batched inputs using tf.data.Dataset's batching, but can assume that's not necessary with model.fit()'s batching?
+
+2) How does the batching work for each case? I haven't been able to find much online about this.",2,1

@@ -1,0 +1,27 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2016-3-8,2016,3,8,22,49ie31,Why TensorFlow will change the Game for AI,https://www.reddit.com/r/tensorflow/comments/49ie31/why_tensorflow_will_change_the_game_for_ai/,toisanji,1457442245,,0,5
+1,2016-3-12,2016,3,12,0,49zbxc,Beginner Tensorflow,https://www.reddit.com/r/tensorflow/comments/49zbxc/beginner_tensorflow/,ExperientialAgent,1457711400,"I am an extreme beginner, let me know if this question should go elsewhere. I'm setting up a beginner prediction model using the Prediction API spreadsheets to predict promotional tactics on overall revenue. How would you set up the following scenarios in Google Tensorflow:
+
+1.) How would you setup variables for a sweater only sale vs. a sweater and jeans and shirt sale? Would you have an individual column for each (HasJeans, no) ? Or would you just have one column with all promotion items (Promotion, jeans shirt sweater) 
+
+2.) We have 72 hour sales and 7-day sales. Would you just have a column for days (3,7) and one for starting day (Monday)?
+",2,1
+2,2016-3-12,2016,3,12,1,49zee4,"Jeff Dean talks about TensorFlow, deep learning at Google",https://www.reddit.com/r/tensorflow/comments/49zee4/jeff_dean_talks_about_tensorflow_deep_learning_at/,VikingCoder,1457712377,,0,3
+3,2016-3-16,2016,3,16,3,4ajouv,Training ensembles in Tensorflow,https://www.reddit.com/r/tensorflow/comments/4ajouv/training_ensembles_in_tensorflow/,joeyglasgow,1458065923,"I was wondering if anyone had experience training ensembles in Tensorflow?
+
+Essentially I have an architecture consisting of a number of networks of heterogeneous architecture combined as a product-of-experts and a cost which minimises the ensemble as a whole, not individual members.
+
+I've done their classification tutorials &amp; understand how to train a single net, but I can't find how to reuse components and train an ensemble.
+
+If anyone had experience with how to do this, or suggestions of what I might do it'd be very helpful.",0,2
+4,2016-3-21,2016,3,21,18,4bbo2b,Convolution on N dims?,https://www.reddit.com/r/tensorflow/comments/4bbo2b/convolution_on_n_dims/,hapliniste,1458554029,"Hi! Is it possible to do convolutions over more than 2 dimensions with Tensorflow? like conv3d or convNd?
+
+I think this would be useful for building conv models working on point clouds. It could also be useful to work on data that is contiguous on some dimensions (images are on two dimensions so it's logical to use conv2D).
+
+Thanks!",4,3
+5,2016-3-26,2016,3,26,13,4c002l,Dealing with labels that are relations between exemplars.,https://www.reddit.com/r/tensorflow/comments/4c002l/dealing_with_labels_that_are_relations_between/,ndufour,1458967408,"I have a rather unusual learning task that I'm having difficulty implementing in TensorFlow. Well, the net itself isn't the problem--that's relatively easy--but rather serving the net's input in an appropriate way. While the dataset consists of normal images, they do not themselves have labels. Rather, the ""labels"" are relations between images. On approach would be to serve batches of X random images and then lookup any relations between them. However, this will take an exorbitant amount of time to train: If there are n images and O(log(n)*n) defined relations (i.e., labels), out of n^2 possible relations, the probability any set of randomly chosen images will include a relation (label) is very low. 
+
+So, I have to serve up *pairs* of images, where each pair is known to have a relation--batches consist of 2N images each. How can this be accomplished in TensorFlow? I can't simply serialize all pairs of images having relations (which would require terabytes and terabytes of duplicate data, since each image participates in many relations). 
+
+Any thoughts would be much appreciated!",0,1
+6,2016-3-30,2016,3,30,20,4cka4k,[Tested!] Hack you Mac (with Nvidia GPU) to support GPU training with Tensorflow.,https://www.reddit.com/r/tensorflow/comments/4cka4k/tested_hack_you_mac_with_nvidia_gpu_to_support/,machrisaa,1459335844,,2,3

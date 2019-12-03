@@ -1,0 +1,1035 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2018-3-1,2018,3,1,15,8137wj,Why does it necessary for input in nn.dynamic_rnn to be an 3D tensor?,https://www.reddit.com/r/tensorflow/comments/8137wj/why_does_it_necessary_for_input_in_nndynamic_rnn/,Laurence-Lin,1519885222,"In the tensorflow document of tf.nn.dynamic_rnn, it says that the 'inputs' term states for [batch size, max time, ...]
+
+I can understand the first two terms, while if I use input as an 2-D tensor, ex: nn.dynamic_rnn(cell, inputs = [batch size, max time])
+
+It may cause error. What does the third term in 'inputs' stands for? I have to create an new dimension by newaxis, which confuses me when doing this.
+
+Thanks a lot.",3,5
+1,2018-3-2,2018,3,2,5,818ma8,Looking for an example,https://www.reddit.com/r/tensorflow/comments/818ma8/looking_for_an_example/,Finchlo,1519937377,"Hi,
+
+I am looking for a basic example in Tensor flow of how to implement the following:
+
+https://en.wikipedia.org/wiki/Collaborative_filtering
+
+Ideally in Python.",2,1
+2,2018-3-2,2018,3,2,7,819imi,TensorFlow and tf.keras: Batch Normalization to train deep networks faster,https://www.reddit.com/r/tensorflow/comments/819imi/tensorflow_and_tfkeras_batch_normalization_to/,crawles89,1519944279,,0,10
+3,2018-3-2,2018,3,2,15,81cde5,TensorFlow 1.6.0 released,https://www.reddit.com/r/tensorflow/comments/81cde5/tensorflow_160_released/,makerro,1519972675,,0,24
+4,2018-3-2,2018,3,2,17,81csmu,What is the network architecture of hidden layer inside an LSTM?,https://www.reddit.com/r/tensorflow/comments/81csmu/what_is_the_network_architecture_of_hidden_layer/,Laurence-Lin,1519978770,"I'm not sure what is the architecture in the hidden layer &amp; output layer? According to this blog: http://colah.github.io/posts/2015-08-Understanding-LSTMs/  and BasicLSTMCell in tensorflow, here is my assumption after reading some reference:
+
+Hidden state: size (h,1), then input an (h,1) matrix into cell to be the (i, f, o, g) factor. If current input x have size (n,1), then we concatenate it with previous output which have size h*1, thus
+input neurons may have size (n+h). Thus, the size of weight matrix may be (n+h) * h.
+
+Output state: output of the LSTM cell, size same as hidden state, since the input to cell have size of hidden state and the calculation inside the cell is all bit-wise calculation. 
+
+Output value: create an fully connected layer that output an value. If hidden state have size h * 1, then size of weight matrix in this layer may be h * 1. 
+
+Thus, for an single LSTM cell which has four input channel (i, f, o, g) and the output layer, there will be 5 weight matrix that should be optimized: 4 with size h * (n+h) for hidden layer, 1 with size h*1 for output layer.
+
+Am I correct?
+
+I hope I can draw an detail chart for the LSTM architecture after fully understand. Thanks!",0,3
+5,2018-3-4,2018,3,4,7,81teth,TensorFlow for Perl and Other Languages?,https://www.reddit.com/r/tensorflow/comments/81teth/tensorflow_for_perl_and_other_languages/,tektektektektek,1520115115,"Is there any scope in the future for TensorFlow for other languages? Right now it appears TensorFlow is only available for Python (I'm not even sure which Python).
+
+Even a documented C binding might make it universally available.",2,0
+6,2018-3-6,2018,3,6,1,8276pe,Efron partial likelihood estimator for Cox PH model,https://www.reddit.com/r/tensorflow/comments/8276pe/efron_partial_likelihood_estimator_for_cox_ph/,bydmitry,1520267606,,0,2
+7,2018-3-6,2018,3,6,11,82bh5q,how to write cleaner TF code,https://www.reddit.com/r/tensorflow/comments/82bh5q/how_to_write_cleaner_tf_code/,jehan60188,1520301825,"I've put together TF code, and have training blocks similar to what's found here: https://github.com/ardiya/siamesenetwork-tensorflow/blob/master/train.py
+
+so, isolating the network is straightforward enough- put the network and loss function in their own file as their own functions.
+
+But the actual training seems pretty intense, in train.py, everything after line 44.  Just seems like it could be cleaner, or more object-oriented.
+
+Are there any tensorflow programming paradigms to help shorten up code and make it easier to read?",1,3
+8,2018-3-6,2018,3,6,11,82bmla,Is there a good series of tutorials about the usage of Keras? Struggling to find a good start,https://www.reddit.com/r/tensorflow/comments/82bmla/is_there_a_good_series_of_tutorials_about_the/,Navigia,1520303228,"Hey, I'm currently working with TF/Keras/OpenCV for a project and while I'm getting example codes to work and I'm able to understand how the code is structured, I often wonder *why* they choose certain parameters. For example in the model definition. How many Convolutional layers, what kind of layer, what parameters, what pool size, what kind of activation, etc?
+
+Is there any other way than trial and error? ",5,6
+9,2018-3-6,2018,3,6,20,82ecsy,No module named nets | windows 10,https://www.reddit.com/r/tensorflow/comments/82ecsy/no_module_named_nets_windows_10/,djerrund,1520335613,"Hi there,
+
+I'm quite new to Tensorflow and Python. I've already solved many errors which I encountered when trying to get started with the Tensorflow Object Detection model, however the one I get now has been busting my brains for the past days.
+
+I'm trying to test my installation using the ""python object_detection/builders/model_builder_test.py""
+
+But then I get the error ""  from nets import inception_resnet_v2
+ImportError: No module named 'nets' ""
+
+After searching for answers I find many answers saying it has something to do with PYTHONPATH. Most answers say use ""export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim "" Which is code for Linux... 
+
+I tried adding the Slim folder to my path system variable, but the errors keeps coming.
+
+Can somebody ELI5 how I can solve this? 
+
+",1,1
+10,2018-3-6,2018,3,6,22,82f3p6,Projects with TensorFlow for beginners,https://www.reddit.com/r/tensorflow/comments/82f3p6/projects_with_tensorflow_for_beginners/,AvatarNikhil,1520343427,"especially regarding space exploration, planetary science, earth science.. etc.",0,1
+11,2018-3-7,2018,3,7,0,82fsb1,Learning how to AI and Biology at the same time,https://www.reddit.com/r/tensorflow/comments/82fsb1/learning_how_to_ai_and_biology_at_the_same_time/,onidaito,1520349389,,0,2
+12,2018-3-7,2018,3,7,0,82ftpm,"An awesome playlist for Tensorflow, I loved it!",https://www.reddit.com/r/tensorflow/comments/82ftpm/an_awesome_playlist_for_tensorflow_i_loved_it/,Debabrata-I,1520349699,,3,26
+13,2018-3-8,2018,3,8,0,82pabv,"My tensorflow GPU performance is slower than my CPU. Is my GPU too weak, and my 8 core CPU stronger?",https://www.reddit.com/r/tensorflow/comments/82pabv/my_tensorflow_gpu_performance_is_slower_than_my/,loopuleasa,1520438224,"I have a Zbook 15 G3 laptop which has:
+
+- CPU: [i7-6820HQ 2.7GHz (8-core)](https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6820HQ+%40+2.70GHz&amp;id=2659)
+- GPU: [Nvidia Quadro M1000M](https://www.videocardbenchmark.net/gpu.php?gpu=Quadro+M1000M)
+
+I ran a script from a pluralsight tutorial, and timed it.
+
+I have a local tensorflow installation with pip
+
+I have a virual env tensorflow-gpu installation within anaconda
+
+- CPU Time to finish: 7 seconds
+- GPU time to finish: 21 seconds
+
+Thanks for the help. Trying to experiment with ML.",8,1
+14,2018-3-8,2018,3,8,1,82pmst,Some ops can't be defined to handle tensors of different sizes,https://www.reddit.com/r/tensorflow/comments/82pmst/some_ops_cant_be_defined_to_handle_tensors_of/,rigabigadiga,1520440792,"Usually, I can leave the first dimension of a shape undefined, and the network will handle any batch size I want. In my current network I am using tf.zeros() and tf.tile(), which I am giving exact shapes to as arguments. I would like a graph that generalizes across different batch sizes.
+
+I am using tf.zeros() to create the imaginary part for a tf.complex() argument number.
+
+I am using tf.tile() because tf.matmul() doesn't support broadcasting.
+
+I have thought about making separate graphs for different batch size, and make them share variables, but this is not the solution I want",1,3
+15,2018-3-8,2018,3,8,13,82uuec,Requesting a quick benchmark,https://www.reddit.com/r/tensorflow/comments/82uuec/requesting_a_quick_benchmark/,psqueak,1520483458,"Hi! I recently wrote a little feed forward network generator. Unfortunately, I've found that actually using the generated networks is unacceptably slow and I can't see how to further trim my implementation.
+
+I'm running `tensorflow-gpu`, but I'm actually sitting on a nvidia 650m with 512 mb of vram and cuda compute capacity 3.0.
+
+Therefore, I was wondering if the speed was just a function of my (rather old) gpu. [I put together a tiny benchmark script](https://gist.github.com/pipsqueaker/90a5c8a97d072b3ca400f68fcfc12f26), and was hoping that you might run it and report back with your results.
+
+The script is just 40 lines, and only depends on tensorflow and numpy (which I'm sure all of you have)- it usually takes 60-90s for me, but on occasion has taken as long as 200.
+
+Also, if any of you see significant inefficiencies in my implementation, I'd be glad to know. I'm puzzled over why I get so much variance and why, when I use this nn repeatedly in some other code I've been writing, it actually slows down appreciably as time goes on",2,1
+16,2018-3-8,2018,3,8,15,82vdc2,Simple neural network slowing down as it is queried?,https://www.reddit.com/r/tensorflow/comments/82vdc2/simple_neural_network_slowing_down_as_it_is/,psqueak,1520489459,"I recently wrote a little feed forward network generator. Unfortunately, I've found that actually using the generated networks seems to get slower and slower with time
+
+I've put together the minimum amount of code that exhibits the issue. It requires `tensorflow` and `numpy`, but also `gym`- the minimal installation on pip should work fine.
+
+    import tensorflow as tf
+    import numpy as np
+    import gym
+
+
+    def ff_network(name, layer_dims):
+        layer_weight_list = [None] * len(layer_dims)
+        layers = [None] * len(layer_dims)
+        layers[0] = tf.placeholder('float', [None, layer_dims[0]])
+        layer_weight_list = [None] * (len(layer_dims) - 1)
+        layer_bias_list = [None] * len(layer_weight_list)
+
+        for i, width in enumerate(layer_dims[1:]):
+            i += 1
+
+            layer_weights = tf.get_variable(name + str(i), [layer_dims[i - 1], width])
+            layer_bias = tf.get_variable(name + str(i) + ""bias"", [layer_dims[i]])
+            layer = tf.matmul(layers[i - 1], layer_weights) + layer_bias
+
+            if i != len(layer_dims) - 1:
+                layer = tf.nn.sigmoid(layer)
+
+            layer_weight_list[i - 1] = layer_weights
+            layer_bias_list[i - 1] = layer_bias
+            layers[i] = layer
+
+        return layers, layer_weight_list + layer_bias_list
+
+    def sample_trajectory(env, actor):
+
+        done = False
+
+        obs = env.reset()
+        state_dims = len(obs)
+
+        while not done:
+
+            env.render()
+
+            action = actor(obs)
+            old_obs = obs
+            obs, reward, done, info = env.step(action)
+
+            # Some environments randomly switch state dimensions, coerce to avoid that
+            obs = np.reshape(obs, (state_dims,))
+
+
+    def go(env, scope=""scope""):
+
+        state_dims = len(env.reset())
+        action_dims = env.action_space.shape[0]
+        actor_nn_dims = [state_dims, 10, action_dims]
+
+        with tf.variable_scope(scope, reuse=tf.AUTO_REUSE):
+            actor_nn, actor_weights = ff_network(""actor_nn"", actor_nn_dims)
+
+        with tf.Session() as sess:
+
+            sess.run(tf.global_variables_initializer())
+
+            act_with_noise = lambda state: \
+                            sess.run(actor_nn[-1] + tf.random_normal(tf.shape(actor_nn[-1]),
+                                                                stddev=.1),
+                                {actor_nn[0]: [state]})
+
+            while True:
+                sample_trajectory(env, act_with_noise)
+
+    if __name__ == ""__main__"":
+        env = gym.make('Pendulum-v0')
+        go(env)
+
+
+If you run the above script then, at least on my machine, you'll start off OK, but given a minute or two the speed (which is reflected in the FPS of the simulation) slows to an absolute crawl.
+
+What's most puzzling to me is that there seems to be no reason for the performance deterioration. I only create the network once, and I'm not storing anything as I loop so python-side memory leaks aren't the cause. I can rule out any issues on `gym`'s side, since if I replace the line
+   
+    sample_trajectory(env, actor)
+
+with
+
+    sample_trajectory(env, lambda s: [0])
+
+then the simulation runs buttery smooth. This leads me to conclude that there's some persistent state between calls in Tensorflow that I'm unaware of. However I'm very new to the framework, so I have little idea what that might be or how I would fix it.
+
+I also used cProfile to run the script for a while (140s) to the point where the FPS is nearly zero. You can view the [time-sorted log here](https://gist.github.com/pipsqueaker/695146f40de37a8d3f39bcd36347956c). There are clearly a few functions which are taking up most of the time, but they all look like rendering (expected) or Tensorflow internals (which, with my limited experience, I'm not too sure how to interpret).
+
+
+Anyways, I just found this extremely odd. I could understand my neural network implementation being slow, but it seems to me that it should be equally slow on all calls. The deterioration over time indicates to me that there's something going on which I dont understand.",3,1
+17,2018-3-8,2018,3,8,19,82wnk8,Installing tensorflow library wit anaconda,https://www.reddit.com/r/tensorflow/comments/82wnk8/installing_tensorflow_library_wit_anaconda/,Moni93,1520506403,"I'm using anaconda to work with python. I am working with tensorflow for a deep learning project. I needed to instal a package cladded 'tf_utils' (tensorflow utils) , the problem is that i couldn't install it with anaconda : It is from this site : https://pypi.python.org/pypi/tensorflow-utils I tried to follow all steps and replaced pip with conda , but it doesn't help alot . So any help will be appreciated .
+
+",3,2
+18,2018-3-9,2018,3,9,7,831mkr,Neural net for 34716 input variables,https://www.reddit.com/r/tensorflow/comments/831mkr/neural_net_for_34716_input_variables/,JustAnotherMe23,1520548093,"Hello! I'm making a neural net for fMRI data, which is kind of like a picture of a brain with boxels(3D pixels) to create 2 categories of people. Unfortunately, when I set up a simple net of 2 hidden layers of 20 nodes each, the cost becomes nan very quickly. I can't figure out how to include all the data with this happening. Pls help! I've limited the batching to 50 for now.
+
+Here's the code. First time using Jupyter so not sure if this runs in terminal well:
+# coding: utf-8
+
+# In[32]:
+
+
+import numpy as np
+import tensorflow as tf
+import math
+import matplotlib.pyplot as plt
+
+
+# In[33]:
+
+
+#Get data
+def getData(docName):
+    doc = open(docName, 'r')
+    data_int = doc.read()
+    doc.close()
+    data_int2 = data_int.split(""\n"")
+    data_int2.remove("""")
+
+    data = []
+    for x in range(0, len(data_int2)):
+        data.append(data_int2[x].split("",""))
+    data = np.array(data)
+    return(data.astype(float))
+
+print(""starting"")
+#raw_data = getData('RawData.txt')
+corr_data = getData('CorrData.txt')
+#filt_data = getData('FiltData.txt')
+age_data = getData('Ages.txt')
+shape = corr_data.shape
+print(corr_data.shape)
+
+
+# In[34]:
+
+
+#Format data
+x_train = corr_data
+
+mean_age = age_data.mean()
+y_train = np.empty([shape[0], 2])
+y_train[:, 0] = np.transpose((age_data &lt; mean_age))
+y_train[:, 1] = y_train[:, 0] == 0
+
+#Define batching
+class batch:
+    def __init__(self, x_matrix, y_matrix):
+        self.x_data = x_matrix
+        self.y_data = y_matrix
+        self.x_shape = x_matrix.shape
+        self.y_shape = y_matrix.shape
+        
+    def get_random(self, size):
+        order = range(0, size)
+        np.random.shuffle(order)
+        x_out = np.empty([size, self.x_shape[1]])
+        y_out = np.empty([size, self.y_shape[1]])
+        for i in range(0, size):
+            row = order[i]
+            x_out[i, :] = self.x_data[row, :]
+            y_out[i, :] = self.y_data[row, :]
+        return(x_out, y_out)
+
+train_batch = batch(x_train, y_train)
+
+
+# In[41]:
+
+
+#hyperparameters
+learn_rate = 0.001
+epochs = 20000
+print_step = 50
+dropout = 1
+BATCH_SIZE = 50
+
+#Network variables
+ins = 69696
+outs = 2
+hidden_1 = 20
+hidden_2 = 20
+
+x = tf.placeholder(tf.float32, [None, ins])
+y = tf.placeholder(tf.float32, [None, outs])
+drop_rate = tf.placeholder(tf.float32)
+
+W = {
+    'h1': tf.Variable(tf.truncated_normal([ins, hidden_1])),
+    'h2': tf.Variable(tf.truncated_normal([hidden_1, hidden_2])),
+    'out': tf.Variable(tf.truncated_normal([hidden_2, outs]))
+}
+
+b = {
+    'h1': tf.Variable(tf.truncated_normal([hidden_1])),
+    'h2': tf.Variable(tf.truncated_normal([hidden_2])),
+    'out': tf.Variable(tf.truncated_normal([outs]))
+}
+
+
+# In[42]:
+
+
+#Design network
+def perceptron(x, W, b, dropout):
+    layer_1 = tf.add(tf.matmul(x, W['h1']), b['h1'])
+    layer_1 = tf.nn.sigmoid(layer_1)
+    
+    layer_2 = tf.add(tf.matmul(layer_1, W['h2']), b['h2'])
+    layer_2 = tf.nn.sigmoid(layer_2)
+    
+    out_layer = tf.add(tf.matmul(layer_2, W['out']), b['out'])
+    return out_layer
+
+
+# In[43]:
+
+
+#Evaluation methods
+pred = perceptron(x, W, b, drop_rate)
+cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits_v2(logits=pred, labels=y))
+optimizer = tf.train.AdamOptimizer(learn_rate).minimize(cost)
+
+correct_pred = tf.equal(tf.argmax(pred, 1), tf.argmax(y, 1))
+accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
+
+#Initialize network
+init = tf.global_variables_initializer()
+sess = tf.Session()
+sess.run(init)
+
+#Train network
+collection_points = int(math.floor(epochs/print_step))
+acc_history = np.empty([collection_points])
+counter = 0
+for i in range(0, epochs):
+    batch = train_batch.get_random(50)
+    sess.run(optimizer, feed_dict={
+        x: batch[0],
+        y: batch[1],
+        drop_rate: dropout
+    })
+    if(i % print_step == 0):
+        counter = counter + 1
+        thing, acc = sess.run([W, accuracy], feed_dict={
+            x: batch[0],
+            y: batch[1],
+            drop_rate: dropout
+        })
+        print(acc)
+        acc_history[counter - 1] = acc",17,2
+19,2018-3-9,2018,3,9,11,833706,A YouTube video or something to help conceptualize the wiring?,https://www.reddit.com/r/tensorflow/comments/833706/a_youtube_video_or_something_to_help/,dbabbitt,1520561534,"Hi Guys,
+
+I've taken a few TensorFlow tutorials and tried to change the input data to something with different dimensions. Specifically, the MNIST handwritten digits demos (28x28 1D gray-scale pixels) to my own images (10x10 3D color pixels). It's the magic numbers inside the python functions that are giving me the TensorFlow errors. And when I change them to contain the multiples they need, I get a totally different TensorFlow error. I think I need to watch a YouTube video or something on how to conceptualize the wiring.
+
+Do you have any suggestions? (Or maybe you can simply explain it.)
+
+Thanks",5,3
+20,2018-3-9,2018,3,9,13,833vat,Trying to translate basic example [Python],https://www.reddit.com/r/tensorflow/comments/833vat/trying_to_translate_basic_example_python/,elbiot,1520568192,"Not new to machine learning but new to Neural nets.  I am trying to start at the most basic Recurrent Neural Network and work up.  I found this [example](https://stackoverflow.com/questions/38294046/simple-recurrent-neural-network-input-shape) which needed some translating.  But now the results I get are very different.  What am I missing?
+
+    import random
+    import numpy as np
+    from tensorflow.python.keras.layers import SimpleRNN, TimeDistributed, Dense
+    from tensorflow.python.keras.models import Sequential
+
+    np.random.seed(1337)
+
+    sample_size = 256
+    x_seed = [1, 0, 0, 0, 0, 0]
+    y_seed = [1, 0.8, 0.6, 0, 0, 0]
+
+    x_train = np.array([[x_seed] * sample_size]).reshape(sample_size,len(x_seed),1)
+    y_train = np.array([[y_seed]*sample_size]).reshape(sample_size,len(y_seed),1)
+
+    model=Sequential()
+    model.add(SimpleRNN(50, input_shape=(len(x_seed),1), return_sequences = True))
+    model.add(TimeDistributed(Dense(1, activation  =  ""sigmoid"")))
+    model.compile(loss = ""mse"", optimizer = ""rmsprop"")
+    model.fit(x_train, y_train, nb_epoch = 10, batch_size = 32)
+
+    print(model.predict(np.array([[[1],[0],[0],[0],[0],[0]]])))
+
+results in
+
+    Epoch 1/1
+    2018-03-08 21:35:36.116250: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+    256/256 [==============================]256/256 [==============================] - 1s 2ms/step - loss: 0.0974
+
+    [[[0.66997623]
+      [0.6478545 ]
+      [0.5093554 ]
+      [0.21203448]
+      [0.21736448]
+      [0.16737841]]]",0,1
+21,2018-3-9,2018,3,9,20,835zp0,"Help: Inception TensorFlow looking for Session Bundle or SavedModel,but I only have inception checkpoint",https://www.reddit.com/r/tensorflow/comments/835zp0/help_inception_tensorflow_looking_for_session/,C0inMaster,1520594578,"Hello all,
+Please help a tensorflow newbie.. I have installed docker image from bitnami,which includes inception. 
+https://github.com/bitnami/bitnami-docker-tensorflow-inception
+
+I can start  serving and inception containers, but I get the error below. In the instructions, I had to download the checkpoint file, which I did and I placed files in a proper directory. But I found multiple articles, that TensorFlow now requires new format ""SavedModel"", but I can't find any place to download the inception checkpoints in a new format and Tensorflow serving container, is refusing to use the old format. 
+
+Please help me with either of the following:
+
+1. Where can I download pre-trained checkpoints data in new format?
+http://download.tensorflow.org/models/image/imagenet/inception-v3-2016-03-01.tar.gz  
+
+2. How can I convert old format checkpoint to new SavedModel or Session Bundle ?
+
+3. How can I configure TensorFlow to accept the older format? Maybe there is a parameter?
+
+*My directory structure:* 
+
+    /tmp/model-data/1/model.ckpt-157585
+    /tmp/model-data/1/checkpoint
+
+*From docker-compose.yml*
+ 
+    volumes:
+       - 'tensorflow_serving_data:/bitnami'
+       - '/tmp/model-data:/bitnami/model-data'
+               
+
+*This is the error from the log when it starts: *
+
+    ensorflow-serving_1    | 2018-03-09 10:52:47.596318: I tensorflow_serving/core/basic_manager.cc:705]   Successfully reserved resources to load servable {name: inception version: 1}
+    tensorflow-serving_1    | 2018-03-09 10:52:47.596350: I tensorflow_serving/core/loader_harness.cc:66] Approving load for servable version {name: inception version: 1}
+    tensorflow-serving_1    | 2018-03-09 10:52:47.596360: I tensorflow_serving/core/loader_harness.cc:74] Loading servable version {name: inception version: 1}
+    tensorflow-serving_1    | 2018-03-09 10:52:47.596795: E tensorflow_serving/util/retrier.cc:38] Loading servable: {name: inception version: 1} failed: Not found: Session bundle or SavedModel bundle not found at specified export location
+
+Thank you all in advance. ",3,3
+22,2018-3-11,2018,3,11,22,83mqts,IMporting problem?,https://www.reddit.com/r/tensorflow/comments/83mqts/importing_problem/,jonathanshoe,1520775543,"Im trying to import? tensorflow 1.5 in my windows 10 using coda 9.0, cuDNN 7.0.5. It gives me the error when typing ""activate tf15"" into command prompt.  "" 'activate' is not recognized as an internal or external command,
+operable program or batch file.""",1,0
+23,2018-3-12,2018,3,12,10,83rciw,Tensorflow dimensions are not compatible?,https://www.reddit.com/r/tensorflow/comments/83rciw/tensorflow_dimensions_are_not_compatible/,carlitros1207,1520818242,"hey guys im doing a homework for my artificial intelligence class and im having an error that I cant seem to fix the error is ""ValueError: Dimensions 504 and 19 are not compatible"" anyone have any ideas of how I can fix this?
+
+    import pandas as pd
+    import tensorflow as tf
+    df = pd.read_csv('vegas2.csv', header=0)
+    def train_input_fn(features, labels, batch_size):
+        """"""An input function for training""""""
+        # Convert the inputs to a Dataset.
+        dataset = tf.data.Dataset.from_tensor_slices((dict(features), labels))
+
+        # Shuffle, repeat, and batch the examples.
+        dataset = dataset.shuffle(1000).repeat().batch(batch_size)
+
+        # Return the dataset.
+        return dataset
+
+
+    def load_data(y_name='Hotel name'):
+        train = df
+        train_x ,train_y = train ,train.pop(y_name)
+    
+        #train_x = df.to_dict(train_x)
+        #train_x = df.as_matrix(train_x)
+        return (train_x, train_y)
+
+    def yesNo(x):
+        if x==""YES"":
+            return 1
+        else:
+            return 0
+ 
+    def toOrd(str):
+        x=0
+        for l in str:
+          x += ord(l)
+        return int(x)
+
+    CSV_COLUMN_NAMES = ['User country', 'Nr. reviews','Nr. hotel reviews','Helpful votes',
+           'Score','Period of stay','Traveler type','Pool','Gym','Tennis court',
+           'Spa','Casino','Free internet','Hotel stars','Nr. rooms',
+            'User continent','Member years','Review month','Review weekday']
+
+    df['Casino']=df['Casino'].apply(lambda x : yesNo(x))
+    df['Gym']=df['Gym'].apply(lambda x : yesNo(x))
+    df['Pool']=df['Pool'].apply(lambda x : yesNo(x))
+    df['Tennis court']=df['Tennis court'].apply(lambda x : yesNo(x))
+    df['Free internet']=df['Free internet'].apply(lambda x : yesNo(x))
+    df['Spa']=df['Spa'].apply(lambda x : yesNo(x))
+
+
+    column2 = ['Period of stay', 'Hotel name', 'User country', 'Traveler type', 
+             'User continent', 'Review month', 'Review weekday']
+
+    for y in column2:
+        df[y]=df[y].apply(lambda x: toOrd(x))
+
+    # Fetch the data
+    (train_x, train_y) = load_data()
+
+    # Feature columns describe how to use the input.
+    my_feature_columns = []
+    for key in train_x.keys():
+        my_feature_columns.append(tf.feature_column.numeric_column(key=key))
+
+    # Build 2 hidden layer DNN with 10, 10 units respectively.
+    classifier = tf.estimator.DNNClassifier(
+        feature_columns=my_feature_columns,
+        # Two hidden layers of 10 nodes each.
+        hidden_units=[10, 10],
+        # The model must choose between 3 classes.
+        n_classes=3)
+
+    # Train the Model.
+    classifier.train(input_fn=lambda:train_input_fn(train_x, CSV_COLUMN_NAMES ,10),steps=10)",1,1
+24,2018-3-12,2018,3,12,14,83slw4,Any luck compiling TF1.6 with CUDA on a mac?,https://www.reddit.com/r/tensorflow/comments/83slw4/any_luck_compiling_tf16_with_cuda_on_a_mac/,Im_int,1520831991,,0,0
+25,2018-3-13,2018,3,13,2,83wjxe,Data Quantity vs Data Quality,https://www.reddit.com/r/tensorflow/comments/83wjxe/data_quantity_vs_data_quality/,OriginalDoctorBean,1520874278,"Hi,
+is there a general rule of thumb whether quality or quantity of data is preferred when training a new model?
+I now both is important but sometimes you have to decide.
+Or does it depend on e.g. which optimizer you use?
+Thanks for any help 
+",4,2
+26,2018-3-14,2018,3,14,2,84666i,Humble Book Bundle: A.I. by Packt includes several books about TensorFlow,https://www.reddit.com/r/tensorflow/comments/84666i/humble_book_bundle_ai_by_packt_includes_several/,sipolsa,1520963537,,5,0
+27,2018-3-14,2018,3,14,8,848nt5,Question tensorflow tutorial,https://www.reddit.com/r/tensorflow/comments/848nt5/question_tensorflow_tutorial/,anti-Casta,1520982783,"Hi guys, 
+
+I am starting the tensorflow tutorial because I am learning how to use it. I am trying to understand the first example explained in the tutorial concerning CNNs: 
+
+https://www.tensorflow.org/tutorials/layers
+
+There is 1 thing I don't understand. After pooling layer 1 the output has shape [batch_size, 14, 14, 32]. The 32 are the 32 channels as a consequence of the 32 filters. This output is then fed as input to convolutional layer 2, which contains 64 filters. According to the tutorial the output of this convolutional layer has a shape [batch_size, 14, 14, 64]. 
+
+Now, the thing I don't understand is what happened to the 32 channels of the input ? The input could have had 32 channels, 100 channels or 1000 channels but the output of the convolutional layer would always have a shape [batch_size, 14, 14, 64]. So what I am thinking is that maybe the 32 is hidden in the batch_size. I mean that batch_size at the output of the CNN is equal to the batch_size at the input multiplied with 32. Is this correct or am I wrong ? I don't see any other explanation for what happened to these 32 channels after the first pooling layer. ",3,0
+28,2018-3-14,2018,3,14,22,84dhaj,Humble Book Bundle: Artificial Intelligence,https://www.reddit.com/r/tensorflow/comments/84dhaj/humble_book_bundle_artificial_intelligence/,808hunna,1521035127,"[Humble Book Bundle: Artificial Intelligence by Packt \(Parnter\)
+](https://www.humblebundle.com/books/artificial-intelligence-books?partner=indiekings&amp;charity=2030222)
+
+$1 for:
+
+* Practical Game AI Programming
+* Statistics for Machine Learning
+* Machine Learning for Developers
+* Machine Learning with C++
+* Implementing AI to Play Games
+* Three Months of Mapt Pro for $30 Coupon
+
+Beat the average for:
+
+* Deep Learning for Computer Vision
+* Unreal Engine 4 AI Programming Essentials
+* Keras Deep Learning Projects
+* Neural Network Programming with Java
+* Machine Learning Algorithms
+* Machine Learning for OpenCV
+* Tensorflow Deep Learning Solutions for Images
+* Machine Learning With Go
+
+$15 for:
+
+* Python Artificial Intelligence Projects for Beginners
+* Building Machine Learning Systems with Python
+* Mastering Java Machine Learning
+* Artificial Intelligence with Python
+* Artificial Intelligence with Python - Deep Neural Networks
+* Deep Learning with Python
+* Deep Learning with Keras
+* Deep Learning with TensorFlow
+* Machine Learning with TensorFlow 1.x
+* Machine Learning with R
+* Mastering Machine Learning with Spark 2.x
+* Deep Learning with R
+
+Supports charity: Code for America",2,14
+29,2018-3-14,2018,3,14,22,84di76,Creating different architectures programmatically in tensorflow,https://www.reddit.com/r/tensorflow/comments/84di76/creating_different_architectures_programmatically/,ArchFrosty,1521035350,"I am quite new to tensorflow and machine learning in general. I am currently working on a project, in which I want to generate different neural network architectures, train them and test them. 
+
+An example of the architecture : https://imgur.com/a/X657c
+
+Now the problem I am running into is that I don't know how to translate these architectures (sets of layers, parameters and connections generated by some other code) into actual working models in tensorflow. 
+
+I tried looking for some tutorials but I came up with nothing. I am basically trying to come up with something like deepNEAT in tensorflow.
+
+Can you please point me in the right direction ? Maybe some documentation I missed, or some existing similar solution ?
+Any help is appreciated. 
+",1,2
+30,2018-3-15,2018,3,15,17,84ku4v,"Object detection training errors with Reduction axis 1 is empty in shape [9,0]",https://www.reddit.com/r/tensorflow/comments/84ku4v/object_detection_training_errors_with_reduction/,CroScorpiuS,1521101342,"Hi, I'm new to TensorFlow and I've been playing around Object Detection API, but teaching it my on stuff has proven difficult. 
+
+I have asked this on Stack Overflow already, but with no luck, so please refer to my [post over there for details](https://stackoverflow.com/questions/49272943/reduction-axis-1-is-empty-in-shape-9-0) 
+
+Any help would be appreciated, thank you",0,1
+31,2018-3-15,2018,3,15,22,84mk4h,inception model retraining in bitnami docker container problem: ImportError: No module named tensorflow,https://www.reddit.com/r/tensorflow/comments/84mk4h/inception_model_retraining_in_bitnami_docker/,C0inMaster,1521121625,"Hi all,
+
+I have an issue with running retraining script which has something to do with Python configuration inside the bitnami container. 
+https://github.com/bitnami/bitnami-docker-tensorflow-inception/issues/4
+
+    The error I get is:
+    File ""/opt/bitnami/tensorflow-  inception/tensorflow/tensorflow/examples/image_retraining/retrain.py"", line 108, in &lt;module&gt;
+    import tensorflow as tf
+    ImportError: No module named tensorflow
+
+The command I ran was this: 
+     
+    docker exec 7eb6fa611758 python /opt/bitnami/tensorflow-inception/tensorflow/tensorflow/examples/image_retraining/retrain.py --image_dir /tmp/images  --server=192.168.11.143:9000
+
+The container is setup correctly, since I can run the test command successfully on with inception-client script and get back results. 
+
+    SonicMac:tmp $ docker exec 7eb6fa611758 inception_client --server=192.168.11.143:9000 --image=./tmp/dexter.jpg
+    D0315 13:17:20.952353956     336 ev_posix.c:101]                 Using polling engine: poll
+    I0315 13:17:21.583798556     348   socket_utils_common_posix.c:205] Disabling AF_INET6 sockets because ::1 is not available.
+    E0315 13:17:21.754727656     336 chttp2_transport.c:1810]     close_transport:   {""created"":""@1521119841.754708756"",""description"":""FD shutdown"",""file"":""src/core/lib/iomgr/ev_poll_posix.c"",""file_line"":427}
+    outputs {
+    key: ""classes""
+    value {
+      dtype: DT_STRING
+      tensor_shape {
+        dim {
+          size: 1
+        }
+      dim {
+        size: 5
+      }
+    }
+    string_val: ""medicine chest, medicine cabinet""
+    string_val: ""china cabinet, china closet""
+    string_val: ""wardrobe, closet, press""
+    string_val: ""shoe shop, shoe-shop, shoe store""
+    string_val: ""dining table, board""
+    }
+
+
+But as soon as I try to retrain the model with a provided script I get error.
+
+    docker exec 7eb6fa611758 python /opt/bitnami/tensorflow-inception/tensorflow/tensorflow/examples/image_retraining/retrain.py --image_dir /tmp/images  --server=192.168.11.143:9000
+
+    File ""/opt/bitnami/tensorflow-  inception/tensorflow/tensorflow/examples/image_retraining/retrain.py"", line 108, in &lt;module&gt;
+    import tensorflow as tf
+    ImportError: No module named tensorflow
+
+If I run the same script from inside container, I get same error. So this is not an issue of running the command from the host. 
+
+I tried setting PYTHONPATH to different values, but not sure what directories to include..  Any advise on what could be causing this misconfiguration is appreciated.
+
+The fact that inception-client command works is puzzling. As it imply that tensorflow must be setup properly.. 
+
+Thank you all in advance for any ideas or help.
+",2,2
+32,2018-3-16,2018,3,16,0,84nc8k,C Bindings and TensorFlowSharp Questions,https://www.reddit.com/r/tensorflow/comments/84nc8k/c_bindings_and_tensorflowsharp_questions/,byte-muncher,1521127978,"Hello everyone,
+
+First time posting here, but the time has come to leverage all the forums I can (been through a lot these few weeks... ._.) to see if I can get pushed in the right direction. 
+
+I am a ML Research Intern for my uni. My professor currently would like to integrate TensorFlow into his (rather large) .NET project. I know of TensorFlow's [C Bindings](https://www.tensorflow.org/extend/language_bindings), but it seems rather limited in what it can do (no gradients, no nn library, etc.). I then looked at [TensorFlowSharp](https://github.com/migueldeicaza/TensorFlowSharp), which really is just an API built on the C Bindings of TensorFlow, which, as stated is not necessarily complete. 
+
+I've been running around trying to find a way to come as close as I can to using TensorFlow as I've used it with Python, but interfacing with this project has been a nightmare. 
+
+**The question**: Does anyone have an ideas on how TensorFlow best integrates with C#? 
+
+**Follow up**: Would it be easier to write everything in Python TensorFlow, then execute it somehow from within the C# project? 
+
+Thanks everyone in advance. ",6,0
+33,2018-3-16,2018,3,16,7,84qou0,Worth getting a MX150?,https://www.reddit.com/r/tensorflow/comments/84qou0/worth_getting_a_mx150/,p0mmesbude,1521153562,"I need a new laptop and was thinking to get one with a dedicated GPU. MX150 or a predecessor. I do not have too much experience with TF and was thinking I could use it to play around / learn / prototype on it. Is it worth the cost or is the performance gain compared to CPU usage minimal? Can actually something be done on such a card or is 2gb of ram just not enough?
+
+Thanks.",3,1
+34,2018-3-16,2018,3,16,21,84uzdn,Issue with Object Detection,https://www.reddit.com/r/tensorflow/comments/84uzdn/issue_with_object_detection/,noah_f,1521202709,"Getting the Following Error when trying to run train.py
+
+david@DeeLearning-LinuxMint ~/models1/research/object_detection $ python3 train.py --train_dir=./Images/train --pipeline_config_path=ssd_mobilenet_v1_pets.config
+/home/david/.local/lib/python3.5/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:depth of additional conv before box predictor: 0
+Traceback (most recent call last):
+  File ""train.py"", line 163, in &lt;module&gt;
+    tf.app.run()
+  File ""/usr/local/lib/python3.5/dist-packages/tensorflow/python/platform/app.py"", line 48, in run
+    _sys.exit(main(_sys.argv[:1] + flags_passthrough))
+  File ""train.py"", line 159, in main
+    worker_job_name, is_chief, FLAGS.train_dir)
+  File ""/home/david/models1/research/object_detection/trainer.py"", line 228, in train
+    clones = model_deploy.create_clones(deploy_config, model_fn, [input_queue])
+  File ""/home/david/models1/research/slim/deployment/model_deploy.py"", line 193, in create_clones
+    outputs = model_fn(*args, **kwargs)
+  File ""/home/david/models1/research/object_detection/trainer.py"", line 167, in _create_losses
+    losses_dict = detection_model.loss(prediction_dict)
+  File ""/home/david/models1/research/object_detection/meta_architectures/ssd_meta_arch.py"", line 474, in loss
+    location_losses, cls_losses, prediction_dict, match_list)
+  File ""/home/david/models1/research/object_detection/meta_architectures/ssd_meta_arch.py"", line 640, in _apply_hard_mining
+    match_list=match_list)
+  File ""/home/david/models1/research/object_detection/core/losses.py"", line 515, in __call__
+    location_losses = tf.unstack(location_losses)
+  File ""/usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/array_ops.py"", line 957, in unstack
+    (axis, -value_shape.ndims, value_shape.ndims))
+ValueError: axis = 0 not in [0, 0)
+
+
+",3,0
+35,2018-3-17,2018,3,17,4,84y5nx,Protein Loops in Tensorflow,https://www.reddit.com/r/tensorflow/comments/84y5nx/protein_loops_in_tensorflow/,onidaito,1521228948,,0,6
+36,2018-3-17,2018,3,17,14,851rmp,How would you recommend handling a clinical classifier where some subjects have missing data?,https://www.reddit.com/r/tensorflow/comments/851rmp/how_would_you_recommend_handling_a_clinical/,Xyoloswag420blazeitX,1521263981,"Hi all,
+
+I'm looking to add clinical characteristics like age or certain genotypes into a CNN I currently use for treatment prediction.
+
+Despite this, for the characteristics I want to include, at least one of them is missing in every single subject.
+
+Is there a way to still comfortably fit these data into my model?
+
+Specifically, I guess I would wonder if there's an implementation of tf.layers.dense that will completely ignore NaN inputs, but I have trouble believing such a thing exists.",0,1
+37,2018-3-17,2018,3,17,15,8525cw,Is reusing bottlenecks for training different networks,https://www.reddit.com/r/tensorflow/comments/8525cw/is_reusing_bottlenecks_for_training_different/,jirehcwe,1521269366,"Hi there, i'm a TF beginner user. I've been following the tensorflow image retraining tutorial [here](https://www.tensorflow.org/tutorials/image_retraining).
+I have trained a network of a bunch of training data (let's call this X) and created bottlenecks for the images in X.
+and now I want to train **another** network on another training set that *also includes X* in the training set, can I reuse the bottleneck files?
+
+From what i've read, bottlenecks are a preprocessing step, so technically I can? Hope someone can clarify this for me! Thanks!
+",3,1
+38,2018-3-17,2018,3,17,21,853fyj,Dont force classification into image categories,https://www.reddit.com/r/tensorflow/comments/853fyj/dont_force_classification_into_image_categories/,runs_with_badger,1521289873,"Im 1 day into my Tensorflow learning so just looking to have a high level, behavioural questions answered. 
+
+Im following the [Tensorflow for Poets](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0) tutorial from Google Codelabs, but modifying it to not detect flowers, but other image categories. 
+
+I was hoping to have it detect images relevant to my categories accurately, but also to detect when an image doesnt meet any of the trained categories. Instead, it always tries to categorise an image. 
+
+So, is this expected behaviour from how I am implementing Tensorflow? If so, are there any suggestions to implement an other category that everything else falls into? 
+
+Thanks for any help.",2,2
+39,2018-3-17,2018,3,17,21,853iox,"Serving a re-trained model gives error: ""Serving signature key ""predict_images"" not found",https://www.reddit.com/r/tensorflow/comments/853iox/serving_a_retrained_model_gives_error_serving/,C0inMaster,1521290864,"Hi all,
+I am slowly but steadily making progress with my project, while hitting every underwater rock possible. So far I was able to resolve all my issues myself, but this one really hits me and I have no ideas on where to start debugging it. 
+
+So, I collected images for my household and retrained the inception-v3 model using provided retrain.py script.
+
+Here is the command I ran:
+ 
+    python ./examples/image_retraining/retrain.py --image_dir /Users/me/ML/TensorFlow/model-data/home-photos  architecture  inception_v3 final_tensor_name home print_misclassified_test_images true saved_model_dir /Users/me/ML/TensorFlow/model-data/saved-house-model  --validation_percentage 5
+
+This command ran fine and produced a whole bunch of output including checkpoints and also ""SavedModel"" 
+This were last lines of output at the end: 
+
+    NFO:tensorflow:2018-03-17 19:40:04.126443: Step 3980: Validation accuracy = 28.0% (N=100)
+    INFO:tensorflow:2018-03-17 19:40:04.595605: Step 3990: Train accuracy = 96.0%
+    INFO:tensorflow:2018-03-17 19:40:04.595737: Step 3990: Cross entropy = 0.198535
+    INFO:tensorflow:2018-03-17 19:40:04.643853: Step 3990: Validation accuracy = 30.0% (N=100)
+    INFO:tensorflow:2018-03-17 19:40:05.060774: Step 3999: Train accuracy = 92.0%
+    INFO:tensorflow:2018-03-17 19:40:05.060891: Step 3999: Cross entropy = 0.227055
+    INFO:tensorflow:2018-03-17 19:40:05.110407: Step 3999: Validation accuracy = 35.0% (N=100)
+    Model path:  /tmp/imagenet/classify_image_graph_def.pb
+    INFO:tensorflow:Restoring parameters from /tmp/_retrain_checkpoint
+    INFO:tensorflow:Final test accuracy = 67.6% (N=68)
+    Model path:  /tmp/imagenet/classify_image_graph_def.pb
+    INFO:tensorflow:Restoring parameters from /tmp/_retrain_checkpoint
+    INFO:tensorflow:Froze 2 variables.
+    Converted 2 variables to const ops.
+    Model path:  /tmp/imagenet/classify_image_graph_def.pb
+    INFO:tensorflow:Restoring parameters from /tmp/_retrain_checkpoint
+    INFO:tensorflow:No assets to save.
+    INFO:tensorflow:No assets to write.
+    INFO:tensorflow:SavedModel written to: /tmp/saved_models/1/saved_model.pb
+
+Does the above look right to you guys?  I do realize that it did not train well with validation accuracy of 35%, but I am just trying to make the workflow of retraining and serving a new model work at this time and focus on making the model itself better later.
+
+
+I am using bitnami docker distribution and I was able to successfully load the ""Saved"" model into the Serving server. 
+
+Here is the log of loading the model:
+
+    tensorflow-inception_1  | INFO  ==&gt; Starting tensorflow-inception...
+    tensorflow-serving_1    | 2018-03-17 12:23:53.486020: I   tensorflow_serving/model_servers/server_core.cc:439] Adding/updating models.
+    tensorflow-serving_1    | 2018-03-17 12:23:53.486132: I tensorflow_serving/model_servers/server_core.cc:490]    (Re-)adding model: inception
+    tensorflow-serving_1    | 2018-03-17 12:23:53.593314: I tensorflow_serving/core/basic_manager.cc:705]   Successfully reserved resources to load servable {name: inception version: 1}
+    tensorflow-serving_1    | 2018-03-17 12:23:53.593344: I tensorflow_serving/core/loader_harness.cc:66]  Approving load for servable version {name: inception version: 1}
+    tensorflow-serving_1    | 2018-03-17 12:23:53.593354: I tensorflow_serving/core/loader_harness.cc:74] Loading servable version {name: inception version: 1}
+    tensorflow-serving_1    | 2018-03-17 12:23:53.593476: I external/org_tensorflow/tensorflow/contrib/session_bundle/bundle_shim.cc:360] Attempting to load native SavedModelBundle in bundle-shim from: /bitnami/model-data/1
+    tensorflow-serving_1    | 2018-03-17 12:23:53.593598: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:236] Loading SavedModel from: /bitnami/model-data/1
+    tensorflow-serving_1    | 2018-03-17 12:23:53.830639: I external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+    tensorflow-serving_1    | 2018-03-17 12:23:53.852548: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:155] Restoring SavedModel bundle.
+    tensorflow-serving_1    | 2018-03-17 12:23:53.864172: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:190] Running LegacyInitOp on SavedModel bundle.
+    tensorflow-serving_1    | 2018-03-17 12:23:53.874562: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:284] Loading SavedModel: success. Took 281052 microseconds.
+    tensorflow-serving_1    | 2018-03-17 12:23:53.881662: I tensorflow_serving/core/loader_harness.cc:86] Successfully loaded servable version {name: inception version: 1}
+    tensorflow-serving_1    | 2018-03-17 12:23:53.883001: I tensorflow_serving/model_servers/main.cc:290] Running ModelServer at 0.0.0.0:9000 ...
+
+But when I try to do prediction with ""inception-client"" i get the error: 
+
+    grpc.framework.interfaces.face.face.AbortionError:  AbortionError(code=StatusCode.FAILED_PRECONDITION, details=""Serving signature key ""predict_images"" not found."")
+    E0317 12:24:30.913437817      22 chttp2_transport.c:1810]    close_transport: {""created"":""@1521289470.913411202"",""description"":""FD shutdown"",""file"":""src/core/lib/iomgr/ev_poll_posix.c"",""file_line"":427}
+
+This the line I use to run the prediction on the image. 
+
+    SonicMac:~me $ docker exec df9db1a017b4 inception_client --server=192.168.11.143:9000 --image=/bitnami/model-data/test-data/dexter-1.jpg
+
+
+I found the definition of the signatures here: https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/saved_model/signature_constants.py
+
+but I don't know how to use this info. I think my ""Tensorflow Serving"" is looking for a wrong signature. Maybe I should have specified it when training?  Have no clue how though.. 
+
+
+Does anybody have any idea what's going on? 
+What is the ""predict_images"" signature key anyway? 
+
+I googled this issue and found ONLY one instance on the whole internet people discussing something similar.  In that thread, it seem that the problem was a wrong version of ""serving"" server. 
+
+I will try to build my own serving server and see if this helps, instead of using bitnami docker container. 
+In the meantime, any ideas are welcome.
+
+Thank you in advance. 
+
+
+
+The full stack trace here:
+
+Traceback (most recent call last):
+
+      File ""/opt/bitnami/tensorflow-inception/bazel-bin/tensorflow_serving/example/inception_client.runfiles/tf_serving/tensorflow_serving/example/inception_client.py"", line 56, in &lt;module&gt;
+        tf.app.run()
+      File ""/opt/bitnami/tensorflow-inception/bazel- bin/tensorflow_serving/example/inception_client.runfiles/org_tensorflow/tensorflow/python/platform/app.py"", line 48, in run
+        _sys.exit(main(_sys.argv[:1] + flags_passthrough))
+      File ""/opt/bitnami/tensorflow-inception/bazel- bin/tensorflow_serving/example/inception_client.runfiles/tf_serving/tensorflow_serving/example/inception_client.py"", line 51, in main
+        result = stub.Predict(request, 10.0)  # 10 secs timeout
+      File ""/opt/bitnami/python/lib/python2.7/site-packages/grpc/beta/_client_adaptations.py"", line 300, in __call__
+        self._request_serializer, self._response_deserializer)
+      File ""/opt/bitnami/python/lib/python2.7/site-packages/grpc/beta/_client_adaptations.py"", line 198, in _blocking_unary_unary
+        raise _abortion_error(rpc_error_call)
+    grpc.framework.interfaces.face.face.AbortionError: AbortionError(code=StatusCode.FAILED_PRECONDITION,  details=""Serving signature key ""predict_images"" not found."")
+    E0317 12:24:30.913437817      22 chttp2_transport.c:1810]    close_transport: {""created"":""@1521289470.913411202"",""description"":""FD shutdown"",""file"":""src/core/lib/iomgr/ev_poll_posix.c"",""file_line"":427}
+",0,1
+40,2018-3-19,2018,3,19,2,85cs3o,Using Tensorflow+Gym to and translate it to a physical object (robot?),https://www.reddit.com/r/tensorflow/comments/85cs3o/using_tensorflowgym_to_and_translate_it_to_a/,[deleted],1521395141,[deleted],0,0
+41,2018-3-19,2018,3,19,3,85d06d,[HELP] How can I plot the results of an approximator?,https://www.reddit.com/r/tensorflow/comments/85d06d/help_how_can_i_plot_the_results_of_an_approximator/,SEND_ME_BROWNIES,1521397080,"Hey all, new to tensorflow and to reddit, so please forgive any rule-bending.
+
+I have created a network to model a quadratic function in two dimensions, with both training and testing steps.  How can I generate the results of the network outside of training?  If logits is the network object, would it just be sess.run(logits, feed_dict)?
+
+On a related note, is there a way to save the lowest-cost network I've had so far?
+
+Thanks!",1,1
+42,2018-3-20,2018,3,20,1,85kq8f,Contributing to the Java API,https://www.reddit.com/r/tensorflow/comments/85kq8f/contributing_to_the_java_api/,halfanothersdozen,1521476495,"Hello,
+
+Our office is by and large a java shop. We have previously evaluated frameworks like deeplearning4j but are currently settling on Tensorflow for popularity/political reasons. That being said the Java API is sorely lacking in functionality. I haven't done much open source contributing before but it would both help my familiarity and use of the framework if I started helping build out the Java API.
+
+Would one of you peeps be able to point me in the direction and lend some advice as to how and where would be best for me to start?
+
+Thanks much.",2,4
+43,2018-3-20,2018,3,20,17,85r2lu,[HELP] How to use tensorflow to create an bot that plays android games?,https://www.reddit.com/r/tensorflow/comments/85r2lu/help_how_to_use_tensorflow_to_create_an_bot_that/,logTom,1521533696,,2,0
+44,2018-3-20,2018,3,20,17,85r68u,ValueError in TensorFlow for Python,https://www.reddit.com/r/tensorflow/comments/85r68u/valueerror_in_tensorflow_for_python/,_JayJohn,1521535126,"I have just started out in the world of ML so please excuse me if the answer is obvious. I'm getting a value error when trying to run the minimize function on a feed_dict.
+link: https://pastebin.com/qssytbLM
+
+(the error is appended to the code)",2,1
+45,2018-3-20,2018,3,20,17,85r8na,Machine Learning Benchmark Set with IBM POWER9 and NVIDIA GPUs,https://www.reddit.com/r/tensorflow/comments/85r8na/machine_learning_benchmark_set_with_ibm_power9/,ibmzrl,1521536047,,0,9
+46,2018-3-21,2018,3,21,8,85xfuo,Custom Image Transformation,https://www.reddit.com/r/tensorflow/comments/85xfuo/custom_image_transformation/,rigabigadiga,1521588089,"[SOLVED]
+
+I am trying to perform a custom image transformation. I have the original image OLD, a matrix of the X values Xs and a matrix of Y values Ys such that:
+    
+    NEW[x][y] = OLD[Xs[x][y]][Ys[x][y]]
+
+How can I take the OLD, Xs, and Ys tensors to create the NEW tensor? Additionally, how can I use different interpolation methods?
+
+EDIT: I used tf.gather_nd()",0,2
+47,2018-3-21,2018,3,21,12,85z12z,[HELP] Installing tensorflow onto mac,https://www.reddit.com/r/tensorflow/comments/85z12z/help_installing_tensorflow_onto_mac/,Noahwar97,1521602370,"Hi everyone, ive been trying to install tensorflow for a while now and ive been having a problem. Ive been useing the following code from tensorflow.org:
+
+    $ pip install --upgrade virtualenv
+
+but i recieve an error message as follows:
+
+    Collecting virtualenv
+    Using cached virtualenv-15.1.0-py2.py3-none-any.whl
+    Installing collected packages: virtualenv 
+    Exception:
+    Traceback (most recent call last):
+    File ""/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/basecommand.py"", line 215, in main
+         status = self.run(options, args)
+    File ""/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/commands/install.py"", line 342, in run
+         prefix=options.prefix_path,
+    File ""/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/req/req_set.py"", line 784, in install
+         **kwargs
+    File ""/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/req/req_install.py"", line 851, in install
+         self.move_wheel_files(self.source_dir, root=root, prefix=prefix)
+    File ""/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/req/req_install.py"", line 1064, in move_wheel_files
+         isolated=self.isolated,
+    File ""/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/wheel.py"", line 345, in move_wheel_files
+         clobber(source, lib_dir, True)
+    File ""/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/wheel.py"", line 323, in clobber
+         shutil.copyfile(srcfile, destfile)
+    File ""/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py"", line 83, in copyfile
+         with open(dst, 'wb') as fdst:
+    IOError: [Errno 13] Permission denied: '/Library/Python/2.7/site-packages/virtualenv.pyc'
+
+Im not sure how to fix it and i havent had much help else where, Thank you in advance!",4,2
+48,2018-3-21,2018,3,21,14,85zm6z,[HELP] Share variables across different sessions,https://www.reddit.com/r/tensorflow/comments/85zm6z/help_share_variables_across_different_sessions/,deathholes,1521608771,"I want to train a model and at the same time use the results of the model for further actions. The training can be done in the background, but I need the prediction model to be available all the time. I've got an idea to how to do this but not sure if that will work. So I'm thinking of creating separate threads/processes for prediction and training. There will be two different sessions running in each process and they will share the same variables. So, the training model can update the variables in it's own time and the prediction model can use the latest weights for better prediction. 
+
+Is there any way to share variable across sessions or some other way to do this?",1,1
+49,2018-3-21,2018,3,21,23,862jjb,"Building first TF model, checking if I'm understanding/interpreting the process correctly (Questions on rank/dimension/shape)",https://www.reddit.com/r/tensorflow/comments/862jjb/building_first_tf_model_checking_if_im/,tpcourier,1521642919,"Modeling a 6 vs 6 competitive game.
+
+Each dimension (right term?) is a matrix, with values exclusively as either a 1 or 0 (for present or absent).
+
+&gt; Dimension 1 - n rows, 96+ columns
+&gt; D2 - n rows, 96+ columns
+
+The teams. Only 2 teams are present in each row.
+
+&gt; D3 - n rows, 2000+ columns
+&gt; D4 - n rows, 2000+ columns
+
+The players on each team (D3 on D1, D4 on D2). Only 6 are present in each row. Is this enough for synergies between players (Not just weighing A and B, but A WITH B) or does each player need their own matrix? If they need their own matrix, and that order of the players doesn't matter, how to account for this... symmetry?
+
+&gt; D5 - n rows, 96+ columns
+
+The attacking team. Only 1 team is present.
+
+&gt; D6 - n rows, 96+ columns
+
+The defending team.
+
+&gt; D7 - n rows, 3 columns
+
+Year. (2016, 2017, 2018)
+
+&gt; D8 - n rows, 2 columns
+
+Season type
+
+&gt; D9 - n rows, x columns
+
+An ""absolute date"", from column ""one"" to ""how many days long"". Similar to the player question, is this enough to ""see"" how many days are between games/matches? A way of tracking if a player is improving or getting worse?
+
+&gt; D10 - n rows, 4 columns
+
+Type of game.
+
+There's also a result vector for each of the n rows, for scoring. Is it possible to make this a result matrix, for tracking multiple outcome types? (Or RV1 for one result, RV2 for another, RV3 for third, stacked on top of each other?)
+
+Is this on the right track?",1,3
+50,2018-3-22,2018,3,22,6,86626h,[QUESTION] Tensorflow classification and subclassifications of text,https://www.reddit.com/r/tensorflow/comments/86626h/question_tensorflow_classification_and/,DamagedFreight,1521667972,"Before I describe anything please know I have never used Tensorflow and I'm lost in getting started.  I'm mostly looking for some direction to get started.  
+
+After some scripting to extract information I now have a list of dicts each containing of classification, subclassification and a list of text bodies.  The list of text bodies is a list of text/plain and/or text/html parts of an email reporting a security incident.  These were all (mostly) manually labeled with a Class and SubClass and they are my training data.  The documents list has 52176 dicts in it.
+
+    documents = [
+        {
+            ""Class"": ""Infection Causing Spam"",
+            ""SubClass"": ""Stealrat"",
+            ""Content"": [
+                {
+                    ""ContentType"": ""text/plain"",
+                    ""Headers"": ""Subject: Some subject\nX-Mailer: MIME-tools 5.506 (Entity 5.506)\nMIME-Version: 1.0\n\n"",
+                    ""Content"": ""10.10.20.35 is sending spam\nThe spam seems related to a stealrat infection.\nInvestigate the spam source (compromised CMS website)\n- fix the issue and stop the spam source (clean and secure the website)\n- clean the server outbound mail queue, and other potential malicious files\n- remove your IP from the blacklists""
+                }
+            ]
+        },
+        {
+            ""Class"": ""Fraud"",
+            ""SubClass"": ""Phishing"",
+            ""Content"": [
+                {
+                    ""ContentType: ""text/html"",
+                    ""Headers"": ""Subject: sitexyz.com/bankofwhatever.php\n"",
+                    ""Content"": ""&lt;p&gt;Hello&lt;/p&gt;&lt;p&gt;The site at sitexyz.com/bankofwhatever.php is a phishing site...&lt;/p&gt;""
+                },
+                {
+                    ""ContentType: ""text/plain"",
+                    ""Headers"": ""Subject: sitexyz.com/bankofwhatever.php\n"",
+                    ""Content"": ""Hello\n\nThe site at sitexyz.com/bankofwhatever.php is a phishing site...\n""
+                }
+            ]
+        }
+    ]
+
+These examples are very simple and it's usually not as obvious as these about what Class or SubClass the document should be labeled as.
+
+Now I'm just starting to get into the Tensorflow part and I'm wondering what I must do to prepare this data to Tensorflow to learn how to predict the classification and subclassification of new reports.  I am pretty sure I'd want to use 'text/plain' over 'text/html' (or strip the HTML from the 'text/html' version if there is no plain one).
+
+I'm thinking I need to get this data into a usable format so I can run some learning on it and then save that data to a file to add more learning later or to use the 'model?' for predictions on new reports.
+
+Where should I go from here?  Is Tensorflow the right tool to be using at this point?",1,1
+51,2018-3-22,2018,3,22,9,867a3c,[Help] Training accuracy in estimator.train_and_evaluate,https://www.reddit.com/r/tensorflow/comments/867a3c/help_training_accuracy_in_estimatortrain_and/,DDarog,1521677647,"Hi
+
+I have a sequential keras model (modifed from the built-in vgg16), that I create an estimator from with tf.keras.estimator.model_to_estimator, then I use tf.estimator.train_and_evaluate. It outputs validation loss and accuracy, and training loss, but not training accuracy. How do I add a training accuracy metric to this setup?",0,2
+52,2018-3-22,2018,3,22,19,86ailm,Tensorflow performance vs custom CUDA kernel?,https://www.reddit.com/r/tensorflow/comments/86ailm/tensorflow_performance_vs_custom_cuda_kernel/,Squirrl,1521714992,"**TL;DR:** How does the performance of Tensorflow compare to  the performance of a custom CUDA kernel on the same problem?
+
+More specifically, I have a fairly non-linear and highly-constrained problem where I am interested in finding a feasible solution. The problem is such that a solution can always be found via gradient descent. The only external data required for the problem are the initial variable values, and the rest can be handled on the GPU without CPU involvement. The GPU is using Adam to optimize the variables based on a large number of single-sided quadratic penalties (representing constraints) and various regularizations.
+
+During Tensorflow training, the GPU (Titan X) is running at 90-100% for a good 30 seconds before a solution is reached. I would like to speed this up, if at all possible (I need to solve _a lot_ of these problems).
+
+Given the simplicity of the problem statement, writing a custom CUDA kernel is not out of the question, but I have no feeling for how this might improve performance having never directly compared Tensorflow vs a custom CUDA kernel on the same problem.
+
+Could anyone provide any insights?",4,5
+53,2018-3-23,2018,3,23,17,86j550,"Samples of serving various ML models in Google Cloud Machine Learning Engine using Tensorflow, Keras and Scikit-Learn, tutorials on how to use the estimator APIs to perform various ML tasks[WIP]",https://www.reddit.com/r/tensorflow/comments/86j550/samples_of_serving_various_ml_models_in_google/,coding2fun,1521794401,,0,14
+54,2018-3-24,2018,3,24,5,86nt47,[N] IBM claims its machine learning library is 46x faster than TensorFlow.,https://www.reddit.com/r/tensorflow/comments/86nt47/n_ibm_claims_its_machine_learning_library_is_46x/,[deleted],1521836573,[deleted],0,1
+55,2018-3-25,2018,3,25,8,86wxtn,Adding support for stateful RNN models within the TF Serving API?,https://www.reddit.com/r/tensorflow/comments/86wxtn/adding_support_for_stateful_rnn_models_within_the/,redditpirateroberts,1521934457,"I have an interesting, non-novel but seemingly generally unsolved, at least in sources I could find online, problem. The issue is basically this:
+
+I want to persist the states of my RNN in between calls/invokations to it  via the TF Serving API. 
+
+I have found quite a few people online talking about this problem, such as in the following links:
+
+https://github.com/tensorflow/serving/issues/724
+
+https://groups.google.com/a/tensorflow.org/forum/#!topic/discuss/00tipdqxRZk
+
+https://stackoverflow.com/questions/43710693/tensorflow-serving-stateful-lstm?utm_medium=organic&amp;utm_source=google_rich_qa&amp;utm_campaign=google_rich_qa
+
+Unfortunetly, there seems to be some discussion of the problem and discussion of a built in fix being added to TF but not being there yet, but no actual guides/examples for how to work around this problem.
+
+The closest I have been able to find a guide for how to do this was the following in the groups.google link:
+
+""As background for future readers, there are two broad cases to consider. The first is where you want to run an entire sequence computation, with multiple steps, each with state to preserve for the next step. This case is addressed with dynamic unrolling.""
+
+I am not really sure how to go about implementing this at all though. I dont really want to share my code here just because it is really quite long for a Reddit post and don't expect anyone to read through it all and tell me what to do. 
+
+Just any general tips would be awesome.
+
+I have two files right now that I am using to deploy and use my RNN in the serving api. They are called rnn_save_model.py and rnn_client.py. rnn_save_model just creates the actual model in code and then uses SavedModelBuilder to save it to file. rnn_client then passes in some parameters to the model when I have it loaded via the following command:
+
+    tensorflow_model_server --port=9000 --model_name=rnn --model_base_path=/tmp/rnn_model/
+
+I am just not even sure where to add code to get the model to load a state stored to file or something as the model itself is ""created"" once in rnn_save_model and I do not see how to clearly pass in states via the rnn_client file that are then added to the graph as the file in its current state is just using a model loaded in memory and interfacing with it VS actually editing the model like would be needed to load previous state from file or something.
+
+I really appreciate any help!",0,6
+56,2018-3-27,2018,3,27,20,87hpah,[beginnner] need help in optimizing code for GPU,https://www.reddit.com/r/tensorflow/comments/87hpah/beginnner_need_help_in_optimizing_code_for_gpu/,cant-find-user-name,1522150760,"Hi!
+
+This is the first time I am using tensorflow for a use that takes large amount of time. 
+
+I am using a single layer nueral network with word vectors for named entity recognition task. I have written the following code for it: https://pastebin.com/LeszGRas
+
+but the problem is, the code runs on the same speed in CPU and GPU. So, what am I doing wrong? I made sure the code was running on GPU, but the time it takes to execute an epoch is same in both CPU and GPU. 
+
+Any help is greatly appreciated, thank you. ",13,2
+57,2018-3-28,2018,3,28,16,87pws1,Beginner Question,https://www.reddit.com/r/tensorflow/comments/87pws1/beginner_question/,[deleted],1522220819,[deleted],0,1
+58,2018-3-28,2018,3,28,19,87qqai,Managing version requirements?,https://www.reddit.com/r/tensorflow/comments/87qqai/managing_version_requirements/,citizenmtb,1522231793,"Hi all,
+
+I'm currently working on a project to allow rental of GPU processing time for various tasks, one of which being machine learning purposes.
+
+I'm discovering there seem to be many versioning requirements for Tensorflow, tflearn, Python, CUDA, cudnn and it's got me wondering how you guys usually manage the various versions?
+
+Many of the demo scripts or even libraries require specific versions to work, so for a rental i'm assuming people are generally going to be unwilling to manage it themselves?
+
+So, what are your experiences like with other rental services? AWS? Gcloud? Anything else?",2,2
+59,2018-3-30,2018,3,30,2,882yhf,[HELP] How to Implement Phase Correlation?,https://www.reddit.com/r/tensorflow/comments/882yhf/help_how_to_implement_phase_correlation/,rigabigadiga,1522342902,"I am trying to implement this [method](https://en.wikipedia.org/wiki/Phase_correlation#Method). 
+
+I have two main questions.
+Should the corners be swapped so that high frequencies are in the middle? And how can I normalize as shown above?",0,2
+60,2018-3-30,2018,3,30,11,8871ta,How can I load weights when using the tf.layers api?,https://www.reddit.com/r/tensorflow/comments/8871ta/how_can_i_load_weights_when_using_the_tflayers_api/,Xyoloswag420blazeitX,1522376331,,0,1
+61,2018-3-30,2018,3,30,11,8874yu,How does I access variables that defined in name_scope?,https://www.reddit.com/r/tensorflow/comments/8874yu/how_does_i_access_variables_that_defined_in_name/,Laurence-Lin,1522377176,"I've found a sample code online, it is written like this:
+
+def lstm():
+
+  LSTM = BasicLSTMCell()  
+  return LSTM
+  with tf.name_scope('my_name_scope'):
+
+       cell = multiRNNCell(lstm for _ in range(3))
+
+I'm not sure if I called lstm(), I would get an single layer 'LSTM' or the multilayer 'cell'.
+
+I don't know how does variable in name_scope work exactly, while under self defined name scope 'my_name_scope', how do I access variable 'cell'?
+
+Thanks for helping
+",2,2
+62,2018-3-30,2018,3,30,21,88a4kr,"Free Tensorflow course, Over 4 Hours of video, Only 100 free copies",https://www.reddit.com/r/tensorflow/comments/88a4kr/free_tensorflow_course_over_4_hours_of_video_only/,DavidMilline,1522414580,,0,11
+63,2018-3-30,2018,3,30,23,88ay8v,Instructions for installation by source,https://www.reddit.com/r/tensorflow/comments/88ay8v/instructions_for_installation_by_source/,RealMatchesMalonee,1522421934,"I am trying to install TensorFlow on my nonGPU laptop and my processor supports AVX AVX2 and FMA instructions. I've already installed bazel. I am currently working in a Unix environment. What instructions should I follow to get TensorFlow for python, and can I uninstall bazel after I've generated the pip package?",2,1

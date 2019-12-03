@@ -1,0 +1,88 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2013-10-7,2013,10,7,7,1nvam8,Books on the P=NP problem,https://www.reddit.com/r/computerscience/comments/1nvam8/books_on_the_pnp_problem/,[deleted],1381098139,"I've been interested in this problem for a while now and I have been looking for some good books on the subject. Are there any good ones out there worth reading? Everyone I could find on Amazon seems to get great reviews which makes it quite hard to decide.
+
+I've been looking at these:
+
+[The P=NP Question and Gdel's Lost Letter ](http://www.amazon.com/The-Question-G%C3%B6dels-Lost-Letter/dp/1441971548)
+
+[The Golden Ticket: P, NP, and the Search for the Impossible](http://www.amazon.com/The-Golden-Ticket-Search-Impossible/dp/0691156492/ref=pd_sim_b_1)
+
+[P, NP, and NP-Completeness: The Basics of Computational Complexit](http://www.amazon.com/NP-NP-Completeness-Basics-Computational-Complexity/dp/0521122546/ref=pd_sim_b_2)",0,1
+1,2013-10-7,2013,10,7,8,1nvh33,Can someone explain to me what a kernel actually is?,https://www.reddit.com/r/computerscience/comments/1nvh33/can_someone_explain_to_me_what_a_kernel_actually/,[deleted],1381103563,"I understand that it's lower level than an operating system but higher level than a BIOS (is this correct?), but I don't understand how the same piece of software can actually control input/outputs on different machines (I would imagine different machines would have different input/outputs). I'll try to ask specific questions:
+
+
+Is it true that the same Linux kernel is used across all Linux distributions? Is this same kernel used on Android devices too? 
+
+
+Why is writing a kernel such a difficult task that Linus Torvalds received so much credit for Linux?
+
+
+How is the Linux kernel still being developed? Like what else is there to do? 
+
+
+Can you explain how an operating system is different from a kernel? Like why can't you run an operating system directly on top of BIOS? 
+
+
+Thanks. ",6,3
+2,2013-10-8,2013,10,8,6,1nxqtx,How do you keep your passion for programming alive in the work industry?,https://www.reddit.com/r/computerscience/comments/1nxqtx/how_do_you_keep_your_passion_for_programming/,JoeyBananaz,1381181175,"So I have to say that having graduated and finding a very well paying job I feel as though the problem solving and passion that drove me through getting my degree and pursuing personal projects has pretty much deteriorated.  
+  
+I find the fact that I'm given a ticket to fix... encountering a million blocks... and then fixing the problem to be sort of a continuous vicious cycle that never ends. I have to ask. How do you keep things interesting at work?",1,5
+3,2013-10-10,2013,10,10,9,1o3wb3,ARM Assembly IDE Needed for Macintosh or Linux,https://www.reddit.com/r/computerscience/comments/1o3wb3/arm_assembly_ide_needed_for_macintosh_or_linux/,pokesmotwokesmeed,1381365871,"I don't know if I'm posting in the right subreddit, but I am in desperate need for an ARM Assembly IDE similar to Kiel, but can run smoothly on either Linux (Mint) or OSX. Thanks!",0,1
+4,2013-10-14,2013,10,14,0,1ocy00,Need some help on understanding ARM assembly language,https://www.reddit.com/r/computerscience/comments/1ocy00/need_some_help_on_understanding_arm_assembly/,konorbeatz,1381679482,"Hi, I need someone to help me out in understanding ARM assembly language. I'm using Keil uVision, and my assignment is to get the decimal number ""2034"" to show in hex, by writing something that will convert the sequence of values represented by '2','0','3','4', to output ""2034 (0x00007F2)"". That may sound a little bit confusing, but if you can help I would appreciate it greatly. Thank you for reading!",2,2
+5,2013-10-14,2013,10,14,10,1oe6tc,Thinking about changing my major.,https://www.reddit.com/r/computerscience/comments/1oe6tc/thinking_about_changing_my_major/,MajorProblems94,1381713084,"Hello fellow redditors I was wondering if any of you could help me understand Computer Science a little bit better. I've read books and articles about the major but would like someones input who is actually majoring or has majored in this field.
+
+Edit: Thank you so much for your replies if I had any money I would be giving you all reddit gold, but since I am a poor college student I cannot. Thank you so much.",3,10
+6,2013-10-17,2013,10,17,9,1om031,Need help with translating a java program to C,https://www.reddit.com/r/computerscience/comments/1om031/need_help_with_translating_a_java_program_to_c/,In33dhelpnaow,1381969849,Message me if you can help. $$,0,0
+7,2013-10-17,2013,10,17,10,1om38v,"Tackling Sleeping Sickness Using a Mathematical Model: When you think of the Trojan Horse, what comes to your mind?",https://www.reddit.com/r/computerscience/comments/1om38v/tackling_sleeping_sickness_using_a_mathematical/,FromTheLabBench,1381972320,,0,1
+8,2013-10-17,2013,10,17,12,1omdmb,"Computer Science Problem, Need Help!",https://www.reddit.com/r/computerscience/comments/1omdmb/computer_science_problem_need_help/,dmp5423,1381980692,"2. Consider the following system of linear equations:
+3x + y - z = 3
+x - 4y + 2z = -1                                             (3)
+-2x - y + 5z = 2
+(a) Formulate the solution of system (3) using the Newton-Raphson method.
+(b) Check that the Jacobian matrix of system (3) is strictly diagonally dominant.
+(c) Create two separate Matlab functions for the Jacobi method and the SOR method (Gauss-
+Seidel method is a special case of the SOR method) for the linear system resulting from
+part (a).
+(d) Show that by taking an initial guess (x(0); y(0); z(0)) = (0; 0; 0) the iterative methods ap-
+plied to the linear system resulting from part (a) converge to the exact solution (1; 1; 1).
+Comment on the rate of convergence, and computational time of each method.
+(e) Only one Newton-Raphson iteration is required for this problem. Why? How does this com-
+pare to the number of Jacobi and SOR iterations required for the solution to the linearized
+problem? In general, do you expect there to be any relationship between the number of
+iterations required for Newton-Raphson method and the number of iterations required for
+an iterative linear algebraic solver?",1,0
+9,2013-10-20,2013,10,20,20,1otxti,For those who love programming and love answer questions ?,https://www.reddit.com/r/computerscience/comments/1otxti/for_those_who_love_programming_and_love_answer/,loveprogrammer,1382269977,,0,1
+10,2013-10-23,2013,10,23,7,1p0bpf,"Graduating with CS degree, need job advice.",https://www.reddit.com/r/computerscience/comments/1p0bpf/graduating_with_cs_degree_need_job_advice/,[deleted],1382481156,"Hey guys, I'm graduating in the spring with a CS degree. I know very little code (enough to get by) and am not sure what type of job I'd like after graduation. I feel I can learn code as needed for any specific job, it just depends what the job requires. What sort of jobs can I apply for or look into after graduation? Any advice would be helpful. Thanks.",4,1
+11,2013-10-23,2013,10,23,11,1p0uvm,Should I major in CS?,https://www.reddit.com/r/computerscience/comments/1p0uvm/should_i_major_in_cs/,[deleted],1382495738,"Hello everyone,
+
+I am currently a freshman in college majoring in Public Relations and minoring in Computer Science. I just wanted to get your opinions on whether or not I should delve further in computer science and replace my PR major with it. I know it's hard for you all to tell me what do decide since you don't know much about me, but let me help:
+
+I, like most of you, love technology and follow it religiously.
+
+My dream is to work for a startup company in New York or San Francisco. I don't care how narrow-minded that may sound. It's been my dream for a long time.
+
+I've had some experience with HTML and CSS, but that's about it.
+
+I am not so good at math. This alone has kept me from majoring in CS because the major requires Calculus and Physics.
+
+Anyway, I just wanted to hear from those of you in the engineering/software development field and your experiences.
+
+Also, how are job prospects for this major?
+
+Thanks guys!",2,1
+12,2013-10-24,2013,10,24,14,1p3v9b,Is there any use in adding a Physics major in addition to my current Computer Science major?,https://www.reddit.com/r/computerscience/comments/1p3v9b/is_there_any_use_in_adding_a_physics_major_in/,cheezzy4ever,1382593602,"For clarification: I'm a Freshman in college, currently majoring in Computer Science, and plan on working in Computer Science for a living. I enjoy Physics, and kinda want to add a Physics major. But that would require me to either spend an extra year in college, or take up a much more difficult course load for the next seven semesters.
+
+I'd be willing to put up with an extra year or a larger work load. But my real question is... Is it worth it? Will a Physics major really be any help if I plan on working in Computer Science? Will the extra effort make any real impact on my future?",2,1
+13,2013-10-25,2013,10,25,5,1p58xl,Where should I start if I want to learn coding?,https://www.reddit.com/r/computerscience/comments/1p58xl/where_should_i_start_if_i_want_to_learn_coding/,[deleted],1382645433,"I know this is going to be a long process, but it is something I want to do. I want to know where to start, I was planning on getting books and reading on the subject, but I don't know if I need to start somewhere, if I need certain programs. I am just looking for advice in getting started. ",12,0
+14,2013-10-27,2013,10,27,7,1pa243,Why are so many organizations pushing society to learn programming?,https://www.reddit.com/r/computerscience/comments/1pa243/why_are_so_many_organizations_pushing_society_to/,FLRangerFan,1382825024,"I dont know if im part of the minority here, but i just cant understand why there is a need for a big part of our society to learn programming. I am always getting posts on my FB about these organizations popping up and saying something along the lines of ""95% of China's students learns programming, we need to do the same here in the US and teach all students programming"".
+
+Why on earth are computer science people trying to dilute our in demand market. I just dont understand it.",6,2
+15,2013-10-28,2013,10,28,9,1pcjf0,Telecommuting as a Programmer,https://www.reddit.com/r/computerscience/comments/1pcjf0/telecommuting_as_a_programmer/,enon1,1382918678,"I was wondering if there are a good amount of programming careers that one could do purely via telecommuting (not going into a workplace, just working on your own computer and transmitting data/files/etc to wherever you work).  I like the idea of being able to travel/move with no strings, and not be tied down to a workplace, just being able to do my job wherever I have access to internet and a laptop or something.
+
+I'd appreciate any advice from people that have careers like this, or know a good deal about them.",2,3
+16,2013-10-28,2013,10,28,11,1pcur2,Question on double hashing,https://www.reddit.com/r/computerscience/comments/1pcur2/question_on_double_hashing/,[deleted],1382926904,"When I have a collision in my hash table does my secondary hash function determine the key that my value is to be stored in? Or does it determine how many jumps, from the first key I determined, the value is to be stored in? ",0,1
+17,2013-10-28,2013,10,28,23,1pdxzk,What Do Computer Scientists Do?,https://www.reddit.com/r/computerscience/comments/1pdxzk/what_do_computer_scientists_do/,peter7779,1382970511,,0,1
+18,2013-10-29,2013,10,29,4,1pepd9,Computer Selection for a College Student,https://www.reddit.com/r/computerscience/comments/1pepd9/computer_selection_for_a_college_student/,StraightDown,1382989223,"Hi all, i am a high school senior looking to upgrade my 5 year old laptop for when I go off to college. I am hoping to major in computer science. I have always wanted a Mac, and have been eyeing up a MacBook Air! I was just wondering if computer science courses require PCs, or if Macs would work just the same. Thank you for any help!!",14,1
+19,2013-10-31,2013,10,31,7,1pkk85,Classes for CS minor?,https://www.reddit.com/r/computerscience/comments/1pkk85/classes_for_cs_minor/,sharkbait_oohaha,1383171095,"My major is Earth and Space Science with a concentration in Astrophysics and Planetary Geology, and I'm getting minors in Physics and Computer Science. For my CS minor, I have to take three upper division courses in addition to CS 1 and 2 and Data Structures. What 3000+ level courses should I take to make myself marketable in the event that I either don't get into grad school or find a job in the space field right away?
+
+Here is the list of CS courses at my school: http://academics.columbusstate.edu/catalogs/current/course_description.php?CPSC",1,3

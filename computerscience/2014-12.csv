@@ -1,0 +1,475 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2014-12-2,2014,12,2,4,2nyuhy,Subset Sum test. Wondering if I came up with a cool new solution or if this is old news.,https://www.reddit.com/r/computerscience/comments/2nyuhy/subset_sum_test_wondering_if_i_came_up_with_a/,[deleted],1417462198,"So I was toying with figuring out on my own how to solve a subset sum for a target value and I came up with the following javascript code.  I was wondering if anyone knows if this method has been explored before?  Sorry if this is not the ideal way to describe the solution,  I don't have a CS degree or anything, I'm just a programmer who likes toying around with problems like this.  I've tried a few google searches but I don't think I'm able to describe this function in a way that will return results.  Anyway, here is my solution for subset sum.
+
+    function subsetSum(subsetSumList, target){
+    	var sums = [true];
+    	var sum = 0;
+    	for(var i=0; i&lt;subsetSumList.length; i++){
+    		sum += subsetSumList[i];
+    		if(sums[sum-target]){
+    			return true;
+    		}
+    		sums[sum] = true;
+    	}
+    	return false;
+    }
+
+Also I'm really curious about how to determine a functions Big-O notation but haven't really found a description that I can wrap my head around.  Would the above function be O(n) because it only acts on each element once?
+
+Edit: scratch the function. Found a case where it doesn't work.
+",0,1
+1,2014-12-2,2014,12,2,5,2nz58h,Standard format for referring to software in scholarly papers?,https://www.reddit.com/r/computerscience/comments/2nz58h/standard_format_for_referring_to_software_in/,xooxanthellae,1417467346,"I'm part of a lab working on a neuroscience paper.
+
+My boss wants to refer to her program with uppercase, italics, and a trademark ^TM --- for example, *WINDOWS^TM* --- which just seems like overkill to me.
+
+Is there any standard for referring to a program? I suppose the simplest option would be capitalizing, like Windows.
+
+Any help appreciated!
+",0,1
+2,2014-12-2,2014,12,2,10,2nzy0z,"I am almost done with data structure, but...",https://www.reddit.com/r/computerscience/comments/2nzy0z/i_am_almost_done_with_data_structure_but/,[deleted],1417482573,"So far I have a 93% without taking the 2nd exam. Which hopefully I would be a A. 
+
+However, I do feel as If I didn't learn a lot. Currently finish lectures on sort algorithms and graphs. 
+
+What's afters data structures? What course/class would reinforce it?
+and to those who are taking it too. How did it go for you?",2,2
+3,2014-12-2,2014,12,2,13,2o0jic,Should I pursue a minor in Business?,https://www.reddit.com/r/computerscience/comments/2o0jic/should_i_pursue_a_minor_in_business/,Paranemec,1417494274,"I'm a transfer student with around 160 credits (senior standing) but I'm a first-year CS student.  This has left me with lots of space in my schedule since I can't fill it with CS classes.  I've been considering minors, and I'm really leaning towards business right now.  
+
+I was wondering if this would be a useful minor since I don't plan on working in an academic or research environment when I graduate.  What would be the pros/cons of this decision?  Could it help during interviews?",2,0
+4,2014-12-2,2014,12,2,15,2o0sqp,[C] Static exam question help!,https://www.reddit.com/r/computerscience/comments/2o0sqp/c_static_exam_question_help/,mccaffs,1417500091,,1,0
+5,2014-12-2,2014,12,2,17,2o14fk,Switch-Case Defaults always running,https://www.reddit.com/r/computerscience/comments/2o14fk/switchcase_defaults_always_running/,sixshotsix,1417510489,"Hello, I'm trying to make a menu based program. Here is what I have so far.
+
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;time.h&gt;
+
+
+int menu (void)
+{
+
+	printf(""\n\nMenu\n"");
+	printf(""\nSelect one of the following options:"");
+	printf(""\nF. Fill the array with a random number series."");
+	printf(""\nP. Print the array."");
+	printf(""\nQ. Query the array."");
+	printf(""\nZ. Terminate the program.\n\n"");
+	return 0;
+}
+
+int fillArray ()
+{
+
+//Initialize Variables
+int randomNumber;
+int row;
+int col;
+int array;
+
+// Declare Array
+int x[5][10]; 
+
+//Create the random number generator seed
+srand(time(NULL));
+
+//Assign the random numbers from 1 - 999 into variable randomNumber
+//Create the rows for the array
+    for ( row = 0; row &lt; 5 ; row++ )
+    {
+        //Create the columns for the array
+        for ( col = 0; col &lt; 10 ;  col++ )
+         {
+
+         randomNumber = rand() %999 + 1;
+
+         x[row][col] = randomNumber;
+	array = x[row][col];
+	printf(""%d\t"", array);}		//Cut this out for print function
+	printf(""\n"");			//This also
+	
+}	return array;
+}
+
+
+
+
+int main ()
+{	
+	printf(""Welcome to Project E, Arrays!\n"");
+	
+	char option;
+	do
+	{
+		menu();
+		option = 0;
+		while (option &lt; 1)
+		{
+			printf(""\nPlease type your selection and press enter.\n"");
+			scanf(""%c"", &amp;option);
+		}
+	
+		switch(option)
+		{
+			case 'F': 
+			fillArray ();		//Fill the Array
+			break;
+			case 'P': 
+			printf(""I'm printing"");		//Print the Array
+			break;
+			case 'Q': 
+			printf(""Query"");		//Query the Array
+			break;
+			case 'Z': 
+			;		//Terminate the Program
+			break;
+			default: 
+			printf(""\n\nINVALID SELECTION\n\n"");
+			
+		}
+	}
+	while (option != 'Z');
+	printf(""\n\nThank you. Have a nice day!\n\n"");	
+	return 0;
+}
+
+The program runs fine at first, and if I make one of the selections, it executes that specific case. However it then runs through the do-while loop again without asking for user input and automatically selects the default case. It then starts the do-while loop again and behaves the same way all over. Why is it cycling through the loop twice after one input and defaulting? I hope that was clear enough?",2,1
+6,2014-12-3,2014,12,3,1,2o23nl,Classes and Inheritance: Part One,https://www.reddit.com/r/computerscience/comments/2o23nl/classes_and_inheritance_part_one/,gdduwo,1417538520,,0,2
+7,2014-12-4,2014,12,4,5,2o6r0a,Question about the utilization of the OSI model?,https://www.reddit.com/r/computerscience/comments/2o6r0a/question_about_the_utilization_of_the_osi_model/,Hollowpoint357,1417638328,"Forgive me if I'm not making sense, but I'm simply looking for clarification on what I'm reading. Is the OSI model a non-tangible way of organizing things, or is there a literal, tangible implementation in the technology. For example, why is data being transferred over a network referred to as frames in layer 2, but a packet in layer 3? Is there an actual implementation in the technology that makes the computer say ""ok, this is a frame right now, but after this step it's a packet?"" I'm trying very hard to not come off as saying 'what's the purpose of the OSI model' because I'm not questioning its necessity, I'm just looking for a deeper understanding into what I'm reading. ",3,1
+8,2014-12-4,2014,12,4,6,2o6wct,Is it worth taking a course of System Administration?,https://www.reddit.com/r/computerscience/comments/2o6wct/is_it_worth_taking_a_course_of_system/,cowboycoder_,1417640867,"Hi,
+
+I'm currently having to choose between taking an Internet Programming course and an Intro to System Administration course for one of my few free electives (computer science major).
+
+I'm curious about System Administration, and don't really know what it entails.  After college, I'm not sure if I would want to have a programming job, so I'm thinking System Administration may be a good option for me.  My only concern is taking a class that is a ""blow-off"" or that I don't get something out of.
+
+My question is whether System Administration is something worth taking a course over, or if it's something that can be more effectively learned from a book or through other means.  Is it a waste of my free elective?",2,8
+9,2014-12-4,2014,12,4,9,2o7jo8,"If you could tell CSers your story, what would you say? (survey, will post results in a few days)",https://www.reddit.com/r/computerscience/comments/2o7jo8/if_you_could_tell_csers_your_story_what_would_you/,snotskie_,1417652953,,0,1
+10,2014-12-4,2014,12,4,9,2o7k1j,The Hipster Effect: An IPython Interactive Exploration,https://www.reddit.com/r/computerscience/comments/2o7k1j/the_hipster_effect_an_ipython_interactive/,snotskie_,1417653170,,0,2
+11,2014-12-5,2014,12,5,5,2oahzj,"Help with non-overlapping image stitching, visual computing",https://www.reddit.com/r/computerscience/comments/2oahzj/help_with_nonoverlapping_image_stitching_visual/,flamingspew,1417723906,,0,1
+12,2014-12-5,2014,12,5,9,2obbji,Reputable books about compiler design.,https://www.reddit.com/r/computerscience/comments/2obbji/reputable_books_about_compiler_design/,Jouls,1417738938,"Yo guys, I was wondering if someone here would be able to provide me with some reputable resources on the topic of compiler design. 
+
+Books preferably, but everything else will be appreciated.
+I have a module in compiler design, and really enjoy it, but I am somewhat struggling to understand everything. I was hoping to find some books that would help me out. I would be more interested in the theory, rather than the practical, side of it.",4,3
+13,2014-12-5,2014,12,5,10,2obii4,Informative Interview.,https://www.reddit.com/r/computerscience/comments/2obii4/informative_interview/,Beanrique,1417742798,Hello people. I'm doing a school project were I have to interview someone in a field on my interest. I like the field of Computer science and I want to be a software engineer. I would be appreciative if you can show proof.   ,0,1
+14,2014-12-5,2014,12,5,13,2oc19j,Why are computers so fast?,https://www.reddit.com/r/computerscience/comments/2oc19j/why_are_computers_so_fast/,chopperdrawlion4,1417753631,"I am taking a data structures and algorithms class right now. I am marveling at all the advanced computations that occur under the hood. Something as simple as character encoding is happening constantly at a seemingly unimaginably fast rate. 
+
+How is this possible? What exactly makes computer able to process large amounts of information so rapidly?",8,4
+15,2014-12-5,2014,12,5,23,2od4bz,"To address techs diversity woes, start with the vanishing Comp Sci classroom",https://www.reddit.com/r/computerscience/comments/2od4bz/to_address_techs_diversity_woes_start_with_the/,antdude,1417788711,,1,0
+16,2014-12-6,2014,12,6,4,2odzex,Good placed to intern?,https://www.reddit.com/r/computerscience/comments/2odzex/good_placed_to_intern/,evenam,1417806199,"I am looking for a CS summer internship. As a sophomore with a strong CS background out of LSU, what would be some good companies for me to check out and apply for? ",3,3
+17,2014-12-6,2014,12,6,9,2of0g7,Does Dijkstras Algorithm use breath first traversal?,https://www.reddit.com/r/computerscience/comments/2of0g7/does_dijkstras_algorithm_use_breath_first/,chopperdrawlion4,1417826120,"I am trying to wrap my mind around Dijkstras algorithm. From my understanding it looks at the values of all neighbors for a given vertex- then picks the lowest value and finalizes it, then checks out that vertex's neighbors.
+
+What happens when there is a situation when a vertex has only 1 finalized connection to it, and 2 unfinalized? Will the algorithm ignore the vertex until all neighbors are finalized? ",3,5
+18,2014-12-6,2014,12,6,13,2ofl9f,Turn your Responsive website into a smartphone app,https://www.reddit.com/r/computerscience/comments/2ofl9f/turn_your_responsive_website_into_a_smartphone_app/,Chitrank,1417839349,,0,1
+19,2014-12-7,2014,12,7,9,2oibbm,What did the Stack say to the Queue?,https://www.reddit.com/r/computerscience/comments/2oibbm/what_did_the_stack_say_to_the_queue/,StarLordQ,1417913938,"What did the Stack say to the Queue?
+Get a LIFO.",4,2
+20,2014-12-7,2014,12,7,19,2ojhjx,Part II - OpenCV2.4.10 and VC++ Configuration,https://www.reddit.com/r/computerscience/comments/2ojhjx/part_ii_opencv2410_and_vc_configuration/,50HAM,1417947398,,1,0
+21,2014-12-8,2014,12,8,0,2ojy02,CCNP Route: Route Redistribution and Filtering with Route Map,https://www.reddit.com/r/computerscience/comments/2ojy02/ccnp_route_route_redistribution_and_filtering/,abingabanger,1417965257,,0,1
+22,2014-12-8,2014,12,8,13,2om4af,Searching for multiple records in a B-tree at once,https://www.reddit.com/r/computerscience/comments/2om4af/searching_for_multiple_records_in_a_btree_at_once/,[deleted],1418011391,"Is it possible to create an implementation for a B-tree that would enable a user to search for multiple items at once? For example, if I have a B-tree that consist of names, and I input the letters ""to"" it would output all the names that began with ""to"", such as: ""Tom"", ""Tony"", ""Tosh"".",0,1
+23,2014-12-8,2014,12,8,14,2omamw,How To import duplicate tables in oracle database using impdp data pump import,https://www.reddit.com/r/computerscience/comments/2omamw/how_to_import_duplicate_tables_in_oracle_database/,RebellionRider,1418015369,,0,1
+24,2014-12-9,2014,12,9,1,2onp3a,Python Debugging: An Overview,https://www.reddit.com/r/computerscience/comments/2onp3a/python_debugging_an_overview/,gdduwo,1418056531,,0,1
+25,2014-12-9,2014,12,9,7,2oov3r,What sites / blogs / etc. do you read to stay current?,https://www.reddit.com/r/computerscience/comments/2oov3r/what_sites_blogs_etc_do_you_read_to_stay_current/,gdmt,1418076889,"I'm not in industry, but I'd like to stay sharp and understand new and important trends that computer scientists in industry face (whatever that means to you is probably more important than how I could define it). What could I be reading to do that?",2,2
+26,2014-12-10,2014,12,10,5,2osewm,Maths with mechanics vs maths with statistics (A level),https://www.reddit.com/r/computerscience/comments/2osewm/maths_with_mechanics_vs_maths_with_statistics_a/,fabiocadello,1418156603,I want to get a job in computer science what would be better maths with stats on its own or maths with mechanics and further maths?,3,3
+27,2014-12-10,2014,12,10,7,2osxdi,'m looking for work regarding snapshot implementations which will be worked on by asynchronous processes. Anyone got a hint on where to look?,https://www.reddit.com/r/computerscience/comments/2osxdi/m_looking_for_work_regarding_snapshot/,pigtobacon,1418165408,,3,0
+28,2014-12-12,2014,12,12,10,2p16gm,Tools for getting your kids into Computer Science,https://www.reddit.com/r/computerscience/comments/2p16gm/tools_for_getting_your_kids_into_computer_science/,ErikBoesen,1418346809,,4,6
+29,2014-12-13,2014,12,13,0,2p30bd,Anyone take a multi core programming class,https://www.reddit.com/r/computerscience/comments/2p30bd/anyone_take_a_multi_core_programming_class/,zorth41,1418396913,"One of the higher level computer science classes at my university is soley on Multi Core Programming. It's not required for CS majors, but I could take it for an elective.  Theres not much information on the class on my univversity's website, so I was wondering if anyone has taken a class like this and if it is worth taking 
+
+P.S - My university is LSU, so if anyone happend to take this class at LSU you get extra points",2,3
+30,2014-12-13,2014,12,13,5,2p40h9,Insertion Sort Algorithm visualized,https://www.reddit.com/r/computerscience/comments/2p40h9/insertion_sort_algorithm_visualized/,m_glat,1418416881,,0,7
+31,2014-12-14,2014,12,14,8,2p7qv1,Client/Server for Applications?,https://www.reddit.com/r/computerscience/comments/2p7qv1/clientserver_for_applications/,[deleted],1418514350,"Hi, I'm about to develop my first app. For some reason I thought it was a good idea to make a very complicated app first but none the less I have some questions!
+My application will encapsulate numerous users communicating with my server in a two way manner, the server should handle a database including login and metadata. 
+
+(1) Are there any good books I should read first?
+(2) I have a spare computer (3.0 dual core) would this do for being the server?
+(3) What OS is best for hosting a server/database?
+(4) Are there any informative pieces on how this setup works?
+(5) What have android and ios development kits have in place to allow this",0,5
+32,2014-12-14,2014,12,14,11,2p85t1,Someone help me?,https://www.reddit.com/r/computerscience/comments/2p85t1/someone_help_me/,fanie325,1418523895,"1 Problem 1
+Integers 0..31
+Define a class that will hold the set of integers from 0 to 31. An element
+can be set with the set member function and cleared with the clear member
+function. It is not an error to set an element thats already set or clear an
+element thats already clear. The function test is used to tell whether an
+element is set.
+Member functions:
+void small_set::set(int item); /* Set an element in the set */
+void small_set::clear(int item); /* Clear an element in the set */
+int small_set::test(int item); /* See whether an element is set */
+Sample usage:
+small_set a_set;
+a_set.set(3); /* Set contains [3] */
+a_set.set(5); /* Set contains [3,5] */
+a_set.set(5); /* Legal! Set still contains [3,5] */
+cout &lt;&lt; a_set.test(3) &lt;&lt; ""\n""; /* Prints 1 */
+cout &lt;&lt; a_set.test(0) &lt;&lt; ""\n""; /* Prints 0 */
+a_set.clear(5); /* Set contains [3] */
+2 Super Bonus!
+Minimize Storage Implement your class in such a way that the set is maintained
+using only a single private variable of type int32 t. This type is obtained
+with #include &lt;cstdint&gt;. This type is used to specify an integer variable that
+is guaranteed to use exactly 4 bytes of memory.",2,0
+33,2014-12-14,2014,12,14,18,2p8zov,Most efficient way to study/practice for a Java final?,https://www.reddit.com/r/computerscience/comments/2p8zov/most_efficient_way_to_studypractice_for_a_java/,LipstickAndCaffeine,1418548418,"I'm in my fist semester in college for my CS degree and I have a final next Saturday for the ""building java programs"" class and I was wondering what would be the most efficient way to study for it? ",7,1
+34,2014-12-15,2014,12,15,3,2p9z22,"CS majors, what did you do in your second CS class?",https://www.reddit.com/r/computerscience/comments/2p9z22/cs_majors_what_did_you_do_in_your_second_cs_class/,asdfghqwertyasd,1418580442,"I realize it will vary from school to school but I'm trying to stay ahead of the course content (lightens my load).  The course description tells me the class ""has emphasis on object-oriented programming and fundamental data structures"".  My previous class focused on if statements, loops, recursion, arrays, records, and a bit on sorting algorithms (entirely in C++).  
+
+So where should I go from here?  I have a personal interest in this stuff so I'm really just trying to do the best I can.  Even if what you tell me does not fall into the course content, that's fine!  I'll probably try to learn it anyways!
+
+Thanks!",12,5
+35,2014-12-15,2014,12,15,5,2padaw,Considering Mathematics + Computer science double major,https://www.reddit.com/r/computerscience/comments/2padaw/considering_mathematics_computer_science_double/,NSAFedora,1418588363,"My first love is mathematics.  My second love(s) are computers.  I am not really  interested in programming, but I am extremely interested in theoritical computer science and am willing to learn what I need of programming.  I am also interested in having a back up degree(I want to be a research mathematician, saddly, not a huge market for it).  
+
+Would it be worth the extra hours?  ",6,4
+36,2014-12-16,2014,12,16,0,2pd4mg,Essential data structures,https://www.reddit.com/r/computerscience/comments/2pd4mg/essential_data_structures/,narkflint,1418656465,"Hi all, 
+
+I'm looking to design a handful of fundamental/essential data structures within the next 5 weeks. These data structures should be such that I can handle about 50-60% of most computing problems. 
+
+Other than a few courses in computer science when I was in uni, I never formally studied the subject. 
+
+But I want to do an implementation in C that doesn't have automatic memory management and I think some of the big ones are:
+
+1. Dynamically sized arrays
+2. Lists (different from arrays in that an object can be inserted based on its index position, similar to the above in that it will require the underlying structure to be dynamically sized)
+3. Matrices
+4. Tuples
+5. Stacks (Last in First Out) &amp; Queues (First in First Out)
+6. Binary trees (although a rather summary treatment of this is probably all that I will be able to manage in my time frame)
+
+Can I get a few pointers (bad pun)? Is this list probably about right? Can anyone suggest any more? Or perhaps some that aren't as important? ",8,5
+37,2014-12-16,2014,12,16,4,2pdzkl,Anyone know of any online resources I can use to learn MC68000 programming?,https://www.reddit.com/r/computerscience/comments/2pdzkl/anyone_know_of_any_online_resources_i_can_use_to/,ImperviousSeahorse,1418672473,"I have easy68k, and I've been working on learning the basics of the language but I'm more of a visual learner, so videos or something would be great. Surprisingly I haven't been able to find anything online, maybe I'm searching for the wrong thing?
+
+
+If anyone could link me some resources I'd really appreciate it! Thanks! =)",1,1
+38,2014-12-16,2014,12,16,13,2pfoys,Considering taking a semester off for an internship - would this be a bad idea?,https://www.reddit.com/r/computerscience/comments/2pfoys/considering_taking_a_semester_off_for_an/,partisparti,1418703465,"Hey, guys.  I'll try to keep this post as concise as possible.  I'm not really even sure if this is the best subreddit for this question so if there is a better place for it please let me know.
+
+Essentially, here is the situation I find myself in.  I am currently a senior in college - however, I was a finance major for my first two semesters, and of the 28 credits I earned in that major, only 1 credit (some random elective) was from a class that is also an option for CompSci majors.  That effectively set me back a year in my major (switched after freshman year) though I have done a fair job of getting caught back up to where I would be had I started in computer science.  Partly due to that circumstance and partly due to my own inability to just grow up for some time after, I got pretty far behind in terms of internships and other extracurriculars.  Where most of my buddies had internships during the summer of their sophomore or junior year, I didn't really take charge and get my act together until relatively recently.
+
+So, I finally took the time to put together a quality resume and apply for some internships a few weeks ago.  I was pretty worried because my grades really aren't that great - I'm at about a 2.9 now (to be fair though, my ""technical"" GPA is a lot better, probably closer to a 3.5 FWIW).  I suppose I lucked out, however, as my university has a very good career services network.  I was contacted a few weeks ago regarding a technical writing position with a relatively local company, and after interviewing on site this morning they offered me an internship position this afternoon.
+
+There is a caveat, however, that I only learned about in the interview earlier today.  They are looking for someone to start in January, and given the location it would not be possible for me to continue school and take the internship.  
+
+So I've spent the evening discussing my options with my parents and thinking about what I would like to do and I really think the internship would be an excellent experience.  My uneducated guess is that a technical writing position may not be the best in terms of padding my resume; however, I think it would be a great fit for me personally as writing is another of my strengths (as well as something I really enjoy doing).  Furthermore, the woman who was primarily responsible for designing the software that I will spend a lot of time documenting is pretty brilliant from what I can tell, and I think that the opportunity to spend a lot of time discussing her own software with her would really give me some valuable insight on the thought processes of an experienced member of the field.  In short, while I am trying to be wary of just jumping on the first internship offer I received, I genuinely think I'd be a great fit for the position.
+
+That being said I wanted to bounce the idea off some of you who have some experience not just in the field but really with careers in general.  I've always been under the impression that the work experience from an internship is vastly more helpful than most of the stuff I will learn in the classroom, but I could be wrong about that.  I'm just a bit nervous to make the decision because after going 7 consecutive semesters it feels pretty strange to be considering taking a break for one, even if it is to do an internship.  I have to admit however that my living situation this year is what I would call ""sub-optimal"", as my roommate basically sits on the couch smoking and watching TV all day and I'd be lying if I said I wouldn't like to get out of that environment.  I don't want that to influence any feedback you guys can provide, however; mostly I just mention it to demonstrate that if there were an ideal time for me to change things up for a bit this would be it.
+
+To be honest I'm kind of having trouble coming up with reasons that I shouldn't do this, which is why I'm making this post.  The main drawback obviously is that I will delay my graduation date by a semester which only leaves more time for the ever-increasing volume of graduating CS majors to take jobs, but given that my current experience with an actual job related to the field is approximately zilch I'm inclined to believe that the trade-off is worth it.  I'm hoping you guys can provide me with some perspective as far as that is concerned.  I don't know if this is much of a factor, but as a result of my efforts to get caught up with my degree I'm currently slated to graduate in December of next year, and the internship would push that to May of the following year.  I have heard that graduating in December can sometimes be less than ideal because a lot of companies aren't recruiting as heavily at that time.  Again, however, I don't really know how this works in practice but I thought it was worth mentioning.  Since I've already failed to keep this post relatively brief I'll just wrap it up there.  Thanks in advance for any advice you can give, I really appreciate it.
+
+**TL;DR:**  I'm a senior but I'm essentially ""junior status"" in my CS major as I switched after freshman year.  Haven't had an internship or any job in the field and I have just received an offer for one which I think will be well-suited to my strengths, but it starts in January as opposed to being in the summer so I would take this semester off school.  Is it worth delaying my graduation in order to get some much-needed experience in an actual work environment?
+
+**Edit:** Really quickly I want to gloss over a point I forgot to mention in my original post.  One thing I have heard mentioned and been warned about regarding this issue is that oftentimes students who do this will end up being offered an official position with the company they interned at which leads them to not go back and finish their degree, often having bad results down the line.  While it is impossible for me to predict the future I just want to mention that I am very aware of this possibility and I have *every* intention of returning to school immediately after completing the internship, and I have discussed that briefly with the manager as well.  While I maintain that I believe this is an excellent opportunity for me I still don't think I've even scratched the surface in terms of what I could do with my degree and I would like to explore as many different options as possible before making any long-term decisions.  Like I said I do know this is something that happens often to people who are in my position but I have simply invested too much of my time and money into my education to even consider dropping it or even indefinitely postponing it in lieu of an early full-time position.",8,1
+39,2014-12-16,2014,12,16,15,2pg3ib,Computer science twilight zone.,https://www.reddit.com/r/computerscience/comments/2pg3ib/computer_science_twilight_zone/,Zulban,1418712697,"A month ago I scored perfect on a computer science assignment question. It's a proof. But get this: I've spent ten minutes now trying to understand my answer or the answer sheet answer, and I'm completely lost. I *don't even understand the question*. It's like my doppelgnger did the question for me.
+
+It's an extremely weird experience seeing a detailed explanation from yourself a month ago that you do not understand.",12,0
+40,2014-12-16,2014,12,16,19,2pgi46,7 Hackers who get a legit job with their skill,https://www.reddit.com/r/computerscience/comments/2pgi46/7_hackers_who_get_a_legit_job_with_their_skill/,socmedbuzz,1418726407,,0,1
+41,2014-12-17,2014,12,17,0,2ph69u,Computer Science resources broken down by Undergrad course,https://www.reddit.com/r/computerscience/comments/2ph69u/computer_science_resources_broken_down_by/,[deleted],1418744949,"I have been wanting to learn web design for a while now, so I decided to build a website and teach myself.  The site houses computer science related resources and breaks them down according to the undergraduate course they apply to. The site can be found here:
+
+[csundergradresources.com](http://csundergradresources.com/)
+
+I took all of the courses from my university's undergraduate curriculum, but I changed the names a little bit to make them more general.  All the resources on there so far are ones that I collected while I was an undergraduate (many, many of them from this and other CS/Programming related subreddits), but the list is far from complete.  Some of the topics don't even have resources associated with them because I either didn't know of any, or didn't take that course.  If anyone has a resource that they would like to see added, there is a ""Suggest a resource"" link at the top of the page, or you could send them to me here on reddit.
+
+Hopefully this will serve as a good resource for people learning computer science or people needing to brush up on some concepts. This is my first website so I would love any feedback on it, and I would really love any other resources you guys have. I know the design it a little plain, but I was going for functionality first. I am going to be learning more about web design and trying to update it and make it prettier in the future. Anyway, enjoy! And thank you for helping me get through my undergrad years!
+
+",0,1
+42,2014-12-17,2014,12,17,10,2pj39s,Two Ways Are Provided to Recover Corrupted Partition Table,https://www.reddit.com/r/computerscience/comments/2pj39s/two_ways_are_provided_to_recover_corrupted/,BlakeClaire,1418779227,,0,1
+43,2014-12-17,2014,12,17,12,2pjims,How do you help people with a computer science degree?,https://www.reddit.com/r/computerscience/comments/2pjims/how_do_you_help_people_with_a_computer_science/,Blue_Rondo_a_la_Dirk,1418787816,"Lately I've been feeling kind of guilty about my major. I know it's weird.
+
+People going into bio can become doctors and save lives. Engineers can design prosthetics and help people live their lives. So on and so on. Firefighters, police officers, nurses, etc. I'm early on in CS and I can't see how I can help people with it, if that makes sense. How I can be charitable. 
+
+When I decided upon CS I thought, like most people, of being the person behind the next great tech startup. Develop some service that everyone uses, and become uber rich. We all know the story, we all have the dream. Now that just seems selfish to me, and I can't think of what else CS could do for me. This is because I'm new to it all, and I really don't know about potential careers. 
+
+Apologies for this question coming off as ignorant or even offensive. ",10,4
+44,2014-12-17,2014,12,17,19,2pkeqg,Could anyone link me resources (preferably peer reviewed papers) that explore concurrent and parallel Turing machines?,https://www.reddit.com/r/computerscience/comments/2pkeqg/could_anyone_link_me_resources_preferably_peer/,0x652,1418813349,,1,3
+45,2014-12-17,2014,12,17,20,2pkfpz,Corporate Forensics,https://www.reddit.com/r/computerscience/comments/2pkfpz/corporate_forensics/,DigitalWzydom,1418814378,,1,0
+46,2014-12-18,2014,12,18,8,2pmnha,What is the difference between a scalar value and a constant expression?,https://www.reddit.com/r/computerscience/comments/2pmnha/what_is_the_difference_between_a_scalar_value_and/,CluelessAgain,1418860226,"Hi! I have a final tomorrow and I am a little confused so I was hoping you guys could explain something to me. 
+
+We were learning about implementing parameter-passing methods and the professor wrote down that if you pass the parameter by name you get these resulting semantics:
+1. If the actual parameter is a scalar value --&gt; pass by reference
+2. If the actual parameter is a constant expression --&gt; pass by value
+3. If the actual parameter is array index (element) --&gt; bound by text
+
+I have looked around google a lot but I am still having a hard time understanding what a scalar value is and what a constant expression is. If anyone could explain what those are in this context I would be ever so grateful. 
+
+Thanks so much. ",3,2
+47,2014-12-18,2014,12,18,10,2pmwll,CS Dissertations,https://www.reddit.com/r/computerscience/comments/2pmwll/cs_dissertations/,TheMajesticArtichoke,1418865179,What did you do yours on? I'm curious to know what people researched for their dissertation and I want to look at different topic areas people chose and why.,0,4
+48,2014-12-18,2014,12,18,11,2pn2zn,Question Regarding Finding Computer Science Internships,https://www.reddit.com/r/computerscience/comments/2pn2zn/question_regarding_finding_computer_science/,Nitroluke,1418868710,"I am a junior in college. How do I go about finding an internship in a specific city (Spokane, Washington)? I am visiting my girlfriend for a week and was going to drop by some companies with a resume; however I am not quite sure where to begin. Any help or advice would be greatly appreciated.",3,4
+49,2014-12-18,2014,12,18,17,2po01j,An Important new Theorem in Computer Science an information theory (I'll leave the last few lines of proof to the interested reader),https://www.reddit.com/r/computerscience/comments/2po01j/an_important_new_theorem_in_computer_science_an/,Tad_Nishikala,1418891092,"Nishikala's Little Theorem by William Evans
+
+Definition 1:
+Whenever 'n' is used throughout this paper, it is defined as follows:
+Let n be some integer s.t. n &gt; 0.
+Express n in standard binary format and add leading 0's such that number of digits (bits) equals 2k, where k is the smallest integer s.t. n &lt; 2k 
+This is exactly equivalent to standard computer storage of an integer as a nibble (4 bits), a byte (8bits), 16 bit integer, 32 bit integer... always choosing the smallest data type that is large enough to contain n.
+Definition 2:
+ni is the ith bit of n (thus ni = 0 or ni = 1)
+Definition 3:
+0j is a bit-string of 0's i bits long and 0i ith 0 of such a bit-string
+Definition 4:
+^ is exclusive operator on 2 bits:
+0 ^ 0 = 0
+0 ^ 1 = 1
+1 ^ 0 = 1
+1 ^ 1 = 0
+Definition 5: 
+The 'Prime Tick' of integer n, 'n, is defined recursively as follows:
+'n1= 1 ^ n1
+'ni+1 = 'ni ^ ni+1
+We recurse the whole length of the bit-string, including any leading 0's added to n as described in definition 1.
+Definition 6: 'Tick' of integer n, ""n, is defined recursively as follows:
+If n = 0j, then n"" = 'n. (i.e. if n = 0j, we use the 'Prime Tick' Operator)
+Else ""n1 = nk ^ n1
+""ni+1 = ""ni ^ ni+1 
+Recurse the whole length of the bit-string until ""nk = ""nk-1 ^ nk
+Lemma 1:
+'0j = 2j - 1
+Proof:
+'01 = 1 ^ 0  = 1
+Now let '0i = 1, then
+'0i+1 = '0i ^ 0i+1 = 1 ^ 0 = 1
+By Principle of Mathematical Induction (PMI),
+'0i = (11...1) = 2j -1
+Definition 7: ""q(n), where q is a positive integer, means apply 'Tick' Operator q times
+Definition 6: Q Operator on a positive integer n is defined as follows:
+Q(n) = ""...""(""n), where we recursively apply the 'Tick' Operator until one of 2 cases occure:
+a) ""q(n) = ""p(n), for some p, q such that 0 &lt; p &lt; q
+b) ""q(n) = 0j, for some q
+Note that in case a) the 'Tick' Operator generates a cycle of length q - p. (Proof omitted; it is not necessary to prove our Theorem)
+Lemma 2: if ""m = 0j, then m = 1 and j = 0
+First observe that ""1 = 1^1 = 0
+Now Proof by Contradiction:
+Suppose ""m = 0j, for some integer j &gt; 0 , and n != 1
+Then, either m = 0j or m !=0j
+Case A: m = 0j
+then ""m = '0j = 1j != 0 (by Lemma 1)
+Case B: m != 0j
+then m = (m1m2...mj) in base 2, where j mis a binary digit and at least 1 mj is 1.
+let mr = 1, be first 1 in bit-string
+if r != 0
+then
+""mr = ""mr-1 ^ mr
+Since n1...nr-1 are all 0, and 0 ^ 0 = 0, we know ""nr-1 = 0
+Therefore:
+""mr = 0 ^ 1 = 1, therefore ""m != 0
+if r = 1, then
+""mr = mk ^ m1, where k is length of m expressed as a bit-string
+Then either:
+a) ""mr =1 ^ 0 = 1    ==&gt;    n"" != 0
+or
+b) ""mr = 1 ^ 1 = 0
+if case b), then find mi such that mi is first 1 in bit-string s.t. i &gt;= 2
+then
+""mi =  ""mi-1 ^ mi
+""mi = 0 ^ 1 = 1 ==&gt; ""m!=0
+Since m1...mi-1 are all 0, and 0 ^ 0 = 0, we know ""mi-1 = 0
+QED
+Definition 7: The Modal Modulus of Q(n), |Q(n)|, is the number of distinct integers, not including 0i, in the sequence generated by Q (n)
+Definition 8:
+If Q(n) generates a cycle, and |Q(n)| = 2k - 1, we say that Q(n) is Maximal and write:
+Q(n) = O(n)
+We call O(n) a Formal Q-Cycle
+Note that this means O(n) generates a cycle that includes every integer from 1 to 2k
+Lemma 3: |Q(3)| = 3
+Proof:
+3 is (11) base 2
+""(11) = 01
+""(01) = 10
+""(10) = 11
+We call (11) the First Formal Tick and write
+|(11)| = 1
+We call (01) the Second Formal Tick and write
+|(01)| = 2
+We call (10) the Thirst Formal Tick and write
+|(10)| = 3
+Lemma 4: |Q(15)| = 15
+Proof:
+15 is (1111) base 2
+""(1111) = 0101
+""(0101) = 1001
+""(1001) = 0001
+""(0001) = 1110
+""(1110) = 1011
+""(1011) = 0010
+""(0010) = 0011
+""(0011) = 1101
+""(1101) = 0110
+""(0110) = 0100
+""(0100) = 0111
+""(0111) = 1010
+""(1010) = 1100
+""(1100) = 1000
+""(1000) = 1111
+Again, we call (1111) the First Formal Tick, (0101) the Second Formal Tick ... through to (1000) the Fifteenth Formal Tick, and write:
+|(1111)| = 1
+|(0101)| = 2
+...
+|(1000)| = 15
+Definition 7: Product and Quotient
+""m x ""n = ""(m+n)
+""m/""n = ""(m-n)
+
+Lemma 5: Quantic Powers Lemma [QPL] 
+22k - 1 = (22(k-1) - 1) x 2k + (22(k-1) - 1)
+Proof:
+Let '&lt;&lt;' be the binary 'left bit-shift' operator that shift every bit in a bit-string to the left by a specified integral amount.
+So, a &lt;&lt; k, is eviquivalent to, a x 2k
+Then,
+22k = 1 &lt;&lt; 2k, in binary
+22k - 1 = (1 &lt;&lt; 2k) - 1 = (111213...12k)2
+            = (1112...1k0k+1...02k) + (0102...0k1k+1...12k)2
+            = ((22(k-1)) &lt;&lt; k) + (22(k-1) - 1)
+            =  (22(k-1) - 1) x 2k + (22(k-1) - 1)
+QED
+
+Theorem 1: 
+Nishikala's Little Theorem
+For all n, s.t n = 22k - 1, |O(""n)| = 22k - 1
+Proof:
+3 = 22 -1 and 15 = 24 -1 (Lemmas 2 and 3), So Theorem holds for k =1and k = 2.
+Assume:
+a) |O(""(22k - 1))| = 22k -1
+and
+b) |O(""(22j - 1))| = 22j - 1, For all 0 &lt; j &lt; k
+S0,
+22(k+1) - 1 = (22k - 1) x 2k+1 + (22k - 1), (Quantic Powers Lemma [QPL])
+ = ( (22(k-1) - 1) x 2k + (22(k-1) - 1)) x 2k+1 + (22(k-1) - 1) x 2k + (22(k-1) - 1), by [QPL] 
+Recursing Substitution using [QPL], we have:
+",2,0
+50,2014-12-19,2014,12,19,5,2pprgm,I Wanted to get some knowledge about ocmputer science so ppl who have taken it enlight us with what u learn and is helpful,https://www.reddit.com/r/computerscience/comments/2pprgm/i_wanted_to_get_some_knowledge_about_ocmputer/,insec99,1418933615,so i was gonna take cs in my undergrad studies i find it fascinating and wanna major in it i know its a vast field but am gonna do A-levels and undergrad so thats like 3 years after i wanted to know if doing cs course at ocw.mit online is helpful if yes till what extent ?,3,0
+51,2014-12-19,2014,12,19,14,2prd7s,Comparing the Scientific Process to the Engineering Process.,https://www.reddit.com/r/computerscience/comments/2prd7s/comparing_the_scientific_process_to_the/,jarmenia,1418965493,,2,0
+52,2014-12-19,2014,12,19,22,2psa4m,Payza Got Hacked by Pakistani Hacker,https://www.reddit.com/r/computerscience/comments/2psa4m/payza_got_hacked_by_pakistani_hacker/,hamihax,1418995323,"
+Payza Got Hacked by Pakistani Hacker ( Team Madleets ) 
+Pakistani hacker team madleets hacked blog.payza 
+for more info click the link 
+http://www.hamihax.com/2014/12/payza-got-hacked-by-pakistani-hacker.html",0,0
+53,2014-12-20,2014,12,20,8,2pu2iz,What can I do with my degree?,https://www.reddit.com/r/computerscience/comments/2pu2iz/what_can_i_do_with_my_degree/,Ponson,1419031046,"As a math major and computer science minor, what type of employment opportunities are there?",2,0
+54,2014-12-20,2014,12,20,11,2puj37,Articles on optical memory/computer architecture?,https://www.reddit.com/r/computerscience/comments/2puj37/articles_on_optical_memorycomputer_architecture/,[deleted],1419041143,"Hello,
+
+Does anyone have any sources for computer architecture specifically including optical breakthroughs or something similar of that nature? I haven't been able to find anything that great or modern.
+I am working on class paper on holography technology and would would really like to include this in my paper. Thanks.",0,2
+55,2014-12-20,2014,12,20,13,2puy8e,What do you do to stay sharp?,https://www.reddit.com/r/computerscience/comments/2puy8e/what_do_you_do_to_stay_sharp/,AsunaSaturn,1419051333,"It's been some years since I graduated from my computer science degree.
+
+Right now, my job is designing software, UI, and programming. In my free time I run a few websites and mobile phone apps to make some extra cash. While it's pretty challenging, I feel like I haven't been exercising my brain that it was once when I was doing my computer science degree.
+
+I miss thinking about cryptography, programming languages, intractable problems, etc. What do you do to stay sharp? Do you read anything? Do any puzzles?",9,4
+56,2014-12-21,2014,12,21,19,2pyq8h,article about Make your pc faster by upgrading RAM.,https://www.reddit.com/r/computerscience/comments/2pyq8h/article_about_make_your_pc_faster_by_upgrading_ram/,howtomakepcfaster,1419157108,,0,0
+57,2014-12-21,2014,12,21,21,2pyvgl,The reasons why your computer is getting slower over time.,https://www.reddit.com/r/computerscience/comments/2pyvgl/the_reasons_why_your_computer_is_getting_slower/,howtomakepcfaster,1419164112,,2,0
+58,2014-12-22,2014,12,22,10,2q0wxx,Computer Science major looking into security any suggestions please!,https://www.reddit.com/r/computerscience/comments/2q0wxx/computer_science_major_looking_into_security_any/,JGreeny46,1419212489,"As the title says, I'm a computer science major looking at getting into security ultimately. My university doesn't really offer specific paths to focus on for cps. So I was wondering what I could do on my own to help me really get into the field and be prepared for getting a job in that area after undergrad?
+Suggestions for languages, texts, general advise..anything and everything is helpful, I am eager to learn! Thanks to everyone in advanced!",4,3
+59,2014-12-23,2014,12,23,5,2q3rgm,matplotlib: Part One,https://www.reddit.com/r/computerscience/comments/2q3rgm/matplotlib_part_one/,gdduwo,1419281519,,0,2
+60,2014-12-23,2014,12,23,8,2q4d32,Is Wrapping Presents Optimally NP-Hard? [x-post from /r/algorithms],https://www.reddit.com/r/computerscience/comments/2q4d32/is_wrapping_presents_optimally_nphard_xpost_from/,StupidGeek314,1419292686,,0,0
+61,2014-12-23,2014,12,23,22,2q68j1,Vodafone First 3G Broadband USB,https://www.reddit.com/r/computerscience/comments/2q68j1/vodafone_first_3g_broadband_usb/,jenifersmith1,1419341509,,0,1
+62,2014-12-24,2014,12,24,17,2q9h1i,Belkin 4-Port PS/2 &amp; USB Platform Audio KVM Switch,https://www.reddit.com/r/computerscience/comments/2q9h1i/belkin_4port_ps2_usb_platform_audio_kvm_switch/,jenifersmith1,1419409278,,0,1
+63,2014-12-25,2014,12,25,11,2qbzkr,Math Subjects in Computer Science,https://www.reddit.com/r/computerscience/comments/2qbzkr/math_subjects_in_computer_science/,LesGrossmmann,1419475003,"I am currently a computer science engineering student and had a question about computer science in the real world. I've taken almost all of the math courses required for my major, calcs 1-3, Linear Algebra and Discrete Mathematics, and my question for those of you who are working professionals is which of these do you find most useful on a daily basis? And what do you use them for?",8,11
+64,2014-12-25,2014,12,25,20,2qcvyq,Introduction to Microsoft Word,https://www.reddit.com/r/computerscience/comments/2qcvyq/introduction_to_microsoft_word/,[deleted],1419506023,,0,0
+65,2014-12-25,2014,12,25,22,2qd3id,Corsair Rolls Out New Hydro H70 CPU Cooler,https://www.reddit.com/r/computerscience/comments/2qd3id/corsair_rolls_out_new_hydro_h70_cpu_cooler/,jenifersmith1,1419515808,,0,1
+66,2014-12-26,2014,12,26,15,2qfc8g,Red-Black Tree in C#,https://www.reddit.com/r/computerscience/comments/2qfc8g/redblack_tree_in_c/,karimo94,1419574047,,1,8
+67,2014-12-26,2014,12,26,22,2qfzna,Your Guide to Choosing a Programming Language,https://www.reddit.com/r/computerscience/comments/2qfzna/your_guide_to_choosing_a_programming_language/,bloggerdudethatforg,1419599824,,1,0
+68,2014-12-27,2014,12,27,0,2qg94l,Design a DFA.,https://www.reddit.com/r/computerscience/comments/2qg94l/design_a_dfa/,leo9806,1419608618,"I am doing a pas paper exam to prepare for my exams and I have to design a DFA according to the following specifications: 
+
+Its alphabet is {0, 1}.
+Its language consists of all words with an odd number of 1s.
+0s will not be accepted (even if they are part of the alphabet).
+
+And I did this: http://i.imgur.com/NXAKtnt.png
+
+Is it correct? 
+Thanks.",5,0
+69,2014-12-27,2014,12,27,19,2qivo4,USB Power Strip Switch Hub,https://www.reddit.com/r/computerscience/comments/2qivo4/usb_power_strip_switch_hub/,jenifersmith1,1419677216,,0,1
+70,2014-12-28,2014,12,28,1,2qjgis,Smart Fish Offers Ergo Motion Mouse,https://www.reddit.com/r/computerscience/comments/2qjgis/smart_fish_offers_ergo_motion_mouse/,jenifersmith1,1419698117,,0,1
+71,2014-12-28,2014,12,28,3,2qjotx,**How To Boost Wi-Fi Signals **,https://www.reddit.com/r/computerscience/comments/2qjotx/how_to_boost_wifi_signals/,abidjamal007,1419703600,,0,1
+72,2014-12-29,2014,12,29,14,2qoqfy,newb question,https://www.reddit.com/r/computerscience/comments/2qoqfy/newb_question/,zorth41,1419831910,I was trying to write a program in python to answer a problem on projecteuler.net and was wondering how make a statement that will be true if a certain variable is a whole number and turn false if the variable is fractional. is there an object for this?,7,0
+73,2014-12-30,2014,12,30,5,2qqulz,Help with understanding hex data,https://www.reddit.com/r/computerscience/comments/2qqulz/help_with_understanding_hex_data/,EnigmaticSynergy,1419886741,"I am working on a little project wherein I compare CAD files using a Hex Editor and attempt to make conclusions from the resultant data produced. For example, I would have a main file and make the same object slightly modified and saved as another file. In the Hex Editor, I compare the two files. There doesn't seem to be any sort of rhyme or reason to the location of modified bytes. I am not sure of how I should go about finding the differences in the hex data that map to the changes on the CAD model. Do you have any suggestions of how I would go about using the hex data to find and translate meaningful changes between the two files? ",4,2
+74,2014-12-30,2014,12,30,8,2qrb41,Aphex Twin is making music software based on mutation,https://www.reddit.com/r/computerscience/comments/2qrb41/aphex_twin_is_making_music_software_based_on/,minesito,1419895075,,0,4
+75,2014-12-30,2014,12,30,19,2qszpk,The Best Monitoring Software For Smartphone and Computer,https://www.reddit.com/r/computerscience/comments/2qszpk/the_best_monitoring_software_for_smartphone_and/,rachelss1992,1419935587,,0,1

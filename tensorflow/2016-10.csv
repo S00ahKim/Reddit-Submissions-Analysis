@@ -1,0 +1,208 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2016-10-1,2016,10,1,22,55d7rf,noob question: good setup for exploring Tensorflow on Windows,https://www.reddit.com/r/tensorflow/comments/55d7rf/noob_question_good_setup_for_exploring_tensorflow/,SnackingRaccoon,1475328888,"Windows 10 user here. Not a n00b to machine learning, but total n00b to TensorFlow, and need some brushing up on my Python (so a environment supportive to doing so would be appreciated). 
+
+If it's best, I'm more than happy to use Docker, a VM, whatever you recommend. 
+
+How would you recommend I set myself up to start working with TF?",3,3
+1,2016-10-6,2016,10,6,12,563eci,TensorFlow Friday,https://www.reddit.com/r/tensorflow/comments/563eci/tensorflow_friday/,theanosucks,1475722882,"Ladies, gentlemen, 
+
+We are starting a new tradition called 'TensorFlow Friday' where every Friday, we talk about what we have accomplished this week using TensorFlow. We can share tips, tricks, secrets, and code. 
+
+Pop those champagne bottles, uncork that wine, pop the lid off that beer, and get ready to have fun.
+
+**Mods please sticky this** to remind people about #TF #TensorFlow Friday
+
+T.G.I.T. (Thank God It's TensorFlow)",2,9
+2,2016-10-7,2016,10,7,23,56bohf,Recognition of images with additional data,https://www.reddit.com/r/tensorflow/comments/56bohf/recognition_of_images_with_additional_data/,xambioa,1475851224,"Good morning everyone, first I would like to make it clear that I began to take my first steps in machine learning yesterday. I've read most basic items and attended some presentations. I will participate in a project here a few months that this technology will be applied. As a beginner I would like to ask a question that I think is silly, but I could not find answers for her.
+
+In presentations and articles, I have seen the creation of a classifier that can classify images or data sets, but never both at the same time. For example, Iris flower data set, which is used as an example. In this data set we have the characteristics of flowers, such as petal width, but we do not have a visual representation of it. It is possible to fit both and for example, to estimate the width of the petal of a certain image?
+
+I imagine this is a very basic question, but I could not find something suitable for a beginner.
+
+I would be very grateful.",0,1
+3,2016-10-9,2016,10,9,22,56m9sz,Can Tensorflow be used to classify pixels in satellite imagery?,https://www.reddit.com/r/tensorflow/comments/56m9sz/can_tensorflow_be_used_to_classify_pixels_in/,timex40,1476021523,"A common problem in working with satellite imagery is performing a land classification, which is determining what each pixel should be categorized as - water, vegetation, roads, etc. This is done by examining the R,G,B values (plus more if the sensor collected other spectral bands) of each pixel, and using those values to cluster them into different classification types. The spatial relationship between pixels is not considered - all classifications are based on each of the individual pixel's values. 
+
+Reading a bit about Tensorflow I'm wondering if it could be useful in this application. 
+
+The few examples of TF I've seen that work on image processing have been to find objects within an image (ex. Character recognition). In these cases the algorithms use vectors representing 2D image chips as inputs. And use image chips as trainging data. 
+
+The land classification problem would be a little different in that the input would be a vector of R,G,B values of a single pixel. And individual pixels would be used as training data. 
+
+Any thoughts on if this could work? Have there been any other TF applications that use individual pixels as the input versus image chips? ",2,5
+4,2016-10-10,2016,10,10,22,56s0nd,[Optimization needed] Bubble sort using TensorFlow,https://www.reddit.com/r/tensorflow/comments/56s0nd/optimization_needed_bubble_sort_using_tensorflow/,jalFaizy,1476107141,"NOTE: Originally posted [here](https://discuss.analyticsvidhya.com/t/bubble-sort-using-tensorflow/12181)
+
+I recently did a small implementation on Bubble sort using Tensorflow (TF). Let me give a little background story; when I did a survey on TF, I liked it very much as a deep learning library. I wanted to explore its uses on non-DL applications. And hence the codes
+
+#########################################
+
+	# import modules
+	import tensorflow as tf
+
+	# create interactive session
+	sess = tf.InteractiveSession()
+
+	# create unsorted array
+	unsorted_array = tf.Variable([1, 4, 2, 3])
+	# find length of array
+	len_array = unsorted_array.get_shape()[0].value
+
+	# initialize variables
+	init = tf.initialize_all_variables()
+	sess.run(init)
+
+	cnt = 0
+
+	# bubble sort
+	for i in range(len_array):
+	    isSwapped = False
+	    for j in range(0, len_array - i - 1):
+		
+		if tf.greater(unsorted_array[j], unsorted_array[j+1]).eval():
+		    # extract values
+		    temp1 = unsorted_array[j].eval()
+		    temp2 = unsorted_array[j + 1].eval()
+		    
+		    # replace unsorted array
+		    unsorted_array = tf.scatter_update(unsorted_array, j, temp2)
+		    unsorted_array = tf.scatter_update(unsorted_array, j+1, temp1)
+		    isSwapped = True
+		
+		print ""After iteration"", cnt, ':', unsorted_array.eval()
+		cnt += 1
+
+	    if isSwapped: break
+
+#########################################
+
+When I did a performance comparison with pure numpy implementation, I found this result:
+
+    TF time: 0.2167978286743164
+    Numpy time: 0.0028018951416015625
+
+To me, this seems a bit wrong as a conclusion. My hypothesis is that the codes not optimized. Could you suggest anything I could do to decrease speed. Or could you explain why is this time difference?",1,1
+5,2016-10-10,2016,10,10,23,56s5r0,I just found a walkthrough to use Slim. Hope it can help you,https://www.reddit.com/r/tensorflow/comments/56s5r0/i_just_found_a_walkthrough_to_use_slim_hope_it/,kudaphan,1476109013,,0,3
+6,2016-10-11,2016,10,11,0,56sef7,Performance of Sequence-to-Sequence Models in tensor flow on a low spec machine,https://www.reddit.com/r/tensorflow/comments/56sef7/performance_of_sequencetosequence_models_in/,ark9gm,1476111962,"I want to learn more about deep neural nets and tensor flow. I mainly want to make a machine translator same as the one on the tensor flow tutorial using RNN (Sequence-to-Sequence Models https://www.tensorflow.org/versions/r0.11/tutorials/seq2seq/index.html ). However, I only have a low spec machine with an Intel dual core CPU and 2Gb of RAM. I'm planning to buy a graphics card, maybe a geforce gtx 750 Ti to make up for the low spec CPU and RAM. I'm still a student so I can't really afford any upgrades.
+
+So my question is this. Do you think it is possible to do the said Sequence-to-Sequence Models tutorial in tensor flow given the my lack of a good hardware? Will a new graphics card be able to make up for the low spec CPU and RAM? How many hours do you think it will take to train the model like that in the tutorial in my machine? And I would also like to know how many hours it will take to train that on a good machine.
+
+I'm also new to Reddit and I only created an account on hopes that someone here can help me with these. Thanks",1,1
+7,2016-10-11,2016,10,11,21,56xreb,cluster from camera stream and user input to classify in a second step,https://www.reddit.com/r/tensorflow/comments/56xreb/cluster_from_camera_stream_and_user_input_to/,[deleted],1476189344,[deleted],1,1
+8,2016-10-12,2016,10,12,6,570jek,QueueRunner Blocked or not Running For Getting Batches from the Test Set?,https://www.reddit.com/r/tensorflow/comments/570jek/queuerunner_blocked_or_not_running_for_getting/,[deleted],1476221606,[deleted],0,1
+9,2016-10-12,2016,10,12,7,570wpi,"Struggling to install TensorFlow on Amazon AWS? Use TFAMI. Open-source, free and maintained.",https://www.reddit.com/r/tensorflow/comments/570wpi/struggling_to_install_tensorflow_on_amazon_aws/,ritchieng,1476226125,"I, like others, have struggled in installing and making TensorFlow work. It took a lot of time and there were a multitude of errors. I created an AMI that is actively maintained and open-source. I hope the community can maintain one AMI where everyone can use in any region on any GPU instance. I mean, even the deep learning AMI supported by Amazon does not have TensorFlow working out of the box. I tested it on all g2 and p2 instances and you can start working on TensorFlow in less than 5 minutes by using this AMI. There's absolutely 0 configuration needed. 
+
+TFAMI: A TensorFlow Amazon Web Service (AWS) AMI that is open, free and works. 
+https://github.com/ritchieng/tensorflow-aws-ami
+
+The Github repository has all the information, but when launching your instance, simply click ""Community AMI"" and search for ""TFAMI"".",1,8
+10,2016-10-13,2016,10,13,4,575xwy,A simple design pattern for recurrent deep learning in TensorFlow,https://www.reddit.com/r/tensorflow/comments/575xwy/a_simple_design_pattern_for_recurrent_deep/,gepr,1476299947,,0,5
+11,2016-10-13,2016,10,13,4,5765dt,Which is the best way to learn TensorFlow?,https://www.reddit.com/r/tensorflow/comments/5765dt/which_is_the_best_way_to_learn_tensorflow/,mighelo,1476302207,"Hi there, i would like to know which is the best way to learn  TensorFlow (tutorials, books, ...)
+Thanks :)",4,10
+12,2016-10-14,2016,10,14,4,57c63o,Any suggest for my senior project?,https://www.reddit.com/r/tensorflow/comments/57c63o/any_suggest_for_my_senior_project/,ibrahimsengul,1476387201,Hello. I'm a computer engineering student. I need a subject for my senior project. I'm researching but i can't find anything i like. It's about ai and image processing or both. Thanks already.,3,6
+13,2016-10-14,2016,10,14,15,57f2ur,Export trained TF model to POD,https://www.reddit.com/r/tensorflow/comments/57f2ur/export_trained_tf_model_to_pod/,kw0lf,1476427170,"Is it possible to export a trained tensorflow model to a plain old data structure using its MetaGraph API? I want to use tensorflow to train a model to detect certain kinds of images and use the trained model afterwards in my C++ program without directly depending on tensorflow. I want to use tensorflow for training a model (weights and biases), export it and do the forward step (recognizing images) by myself. Is this possible in general or am I missunderstanding something?",0,1
+14,2016-10-15,2016,10,15,20,57ln0c,Shapes and dynamic dimensions in TensorFlow,https://www.reddit.com/r/tensorflow/comments/57ln0c/shapes_and_dynamic_dimensions_in_tensorflow/,morgangiraud,1476530410,,0,3
+15,2016-10-15,2016,10,15,23,57map2,Tensorflow - Number (Speech) Recognition from the First Part of a Number,https://www.reddit.com/r/tensorflow/comments/57map2/tensorflow_number_speech_recognition_from_the/,iamajihadi,1476542046,"I'm trying to do a research project where I guess the number people are trying to say from the first part.
+
+Ex: One - O (the actual phonetic sound though)
+
+How would I get started? I'm kind of familiar with Tensorflow in general, but IDK how to do this.",0,2
+16,2016-10-17,2016,10,17,20,57wxho,Use .ckpt and .meta -files to make predictions with Inception in TensorFlow,https://www.reddit.com/r/tensorflow/comments/57wxho/use_ckpt_and_meta_files_to_make_predictions_with/,Nuesjanix,1476705599,"I used the Inception-library (Tensorflow/models/Inception-tutorial on github), feeding selfmade TFRecord-files to imagenet_train.py, and ended up with a 7Gb directory containing .ckpt and .meta files.
+
+How do i use them to make actual predictions?(also evaluating, testing, testing with actual .jpg files, continue the training)
+
+I tried the freeze_graph Script, but failed, for reasons like ""not really getting how the script works"". 
+
+What would be the next steps?Are there dummy-friendly examples(tutorials)?",0,2
+17,2016-10-18,2016,10,18,1,57ye5h,What are the steps to convert a caffe model to tensorflow model,https://www.reddit.com/r/tensorflow/comments/57ye5h/what_are_the_steps_to_convert_a_caffe_model_to/,itnabakwaas,1476723239,"Hi , I have a pre trained caffe model and I would like to convert it to tensorflow. 
+Does anyone know how to do it?
+Do I have to write a new tensorflow model and train it or can I somehoe train convert the models?
+
+I tried using this , https://github.com/ethereon/caffe-tensorflow
+But failed. 
+Can someone write the steps for this?
+
+",0,3
+18,2016-10-18,2016,10,18,10,5814rq,Will I be able to run one Tensorflow session on my $3600 4 gpu computer build?,https://www.reddit.com/r/tensorflow/comments/5814rq/will_i_be_able_to_run_one_tensorflow_session_on/,linuxfreebird,1476753578,"https://pcpartpicker.com/user/linuxfreebird/saved/#view=RKP6hM
+
+The link above is my computer build saved on pcpartpicker.com. I am saving up money to build this computer for $3600. I am concerned that Tensorflow will not be able to run one session optimally on 4 gpus. In terms of performance would it be better to just buy one Titan X?",6,1
+19,2016-10-19,2016,10,19,5,5864x0,Am I misunderstanding dynamic_rnn?,https://www.reddit.com/r/tensorflow/comments/5864x0/am_i_misunderstanding_dynamic_rnn/,CashierHound,1476822378,"Hello all,
+
+I am using `tf.nn.dynamic_rnn` with batches of variable sequence len and trying to select the RNN's output for the last step of each sequence. If this is unreasonable and [`dynamic_rnn`](https://www.tensorflow.org/versions/r0.11/api_docs/python/nn.html#dynamic_rnn) takes care of this for me (by shifting the relevant output to the last index on a per-sequence basis), please let me know. Otherwise, here are the relevant details:
+
+    # input_seq has shape (batch_size, max_seq_len, feat_dim), shorter seqs zero padded to max_seq_len
+    input_seq = tf.placeholder(tf.float32, shape=[None, max_seq_len, feat_dim], name='input_seq') 
+    input_seq_len = tf.placeholder(tf.int64, shape=[None], name='input_seq_len')
+    ...
+    cell = tf.nn.rnn_cell.BasicLSTMCell(100)
+    output, _ = tf.nn.dynamic_rnn(cell, input_seq, sequence_length=input_seq_len, dtype=dtype) 
+    
+    # output has shape (batch_size, max_seq_len, 100)
+    # gather only works on first dimension so we must transpose to get sequence on 0
+    output_T = output.transpose(output, [1, 0, 2])
+    
+    # now we can gather the last entry n = len-1 for each sequence
+    # gather retrieves the nth entry for every sequence producing shape (batch_size, batch_size, 100)
+    output_gathered = tf.gather(output_T, input_seq_len - 1)
+    
+    # we need to take the diagnol along this result
+    # this should discard everything but the nth entry for the relevant sequence
+    # hopefully yields (batch_size, 100)
+    output_last = tf.diag_part(output_gathered)
+
+The problem with this is [`diag_part`](https://www.tensorflow.org/versions/r0.11/api_docs/python/math_ops.html#diag_part) only works for even-dim tensors, where I just want to select the diag_part along the first 2 axes. It seems like all this could be solved with [advanced indexing](https://github.com/tensorflow/tensorflow/issues/206) but I'm not sure if it's available yet. Also, the fact that I can't find anyone talking about this indicates to me that I'm inherently misunderstanding something about `dynamic_rnn`.
+
+Any help would be greatly appreciated!",0,1
+20,2016-10-20,2016,10,20,5,58cirt,Are there any people working on porting Yahoo's Open NSFW Caffe model to TF?,https://www.reddit.com/r/tensorflow/comments/58cirt/are_there_any_people_working_on_porting_yahoos/,sutrostyle,1476908098,"We tried to migrate https://github.com/yahoo/open_nsfw model to TF using https://github.com/ethereon/caffe-tensorflow .
+It all worked, but we get different results from Caffe. Has anybody done this, are there people working on it?",1,3
+21,2016-10-23,2016,10,23,1,58tq6j,How to compute pairwise distance between points?,https://www.reddit.com/r/tensorflow/comments/58tq6j/how_to_compute_pairwise_distance_between_points/,identicalParticle,1477152051,"I have a tensor of size [N, D] representing N total D-dimensional points.
+
+I want to calculate a tensor of size [N,N] where the i-jth element is the Euclidean distance between point i and point j.
+
+I feel like this is pretty standard for computing similarity matrices, so I bet there is an existing function to do it.",4,2
+22,2016-10-23,2016,10,23,18,58xtxs,How to do Data Compression + Denoising?,https://www.reddit.com/r/tensorflow/comments/58xtxs/how_to_do_data_compression_denoising/,hiteshv09,1477213820,"what wud be the best way 2 implement noise reduction + data compression? Autoencoder or something else? For example, consider a satellite capturing data. This Data is compressed and sent over network bottleneck to space station. At receiving station this data is decompressed and denoised. This can work for online video streaming,drive storage etc. The aim is that like Deep Mind, this system should work for all kind of data. But let's say we start with images. Also how will the system know for a new data that what is a noise in it? Humans can easily distinguish noise.
+The problem is, autoencoder is good for denoising but not good for data compression. So can we design a hybrod system. And most importantly, how to implement this?",0,4
+23,2016-10-23,2016,10,23,23,58yr78,Why am I getting a high dimensionality?,https://www.reddit.com/r/tensorflow/comments/58yr78/why_am_i_getting_a_high_dimensionality/,215_215,1477232639,"I am currently trying to make a rnn network for regression purposes capable of taking in an arbitraty number of samples and output a 14 length feature vector using tensorflow. 
+
+The network isn't running properly at the moment, for which i am trying to debug the issue.. Here is the code:
+
+http://pastebin.com/YK9dBxwy
+
+
+The code doesn't fully execute due to an error in the `cross_entropy` function. 
+
+  Error code receving is : 
+  http://pastebin.com/T2dqS3Gy
+
+
+It seem to me that the output  am receiving from the RNN has a quite high dimensionality. I was only expecting a vector with 14 elements so a 1 dimensional vector. But somehow am I ending up with quite a large dimensionality? why? I guess something in my setup of the neural network must be incorrect. 
+
+
+",0,3
+24,2016-10-29,2016,10,29,1,59va8y,"TensorFlow Implementation: Show, Attend and Tell",https://www.reddit.com/r/tensorflow/comments/59va8y/tensorflow_implementation_show_attend_and_tell/,yunjey,1477671292,"I implemented show, attend and tell with tensorflow. 
+link is here. 
+https://github.com/yunjey/show-attend-and-tell-tensorflow 
+I hope this gives many people to help understanding attention mechanism.",0,3
+25,2016-10-29,2016,10,29,21,5a05zn,Tensorflow implementation of RBM (both BB and GB),https://www.reddit.com/r/tensorflow/comments/5a05zn/tensorflow_implementation_of_rbm_both_bb_and_gb/,devmeow,1477742906,,0,2
+26,2016-10-30,2016,10,30,5,5a2cmm,Can Tensorflow Be Used to Implement the Pregel Graph Processing System?,https://www.reddit.com/r/tensorflow/comments/5a2cmm/can_tensorflow_be_used_to_implement_the_pregel/,MemeticParadigm,1477771800,"[Pregel: A System for Large-Scale Graph Processing](https://blog.acolyer.org/2015/05/26/pregel-a-system-for-large-scale-graph-processing/)
+
+Is there anything close to an out-of-the-box way to go about this, or would it definitely involve writing a custom op? A lot more than that?
+
+Does it make any sense to do this in Tensorflow - like, in the sense of how well the two data processing paradigms ""fit"" with each other? I mean, it feels like they are pretty damn similar, but I can't seem to figure out how one would go about implementing the basic PageRank algorithm in TensorFlow - am I just missing something obvious?",3,2
+27,2016-10-30,2016,10,30,11,5a456j,Using a tensor output in gradient modification.,https://www.reddit.com/r/tensorflow/comments/5a456j/using_a_tensor_output_in_gradient_modification/,ITHNOTJUITH,1477795770,"I have a scalar output from a network,
+
+    y=tf.matmul(hidden_1, W2) + b2
+
+where W2 is N by 1. I want to use this in a gradient computation:
+
+    discounted_rewards = tf.placeholder(tf.float32, (None,))
+    gradients = optim.compute_gradients(loss)
+    for i, (grad,var) in enumerate(gradients):
+        if grad is not None:
+            gradients[i] = (grad*(discounted_rewards-y), var)
+            train_step = optim.apply_gradients(gradients)
+
+This fails to run, with the error: 
+
+    ValueError: Shapes (?, 20) and (20,) are not compatible
+
+What is the problem here? They should both be single dimensional, so I'm not sure why there's a shape error here. If I explicitly retrieve the value of y and then manually feed it back in under a different placeholder it seems to work, but that seems like it should be unnecessary.
+",0,1

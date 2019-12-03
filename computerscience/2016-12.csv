@@ -1,0 +1,1092 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2016-12-1,2016,12,1,10,5ftuco,Where to move on?,https://www.reddit.com/r/computerscience/comments/5ftuco/where_to_move_on/,T0mpkinz,1480557476,"I have finished my first year of CS intro classes at my uni. Which was basically two semesters of C++, and I'm about to finish my data structures class. Moving into machine language, software engineering, and unix systems programming. My question is at this point in your academic career what kind of projects were you starting/finishing. What would you do to ABC, and where did you move onto to expand your portfolio/resume?
+
+I find the step into open source, and larger programs very scary and intimidating. I honestly feel I have a little bit of the imposter syndrome and just want to make sure I keep on the right track. How do I find projects that match my skill level as well? Honestly any advice would be appreciated.",2,1
+1,2016-12-1,2016,12,1,14,5fuvzs,"Hilbert, Gdel, and Turing",https://www.reddit.com/r/computerscience/comments/5fuvzs/hilbert_gdel_and_turing/,ChaoticGoodFerret,1480570290,,0,7
+2,2016-12-1,2016,12,1,14,5fuyow,[PDF thesis] Godel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements,https://www.reddit.com/r/computerscience/comments/5fuyow/pdf_thesis_godel_machines_selfreferential/,ChaoticGoodFerret,1480571337,,0,9
+3,2016-12-1,2016,12,1,18,5fvqi8,Step-by-step guide required to prohibit installation of any software on Windows 7,https://www.reddit.com/r/computerscience/comments/5fvqi8/stepbystep_guide_required_to_prohibit/,SogaBan,1480585003,"I am using Windows 7 Ultimate (x64). Have two user accounts - Mine (administrator) and another for the family (standard user account).
+
+What I want to do is - completely disable installation of any new software/applications on the family account (however, updates of certain programs like Adobe Reader, CCleaner, etc can be installed). The administrator account should be able to install any and all sorts of applications. How to achieve this?
+
+Please help. Thanks in advance. (I also apologize in advance if this has been discussed earlier, in which case a link to those threads will suffice too)",4,0
+4,2016-12-1,2016,12,1,22,5fwmgw,Effective role of Multimedia,https://www.reddit.com/r/computerscience/comments/5fwmgw/effective_role_of_multimedia/,Sudchris,1480599984,,0,4
+5,2016-12-2,2016,12,2,2,5fxxpo,10 Best Technical computing program,https://www.reddit.com/r/computerscience/comments/5fxxpo/10_best_technical_computing_program/,dovekiki,1480614216,,1,1
+6,2016-12-2,2016,12,2,5,5fz17f,What math courses should I have under my belt before I start a Masters in Computer Science and a career in software engineering?,https://www.reddit.com/r/computerscience/comments/5fz17f/what_math_courses_should_i_have_under_my_belt/,[deleted],1480625058,[deleted],6,18
+7,2016-12-2,2016,12,2,6,5fzd8o,What do you do when you're completely stuck?,https://www.reddit.com/r/computerscience/comments/5fzd8o/what_do_you_do_when_youre_completely_stuck/,LtL237,1480628442,"I'm a senior in college now and I wanted to ask you guys what you do when you're just stuck in a class and have no idea what you're doing. I'm not a CS major, i'm a Digital Media major but cs definitely is a big part of our program. I'm taking a Full stack web dev course and it's absolutely destroying me. The only CS courses I've taken here were Python, Swift, and intro web dev courses. I failed the midterm and I'm looking at a D right now, but there's still a final project (15%)and final exam (35%) that I may be able to clutch. 
+I just feel so disadvantaged because almost everyone else in the class is CS and they actually know what they're doing, the midterm AVG was a 70, i got a 37. Like I read all of my teachers slides, try to pay attention, go to every class and do the incredibly difficult homeworks, but everything is just so difficult for me. Have you guys encountered this kind of hump? If so how did you get over it?",1,3
+8,2016-12-2,2016,12,2,6,5fzgzm,Anyone willing to help me with a couple assignments?,https://www.reddit.com/r/computerscience/comments/5fzgzm/anyone_willing_to_help_me_with_a_couple/,[deleted],1480629524,[deleted],0,0
+9,2016-12-2,2016,12,2,9,5g08px,"Problems with Code Blocks C/C++ IDE in Windows, Mac OS",https://www.reddit.com/r/computerscience/comments/5g08px/problems_with_code_blocks_cc_ide_in_windows_mac_os/,incertitudeindefinie,1480639546,"Hi folks,
+
+After stopping and starting more times than I care to admit to, I finally signed up for CS50 and decided to work my way through Greg Perry's Absolute Beginner's Guide to C Programming. 
+
+In that book, Code Blocks (using 16.01 right now) is recommended as an IDE (is that the right term?). Now, I first had trouble with it on both Windows and the Mac OS (Windows 8 and OS10.11.6), for whatever reasons programs wouldn't compile. So I fixed that issue and haven't had issues compiling and running programs since. However, I'm at the point now where I'm writing header files and using #include &lt;xyz.h&gt;. #include &lt;stdio.h&gt; causes no issues but for some reason using *my own* .h files seems to prevent the program from compiling and prompts an error message saying 'the current project has not been built yet, would you like to build it?'. Clicking on 'yes' does nothing. I'm wondering if there is a specific location that I'm meant to be saving .h files to that Code Blocks would be reading these files from? 
+
+Thanks for your help. ",2,0
+10,2016-12-2,2016,12,2,10,5g0m87,"Newbie, Preparing for College!",https://www.reddit.com/r/computerscience/comments/5g0m87/newbie_preparing_for_college/,Silverhugz,1480643874,"Hey guys, ok I decided to chose Computer Science as a Major for my College and I wanted to be prepared before hand, such as knowing what to expect. I have a few almost no knowledge. What could I do to prepare myself, I got recommended a website for coding, its codeacademy. Is it good that I practice? I just wanna prepare myself for next year. Thanks!  ",4,0
+11,2016-12-2,2016,12,2,11,5g0v7y,My single thread radix-2 fft transforms 512 MB in 3 minutes with only 104 bytes of stack on an i5. Pardon my bragging good night.,https://www.reddit.com/r/computerscience/comments/5g0v7y/my_single_thread_radix2_fft_transforms_512_mb_in/,Kerdek,1480646905,"    void fft2InPlace(complex *c, unsigned int n)
+    {
+    	// n must be a power of two.
+    	if (n &amp; (n - 1)) return;
+    	complex
+    	// c0 is the beginning of the input.
+    		*const c0{ c },
+    	// cn is one past the end of the input.
+    		*const cn{ c0 + n };
+    	unsigned int
+    	// m begins at half n. Unless m == 1, m is halved each time c == cm.
+    		m{ n &gt;&gt; 1 };
+    	// Argument c begins at c0 each time m halves,
+    	// or rewinds by n - 1 each time it passes cn,
+    	// or increments by 2m each iteration.	
+    	complex
+    	// cm is always m - 1 past cn. Unless m == 1, when c == cm,
+    	// m is halved, s and cm are updated, and t and c are reset.
+    		*cm{ cn + m - 1 };
+    	double
+    	// s is always  / m.
+    		s{  / m },
+    	// t begins at 0.0 each time m halves,
+    	// or counts by s each time c rewinds.
+    		t{ 0.0 };
+    	complex
+    	// y is always cos(t) + i sin(t).
+    		y{ t };
+    	// The body of the loop computes the length-2 dft of *c and *(c + m),
+    	// multiplies *(c + m) by y, and increments c by 2 m;
+    	// The loop continues until it has completed with m == 1.
+    	for (;;)
+    	{
+    		if (c &gt;= cn)
+    		{
+    			if (c == cm)
+    			{
+    				if (m == 1) break;
+    
+    				m &gt;&gt;= 1;
+    
+    				s =  / m;
+    				t = 0.0;
+    
+    				c = c0;
+    				cm = cn + m - 1;
+    			}
+    			else
+    			{
+    				c += 1 - n;
+    				t += s;
+    			}
+    			y = complex{ t };
+    		}
+    
+    
+    		complex z{ *c }, *d{ c + m };
+    
+    		*c = *c + *d;
+    		*d = (z - *d) * y;
+    
+    		c = d + m;
+    	}
+    }",3,7
+12,2016-12-2,2016,12,2,14,5g1m5t,Dell Laptop Service Center in Pitampura,https://www.reddit.com/r/computerscience/comments/5g1m5t/dell_laptop_service_center_in_pitampura/,bssystemsolutions15,1480656659,,0,1
+13,2016-12-2,2016,12,2,15,5g1qz1,"Know About Ransomware Antivirus, Malware - Dell Service Center in Delhi",https://www.reddit.com/r/computerscience/comments/5g1qz1/know_about_ransomware_antivirus_malware_dell/,bssystemsolutions15,1480658661,,0,1
+14,2016-12-2,2016,12,2,15,5g1xvk,Improve Computer Skills to Fulfill High Demand in Extensive Field with Bachelor of Computer Science,https://www.reddit.com/r/computerscience/comments/5g1xvk/improve_computer_skills_to_fulfill_high_demand_in/,sarasteph,1480661795,,0,1
+15,2016-12-2,2016,12,2,17,5g2bao,future jobs for cs?,https://www.reddit.com/r/computerscience/comments/5g2bao/future_jobs_for_cs/,Bugzycow,1480668856,"i am planning on taking computer science in university so i am wondering, what is it like working as a system administrator, developer , software engineering, data scientist or maybe some IT related jobs. ",4,15
+16,2016-12-2,2016,12,2,20,5g2pqs,International Conference on Electrical Engineering and Computer Sciences ICECE-16,https://www.reddit.com/r/computerscience/comments/5g2pqs/international_conference_on_electrical/,aall_conference,1480676645,,0,0
+17,2016-12-3,2016,12,3,0,5g3xdl,"Aspiring CS major, currently learning C++. What can I add to my application to show my interest in CS? Should I make a project?",https://www.reddit.com/r/computerscience/comments/5g3xdl/aspiring_cs_major_currently_learning_c_what_can_i/,Hiromin,1480693671,"Hello everyone.
+
+I'm currently learning C++ basics (learning functions now) on my own, using books and coursera lectures. I'm really enjoying it. I actually am liking the language quite a lot
+
+On the other hand, I also want to start doing some projects to improve my application for college admission next year, in order to show my interest in CS major. I'll be aiming for the top schools (Ivies/MIT/Stanford/Caltech, etc...), so I need my projects to be impactful too.
+
+However, I heard that it takes *a lot* of time to learn enough of C++ to even start making your first project, compared to other languages.
+
+So I wanted to ask if you think I should start learning another language after learning OOP basics in C++, or it is possible to write a good-enough project if I continue learning C++? And what language can I pick up quickly and build good projects with in a short time? (i.e. a couple of months, I need to finish it before next November for admission).
+
+P.S: I'm really learning at a very slow pace, because I'm jaggling C++, the SAT practice and my medical studies (which are taking 90% of my time), so if I'm lucky I do about 3 hours of C++ learning per week.
+
+P.S.2: Even if I switched to another language, I will still continue learning C++ at the same time (the other language will be for the project, and C++ is for my long-term interests), as I'm really enjoying i, and will want to specialise in it in the future, I really see myself having a job in C++.
+
+However I really doubt it could be this convenient though. I doubt I could possibly learn a language (mind you, I'm not talking about mastering it, I'm aware that takes decades to do), and finish a whole good-quality project in the span of a year, while also having to work on med school and study for the SAT...
+
+Might you have any other ideas please? What can I add to my application to show my interest in CS, but also make my CS-related extracurriculars stand out during the admission?
+
+Thank you.",27,18
+18,2016-12-3,2016,12,3,2,5g4h9v,I can code -- now what?,https://www.reddit.com/r/computerscience/comments/5g4h9v/i_can_code_now_what/,[deleted],1480699469,[deleted],3,5
+19,2016-12-3,2016,12,3,7,5g6c06,How to verify receipt is unchanged in a two party transaction with zero trust?,https://www.reddit.com/r/computerscience/comments/5g6c06/how_to_verify_receipt_is_unchanged_in_a_two_party/,duhcartmahn2,1480718863,"So, I was thinking about electronic voting, and was pondering how you would be able to gain the trust of the users.  The obvious answer is to give people some secret ID, and publish everyone's vote so you can look yours up to verify it was not tampered with.  EASY.
+
+BUT...
+
+What about the people who don't trust the state to record their vote properly?  If a dispute arose, it's your word against the government's, and that's not going to work.  So, my thinking is that if you had a receipt showing how you voted, any discrepancy between the database and your receipt would be proof of tampering.  
+
+BUT...
+
+How do you prove that your receipt was not itself tampered with?  Since neither party can be trusted to not change their data, how do you keep a record digitally that both of you know is the original?  And without adding any more people to the mix, can you?  I know BTC does this by just having a large pool of people, but for voting, the Govt would easily have &gt;50% of the network, so that would not be a satisfactory solution.
+
+Can anyone point me to some information on this problem?  I am sure it has been addressed before.",2,1
+20,2016-12-3,2016,12,3,15,5g8a8e,Dell Service Centre in Laxmi Nagar,https://www.reddit.com/r/computerscience/comments/5g8a8e/dell_service_centre_in_laxmi_nagar/,bssystemsolutions15,1480745824,,0,1
+21,2016-12-3,2016,12,3,15,5g8d3e,my computer science teacher made this. try to figure it out. multiple clues,https://www.reddit.com/r/computerscience/comments/5g8d3e/my_computer_science_teacher_made_this_try_to/,Locked_By_Draven,1480747244,,11,4
+22,2016-12-3,2016,12,3,15,5g8ehd,E Commerce Website Development Company in India,https://www.reddit.com/r/computerscience/comments/5g8ehd/e_commerce_website_development_company_in_india/,attractiveweb1,1480747996,,0,0
+23,2016-12-3,2016,12,3,16,5g8gin,Dell Laptop Service Center in Noida,https://www.reddit.com/r/computerscience/comments/5g8gin/dell_laptop_service_center_in_noida/,bsslaptoprepair,1480748995,,0,1
+24,2016-12-3,2016,12,3,17,5g8naz,Very Best Role of Butt Hair and How Did They Happen,https://www.reddit.com/r/computerscience/comments/5g8naz/very_best_role_of_butt_hair_and_how_did_they/,leaktattle,1480752847,,0,1
+25,2016-12-3,2016,12,3,18,5g8wb8,Be Hygenic With Dirtiest Body Part,https://www.reddit.com/r/computerscience/comments/5g8wb8/be_hygenic_with_dirtiest_body_part/,mingleweave,1480758396,,0,1
+26,2016-12-4,2016,12,4,4,5gba29,[x-post from /r/cscareerquestions] Not sure if taking further upper div CS courses would do more harm or good?,https://www.reddit.com/r/computerscience/comments/5gba29/xpost_from_rcscareerquestions_not_sure_if_taking/,[deleted],1480793846,[deleted],0,1
+27,2016-12-4,2016,12,4,5,5gbegm,[x-post from /r/cscareerquestions] Not sure if taking further upper div CS courses would do more harm or good?,https://www.reddit.com/r/computerscience/comments/5gbegm/xpost_from_rcscareerquestions_not_sure_if_taking/,-g0at,1480795253,"I'm currently a 3rd year student at UCLA, not a CS major (it's too late for me to switch), but I've decided that's the field I want to go into, so thus far I've taken the first 3 classes in the CS series. (First and second were teaching programming basics in C++, OOP, recursion, data structures, algorithms, etc... and third is machine organization so stuff like assembly, bit ops, data representation, stack discipline, etc..) The first two classes were fun and relatively easy (still CS classes though so more like manageable) whereas the third, while still interesting I found less engaging and more difficult. From what I've been told by people currently working CS jobs (many in my family, friends, and other students) I've already learned everything I need to for the kind of work I'd be doing (nothing crazy specialized or low level). If I was a CS major I would need to take many more upper div classes regardless, but since I'm not I'm wondering if continuing to take more would be a good idea, as I expect it wouldn't be helpful for the work I'll be doing at the career level and will most certainly come at the expense of my GPA and performance in other classes. With regards to getting a job, in your opinion, do you think taking more classes would be necessary and/or give me a significant edge in resume/application/hiring process? Or would it be better to try to focus on my GPA, giving strong interviews and getting more experience perhaps through independent projects or internships? Obviously all of those things are ideal but will the latter be enough to get me a job even if I don't have more upper div courses under my belt? Thanks for all responses in advance, I really appreciate any input I can get on this!",2,6
+28,2016-12-4,2016,12,4,7,5gc5as,Would a 'smart' dictionary attack do something like this:,https://www.reddit.com/r/computerscience/comments/5gc5as/would_a_smart_dictionary_attack_do_something_like/,casprus,1480803975,"This question arose after using howsecureismypassword tool. I imagined that password crackers would try harder and smarter than this. Does password cracking with dictionary attack use the most common word after another word? For example, if the cracker chose 'apple', the words put after that would be words 'juice', 'pie', 'computer', 'phone', etc. all the way down in order of probability. I remember something from cs like 'markov' that would be used to find the most possible combo",1,6
+29,2016-12-4,2016,12,4,7,5gc6di,Deep learning botnets?,https://www.reddit.com/r/computerscience/comments/5gc6di/deep_learning_botnets/,5methoxy,1480804357,"I may be proving my understanding of some stuff wrong, but I was wondering if this is possible:
+Can a botnet be made with the ability of deep learning? Botnets already have tricks to propagate themselves (fake software, exploits, etc). Is it possible to create a botnet that as it spreads it learns? Can such a thing be programmed so that it has some like basic intentions that it learns to fulfill and keep improving on? For example: spreading itself more, protecting its self, or whatever.",5,3
+30,2016-12-4,2016,12,4,20,5gf388,Neuro-Evolution vs Syntax-Tree-Evolution,https://www.reddit.com/r/computerscience/comments/5gf388/neuroevolution_vs_syntaxtreeevolution/,peyj_,1480851892,"Hey everybody!
+
+So, I did some reading up on [genetic programming](https://en.wikipedia.org/wiki/Genetic_programming) recently, which mostly refers to evolving syntax trees, even though you can also evolve other sorts of programs. More specifically I skimmed through this very useful book: 
+[A Field Guide to Genetic Programming](http://dces.essex.ac.uk/staff/rpoli/gp-field-guide/A_Field_Guide_to_Genetic_Programming.pdf)
+
+Since both - neural networks and computer programs - take input data and turn it into output data, as far as I know they can be used to solve the same kind of problems. 
+I guess one could also see neuro-evolution as a sub-category of genetic programming.
+
+Now I have to wonder: Which types of problems are more fit to be solved by neural networks and which might be better solved by programs (more specifically syntax trees)?
+
+Share your thoughts!",2,3
+31,2016-12-5,2016,12,5,0,5gfvx2,Intelligence in Mobile Applications.,https://www.reddit.com/r/computerscience/comments/5gfvx2/intelligence_in_mobile_applications/,sadmansamee,1480865285,,0,5
+32,2016-12-5,2016,12,5,5,5ghft6,"Need an answer to these two question , it's related to computer games, i would appreciate some help, thanks",https://www.reddit.com/r/computerscience/comments/5ghft6/need_an_answer_to_these_two_question_its_related/,[deleted],1480882758,[deleted],6,0
+33,2016-12-5,2016,12,5,12,5gjspx,Who is ready for computer science finals next week?,https://www.reddit.com/r/computerscience/comments/5gjspx/who_is_ready_for_computer_science_finals_next_week/,cs_major100,1480910166,"THEORETICAL COMPUTER SCIENCE FINAL IN LESS THAN 3 DAYS 
+
+AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+This makes me feel slightly better.  Now back to understanding decidability for the 10th time.",23,14
+34,2016-12-5,2016,12,5,13,5gjw1f,Prediction Template Learning,https://www.reddit.com/r/computerscience/comments/5gjw1f/prediction_template_learning/,[deleted],1480911367,[deleted],0,1
+35,2016-12-5,2016,12,5,14,5gk94f,Search Engine Optimization in Delhi - SEO Services Provider,https://www.reddit.com/r/computerscience/comments/5gk94f/search_engine_optimization_in_delhi_seo_services/,attractiveweb1,1480916412,,0,1
+36,2016-12-5,2016,12,5,15,5gkhqg,Dell Laptop Service Center in Hauz Khas,https://www.reddit.com/r/computerscience/comments/5gkhqg/dell_laptop_service_center_in_hauz_khas/,bssystemsolutions15,1480920059,,0,1
+37,2016-12-5,2016,12,5,18,5gl1nu,How to Increase Internet Speed | Internet Speed ko Kaise Improve Kare,https://www.reddit.com/r/computerscience/comments/5gl1nu/how_to_increase_internet_speed_internet_speed_ko/,shailesh-chaudhary,1480930038,,0,1
+38,2016-12-5,2016,12,5,20,5glg60,Are there any online resources for learning the basics of computer science?,https://www.reddit.com/r/computerscience/comments/5glg60/are_there_any_online_resources_for_learning_the/,[deleted],1480937490,[deleted],2,1
+39,2016-12-5,2016,12,5,21,5gllk7,new maple subreddit,https://www.reddit.com/r/computerscience/comments/5gllk7/new_maple_subreddit/,ffmurray,1480940093,"I started a subreddit for maple
+
+
+
+/r/maplesoft/",0,3
+40,2016-12-5,2016,12,5,22,5glu1f,"Are you ""guaranteed"" a job with Computer Science?",https://www.reddit.com/r/computerscience/comments/5glu1f/are_you_guaranteed_a_job_with_computer_science/,Xradam,1480943724,"I'm actually kind of like stuck between what I wanna do with this field TBH. I love programming and have grew up always wanting to work for a large game company to develop games and such. I like HTML &amp; CSS and coding websites. I taught myself HTML and CSS but it was just a quick learning reference because I taught myself Java through a textbook.
+
+I really don't like math too much after taking Calc 1. I'm taking Calc 2 and I also have to take Calc 3 and Linear Algebra. I'm just wondering, will all of this work be worth it? I know everyone says CS is one of the most demanding fields out there, but how secure can it be to landing you a job? *Assuming you aren't stupid and actually know how to code.",43,24
+41,2016-12-5,2016,12,5,23,5gm0vg,I need help finding some projects/research to do over the Winter Break.,https://www.reddit.com/r/computerscience/comments/5gm0vg/i_need_help_finding_some_projectsresearch_to_do/,Xradam,1480946414,"So yeah I don't plan on going back to my shitty part-time job over the winter so I might as well find some use with my time and knowledge at home. I always see redditors or people online making these crazy programs or bots or w/e. I have 7 weeks all to myself and I was wondering what ideas can I work on for someone new to Java?
+
+I know only the basics. I've learned up to Classes/Objects/Methods/Arrays/Inheritance/Superclasses, etc. 
+
+But yeah I would like to know what are some basic things I can code?",7,8
+42,2016-12-5,2016,12,5,23,5gmaj2,Interesting Technical Topic,https://www.reddit.com/r/computerscience/comments/5gmaj2/interesting_technical_topic/,btw12,1480949699,I've been asked to speak on a technical topic of my choice as part of an interview process for a company looking to hire me as an intern. What are some interesting technical topics in CS/IT that you can suggest I go do some research in?,0,1
+43,2016-12-6,2016,12,6,3,5gnj44,considering,https://www.reddit.com/r/computerscience/comments/5gnj44/considering/,ashraf287,1480962472,[removed],1,2
+44,2016-12-6,2016,12,6,3,5gnnkf,Cute Web Email Extractor,https://www.reddit.com/r/computerscience/comments/5gnnkf/cute_web_email_extractor/,eng_asim,1480963708,,0,0
+45,2016-12-6,2016,12,6,4,5gnz44,Taking a system analyst job effect on software developer,https://www.reddit.com/r/computerscience/comments/5gnz44/taking_a_system_analyst_job_effect_on_software/,cs-inquisitor,1480966801,"Due to some reasons I need not post. I need to move somewhere that doesn't have any software developer positions available, I am considering taking a job as a system analyst for 1 to 2 years until I can go somewhere that would allow me to continue working as a software developer.
+
+I am in the first 3 years of my career. How detrimental do you guys think this will be for my career as a software developer?",1,1
+46,2016-12-6,2016,12,6,5,5go88e,Question regarding computer science master's program application,https://www.reddit.com/r/computerscience/comments/5go88e/question_regarding_computer_science_masters/,lilhanz,1480969253,"
+I hold a Bachelor of Arts in Philosophy but intend to pursue a master's in Computer Science, and so have been looking at programs like the Master's Program in Computer Science at UChicago and the Computer Science and/or Software Engineering programs at University of Texas at Dallas that are known for accommodating to those with a bachelor's in unrelated subjects who have little to no experience in computer science. I have one major concern regarding the strength of my application. During my time as an undergraduate, I also earned a minor in mathematics. First semester of my senior year, I needed one more course to complete this minor, so I decided to try out Discrete Mathematics. The course was geared toward mathematics majors and not computer science majors and was thus much more academic/theoretical/not applied/difficult. Halfway through the semester, I withdrew from the course because I was failing. I already had all my other requirements done and plenty of credit hours to graduate, and still had a semester left to take another course for my math minor. However, because I was only taking 12 credit hours including Discrete, I was placed on academic probation for dropping down to 9 hours as part of my school's policy. I would still go on to earn my math minor with another course (Real Analysis), and graduated Cum Laude &amp; Phi Beta Kappa with a 3.8 GPA. With all of this in mind, I have two questions:
+
+1) Would the fact that I was placed on academic probation for one semester simply for dropping below 12 credit hours, in light of the other positive facts I have given about my application, have any sort of negative impact on my application for these types of programs, including those specifically mentioned? I have heard that academic probation can negatively affect one's application for graduate programs.
+
+2) Would the fact that I withdrew from a course like Discrete Mathematics, a subject which is so essential to the understanding of computer science, have any sort of negative impact on my application for these programs? There is obviously the chance to take the course again before entering a master's program, and UChicago's immersion program for inexperienced candidates includes a course called Discrete Mathematics for Computer Science that can be taken before the fall semester begins, but would evidence of my past performance in this subject negatively impact me more than no evidence of past performance (i.e. ""well, it looks like they already performed poorly in this subject in the past, so why should we think they could handle it now"")?",0,1
+47,2016-12-6,2016,12,6,5,5gobia,[Puzzle] The Theory Behind 100 Prisoners and a Lightbulb,https://www.reddit.com/r/computerscience/comments/5gobia/puzzle_the_theory_behind_100_prisoners_and_a/,ballisticgorillaz,1480970128,,1,28
+48,2016-12-6,2016,12,6,7,5gp01j,Computer Science School,https://www.reddit.com/r/computerscience/comments/5gp01j/computer_science_school/,ASkewedVu,1480976905,"Hi,
+Sorry for the long post but I need help urgently. I have the opportunity to attend UIUC or UIC. My financial situation would be the exact same regardless of which school I attend. UIUC is giving me more money but my living expenses will be greater. So given that my financial situation is exactly the same for both schools. I need to know which school I should attend to complete my Bachelor's. 
+
+I am a prospective transfer student and I was accepted by UIUC's CS+Linguistics program as well as UIC's CS program. Which program will yield more attractive dividends? Which program should I pick? 
+
+Thanks a ton",2,2
+49,2016-12-6,2016,12,6,8,5gpa3h,Found an error in one of Dijkstra's papers,https://www.reddit.com/r/computerscience/comments/5gpa3h/found_an_error_in_one_of_dijkstras_papers/,1hackaday,1480979824,"Just want to note somewhere that I found that proposition E2.6 in Dijkstra's manuscript EWD804 (available here: http://www.cs.utexas.edu/users/EWD/ewd08xx/EWD804.PDF) is wrong.
+
+The proposition says: (P  R)  Q = P  (R  Q),
+
+which is trivially false when P=Q=R=FALSE, as:
+
+                 (P  R)  Q =  P  (R  Q)
+    (TRUE or FALSE) and FALSE = TRUE or (FALSE and FALSE)
+               TRUE and FALSE = TRUE or FALSE
+                        FALSE = TRUE
+
+Perhaps this error is a by-product of Dijkstra not wanting to use computers to check (or even type) his ideas.",6,0
+50,2016-12-6,2016,12,6,11,5gq7di,What are the top computer science conferences?,https://www.reddit.com/r/computerscience/comments/5gq7di/what_are_the_top_computer_science_conferences/,bigladooface,1480990275,,1,2
+51,2016-12-6,2016,12,6,12,5gqkwv,final exam,https://www.reddit.com/r/computerscience/comments/5gqkwv/final_exam/,chani09,1480994735,[removed],0,0
+52,2016-12-6,2016,12,6,12,5gqpyu,A radix-2 Fast Fourier Transform which requires zero auxiliary memory on x86.,https://www.reddit.com/r/computerscience/comments/5gqpyu/a_radix2_fast_fourier_transform_which_requires/,Kerdek,1480996499,"All additional data resides in registers. Consider this public domain; feel free to use and redistribute.
+
+    void fft2InPlace(complex *_c, unsigned int _n)
+    {
+    	__asm
+    	{
+    		mov ecx, _n
+    		lea eax, [ecx - 1]
+    		and eax, ecx
+    		cmp eax, 0
+    		jnz label_break
+    
+    		mov eax, _c
+    		mov edx, ecx
+    		shl edx, 4
+    		add edx, eax
+    		shl ecx, 3
+    		lea ebx, [edx + ecx - 16]
+    
+    		mov esi, eax
+    		lea edi, [esi + ecx]
+    
+    		fldpi
+    		shr ecx, 4
+    		mov [_n], ecx
+    		fild dword ptr[_n]
+    		shl ecx, 4
+    		fdivp ST(1), ST(0)
+    		fldz
+    		fldz
+    		fld1
+    
+    		label_for:
+    		
+    		fld qword ptr[esi + 8]
+    		fld ST(0)
+    		fld qword ptr[edi + 8]
+    		fadd ST(1), ST(0)
+    		fsubp ST(2), ST(0)
+    
+    		fstp qword ptr[esi + 8]
+    
+    		fld qword ptr[esi + 0]
+    		fld ST(0)
+    		fld qword ptr[edi + 0]
+    		fadd ST(1), ST(0)
+    		fsubp ST(2), ST(0)
+    
+    		fstp qword ptr[esi + 0]
+    
+    		fld ST(0)
+    		fmul ST(0), ST(3)
+    		fld ST(2)
+    		fmul ST(0), ST(5)
+    		fsubp ST(1), ST(0)
+    
+    		fstp qword ptr[edi + 0]
+    
+    		fld ST(0)
+    		fmul ST(0), ST(4)
+    		fld ST(2)
+    		fmul ST(0), ST(4)
+    		faddp ST(1), ST(0)
+    		
+    		fstp qword ptr[edi + 8]
+    
+    		fstp ST(0)
+    		fstp ST(0)
+    
+    		lea esi, [esi + ecx * 2]
+    		lea edi, [edi + ecx * 2]
+    			
+    		cmp esi, edx
+    		jb label_for
+    
+    		fstp ST(0)
+    		fstp ST(0)
+    		
+    		cmp esi, ebx
+    		je label_else0
+    
+    		sub esi, edx
+    		sub edi, edx
+    		lea esi, [esi + eax + 16]
+    		lea edi, [edi + eax + 16]
+    
+    		fadd ST(0), ST(1)
+    		fld ST(0)
+    		fsin
+    		fld ST(1)
+    		fcos
+    
+    		jmp label_for
+    
+    		label_else0:
+    		cmp ecx, 16
+    		je label_break
+    
+    		shr ecx, 1
+    		lea ebx, [edx + ecx - 16]
+    
+    		mov esi, eax
+    		lea edi, [esi + ecx]
+    
+    		fstp ST(0)
+    
+    		fld1
+    		fld1
+    		faddp ST(1), ST(0)
+    		fmulp ST(1), ST(0)
+    		fldz
+    		fldz
+    		fld1
+    			
+    		jmp label_for
+    
+    		label_break:
+    	}
+    }",0,3
+53,2016-12-6,2016,12,6,15,5gra1h,It is Device Friendly Website Called Responsive Design,https://www.reddit.com/r/computerscience/comments/5gra1h/it_is_device_friendly_website_called_responsive/,attractiveweb1,1481004053,,0,1
+54,2016-12-6,2016,12,6,15,5greu3,Now Computer Will Identify by Face that You are Criminal or Not,https://www.reddit.com/r/computerscience/comments/5greu3/now_computer_will_identify_by_face_that_you_are/,bssystemsolutions15,1481006053,,0,1
+55,2016-12-6,2016,12,6,16,5grk9z,Dell Laptop Service Center in Sikandarpur,https://www.reddit.com/r/computerscience/comments/5grk9z/dell_laptop_service_center_in_sikandarpur/,bssystemsolutions15,1481008589,,0,1
+56,2016-12-6,2016,12,6,17,5grqlb,Why Smartphones are not Round in Shape?,https://www.reddit.com/r/computerscience/comments/5grqlb/why_smartphones_are_not_round_in_shape/,mingleweave,1481011785,,0,1
+57,2016-12-6,2016,12,6,17,5grsvq,From BS in Computer Science to cashier,https://www.reddit.com/r/computerscience/comments/5grsvq/from_bs_in_computer_science_to_cashier/,[deleted],1481013033,[deleted],14,35
+58,2016-12-6,2016,12,6,18,5gry9x,"I asked from someone on reddit what things about computer science would be most important in a job, he said that his computer science minor only prepared him for some interview questions, saved a few weeks from learning and it's useless to take more courses than that. What do you think?",https://www.reddit.com/r/computerscience/comments/5gry9x/i_asked_from_someone_on_reddit_what_things_about/,[deleted],1481015980,[deleted],0,1
+59,2016-12-6,2016,12,6,21,5gsj8r,"Shazam! Reconocimiento de Algoritmos de Msica, Huellas Dactilares y Procesamiento",https://www.reddit.com/r/computerscience/comments/5gsj8r/shazam_reconocimiento_de_algoritmos_de_msica/,hip3rion,1481026725,,0,1
+60,2016-12-6,2016,12,6,22,5gsue5,What do I need to know about security for programmers and devs?,https://www.reddit.com/r/computerscience/comments/5gsue5/what_do_i_need_to_know_about_security_for/,AK_Code_Red,1481031076,"I have a presentation for a final and the subject is ""Security for programmers and developers"".  There are no instructions or clarifications except that it needs to be 10 minutes. 
+
+Does anyone have any starting information for me, or even better, some links I could read? I am also interested in your personal experiences with security in your career.  I know there are Secure Coding Standards, but I'm looking for irl tips and experiences.  Regurgitating CERT would bore my listeners to tears. It's also a mid-level course, so I don't need to get too technical. ",0,1
+61,2016-12-7,2016,12,7,0,5gtfna,Heterogeneous Computing,https://www.reddit.com/r/computerscience/comments/5gtfna/heterogeneous_computing/,SwitchhyUK,1481038140,"I've been doing some research on Heterogeneous Computing but I'm struggling to find what the Present State of this is. Can anyone give me some Information to point me in the right direction?
+
+Thanks :)",4,3
+62,2016-12-7,2016,12,7,1,5gtm8a,Can someone answer a few questions for me for a project I have?,https://www.reddit.com/r/computerscience/comments/5gtm8a/can_someone_answer_a_few_questions_for_me_for_a/,Matt080398,1481040068,"I was supposed to interview one of my professors after class today but he is absent and wont be able to before the next class. Computer science is what im currently in school for so thats what its about. If you can fill this out ill make the answer seem like my professor answered them. These are the questions but if you have any questions feel free to ask me. Thank you so much! (Ninja Edit, try not to make the ansers too short as this essay is 1000 words so i need a little bit of detail, thanks :)
+
+1. Whos this person youre interviewing? How do you know him/her?
+
+2. What job / career does this person have?
+
+3. How did they get to their career?
+
+4. What, if any, college education did they receive?
+
+5. How significant was college to getting their job?
+
+ 5a. Does this career require any education beyond a Bachelors degree?
+
+6. What are the 3 most important things to know or do while setting his/her career path
+ to this particular career?
+
+7. What are some important things to NOT do to achieve this career?
+
+8. What are the most common misconceptions to this career?
+
+9. What are things you wish other people told you about their career?
+
+10. Is this career in a field that is growing? Will it still be growing in 4 years? 
+",0,0
+63,2016-12-7,2016,12,7,1,5gtw4s,Top 6 Marketable Tech Skills,https://www.reddit.com/r/computerscience/comments/5gtw4s/top_6_marketable_tech_skills/,Ranasami,1481042748,,1,1
+64,2016-12-7,2016,12,7,1,5gtybz,5 Tips for Being a Productive Software Developer,https://www.reddit.com/r/computerscience/comments/5gtybz/5_tips_for_being_a_productive_software_developer/,Ranasami,1481043359,,0,1
+65,2016-12-7,2016,12,7,2,5gu89f,Spooky Sightings in Crystal Point to Extremely Rare Quantum Spin Liquid and to Promise of Quantum Materials,https://www.reddit.com/r/computerscience/comments/5gu89f/spooky_sightings_in_crystal_point_to_extremely/,benbrum,1481046098,,0,7
+66,2016-12-7,2016,12,7,2,5gu8gd,Taking CS vs math courses / choosing major if planning to go to graduate school to study theoretical computer science,https://www.reddit.com/r/computerscience/comments/5gu8gd/taking_cs_vs_math_courses_choosing_major_if/,BadAnimal43424,1481046151,"I apologize if this is more appropriate for /r/cscareers. But I don't see any posts like this there. 
+
+I am a third-year undergrad planning to pursue graduate study in theoretical computer science, primarily interested in complexity theory and computational learning theory. I've already taken the standard undergraduate analysis (two semesters of Baby Rudin), graduate analysis and probability (Royden and Durrett), algebra (groups, rings, fields, Galois theory), topology (Munkres), algorithms based on parts of CLRS/DPV/K&amp;T), and complexity (used Sipser's ToC and Arora &amp; Barak) courses. Now I am stuck between deciding between a CS major or a math major (can't do both because of double counting rules and heavy gen ed requirements). 
+
+I always hear that it is easy to learn CS on your own, but learning more math is hard, that math courses teach you how to think while CS courses just teach technical knowledge, that graduate schools ""prefer math math majors"" and so on. 
+
+I have many CS courses in conflict with math classes next semester since the departments do not coordinate course offerings. I have to decide on the major and choose four or so courses from the following:
+
+1. Differential topology (Guillemin &amp; Pollack)
+2. Representations of finite groups vs ""Advanced Algorithms"" (more a theorist's toolkit kind of class on hashing, convex optimization, spectral graph theory)
+3. Alg Top (Hatcher) vs Approximation Algorithms (Vazirani text) vs either of two classes on stochastic calculus and SPDEs
+4. Analytic number theory (Davinport) vs Information Theory and Communications Complexity and a class on on boolean function complexity (the latter being based mostly on Junka's two relevant books)
+5. Complex variables (usually taught out of Stein &amp; Sakari but this time taught using course notes)
+6. Fourier analysis (Stein &amp; Sakari) 
+7. Convex optimization (Rockefeller, Boyd &amp; Vandeberghe) 
+
+Any thoughts? I could also run all this by people I do research under. But I don't know that they want to be bothered with this.",1,3
+67,2016-12-7,2016,12,7,3,5gunn0,NYT API data to graph?,https://www.reddit.com/r/computerscience/comments/5gunn0/nyt_api_data_to_graph/,oanag11,1481050361,"Hi everyone,
+
+I'm looking to do a quantitative analysis of topic coverage in the NYT and found their article search API console, but I have no clue how to turn the data into a graph (simple line chart). I have zero CS experience, but could someone tell me what the simplest way to do with would be?
+Thanks!",0,2
+68,2016-12-7,2016,12,7,8,5gwbol,100% online BS Computer Science. Online graduates or current students.,https://www.reddit.com/r/computerscience/comments/5gwbol/100_online_bs_computer_science_online_graduates/,BriandaLindoro,1481066839,I need recommendations based on your personal experience. Which are good online schools for the bs computer science degree. Is the abet accreditation a must? How will it affect my career if I decide for a school that is only regionally accredited?,13,19
+69,2016-12-7,2016,12,7,14,5gy6fi,Dell Laptop Service Center in Vijay Nagar,https://www.reddit.com/r/computerscience/comments/5gy6fi/dell_laptop_service_center_in_vijay_nagar/,bssystemsolutions15,1481088774,,0,1
+70,2016-12-7,2016,12,7,15,5gycoe,Payment Gateway Integration Company | Secure Payment Gateway Integration-Attractive Web Solutions,https://www.reddit.com/r/computerscience/comments/5gycoe/payment_gateway_integration_company_secure/,attractiveweb1,1481091176,,0,1
+71,2016-12-7,2016,12,7,22,5gzv34,How to hack a website,https://www.reddit.com/r/computerscience/comments/5gzv34/how_to_hack_a_website/,[deleted],1481117262,[removed],1,0
+72,2016-12-8,2016,12,8,0,5h0dxm,Surveillance and Privacy Survey,https://www.reddit.com/r/computerscience/comments/5h0dxm/surveillance_and_privacy_survey/,GE2024Survey,1481123556,"Hi r/ComputerScience! I'm a CS major, and I am doing a survey for my college Research and Technology class, and it's about surveillance and privacy. The survey is located here: http://ku.co1.qualtrics.com/SE/?SID=SV_9tYzelmiAVh4CO1
+
+Also, if anyone knows of other subreddits that I could post this on, it would be greatly appreciated. I have already posted this on r/SampleSize, and I'm looking for more technical subreddits that allow surveys to be posted. Thanks!
+
+Mods: Please message me if there is an issue with my post. Thank you!",2,3
+73,2016-12-8,2016,12,8,0,5h0fe8,Guest Guard,https://www.reddit.com/r/computerscience/comments/5h0fe8/guest_guard/,Mawiya,1481123964,,0,1
+74,2016-12-8,2016,12,8,0,5h0mgy,I'm not sure what I'm giving up by switching my major,https://www.reddit.com/r/computerscience/comments/5h0mgy/im_not_sure_what_im_giving_up_by_switching_my/,Xradam,1481125997,"So yeah Calculus 1 is beating the shit out of me. I'm doing just fine with Khan Academy but the shit we're doing from the textbook is even more challenging. It makes me want to hate math even more. 
+
+As much as I want to take up to Calc 3 and Linear Algebra, I don't know if I *really* want to do that.
+
+We have an Informatics department so I can switch my major from Computer Science &amp; Applied Math to Computer Science with a Minor in Informatics.
+
+You are required to have a minor in our school. And after looking at some of the courses in Informatics:
+
+- Introduction to Data and Databases
+- Object Oriented Programming Principles and Practice
+- Software Engineering
+- Introduction to Web Technologies
+
+OOP and Software Engineering are from the CS department, but they intervene with the minor so I don't need to take any extra classes.
+
+Being in the applied math program means I have to take Calc 3, Linear Algebra, Differential Equations (optional as an elective), and a bunch of heavy math courses.
+
+I don't know what to do. I just want to become a software engineer/developer and program and code shit.
+
+
+I also enjoy working on HTML/CSS (Web Development) Basically anything that is programmable. I've coded in html/css and java before, and some python and yeah.",16,8
+75,2016-12-8,2016,12,8,1,5h0vdb,Can someone help define a treap and its benefits?,https://www.reddit.com/r/computerscience/comments/5h0vdb/can_someone_help_define_a_treap_and_its_benefits/,metajett,1481128439,"I know it is a randomized binary search tree. But what are its benefits, what does it help to do?",0,1
+76,2016-12-8,2016,12,8,1,5h0xq9,Is my depth first and breadth first search correct?,https://www.reddit.com/r/computerscience/comments/5h0xq9/is_my_depth_first_and_breadth_first_search_correct/,economicq,1481129083,"http://imgur.com/a/QSDO0                   
+BFS - ACEHFGBD                    
+DFS - AEGCBDFH",2,10
+77,2016-12-8,2016,12,8,1,5h1109,Is it bad my Comp Sci &amp; Applied Math program doesn't require me to take Physics?,https://www.reddit.com/r/computerscience/comments/5h1109/is_it_bad_my_comp_sci_applied_math_program_doesnt/,Xradam,1481129994,"So yeah I spoke to one of my advisors and we had a nice talk about Comp Sci. He did a really good job explaining everything and I think I'll stick with Applied Math and also add in an informatics minor.
+
+I asked if having zero physics background would limit me to a lot of stuff in the field and he said yes. My question is, how important is Physics Mechanics and Electromagnetism?",14,9
+78,2016-12-8,2016,12,8,11,5h4ab9,Is it OK to post CS related job opportunities here?,https://www.reddit.com/r/computerscience/comments/5h4ab9/is_it_ok_to_post_cs_related_job_opportunities_here/,nana423,1481163473,"If not, where shall I post them in this forum? Thanks!",5,6
+79,2016-12-8,2016,12,8,11,5h4g5e,Web IDE,https://www.reddit.com/r/computerscience/comments/5h4g5e/web_ide/,macproking,1481165360,"Hey everyone!
+
+Got a question for you Web Developers out there. What is the program you use and why? I am looking for something that allows me to have a live preview of what I am creating.
+
+I have uses Brackets, Sublime, and Dreamweaver (I had a free trial). I use brackets on a regular basis, but I am looking for something else.",12,4
+80,2016-12-8,2016,12,8,12,5h4rfc,HELP,https://www.reddit.com/r/computerscience/comments/5h4rfc/help/,Mjs96,1481169151,[removed],0,1
+81,2016-12-8,2016,12,8,18,5h63f4,Name for a Monte Carlo A.I. For Catan,https://www.reddit.com/r/computerscience/comments/5h63f4/name_for_a_monte_carlo_ai_for_catan/,SirFrenzy,1481190232,"Hey guys!  For an A.I. Class for my final project I am making a settlers of Catan A.I. that implements a Monte Carlo search tree to make logical decisions about the game. All of this is going great except for one thing. I can't think of a name for my A.I.! As we all know, any good A.I. needs just as good of a name. Take for instance Deep Blue. How lame would it be if we had to call Deep Blue ""that chess A.I. that beat that one guy that one time""?
+
+So please. Help a fellow programmer out. Anyone got a good name for me?",9,2
+82,2016-12-8,2016,12,8,19,5h6bcc,Dell Laptop Service Center in Noida Sector 62,https://www.reddit.com/r/computerscience/comments/5h6bcc/dell_laptop_service_center_in_noida_sector_62/,bssystemsolutions15,1481194418,,0,1
+83,2016-12-8,2016,12,8,20,5h6jc6,Tricks Eliminate The Negative Energy and Make You Feel Refreshed and Good,https://www.reddit.com/r/computerscience/comments/5h6jc6/tricks_eliminate_the_negative_energy_and_make_you/,mingleweave,1481198334,,0,1
+84,2016-12-8,2016,12,8,23,5h77j7,camtasia studio 8 part 1 Urdu &amp;amp; hindi Tutorials,https://www.reddit.com/r/computerscience/comments/5h77j7/camtasia_studio_8_part_1_urdu_amp_hindi_tutorials/,Mohammad_moiz123,1481207622,,0,0
+85,2016-12-9,2016,12,9,5,5h99dh,HDMI Types?,https://www.reddit.com/r/computerscience/comments/5h99dh/hdmi_types/,TuneablePear,1481228466,"I've been researching different cables that can output 1080P resolution @ 144hz. 
+
+I've heard DVI-D dual link can. 
+
+I've heard display port can. 
+
+But when it comes to HDMI, I've heard only 2.0 can, I've heard 1.4a and above can, I've heard 1.3 and above can, and I'm completely lost. Does anyone have any hard evidence that shows what HDMI type supports 144hz? Something besides personal set ups, I mean indisputable evidence? Because every time I think I find an answer there's another one contradicting it, and it's gotten pretty tiring. 
+Thanks in advance for any help!",3,0
+86,2016-12-9,2016,12,9,7,5h9zrv,I need advice reguarding majoring in computer science,https://www.reddit.com/r/computerscience/comments/5h9zrv/i_need_advice_reguarding_majoring_in_computer/,myopinioninnit,1481235827,"Hello, guys so I've been thinking about whether majoring in computer science would be the right choice for me. Here's my story. My whole high school year I was worrying more about my depression than anything else, college was not on my mind and honestly I didn't even know if i would be alive to go to college. I just did the work but did not focus on what I wanted to do in my life. My school was also a pretty shitty school, education wise. We didn't even have computer science classes,  so I never really thought about computer science at all until I entered college and was looking for majors that interested me.  Fall Freshman year I decided to play it safe and take graduation requirements and then when the spring came I was going to take a computer science class but then it was full! (I go to a pretty small college).  Now fast forward to my sophomore year I finally decided to take computer science and I would say I enjoy it, I think it's fun. But I basically  need assistance for everything I learn in class, I get a tutor to help me on my homework and even after that I am still confused. I also do horrible on exams (78 and then 63). I cant even code on my own( I dont practice but dont even know where to start). The fact that I struggle so much makes me wonder if I should even continue or not. I am also now taking precalculus (thanks to my shitty high school that was the last math I took) so now im feeling behind.  Can someone give me some advice? Should I keep on pushing? Advice on how to get better?  It can be harsh or not I'll take whatever, as long as its helpful. THANKS!",23,7
+87,2016-12-9,2016,12,9,10,5hayfl,Differences in Concentrations,https://www.reddit.com/r/computerscience/comments/5hayfl/differences_in_concentrations/,ImagineFrags,1481246708,"As a senior in high school, I have narrowed down my search for a fitting major, which includes Computer Science. If I were to go down that road, I am met with deciding what concentration I should go with. That's when I came here to ask for a brief definition of one (or all) of the concentrations listed below. 
+
+* Software Development
+* Data Science &amp; Analytics
+* Computer Science &amp; Second Discipline
+* Cloud Computing &amp; Networking
+
+Anything is much appreciated,
+Thanks!",2,6
+88,2016-12-9,2016,12,9,14,5hc1pf,Need Guidance: Please help,https://www.reddit.com/r/computerscience/comments/5hc1pf/need_guidance_please_help/,Aviontics,1481260853,"This may be an odd question however I don't know where to turn at this point. I am a 25 year old female with 2 sons. Both my husband and I were in the military (and we are now out of the military). He is a computer science student and he loves it. I am a marketing student however I just don't feel like I belong in that field. On top of that, as I said we have 2 children and we just got out of the military. This is kind of a time sensitive situation and I need to figure this out asap. He has talked to me about possibly taking a CS degree into consideration. I have always struggled in math. I have taken 2 college maths (advanced algebra, and statistics 1) and I got B's in both of them. However it was very difficult for me.
+
+From what I have learned from my husband, CS seems like it would be a real fit for my personality.... however math. I am nervous because I am not sure if I am capable of completing a CS degree. My husband will never tell me his actual opinion so I am turning to reddit. 
+
+Being someone who struggles with math... is a CS degree logical?",2,1
+89,2016-12-9,2016,12,9,15,5hc7a0,Need Guidance Please Help,https://www.reddit.com/r/computerscience/comments/5hc7a0/need_guidance_please_help/,Aviontics,1481263207,"This may be an odd question however I don't know where to turn at this point. I am a 25 year old female with 2 sons. Both my husband and I were in the military (and we are now out of the military). He is a computer science student and he loves it. I am a marketing student however I just don't feel like I belong in that field. On top of that, as I said we have 2 children and we just got out of the military. This is kind of a time sensitive situation and I need to figure this out asap. He has talked to me about possibly taking a CS degree into consideration. I have always struggled in math. I have taken 2 college maths (advanced algebra, and statistics 1) and I got B's in both of them. However it was very difficult for me.
+From what I have learned from my husband, CS seems like it would be a real fit for my personality.... however math. I am nervous because I am not sure if I am capable of completing a CS degree. My husband will never tell me his actual opinion so I am turning to reddit.
+Being someone who struggles with math... is a CS degree logical?",4,0
+90,2016-12-9,2016,12,9,16,5hciun,How To Secure Word Press Websites | Web Designing &amp;amp; Development Company,https://www.reddit.com/r/computerscience/comments/5hciun/how_to_secure_word_press_websites_web_designing/,attractiveweb1,1481268514,,0,1
+91,2016-12-9,2016,12,9,17,5hcngj,Real Estate Portal Development | Portal Designing Company,https://www.reddit.com/r/computerscience/comments/5hcngj/real_estate_portal_development_portal_designing/,attractiveweb1,1481270803,,0,1
+92,2016-12-9,2016,12,9,19,5hd3oq,Dell Laptop Service Center in Pitampura,https://www.reddit.com/r/computerscience/comments/5hd3oq/dell_laptop_service_center_in_pitampura/,bssystemsolutions15,1481279646,,0,1
+93,2016-12-9,2016,12,9,23,5hdvr1,Pursuing Master's in MIS or Business,https://www.reddit.com/r/computerscience/comments/5hdvr1/pursuing_masters_in_mis_or_business/,iputfuinfun,1481292004,"Hi everyone,
+
+**Some questions:**
+Has anyone got their MBA or a Master's in MIS with a bachelor's in CS? 
+How has it affected your career? 
+Was it worth the time and money? 
+Was it online? 
+Looking for general advice if a graduate degree would benefit me.
+
+**Some background:**
+I got my bachelor's in Computer Science about a year and a half ago and have acquired 3 years of full-time work experience (my university required we do 3 - 6 month, full time, internships). All of my work experience has been with Financial companies. 
+
+From reading some of the other threads, I don't think a master's in CS is for me. I am not looking to get into academia or do research. A lot of my co-workers say a master's really isn't required and you will learn everything on the job (which I have found to be true so far). One of my future goals is to become a manager of a development team and don't want my lack of a graduate degree to close any doors.
+
+So back to my question, would it make sense/be beneficial to pursue a Master's in MIS or MBA (or some related field)?",4,5
+94,2016-12-10,2016,12,10,0,5hef8f,Computer Science degree for Network Administration?,https://www.reddit.com/r/computerscience/comments/5hef8f/computer_science_degree_for_network_administration/,MrReey,1481298267,"I'd like to focus my studies on the area of networking. Considering the different programs, certificates, online schools and so on, is it necessary? I'd hate to take a longer, more expensive route to get where I want to be. Thanks in advance ",8,8
+95,2016-12-10,2016,12,10,2,5hf437,Variables in Java,https://www.reddit.com/r/computerscience/comments/5hf437/variables_in_java/,Tpravinbreddy,1481305212,,0,1
+96,2016-12-10,2016,12,10,6,5hgm6h,"Every day, a new cyberattack impacts infrastructure systems, steals headlines, and harms American interests. Its time for the Cybersecurity Community to Rally Behind Americas chief information security officer (CISO) Brigadier General (Retired) Gregory J. Touhill.",https://www.reddit.com/r/computerscience/comments/5hgm6h/every_day_a_new_cyberattack_impacts/,_CastBound,1481320770,,0,1
+97,2016-12-10,2016,12,10,17,5hj6h1,I need some advice,https://www.reddit.com/r/computerscience/comments/5hj6h1/i_need_some_advice/,yellowjacket1740,1481357198,"So some backstory- I'm a sophomore in college majoring in software engineering and just completed my semester and did awful. I think my overall GPA is going to be around a 2.5. I love coding and working with computers. I have only taken two Java classes as my real major classes so far and have made Cs in them, 78.4 in Java 2 this semester. Anyways, my biggest question is will I be able to get a job with this bad GPA or should I look at switching majors? I know I can pull it up but it's only going to get harder for me from here on out. I was just going to ask around and get some opinions, I'm honestly not sure what to do right now. 
+
+Sorry for any grammar mistakes, English is not my strong subject. Thanks for any replies in advance, any advice is welcome!",10,7
+98,2016-12-11,2016,12,11,10,5hnooa,Writting a clock programatically based on a datetime seed,https://www.reddit.com/r/computerscience/comments/5hnooa/writting_a_clock_programatically_based_on_a/,0xploit,1481420658,"I need to write a custom clock based on a user input `datetime` seed.
+
+    datetime.datetime(2016, 12, 10, 23, 6, 9, 151141)
+
+From this seed, I will start counting the milliseconds/seconds/hours manually. I cannot depend on the system's date nor through any NTP server, due to the security off the application (the attacker could change the system date or turn of the network, so I cannot query the date).
+
+This application will be running 24/7 on a Unix based system, so I would need to keep some variables as counters, but I am afraid that after a few weeks running, it might overflow.
+
+Is there any other alternative for this issue?
+",3,6
+99,2016-12-12,2016,12,12,2,5hr0nx,Ph. D vs. Master's in CS,https://www.reddit.com/r/computerscience/comments/5hr0nx/ph_d_vs_masters_in_cs/,chooseuniqueusernam,1481475897,"I'm a junior CS who's just been accepted into the Master's program at his respective school. It should be noted that I don't intend to stay in academia and that I would love to go into the study of artificial intelligence once I've left school. With that being said, would it be best to pursue a Ph. D in the subject or stay with a master's? I feel like if considered a research and development position at a company it would be best to have a Ph. D but many people I know in the industry only have their Masters. ",14,15
+100,2016-12-12,2016,12,12,3,5hrlug,Question about Greg Egan's Permutation City [spoilers],https://www.reddit.com/r/computerscience/comments/5hrlug/question_about_greg_egans_permutation_city/,octatoan,1481482089,"[Spoiler: ""Non-specialist talking about Turing machines"" alert.]
+
+Doesn't the ability of the pseudo-insect Autoverse creatures to judge the validity of a hypothesis lend itself to the ability to decide whether a Turing machine halts?
+
+You could very well describe a dance that says ""Such-and-such Turing machine halts in a finite number of steps."", and the rest of the swarm would then be able to evaluate whether or not that is true. Or will the fact that the dances apparently need to ""contain a proof"" (which isn't true, they just need to say something sensible, as shown by the existence of the field equations at the end) torpedo this scheme?",0,2
+101,2016-12-12,2016,12,12,5,5hs8f2,"A bit of a different question..Im a computer science teacher, trying to engage kids using ACTUAL coding, help!",https://www.reddit.com/r/computerscience/comments/5hs8f2/a_bit_of_a_different_questionim_a_computer/,thanksfortheride,1481488646,"Background: CS / engineering teacher. Degrees in engineering masters in education.
+
+So theres this big push for CS in schools these days, problem is 99.9% of teachers cant code or understand the first thing about CS. There version of computer science is using drag and drop programming blocks / scratch / hour of code. 
+
+I have a handle on python, i dont claim to be like a god at it, but i want to bring this into my class to teach 5th grade.
+
+Now I dont fall into the myth that CS is this impossible thing, for the basics anyway. If i can get a child to understand how to define a variable, how to recall it, what proper syntax is, how to modify REAL code and produce even the simplest of algorithms i would be at peace.
+
+Currently i do an online program for python and i supplement with a robot that can be programmed using python. However it IS tough for the kids, and i push them, CS is only going to be a bigger part of their lives than it is for ours right now.
+
+Does anyone have any tips of TEACHING CS, making it ""fun"" and enaging. And also, how do you feel about teachers who teach CS that just do hour of code type things / drag and drop programming. (I like platforms like scratch, and people claim the students learn logic using it, but im not sure from what i have seen they are going to pick up to much maybe im wrong or biased.)",9,5
+102,2016-12-12,2016,12,12,7,5hst6p,Question: Best resources to learn computer science,https://www.reddit.com/r/computerscience/comments/5hst6p/question_best_resources_to_learn_computer_science/,Main-mommy,1481494797,I plan on getting my Bachelors degree in computer science but I know nothing about computer science and would like to have some if not alot of knowledge before I actually start my degree. So what are some reliable resources I should use and are there specific topics I should focus on?,7,4
+103,2016-12-12,2016,12,12,12,5huh68,Christmas ideas for a CS major,https://www.reddit.com/r/computerscience/comments/5huh68/christmas_ideas_for_a_cs_major/,dandaman147,1481514755,"Hey /r/computerscience. I was hoping you could help me find a good gift for my little brother for Christmas. He is halfway through his third year and is really enjoying his coursework and projects. I had hoped to get him something related to this field that would help him grow and develop.
+
+We already have micro-controllers, servos, things like that. I was hoping more for something that is theory-based like a good book or some sort of tool that will help him develop his skills.
+
+To try to give you a better idea, i can give you some examples which are more related to my field of study as an electrical engineering major. There is a book called [The Art of Electronics](https://smile.amazon.com/Art-Electronics-Paul-Horowitz/dp/0521809266/ref=pd_sbs_14_t_0?_encoding=UTF8&amp;psc=1&amp;refRID=R86Q5Q7EJ08NX5PNJH7A) that has a corresponding hands-on lab course which is highly regarded among many professional engineers. If there is something analogous to that, I think that would be ideal. 
+
+As far as an important tool (like an oscilloscope would be for me), he already has a great computer for programming. Is there any other piece of hardware that would really benefit him? What about a licensed piece of software that would be beneficial?
+
+What are some things that you as CS majors would love to get as a gift this Christmas?",9,10
+104,2016-12-13,2016,12,13,4,5hykyj,"Wrote a script that would add album art, album name, artist, lyrics,etc to all mp3 files.",https://www.reddit.com/r/computerscience/comments/5hykyj/wrote_a_script_that_would_add_album_art_album/,Inetenbr,1481570393,,1,58
+105,2016-12-13,2016,12,13,4,5hyold,Search Engine Optimization Specialist &amp; Expert Companies,https://www.reddit.com/r/computerscience/comments/5hyold/search_engine_optimization_specialist_expert/,kylethomas01,1481571349,,0,1
+106,2016-12-13,2016,12,13,6,5hzazs,Coursera course - Machine Learning,https://www.reddit.com/r/computerscience/comments/5hzazs/coursera_course_machine_learning/,90059bethezip,1481577410,"Just letting anyone know that's interesred that the Machine Learning Course for Coursera starts today! If you're interested in machine learning and want to learn it for free, just visit coursera.org to get started. ",0,8
+107,2016-12-13,2016,12,13,7,5hzopm,[HIGH PAY $$$] Basic 101 HTML/Python/SQL project help,https://www.reddit.com/r/computerscience/comments/5hzopm/high_pay_basic_101_htmlpythonsql_project_help/,whosjson,1481581137,[removed],0,0
+108,2016-12-13,2016,12,13,8,5i02z1,"Jerry Davis, CIO, NASA Ames Research Center gives his thoughts on the value ICIT brings to Critical Infrastructure cybersecurity.",https://www.reddit.com/r/computerscience/comments/5i02z1/jerry_davis_cio_nasa_ames_research_center_gives/,Manic_Psycho1,1481585317,,0,1
+109,2016-12-13,2016,12,13,9,5i0avx,help with programming code,https://www.reddit.com/r/computerscience/comments/5i0avx/help_with_programming_code/,[deleted],1481587788,"I HAVE THE CODE WRITTEN BUT IS MISSING THE generic list called numbers AND generic method called duplicateElements I NEED TO KNOW WHERE TO ADD THOSE DETAILS AS A COMMENT BLOCK ON ECLIPSE PROGRAM. I'LL PROVIDE MY CODE AT THE END OF THE INSTRUCTIONS
+
+
+Exercise B:
+At this point package final1410 should include a file called MyFile.txt
+If you missed that step go to package explorer and add the file now.
+So far no text has been added to the file. This needs to be done now.
+
+Add the following three numbers to the file - each number in a separate line
+2.345
+
+6.4
+
+8.7654321
+
+Create a generic list called numbers and read in all the numbers from MyFile.txt
+At this point MyFile.txt includes 3 numbers. However, there could be more or less. If added or removed numbers from MyFile.txt your program should still read in all the numbers available in the file.
+When reading numbers from the file you need to be prepared that a checked exception could occur.
+In this exercise checked exceptions should be caught and in such situations the stack trace should be printed.
+
+Print the list
+Each element should be rounded to 2 digits after the decimal point and the elements should be separated by a space (see output)
+Make sure to include a label.
+
+Create a generic method called duplicateElements
+It has one parameter, which is a generic List, and it returns a generic list.
+The list that is returned should include each element of the original list twice (see example)
+e.g. If the original list included 2.345, 6.4, and 8.7654321 then the modified list should include 2.345, 2.345, 6.4, 6.4, 8.7654321, and 8.7654321
+Notice the order of the list elements
+Also, notice that the list elements are not rounded; only the output is rounded.
+In the main method call duplicateElements in order to duplicate the elements of list numbers
+Print the list that was returned by the method duplicateElements
+
+Make your output look like the output provided
+
+Sample Output:
+
+list : 2.35 6.40 8.77
+double list: 2.35 2.34 6.40 6.40 8.77 8.77
+
+
+********************************************
+CODE  WRITTEN
+
+package final1410;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Exercise2 {
+	private static Scanner scan;
+
+	public static void main(String[] args) throws IOException {
+	   
+	   
+      
+	   float inputlist[]= new float[3];  
+       float outputlist[]= new float[6]; 
+     
+       File file = new File(""MyFile.txt"");
+       
+    	try {
+    		scan = new Scanner(file);
+    		int i=0,j=0;
+        while(scan.hasNextFloat())
+        {
+           inputlist[i]=scan.nextFloat();
+           outputlist[j]=inputlist[i];
+           j++;
+           outputlist[j]=inputlist[i];
+           j++;
+           i++;
+          
+        }
+       System.out.print(""List :		"");
+       for(i=0;i&lt;inputlist.length;i++)
+       {
+           System.out.printf(""%.2f   "",inputlist[i]);
+       }
+       System.out.print(""\ndouble List :	"");
+       for(i=0;i&lt;outputlist.length;i++)
+       {
+           System.out.printf(""%.2f   "",outputlist[i]);
+       
+       }
+    	}
+
+       catch (FileNotFoundException e)
+	    {
+	    	e.printStackTrace();
+	    }
+   
+   }
+}",5,0
+110,2016-12-13,2016,12,13,9,5i0fp1,Question about obtaining a bachelor's degree online...,https://www.reddit.com/r/computerscience/comments/5i0fp1/question_about_obtaining_a_bachelors_degree_online/,skasucks93,1481589251,"Hey, I'd like to get my bachelor's degree in computer science from a reputable school that offers an online program that's under 6,000 a semester.
+Does anybody have any recommendations?
+I applied to central methodist university http://www.centralmethodist.edu/academics/computer-science/index.php
+but am sort of worried that I'd be wasting my money and time getting a degree from such a small school. Does anybody have any advice for me?
+",1,2
+111,2016-12-13,2016,12,13,11,5i0y8c,Getting B.S. in C.S. 2.0,https://www.reddit.com/r/computerscience/comments/5i0y8c/getting_bs_in_cs_20/,RafazZ,1481595315,"A year ago I made a [list of MOOCs](https://www.reddit.com/r/computerscience/comments/32nn24/if_you_are_patient_enough_you_can_get_a_bs_in_cs/) structured so you could progress through them as you would in college. The problem was that some of the links went dead, some links had limited credibility, and overall the structure was a little weak to sell.
+
+This time, I decided to go through MIT OCW courses, and make a list that points to MIT website (mostly):
+I present to you: [Getting B.S. in C.S. 2.0 : MIT Edition](http://zafar.cc/getting-bs-in-cs-2-dot-0/)
+
+I would appreciate critique and suggestions!",0,3
+112,2016-12-13,2016,12,13,11,5i13tb,"If you were majoring in CS, what gifts would you like to receive?",https://www.reddit.com/r/computerscience/comments/5i13tb/if_you_were_majoring_in_cs_what_gifts_would_you/,DancingSax,1481597279,My boyfriend is a CS major and I want to buy him something he can use sitting at a computer all day. Or anything related that you would like. ,19,6
+113,2016-12-13,2016,12,13,13,5i1gtl,Is AP Comp Sci anything like the actual Comp Sci major?,https://www.reddit.com/r/computerscience/comments/5i1gtl/is_ap_comp_sci_anything_like_the_actual_comp_sci/,star_slayerr,1481601757,"Hello, I'm a junior.
+I'm taking APCS this year, and i am beginning to loathe coding. My brain logic doesn't work with this java logic and it confuses me at times. I am not very good at anything else so I'm leaning towards taking APCS but I am unsure since I don't really like coding. Will programming always be part of CS? Are there other things in CS that I could do? I'm not a super strong math person, but I'm creative and willing to work hard. (My GPA is not the best mind you, so I won't be going to any top tier schools. So I won't have any fancy school programs)",15,5
+114,2016-12-13,2016,12,13,14,5i1z7k,PowerPoint 2013 Tutorials - Insert Picture from the Office ClipArt Collection,https://www.reddit.com/r/computerscience/comments/5i1z7k/powerpoint_2013_tutorials_insert_picture_from_the/,navaneeth66,1481608584,,0,1
+115,2016-12-13,2016,12,13,15,5i229h,"6000+ PowerPoint Templates, Themes, Backgrounds",https://www.reddit.com/r/computerscience/comments/5i229h/6000_powerpoint_templates_themes_backgrounds/,navaneeth66,1481609848,,0,1
+116,2016-12-13,2016,12,13,16,5i29ym,OK. Its finals and I'm stressing out. Can y'all help me with something?,https://www.reddit.com/r/computerscience/comments/5i29ym/ok_its_finals_and_im_stressing_out_can_yall_help/,[deleted],1481613414,[deleted],1,0
+117,2016-12-13,2016,12,13,19,5i2v71,Resources to read up on kernals,https://www.reddit.com/r/computerscience/comments/5i2v71/resources_to_read_up_on_kernals/,naaattthh,1481624212,"Hey all,
+
+Can anybody point me in the right direction (aside from the official documentation on the official websites) in finding resources to learn about Windows and Linux kernels?
+
+I'm also interested in the kernels used in smartphones not just computers.
+
+Any recommended reading or useful places to check out would be great. 
+
+Thanks in advance!",1,1
+118,2016-12-14,2016,12,14,0,5i48pg,H-E-L-P pc dont turn on,https://www.reddit.com/r/computerscience/comments/5i48pg/help_pc_dont_turn_on/,srdan13,1481643758,[removed],3,0
+119,2016-12-14,2016,12,14,1,5i4ejs,I need help in this problem :-,https://www.reddit.com/r/computerscience/comments/5i4ejs/i_need_help_in_this_problem/,HounerX,1481645431,[removed],5,0
+120,2016-12-14,2016,12,14,3,5i54rp,"Can you program your mind to always go to a world where you created the limit, Time frame, the basics like physics ?",https://www.reddit.com/r/computerscience/comments/5i54rp/can_you_program_your_mind_to_always_go_to_a_world/,Royalix9,1481652806,"Can you program your mind to always go to a world where you created the limit, Time frame, the basics like physics ?",1,0
+121,2016-12-14,2016,12,14,4,5i5okq,intro ai forward/backward chaining question,https://www.reddit.com/r/computerscience/comments/5i5okq/intro_ai_forwardbackward_chaining_question/,ai_learnin,1481658161,"I'm taking an into AI CS course.  Tomorrow's my exam, and so in reviewing my notes i'm getting stuck on this problem that the teacher has yet to grade and get back to us.  I was wondering if anyone could clarify for me?
+
+http://imgur.com/gallery/hA1Hh
+
+**Question 1:**  How do you ""keep creating facts""? I understand going through like a normal logic gate, I realize that radiation will leak after the second condition, but i'm stumped if there is any iterative process?
+
+**Question 2:** I just started at the bottom, and worked ""backwards"" (upwards) on the list of logic.  I got to the second condition again and realized radiation would leak.  Seems to easy...
+
+
+",0,3
+122,2016-12-14,2016,12,14,7,5i6liz,"My school offers a BA and a BS in computer science. I'm currently in the BS degree however I am considering changing to the BA degree, what are the implications post graduation?",https://www.reddit.com/r/computerscience/comments/5i6liz/my_school_offers_a_ba_and_a_bs_in_computer/,[deleted],1481667168,"My school offers a BA and a BS in computer science. I'm currently in the BS degree however I am considering changing to the BA degree, what are the implications post graduation?
+
+The BA degree requires less math and requires a minor, which I'm not sure what it would be yet. 
+
+Edit: Thanks guys this was helpful. I'm going to stick with the BS, I'm starting to like math. I also don't want to take a slightly easier path that I might regret later just to not take 3 extra math classes. I'd rather just take them, learn, and move on. ",9,2
+123,2016-12-14,2016,12,14,9,5i7dnx,Identity and Access Management (IAM) solutions are an essential cornerstone of any cyber-hygiene,https://www.reddit.com/r/computerscience/comments/5i7dnx/identity_and_access_management_iam_solutions_are/,_Oblivion_boss,1481675482,,0,1
+124,2016-12-14,2016,12,14,10,5i7o0g,social science for AI Machine Learning study,https://www.reddit.com/r/computerscience/comments/5i7o0g/social_science_for_ai_machine_learning_study/,MayanTabz,1481678881,"Hello /r/ComputerScience!
+
+I am currently pursuing a degree in Computer Science and I want to eventually study AI/Machine Learning. I am wondering if psychology courses would be beneficial in this field. I was thinking of taking Educational Psychology next semester then Statistics for Behavioral Sciences the following to satisfy a couple Social Science electives, but I would like some input from someone who has more experience. Any advice would be great!",1,6
+125,2016-12-14,2016,12,14,10,5i7tbp,Has anyone ever given an online coding interview?,https://www.reddit.com/r/computerscience/comments/5i7tbp/has_anyone_ever_given_an_online_coding_interview/,throwawayc0l,1481680591,"Anyone given an online coding interview, what is the best way one can prepare in a short time? ",5,5
+126,2016-12-14,2016,12,14,17,5i9fya,Convince me to continue pursuing Computer Science,https://www.reddit.com/r/computerscience/comments/5i9fya/convince_me_to_continue_pursuing_computer_science/,[deleted],1481702947,[deleted],2,0
+127,2016-12-14,2016,12,14,20,5ia09h,"Learning OOP, where to start?",https://www.reddit.com/r/computerscience/comments/5ia09h/learning_oop_where_to_start/,GamlinGames,1481713390,"As the title suggests, I want to dive into the world of object orientated programming and learn a language or two; but I need your help.. Do you have any suggestions where I should start and if there are any links that could help me!
+
+If this means anything, I know Python, PHP and MYSQL. 
+
+Thanks in advanced! :)",5,2
+128,2016-12-14,2016,12,14,23,5iaw1k,EUCCOBOL,https://www.reddit.com/r/computerscience/comments/5iaw1k/euccobol/,wtar00,1481726291,,0,1
+129,2016-12-15,2016,12,15,0,5ib8pv,"Currently in a PM role in Global Technology for Finance company, however not very technical. Does anyone have Suggestions on what subjects to begin diving into? I do well when I understand foundation first however I have not been able to find an overall IT course for beginner? TIA Reddit",https://www.reddit.com/r/computerscience/comments/5ib8pv/currently_in_a_pm_role_in_global_technology_for/,hepayne,1481730187,,2,1
+130,2016-12-15,2016,12,15,1,5ibcmg,How does this app work?,https://www.reddit.com/r/computerscience/comments/5ibcmg/how_does_this_app_work/,chlekkr,1481731352,"http://radio.garden/live/
+
+I'm guessing it has access to all radio stations and simply streams from the station's website? And add the ""tuning noise"" synthetically when you're moving across the map? Any thoughts?",1,0
+131,2016-12-15,2016,12,15,1,5ibk5z,How To Get Started With CS As A Second Career ?,https://www.reddit.com/r/computerscience/comments/5ibk5z/how_to_get_started_with_cs_as_a_second_career/,CombTheDessert,1481733470,"Hi,
+
+Can anyone offer me advice on how to get started in computer science? My goal is that at the end of a few years - I can use computer science to either be better at my current job (see below) and/or move into a more CS focused role.
+
+I'm about 10 years into a career where I have done sales, marketing and now manage national products. I have always been interested in coding/programming/ technology. I have a bachelor's in English (I know) with a minor in Business.
+
+I've done HTML/JavaScript/CSS coding academy modules and started the ""Viking Coding Project"", but it's going to just take me too long to do on my own. SO - I'd like to do a formal program on this (like with a university) and it looks like the company I work for my pay for this - which is why I'm trying to learn more about it at the moment.
+
+Right now , I work with a lot of statisticians and Data Science is a potential goal for me. I'm really not sure where to start, so any guidance (or resources) you can provide is appreciated.
+
+Thank you!",8,14
+132,2016-12-15,2016,12,15,1,5ibld7,Sophomore in CS and striving to be a Network Engineer. What can I do to prepare?,https://www.reddit.com/r/computerscience/comments/5ibld7/sophomore_in_cs_and_striving_to_be_a_network/,momshotdad,1481733808,title,2,0
+133,2016-12-15,2016,12,15,2,5ibykd,Currently working 9-5 as web developer... any good ideas for side projects/ways to make money on the side?,https://www.reddit.com/r/computerscience/comments/5ibykd/currently_working_95_as_web_developer_any_good/,gypsyG,1481737398,"I feel like I generally falling behind the technology curve and am looking for resources to stay on top of things, as well as ideas for side projects",4,15
+134,2016-12-15,2016,12,15,8,5idz2k,Help with writing python 2 program,https://www.reddit.com/r/computerscience/comments/5idz2k/help_with_writing_python_2_program/,[deleted],1481757616,[deleted],0,1
+135,2016-12-15,2016,12,15,9,5ie776,Help with writing python 2 program,https://www.reddit.com/r/computerscience/comments/5ie776/help_with_writing_python_2_program/,SilenceIsViolent,1481760201,,6,0
+136,2016-12-15,2016,12,15,15,5ig2dz,Question: how to work with developers,https://www.reddit.com/r/computerscience/comments/5ig2dz/question_how_to_work_with_developers/,mpolec,1481784045,"Hi! I came up with this idea for a web application last year and have teamed up with two developers to create a prototype over the next couple of months. I am the team lead with business experience (and no tech experience) and my two partners/developers are handling the tech-side.
+
+This is my first time working with developers and I wanted to reach out to this community to ask how I, as a non-tech guy, can best lead this team that the three of us are on. I want to ensure that I don't micromanage or communicate things incorrectly. I also want to foster a sense of mutual learning where I can teach them some of the business-side while they teach me some of the tech-side. Any advice from someone who has been in this specific scenario or from a developer who has worked with a non-tech team lead that they liked?
+
+Thank you in advance for the help!",3,0
+137,2016-12-15,2016,12,15,15,5ig43p,Which of these courses do you think would help me more in the future?,https://www.reddit.com/r/computerscience/comments/5ig43p/which_of_these_courses_do_you_think_would_help_me/,RedShadoww,1481784712,"[Courses here](https://i.imgur.com/Q5QdMWb.png)
+
+",4,2
+138,2016-12-15,2016,12,15,23,5iht07,Recover data from formatted seagate USB 3.0 Portable Hard Drive,https://www.reddit.com/r/computerscience/comments/5iht07/recover_data_from_formatted_seagate_usb_30/,mitusoft,1481812355,,0,1
+139,2016-12-15,2016,12,15,23,5ihwp7,SOBRE TECNOLOGIA DA INFORMAO E COMUNICAO,https://www.reddit.com/r/computerscience/comments/5ihwp7/sobre_tecnologia_da_informao_e_comunicao/,wyorgb,1481813567,[removed],0,0
+140,2016-12-16,2016,12,16,1,5iik19,[HIRING] Find me a summer CS internship and I will give you 20% of my first month's salary.,https://www.reddit.com/r/computerscience/comments/5iik19/hiring_find_me_a_summer_cs_internship_and_i_will/,throwawayshmoaway124,1481820513,[removed],0,0
+141,2016-12-16,2016,12,16,4,5ijje1,Bioinformatics preparation materials?,https://www.reddit.com/r/computerscience/comments/5ijje1/bioinformatics_preparation_materials/,pengusdangus,1481830301,"I'm taking a graduate level Bioinformatics course next semester, and I was wondering if there was any courses or materials that I could see for free online to help prepare. Thanks!",2,3
+142,2016-12-16,2016,12,16,5,5ijygp,A script to download Music with album art and metadata.,https://www.reddit.com/r/computerscience/comments/5ijygp/a_script_to_download_music_with_album_art_and/,Inetenbr,1481834552,,4,18
+143,2016-12-16,2016,12,16,5,5ik1ip,Computer Science Dissertation Help.,https://www.reddit.com/r/computerscience/comments/5ik1ip/computer_science_dissertation_help/,SwordFish27,1481835394,"Basically posting in here because I literately have no idea what to do. I've just finished my 1st semester in 3rd year, it went well. I was suppose to have an idea/question for my dissertation sorted by now but I simply have hit every wall known to man.
+
+Basically my interests lay in the world of smart homes, security, multimedia, new/emerging technologies
+
+By the start of semester 2 I'm suppose to have my idea/question and a literature review to stay on track. My problem is that I have no idea what to do for my dissertation. The project should be something that requires research, investigation and application of computer science skills to solve a real world problem.
+
+Any form of help would be excellent and appreciated, I'm not looking for someone to tell me what to do but to point me in the right direction.
+
+Cheers!",7,0
+144,2016-12-16,2016,12,16,6,5ik7we,How to with Logic Apps and Azure API,https://www.reddit.com/r/computerscience/comments/5ik7we/how_to_with_logic_apps_and_azure_api/,jpastorini,1481837193,,0,1
+145,2016-12-16,2016,12,16,15,5imx2e,Majoring in computer science with no background and mediocre math skills?,https://www.reddit.com/r/computerscience/comments/5imx2e/majoring_in_computer_science_with_no_background/,Ice_Potassium,1481871342,So the highest level math I've taken is pre calculus and I haven't taken like physics and stuff. I'm currently a senior in highschool and because of personal issues that I won't get into right now I've had to take time to work on getting over them and so I am not taking any advanced classes right now. I am concerned that because of this my dreams of going into cs will crumble.  I got a 24 on my act and the act website says that that's not good for STEM fields either so I'm pretty concerned about that. We're any of you in a position where you haven't really taken any classes previously pertaining to CS (my school had none)?  Were the higher level math classes a struggle?  Do you guys think I can do it with the little amount you know about me?,15,9
+146,2016-12-16,2016,12,16,22,5io5gk,"I want to understand something, please",https://www.reddit.com/r/computerscience/comments/5io5gk/i_want_to_understand_something_please/,Mina3362,1481893683,"First of all, I am a 16 Year old who loves Programming, Software, Hardware, Micro-Controllers, Robotics and all computer associated divisions. I don't really know which division would be the best for me, I will decode this by myself soon.
+
+But, what i want to understand, Is computer science a combination of all these or mainly Software oriented?
+Any help will be appreciated :) .
+
+If you want to advice me anything, please do",9,6
+147,2016-12-16,2016,12,16,22,5io74g,Help considering a web technology CS course,https://www.reddit.com/r/computerscience/comments/5io74g/help_considering_a_web_technology_cs_course/,newfangs,1481894311,"I'm in my first year of college and currently undecided on my major, I'm considering majoring in CS next year so I decided to follow a course in web technology next semester to see what it's like. The thing is this course is mostly meant for CS majors who already are half a year into their bachelor, and therefore I have a feeling I won't be good enough to understand the subject. I have barely any knowledge of computer science and programming. I do however have 1.5 months before the start of the semester of which I have 3 weeks off. Do you think I could prepare myself at home during this time or should I just wait till next year and start with an introductionary CS course? If you think it would be feasible for me to take the course, what do you think I should try to learn? The course description states that the base of the course is the http protocol and (X)HTML, CSS, JavaScript, PHP and frameworks will be used. It also focuses on the concepts and technical aspects of the WWW. Thanks a lot if you want to offer me advice on this.",6,2
+148,2016-12-16,2016,12,16,22,5ioame,INFOSEC vs CS B.S.?,https://www.reddit.com/r/computerscience/comments/5ioame/infosec_vs_cs_bs/,tyrannosaurus_get,1481895630,"Guys if you could way in on this I'd be extremely grateful. 
+
+What are the pros/cons of a career in INFOSEC vs obtaining a general CompSci degree?
+
+Rate your job/major satisfaction on a scale of 1-10. 
+
+Which career path do you think has more long term benefits? (growth/finance/opportunities)
+
+The coursework seems to vary enough that I would have to make a decision in or even before my first year. Currently applying so I'd like as many people as possible to weigh in here. A very important decision is to be made. I think I could go either way but the truth is I don't know much about what INFOSEC entails. Thanks, guys. ",3,3
+149,2016-12-17,2016,12,17,2,5iphur,CS at the U of A? Take it there or switch schools?,https://www.reddit.com/r/computerscience/comments/5iphur/cs_at_the_u_of_a_take_it_there_or_switch_schools/,PM_UR_BUSINESS_IDEAS,1481909387,"I went there for the MIS program but have realized what I really want is applied skills, thus I'm switching majors. It's freshman year, now I'm thinking of switching colleges completely. Can anyone give some insight just based on the course alone here compared to other schools. ",3,0
+150,2016-12-17,2016,12,17,7,5ir46o,I'm graduating with a CS degree today. A special thank you is in order.,https://www.reddit.com/r/computerscience/comments/5ir46o/im_graduating_with_a_cs_degree_today_a_special/,CROATIAN_WASTED,1481926792,,7,220
+151,2016-12-17,2016,12,17,7,5ir65y,O.S. And hardware,https://www.reddit.com/r/computerscience/comments/5ir65y/os_and_hardware/,RitikaC,1481927426,"Where do I find material to understand OS and Hardware of a computer in simple language? 
+I need material explaining everything e.g. How do processors, motherboards, graphic cards, memory etc work? ",1,1
+152,2016-12-17,2016,12,17,9,5irqvy,looking for concise tutorials on Computational Reasoning and Communication,https://www.reddit.com/r/computerscience/comments/5irqvy/looking_for_concise_tutorials_on_computational/,EDEN786,1481934478,"More specifically the topics:
+
+-  Problem-solving process and problem representation
+
+- Data and data structures
+
+- Imperative/procedural thinking and Invariants
+
+- Trees and Graphs
+
+- Encapsulating Behaviour (Procedures and Functions)
+
+- BDD Scenarios and Active Entities
+
+- Logic
+
+- Estimating Run time and complexity",0,1
+153,2016-12-17,2016,12,17,9,5irrlo,Mini guide to 68000 Assembly Programming,https://www.reddit.com/r/computerscience/comments/5irrlo/mini_guide_to_68000_assembly_programming/,karimo94,1481934741,,1,1
+154,2016-12-17,2016,12,17,10,5irwr9,"Writing a paper, how do i determine the minimum publishable unit.",https://www.reddit.com/r/computerscience/comments/5irwr9/writing_a_paper_how_do_i_determine_the_minimum/,Globalscree,1481936611,"So I've been playing with von neumann self replication algorithms, not quines, and I've created some in a language  which there appears to be no work on. I am not a computer scientist, but I have written everything up, and have some ideas for future work. 
+
+My question is thus:
+
+This appears to be novel work, but is merely a curiosity at this stage, who can i contact to discuss the work and see if it is worth pursuing further with a view to academic submission? 
+
+Or should I just github the lot and throw it on the Internet?",0,2
+155,2016-12-17,2016,12,17,18,5itq7g,How do Computer viruses spread themself?,https://www.reddit.com/r/computerscience/comments/5itq7g/how_do_computer_viruses_spread_themself/,Pykra,1481966132,"Just to make sure I will hold a presentation about viruses so I have no ill intentions to create and use a virus.
+I know how they work on the ""surface"" i.e by e-mail attachment the virus will spread themself by mailing the contacts. But I can't find any information about how they work in the Computer. It will differ from every language so if possible explain it to me with Java.
+
+tl:dr How do viruses spread themself in the Computer (if possible language: Java)
+
+Thanks in advance",1,1
+156,2016-12-18,2016,12,18,5,5iwiii,What is Computer Science Research work like?,https://www.reddit.com/r/computerscience/comments/5iwiii/what_is_computer_science_research_work_like/,SuperCool468,1482007484,"I'll try to keep it short. I have a very good chance of getting into a CS PhD program or I can enroll in the MS program at my current school. I won't be paying anything either way. I've read quite a bit about the PhD vs MS debate and it always comes down to 
+1) Do you really love your field? 
+2) Do you enjoy research?
+
+While I do love computer science, I have no idea what research is like because I'm just finishing undergrad. As a side note I am in the U.S. So far I have worked on several independent projects related to AI and robotics and I have loved it. Simply put I am a ""lets take some rarely used concepts and make a new thing with them"" type of person, which leads me to think I am more geared towards engineering in a general sense. What is the day to day work like for someone doing research in industry with a PhD? What does the ""research"" aspect actually consist of? 
+
+Any information specific to my interests is a plus, which are machine learning, robotic software development, and cognitive computing.
+",3,6
+157,2016-12-18,2016,12,18,9,5ixm0c,How can I read PGP messages without the private key?,https://www.reddit.com/r/computerscience/comments/5ixm0c/how_can_i_read_pgp_messages_without_the_private/,Silverspy01,1482021215,"I'm taking a course in computer science, currently in a cyber security unit. My teacher has posted an extra credit assignment on his website involving the encryption method PGP. He has posted his public PGP key. Here's the full text:
+
+1.You can get 2 extra credit points for sending me any encrypted message using my pgp key
+
+2. You can get 3 extra credit points by sending me your public key so that I can send you a secret message, and you can decrypt it. (0 points if you accidentally post your private key, as that is a major security problem)
+
+3. 1000 extra credit points if you can find a way to decrypt all the messages posted in the forum.
+
+I've easily done the first and second items, but even after puzzling over the assignment for a week I haven't been able to figure out how to read all messages. So I've decided to ask those who probably know more. Currently only one other person has posted PGP messages, so i would only need my teacher's and their key.
+
+BTW, my teacher has said we can do anything to solve this besides ask him. So asking for help from others is something i can do, I'm not trying to cheat my way out of this. Obviously, anything illegal will be frowned upon and I'd rather not go to jail.",14,0
+158,2016-12-18,2016,12,18,10,5ixw6g,[Computing Systems/Number Representation] Does anyone have a nice trick/method for converting a number from base x to base y without conversion to base 10??,https://www.reddit.com/r/computerscience/comments/5ixw6g/computing_systemsnumber_representation_does/,cyanass,1482025047,,5,4
+159,2016-12-18,2016,12,18,11,5iy3bm,"Question: How do computer scientists grapple with wanting to learn everything, yet knowing it's better to specialize?",https://www.reddit.com/r/computerscience/comments/5iy3bm/question_how_do_computer_scientists_grapple_with/,[deleted],1482027954,[deleted],0,1
+160,2016-12-18,2016,12,18,14,5iypfq,Learning C++,https://www.reddit.com/r/computerscience/comments/5iypfq/learning_c/,NoSniping,1482037321,"Hi r/computerscience! I'm an undergrad studying MechE with a CS minor and have recently changed my grad school plans from product design to graphics/animation so I can hopefully get a career in VR or something in the game industry. The problem is, I only know MATLAB and Java though I've only taken one class in Java so I'm not sure how 'well' I even know that. 
+
+My university said that if I want any hope of making it into the graphics grad program, I need to learn the basics of C++ before applying (due next fall). I won't be able to take the animation class that introduces you to C++ until the semester after the application has to be submitted, so I think it'd look really good if I show self-motivation on the application by somehow demonstrating that I began teaching myself C++.
+
+-----
+
+Anyway, now to my point: what is/are the best places to learn C++ outside of a classroom specifically for animation's sake?
+
+Thanks!
+",7,15
+161,2016-12-19,2016,12,19,1,5j120p,Computer Science Minor,https://www.reddit.com/r/computerscience/comments/5j120p/computer_science_minor/,AllisonLovesYou,1482079879,"I'm a finance major about to graduate with my a.a. 
+in transferring, I would like to study C.S. in order to do data management and analytics.  
+
+is there anything I can do this semester in order to get myself ahead? 
+
+What is studying computer science like?
+
+my main issue seems to lie with the math required for my major vs c.s.
+
+Edit 1: maybe I wasn't clear that I am still sticking with finance as my major, but am adding C.S. as my minor",18,10
+162,2016-12-19,2016,12,19,11,5j3wha,can some one help me?,https://www.reddit.com/r/computerscience/comments/5j3wha/can_some_one_help_me/,notsoit,1482113995,[removed],0,0
+163,2016-12-19,2016,12,19,15,5j4zv7,"""Run a hack on metasploit in any way, shape, or form."" - Could someone help out with this question",https://www.reddit.com/r/computerscience/comments/5j4zv7/run_a_hack_on_metasploit_in_any_way_shape_or_form/,Ojc011,1482129738,,2,2
+164,2016-12-19,2016,12,19,16,5j57lo,Need help with information security question - Using metasploit/Kalilinux : Desperate need of help very lost..,https://www.reddit.com/r/computerscience/comments/5j57lo/need_help_with_information_security_question/,Ojc011,1482133446,,1,0
+165,2016-12-19,2016,12,19,22,5j6g8g,What DeepMind brings to Alpahabet,https://www.reddit.com/r/computerscience/comments/5j6g8g/what_deepmind_brings_to_alpahabet/,feathers88,1482155220,,0,8
+166,2016-12-20,2016,12,20,3,5j81oa,Where can I find a good online course for building a foundation in programming?,https://www.reddit.com/r/computerscience/comments/5j81oa/where_can_i_find_a_good_online_course_for/,WxW_Wraith,1482172690,"I am very interested in this field , but have little to no experience . Any guidance would be helpful. Thank you. ",7,1
+167,2016-12-20,2016,12,20,6,5j8yw7,Has any woman here felt discriminated against in the Comp Sci field?,https://www.reddit.com/r/computerscience/comments/5j8yw7/has_any_woman_here_felt_discriminated_against_in/,-Knockabout,1482181723,"Basically, I received this e-mail about a scholarship, but you have to write seven essays on your passion for women in computer science. That got me thinking about if there's any actual discrimination against women, or if it's more a result of other factors, like women choosing jobs with more flexibility for their children. At least in colleges, they do everything possible to encourage women in the tech industry, so they're not discriminated against there.
+
+I've never felt discouraged from computer science in my life, actually. So I was wondering if there's some basis in the idea that discrimination is why the computer science field is made up mostly of men.
+
+I should note that I don't have any interest in studying this topic (which is required if you win the scholarship, there's some required classes...) unless it helps me in some way. The extent of my passion is ""No one should be discouraged from entering computer science. Everyone should be treated equally.""
+
+EDIT: Thank you everyone for the answers! I was wrong in not counting the social aspects alongside campaigns and such. The passion bit just means I'd rather not write 7 essays if there's not the material to, but it looks like there's a lot to be found, so I'll have to look into it some more. It was really interesting hearing about everyone's experiences, if a little disheartening for me, ha ha. ",69,12
+168,2016-12-20,2016,12,20,8,5j9npp,Is there much rote learning/straight memorization involved in a Computer Science course?,https://www.reddit.com/r/computerscience/comments/5j9npp/is_there_much_rote_learningstraight_memorization/,thesteam,1482188659,"I'm hoping to go to college next year here in Ireland, with my eye primarily on Computer Science courses, but my main concern is do they involve much rote learning and memorization.
+
+Personally I've found I learn much better when I can understand a topic as opposed to memorization. Which is the reason I think I was never much good at German, whereas I was much better at concrete subjects like Science and Engineering. So when I hear computer *languages* I start to worry that i'll really struggle with that aspect of comp sci.
+
+Thanks for yer help!",3,1
+169,2016-12-20,2016,12,20,10,5jadej,"Could use some help, command prompt related.",https://www.reddit.com/r/computerscience/comments/5jadej/could_use_some_help_command_prompt_related/,_mentalchIllness,1482196781,"Recently, when I right-clicked within cmd, VriskaSerket appeared, typed exactly like that. This happened every time I right-clicked. A quick google search showed me that it's the name of a character from a web-comic. What I'm wondering is how right-clicking can type anything into cmd. It seems very suspicious to me, and if anyone has any answers as to how cmd works regarding right-clicks being able to type in whole phrases, it'd be appreciated. Of course, this hasn't happened anytime I've right-clicked anywhere else on my screen. And after testing it repeatedly in cmd, it stopped suddenly. ",2,0
+170,2016-12-20,2016,12,20,10,5jajc0,React Native? A quick question,https://www.reddit.com/r/computerscience/comments/5jajc0/react_native_a_quick_question/,Shcteve,1482198839,"Hey everyone, I'm writing a react native based piece of content and was just wondering if someone in this community would be able to point me in the right direction on a few points. I'll be writing about the pros and cons of using React Native. I'm having some struggle to comprehend a portion of the text I'm researching. 
+
+What are some pros and cons you guys could think of?
+
+Also what do you think about the iteration cycle of React Native?
+How great is live reload?",1,1
+171,2016-12-20,2016,12,20,12,5jb3d3,The importance of context-free grammars,https://www.reddit.com/r/computerscience/comments/5jb3d3/the_importance_of_contextfree_grammars/,casprus,1482205832,,6,99
+172,2016-12-20,2016,12,20,23,5jdghe,,https://www.reddit.com/r/computerscience/comments/5jdghe//,wtar00,1482243355,,0,1
+173,2016-12-21,2016,12,21,3,5jeu60,[Advice] Beta Testing - Communication Platform,https://www.reddit.com/r/computerscience/comments/5jeu60/advice_beta_testing_communication_platform/,Airricklam,1482258412,"Hello everyone, I'm not sure if I'm in the right place but I currently work in a hardware/software company (mostly hardware). We have a relatively small engineering team. I've been tasked to create a beta testing environment in which I gather beta testers onto some sort of communications platform as I gather feedback from them. I've done some search and Centercode seems to be a popular pick for something like this but I was wondering if there was any other alternatives to it? Also, any advice on how I should approach this assignment?",1,2
+174,2016-12-21,2016,12,21,6,5jfvzp,URGENT QUESTION: Huffman algorithm,https://www.reddit.com/r/computerscience/comments/5jfvzp/urgent_question_huffman_algorithm/,[deleted],1482269217,[deleted],4,0
+175,2016-12-21,2016,12,21,12,5jhsk1,[Help] Hope this is the right place to post,https://www.reddit.com/r/computerscience/comments/5jhsk1/help_hope_this_is_the_right_place_to_post/,mrJFR,1482291555,[removed],2,0
+176,2016-12-21,2016,12,21,19,5jjbgq,"I want a career in programming, but I struggle with math...",https://www.reddit.com/r/computerscience/comments/5jjbgq/i_want_a_career_in_programming_but_i_struggle/,[deleted],1482317486,[deleted],0,1
+177,2016-12-21,2016,12,21,20,5jjjak,Top 20 Simple Things Every Computer User Should Know,https://www.reddit.com/r/computerscience/comments/5jjjak/top_20_simple_things_every_computer_user_should/,proiner,1482321311,,0,1
+178,2016-12-21,2016,12,21,21,5jjlu9,What is OOP? How Can We Use it With PHP? Part 1,https://www.reddit.com/r/computerscience/comments/5jjlu9/what_is_oop_how_can_we_use_it_with_php_part_1/,proiner,1482322489,,0,1
+179,2016-12-21,2016,12,21,22,5jjws1,When did livecoding come about? (X-post from /r/livecoding),https://www.reddit.com/r/computerscience/comments/5jjws1/when_did_livecoding_come_about_xpost_from/,Panface,1482327077,"I'm working on a simple research project related to livecoding. The focus is not the history, but there is very few sources that talk about when livecoding actually came about or when it started to gain traction. The only information I've encountered so far is that Supercollider got the ability to compile code while running *somewhere* around the late 90's.
+
+Anyone anyone who has any more definitive information?",0,0
+180,2016-12-22,2016,12,22,1,5jkncf,HOW TO CHANGE THE DATE &amp; TIME IN WINDOWS 8/8.1,https://www.reddit.com/r/computerscience/comments/5jkncf/how_to_change_the_date_time_in_windows_881/,pcfixtechies,1482336068,,2,0
+181,2016-12-22,2016,12,22,4,5jlwcz,"Happy Holidays and ""Ive always been there for the rest of our lives"".",https://www.reddit.com/r/computerscience/comments/5jlwcz/happy_holidays_and_ive_always_been_there_for_the/,cgb1234,1482348982,....from a fan of AI,0,0
+182,2016-12-22,2016,12,22,6,5jmmqa,Prediction Template Learning (Now with graphs),https://www.reddit.com/r/computerscience/comments/5jmmqa/prediction_template_learning_now_with_graphs/,inboble,1482356736,,0,2
+183,2016-12-22,2016,12,22,8,5jn6f1,BA in computer science,https://www.reddit.com/r/computerscience/comments/5jn6f1/ba_in_computer_science/,campotter221,1482362739,"Hello everyone! My names Cameron potter. I'm 26 years old, active duty army and a father of 2. I recently decided that it's time to go back to school and further my education. I have decided to get my degree in computer science. What I'm here for is help, advice, really anything that you guys can share with me that can get me ready for this? I start  in march and can't wait I'm very excited.",6,0
+184,2016-12-22,2016,12,22,9,5jnl9n,Should I major in CS,https://www.reddit.com/r/computerscience/comments/5jnl9n/should_i_major_in_cs/,ForsakenWorms,1482367584,Well I'm starting community college and CS is very interesting for me but I have one concern. The myth that CS is an oversaturated major. Just wondering if there is some truth to this myth or is it just myth. Thank you all for the answers.  ,3,2
+185,2016-12-22,2016,12,22,11,5jo2in,How to build a computer science resume?,https://www.reddit.com/r/computerscience/comments/5jo2in/how_to_build_a_computer_science_resume/,Chaostorrent48,1482373559,"I am currently a junior in high school and I want to know how to build my computer science resume or more out of school activities I could do. Thanks
+",10,22
+186,2016-12-22,2016,12,22,15,5jp5tb,Entry Level Software Engineer Making $75k/year,https://www.reddit.com/r/computerscience/comments/5jp5tb/entry_level_software_engineer_making_75kyear/,captaincracker45,1482388702,"Pre-
+-Senior in college with 1 semester remaining
+-Hired as a Software Engineer
+-$75,000 salary (beginning after graduation of course)
+-$2,000 sign-on bonus check
+-$2,000 relocation check
+
+
+1.) How should I use the $4,000 (assuming moving myself in a U-Haul will cost a few hundred dollars)?
+
+2.) Living expenses are $2,100/month. Let's assume a 25% tax rate on my 75k, that gives $56,250 to work with after-tax and $2,587/month. What are the first steps I should take? 
+
+3.) Any advice for keeping it cheap in NYC
+",9,2
+187,2016-12-22,2016,12,22,18,5jpsgk,An Introduction to Data Mining Applied to Health-Oriented Databases,https://www.reddit.com/r/computerscience/comments/5jpsgk/an_introduction_to_data_mining_applied_to/,vaniave,1482400171,,0,1
+188,2016-12-22,2016,12,22,20,5jq46n,Sap Training,https://www.reddit.com/r/computerscience/comments/5jq46n/sap_training/,manojkseo9,1482406166,,0,0
+189,2016-12-22,2016,12,22,22,5jqj9n,,https://www.reddit.com/r/computerscience/comments/5jqj9n//,wtar00,1482412927,,0,1
+190,2016-12-23,2016,12,23,1,5jraiy,250 internships and 100+ jobs to apply for over winter break,https://www.reddit.com/r/computerscience/comments/5jraiy/250_internships_and_100_jobs_to_apply_for_over/,phaedromeda,1482422436,,8,40
+191,2016-12-23,2016,12,23,1,5jrchg,A Disk Scheduling Simulation Program written in Java,https://www.reddit.com/r/computerscience/comments/5jrchg/a_disk_scheduling_simulation_program_written_in/,imblur96,1482423025,,1,0
+192,2016-12-23,2016,12,23,3,5js8a8,Best thing to work on as CS student?,https://www.reddit.com/r/computerscience/comments/5js8a8/best_thing_to_work_on_as_cs_student/,JDublin4,1482432352,"I am doing an accelerated CS degree at Oregon State and I am wondering what I should be putting my time and effort into in my free time in order to land a great career after I graduate.  OSU is using C++ as their main language, should I continue to go in depth with this language?  Should I be building projects with C++ and creating a portfolio to show on GitHub?  Should I learn another language and try to get certifications (I am almost finished with Free Code Camps front end certification for HTML, CSS, and JS)?  Or should I be scrambling to get an internship?  Or studying algorithms and data structures for my technical interview?  Thanks!
+",4,11
+193,2016-12-23,2016,12,23,7,5jtcqm,[Serious] A really stupid side project idea.,https://www.reddit.com/r/computerscience/comments/5jtcqm/serious_a_really_stupid_side_project_idea/,NullPrimitives,1482444034,"So I made this game. It's pretty bland as the elements are just circles (the player, obstacles, goals) and I asked my younger brother what I should do to make it look prettier. I made the game primarily to add to my GitHub portfolio but it would be nice if someone (like my brother) would actually enjoy playing it from time to time. His idea is.. interesting.. which is why I'm here. I want to know whether adding the game to my GitHub will make me look like a moron to an interviewer.
+
+&amp;nbsp;
+
+Okay, so his idea is to make the game Harambe themed. My brother is quite younger than me and thought this would be hilarious. I somewhat agree. He wants the player to be a picture of Harambe, the obstacles to be bullets, and the goals to be babies. So.. yeah.. how would this make me look?",5,2
+194,2016-12-23,2016,12,23,8,5jttyw,"Earn 7 CISSP CPEs &amp; 7 General Hours of Continuing Education at ICIT Winter Summit, while collaborating with the Nation's top CyberSecurity leaders. Jan 23rd , Ritz Carlton-Pentagon City Arlington, VA",https://www.reddit.com/r/computerscience/comments/5jttyw/earn_7_cissp_cpes_7_general_hours_of_continuing/,MDuck_black,1482449543,,0,1
+195,2016-12-23,2016,12,23,10,5juauh,Computer,https://www.reddit.com/r/computerscience/comments/5juauh/computer/,[deleted],1482455307,[deleted],0,1
+196,2016-12-23,2016,12,23,12,5jux9z,,https://www.reddit.com/r/computerscience/comments/5jux9z//,wtar00,1482463499,,0,1
+197,2016-12-23,2016,12,23,16,5jvy5v,Homework1.Com Offers Quality Computer Science Assignment Help Service,https://www.reddit.com/r/computerscience/comments/5jvy5v/homework1com_offers_quality_computer_science/,homework-1,1482478887,,0,1
+198,2016-12-23,2016,12,23,17,5jw0w7,Fixing weird idiosyncratic windows 10 problem,https://www.reddit.com/r/computerscience/comments/5jw0w7/fixing_weird_idiosyncratic_windows_10_problem/,CamorriBastard,1482480284,"http://imgur.com/fvSzqAS
+
+I created a Python (3.5) program that's a family tree program.  When I open this Python file from File Explorer **in Windows 10** this black command window pops up which you can see in the image link I submitted. The problem is if you see the name *Mary Kimpel*, the name *Mary* is not aligned like the rest of the names. However it is aligned in the white Python Shell.
+
+**So my 2 questions are**: Can you fix this text misalignment in the black command window? **OR** can you set it up where if you open the file from File Explorer it will open automatically in the Python Shell. Thanks in advance for any help received!!",7,0
+199,2016-12-24,2016,12,24,6,5jzm7a,looking to buy an A+ 901/902 Exam Book,https://www.reddit.com/r/computerscience/comments/5jzm7a/looking_to_buy_an_a_901902_exam_book/,guessery,1482529852,"Hey all,
+
+I am looking at taking the A+ certification soon and thought i would ask if someone who recently finished the exam would be interested in selling me their book for ~$20.
+
+Thanks.
+
+Bonus points if you are in minneapolis.",2,0
+200,2016-12-24,2016,12,24,8,5k00gx,"If I could be a Computer Science teacher, this would be on my final.",https://www.reddit.com/r/computerscience/comments/5k00gx/if_i_could_be_a_computer_science_teacher_this/,millwack,1482534701,,5,0
+201,2016-12-24,2016,12,24,9,5k09a1,Mapping your IT Infrastructure for Migration to the Cloud,https://www.reddit.com/r/computerscience/comments/5k09a1/mapping_your_it_infrastructure_for_migration_to/,General_5Genius-,1482537846,,0,1
+202,2016-12-24,2016,12,24,9,5k0bu2,OUR VISION FOR THE FUTURE OF SECURITY  ITS SIMPLE,https://www.reddit.com/r/computerscience/comments/5k0bu2/our_vision_for_the_future_of_security_its_simple/,off_Pop_,1482538721,,0,1
+203,2016-12-24,2016,12,24,10,5k0pse,,https://www.reddit.com/r/computerscience/comments/5k0pse//,wtar00,1482544090,,0,1
+204,2016-12-24,2016,12,24,14,5k1p0c,Need suggestions on laptops.,https://www.reddit.com/r/computerscience/comments/5k1p0c/need_suggestions_on_laptops/,jabberwocky16,1482558942,"So my budget is around 1k for a new laptop so the newer mac models are out, and it seems best buy has some nice sales that's going to take place during x-mas and was wondering if someone could suggest me a laptop.
+
+I was looking at the Lenovo - 2-in-1 15.6"" 4K Ultra HD Touch-Screen Laptop - Intel Core i7 - 16GB Memory - NVIDIA GeForce GTX 940MX - 256GB SSD - Pearl black @ $899.99
+
+Also MacBook Pro with Retina display - 13.3"" Display - 8GB Memory - 128GB Flash Storage - Silver @ $1099.99 (last gen i believe)
+
+Reason i need a laptop is, i'll rarely be at home for homework since i attend full time 18 credits and i work 2 jobs, so i go to my job after school while trying to do as much as i can during my lunch breaks.",8,0
+205,2016-12-24,2016,12,24,15,5k1trn,Can someone help explain to me what's a support engineer like I'm 5?,https://www.reddit.com/r/computerscience/comments/5k1trn/can_someone_help_explain_to_me_whats_a_support/,Tomtom0123,1482561113,"I recently got a support engineer internship with SAP and I start next month. I was told that they would train me on the position, but I want to get ahead of the game and be prepare. I need to get a full time position with them after my internship because I don't want to be a new grad with no job. I did some research on my own and I got the big picture, but not in detail on what it actually does. ",6,3
+206,2016-12-25,2016,12,25,3,5k4gnw,AP computer science help,https://www.reddit.com/r/computerscience/comments/5k4gnw/ap_computer_science_help/,[deleted],1482605754,[deleted],0,1
+207,2016-12-25,2016,12,25,4,5k4qb2,"Why do people say this year that C is becoming a dead/outdated language? Is there something better for low-level optimized algorithms (e.g. For embedded systems), like OpenCV? Is this true for DSP core programming as well?",https://www.reddit.com/r/computerscience/comments/5k4qb2/why_do_people_say_this_year_that_c_is_becoming_a/,[deleted],1482609120,[deleted],11,9
+208,2016-12-25,2016,12,25,5,5k50an,"What is a good website (for free) to learn the basics of computer hardware components (cpu, motherboard, ram etc) ?",https://www.reddit.com/r/computerscience/comments/5k50an/what_is_a_good_website_for_free_to_learn_the/,AdoM1,1482612783,I am looking for a reliable website to learn the basics of computer hardware. I really do not enjoy the hardware part of the computer that much but I have it as subject in my university course so it would be good if someone with experience can offer some help.,10,27
+209,2016-12-25,2016,12,25,10,5k65sy,Ubuntu 14.04.3 VS Ubuntu 15.04 ?,https://www.reddit.com/r/computerscience/comments/5k65sy/ubuntu_14043_vs_ubuntu_1504/,spiritual_ninja94,1482628975,thoughts?,1,1
+210,2016-12-25,2016,12,25,11,5k6gpa,,https://www.reddit.com/r/computerscience/comments/5k6gpa//,wtar00,1482633827,,0,1
+211,2016-12-25,2016,12,25,16,5k7fml,High School Student looking for volunteer opportunities,https://www.reddit.com/r/computerscience/comments/5k7fml/high_school_student_looking_for_volunteer/,LeDerpinator0320,1482650826,Hey so i'm currently an 11th grader and I have an interest in Computer Science and I plan to major in it in college. I need an extra curricular that has to do with CS and I'm having trouble finding some. Any suggestions?,6,8
+212,2016-12-25,2016,12,25,19,5k7vr2,I'm a senior in high school and going to major in computer science throughout college. Are there any programs that I should look into that would give me a head start?,https://www.reddit.com/r/computerscience/comments/5k7vr2/im_a_senior_in_high_school_and_going_to_major_in/,JKeo15,1482661655,"Would the head start even be worth it? Trying to figure out what I should be doing as I have all this free time because senior year is a joke.
+Thanks, Merry Christmas!",22,4
+213,2016-12-25,2016,12,25,22,5k8e3r,How should I decide which computer science class I should take my next semester?,https://www.reddit.com/r/computerscience/comments/5k8e3r/how_should_i_decide_which_computer_science_class/,gimmesomehelp,1482673775,"Ok, so basically the issue is that next semester the computer science classes are in the morning from Tu-Th: 8:00-10:00AM or MW: 4:00-7:30PM I can take either of those classes by my 2 friends out of the 3 can only take the late class because they do not live on campus. But the issue is now that my friend helped me tremendous my first semester and I helped him a lot as well. I would be down to take the late professor but he has 0 reviews and the first-morning professor is one of the best profs at University what should I do?",3,0
+214,2016-12-26,2016,12,26,5,5k9v16,Tandem Computing,https://www.reddit.com/r/computerscience/comments/5k9v16/tandem_computing/,Piop_Aether,1482696088,"Hello! I stumbled across two computers, both barely a ""generation"" apart. (I'll list the specs below). With all fully functioning parts, and availability of Windows 10 and any Linux distro, I was wondering if it is possible to have these computers function as one giant server/computer, and how I would go about doing this. I have a third computer if a ""master computer"" is needed to control the two, but I am wondering if I could set up the two or more computers as one server, and even if it's possible. 
+
+
+Specs 
+Computer A 
+Pentium D 
+4 Gigabytes of Ram 
+Disc Drive 
+Other parts are generic 
+
+Computer B 
+Pentium (?) 
+4 gigabytes of ram 
+Generic parts
+
+Also, I have access to a numerous amount of parts and tools if I need to build a special controller or something. I'm just getting into hands on building  (been doing it for a couple years now) and this has been something that I've really wanted to do
+
+Any help is appreciated! 
+
+NEVERMIND 
+
+Ok so what I'm looking to do is called a Beowulf Cluster
+Have hardware components ready and set up; would any of you happen to know how to install OS and which distro of Linux u would recommend?
+
+
+
+",6,3
+215,2016-12-26,2016,12,26,15,5kcg3h,How to fix corrupted pendrive,https://www.reddit.com/r/computerscience/comments/5kcg3h/how_to_fix_corrupted_pendrive/,RamitSrivastava5,1482733302,,0,0
+216,2016-12-26,2016,12,26,20,5kdc6c,java training in pune,https://www.reddit.com/r/computerscience/comments/5kdc6c/java_training_in_pune/,techbodhi,1482751224,,0,0
+217,2016-12-26,2016,12,26,20,5kdd2h,Do I need any past coding experience going into CS college?,https://www.reddit.com/r/computerscience/comments/5kdd2h/do_i_need_any_past_coding_experience_going_into/,Kamkut1337,1482751730,"In my school, we don't really learn coding. I decided to look at things like python, and I can definitely learn it with a proper teacher and school. What do I need to know before going into CS in college?",15,6
+218,2016-12-26,2016,12,26,22,5kdr0z,Should I continue to pursue my BS?,https://www.reddit.com/r/computerscience/comments/5kdr0z/should_i_continue_to_pursue_my_bs/,xengoreth,1482759190,"I am 38 and have worked in the IT field for 19 years. I am currently a network engineer, acting as the networking, virtualization, and Linux SME for my project's small IT team. Previously I've worked on a development team as a QA Engineer (working with Java, Ruby, and C++ test frameworks to create and expand automated test content) and various sysadmin positions. It's been a long, successful career and I've always had work creating nice scripts, supporting web applications, engineering software packages (think SCCM), and occasionally being handed some source code to perform some maintenance programming. However, I've never gotten to actually work as a fulltime programmer, which I've always wanted to do.
+
+Recently I've upped my game a lot recently and have spent some significant effort really learning the full feature-set offered by Java as I am working my way through the remaining classes I have to take. I'm slowly making my way through my BS in Computer Science at UMUC, but it's slow going since I work fulltime, have a wife and child, and have always run into school being an obstacle preventing me from achieving my learning goals. I'm currently at 77/123 credits. I'd like to spend some time learning (modern) C++, Python (which I only write in a non-idiomatic way at this point), and a purely functional language (Haskell maybe-- although if anyone has a good suggestion, I'd be willing to hear them out). UMUC has a laughable curriculum, so learning real things like (modern) C++, functional languages, and how to write idiomatic Python will likely be on my own time.
+
+I'd like to move from an operational role to something more development oriented. My goal is to become a fully-fledged software engineer. My question is whether I'm wasting my time in school. 
+
+Should I be spending my time just building a portfolio of sample work and getting a large personal project under my belt or should I continue at UMUC (which is subsidized to basically the in-state rate)? 
+
+Right now I work for the DoD as a contractor, where having a degree or a cert holds more weight than actually knowing what you are doing, but I am thinking I'll probably be working in the private sector in the next few years. I am also just about to complete the requirements for my 2-year degree, so I could also consider switching to a less ridiculous school (although currently the price is right).",5,13
+219,2016-12-27,2016,12,27,10,5kh2dp,Identity and Access Management Solutions: Automating Cybersecurity While Embedding Pervasive and Ubiquitous Cyber-Hygiene-by-Design,https://www.reddit.com/r/computerscience/comments/5kh2dp/identity_and_access_management_solutions/,jayce_tech,1482802914,,0,1
+220,2016-12-27,2016,12,27,12,5khge3,"Earn 7 CISSP CPEs &amp; 7 General Hours of Continuing Education at ICIT Winter Summit, while collaborating with the Nation's top CyberSecurity leaders. Jan 23rd , Ritz Carlton-Pentagon City Arlington, VA",https://www.reddit.com/r/computerscience/comments/5khge3/earn_7_cissp_cpes_7_general_hours_of_continuing/,_CastBound,1482807981,,0,2
+221,2016-12-27,2016,12,27,16,5kim75,stages of compilation,https://www.reddit.com/r/computerscience/comments/5kim75/stages_of_compilation/,Suraj757,1482825071,"Guys , is there any difference between compiler and compiler proper?",1,0
+222,2016-12-27,2016,12,27,21,5kjfxx,GeneLisa - A Genetic Approach to Recreate a MasterPiece,https://www.reddit.com/r/computerscience/comments/5kjfxx/genelisa_a_genetic_approach_to_recreate_a/,prabod,1482840600,,0,8
+223,2016-12-27,2016,12,27,22,5kjq7w,Gainda ka phool,https://www.reddit.com/r/computerscience/comments/5kjq7w/gainda_ka_phool/,[deleted],1482845435,[deleted],0,0
+224,2016-12-28,2016,12,28,3,5kld6s,TechlookBD:: Hello Reddit Fndz! :),https://www.reddit.com/r/computerscience/comments/5kld6s/techlookbd_hello_reddit_fndz/,techlookbd,1482864909,[removed],0,0
+225,2016-12-28,2016,12,28,4,5kllvo,Equibit: A Peer-to-Peer Electronic Equity System,https://www.reddit.com/r/computerscience/comments/5kllvo/equibit_a_peertopeer_electronic_equity_system/,feathers88,1482867480,,0,2
+226,2016-12-28,2016,12,28,6,5km3t2,My shortcuts are doing wierd things,https://www.reddit.com/r/computerscience/comments/5km3t2/my_shortcuts_are_doing_wierd_things/,tomikaka,1482872819,[removed],1,0
+227,2016-12-28,2016,12,28,6,5km4e1,Should I continue a little bit longer?,https://www.reddit.com/r/computerscience/comments/5km4e1/should_i_continue_a_little_bit_longer/,HandofPrometheus,1482872995,"Hey, I'm a freshman approaching my second semester of college trying to pursue an associate degree and then to a bachelor's degree for CS. However, I did really bad my first semester. I flunked calculus and got a D in physics (still passed). I know my problem was me not studying as much but I just find these subjects too hard. Sadly these two courses are requirements along with calculus 2. Starting in springtime im taking a CST class called ""Problem Solving With computer programming"", which sounds interesting and what I choose Computer major for. I know nothing about computers or programming but computers always interested me and I honestly don't see myself doing anything else.
+
+I'm retaking calculus right away but should I continue with CS? Is there any study tips you can give me or motivation?",3,2
+228,2016-12-28,2016,12,28,7,5kmjg5,What are some fun and interesting careers for CS majors?,https://www.reddit.com/r/computerscience/comments/5kmjg5/what_are_some_fun_and_interesting_careers_for_cs/,TrickierAtomLiv,1482877676,"Hey guys! I am about to enter my second semester of college as a computer science major. Throughout my first semester, I dove into the C++ language and learned to code. I actually really loved it! As much of this stuff really interests me, I'd like to think I'd have a career with computer science. With growing demands for CS related jobs, people have told me as soon as I get a masters degree, I'd have a good job within months. 
+
+Now this all sounds great, but I'd really like to know what some if these ""jobs"" are. Can you guys give me some examples about what type of careers a CS major would go into? Any careers with coding emphasis (I love writing code so far) I would like to know of as well. 
+
+Thank y'all ",5,37
+229,2016-12-28,2016,12,28,10,5kncwa,Identity and Access Management Solutions: Automating Cybersecurity While Embedding Pervasive and Ubiquitous Cyber-Hygiene-by-Desig,https://www.reddit.com/r/computerscience/comments/5kncwa/identity_and_access_management_solutions/,cyber_desk,1482887212,,0,1
+230,2016-12-28,2016,12,28,11,5kno7q,"Another ""Career Questions"" post: So i have a bs in physics. I work as a service engineer for a large corporation, and i've started a post-bacc cs degree",https://www.reddit.com/r/computerscience/comments/5kno7q/another_career_questions_post_so_i_have_a_bs_in/,[deleted],1482891153,[deleted],0,2
+231,2016-12-28,2016,12,28,14,5konsm,Can a person with a computer science degree have a job of a software engineer?,https://www.reddit.com/r/computerscience/comments/5konsm/can_a_person_with_a_computer_science_degree_have/,kelvinrunstrack,1482904219,Does having a computer science degree make you a software engineer? I'm newly applying to college and help would definitely appreciated.,4,0
+232,2016-12-28,2016,12,28,15,5kopb4,Is computer science as intense as the rumors make it out to be?,https://www.reddit.com/r/computerscience/comments/5kopb4/is_computer_science_as_intense_as_the_rumors_make/,[deleted],1482904817,[deleted],7,2
+233,2016-12-28,2016,12,28,15,5korhv,I need help choosing a major track. (xpost /r/askcomputerscience),https://www.reddit.com/r/computerscience/comments/5korhv/i_need_help_choosing_a_major_track_xpost/,xMcNerdx,1482905699,"I'm not sure if this is how most universities structure their CS degree, but at my university, you choose an upper division track to specialize in. I have not been able to find much info through my universities website, but I figured since they were pretty general fields other people would be able to give me information on them. The choices are as follows:
+
+Architecture &amp; Hardware Systems
+Artificial Intelligence / Robotics
+Big Data
+Bioinformatics &amp; Computational Biology
+Computational Science
+Databases
+Geographical Information Systems
+Graphics &amp; Visualization
+Human Computer Interaction
+Networks
+Security
+Software &amp; Data Systems Development
+Software Engineering &amp; Programming Languages
+Systems
+Theory
+
+I'm a sophomore currently and I just finished my first semester of CS as I switched from aerospace. I took discrete mathematics and an into programming course in Python and enjoyed both greatly. I had a ton of fun doing homework and labs in Python. I'm not really sure what I'd like to do for a career yet because I don't know enough about the field as a whole yet. If anyone could give me some insight on these sub tracks and maybe provide info on which ones lead to certain careers and so forth. Thanks!
+",0,1
+234,2016-12-28,2016,12,28,15,5kotdd,Nurse thinking about CS degree,https://www.reddit.com/r/computerscience/comments/5kotdd/nurse_thinking_about_cs_degree/,1010diamond,1482906492,"Hi all,
+
+I'm an RN (BScN) who very interested in computer science. I enjoy nursing a lot but recently I've been getting involved with EHR implementation projects within the hospital and I really would like to learn more especially software design. I have the option of doing a masters in nursing informatics but I really want to learn coding and the actual development of software. I've found a two year after-degree program but my main concern is the amount of math in the program. I'm okay with math but calculus really freaks me out. Is this realistic for someone who dreads math?
+
+Thanks for reading.
+
+
+
+
+
+",11,8
+235,2016-12-28,2016,12,28,18,5kpcss,Remove Ads by SmartShoppy virus from Chrome/Firefox/IE,https://www.reddit.com/r/computerscience/comments/5kpcss/remove_ads_by_smartshoppy_virus_from/,jakemuller777,1482915916,,0,0
+236,2016-12-28,2016,12,28,20,5kpvna,The 5 Considered Best XML Editor Softwares - Pointsights,https://www.reddit.com/r/computerscience/comments/5kpvna/the_5_considered_best_xml_editor_softwares/,pointsights,1482925873,,0,1
+237,2016-12-28,2016,12,28,22,5kqb7l,How necessary is a laptop?,https://www.reddit.com/r/computerscience/comments/5kqb7l/how_necessary_is_a_laptop/,itswags98,1482933049,"I'm starting university in 2 months and was on the edge about buying the Lenovo Thinkpad T460s but honestly I've had conflicting opinions about if a laptop is needed or not.
+
+Do you personally think a laptop is needed? Is it better to wait and do my first semester without a laptop to see if I'd like a laptop?
+
+Edit: I'm a commuter (40min drive) and have a Desktop at home.",44,13
+238,2016-12-29,2016,12,29,4,5ks6vs,Where can I learn how to program in swift?,https://www.reddit.com/r/computerscience/comments/5ks6vs/where_can_i_learn_how_to_program_in_swift/,Devinologist,1482954606,"I'm wanting to learn Swift on my macbook. This will be my first language, so I'm starting anew. I have Xcode ready, I just don't know what I'm doing. Where would be the best place for me to go to learn this language?",8,8
+239,2016-12-29,2016,12,29,5,5ksb3s,Compiler/HPC research areas?,https://www.reddit.com/r/computerscience/comments/5ksb3s/compilerhpc_research_areas/,[deleted],1482955856,[deleted],0,1
+240,2016-12-29,2016,12,29,6,5kslz6,"Why do we not change an if statement to accept ""if thing = foo or foo2 then ...do_something()""",https://www.reddit.com/r/computerscience/comments/5kslz6/why_do_we_not_change_an_if_statement_to_accept_if/,Black_Swords_Man,1482959045,"Why do we not change an if statement to accept ""if thing = foo or foo2 then ...do_something()""
+
+It seems redundant to have to type ""thing = foo or thing = foo2""",2,0
+241,2016-12-29,2016,12,29,7,5kszjr,Is computer science a difficult major?,https://www.reddit.com/r/computerscience/comments/5kszjr/is_computer_science_a_difficult_major/,_PharmStudent,1482963133,"In the world today, we will always need more software developers. I'm currently exploring majors at my college and seeing what's the best fit for me. I'm actually thinking to do computer science (CS). I know that it's a very competitive field to get in, but will it be problematic since I don't have any prior CS experience? In addition, how difficult is CS? Can anyone do it?",5,2
+242,2016-12-29,2016,12,29,9,5ktsz6,I'm not the best at math but I want to be a computer programmer.,https://www.reddit.com/r/computerscience/comments/5ktsz6/im_not_the_best_at_math_but_i_want_to_be_a/,The_Foren,1482972435,"Hey, I want to become a computer programmer once i get out of college but I'm not the best at math. Currently, I'm a senior in high school and taking AP calculus and as of right now I have a B in the class. Do you recommend still majoring in computer science to become a computer programmer even though I'm not the best in math? How hard are the math classes needed to take to major in CS. Thank You for all the help. ",8,1
+243,2016-12-29,2016,12,29,10,5ktvdx,"CIOs/CISOs from the Office of the President, DHS, NASA Ames Research Center, HHS, EPA on Collaboration, Research &amp; Leadership at 2016 ICIT Gala",https://www.reddit.com/r/computerscience/comments/5ktvdx/cioscisos_from_the_office_of_the_president_dhs/,Janiyah_,1482973240,,0,2
+244,2016-12-29,2016,12,29,16,5kvl24,Programming project ideas,https://www.reddit.com/r/computerscience/comments/5kvl24/programming_project_ideas/,sadlyhappy11,1482996019,I just want to take up a small personal programming project. Any ideas? C/C++ or Python preferred ,3,2
+245,2016-12-29,2016,12,29,16,5kvpvv,Up to date books on Computer Science,https://www.reddit.com/r/computerscience/comments/5kvpvv/up_to_date_books_on_computer_science/,ZestySushi,1482998351,"For one reason or another getting a degree in computer science is no longer going to be economically viable for me (basically 4 years into another degree at this point).
+
+But I would still love to learn what the essentials are of the field (I know it's quite broad but I was wondering if you guys could steer me in the right direction)
+
+I am currently self learning programming and plan to do some app developments when I can but I also want to learn more about the theory stuff as well as data structures or algorithms, basically any of the CS topics that aren't programming.
+
+What would you guys recommend?",10,26
+246,2016-12-29,2016,12,29,23,5kx11d,Multidimensional Approach to Objective Decision Making,https://www.reddit.com/r/computerscience/comments/5kx11d/multidimensional_approach_to_objective_decision/,Thilly,1483021439,"Multidimensional Approach to Objective Decision Making
+
+
+  I opine that there is only one natural constant, time.
+
+  I opine that all Reals are points, ranges, areas, volumes, ... nD shapes produced with respect to a duration in time.
+
+  This larger structure is bounded and finite but infinitely divisible. (SuperTasks)
+
+  The real number domain is between 0 and 1.
+
+  Very interesting math happens with this new assumption.
+
+    We can look at an entire universe with a single family of functions.
+    Space and time become solvable and recursive.
+    A universe can be encoded into a single function with respect to time.
+    t &lt; .5 can be identified as the $Past
+    t = .5 can be identified as the $Present
+    t &gt; .5 can be identified as the $Future
+
+  The universe is bounded in a hypervolume
+  Reimann Zeta functions critical strip, line, points.
+
+It wasn't powersets of powersets, it's zetas of zetas.",1,2
+247,2016-12-30,2016,12,30,0,5kxgzy,Advanced Assignment Problem - HELP!?,https://www.reddit.com/r/computerscience/comments/5kxgzy/advanced_assignment_problem_help/,mattcee233,1483026974,"Given a set of tasks which are made up of 2 sub-tasks of given durations (A and B, the duration of each sub task can be 0) and a set of agents whom are capable of a combination of sub-tasks (A only, B only or A &amp; B). How can I best assign tasks/sub-tasks to the agents to maximise the amount of tasks completed over a given day? There are usually more tasks than agents and thus each agent will have to complete more than one task.
+
+From what I can gather this seems to be an enlarged version of the restricted assignment problem but I'm a little lost and could do with some help, happy to provide more information if required...",0,0
+248,2016-12-30,2016,12,30,1,5kxte1,Operating System - Multi-Threading,https://www.reddit.com/r/computerscience/comments/5kxte1/operating_system_multithreading/,aryanr19,1483030714,,0,1
+249,2016-12-30,2016,12,30,6,5kzivr,How difficult is gain admission to the Major in Computer Science after entering Arts or Science?,https://www.reddit.com/r/computerscience/comments/5kzivr/how_difficult_is_gain_admission_to_the_major_in/,[deleted],1483048437,[deleted],0,1
+250,2016-12-30,2016,12,30,7,5kzo8s,How to create your first Azure API App  Step by Step,https://www.reddit.com/r/computerscience/comments/5kzo8s/how_to_create_your_first_azure_api_app_step_by/,jpastorini,1483050051,,0,1
+251,2016-12-30,2016,12,30,9,5l0cqo,Java 8 intro,https://www.reddit.com/r/computerscience/comments/5l0cqo/java_8_intro/,Tpravinbreddy,1483057788,,0,1
+252,2016-12-31,2016,12,31,0,5l3wgi,Windows vs Linux operating system,https://www.reddit.com/r/computerscience/comments/5l3wgi/windows_vs_linux_operating_system/,golden_queen,1483111139,I'm curious to know which operating system you prefer and why,11,0
+253,2016-12-31,2016,12,31,0,5l43w9,C# to C++,https://www.reddit.com/r/computerscience/comments/5l43w9/c_to_c/,wellisthere,1483113586,"Hello, my school teaches c#. 
+
+is this anything to worry about?!
+
+is it hard to make the transition from c# to c++? 
+
+i guess I'm just confused on how the languages are chosen, and how they interrelate... 
+
+I was hoping to develop my own things for Unix/Linux.",6,6
+254,2016-12-31,2016,12,31,8,5l6gtx,What can I do with a CS degree that isn't related to CS?,https://www.reddit.com/r/computerscience/comments/5l6gtx/what_can_i_do_with_a_cs_degree_that_isnt_related/,NotttheNSA,1483139412,"So long story short, I'm in second year of a CS degree, and I'm not able to change course, it just isn't possible (not America).
+
+I have no interest in CS, I would even go as far as to say I actively dislike pretty much every ""CS"" type subject, maybe with the exception of databases. I do, however, love maths.
+
+So what can I do with a CS degree that has nothing to do with CS? I would love to work as an investment analyst/banker or as an actuary, but it seems next to impossible to get into from a CS degree.",54,0
+255,2016-12-31,2016,12,31,9,5l6uby,Mapping your IT Infrastructure for Migration to the Cloud,https://www.reddit.com/r/computerscience/comments/5l6uby/mapping_your_it_infrastructure_for_migration_to/,General_5Genius-,1483143904,,0,1
+256,2016-12-31,2016,12,31,9,5l6v4b,DOING THREAT INTEL THE HARD WAY - PART 3: PROCESSING THREAT INTELLIGENCE,https://www.reddit.com/r/computerscience/comments/5l6v4b/doing_threat_intel_the_hard_way_part_3_processing/,cyber_desk,1483144174,,0,1
+257,2016-12-31,2016,12,31,9,5l6w1n,Cyber threat intelligence (CTI) and its place within security operations  as well as the broader business  is growing.,https://www.reddit.com/r/computerscience/comments/5l6w1n/cyber_threat_intelligence_cti_and_its_place/,jayce_tech,1483144504,,0,3
+258,2016-12-31,2016,12,31,10,5l70sn,Why IT security should see hackers as business competitors,https://www.reddit.com/r/computerscience/comments/5l70sn/why_it_security_should_see_hackers_as_business/,Cyber_boy_,1483146190,,1,1
+259,2016-12-31,2016,12,31,10,5l734o,"A mathematician friend of mine asked me to check her resume for typos: she lists ""Shell"" as a programming language---she means she is proficient at shell programming in several shell programming langauges, is this the right way to say it?",https://www.reddit.com/r/computerscience/comments/5l734o/a_mathematician_friend_of_mine_asked_me_to_check/,infrikinfix,1483147031,"She is not a computer scientist but has picked up several programming languages---including a few shell scripting languages---in the course of her working on teams for some rather famous physics experiments (if I said which ones you would probably know them).
+
+Someone told her to put ""Shell"" down as a catch all for shell programming under the ""Programming Languages"" part of her resume. It doesn't seem right to me. I would think one would have something like ""Python, C/C++, Shell scripting (bash, python, cshell)"" or something like that, but I have absolutely no authority in this matter. Would saying ""Shell"" sound right to the people reading her resume? ",3,3
+260,2016-12-31,2016,12,31,13,5l7taj,Who else thanks Stack Overflow for your A in compsci?,https://www.reddit.com/r/computerscience/comments/5l7taj/who_else_thanks_stack_overflow_for_your_a_in/,starsyph,1483156873,,23,49
+261,2016-12-31,2016,12,31,17,5l8ve7,GATech Transfer Summer 2018,https://www.reddit.com/r/computerscience/comments/5l8ve7/gatech_transfer_summer_2018/,[deleted],1483174038,[deleted],0,1
+262,2016-12-31,2016,12,31,20,5l9ane,Does running multiple algorithms at the same time affect cpu minutes for each algorithm?,https://www.reddit.com/r/computerscience/comments/5l9ane/does_running_multiple_algorithms_at_the_same_time/,Huumah,1483183542,"I am running a genetic algorithm in matlab in one window and it takes around 60 cpu minutes to get the solution with a GA toolbox. 
+
+I was wondering if i open a new window in matlab and run another instance simultaneously, will it effect the cpu minutes time for both instances in getting to the solution?",2,8

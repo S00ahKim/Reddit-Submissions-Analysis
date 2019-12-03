@@ -1,0 +1,242 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2017-2-1,2017,2,1,18,5rejp5,Debugging pointers,https://www.reddit.com/r/tensorflow/comments/5rejp5/debugging_pointers/,Tall_Josh,1485940985,"Hi all, 
+
+I'm quite new to TF. I have written a Deep Q-Learning CNN to control a simple driving simulator. I've managed to plot the weights, biases and outputs of my fully connected layers on TensorBoard however, I'm not sure what I'm looking for. 
+I've watched [this] (https://www.youtube.com/watch?v=vq2nnJ4g6N0&amp;t=2738s). It mentions a normally distributed set of weights is good. I was wondering if anyone has any other debugging tips.
+Also, I'm using Relu for my activation functions but many of my 'rewards' and hence my 'qualities' output by the CNN are negative should I be using something like a Sigmoid instead?
+[here are some pics of what I'm doing](https://drive.google.com/drive/folders/0B8qBMyILKQdoUWlXWU4xN2NSakU?usp=sharing)
+",0,1
+1,2017-2-3,2017,2,3,0,5rn81s,[seq2seq] How to to find an unnamed node,https://www.reddit.com/r/tensorflow/comments/5rn81s/seq2seq_how_to_to_find_an_unnamed_node/,Jean-Porte,1486047654,"Hello,
+I'm using tensorflow legacy seq2seq and I'm wondering how I can feed to the encoder final state (which should be the decoder initial memory) in order to decode any vector without having to feed encoder input.
+
+https://github.com/tensorflow/tensorflow/blob/cb17d1b0e2b581b5da1d9597b7929ba764749d38/tensorflow/contrib/legacy_seq2seq/python/ops/seq2seq.py
+
+The node I want to feed is ""encoder_state"", defined on line 359 https://github.com/tensorflow/tensorflow/blob/cb17d1b0e2b581b5da1d9597b7929ba764749d38/tensorflow/contrib/legacy_seq2seq/python/ops/seq2seq.py#L359
+
+However, it's not named and I can't find it in the graph. I guess I could rewrite the code and name it but it seems messy. Do you have any suggestion ?
+
+Thanks",2,1
+2,2017-2-3,2017,2,3,21,5rtkjz,"What are some easy, interesting TensorFlow demo ideas for advanced high school students?",https://www.reddit.com/r/tensorflow/comments/5rtkjz/what_are_some_easy_interesting_tensorflow_demo/,bongololona,1486123695,"I am giving a demo for TensorFlow to my students this week. I want to build something interesting, and easy right in front of them. Any ideas about what fits the bill? ",2,5
+3,2017-2-6,2017,2,6,15,5scmph,What are the tensorflow cifar10 tutorial input/output layers?,https://www.reddit.com/r/tensorflow/comments/5scmph/what_are_the_tensorflow_cifar10_tutorial/,Happy_Prime,1486361486,"I'm relatively new to tensorflow - still trying to get a handle on everything. I'm aiming to be able to export a protobuf file from a modified version of the tutorial code in the [Deep CNN Tutorial](https://www.tensorflow.org/tutorials/deep_cnn/), with the aim of eventually importing it in a C++ program. However, I'm having difficulty identifying the appropriate input and output layers. I think it's all defined in the inference function in the cifar10.py file, but I'm not really sure. Pointers would be appreciated.",3,2
+4,2017-2-6,2017,2,6,17,5sd5rt,The deepdream example doesn't show the activation's patterns,https://www.reddit.com/r/tensorflow/comments/5sd5rt/the_deepdream_example_doesnt_show_the_activations/,de-sacco,1486370790,"I am trying the deepdream example in examples/tutorials, and I'd like to show the previews of the activation patterns.
+The show_graph() instruction doesn't work for me on both Safari and Chrome, the tf-graph-basic element doesn't render anything but white space. Can anybody confirm?",0,2
+5,2017-2-8,2017,2,8,15,5sr6p9,Identifying one image in a group of images or video,https://www.reddit.com/r/tensorflow/comments/5sr6p9/identifying_one_image_in_a_group_of_images_or/,mohanradhakrishnan,1486536460,"I have taken many ML MOOC's and now I want  to explore this topic. Looking for some pointers to start this. My perspective is that of a coder interested in Haskell Yesod and TensorFlow bindings.
+
+I want to identify a particular image from a group. If possible I would like to track one  person in a video. I found this https://research.googleblog.com/2017/02/advancing-research-on-video.html when I was searching.",0,1
+6,2017-2-9,2017,2,9,3,5suobk,Factorization machines for recommendations systems with TensorFlow,https://www.reddit.com/r/tensorflow/comments/5suobk/factorization_machines_for_recommendations/,tschellenbach,1486580226,,0,2
+7,2017-2-9,2017,2,9,10,5sx2aj,"Learn TensorFlow and Keras, 20% off for MLTrain in Atlanta",https://www.reddit.com/r/tensorflow/comments/5sx2aj/learn_tensorflow_and_keras_20_off_for_mltrain_in/,vasiloglou,1486604095,"If you want to learn how to code machine learning and AI algorithms in TensorFlow/Keras attend mltrain.cc on March 3rd and March 4th in Atlanta. On the first day you will be exposed to the fundamentals of Tensorflow and you will learn how to code your first algorithms and how to use the tf.learn package. On the second day you will get exposed to more advanced topics, such as how to do linear algebra, how to code advanced deep learning architectures and at last how to apply them in images, text and logic. You can register for both days or for each day independently. For more information visit http://www.mltrain.cc/single-post/2017/01/20/MLTrain-Atlanta-33-34-2017. Register using the code ""ATL_REDDIT"" and you will get 20% off. Ticket prices go up Friday February 10th midnight. For more information and inquires email nvasil+mltrain@gmail.com.",0,0
+8,2017-2-9,2017,2,9,18,5sz4wr,What are your recommendations for a good price/performance reasonably low power nVidia system for Tensorflow?,https://www.reddit.com/r/tensorflow/comments/5sz4wr/what_are_your_recommendations_for_a_good/,eleitl,1486634225,"Something cheaper than Jetson TX1 preferably. Consumer nVidia probably.
+
+Thanks!",8,3
+9,2017-2-9,2017,2,9,20,5szkxk,[help]Can't use tensorflow on Windows 10,https://www.reddit.com/r/tensorflow/comments/5szkxk/helpcant_use_tensorflow_on_windows_10/,hapliniste,1486641248,"Hi, I'm trying to use tensorflow (GPU) on Windows 10 but can't get it to work.
+
+I use Anaconda3 with python 3.5.2 64b as requested by tensorflow 0.12.
+I've created an env in conda and installed the wheel for tensorflow-gpu (had to download and rename the file with py3-none so it would install, as recommanded on the web).
+
+The thing is even tough TF is installed, python can't find it!
+
+Here's the infos that I get out from installing it and trying to import it:
+
+    (C:\Users\Alexandre\Anaconda3_p35\envs\tf) C:\Users\Alexandre\Anaconda3_p35\Scripts&gt;pip install tensorflow-gpu
+    Requirement already satisfied: tensorflow-gpu in c:\users\alexandre\anaconda3_p35\lib\site-packages
+    Requirement already satisfied: wheel&gt;=0.26 in c:\users\alexandre\anaconda3_p35\lib\site-packages (from tensorflow-gpu)
+    Requirement already satisfied: protobuf&gt;=3.1.0 in c:\users\alexandre\anaconda3_p35\lib\site-packages (from tensorflow-gpu)
+    Requirement already satisfied: numpy&gt;=1.11.0 in c:\users\alexandre\anaconda3_p35\lib\site-packages (from tensorflow-gpu)
+    Requirement already satisfied: six&gt;=1.10.0 in c:\users\alexandre\anaconda3_p35\lib\site-packages (from tensorflow-gpu)
+    Requirement already satisfied: setuptools in c:\users\alexandre\anaconda3_p35\lib\site-packages (from protobuf&gt;=3.1.0-&gt;tensorflow-gpu)
+    Requirement already satisfied: appdirs&gt;=1.4.0 in c:\users\alexandre\anaconda3_p35\lib\site-packages (from setuptools-&gt;protobuf&gt;=3.1.0-&gt;tensorflow-gpu)
+    Requirement already satisfied: packaging&gt;=16.8 in c:\users\alexandre\anaconda3_p35\lib\site-packages (from setuptools-&gt;protobuf&gt;=3.1.0-&gt;tensorflow-gpu)
+    Requirement already satisfied: pyparsing in c:\users\alexandre\anaconda3_p35\lib\site-packages (from packaging&gt;=16.8-&gt;setuptools-&gt;protobuf&gt;=3.1.0-&gt;tensorflow-gpu)
+    
+    (C:\Users\Alexandre\Anaconda3_p35\envs\tf) C:\Users\Alexandre\Anaconda3_p35\Scripts&gt;python
+    Python 3.5.2 |Continuum Analytics, Inc.| (default, Jul  5 2016, 11:41:13) [MSC v.1900 64 bit (AMD64)] on win32
+    Type ""help"", ""copyright"", ""credits"" or ""license"" for more information.
+    &gt;&gt;&gt; import tensorflow
+    Traceback (most recent call last):
+      File ""&lt;stdin&gt;"", line 1, in &lt;module&gt;
+    ImportError: No module named 'tensorflow'
+    &gt;&gt;&gt;    
+
+Do you have any idea on what the problem might be? In the meantime I'll create a VM with Ubuntu and run it on CPU, but it's not a great solution...
+
+Thank for reading!
+
+EDIT: I tried installing the 1.0 release of TF (not the rc) and it worked well! (with pip)",9,3
+10,2017-2-10,2017,2,10,2,5t17e7,TensorFlow howto: a universal approximator inside a neural net,https://www.reddit.com/r/tensorflow/comments/5t17e7/tensorflow_howto_a_universal_approximator_inside/,morgangiraud,1486659676,,1,5
+11,2017-2-11,2017,2,11,23,5texwc,DTB: Dynamic Training Bench (for Tensorflow models),https://www.reddit.com/r/tensorflow/comments/5texwc/dtb_dynamic_training_bench_for_tensorflow_models/,pgaleone,1486823369,"[Dynamic Training Bench](https://github.com/galeone/dynamic-training-bench) is a tool to simplify the training, evaluation and hyperparameter tuning of Tensorflow models.
+
+I built this tool for 4 main reasons:
+
+1. The training phase of a ML model is almost the same for every model of a certain type
+2. When we train a model we usually want to monitor some metrics and visualize some result
+3. During the training phase, we want to save the best model, where the goodness of the model is given by its performance on the evaluation set, measured by some metric
+4. There's a lack of engineering in the ML field
+
+I think that this last point requires an explanation: usually, researcher builds their models and input sources as they want.
+Even if different researchers uses Tensorflow, everyone follows it's own pattern:
+
+* someone writes a huge python file with everything inside
+* someone writes different scripts with different names and write somewhere how to execute it
+* someone refers to some dataset that's not provided with the code and who want's to reproduce the experiment must waste its time looking for this dataset on the internet.
+
+**In short**:  it's hard to reproduce the experiments, running the code, obtain and preprocess the datasets.
+As a consequence, there are lots of people that are *wasting their time* reimplementing stuff.
+
+DTB aim is (also) to standardize the definition of the input sources (how to obtain a dataset, how to preprocess it, how to split in train/evaluation/test) and the training procedures.
+Moreover, even models should be standardized: if I'm defining a classifier I must implement a Classifier interface; if I'm defining a Regressor I must implement another interface, and so on...
+
+I invite you to browse the [models](https://github.com/galeone/dynamic-training-bench/tree/master/models) and [inputs](https://github.com/galeone/dynamic-training-bench/tree/master/inputs) folders to find out how I defined the interfaces and their implementations.
+
+Clearly, there's still a lot of work to do. There are lots of datasets that can be implemented, tests to do, interfaces to define and implement and so on... Moreover, even the organization of the train.py and evaluate.py file can be improved, maybe creating an interface `TrainProcess` and it's specializations like `TrainClassifier`, `TrainRegressor`, ...
+
+I'm looking for collaborators!",0,2
+12,2017-2-13,2017,2,13,1,5tm4p5,[seq2seq] En-Fr translate: Reason for using output_projection,https://www.reddit.com/r/tensorflow/comments/5tm4p5/seq2seq_enfr_translate_reason_for_using_output/,critiqjo,1486915684,"Ref: https://github.com/tensorflow/models/blob/f63a80a/tutorials/rnn/translate/seq2seq_model.py#L93-L101
+
+It says:
+
+&gt; If we use sampled softmax, we need an output projection.
+
+From what I understand, output_projection is used when we do embedding. Even though both sampled softmax and embedding is done because the complete set of output labels is large, they don't have any direct (cause-effect) relation with each other, right? ...in which case lines 98-101 should come before the `if` block?
+
+_UPDATE:_ I just found out that the seq2seq tutorial is obsolete as of v1.0. And I found an example using the new API: https://github.com/ematvey/tensorflow-seq2seq-tutorials",2,1
+13,2017-2-14,2017,2,14,16,5tyss9,"This post was a hit on LinkedIn. Sharing it here, hope it helps something. I had some struggle with tensorflow documentation while getting started. So, I want to create a series of tutorials to help smart people quickly start with TF. 1st one is here, feedback will be great.",https://www.reddit.com/r/tensorflow/comments/5tyss9/this_post_was_a_hit_on_linkedin_sharing_it_here/,sankit123,1487056487,,0,13
+14,2017-2-14,2017,2,14,23,5u0llo,Will there be many API changes between TensorFlow 1.0.0-rc2 and TensorFlow 1.0.0 final release?,https://www.reddit.com/r/tensorflow/comments/5u0llo/will_there_be_many_api_changes_between_tensorflow/,Franck_Dernoncourt,1487083929,(I am starting a new TensorFlow project and hesitate between 0.12 and 1.0.0-rc2),0,4
+15,2017-2-15,2017,2,15,23,5u7th6,Accelerating TensorFlow training and inference using OpenCL,https://www.reddit.com/r/tensorflow/comments/5u7th6/accelerating_tensorflow_training_and_inference/,rodburns,1487170325,,1,7
+16,2017-2-16,2017,2,16,8,5ub3jm,We Need to Go Deeper: A Practical Guide to Tensorflow and Inception  Initialized Capital,https://www.reddit.com/r/tensorflow/comments/5ub3jm/we_need_to_go_deeper_a_practical_guide_to/,vincechu,1487200967,,0,6
+17,2017-2-16,2017,2,16,9,5ubjlr,TensorFlow Dev Summit now live streaming,https://www.reddit.com/r/tensorflow/comments/5ubjlr/tensorflow_dev_summit_now_live_streaming/,blazeAmaze,1487205762,,0,1
+18,2017-2-16,2017,2,16,10,5ubox0,TensorFlow v1.0 announced!,https://www.reddit.com/r/tensorflow/comments/5ubox0/tensorflow_v10_announced/,blazeAmaze,1487207436,,0,17
+19,2017-2-16,2017,2,16,12,5ucbn2,"[help] Is it possible to suppress TensorFlow wasn't designed to use ____ instructions, but these are available on your machine and could speed up CPU computations?",https://www.reddit.com/r/tensorflow/comments/5ucbn2/help_is_it_possible_to_suppress_tensorflow_wasnt/,nazisallthewaydown,1487214775,"ubuntu 16.04, python 2.7
+
+All this gets output to the console every time I run a script:
+
+    W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+    W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+    W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+    W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+    W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+    W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+",1,2
+20,2017-2-16,2017,2,16,15,5ud7s7,How to write a new optimization technique [Help request],https://www.reddit.com/r/tensorflow/comments/5ud7s7/how_to_write_a_new_optimization_technique_help/,jrkirby,1487226550,"I have an idea for an optimization algorithm on neural nets that I want to try out.  Instead of using gradient descent to update all the weights at once, I want to try using another technique to update a single weight, or a small number of weights each iteration. I want to use the gradients, so I need back propagation.
+
+Can someone give me some high level direction on how to attempt this with tensorflow? It seems like I would have to write a new operator (or several) in C++, but perhaps there is an easier way?
+
+If I do have to write new operators, can someone give me direction on doing that? Are there any useful guides towards writing TF ops? It seems I just need to go to [ops/training_ops](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/core/ops/training_ops.cc), to register a new function, the go to [kernels/training_ops](https://github.com/tensorflow/tensorflow/blob/a0d784bdd31b27e013a7eac58a86ba62e86db299/tensorflow/core/kernels/training_ops.cc) and implement it. Then I can use it after I compile my edited version of TF in a python script and test it out. Are there any other major steps I'm missing?",0,3
+21,2017-2-17,2017,2,17,4,5uhac5,Docker issues,https://www.reddit.com/r/tensorflow/comments/5uhac5/docker_issues/,nio88,1487273810,"Hi guys,
+Im a newbie in ML and tensor flow, and Im trying to follow the Tensorflow for poets tutoral. Everything goes fine but in some point randomly, when Im creating bottlenecks for my images for different categories, docker exit abruptly.
+with this error:
+
+ERRO[0330] error getting events from daemon: EOF
+
+The number error, not always is the same, and the error not always is in the same image, sometimes is earlier and sometimes is later, I mean, sometimes container crash after processing 10 images, and another time after processing 400, but never finish :(.
+Im in OSX with this version of docker Version 1.13.1-beta42 (15350).
+
+I was searching on internet for finding people with same issue, but no luck. 
+
+Any help is appreciated.",5,1
+22,2017-2-17,2017,2,17,6,5uhu8y,[advice] TensorFlow in production,https://www.reddit.com/r/tensorflow/comments/5uhu8y/advice_tensorflow_in_production/,villasv,1487279026,"I guess most people use tf as data science experimentation or for pure academic works, but time has come to my model enter the production service at my company.
+
+Thing is, TensorFlow Serving is quite complicated and is becoming a real pain to design a system around it. Even getting a simple model like MNIST working is quite consuming, let alone making use of its ""flexibility"" to serve something else (like a sklearn model).
+
+What are the current best practices for serving tensorflow models (or more generally any ML model)? Is loading the serialized model from disk and running it much worse than TF Serving? What about necessary preprocessing, is it done separately?
+
+Any directions are welcome.",5,6
+23,2017-2-17,2017,2,17,10,5uj8xc,Some questions related to Tensorflow by a noob,https://www.reddit.com/r/tensorflow/comments/5uj8xc/some_questions_related_to_tensorflow_by_a_noob/,fretboard_squatter,1487293293,"1- Should I start with tensorflow on Windows or Ubuntu?
+
+2- Will CUDA 8.0  run on Ubuntu 16.10?
+
+3- I tried setting up tensorflow on Windows using Anaconda and CMD but got the same error message. ""...not supported on this wheel.."" I have a 64 bit Windows 10 installation so I don't understand why I am having this compatibility issue.
+
+Any help would be hugely appreciated. Thanks in advance guys!",5,3
+24,2017-2-17,2017,2,17,12,5ujugk,Trying to create an RNN for a Rubik's Cube,https://www.reddit.com/r/tensorflow/comments/5ujugk/trying_to_create_an_rnn_for_a_rubiks_cube/,OikuraZ95,1487300687,"Hi Everyone, I am trying to create an Recurrent Neural Net with LSTM for a 2x2x2 Rubiks Cube with Tensorflow. I've already made Feed-Forward networks for solving the cube (with a max scramble size of 6 moves) and achieved an solve rate of 47%. However, I want to improve that by using RNNs. However I am not entirely sure how to train the network here. The way I want this to work, is by sending in the cube state at each time step. Essentially from a scrambled state, there are a sequence of moves that lead it to a solved state. I want it to predict those moves at each step. I have the data and training the network doesn't seem too hard if I am understanding this correctly, but every RNN LSTM tutorial only gets a prediction at the end of the time-steps. I want to get a prediction at each time step and it must also effect the next incoming cube-state if that makes sense. The reason I want an LSTM network is because the previous network sometimes finds itself in bad scenarios. For example, it may get stuck on a particular cube state and do the same moves over and over again. It may simply rotate the right face and then rotate it back in the opposite direction over and over again. I actually managed to fix this by also letting the feed-forward network taking in the last action that was made into the cube (Essentially making it an RNN) and that increased my solving rate by 5%, but I would like to achieve better results. I would like your guys input and opinions on the matter. Thanks very much!!!
+
+
+**TL;DR**: The model should take in the vector state of the cube and outputs a one-hot vector of what move to make. These methods have already been implemented for a feed-forward network, but how would I make it work for an LSTM based network?",2,7
+25,2017-2-18,2017,2,18,6,5uou27,Is there a tutorial or class for new features in TF 1.0,https://www.reddit.com/r/tensorflow/comments/5uou27/is_there_a_tutorial_or_class_for_new_features_in/,where_is_the_mustard,1487367225,"I took the Udacity class for TF and found it really helpful. I hope they either update that class, or upload a new one.
+
+Anyone know if this already exists?",3,7
+26,2017-2-19,2017,2,19,4,5uu2ay,[Keras] Should I apply an activation function to the last layer when using binary_cross_entropy loss function?,https://www.reddit.com/r/tensorflow/comments/5uu2ay/keras_should_i_apply_an_activation_function_to/,iamiamwhoami,1487445392,,9,5
+27,2017-2-20,2017,2,20,17,5v3i1h,Strange Windows TF (cpu) output,https://www.reddit.com/r/tensorflow/comments/5v3i1h/strange_windows_tf_cpu_output/,True-Chainz,1487579616,"http://imgur.com/a/YrcYA
+While testing my TF install I got this strange output (see picture above). Seems like every time it accesses some file in the library it prints it out on the console.
+Is this normal? If not how do I get a normal output?
+Thanks for any help.",3,3
+28,2017-2-20,2017,2,20,20,5v400j,Tensorflow and Django,https://www.reddit.com/r/tensorflow/comments/5v400j/tensorflow_and_django/,gautamrbharadwaj,1487589182,"When I try to run tensorflow in Django it is giving me this error and I am getting this error, can anyone tell me how to solve this error ?
+
+Tensor(""Variable:0"", shape=(40, 20), dtype=float32_ref) must be from the same graph as Tensor(""Variable_2/read:0"", shape=(), dtype=float32)",4,1
+29,2017-2-21,2017,2,21,17,5vagf2,TensorFlow Does not work in Jupyter Notebook,https://www.reddit.com/r/tensorflow/comments/5vagf2/tensorflow_does_not_work_in_jupyter_notebook/,jackbrucesimpson,1487665954,"I compiled the GPU (CuDA) enabled version of TensorFlow on my 2013 MacBook Pro (OS X Sierra).
+
+If I import the library it works perfectly, but if I try to import it in the Jupyter Notebook, I come across a weird bug. My path info for CuDA is:
+
+Does anyone know why this is happening? Is it a bug in TF?",6,0
+30,2017-2-22,2017,2,22,2,5vcu1m,tensorflow with rstudio,https://www.reddit.com/r/tensorflow/comments/5vcu1m/tensorflow_with_rstudio/,mrchypark,1487698542,,1,1
+31,2017-2-22,2017,2,22,4,5vdowt,Does anyone know of an example using multiple GPUs in Keras?,https://www.reddit.com/r/tensorflow/comments/5vdowt/does_anyone_know_of_an_example_using_multiple/,iamiamwhoami,1487706607,"I have a model that's too big to run on a single GPU. I've seen some allusions to it being possible, but I'm having trouble finding concrete examples. I've also seen some references to model parallelism vs data parallelism. I think I want model parallelism, but I'm having some trouble understanding the difference.",0,2
+32,2017-2-22,2017,2,22,11,5vg5qg,models trained on gpu not loading properly on cpu only.,https://www.reddit.com/r/tensorflow/comments/5vg5qg/models_trained_on_gpu_not_loading_properly_on_cpu/,FutureIsMine,1487732000,,0,2
+33,2017-2-23,2017,2,23,4,5vkukv,Using the latest tensorflow docker image? It was just updated. Here's a list of everything inside.,https://www.reddit.com/r/tensorflow/comments/5vkukv/using_the_latest_tensorflow_docker_image_it_was/,weighanchore,1487792249,,0,3
+34,2017-2-23,2017,2,23,12,5vnuro,How does TensorFlow use GPUs?,https://www.reddit.com/r/tensorflow/comments/5vnuro/how_does_tensorflow_use_gpus/,real_charlie_parker,1487820681,,1,7
+35,2017-2-24,2017,2,24,6,5vtfg8,http://stackoverflow.com/questions/42426960/how-does-one-train-multiple-models-in-a-single-script-in-tensorflow-when-there-a,https://www.reddit.com/r/tensorflow/comments/5vtfg8/httpstackoverflowcomquestions42426960howdoesonetra/,[deleted],1487887143,[deleted],3,0
+36,2017-2-24,2017,2,24,12,5vv9fi,Why not tensorflow uses the convolve() function in Eigen to implement convolution?,https://www.reddit.com/r/tensorflow/comments/5vv9fi/why_not_tensorflow_uses_the_convolve_function_in/,sunalbert,1487907450,"I find that the convolve() function has been implemented in Eigen(eigen/unsupported/Eigen/CXX11/src/Tensor/TensorConvolution.h),but tensorflow use another function SpatialConvolution implemented in /tensorflow/core/kernels/eigen_spatial_convolutions.h. Why tensorflow uses SpatialConvolution() instead of convolve() Do the  
+two functions have difference in performance?",0,2
+37,2017-2-24,2017,2,24,19,5vwst5,combine layers from different trained instances of NN,https://www.reddit.com/r/tensorflow/comments/5vwst5/combine_layers_from_different_trained_instances/,deluded_soul,1487932330,"I am using tensorflow to train two instances of the same neural network with two different datasets. The network itself is quite simple with an input and output layer and 6 hidden layers (each layer is a 20 neurons followed by a non-linear activation function).
+
+I can train the network with two different datasets and that is fine. Now, what i want to do is basically create a new network which is a combination of these two trained networks. In particular, I want the input and the first 3 layers to be from one of the trained network and the last 3 layers and the output layer to be from the other network. 
+
+I am very new to tensorflow and have not found a way to do this. Can someone point me to the API or some way to do this sort of hybrid networks?
+",0,1
+38,2017-2-25,2017,2,25,0,5vy0bk,How to Truncate Backpropagation in RNN?,https://www.reddit.com/r/tensorflow/comments/5vy0bk/how_to_truncate_backpropagation_in_rnn/,brandking,1487949616,"Note: [cross-post from ML Questions.](https://www.reddit.com/r/MLQuestions/comments/5vxstw/how_to_truncate_backpropagation_in_rnn/)
+
+Using TensorFlow I'm attempting to classify inputs based on sequences of pixels. The data set is [55,000 x 784] where 55,000 is the number of instances and 784 is the number of features (pixels).
+
+The code I've written creates 550 batches of size 100, with each element in the batch having 784 features. The code loops over the batches feeding one batch at a time to the RNN (LSTM). The code prior to processing the data creates 8 mini-batches each having 98 features. These mini-batches are looped over and used to train the RNN, where each previous state is supplied as the initial state to the next iteration. The final output is used to classify the batch of inputs. Cross Entropy is the loss function and Gradient Clipping is not used.
+
+Unfortunately, the ~~code~~ ~~performs~~ ~~very~~ ~~poorly~~ resulting accuracy is very low and I'd appreciate help in understanding why that is. 
+
+From the TensorFlow truncated backpropagation example, it appears batches are split into mini-batches that are then feed into the model. The code below creates mini-batches within the model. Is this difference significant? If so, why/how? Is the mini-batch processing implementation correct? Does *last_output* need to be passed through an activation function before applying the affine transformation?
+
+Following are pieces of code from the LSTM which encapsulates properties/functions such as inputs, labels, weights, biases, predictions, etc. 
+
+    self._x = tf.placeholder(tf.float32, [self._batch_size, self._features])
+    self._y = tf.placeholder(tf.int32, [self._batch_size, self._num_labels]) 
+    ...
+    output = None
+    state = self._init_state
+
+    data = tf.reshape(self._x, [self._batch_size, self._features, 1])
+
+    # Re-batch data.
+    for mini_batch in np.arange(self._mini_batches):
+        if mini_batch &gt; 0:
+            tf.get_variable_scope().reuse_variables()
+
+        inputs = data[:, (mini_batch * self._mini_steps):((mini_batch + 1) * self._mini_steps), :]
+        output, state = tf.nn.dynamic_rnn(self._lstm, inputs, initial_state=state, dtype=tf.float32)
+
+    output = tf.transpose(output, [1, 0, 2])  # [mini_batch_size x batch_size x rnn_size]
+    last_output = tf.gather(output, int(output.get_shape()[0] - 1))  # [batch_size x rnn_size]
+
+    logits = tf.matmul(last_output, self._W) + self._b
+    return tf.nn.softmax(logits)
+    ...
+    cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(self.y_hat, self.y))  # Loss function.
+
+The training setup code is available [here](http://pastebin.com/YnfaHzA9), and full model code is available [here](http://pastebin.com/3peREwt9). Essentially, I'm attempting to implement something similar to this [TensorFlow tutorial](https://www.tensorflow.org/tutorials/recurrent#truncated_backpropagation) for which the full code is available [here](https://github.com/tensorflow/models/blob/master/tutorials/rnn/ptb/ptb_word_lm.py).",5,2
+39,2017-2-25,2017,2,25,1,5vyb6a,Installing TensorFlow with Anaconda,https://www.reddit.com/r/tensorflow/comments/5vyb6a/installing_tensorflow_with_anaconda/,depireux,1487952696,"I followed the instructions on [TensorFlow.org](https://www.tensorflow.org/install/install_windows), but ran into a problem. 
+
+I installed Anaconda, which installed Python 3.6, and did the **conda create** and the **activate tensorflow**. 
+
+Then I did the **pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.0-cp35-cp35m-win_x86_64.whl** and I get that it's not a supported wheel on this platform. 
+
+Is it because Anaconda installed Python 3.6 instead of 3.5? Is there a simple work-around?
+
+TIA!",3,3
+40,2017-2-25,2017,2,25,7,5w0gqx,How does one train multiple models in a single script in TensorFlow when there are GPUs present?,https://www.reddit.com/r/tensorflow/comments/5w0gqx/how_does_one_train_multiple_models_in_a_single/,real_charlie_parker,1487974067,,0,6
+41,2017-2-25,2017,2,25,7,5w0of8,How can I apply a function only to the maximal element of each row of a tensor?,https://www.reddit.com/r/tensorflow/comments/5w0of8/how_can_i_apply_a_function_only_to_the_maximal/,Imnimo,1487976312,"I have a 2D tensor, and I want to apply a function only to the maximum elements of each row. For example, if my tensor is:
+
+[[0.5,0.7],[0.4,0.3]], and my function is to multiply by 2, then I want my result to be [[0.5,1.4],[0.8,0.3]].
+
+My current approach is to use tf.select, like this:
+
+tf.select( tf.equal(my_tensor,tf.reduce_max(my_tensor,axis=1) ), my_function(my_tensor), my_tensor)
+
+The idea is to create a tensor which is the max of each row using tf.reduce_max, and then use tf.equal to create a boolean tensor which says whether each element of input is equal to its row max. This then gets passed to tf.select as a mask to determine whether the function should be applied. However, this doesn't seem to work - the max tensor is not of the same dimension as the input tensor, and I think there's some issue with broadcasting. Also, this method may run into issues if there are two equal maximal elements. I'd rather have a method that automatically breaks ties, perhaps using tf.arg_max.",0,3
+42,2017-2-27,2017,2,27,23,5wgvf7,Using TensorFlow and the Raspberry Pi in cities and on farms | Opensource.com,https://www.reddit.com/r/tensorflow/comments/5wgvf7/using_tensorflow_and_the_raspberry_pi_in_cities/,DonWatkins1,1488204188,,0,1
+43,2017-2-28,2017,2,28,8,5wk55a,Estimating GPU memory usage for training?,https://www.reddit.com/r/tensorflow/comments/5wk55a/estimating_gpu_memory_usage_for_training/,iamiamwhoami,1488236546,Is there a good way to estimate how much memory will be required for training a neural network in TF?,1,6
+44,2017-2-28,2017,2,28,19,5wn7wu,"This Tensorflow tutorial series has been very very popular on LinkedIn. Posting it here. Hope this helps someone. I had some struggle when I started with Tensorflow. So, I am creating quick tutorials for smart programmers. Here is one to build image classifier using convolutional neural network.",https://www.reddit.com/r/tensorflow/comments/5wn7wu/this_tensorflow_tutorial_series_has_been_very/,sankit123,1488276762,,0,20

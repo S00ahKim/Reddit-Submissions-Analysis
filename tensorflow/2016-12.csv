@@ -1,0 +1,125 @@
+,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
+0,2016-12-1,2016,12,1,23,5fwrbb,Is a machine learning background relevant for TensorFlow?,https://www.reddit.com/r/tensorflow/comments/5fwrbb/is_a_machine_learning_background_relevant_for/,saturdayiscaturday,1480601704,"I'm currently going through Professor Andrew Ng's Machine Learning Course on Coursera, which I find interesting enough to continue and finish. However, I'm curious as to how much machine learning fundamental knowledge is really needed to start developing things with TensorFlow. Is it useful? Is it relevant? I'm not sure what kind of AI I want to develop yet but my curiosity is pulling me in this direction. ",4,2
+1,2016-12-2,2016,12,2,2,5fxux6,Model checkpointing using meta-graphs in TensorFlow,https://www.reddit.com/r/tensorflow/comments/5fxux6/model_checkpointing_using_metagraphs_in_tensorflow/,jfsantos,1480613457,,0,2
+2,2016-12-2,2016,12,2,16,5g1ydm,How to use tensorflow with custom image dataset?,https://www.reddit.com/r/tensorflow/comments/5g1ydm/how_to_use_tensorflow_with_custom_image_dataset/,alekhka,1480662054,"I want to make an experiment using DNNregresor. What I want to do is to use the DNNregressor class to make a neural network pixel to pixel regression. I am not able to find any code which illustrates opening custom images. I am getting this error when I use decode_png and sess.run key = f.key
+AttributeError: 'int' object has no attribute 'key'",0,2
+3,2016-12-3,2016,12,3,1,5g4ay9,"In a NN, how can one relate the pixel from an input image with the neuron (from the hidden layer) which has the ""best"" connection with?",https://www.reddit.com/r/tensorflow/comments/5g4ay9/in_a_nn_how_can_one_relate_the_pixel_from_an/,rumirama,1480697649,"Hi there
+
+Is there a way I can use to identify which neuron in my hidden layer is having a bigger impact on a specific region of an input image?
+
+My input image is converted to an array and I want to know the pixel distribution per each neuron, i.e. making some kind of sorting of the connection with largest weight, associating the pixel to the neuron which it shares the ""best"" connection with.
+
+Thank you.",0,2
+4,2016-12-5,2016,12,5,4,5gh0tl,Can I incrementally retrain a model?,https://www.reddit.com/r/tensorflow/comments/5gh0tl/can_i_incrementally_retrain_a_model/,Simusid,1480878272,"I'm getting started with Tensorflow and I have had great success with [this image recognition tutorial](https://www.youtube.com/watch?v=QfNvhPx5Px8).   I decided I wanted to try and classify motorcycles vs cars.   I trained a model with 700+ images and according to my test images I'm getting over 0.98 recognition.   I'm really happy with this.
+
+The next thing I want to try is to hook up a web cam in my car to acquire real live imagery and try to detect cars/bikes in my blind spots while driving.  
+
+So eventually I'll have tons of webcam stills.   I know I could take them all and batch retrain my model.    But is there an easier or built in way to incrementally train?   If I throw a novel image at the model and it labels as ""bike"" 0.99, is there a way to acknowledge it is correct and update the model live?   Or is the best way to just mark and save that image and do it by batch offline?
+
+",2,3
+5,2016-12-6,2016,12,6,0,5gmbzs,"Tensor flow, Docker and Visual Studios 2015?",https://www.reddit.com/r/tensorflow/comments/5gmbzs/tensor_flow_docker_and_visual_studios_2015/,mortonprod,1480950162,"Hey guys,
+
+I have tensorflow up and running with docker on windows. I would like to develop with VS with intellisense but I'm not sure how.
+
+**Do I need to install tensorflow locally to get this information?**
+
+*Any ideas? Thanks in advance*",1,5
+6,2016-12-7,2016,12,7,2,5gu42r,Decoupling dequeueing from gradient computation,https://www.reddit.com/r/tensorflow/comments/5gu42r/decoupling_dequeueing_from_gradient_computation/,mkmatlock,1481044940,"I'm currently trying to move away from using feeds and start using queues in order to support larger datasets. Using queues works fine for the optimizers in tensorflow, since they only evaluate the gradient once for each dequeue operation. However, I have implemented interfaces with other optimizers that perform line searches, and I need to evaluate not just the gradient, but also the loss at multiple points for the same batch. Unfortunately, with the normal queueing system each loss evaluation will execute a dequeue instead of computing for the same batch several times.
+
+Is there a way to decouple the dequeuing operation from the gradient/loss computation in such a way that I can execute dequeue once and then execute the gradient/loss computation several times on the current batch?
+
+Edit: Please note that my input tensors have variable length. We work with molecular data and each molecule has a different number of atoms. This is different from image data, where images are typically all scaled to a fixed size. So, for example, I think that using a tf.Variable assignment will not work because tf.Variable must have a fixed size.",1,1
+7,2016-12-8,2016,12,8,2,5h178t,"TensorFlow Dev Summit: Feb 15th, 2017",https://www.reddit.com/r/tensorflow/comments/5h178t/tensorflow_dev_summit_feb_15th_2017/,vincentvanhoucke,1481131784,,0,6
+8,2016-12-10,2016,12,10,9,5hhfq5,Real-time streaming predictions using Google Cloud Dataflow and Google Cloud Machine Learning,https://www.reddit.com/r/tensorflow/comments/5hhfq5/realtime_streaming_predictions_using_google_cloud/,fhoffa,1481330358,,0,2
+9,2016-12-11,2016,12,11,14,5hol3t,Now tensorflow golang api can talk to tensorboard,https://www.reddit.com/r/tensorflow/comments/5hol3t/now_tensorflow_golang_api_can_talk_to_tensorboard/,helinwang,1481433613,,0,1
+10,2016-12-12,2016,12,12,1,5hqtrg,save and load tensorflow tensors using tensorflow golang api,https://www.reddit.com/r/tensorflow/comments/5hqtrg/save_and_load_tensorflow_tensors_using_tensorflow/,helinwang,1481473719,,0,2
+11,2016-12-13,2016,12,13,5,5hywe0,word2vec trouble loading data,https://www.reddit.com/r/tensorflow/comments/5hywe0/word2vec_trouble_loading_data/,bananastand03,1481573438,"I am trying use tensorflow's word2vec model on a dataset that I made on rap lyrics. I have the text files stored in a directory, called Everything, and then subdirectories for each artist, and in each artist's directory, I have all the .txt files that I scraped from the web. I compressed the Everything directory, and got a .zip file of everything in it. I then fed the word2vec.py file the .zip as such:
+
+    flags.DEFINE_string(""train_data"", '/.../word2vec/Everything.zip', ""Training text file. ""
+                    ""E.g., unzipped file http://mattmahoney.net/dc/text8.zip."")
+
+train_data is then fed into a word2vec.skipgram object, it looks like, as the parameter filename.
+
+However I am getting this error when I try to run the python script:
+    
+    UnicodeDecodeError: 'utf8' codec can't decode byte 0xbd in position 0: invalid start byte
+
+I am very new to this stuff, so any help in trying to figure this out would be appreciated. From what I gather, it is something to do with my data not being a JSON, but then how would I convert my current data set into a JSON? I am doing this on Unix if it makes a difference. Thank you!",1,1
+12,2016-12-13,2016,12,13,9,5i0e9y,What language does tensorflow use?,https://www.reddit.com/r/tensorflow/comments/5i0e9y/what_language_does_tensorflow_use/,ilikeover9000turtles,1481588821,"I have heard it uses both python and C++.
+
+I would assume that python is just for the user interface right, and that everything important uses C++?",4,1
+13,2016-12-13,2016,12,13,11,5i1489,Can I use Tensorflow in a game engine?,https://www.reddit.com/r/tensorflow/comments/5i1489/can_i_use_tensorflow_in_a_game_engine/,senpai_eric,1481597429,"like gamemaker, unity, etc.. ",2,1
+14,2016-12-13,2016,12,13,16,5i2b8v,"Quick question: Running Tensorflow from Docker (Windows), but the very first page forces me to type a password which I don't know",https://www.reddit.com/r/tensorflow/comments/5i2b8v/quick_question_running_tensorflow_from_docker/,[deleted],1481614024,[deleted],0,1
+15,2016-12-13,2016,12,13,20,5i31pe,Convolutional Autoencoders in Tensorflow,https://www.reddit.com/r/tensorflow/comments/5i31pe/convolutional_autoencoders_in_tensorflow/,pgaleone,1481627612,,0,4
+16,2016-12-15,2016,12,15,7,5idift,I turned a tensorflow autoencoder into some JS UI.,https://www.reddit.com/r/tensorflow/comments/5idift/i_turned_a_tensorflow_autoencoder_into_some_js_ui/,cantdutchthis,1481752834,,3,2
+17,2016-12-16,2016,12,16,5,5ijwn2,"All code from ""Machine Learning with TensorFlow"" is now available on GitHub",https://www.reddit.com/r/tensorflow/comments/5ijwn2/all_code_from_machine_learning_with_tensorflow_is/,CarbonFire,1481834018,,0,8
+18,2016-12-17,2016,12,17,2,5ipn1y,"Is there any resource which someone, with no coding ability, could use to train an image recognition bot with a particular set of images?",https://www.reddit.com/r/tensorflow/comments/5ipn1y/is_there_any_resource_which_someone_with_no/,Gonzo_Rick,1481910895,"I'm really interested in TensorFlow and machine learning, but lack almost any coding experience. I'm hoping there's a web app or downloadable program out there with which someone like myself could either drag and drop labeled images or easily edit pre-written code to point to a directory of a library of such images. ",6,2
+19,2016-12-17,2016,12,17,6,5iqyig,Tflearn generator training,https://www.reddit.com/r/tensorflow/comments/5iqyig/tflearn_generator_training/,[deleted],1481925005,[deleted],0,2
+20,2016-12-21,2016,12,21,21,5jjqbt,trying to install tensorflow on my laptop for python3,https://www.reddit.com/r/tensorflow/comments/5jjqbt/trying_to_install_tensorflow_on_my_laptop_for/,hugokhf,1482324432,"So I am trying to install tensorflow for python 3 on my laptop, I think I did the installation for both python 2.7 and 3.
+
+anyway, in my tensorflow folder inside my user directory, in the bin, lib and include, it only showed python 2.7?? how do I change that?
+
+    $ python3 
+    ...
+    &gt;&gt;&gt; import tensorflow as tf
+    &gt;&gt;&gt; hello = tf.constant('Hello, TensorFlow!')
+    &gt;&gt;&gt; sess = tf.Session()
+    &gt;&gt;&gt; print(sess.run(hello))
+    Hello, TensorFlow!
+    &gt;&gt;&gt; a = tf.constant(10)
+    &gt;&gt;&gt; b = tf.constant(32)
+    &gt;&gt;&gt; print(sess.run(a + b))
+    42
+     &gt;&gt;&gt;
+
+I ran the above test, and it printed out 
+    b'Hello, TensorFlow!'
+
+instead of just
+    Hello, TensorFlow!
+
+does it mean I did not installed it properly?
+
+ps I also used python3 instead of python when doing the test. python won't run as it give me Error importing Tensorflow",4,6
+21,2016-12-22,2016,12,22,12,5jobne,Tfrecords guide,https://www.reddit.com/r/tensorflow/comments/5jobne/tfrecords_guide/,warmspringwinds,1482376789,,0,1
+22,2016-12-22,2016,12,22,21,5jq8lf,build_image_data error,https://www.reddit.com/r/tensorflow/comments/5jq8lf/build_image_data_error/,[deleted],1482408340,[deleted],0,1
+23,2016-12-23,2016,12,23,6,5jtaie,Error installing tf on windows with anaconda,https://www.reddit.com/r/tensorflow/comments/5jtaie/error_installing_tf_on_windows_with_anaconda/,fish___,1482443346,"I currently have a working installation of anaconda (with python 3.5) and I am trying to install tensorflow on my windows laptop but when I run the command to install it (in cmd) some stuff comes up then I get this single error: ""cannot remove entries from nonexistent file c:\program files\anaconda3\lib\site-packages\easy-install.pth"". How can I fix this?
+Thanks, fish.",1,2
+24,2016-12-23,2016,12,23,13,5jv2u1,Running tensorflow examples only uses 30% of GPU,https://www.reddit.com/r/tensorflow/comments/5jv2u1/running_tensorflow_examples_only_uses_30_of_gpu/,SillyLilBear,1482465675,"Is there a setting that would make tensorflow not fully utilize a GPU (Nvidia 1070) or is it the example.  
+
+I tried a CIFAR and Ensemble example from the tensorflow example git hub, but the GPU never got over 31% utilization for the CIFAR and only got to 42% with the ensemble.",2,2
+25,2016-12-25,2016,12,25,12,5k6kvl,Tensorflow re-using a pre-trained model crashes on add training step,https://www.reddit.com/r/tensorflow/comments/5k6kvl/tensorflow_reusing_a_pretrained_model_crashes_on/,[deleted],1482635739,[deleted],0,1
+26,2016-12-25,2016,12,25,19,5k7wn4,(X-Post from /r/MachineLearning) tensorflow-qnd: Quick and Distributed TensorFlow command framework to train and evaluate models on multiple computers,https://www.reddit.com/r/tensorflow/comments/5k7wn4/xpost_from_rmachinelearning_tensorflowqnd_quick/,raviqqe,1482662299,,0,2
+27,2016-12-26,2016,12,26,4,5k9lvs,ipython notebook for tensorflow (conda?),https://www.reddit.com/r/tensorflow/comments/5k9lvs/ipython_notebook_for_tensorflow_conda/,kewzha,1482692557,"Hello!
+
+I'm trying to figure out how to use ipython notebook with tensorflow. First of all is it possible and convenient to use? Secondly, do I have to install conda? What are the pros and cons of conda (or should I use virtual env)? I have a mac, use pip, and currently do not use virtual env.
+
+Basically I'm looking for an easier way to debug my tensorflow code, because I currently just write a bunch of print statements.
+
+Suggestions appreciated!",1,3
+28,2016-12-26,2016,12,26,4,5k9nxg,New Version of TensorFlow,https://www.reddit.com/r/tensorflow/comments/5k9nxg/new_version_of_tensorflow/,kewzha,1482693334,How stable is the new version of TensorFlow? Should I upgrade or wait?,0,1
+29,2016-12-27,2016,12,27,4,5kfco5,What are slim RNNs?,https://www.reddit.com/r/tensorflow/comments/5kfco5/what_are_slim_rnns/,kewzha,1482781070,In tensorflow's rnn_cell.py there is a _SlimRNNCell class. I've never heard of slim rnns. What is this?,1,1
+30,2016-12-27,2016,12,27,16,5kijxq,Basics Query - While running diagnostics for regression using tensorflow - Is it needed?,https://www.reddit.com/r/tensorflow/comments/5kijxq/basics_query_while_running_diagnostics_for/,HibernationUnLtd,1482823952,"Hello All,
+
+**Apologies if this appears stupid**
+
+I have been studying ML and Statistics concepts since a month and it would be helpful if someone could guide me.
+
+While doing an regression, we have multiple tests like ANOVA, p-val, F/T - tests etc. 
+Are they applicable while using tensorflow - or is it because you are using a deep learning neural network, it is not necessary?
+In the example on tensorflow.org, while an SGD is run, there are no tests performed. Does a learning NN take care of it, or do we need to run them. 
+
+If we have to run them, is there some example where I can relate.
+
+TL;DR - I am trying to understand whether we need to run diagnostics when using TF and are the applicable - if so how.
+
+Edit1 - Does training take care of not needing to run diagnostic tests?
+
+",0,1
+31,2016-12-28,2016,12,28,8,5kmucl,TensorFlow on Azure GPU,https://www.reddit.com/r/tensorflow/comments/5kmucl/tensorflow_on_azure_gpu/,[deleted],1482881120,[deleted],0,1
+32,2016-12-28,2016,12,28,8,5kmx5o,TensorFlow on Azure GPU,https://www.reddit.com/r/tensorflow/comments/5kmx5o/tensorflow_on_azure_gpu/,lutzr,1482882024,,2,3
+33,2016-12-28,2016,12,28,20,5kpvxj,Roadmap Q : C++ vs Python implementation of Tensorflow,https://www.reddit.com/r/tensorflow/comments/5kpvxj/roadmap_q_c_vs_python_implementation_of_tensorflow/,HibernationUnLtd,1482926022,"What are the features and roadmap of primarily C++ extension of TF, also python.
+
+Thank you in advance",0,2
+34,2016-12-29,2016,12,29,0,5kqvwy,Dimensionality in the optimizer loss function.,https://www.reddit.com/r/tensorflow/comments/5kqvwy/dimensionality_in_the_optimizer_loss_function/,aiapplicant,1482940605,"When passing your loss to the optimizer, what shape should you make it? For example, in batch processing, should it be [?,1] or just [1]? Simple question, I know, but I'm just wondering how it should be done because I notice you can pass any size tensor to the optimizer. What do large tensor optimizations do to performance and to convergence?",0,1
+35,2016-12-31,2016,12,31,6,5l5utu,how to debug Nan loss?,https://www.reddit.com/r/tensorflow/comments/5l5utu/how_to_debug_nan_loss/,FutureIsMine,1483132408,,0,1
