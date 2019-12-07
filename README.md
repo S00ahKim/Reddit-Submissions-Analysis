@@ -58,3 +58,8 @@
 ### 2019-12-06
 - [x] 데이터 수집 (/r/BlackPink: 2016년 ~ 2019년)
 - [x] 데이터 수집 (/r/Futurology: 2012년 ~ 2019년)
+
+### 2019-12-07
+- [x] 수집한 데이터 전체 HDFS에 업로드
+- [x] word2vec_keyword_similarity.py 스킵그램 모델 학습 후 키워드에 대해 유사한 키워드 출력
+- [x] doc2vec_user_recommendation.py 문서별 학습 후 유사 키워드와 추천 사용자 출력
