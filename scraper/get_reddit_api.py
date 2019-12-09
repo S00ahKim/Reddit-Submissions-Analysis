@@ -45,7 +45,13 @@ def get_start_times(wanted_start, wanted_end):
     ed_mm = int(wanted_end.split('-')[1])
 
     for year in range(st_yy, ed_yy+1):
-        for month in range(st_mm, ed_mm+1):
+        for month in range(1, 13):
+            if year == st_yy:
+                if month < st_mm:
+                    continue
+            if year == ed_yy:
+                if month > ed_mm:
+                    break
             dt = datetime(year, month, 1)
             timestamp = dt.replace(tzinfo=timezone.utc).timestamp()
             arr.append(int(timestamp))
@@ -55,6 +61,8 @@ def get_reddit(start_time, end_time, subreddit):
     '''
     r/subreddit의 submissions를 start_time부터 end_time까지 긁는다.
     argument 타입은 모두 string
+    end_time: 구 now <--이부분 리드미에 추가
+    구 end_time은 내부에서 start_time으로 계산
     '''
     arr = []
     base_url = 'https://api.pushshift.io/reddit/submission/search/?subreddit={subreddit}&after={start}&before={end}&sort=asc'
@@ -71,10 +79,9 @@ def get_reddit(start_time, end_time, subreddit):
         try:
             r = requests.get(url).json()
         except:
-            r = 'NaN'
             print(requests.get(url))
 
-        if r == 'NaN':
+        if len(r['data']) == 0:
             if int(last_get_time) >= int(end_time):
                 get_all = True
             else:
@@ -89,8 +96,12 @@ def get_reddit(start_time, end_time, subreddit):
                 date = str(d.year)+'-'+str(d.month)+'-'+str(d.day)
 
                 # 문자열에 대해 인코딩 처리
+                sbr = encode_roman(submission['subreddit'])
+                sbr_id = encode_roman(submission['subreddit_id'])
                 uid = encode_roman(submission['id'])
+                domain = encode_roman(submission['domain'])
                 title = encode_roman(submission['title'])
+                full_link = encode_roman(submission['full_link'])
                 author = encode_roman(submission['author'])
                 try:
                     if submission['selftext']:
@@ -98,13 +109,42 @@ def get_reddit(start_time, end_time, subreddit):
                     else:
                         selftext = ''
                 except:
-                    print(submission)
+                    selftext = ''
+
+                try:
+                    if submission['thumbnail']:
+                        thumbnail = encode_roman(submission['thumbnail'])
+                    else:
+                        thumbnail = ''
+                except:
+                    thumbnail = ''
+
+                try:
+                    if submission['media']['oembed']:
+                        for e in submission['media']['oembed']:
+                            media_provider = encode_roman(e['provider_name'])
+                            media_thumbnail = encode_roman(e['thumbnail_url'])
+                            media_title = encode_roman(e['title'])
+                            media_description = encode_roman(e['description'])
+                            media_url = encode_roman(e['url'])
+                            break
+                except:
+                    media_provider = ''
+                    media_thumbnail = ''
+                    media_title = ''
+                    media_description = ''
+                    media_url = ''
+
+                over_18 = str(submission['over_18'])
 
                 # 데이터 저장
-                if len(arr)>1 and d.month != arr[-1][2]:
+                if len(arr)>1 and d.month != arr[-1][4]:
                     get_all = True
                 else:
-                    tmp = [date, d.year, d.month, d.day, d.hour, uid, title, author, submission['created_utc'], selftext, submission['num_comments'], submission['score']]
+                    tmp = [sbr, sbr_id, date, d.year, d.month, d.day, d.hour, uid, domain, title, full_link, 
+                            author, submission['created_utc'], selftext, submission['num_comments'], 
+                            submission['score'], over_18, thumbnail, media_provider,
+                            media_thumbnail, media_title, media_description, media_url]
                     arr.append(tmp)
 
                 # 마지막 날짜 기록용
@@ -113,19 +153,142 @@ def get_reddit(start_time, end_time, subreddit):
             start_time = last_get_time
             next_time = cal_time(start_time, 10)
 
-    kpop_save = pd.DataFrame(arr)
-    kpop_save.columns = ['date', 'year', 'month', 'hour', 'day', 'id', 'title', 'author', 'created', 'selftext', 'num_comments', 'score']
+    df_save = pd.DataFrame(arr)
+    df_save.columns = ['sbr', 'sbr_id', 'date', 'year', 'month', 'hour', 'day', 'id', 
+                        'domain', 'title', 'full_link', 'author', 'created', 'selftext', 
+                        'num_comments', 'score', 'over_18', 'thumbnail', 'media_provider',
+                        'media_thumbnail', 'media_title', 'media_description', 'media_url']
     
     if len(mm) < 2:
         mm = '0'+mm
 
-    path = './{dirname}/'.format(dirname = subreddit)
+    path = './data/scrapped/{dirname}/'.format(dirname = subreddit)
     save_file_name = path + '{yy}-{mm}.csv'.format(yy=yy, mm=mm)
-    kpop_save.to_csv(save_file_name, encoding='cp949')
+    df_save.to_csv(save_file_name, encoding='cp949')
 
 
-start_times = get_start_times('2013-06', '2017-12')
+start_times = get_start_times('2016-07', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'BlackPink')
+
+print('========================================================================')
+
+start_times = get_start_times('2012-01', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'Futurology')
+
+print('========================================================================')
+
+start_times = get_start_times('2014-01', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'Got7')
+
+print('========================================================================')
+
+start_times = get_start_times('2009-08', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'MachineLearning')
+
+print('========================================================================')
+
+start_times = get_start_times('2012-02', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'aiyu')
+
+print('========================================================================')
+
+start_times = get_start_times('2014-01', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'bangtan')
+
+print('========================================================================')
+
+start_times = get_start_times('2011-01', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'computerscience')
+
+print('========================================================================')
+
+start_times = get_start_times('2011-08', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'datascience')
+
+print('========================================================================')
+
+start_times = get_start_times('2012-01', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'deeplearning')
+
+print('========================================================================')
+
+start_times = get_start_times('2017-01', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'exo')
+
+print('========================================================================')
+
+start_times = get_start_times('2013-06', '2019-11')
 for start_time in start_times:
     print(start_time)
     end_time = cal_end_by_start(start_time)
     get_reddit(start_time, end_time, 'kpop')
+
+print('========================================================================')
+
+start_times = get_start_times('2017-09', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'kpoppers')
+
+print('========================================================================')
+
+start_times = get_start_times('2014-07', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'red_velvet')
+
+print('========================================================================')
+
+start_times = get_start_times('2010-08', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'snsd')
+
+print('========================================================================')
+
+start_times = get_start_times('2015-11', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'tensorflow')
+
+print('========================================================================')
+
+start_times = get_start_times('2015-05', '2019-11')
+for start_time in start_times:
+    print(start_time)
+    end_time = cal_end_by_start(start_time)
+    get_reddit(start_time, end_time, 'twice')
