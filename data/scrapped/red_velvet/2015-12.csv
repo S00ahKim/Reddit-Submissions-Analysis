@@ -1,5 +1,5 @@
-,date,year,month,day,hour,id,title,author,created,selftext,num_comments,score
-0,2015-12-2,2015,12,2,6,3v1sbr,151201- Airport Pictures for MAMA,thenerdal,1449003658," **Pictures include them heading to Prague as well** | *Will Update*
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,red_velvet,t5_32s1t,2015-12-2,2015,12,2,6,3v1sbr,self.red_velvet,151201- Airport Pictures for MAMA,https://www.reddit.com/r/red_velvet/comments/3v1sbr/151201_airport_pictures_for_mama/,thenerdal,1449003658," **Pictures include them heading to Prague as well** | *Will Update*
 
 ###Press Photos: 
 
@@ -15,17 +15,17 @@
 
 ---
 
-[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",1,11
-1,2015-12-2,2015,12,2,10,3v2syg,The 2015 Mnet Asian Music Awards Live Stream,[deleted],1449018210,[deleted],0,1
-2,2015-12-2,2015,12,2,11,3v349h,The 2015 Mnet Asian Music Awards Live Streams,thenerdal,1449023039,[removed],0,4
-3,2015-12-3,2015,12,3,2,3v62nm,151202 Best Dance Performance Female Group Award - Ice Cream Cake,thenerdal,1449078278,,2,12
-4,2015-12-3,2015,12,3,2,3v63dv,151202 MAMA Cuts,[deleted],1449078570,[deleted],0,1
-5,2015-12-3,2015,12,3,2,3v63gu,151202 2015 Mnet Asian Music Awards Cuts,thenerdal,1449078601,,1,6
-6,2015-12-3,2015,12,3,2,3v63lp,151202 V Live Interview - 2015 Mnet Asian Music Awards,thenerdal,1449078652,,1,8
-7,2015-12-3,2015,12,3,3,3v66an,151202 Meters/bonwe Weibo Update,thenerdal,1449079636,,0,4
-8,2015-12-3,2015,12,3,10,3v83lt,151203 MPD Twitter Update,thenerdal,1449107478,,2,11
-9,2015-12-5,2015,12,5,2,3vfodw,151204 Jonghyun Instagram Update with Yeri,thenerdal,1449248627,,2,14
-10,2015-12-5,2015,12,5,2,3vfrxm,151202 2015 Mnet Asian Music Awards,thenerdal,1449250083,"*Will Update*
+[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",1,11,False,self,,,,,
+1,red_velvet,t5_32s1t,2015-12-2,2015,12,2,10,3v2syg,youtube.com,The 2015 Mnet Asian Music Awards Live Stream,https://www.reddit.com/r/red_velvet/comments/3v2syg/the_2015_mnet_asian_music_awards_live_stream/,[deleted],1449018210,[deleted],0,1,False,default,,,,,
+2,red_velvet,t5_32s1t,2015-12-2,2015,12,2,11,3v349h,self.red_velvet,The 2015 Mnet Asian Music Awards Live Streams,https://www.reddit.com/r/red_velvet/comments/3v349h/the_2015_mnet_asian_music_awards_live_streams/,thenerdal,1449023039,[removed],0,4,False,default,,,,,
+3,red_velvet,t5_32s1t,2015-12-3,2015,12,3,2,3v62nm,youtube.com,151202 Best Dance Performance Female Group Award - Ice Cream Cake,https://www.reddit.com/r/red_velvet/comments/3v62nm/151202_best_dance_performance_female_group_award/,thenerdal,1449078278,,2,12,False,http://b.thumbs.redditmedia.com/uTsQLEO3KWidi4c-bft2cSOtvrxgBSnD2QjjMce2WcE.jpg,,,,,
+4,red_velvet,t5_32s1t,2015-12-3,2015,12,3,2,3v63dv,youtube.com,151202 MAMA Cuts,https://www.reddit.com/r/red_velvet/comments/3v63dv/151202_mama_cuts/,[deleted],1449078570,[deleted],0,1,False,default,,,,,
+5,red_velvet,t5_32s1t,2015-12-3,2015,12,3,2,3v63gu,youtube.com,151202 2015 Mnet Asian Music Awards Cuts,https://www.reddit.com/r/red_velvet/comments/3v63gu/151202_2015_mnet_asian_music_awards_cuts/,thenerdal,1449078601,,1,6,False,http://b.thumbs.redditmedia.com/3o0_3DmJZ5vGCX0pXkULxRd6BJUTNvH55y5kix2uQqw.jpg,,,,,
+6,red_velvet,t5_32s1t,2015-12-3,2015,12,3,2,3v63lp,youtube.com,151202 V Live Interview - 2015 Mnet Asian Music Awards,https://www.reddit.com/r/red_velvet/comments/3v63lp/151202_v_live_interview_2015_mnet_asian_music/,thenerdal,1449078652,,1,8,False,http://b.thumbs.redditmedia.com/GYn6uVCQLFJIbFCc1v4YGSY4QTXqn8iiB0ehTSUHGgA.jpg,,,,,
+7,red_velvet,t5_32s1t,2015-12-3,2015,12,3,3,3v66an,i.imgur.com,151202 Meters/bonwe Weibo Update,https://www.reddit.com/r/red_velvet/comments/3v66an/151202_metersbonwe_weibo_update/,thenerdal,1449079636,,0,4,False,http://b.thumbs.redditmedia.com/NyuxU8d2BpKrHq80FlKaOtRsN3PJTBCuJgJdkZJp0mo.jpg,,,,,
+8,red_velvet,t5_32s1t,2015-12-3,2015,12,3,10,3v83lt,i.imgur.com,151203 MPD Twitter Update,https://www.reddit.com/r/red_velvet/comments/3v83lt/151203_mpd_twitter_update/,thenerdal,1449107478,,2,11,False,http://b.thumbs.redditmedia.com/XgGk_Fvrjt3N5g3VZB8POa4NkLe5rAOiUPR5YrOw_IQ.jpg,,,,,
+9,red_velvet,t5_32s1t,2015-12-5,2015,12,5,2,3vfodw,i.imgur.com,151204 Jonghyun Instagram Update with Yeri,https://www.reddit.com/r/red_velvet/comments/3vfodw/151204_jonghyun_instagram_update_with_yeri/,thenerdal,1449248627,,2,14,False,http://a.thumbs.redditmedia.com/X52C15oNtYCoOx1uVS90t3P8Cfakr-oxXUrYY3wPCF4.jpg,,,,,
+10,red_velvet,t5_32s1t,2015-12-5,2015,12,5,2,3vfrxm,self.red_velvet,151202 2015 Mnet Asian Music Awards,https://www.reddit.com/r/red_velvet/comments/3vfrxm/151202_2015_mnet_asian_music_awards/,thenerdal,1449250083,"*Will Update*
 
 ###Fantaken Photos: 
 
@@ -62,8 +62,8 @@
 
 ---
 
-[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",2,6
-11,2015-12-5,2015,12,5,15,3viiex,151204 2015 'Czech Hallyu Wave Concert' in Prague,thenerdal,1449296208,"*No closeup pictures of this event, will update if I find any.*
+[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",2,6,False,self,,,,,
+11,red_velvet,t5_32s1t,2015-12-5,2015,12,5,15,3viiex,self.red_velvet,151204 2015 'Czech Hallyu Wave Concert' in Prague,https://www.reddit.com/r/red_velvet/comments/3viiex/151204_2015_czech_hallyu_wave_concert_in_prague/,thenerdal,1449296208,"*No closeup pictures of this event, will update if I find any.*
 
 ###Fancams: 
 
@@ -91,16 +91,16 @@
 
 
 
-",2,3
-12,2015-12-6,2015,12,6,4,3vkisa,151205 O.M.G. (Dance Group) Instagram Update with Red Velvet,thenerdal,1449342355,,2,6
-13,2015-12-6,2015,12,6,18,3vn89k,151206 Red Velvet in Beijing,thenerdal,1449394328,,1,2
-14,2015-12-7,2015,12,7,2,3vof0s,151206 Kris Son Instagram Update with Joy,thenerdal,1449422527,,1,8
-15,2015-12-7,2015,12,7,3,3volsb,151206 Dumb Dumb - China-South Korea Festival (Recorded 151104),thenerdal,1449425121,,4,3
-16,2015-12-7,2015,12,7,14,3vr4zj,Red Velvet Confirmed for Winter Garden Project,thenerdal,1449464604,,5,14
-17,2015-12-7,2015,12,7,18,3vrvxz,151207 BLACK Martine Sitbon Instagram Update with Irene,[deleted],1449482275,[deleted],1,1
-18,2015-12-7,2015,12,7,18,3vrw0j,151207 Irene - BLACK Martine Sitbon Instagram Update,[deleted],1449482333,[deleted],1,15
-19,2015-12-8,2015,12,8,7,3vui39,151207 Dumb Dumb - 2015 Cass Point Awards,thenerdal,1449526209,,3,5
-20,2015-12-8,2015,12,8,7,3vuoua,151207 2015 Cass Point Awards,thenerdal,1449528896,"*Will Update*
+",2,3,False,self,,,,,
+12,red_velvet,t5_32s1t,2015-12-6,2015,12,6,4,3vkisa,i.imgur.com,151205 O.M.G. (Dance Group) Instagram Update with Red Velvet,https://www.reddit.com/r/red_velvet/comments/3vkisa/151205_omg_dance_group_instagram_update_with_red/,thenerdal,1449342355,,2,6,False,http://b.thumbs.redditmedia.com/Fa73RpHhJzMfsluknHpVwZR9ya5dt-umw45xaVooVvQ.jpg,,,,,
+13,red_velvet,t5_32s1t,2015-12-6,2015,12,6,18,3vn89k,youtube.com,151206 Red Velvet in Beijing,https://www.reddit.com/r/red_velvet/comments/3vn89k/151206_red_velvet_in_beijing/,thenerdal,1449394328,,1,2,False,http://b.thumbs.redditmedia.com/Vi18UdoFkvVFiaXsXBnu0Meiri4mNnFWBHLROci27Fg.jpg,,,,,
+14,red_velvet,t5_32s1t,2015-12-7,2015,12,7,2,3vof0s,i.imgur.com,151206 Kris Son Instagram Update with Joy,https://www.reddit.com/r/red_velvet/comments/3vof0s/151206_kris_son_instagram_update_with_joy/,thenerdal,1449422527,,1,8,False,http://b.thumbs.redditmedia.com/4O61LaFTKiJJgeqPw2CVwQuah21dXBExEB466S76bww.jpg,,,,,
+15,red_velvet,t5_32s1t,2015-12-7,2015,12,7,3,3volsb,youtube.com,151206 Dumb Dumb - China-South Korea Festival (Recorded 151104),https://www.reddit.com/r/red_velvet/comments/3volsb/151206_dumb_dumb_chinasouth_korea_festival/,thenerdal,1449425121,,4,3,False,http://b.thumbs.redditmedia.com/7BOk0xGt222hXzxaYrJoB61ymgoY1_lswWdIuU1v5Fk.jpg,,,,,
+16,red_velvet,t5_32s1t,2015-12-7,2015,12,7,14,3vr4zj,mwave.interest.me,Red Velvet Confirmed for Winter Garden Project,https://www.reddit.com/r/red_velvet/comments/3vr4zj/red_velvet_confirmed_for_winter_garden_project/,thenerdal,1449464604,,5,14,False,http://a.thumbs.redditmedia.com/AgygKfYkUYV5-FTu-J0WUDd9pIYevCVpc1_6ESJCKW0.jpg,,,,,
+17,red_velvet,t5_32s1t,2015-12-7,2015,12,7,18,3vrvxz,imgur.com,151207 BLACK Martine Sitbon Instagram Update with Irene,https://www.reddit.com/r/red_velvet/comments/3vrvxz/151207_black_martine_sitbon_instagram_update_with/,[deleted],1449482275,[deleted],1,1,False,default,,,,,
+18,red_velvet,t5_32s1t,2015-12-7,2015,12,7,18,3vrw0j,imgur.com,151207 Irene - BLACK Martine Sitbon Instagram Update,https://www.reddit.com/r/red_velvet/comments/3vrw0j/151207_irene_black_martine_sitbon_instagram_update/,[deleted],1449482333,[deleted],1,15,False,default,,,,,
+19,red_velvet,t5_32s1t,2015-12-8,2015,12,8,7,3vui39,youtube.com,151207 Dumb Dumb - 2015 Cass Point Awards,https://www.reddit.com/r/red_velvet/comments/3vui39/151207_dumb_dumb_2015_cass_point_awards/,thenerdal,1449526209,,3,5,False,http://b.thumbs.redditmedia.com/6o5vd60M0Uw_SxnOrWOVBWh57X-1ceO97tWUCBBc_nQ.jpg,,,,,
+20,red_velvet,t5_32s1t,2015-12-8,2015,12,8,7,3vuoua,self.red_velvet,151207 2015 Cass Point Awards,https://www.reddit.com/r/red_velvet/comments/3vuoua/151207_2015_cass_point_awards/,thenerdal,1449528896,"*Will Update*
 
 ###Press Photos: 
 
@@ -118,10 +118,10 @@
 
 ---
 
-[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",1,5
-21,2015-12-8,2015,12,8,9,3vv2qf,151208 Joy - BLACK Martine Sitbon Instagram Update,[deleted],1449534586,[deleted],1,1
-22,2015-12-8,2015,12,8,10,3vv6y6,151208 Black Martine Sitbon Naver Update,thenerdal,1449536423,,1,11
-23,2015-12-9,2015,12,9,9,3w05r9,151208 2015 SFCC Year-End Charity Gala,thenerdal,1449620081,"*Will Update*
+[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",1,5,False,self,,,,,
+21,red_velvet,t5_32s1t,2015-12-8,2015,12,8,9,3vv2qf,imgur.com,151208 Joy - BLACK Martine Sitbon Instagram Update,https://www.reddit.com/r/red_velvet/comments/3vv2qf/151208_joy_black_martine_sitbon_instagram_update/,[deleted],1449534586,[deleted],1,1,False,default,,,,,
+22,red_velvet,t5_32s1t,2015-12-8,2015,12,8,10,3vv6y6,imgur.com,151208 Black Martine Sitbon Naver Update,https://www.reddit.com/r/red_velvet/comments/3vv6y6/151208_black_martine_sitbon_naver_update/,thenerdal,1449536423,,1,11,False,http://a.thumbs.redditmedia.com/klZuOcuoeLZJE2QkBLKe_OkBr2uxVDgy7f0L81Zt6A4.jpg,,,,,
+23,red_velvet,t5_32s1t,2015-12-9,2015,12,9,9,3w05r9,self.red_velvet,151208 2015 SFCC Year-End Charity Gala,https://www.reddit.com/r/red_velvet/comments/3w05r9/151208_2015_sfcc_yearend_charity_gala/,thenerdal,1449620081,"*Will Update*
 
 ###Press Photos: 
 
@@ -138,37 +138,37 @@
 
 ---
 
-[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",0,4
-24,2015-12-9,2015,12,9,19,3w269h,151209 Official Instagram Updates,thenerdal,1449658463,"###[Update 1](https://www.instagram.com/p/_EXmTWyHI2/) | [Translation](https://pbs.twimg.com/media/CVyB236U8AIS0D5.jpg)
+[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",0,4,False,self,,,,,
+24,red_velvet,t5_32s1t,2015-12-9,2015,12,9,19,3w269h,self.red_velvet,151209 Official Instagram Updates,https://www.reddit.com/r/red_velvet/comments/3w269h/151209_official_instagram_updates/,thenerdal,1449658463,"###[Update 1](https://www.instagram.com/p/_EXmTWyHI2/) | [Translation](https://pbs.twimg.com/media/CVyB236U8AIS0D5.jpg)
 
 ###[Update 2](https://www.instagram.com/p/_EX-5lSHJR/) | [Translation](https://pbs.twimg.com/media/CVyB24IUkAEWfnw.jpg)
 
 ###[Update 3](https://www.instagram.com/p/_EYiwMSHJ6/) | [Translation](https://pbs.twimg.com/media/CVyB24UUEAE2UMQ.jpg)
 
-###[Full](https://www.youtube.com/watch?v=hyXkfpzxcfw&amp;feature=youtu.be)",1,8
-25,2015-12-10,2015,12,10,14,3w6j6a,151210 Black Martine Sitbon TopStarNews Update,thenerdal,1449724545,,1,11
-26,2015-12-11,2015,12,11,3,3w9ck0,151211 Seulgi UFO Update,thenerdal,1449773247,,0,28
-27,2015-12-11,2015,12,11,13,3wbx8q,151211 Simply K-Pop Twitter Update - Best Performance Girl Group,thenerdal,1449808813,,1,6
-28,2015-12-11,2015,12,11,14,3wc5rn,151211 The Celebrity Instagram Update - SMTown Wonderland Special,thenerdal,1449812787,,1,5
-29,2015-12-11,2015,12,11,15,3wc8ht,151211 Simply K-Pop Best Performance Girl Group,thenerdal,1449814173,,1,3
-30,2015-12-12,2015,12,12,3,3wem5z,151211 Irene MC Cuts for Music Bank,thenerdal,1449857262,,1,3
-31,2015-12-12,2015,12,12,3,3wenjs,151211 Irene heading to Music Bank,thenerdal,1449857747,,0,15
-32,2015-12-13,2015,12,13,4,3wjqq3,"151212 Jonghyun Instagram Update with Irene, Joy &amp; Yeri",thenerdal,1449947664,,1,10
-33,2015-12-13,2015,12,13,4,3wjs9u,151212 Star King Preview with Irene &amp; Joy,thenerdal,1449948319,,0,6
-34,2015-12-13,2015,12,13,15,3wmbp7,151213 Wendy UFO Update,thenerdal,1449988930,,2,20
-35,2015-12-13,2015,12,13,19,3wmve0,151213 Dumb Dumb - KBS Open Concert,thenerdal,1450003085,,1,2
-36,2015-12-14,2015,12,14,2,3wo5m1,151214 Official Facebook Update | Wendy - Tamar Braxton's Love &amp; War,thenerdal,1450028912,,1,6
-37,2015-12-14,2015,12,14,17,3wrdsv,151214 2016 SM Global Auditions - SM Artist Message,[deleted],1450080372,[deleted],0,1
-38,2015-12-14,2015,12,14,18,3wrlg8,151214 2016 SM Global Auditions - SM Artist Message,thenerdal,1450085524,,1,6
-39,2015-12-15,2015,12,15,4,3wtlvd,151214 2015 SBS Gayo Daejeon - Irene Greeting,[deleted],1450121059,[deleted],1,1
-40,2015-12-15,2015,12,15,4,3wtms9,151214 2015 SBS Gayo Daejeon - Irene Greeting,[deleted],1450121468,[deleted],0,1
-41,2015-12-15,2015,12,15,4,3wtmzs,151214 2015 SBS Gayo Daejeon - Irene Greeting,[deleted],1450121541,[deleted],0,1
-42,2015-12-15,2015,12,15,4,3wtn37,151214 2015 SBS Gayo Daejeon - Irene Greeting,thenerdal,1450121574,,6,11
-43,2015-12-15,2015,12,15,15,3wwqib,151030 SMTown Studio Special Dance Class with Wendy,thenerdal,1450162451,,1,8
-44,2015-12-16,2015,12,16,0,3wy5ed,151216 Wish Tree Preview,thenerdal,1450192989,,1,4
-45,2015-12-16,2015,12,16,0,3wy7xr,151215 Seulgi - Sure Magazine Instagram Update,[deleted],1450194006,[deleted],0,1
-46,2015-12-16,2015,12,16,0,3wy819,151215 Seulgi - Sure Magazine Instagram Update,thenerdal,1450194039,,2,15
-47,2015-12-16,2015,12,16,1,3wyjz6,151215 Joy &amp; Yeri - The Curious Incident of the Dog in the Night-Time VIP Premiere,thenerdal,1450198651,"*Will Update*
+###[Full](https://www.youtube.com/watch?v=hyXkfpzxcfw&amp;feature=youtu.be)",1,8,False,self,,,,,
+25,red_velvet,t5_32s1t,2015-12-10,2015,12,10,14,3w6j6a,imgur.com,151210 Black Martine Sitbon TopStarNews Update,https://www.reddit.com/r/red_velvet/comments/3w6j6a/151210_black_martine_sitbon_topstarnews_update/,thenerdal,1449724545,,1,11,False,http://a.thumbs.redditmedia.com/RHrB4tzHEWfamxzP7ZBmZ418hHL-Ac97rFERGj_m818.jpg,,,,,
+26,red_velvet,t5_32s1t,2015-12-11,2015,12,11,3,3w9ck0,i.imgur.com,151211 Seulgi UFO Update,https://www.reddit.com/r/red_velvet/comments/3w9ck0/151211_seulgi_ufo_update/,thenerdal,1449773247,,0,28,False,http://b.thumbs.redditmedia.com/jwgM11G0tIIZWmInRvz4VKlQ4pq4B9dpeGQdbVwJ3Fo.jpg,,,,,
+27,red_velvet,t5_32s1t,2015-12-11,2015,12,11,13,3wbx8q,imgur.com,151211 Simply K-Pop Twitter Update - Best Performance Girl Group,https://www.reddit.com/r/red_velvet/comments/3wbx8q/151211_simply_kpop_twitter_update_best/,thenerdal,1449808813,,1,6,False,http://b.thumbs.redditmedia.com/1aWvY6HtMyX_ZzuY3qcrhcSnjTVM6QC7rXjQBIJa8JI.jpg,,,,,
+28,red_velvet,t5_32s1t,2015-12-11,2015,12,11,14,3wc5rn,i.imgur.com,151211 The Celebrity Instagram Update - SMTown Wonderland Special,https://www.reddit.com/r/red_velvet/comments/3wc5rn/151211_the_celebrity_instagram_update_smtown/,thenerdal,1449812787,,1,5,False,http://b.thumbs.redditmedia.com/LGwnBMQvKdIe4DLwdxJDIVZ87GPdISCGg441rElUyzQ.jpg,,,,,
+29,red_velvet,t5_32s1t,2015-12-11,2015,12,11,15,3wc8ht,youtube.com,151211 Simply K-Pop Best Performance Girl Group,https://www.reddit.com/r/red_velvet/comments/3wc8ht/151211_simply_kpop_best_performance_girl_group/,thenerdal,1449814173,,1,3,False,http://b.thumbs.redditmedia.com/EOMT5NmEiACdsvIqk7yvsSwQ3Jbf32u-tHTpzqFzu9U.jpg,,,,,
+30,red_velvet,t5_32s1t,2015-12-12,2015,12,12,3,3wem5z,youtube.com,151211 Irene MC Cuts for Music Bank,https://www.reddit.com/r/red_velvet/comments/3wem5z/151211_irene_mc_cuts_for_music_bank/,thenerdal,1449857262,,1,3,False,http://a.thumbs.redditmedia.com/iCqyYNxNsXxKfWWlGnvyOshfp7l2uScQzsaEWwngcP0.jpg,,,,,
+31,red_velvet,t5_32s1t,2015-12-12,2015,12,12,3,3wenjs,imgur.com,151211 Irene heading to Music Bank,https://www.reddit.com/r/red_velvet/comments/3wenjs/151211_irene_heading_to_music_bank/,thenerdal,1449857747,,0,15,False,http://a.thumbs.redditmedia.com/evn9SxUtBo6oqRgP4NzwdqxCCFx7BTiRmER8IVuY1X8.jpg,,,,,
+32,red_velvet,t5_32s1t,2015-12-13,2015,12,13,4,3wjqq3,i.imgur.com,"151212 Jonghyun Instagram Update with Irene, Joy &amp; Yeri",https://www.reddit.com/r/red_velvet/comments/3wjqq3/151212_jonghyun_instagram_update_with_irene_joy/,thenerdal,1449947664,,1,10,False,http://a.thumbs.redditmedia.com/7tWsQ9zViMRoFXgypmoP6y3MgJeNhe98_OZgOmTh6f0.jpg,,,,,
+33,red_velvet,t5_32s1t,2015-12-13,2015,12,13,4,3wjs9u,youtube.com,151212 Star King Preview with Irene &amp; Joy,https://www.reddit.com/r/red_velvet/comments/3wjs9u/151212_star_king_preview_with_irene_joy/,thenerdal,1449948319,,0,6,False,http://b.thumbs.redditmedia.com/fSgCiuEQNCO_xlsdUMJV2X20wIbyWx6124fWgruVk9E.jpg,,,,,
+34,red_velvet,t5_32s1t,2015-12-13,2015,12,13,15,3wmbp7,i.imgur.com,151213 Wendy UFO Update,https://www.reddit.com/r/red_velvet/comments/3wmbp7/151213_wendy_ufo_update/,thenerdal,1449988930,,2,20,False,http://a.thumbs.redditmedia.com/7tO6-a5-zhK5ptzM1IIiVDfx6av3kQNiNEIIcNi9n28.jpg,,,,,
+35,red_velvet,t5_32s1t,2015-12-13,2015,12,13,19,3wmve0,dailymotion.com,151213 Dumb Dumb - KBS Open Concert,https://www.reddit.com/r/red_velvet/comments/3wmve0/151213_dumb_dumb_kbs_open_concert/,thenerdal,1450003085,,1,2,False,http://a.thumbs.redditmedia.com/zlaQAubLigV8gF0oBA6cU5HRCKYXFRrFHH076k5WkY4.jpg,,,,,
+36,red_velvet,t5_32s1t,2015-12-14,2015,12,14,2,3wo5m1,facebook.com,151214 Official Facebook Update | Wendy - Tamar Braxton's Love &amp; War,https://www.reddit.com/r/red_velvet/comments/3wo5m1/151214_official_facebook_update_wendy_tamar/,thenerdal,1450028912,,1,6,False,http://b.thumbs.redditmedia.com/zSyeeqMDwNZkTbxNv7gxk-IL8E8wm1MvXfcFV39LJ7k.jpg,,,,,
+37,red_velvet,t5_32s1t,2015-12-14,2015,12,14,17,3wrdsv,youtube.com,151214 2016 SM Global Auditions - SM Artist Message,https://www.reddit.com/r/red_velvet/comments/3wrdsv/151214_2016_sm_global_auditions_sm_artist_message/,[deleted],1450080372,[deleted],0,1,False,default,,,,,
+38,red_velvet,t5_32s1t,2015-12-14,2015,12,14,18,3wrlg8,youtube.com,151214 2016 SM Global Auditions - SM Artist Message,https://www.reddit.com/r/red_velvet/comments/3wrlg8/151214_2016_sm_global_auditions_sm_artist_message/,thenerdal,1450085524,,1,6,False,http://b.thumbs.redditmedia.com/S1lCBsc4G9PExE-q_jbK4i3u1uNktVQ97kqzzN_a6GU.jpg,,,,,
+39,red_velvet,t5_32s1t,2015-12-15,2015,12,15,4,3wtlvd,facebook.com,151214 2015 SBS Gayo Daejeon - Irene Greeting,https://www.reddit.com/r/red_velvet/comments/3wtlvd/151214_2015_sbs_gayo_daejeon_irene_greeting/,[deleted],1450121059,[deleted],1,1,False,default,,,,,
+40,red_velvet,t5_32s1t,2015-12-15,2015,12,15,4,3wtms9,facebook.com,151214 2015 SBS Gayo Daejeon - Irene Greeting,https://www.reddit.com/r/red_velvet/comments/3wtms9/151214_2015_sbs_gayo_daejeon_irene_greeting/,[deleted],1450121468,[deleted],0,1,False,default,,,,,
+41,red_velvet,t5_32s1t,2015-12-15,2015,12,15,4,3wtmzs,youtube.com,151214 2015 SBS Gayo Daejeon - Irene Greeting,https://www.reddit.com/r/red_velvet/comments/3wtmzs/151214_2015_sbs_gayo_daejeon_irene_greeting/,[deleted],1450121541,[deleted],0,1,False,default,,,,,
+42,red_velvet,t5_32s1t,2015-12-15,2015,12,15,4,3wtn37,facebook.com,151214 2015 SBS Gayo Daejeon - Irene Greeting,https://www.reddit.com/r/red_velvet/comments/3wtn37/151214_2015_sbs_gayo_daejeon_irene_greeting/,thenerdal,1450121574,,6,11,False,http://b.thumbs.redditmedia.com/vC2N7gn2j_SmMICoPiMC5rJBFQB0bEIbO96L_yJxNOg.jpg,,,,,
+43,red_velvet,t5_32s1t,2015-12-15,2015,12,15,15,3wwqib,i.imgur.com,151030 SMTown Studio Special Dance Class with Wendy,https://www.reddit.com/r/red_velvet/comments/3wwqib/151030_smtown_studio_special_dance_class_with/,thenerdal,1450162451,,1,8,False,http://b.thumbs.redditmedia.com/RfqFN77DTab_g8ku37yaaGBtaxivs_BFZWbuGLUd9HM.jpg,,,,,
+44,red_velvet,t5_32s1t,2015-12-16,2015,12,16,0,3wy5ed,youtube.com,151216 Wish Tree Preview,https://www.reddit.com/r/red_velvet/comments/3wy5ed/151216_wish_tree_preview/,thenerdal,1450192989,,1,4,False,http://b.thumbs.redditmedia.com/l4yCA34vy70YMg5s7w6VF_LwZZmVvsvgeAjRg1jIrpQ.jpg,,,,,
+45,red_velvet,t5_32s1t,2015-12-16,2015,12,16,0,3wy7xr,scontent-dfw1-1.cdninstagram.com,151215 Seulgi - Sure Magazine Instagram Update,https://www.reddit.com/r/red_velvet/comments/3wy7xr/151215_seulgi_sure_magazine_instagram_update/,[deleted],1450194006,[deleted],0,1,False,default,,,,,
+46,red_velvet,t5_32s1t,2015-12-16,2015,12,16,0,3wy819,instagram.com,151215 Seulgi - Sure Magazine Instagram Update,https://www.reddit.com/r/red_velvet/comments/3wy819/151215_seulgi_sure_magazine_instagram_update/,thenerdal,1450194039,,2,15,False,http://b.thumbs.redditmedia.com/G8FPbW12IeyKfLz4Hd_vmoWyMJ_cdSnxXri_-CPrTms.jpg,,,,,
+47,red_velvet,t5_32s1t,2015-12-16,2015,12,16,1,3wyjz6,self.red_velvet,151215 Joy &amp; Yeri - The Curious Incident of the Dog in the Night-Time VIP Premiere,https://www.reddit.com/r/red_velvet/comments/3wyjz6/151215_joy_yeri_the_curious_incident_of_the_dog/,thenerdal,1450198651,"*Will Update*
 
 ###Press Pictures: 
 
@@ -178,39 +178,39 @@
 
 ---
 
-[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",0,2
-48,2015-12-16,2015,12,16,2,3wype1,151215 Irene &amp; Joy - Star King Full Episode,thenerdal,1450200706,,1,3
-49,2015-12-16,2015,12,16,8,3x0aiw,151216 Kim Suro Twitter with Joy &amp; Yeri,thenerdal,1450222356,,1,3
-50,2015-12-16,2015,12,16,17,3x23dv,151216 Everyshot Winter Garden League Video,thenerdal,1450255062,,3,8
-51,2015-12-16,2015,12,16,17,3x23hp,Merry Winter Garden Stream - 11 PM KST,[deleted],1450255146,[deleted],0,1
-52,2015-12-16,2015,12,16,17,3x23nd,Merry Winter Garden Stream - 12/17 11 PM KST,[deleted],1450255252,[deleted],1,2
-53,2015-12-17,2015,12,17,5,3x4bk5,151216 KBS Vitamin Preview,thenerdal,1450296149,,0,3
-54,2015-12-17,2015,12,17,11,3x5qqe,Merry Winter Garden Stream - Starts When This Post Is 12 Hours Old,[deleted],1450317600,[deleted],1,3
-55,2015-12-17,2015,12,17,22,3x7o03,151217 Jiwon Jung Instagram Update with Red Velvet,thenerdal,1450359361,,2,6
-56,2015-12-17,2015,12,17,22,3x7oyt,151217 Meters/bonwe Update,thenerdal,1450359886,,1,7
-57,2015-12-18,2015,12,18,0,3x7zn7,Red Velvet - Wish Tree,thenerdal,1450365019,,2,16
-58,2015-12-18,2015,12,18,0,3x83gq,151218 Yeri UFO Update,thenerdal,1450366737,,1,12
-59,2015-12-18,2015,12,18,0,3x83k3,151218 Joy UFO Update,thenerdal,1450366779,,0,12
-60,2015-12-18,2015,12,18,1,3x8cee,151218 Ryeowook Twitter Update with Joy and Yeri,thenerdal,1450370387,,1,5
-61,2015-12-18,2015,12,18,14,3xb3r8,151217 KBS Vitamin with Red Velvet,thenerdal,1450415030,,1,2
-62,2015-12-18,2015,12,18,14,3xb4q7,151217 Merry Winter Garden,[deleted],1450415548,[deleted],0,1
-63,2015-12-18,2015,12,18,14,3xb4xb,151217 Merry Winter Garden,thenerdal,1450415656,,2,3
-64,2015-12-18,2015,12,18,14,3xb6fi,We Got Married with Joy,thenerdal,1450416536,[removed],9,6
-65,2015-12-18,2015,12,18,18,3xbpkx,151218 S'More Simply K-Pop,thenerdal,1450429375,,0,4
-66,2015-12-18,2015,12,18,18,3xbref,151218 AZTalk Update with Seulgi and Wendy,thenerdal,1450430772,,1,17
-67,2015-12-19,2015,12,19,3,3xde5q,151218 Joy UFO Update,thenerdal,1450462363,,0,16
-68,2015-12-19,2015,12,19,3,3xdekn,151218 Irene MC Cuts for Music Bank,thenerdal,1450462531,,1,9
-69,2015-12-19,2015,12,19,19,3xg9y9,151218 AZTalk Video with Seulgi and Wendy,thenerdal,1450519401,,1,4
-70,2015-12-20,2015,12,20,7,3xiidd,151220 2015 SBS Gayo Daejeon - Full Irene Greeting,thenerdal,1450564436,,2,30
-71,2015-12-20,2015,12,20,17,3xk835,151220 Wendy Phonecall at Park Myungsoo Radio,thenerdal,1450601600,,1,2
-72,2015-12-20,2015,12,20,19,3xkctv,151218 Irene Heading To Music Bank,thenerdal,1450606058,,0,6
-73,2015-12-21,2015,12,21,3,3xlnkj,151220 Wendy UFO Update,thenerdal,1450635142,,0,5
-74,2015-12-21,2015,12,21,3,3xlq7k,151220 Seulgi Preview for Sure Magazine,thenerdal,1450636344,,0,8
-75,2015-12-21,2015,12,21,13,3xnw4y,15122 Seulgi Scans for Sure Magazine,[deleted],1450672621,[deleted],0,1
-76,2015-12-21,2015,12,21,13,3xnw87,151222 Seulgi Scans for Sure Magazine,thenerdal,1450672669,,2,21
-77,2015-12-21,2015,12,21,16,3xocxu,151222 Key Instagram Update with Red Velvet,thenerdal,1450682359,,2,12
-78,2015-12-22,2015,12,22,14,3xss39,151222 MBC Twitter and Instagram Update with Joy,thenerdal,1450761500,,1,3
-79,2015-12-22,2015,12,22,19,3xtjiv,151222 SM Charity Bazaar,thenerdal,1450779757,"*Everyone but Joy attended due to filming WGM | Will Update* | **Bold Means New**
+[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",0,2,False,self,,,,,
+48,red_velvet,t5_32s1t,2015-12-16,2015,12,16,2,3wype1,dailymotion.com,151215 Irene &amp; Joy - Star King Full Episode,https://www.reddit.com/r/red_velvet/comments/3wype1/151215_irene_joy_star_king_full_episode/,thenerdal,1450200706,,1,3,False,http://b.thumbs.redditmedia.com/5oO96WgShw40nwyWniPGuWZy41aR-TMkVADqteoz5aE.jpg,,,,,
+49,red_velvet,t5_32s1t,2015-12-16,2015,12,16,8,3x0aiw,i.imgur.com,151216 Kim Suro Twitter with Joy &amp; Yeri,https://www.reddit.com/r/red_velvet/comments/3x0aiw/151216_kim_suro_twitter_with_joy_yeri/,thenerdal,1450222356,,1,3,False,http://b.thumbs.redditmedia.com/1VlwP2qvLxEU_JVFAISdMGXb2EwmjOl2Dz-rn8Luzpw.jpg,,,,,
+50,red_velvet,t5_32s1t,2015-12-16,2015,12,16,17,3x23dv,youtube.com,151216 Everyshot Winter Garden League Video,https://www.reddit.com/r/red_velvet/comments/3x23dv/151216_everyshot_winter_garden_league_video/,thenerdal,1450255062,,3,8,False,http://b.thumbs.redditmedia.com/y9gqx9wHA9kvi9hGdxNaGDiNhjEp9_0zhGW4CYIT8hM.jpg,,,,,
+51,red_velvet,t5_32s1t,2015-12-16,2015,12,16,17,3x23hp,vlive.tv,Merry Winter Garden Stream - 11 PM KST,https://www.reddit.com/r/red_velvet/comments/3x23hp/merry_winter_garden_stream_11_pm_kst/,[deleted],1450255146,[deleted],0,1,False,default,,,,,
+52,red_velvet,t5_32s1t,2015-12-16,2015,12,16,17,3x23nd,vlive.tv,Merry Winter Garden Stream - 12/17 11 PM KST,https://www.reddit.com/r/red_velvet/comments/3x23nd/merry_winter_garden_stream_1217_11_pm_kst/,[deleted],1450255252,[deleted],1,2,False,default,,,,,
+53,red_velvet,t5_32s1t,2015-12-17,2015,12,17,5,3x4bk5,youtube.com,151216 KBS Vitamin Preview,https://www.reddit.com/r/red_velvet/comments/3x4bk5/151216_kbs_vitamin_preview/,thenerdal,1450296149,,0,3,False,http://a.thumbs.redditmedia.com/Wp7fUEvSoTTuHAvkdqQt-virc4rOhyNsYZff3Wxgj14.jpg,,,,,
+54,red_velvet,t5_32s1t,2015-12-17,2015,12,17,11,3x5qqe,vlive.tv,Merry Winter Garden Stream - Starts When This Post Is 12 Hours Old,https://www.reddit.com/r/red_velvet/comments/3x5qqe/merry_winter_garden_stream_starts_when_this_post/,[deleted],1450317600,[deleted],1,3,False,default,,,,,
+55,red_velvet,t5_32s1t,2015-12-17,2015,12,17,22,3x7o03,i.imgur.com,151217 Jiwon Jung Instagram Update with Red Velvet,https://www.reddit.com/r/red_velvet/comments/3x7o03/151217_jiwon_jung_instagram_update_with_red_velvet/,thenerdal,1450359361,,2,6,False,http://b.thumbs.redditmedia.com/DswUcpuOOiaIq8TKhxXCAiGaLh3xUVAxHHUNCqG-O4E.jpg,,,,,
+56,red_velvet,t5_32s1t,2015-12-17,2015,12,17,22,3x7oyt,imgur.com,151217 Meters/bonwe Update,https://www.reddit.com/r/red_velvet/comments/3x7oyt/151217_metersbonwe_update/,thenerdal,1450359886,,1,7,False,http://b.thumbs.redditmedia.com/-k5ekw2Jaz2ja5HGqNchmoe-mhEmX0NyiL1OMEqXI6Q.jpg,,,,,
+57,red_velvet,t5_32s1t,2015-12-18,2015,12,18,0,3x7zn7,youtube.com,Red Velvet - Wish Tree,https://www.reddit.com/r/red_velvet/comments/3x7zn7/red_velvet_wish_tree/,thenerdal,1450365019,,2,16,False,http://a.thumbs.redditmedia.com/unl5WSTLXdHn64Cbmu9KyxRno089Dz4xy_MGZ__V7Z8.jpg,,,,,
+58,red_velvet,t5_32s1t,2015-12-18,2015,12,18,0,3x83gq,i.imgur.com,151218 Yeri UFO Update,https://www.reddit.com/r/red_velvet/comments/3x83gq/151218_yeri_ufo_update/,thenerdal,1450366737,,1,12,False,http://b.thumbs.redditmedia.com/qqtjB3f2qGT5yPmvu4w4LaTvzsV0PV9YcioO1YiVIWY.jpg,,,,,
+59,red_velvet,t5_32s1t,2015-12-18,2015,12,18,0,3x83k3,i.imgur.com,151218 Joy UFO Update,https://www.reddit.com/r/red_velvet/comments/3x83k3/151218_joy_ufo_update/,thenerdal,1450366779,,0,12,False,http://b.thumbs.redditmedia.com/UDdzILXUpANJMF2XoKqksIBY9aK5PbtXrtQimqWN-Xc.jpg,,,,,
+60,red_velvet,t5_32s1t,2015-12-18,2015,12,18,1,3x8cee,imgur.com,151218 Ryeowook Twitter Update with Joy and Yeri,https://www.reddit.com/r/red_velvet/comments/3x8cee/151218_ryeowook_twitter_update_with_joy_and_yeri/,thenerdal,1450370387,,1,5,False,http://b.thumbs.redditmedia.com/AX4VUWSO4FXwUYatjnCxPWbyxKcFvPeGdpC-TnSSVro.jpg,,,,,
+61,red_velvet,t5_32s1t,2015-12-18,2015,12,18,14,3xb3r8,dailymotion.com,151217 KBS Vitamin with Red Velvet,https://www.reddit.com/r/red_velvet/comments/3xb3r8/151217_kbs_vitamin_with_red_velvet/,thenerdal,1450415030,,1,2,False,http://b.thumbs.redditmedia.com/MqoQ-tOOMELU33d21GW3UU5IkT13wRRlzd11Ms3hQjQ.jpg,,,,,
+62,red_velvet,t5_32s1t,2015-12-18,2015,12,18,14,3xb4q7,home.soshistagram.com,151217 Merry Winter Garden,https://www.reddit.com/r/red_velvet/comments/3xb4q7/151217_merry_winter_garden/,[deleted],1450415548,[deleted],0,1,False,default,,,,,
+63,red_velvet,t5_32s1t,2015-12-18,2015,12,18,14,3xb4xb,vlive.tv,151217 Merry Winter Garden,https://www.reddit.com/r/red_velvet/comments/3xb4xb/151217_merry_winter_garden/,thenerdal,1450415656,,2,3,False,http://b.thumbs.redditmedia.com/iVleAFIIUd4kqvTaYjhTdOiUhPj38JTaW27cCXRLfPw.jpg,,,,,
+64,red_velvet,t5_32s1t,2015-12-18,2015,12,18,14,3xb6fi,self.red_velvet,We Got Married with Joy,https://www.reddit.com/r/red_velvet/comments/3xb6fi/we_got_married_with_joy/,thenerdal,1450416536,[removed],9,6,False,default,,,,,
+65,red_velvet,t5_32s1t,2015-12-18,2015,12,18,18,3xbpkx,youtube.com,151218 S'More Simply K-Pop,https://www.reddit.com/r/red_velvet/comments/3xbpkx/151218_smore_simply_kpop/,thenerdal,1450429375,,0,4,False,http://b.thumbs.redditmedia.com/ih6rdDSIfdgTUW7ScRp1KXkiQ_UYJ9yIJo5r0x1d5kc.jpg,,,,,
+66,red_velvet,t5_32s1t,2015-12-18,2015,12,18,18,3xbref,imgur.com,151218 AZTalk Update with Seulgi and Wendy,https://www.reddit.com/r/red_velvet/comments/3xbref/151218_aztalk_update_with_seulgi_and_wendy/,thenerdal,1450430772,,1,17,False,http://b.thumbs.redditmedia.com/uOaadxlCflPdphycwb6HMFGZ3kInimQj86lzaFrGGIA.jpg,,,,,
+67,red_velvet,t5_32s1t,2015-12-19,2015,12,19,3,3xde5q,i.imgur.com,151218 Joy UFO Update,https://www.reddit.com/r/red_velvet/comments/3xde5q/151218_joy_ufo_update/,thenerdal,1450462363,,0,16,False,http://b.thumbs.redditmedia.com/5RQPOmglprk89yGrRbW_2VZGI2nxRbMYd3YAXJLFXpU.jpg,,,,,
+68,red_velvet,t5_32s1t,2015-12-19,2015,12,19,3,3xdekn,youtube.com,151218 Irene MC Cuts for Music Bank,https://www.reddit.com/r/red_velvet/comments/3xdekn/151218_irene_mc_cuts_for_music_bank/,thenerdal,1450462531,,1,9,False,http://a.thumbs.redditmedia.com/iCqyYNxNsXxKfWWlGnvyOshfp7l2uScQzsaEWwngcP0.jpg,,,,,
+69,red_velvet,t5_32s1t,2015-12-19,2015,12,19,19,3xg9y9,youtube.com,151218 AZTalk Video with Seulgi and Wendy,https://www.reddit.com/r/red_velvet/comments/3xg9y9/151218_aztalk_video_with_seulgi_and_wendy/,thenerdal,1450519401,,1,4,False,http://b.thumbs.redditmedia.com/m-P8AY1l7IXcBtfFXwhTwjmo_xa6vdLvODlEPhCkbZM.jpg,,,,,
+70,red_velvet,t5_32s1t,2015-12-20,2015,12,20,7,3xiidd,facebook.com,151220 2015 SBS Gayo Daejeon - Full Irene Greeting,https://www.reddit.com/r/red_velvet/comments/3xiidd/151220_2015_sbs_gayo_daejeon_full_irene_greeting/,thenerdal,1450564436,,2,30,False,http://b.thumbs.redditmedia.com/ZFBQ6KkTYDvpUWZlp_kVAJxoBaZsfieuJ04vu7V7ViE.jpg,,,,,
+71,red_velvet,t5_32s1t,2015-12-20,2015,12,20,17,3xk835,youtube.com,151220 Wendy Phonecall at Park Myungsoo Radio,https://www.reddit.com/r/red_velvet/comments/3xk835/151220_wendy_phonecall_at_park_myungsoo_radio/,thenerdal,1450601600,,1,2,False,http://b.thumbs.redditmedia.com/PvtW2KNTfmdLh2NpJsSaCSpfW2d4SFIZBHbTSVJRPIs.jpg,,,,,
+72,red_velvet,t5_32s1t,2015-12-20,2015,12,20,19,3xkctv,imgur.com,151218 Irene Heading To Music Bank,https://www.reddit.com/r/red_velvet/comments/3xkctv/151218_irene_heading_to_music_bank/,thenerdal,1450606058,,0,6,False,http://b.thumbs.redditmedia.com/x9cQ9Vuj61nc5NdDq4reTI4kXhGhrGMrXqR1A-Q1n0k.jpg,,,,,
+73,red_velvet,t5_32s1t,2015-12-21,2015,12,21,3,3xlnkj,i.imgur.com,151220 Wendy UFO Update,https://www.reddit.com/r/red_velvet/comments/3xlnkj/151220_wendy_ufo_update/,thenerdal,1450635142,,0,5,False,http://b.thumbs.redditmedia.com/1F-FCZDqUzzrNdv7oJJB9p8WqE6lpkbo0Kfe7ol7a6o.jpg,,,,,
+74,red_velvet,t5_32s1t,2015-12-21,2015,12,21,3,3xlq7k,imgur.com,151220 Seulgi Preview for Sure Magazine,https://www.reddit.com/r/red_velvet/comments/3xlq7k/151220_seulgi_preview_for_sure_magazine/,thenerdal,1450636344,,0,8,False,http://b.thumbs.redditmedia.com/zoPnN6E6HjAQtmt4qGKLh2NzLUb62T5ngKYr1jvvQ9I.jpg,,,,,
+75,red_velvet,t5_32s1t,2015-12-21,2015,12,21,13,3xnw4y,imgur.com,15122 Seulgi Scans for Sure Magazine,https://www.reddit.com/r/red_velvet/comments/3xnw4y/15122_seulgi_scans_for_sure_magazine/,[deleted],1450672621,[deleted],0,1,False,default,,,,,
+76,red_velvet,t5_32s1t,2015-12-21,2015,12,21,13,3xnw87,imgur.com,151222 Seulgi Scans for Sure Magazine,https://www.reddit.com/r/red_velvet/comments/3xnw87/151222_seulgi_scans_for_sure_magazine/,thenerdal,1450672669,,2,21,False,http://b.thumbs.redditmedia.com/7VdD2PCTtmVY_xClLDSBQmV1Cafi3CwX2vzG7sAGAKE.jpg,,,,,
+77,red_velvet,t5_32s1t,2015-12-21,2015,12,21,16,3xocxu,i.imgur.com,151222 Key Instagram Update with Red Velvet,https://www.reddit.com/r/red_velvet/comments/3xocxu/151222_key_instagram_update_with_red_velvet/,thenerdal,1450682359,,2,12,False,http://b.thumbs.redditmedia.com/AIO1XQMR4ya9wQFXRgqZ5QAoLvEsxtK7W9IDN471C5k.jpg,,,,,
+78,red_velvet,t5_32s1t,2015-12-22,2015,12,22,14,3xss39,imgur.com,151222 MBC Twitter and Instagram Update with Joy,https://www.reddit.com/r/red_velvet/comments/3xss39/151222_mbc_twitter_and_instagram_update_with_joy/,thenerdal,1450761500,,1,3,False,http://b.thumbs.redditmedia.com/wPRI5rJSQdf2mg9CnblAkT1KimA8QgakJhetzBTsH9I.jpg,,,,,
+79,red_velvet,t5_32s1t,2015-12-22,2015,12,22,19,3xtjiv,self.red_velvet,151222 SM Charity Bazaar,https://www.reddit.com/r/red_velvet/comments/3xtjiv/151222_sm_charity_bazaar/,thenerdal,1450779757,"*Everyone but Joy attended due to filming WGM | Will Update* | **Bold Means New**
 
 ###Fan Pictures: 
 
@@ -244,14 +244,14 @@
 
 ---
 
-[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",0,2
-80,2015-12-22,2015,12,22,19,3xtjza,151222 Meters/bonwe Update,thenerdal,1450780150,,1,10
-81,2015-12-23,2015,12,23,5,3xvgd8,"151222 Seulgi Dance Cut - Same Bed, Different Dreams",thenerdal,1450814435,,1,10
-82,2015-12-23,2015,12,23,10,3xwpji,151223 Seulgi Greeting - 2015 SBS Gayo Daejeon,thenerdal,1450834368,,1,5
-83,2015-12-23,2015,12,23,19,3xy4pe,151223 Vyrl Update,thenerdal,1450865155,,1,5
-84,2015-12-24,2015,12,24,1,3xz48g,151223 Yeri UFO Update,thenerdal,1450886913,,0,12
-85,2015-12-24,2015,12,24,1,3xz57p,151223 Meters/bonwe Weibo Update,thenerdal,1450887388,,1,13
-86,2015-12-24,2015,12,24,1,3xz682,Holiday Special Stages,thenerdal,1450887893,"####Wish Tree Performance at Music Bank Year End Special (**December 25**)
+[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",0,2,False,self,,,,,
+80,red_velvet,t5_32s1t,2015-12-22,2015,12,22,19,3xtjza,imgur.com,151222 Meters/bonwe Update,https://www.reddit.com/r/red_velvet/comments/3xtjza/151222_metersbonwe_update/,thenerdal,1450780150,,1,10,False,http://b.thumbs.redditmedia.com/FbvBwCEHi5IeDvlOxOQd01CXK9nN4kDAmNn_NrGiLcs.jpg,,,,,
+81,red_velvet,t5_32s1t,2015-12-23,2015,12,23,5,3xvgd8,youtube.com,"151222 Seulgi Dance Cut - Same Bed, Different Dreams",https://www.reddit.com/r/red_velvet/comments/3xvgd8/151222_seulgi_dance_cut_same_bed_different_dreams/,thenerdal,1450814435,,1,10,False,http://b.thumbs.redditmedia.com/L8bAf5tay39CiLwJ1EEML_OmUsTP6BBuzd_wpPD1doU.jpg,,,,,
+82,red_velvet,t5_32s1t,2015-12-23,2015,12,23,10,3xwpji,facebook.com,151223 Seulgi Greeting - 2015 SBS Gayo Daejeon,https://www.reddit.com/r/red_velvet/comments/3xwpji/151223_seulgi_greeting_2015_sbs_gayo_daejeon/,thenerdal,1450834368,,1,5,False,http://b.thumbs.redditmedia.com/PJ9v6_f_gQ-ixNBAh6KUKmeb8e8c-wQBLiBRYkcMJUM.jpg,,,,,
+83,red_velvet,t5_32s1t,2015-12-23,2015,12,23,19,3xy4pe,imgur.com,151223 Vyrl Update,https://www.reddit.com/r/red_velvet/comments/3xy4pe/151223_vyrl_update/,thenerdal,1450865155,,1,5,False,http://b.thumbs.redditmedia.com/oRw6DFLQvkLWEF-IUSRMtWdMH7kqOq3aaP3qP6mf9-s.jpg,,,,,
+84,red_velvet,t5_32s1t,2015-12-24,2015,12,24,1,3xz48g,i.imgur.com,151223 Yeri UFO Update,https://www.reddit.com/r/red_velvet/comments/3xz48g/151223_yeri_ufo_update/,thenerdal,1450886913,,0,12,False,http://b.thumbs.redditmedia.com/f8TsjY9XfouxQQnCbeyYQxoDu7Vx_CE94e1bELAdopQ.jpg,,,,,
+85,red_velvet,t5_32s1t,2015-12-24,2015,12,24,1,3xz57p,imgur.com,151223 Meters/bonwe Weibo Update,https://www.reddit.com/r/red_velvet/comments/3xz57p/151223_metersbonwe_weibo_update/,thenerdal,1450887388,,1,13,False,http://a.thumbs.redditmedia.com/NDvv0GYCbuomrfuOVVgaiTqhe9ifn24pabqg0BG7AF8.jpg,,,,,
+86,red_velvet,t5_32s1t,2015-12-24,2015,12,24,1,3xz682,self.red_velvet,Holiday Special Stages,https://www.reddit.com/r/red_velvet/comments/3xz682/holiday_special_stages/,thenerdal,1450887893,"####Wish Tree Performance at Music Bank Year End Special (**December 25**)
 
 ---
 
@@ -268,12 +268,12 @@
 
 
 
-",1,4
-87,2015-12-24,2015,12,24,17,3y2cqk,151224 Meters/bonwe Weibo Update,thenerdal,1450946357,,1,16
-88,2015-12-24,2015,12,24,19,3y2l4e,151224 Vyrl Update - Be Natural Era,thenerdal,1450953615,,0,13
-89,2015-12-25,2015,12,25,1,3y3g7j,151224 ssohit Instagram Update with Irene,thenerdal,1450975697,,1,6
-90,2015-12-25,2015,12,25,12,3y5bvv,151225 Simply K-pop Christmas Message,[deleted],1451014571,[deleted],1,1
-91,2015-12-25,2015,12,25,13,3y5hsw,151225 Official Instagram Updates,thenerdal,1451018525,"***Bold means new***
+",1,4,False,self,,,,,
+87,red_velvet,t5_32s1t,2015-12-24,2015,12,24,17,3y2cqk,imgur.com,151224 Meters/bonwe Weibo Update,https://www.reddit.com/r/red_velvet/comments/3y2cqk/151224_metersbonwe_weibo_update/,thenerdal,1450946357,,1,16,False,http://a.thumbs.redditmedia.com/MltmFNRfSlUKrTmuFo8fL0aj7eRHEnWFaQy9WUXIgB4.jpg,,,,,
+88,red_velvet,t5_32s1t,2015-12-24,2015,12,24,19,3y2l4e,imgur.com,151224 Vyrl Update - Be Natural Era,https://www.reddit.com/r/red_velvet/comments/3y2l4e/151224_vyrl_update_be_natural_era/,thenerdal,1450953615,,0,13,False,http://b.thumbs.redditmedia.com/RkZ-VCwF1aPAfRPs0NUWVgkx13mu5dcVBfQV_n_NrGw.jpg,,,,,
+89,red_velvet,t5_32s1t,2015-12-25,2015,12,25,1,3y3g7j,i.imgur.com,151224 ssohit Instagram Update with Irene,https://www.reddit.com/r/red_velvet/comments/3y3g7j/151224_ssohit_instagram_update_with_irene/,thenerdal,1450975697,,1,6,False,http://a.thumbs.redditmedia.com/3yKVCh8mq1JHv01-SuUT0m3cQ2BlNMtaGoiNwAUazJ4.jpg,,,,,
+90,red_velvet,t5_32s1t,2015-12-25,2015,12,25,12,3y5bvv,youtube.com,151225 Simply K-pop Christmas Message,https://www.reddit.com/r/red_velvet/comments/3y5bvv/151225_simply_kpop_christmas_message/,[deleted],1451014571,[deleted],1,1,False,default,,,,,
+91,red_velvet,t5_32s1t,2015-12-25,2015,12,25,13,3y5hsw,self.red_velvet,151225 Official Instagram Updates,https://www.reddit.com/r/red_velvet/comments/3y5hsw/151225_official_instagram_updates/,thenerdal,1451018525,"***Bold means new***
 
 ####[Update 1 with Seulgi](https://scontent-dfw1-1.cdninstagram.com/hphotos-xtp1/t50.2886-16/10293959_443664675828982_158648280_n.mp4) | [Instagram Link](https://www.instagram.com/p/_s2awRyHBP/)
 
@@ -289,18 +289,18 @@
 
 ####**[Update 7 with Wendy and Yeri](https://scontent-dfw1-1.cdninstagram.com/hphotos-xpt1/t50.2886-16/12396088_545572928935560_163111617_n.mp4) | [Instagram Link](https://www.instagram.com/p/_th7oJyHMs/)**
 
-####**[Update 8 with Wendy](https://scontent-dfw1-1.cdninstagram.com/hphotos-xat1/t50.2886-16/12424147_1509746712653921_2056059383_n.mp4) | [Instagram Link](https://www.instagram.com/p/_tiFAGyHM8/)**",0,1
-92,2015-12-25,2015,12,25,15,3y5t76,151225 SMTown Vyrl Update,thenerdal,1451026622,,0,16
-93,2015-12-25,2015,12,25,17,3y60o6,151225 Simply K-Pop Christmas Greetings,thenerdal,1451032440,,0,1
-94,2015-12-25,2015,12,25,19,3y66ag,151225 Irene 'Jingle Bell Rock' - Music Bank,[deleted],1451037758,[deleted],0,1
-95,2015-12-25,2015,12,25,19,3y66hr,151225 Wish Tree - Music Bank,[deleted],1451037942,[deleted],1,1
-96,2015-12-25,2015,12,25,19,3y68gq,151225 Wish Tree - Music Bank,[deleted],1451040110,[deleted],0,2
-97,2015-12-25,2015,12,25,19,3y693t,151225 Wish Tree - Music Bank,thenerdal,1451040815,,1,3
-98,2015-12-25,2015,12,25,19,3y6965,151225 Irene 'Jingle Bell Rock' - Music Bank,thenerdal,1451040882,,1,3
-99,2015-12-26,2015,12,26,2,3y73ra,151225 Seulgi UFO Update,thenerdal,1451064358,,0,23
-100,2015-12-26,2015,12,26,2,3y7612,151225 Irene MC Cuts for Music Bank,thenerdal,1451065633,,1,1
-101,2015-12-26,2015,12,26,2,3y766m,151225 Music Bank Ending,thenerdal,1451065715,,1,3
-102,2015-12-26,2015,12,26,3,3y7cbk,151225 Music Bank Commute,thenerdal,1451069034,"*Will Update | Not sure why Yeri wasn't there*
+####**[Update 8 with Wendy](https://scontent-dfw1-1.cdninstagram.com/hphotos-xat1/t50.2886-16/12424147_1509746712653921_2056059383_n.mp4) | [Instagram Link](https://www.instagram.com/p/_tiFAGyHM8/)**",0,1,False,self,,,,,
+92,red_velvet,t5_32s1t,2015-12-25,2015,12,25,15,3y5t76,i.imgur.com,151225 SMTown Vyrl Update,https://www.reddit.com/r/red_velvet/comments/3y5t76/151225_smtown_vyrl_update/,thenerdal,1451026622,,0,16,False,http://b.thumbs.redditmedia.com/Po_JrfG1fLFlGSgXNY_CMD97nxou9QUc-39SSAAwL9M.jpg,,,,,
+93,red_velvet,t5_32s1t,2015-12-25,2015,12,25,17,3y60o6,youtube.com,151225 Simply K-Pop Christmas Greetings,https://www.reddit.com/r/red_velvet/comments/3y60o6/151225_simply_kpop_christmas_greetings/,thenerdal,1451032440,,0,1,False,http://b.thumbs.redditmedia.com/91MKAyBEwncL0lpulrB6Ca_EnW96lyGkzclba-Yh60I.jpg,,,,,
+94,red_velvet,t5_32s1t,2015-12-25,2015,12,25,19,3y66ag,youtube.com,151225 Irene 'Jingle Bell Rock' - Music Bank,https://www.reddit.com/r/red_velvet/comments/3y66ag/151225_irene_jingle_bell_rock_music_bank/,[deleted],1451037758,[deleted],0,1,False,default,,,,,
+95,red_velvet,t5_32s1t,2015-12-25,2015,12,25,19,3y66hr,youtube.com,151225 Wish Tree - Music Bank,https://www.reddit.com/r/red_velvet/comments/3y66hr/151225_wish_tree_music_bank/,[deleted],1451037942,[deleted],1,1,False,default,,,,,
+96,red_velvet,t5_32s1t,2015-12-25,2015,12,25,19,3y68gq,dailymotion.com,151225 Wish Tree - Music Bank,https://www.reddit.com/r/red_velvet/comments/3y68gq/151225_wish_tree_music_bank/,[deleted],1451040110,[deleted],0,2,False,default,,,,,
+97,red_velvet,t5_32s1t,2015-12-25,2015,12,25,19,3y693t,youtube.com,151225 Wish Tree - Music Bank,https://www.reddit.com/r/red_velvet/comments/3y693t/151225_wish_tree_music_bank/,thenerdal,1451040815,,1,3,False,http://b.thumbs.redditmedia.com/SoaPLNrxvidH2Hx1o3d72npRaLPVZlHsotRLOeOEPQU.jpg,,,,,
+98,red_velvet,t5_32s1t,2015-12-25,2015,12,25,19,3y6965,youtube.com,151225 Irene 'Jingle Bell Rock' - Music Bank,https://www.reddit.com/r/red_velvet/comments/3y6965/151225_irene_jingle_bell_rock_music_bank/,thenerdal,1451040882,,1,3,False,http://b.thumbs.redditmedia.com/JTr7F3Y1M40jDkqqQUhEPl3w07w681WLcnKCdZWagMA.jpg,,,,,
+99,red_velvet,t5_32s1t,2015-12-26,2015,12,26,2,3y73ra,i.imgur.com,151225 Seulgi UFO Update,https://www.reddit.com/r/red_velvet/comments/3y73ra/151225_seulgi_ufo_update/,thenerdal,1451064358,,0,23,False,http://b.thumbs.redditmedia.com/vp-II9CdXyQkFIEj4HTOQWcB0EDXojadNfm58sYJ7Mg.jpg,,,,,
+100,red_velvet,t5_32s1t,2015-12-26,2015,12,26,2,3y7612,youtube.com,151225 Irene MC Cuts for Music Bank,https://www.reddit.com/r/red_velvet/comments/3y7612/151225_irene_mc_cuts_for_music_bank/,thenerdal,1451065633,,1,1,False,http://b.thumbs.redditmedia.com/gi1vcO1FVrIg8jgE77Ggqxk0lqHM790Ksc8FwnYqpew.jpg,,,,,
+101,red_velvet,t5_32s1t,2015-12-26,2015,12,26,2,3y766m,youtube.com,151225 Music Bank Ending,https://www.reddit.com/r/red_velvet/comments/3y766m/151225_music_bank_ending/,thenerdal,1451065715,,1,3,False,http://b.thumbs.redditmedia.com/YEr5Y31v-NrvmDuqtjWQP3azbu6toDP-6OWuagy8kyE.jpg,,,,,
+102,red_velvet,t5_32s1t,2015-12-26,2015,12,26,3,3y7cbk,self.red_velvet,151225 Music Bank Commute,https://www.reddit.com/r/red_velvet/comments/3y7cbk/151225_music_bank_commute/,thenerdal,1451069034,"*Will Update | Not sure why Yeri wasn't there*
 
 ###Press: 
 
@@ -318,24 +318,24 @@
 
 ---
 
-[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",0,2
-103,2015-12-26,2015,12,26,11,3y8qqn,151226 SMTown Vyrl Update,thenerdal,1451096615,,0,8
-104,2015-12-26,2015,12,26,11,3y8sq1,151226 SMTown Twitter Update,thenerdal,1451097702,,1,6
-105,2015-12-26,2015,12,26,12,3y8v13,151226 Red Velvet Vyrl Update,thenerdal,1451099003,,0,11
-106,2015-12-26,2015,12,26,14,3y9bfp,151226 Seulgi SURE Preview - kminjin__ Instagram Update,thenerdal,1451108426,,2,7
-107,2015-12-26,2015,12,26,14,3y9bkv,151226 kminjin__ Instagram Update with Irene,thenerdal,1451108506,,0,3
-108,2015-12-26,2015,12,26,14,3y9br6,151226 ssohit Instagram Update with Irene,thenerdal,1451108612,,1,3
-109,2015-12-26,2015,12,26,16,3y9k0j,151226 Ice Cream Cake - Music Core,thenerdal,1451114353,,3,5
-110,2015-12-26,2015,12,26,16,3y9lbb,"2015 SBS, KBS, and MBC Gayo Streams",[deleted],1451115363,[deleted],0,2
-111,2015-12-26,2015,12,26,19,3y9x81,151226 Kim Saeron Twitter Update with Yeri,thenerdal,1451126514,,2,16
-112,2015-12-27,2015,12,27,3,3yb4fo,151226 Meters/bonwe Update,thenerdal,1451154359,,1,11
-113,2015-12-27,2015,12,27,19,3ydwi2,"151226 Seulgi Cuts - Same Bed, Different Dreams",thenerdal,1451210761,,1,8
-114,2015-12-27,2015,12,27,19,3ydxq9,151227 SBS Vine Update,thenerdal,1451212021,,1,9
-115,2015-12-28,2015,12,28,1,3yet7r,151227 SBS Facebook Update,thenerdal,1451234683,,0,2
-116,2015-12-28,2015,12,28,1,3yeu3m,151227 Dumb Dumb + Ice Cream Cake - SBS Gayo Daejeon,thenerdal,1451235162,,2,20
-117,2015-12-28,2015,12,28,2,3yex9z,151227 SBS Gayo Daejeon Twitter Update,thenerdal,1451236667,,1,6
-118,2015-12-28,2015,12,28,2,3yexfp,151227 Meters/bonwe Update,thenerdal,1451236754,,2,14
-119,2015-12-28,2015,12,28,4,3yfgww,151227 SBS Gayo Daejeon,thenerdal,1451245815,"*Will Update* | **Bold Means New**
+[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",0,2,False,self,,,,,
+103,red_velvet,t5_32s1t,2015-12-26,2015,12,26,11,3y8qqn,imgur.com,151226 SMTown Vyrl Update,https://www.reddit.com/r/red_velvet/comments/3y8qqn/151226_smtown_vyrl_update/,thenerdal,1451096615,,0,8,False,http://b.thumbs.redditmedia.com/Ev4y20MEvZ0R-Uj-ez5FTpXE3rAvvCAhT3wpg7sH_yM.jpg,,,,,
+104,red_velvet,t5_32s1t,2015-12-26,2015,12,26,11,3y8sq1,i.imgur.com,151226 SMTown Twitter Update,https://www.reddit.com/r/red_velvet/comments/3y8sq1/151226_smtown_twitter_update/,thenerdal,1451097702,,1,6,False,http://a.thumbs.redditmedia.com/9qUaJdnDoKlrfyq0Vn_sHi3BOXnL4SZZU5dsQjo-xu8.jpg,,,,,
+105,red_velvet,t5_32s1t,2015-12-26,2015,12,26,12,3y8v13,imgur.com,151226 Red Velvet Vyrl Update,https://www.reddit.com/r/red_velvet/comments/3y8v13/151226_red_velvet_vyrl_update/,thenerdal,1451099003,,0,11,False,http://b.thumbs.redditmedia.com/yVgtjaTMdnp0CviqGqG2WX_iuDpTrQFNzrgNgyJRwzo.jpg,,,,,
+106,red_velvet,t5_32s1t,2015-12-26,2015,12,26,14,3y9bfp,i.imgur.com,151226 Seulgi SURE Preview - kminjin__ Instagram Update,https://www.reddit.com/r/red_velvet/comments/3y9bfp/151226_seulgi_sure_preview_kminjin_instagram/,thenerdal,1451108426,,2,7,False,http://b.thumbs.redditmedia.com/lJOhxVcjuHyTRr-Fmf2feIjYwzviEaW0VHt3OO2B03Q.jpg,,,,,
+107,red_velvet,t5_32s1t,2015-12-26,2015,12,26,14,3y9bkv,i.imgur.com,151226 kminjin__ Instagram Update with Irene,https://www.reddit.com/r/red_velvet/comments/3y9bkv/151226_kminjin_instagram_update_with_irene/,thenerdal,1451108506,,0,3,False,http://b.thumbs.redditmedia.com/W7Zn6E7KWPYYWv6LrZm2EKs02pOHj2L6IOWXMOcbiYc.jpg,,,,,
+108,red_velvet,t5_32s1t,2015-12-26,2015,12,26,14,3y9br6,i.imgur.com,151226 ssohit Instagram Update with Irene,https://www.reddit.com/r/red_velvet/comments/3y9br6/151226_ssohit_instagram_update_with_irene/,thenerdal,1451108612,,1,3,False,http://b.thumbs.redditmedia.com/I9_bLzUVO5iP2LiG81CZdO9W9Kl72tEjdAhfaKbQzGg.jpg,,,,,
+109,red_velvet,t5_32s1t,2015-12-26,2015,12,26,16,3y9k0j,youtube.com,151226 Ice Cream Cake - Music Core,https://www.reddit.com/r/red_velvet/comments/3y9k0j/151226_ice_cream_cake_music_core/,thenerdal,1451114353,,3,5,False,http://b.thumbs.redditmedia.com/o5100p8Q5XAFsk89gX3biTwUo3oOYBq6hhAFljU_T2A.jpg,,,,,
+110,red_velvet,t5_32s1t,2015-12-26,2015,12,26,16,3y9lbb,self.red_velvet,"2015 SBS, KBS, and MBC Gayo Streams",https://www.reddit.com/r/red_velvet/comments/3y9lbb/2015_sbs_kbs_and_mbc_gayo_streams/,[deleted],1451115363,[deleted],0,2,False,default,,,,,
+111,red_velvet,t5_32s1t,2015-12-26,2015,12,26,19,3y9x81,i.imgur.com,151226 Kim Saeron Twitter Update with Yeri,https://www.reddit.com/r/red_velvet/comments/3y9x81/151226_kim_saeron_twitter_update_with_yeri/,thenerdal,1451126514,,2,16,False,http://a.thumbs.redditmedia.com/9vQdhYCKyELjL08gB528orTslFBUdsozaoCM0ir-4h8.jpg,,,,,
+112,red_velvet,t5_32s1t,2015-12-27,2015,12,27,3,3yb4fo,imgur.com,151226 Meters/bonwe Update,https://www.reddit.com/r/red_velvet/comments/3yb4fo/151226_metersbonwe_update/,thenerdal,1451154359,,1,11,False,http://b.thumbs.redditmedia.com/LQ4CQvRgiPkg3cvZGXHUAK4wFk10DDDZkGooAu1AQeo.jpg,,,,,
+113,red_velvet,t5_32s1t,2015-12-27,2015,12,27,19,3ydwi2,youtube.com,"151226 Seulgi Cuts - Same Bed, Different Dreams",https://www.reddit.com/r/red_velvet/comments/3ydwi2/151226_seulgi_cuts_same_bed_different_dreams/,thenerdal,1451210761,,1,8,False,http://b.thumbs.redditmedia.com/u7lE0UnQDTy5p2vyqBgFqPCsWeT8Y0H3y5pG1gV5pwI.jpg,,,,,
+114,red_velvet,t5_32s1t,2015-12-27,2015,12,27,19,3ydxq9,vine.co,151227 SBS Vine Update,https://www.reddit.com/r/red_velvet/comments/3ydxq9/151227_sbs_vine_update/,thenerdal,1451212021,,1,9,False,http://b.thumbs.redditmedia.com/nYtSFf5D4JNejeXK0lmsnVUdxTdT9tjXgn7DcOG8XHY.jpg,,,,,
+115,red_velvet,t5_32s1t,2015-12-28,2015,12,28,1,3yet7r,facebook.com,151227 SBS Facebook Update,https://www.reddit.com/r/red_velvet/comments/3yet7r/151227_sbs_facebook_update/,thenerdal,1451234683,,0,2,False,http://b.thumbs.redditmedia.com/XEOKhskzhbnYwLLdUJm1wYZe2AxKn13xE-XSh5v8u9w.jpg,,,,,
+116,red_velvet,t5_32s1t,2015-12-28,2015,12,28,1,3yeu3m,dailymotion.com,151227 Dumb Dumb + Ice Cream Cake - SBS Gayo Daejeon,https://www.reddit.com/r/red_velvet/comments/3yeu3m/151227_dumb_dumb_ice_cream_cake_sbs_gayo_daejeon/,thenerdal,1451235162,,2,20,False,http://b.thumbs.redditmedia.com/pqGoz8raK7nAORExd752OhxmSGKrTLQ7tnszMKmgams.jpg,,,,,
+117,red_velvet,t5_32s1t,2015-12-28,2015,12,28,2,3yex9z,imgur.com,151227 SBS Gayo Daejeon Twitter Update,https://www.reddit.com/r/red_velvet/comments/3yex9z/151227_sbs_gayo_daejeon_twitter_update/,thenerdal,1451236667,,1,6,False,http://a.thumbs.redditmedia.com/2Uztr6e72Y-M6CwBjzVKwV-7_XGfhWIo9JXyMq1q_-8.jpg,,,,,
+118,red_velvet,t5_32s1t,2015-12-28,2015,12,28,2,3yexfp,i.imgur.com,151227 Meters/bonwe Update,https://www.reddit.com/r/red_velvet/comments/3yexfp/151227_metersbonwe_update/,thenerdal,1451236754,,2,14,False,http://b.thumbs.redditmedia.com/_7fN2yBVqxJPY-3VVv3xsX9Do-44Bi2-TfGXGA4zBQc.jpg,,,,,
+119,red_velvet,t5_32s1t,2015-12-28,2015,12,28,4,3yfgww,self.red_velvet,151227 SBS Gayo Daejeon,https://www.reddit.com/r/red_velvet/comments/3yfgww/151227_sbs_gayo_daejeon/,thenerdal,1451245815,"*Will Update* | **Bold Means New**
 
 ###[SBS Site Update](http://imgur.com/a/LPSvl)
 
@@ -379,14 +379,14 @@
 
 ---
 
-[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",0,3
-120,2015-12-28,2015,12,28,17,3yi42g,151227 Sohu TV Interview,thenerdal,1451292028,,1,6
-121,2015-12-29,2015,12,29,19,3yn54i,151229 MBC Twitter Update with Joy - 2015 MBC Entertainment Awards,[deleted],1451384849,[deleted],1,2
-122,2015-12-30,2015,12,30,3,3yojlh,151229 Joy and Sungjae win Best Couple Award - 2015 MBC Entertainment Awards,thenerdal,1451413579,,1,2
-123,2015-12-30,2015,12,30,3,3yojwd,"151229 Sungjae and Joy ""Marry You"" - 2015 MBC Entertainment Awards",thenerdal,1451413711,,1,1
-124,2015-12-30,2015,12,30,3,3yomxm,151229 MBC Vine with Joy - 2015 MBC Entertainment Awards,thenerdal,1451414995,,1,6
-125,2015-12-30,2015,12,30,4,3yosbp,151229 Seulgi - TopStarNews SURE Photos,thenerdal,1451417228,,0,10
-126,2015-12-30,2015,12,30,5,3yp369,151229 Joy - 2015 MBC Entertainment Awards,thenerdal,1451421760,"*Will Update*
+[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",0,3,False,self,,,,,
+120,red_velvet,t5_32s1t,2015-12-28,2015,12,28,17,3yi42g,youtube.com,151227 Sohu TV Interview,https://www.reddit.com/r/red_velvet/comments/3yi42g/151227_sohu_tv_interview/,thenerdal,1451292028,,1,6,False,http://b.thumbs.redditmedia.com/kEEIfH7QysWOSLko7_yNXGbvCnEHCUJegrhRrNLBjwc.jpg,,,,,
+121,red_velvet,t5_32s1t,2015-12-29,2015,12,29,19,3yn54i,imgur.com,151229 MBC Twitter Update with Joy - 2015 MBC Entertainment Awards,https://www.reddit.com/r/red_velvet/comments/3yn54i/151229_mbc_twitter_update_with_joy_2015_mbc/,[deleted],1451384849,[deleted],1,2,False,default,,,,,
+122,red_velvet,t5_32s1t,2015-12-30,2015,12,30,3,3yojlh,vimeo.com,151229 Joy and Sungjae win Best Couple Award - 2015 MBC Entertainment Awards,https://www.reddit.com/r/red_velvet/comments/3yojlh/151229_joy_and_sungjae_win_best_couple_award_2015/,thenerdal,1451413579,,1,2,False,http://b.thumbs.redditmedia.com/iwFkxhXUEe8mywIgncIac1mf7vDh5tnX770aHJ9gwlI.jpg,,,,,
+123,red_velvet,t5_32s1t,2015-12-30,2015,12,30,3,3yojwd,vimeo.com,"151229 Sungjae and Joy ""Marry You"" - 2015 MBC Entertainment Awards",https://www.reddit.com/r/red_velvet/comments/3yojwd/151229_sungjae_and_joy_marry_you_2015_mbc/,thenerdal,1451413711,,1,1,False,http://b.thumbs.redditmedia.com/nmrhYpgXge-W18ZXd1Gsa743WszRtW29vAO_FbpKcAM.jpg,,,,,
+124,red_velvet,t5_32s1t,2015-12-30,2015,12,30,3,3yomxm,vine.co,151229 MBC Vine with Joy - 2015 MBC Entertainment Awards,https://www.reddit.com/r/red_velvet/comments/3yomxm/151229_mbc_vine_with_joy_2015_mbc_entertainment/,thenerdal,1451414995,,1,6,False,http://b.thumbs.redditmedia.com/SU4TRvSxvL_8PWeAH05VcSBvLpfsaEe61-CExV3frtY.jpg,,,,,
+125,red_velvet,t5_32s1t,2015-12-30,2015,12,30,4,3yosbp,imgur.com,151229 Seulgi - TopStarNews SURE Photos,https://www.reddit.com/r/red_velvet/comments/3yosbp/151229_seulgi_topstarnews_sure_photos/,thenerdal,1451417228,,0,10,False,http://a.thumbs.redditmedia.com/0peEGE0ecj7FJz2tUGqOWkHGDuPmD-zxhQdhG2XPi34.jpg,,,,,
+126,red_velvet,t5_32s1t,2015-12-30,2015,12,30,5,3yp369,self.red_velvet,151229 Joy - 2015 MBC Entertainment Awards,https://www.reddit.com/r/red_velvet/comments/3yp369/151229_joy_2015_mbc_entertainment_awards/,thenerdal,1451421760,"*Will Update*
 
 ###[Full Cuts](http://www.dailymotion.com/video/x3k25ne_151229-mbc-%EB%B0%A9%EC%86%A1%EC%97%B0%EC%98%88%EB%8C%80%EC%83%81-%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3-%EC%A1%B0%EC%9D%B4-full-cut-1080p-khj_fun)
 
@@ -416,16 +416,16 @@
 
 ---
 
-[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",0,6
-127,2015-12-30,2015,12,30,15,3yr4he,151230 Wendy 'Because I Love You' BTS - Vyrl Update,thenerdal,1451456228,,0,9
-128,2015-12-30,2015,12,30,19,3yroev,151230 Official Instagram Update with Joy &amp; Yeri,[deleted],1451469788,[deleted],1,1
-129,2015-12-30,2015,12,30,19,3yrohu,151230 Official Instagram Update with Joy &amp; Yeri,thenerdal,1451469839,,0,6
-130,2015-12-31,2015,12,31,0,3ysm46,"151230 KBS ""What Are You Going To Eat?"" Vlive",thenerdal,1451490794,,1,3
-131,2015-12-31,2015,12,31,0,3ysmhx,151230 Official Instagram Update with Joy,thenerdal,1451490955,,0,6
-132,2015-12-31,2015,12,31,1,3ysr8f,"151230 Seulgi, Irene w/ Gfriend's Yuju, Yerin 'I Don't Know Love Yet' - KBS Gayo Daechukje",thenerdal,1451492974,,1,14
-133,2015-12-31,2015,12,31,1,3ystr0,"151230 Wendy, Tiffany 'Dear Mom' - KBS Gayo Daechukje",thenerdal,1451494032,,1,11
-134,2015-12-31,2015,12,31,2,3ysvoe,151230 Dumb Dumb - KBS Gayo Daechukje,thenerdal,1451494870,,4,11
-135,2015-12-31,2015,12,31,4,3ytk4k,151230 KBS Gayo Daechukje,thenerdal,1451504750,"*Will Update*
+[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",0,6,False,self,,,,,
+127,red_velvet,t5_32s1t,2015-12-30,2015,12,30,15,3yr4he,imgur.com,151230 Wendy 'Because I Love You' BTS - Vyrl Update,https://www.reddit.com/r/red_velvet/comments/3yr4he/151230_wendy_because_i_love_you_bts_vyrl_update/,thenerdal,1451456228,,0,9,False,http://b.thumbs.redditmedia.com/_7yXwTeC-WYpgEhRCsZctvrWY2zv-wtXBnB577-J38Q.jpg,,,,,
+128,red_velvet,t5_32s1t,2015-12-30,2015,12,30,19,3yroev,scontent-dfw1-1.cdninstagram.com,151230 Official Instagram Update with Joy &amp; Yeri,https://www.reddit.com/r/red_velvet/comments/3yroev/151230_official_instagram_update_with_joy_yeri/,[deleted],1451469788,[deleted],1,1,False,default,,,,,
+129,red_velvet,t5_32s1t,2015-12-30,2015,12,30,19,3yrohu,instagram.com,151230 Official Instagram Update with Joy &amp; Yeri,https://www.reddit.com/r/red_velvet/comments/3yrohu/151230_official_instagram_update_with_joy_yeri/,thenerdal,1451469839,,0,6,False,http://b.thumbs.redditmedia.com/4KnbMI7vtkaIZP8UtxWkVI3WU3BFeROyLuDvESUcDCQ.jpg,,,,,
+130,red_velvet,t5_32s1t,2015-12-31,2015,12,31,0,3ysm46,youtube.com,"151230 KBS ""What Are You Going To Eat?"" Vlive",https://www.reddit.com/r/red_velvet/comments/3ysm46/151230_kbs_what_are_you_going_to_eat_vlive/,thenerdal,1451490794,,1,3,False,http://b.thumbs.redditmedia.com/gi1vcO1FVrIg8jgE77Ggqxk0lqHM790Ksc8FwnYqpew.jpg,,,,,
+131,red_velvet,t5_32s1t,2015-12-31,2015,12,31,0,3ysmhx,instagram.com,151230 Official Instagram Update with Joy,https://www.reddit.com/r/red_velvet/comments/3ysmhx/151230_official_instagram_update_with_joy/,thenerdal,1451490955,,0,6,False,http://b.thumbs.redditmedia.com/iPIgqwsLmRRB7N08KmswRAK15-O584aS_EDW3Z6Ae4U.jpg,,,,,
+132,red_velvet,t5_32s1t,2015-12-31,2015,12,31,1,3ysr8f,youtube.com,"151230 Seulgi, Irene w/ Gfriend's Yuju, Yerin 'I Don't Know Love Yet' - KBS Gayo Daechukje",https://www.reddit.com/r/red_velvet/comments/3ysr8f/151230_seulgi_irene_w_gfriends_yuju_yerin_i_dont/,thenerdal,1451492974,,1,14,False,http://a.thumbs.redditmedia.com/jnxRbj0ddbur_2p6nAFERMvYXMy7RyK44SWp8O6gJa4.jpg,,,,,
+133,red_velvet,t5_32s1t,2015-12-31,2015,12,31,1,3ystr0,youtube.com,"151230 Wendy, Tiffany 'Dear Mom' - KBS Gayo Daechukje",https://www.reddit.com/r/red_velvet/comments/3ystr0/151230_wendy_tiffany_dear_mom_kbs_gayo_daechukje/,thenerdal,1451494032,,1,11,False,http://a.thumbs.redditmedia.com/F3Nf9WWUz7PskTqjj_SgONlhZCAqUsAf4HCzutNbl54.jpg,,,,,
+134,red_velvet,t5_32s1t,2015-12-31,2015,12,31,2,3ysvoe,youtube.com,151230 Dumb Dumb - KBS Gayo Daechukje,https://www.reddit.com/r/red_velvet/comments/3ysvoe/151230_dumb_dumb_kbs_gayo_daechukje/,thenerdal,1451494870,,4,11,False,http://b.thumbs.redditmedia.com/iN_kRhoNkeRyMH-jLpvAn93wAXyGU5PV8geic86iQfU.jpg,,,,,
+135,red_velvet,t5_32s1t,2015-12-31,2015,12,31,4,3ytk4k,self.red_velvet,151230 KBS Gayo Daechukje,https://www.reddit.com/r/red_velvet/comments/3ytk4k/151230_kbs_gayo_daechukje/,thenerdal,1451504750,"*Will Update*
 
 ###[Opening Cut](https://www.youtube.com/watch?v=XaB5iSn8ZoY&amp;feature=youtu.be)
 
@@ -486,11 +486,11 @@
 
 ---
 
-[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",3,2
-136,2015-12-31,2015,12,31,12,3yvbny,151231 SMTOWN Now Vyrl Update,thenerdal,1451533735,,0,4
-137,2015-12-31,2015,12,31,15,3yvtel,151231 Seasons Greetings Scans,thenerdal,1451543195,,2,23
-138,2015-12-31,2015,12,31,22,3ywr6m,151231 Ice Cream Cake - MBC Gayo Daejejun,thenerdal,1451568506,,1,7
-139,2015-12-31,2015,12,31,22,3ywtgl,151231 MBC Gayo Daejejun,[deleted],1451570054,[deleted],0,1
-140,2015-12-31,2015,12,31,23,3ywy5h,151231 ssohit Instagram Update with Red Velvet,thenerdal,1451572937,,1,7
-141,2015-12-31,2015,12,31,23,3ywyug,"151231 jinuk2222 Instagram Update with Wendy, Irene &amp; Seulgi",thenerdal,1451573316,,1,1
-142,2015-12-31,2015,12,31,23,3ywyza,"151231 'I Love You' Wendy, Seulgi, Irene - MBC Gayo Daejejun",thenerdal,1451573396,,1,6
+[Feedback](https://docs.google.com/forms/d/1gVHJBFAz8auRoxvcR2sSkcSrieZL1-YgYC7jnpmmNUU/viewform?c=0&amp;amp;amp;w=1) ",3,2,False,self,,,,,
+136,red_velvet,t5_32s1t,2015-12-31,2015,12,31,12,3yvbny,imgur.com,151231 SMTOWN Now Vyrl Update,https://www.reddit.com/r/red_velvet/comments/3yvbny/151231_smtown_now_vyrl_update/,thenerdal,1451533735,,0,4,False,http://b.thumbs.redditmedia.com/9gIMcE9-HfUOcDRotysIxjXArZKtgGv5xbyFvblgtHk.jpg,,,,,
+137,red_velvet,t5_32s1t,2015-12-31,2015,12,31,15,3yvtel,imgur.com,151231 Seasons Greetings Scans,https://www.reddit.com/r/red_velvet/comments/3yvtel/151231_seasons_greetings_scans/,thenerdal,1451543195,,2,23,False,http://b.thumbs.redditmedia.com/KAVuzN7bGb2mg9qCvkWKNvJ8lCGyGbJ61N5SUhYzZsg.jpg,,,,,
+138,red_velvet,t5_32s1t,2015-12-31,2015,12,31,22,3ywr6m,youtube.com,151231 Ice Cream Cake - MBC Gayo Daejejun,https://www.reddit.com/r/red_velvet/comments/3ywr6m/151231_ice_cream_cake_mbc_gayo_daejejun/,thenerdal,1451568506,,1,7,False,http://a.thumbs.redditmedia.com/8o6c-nyiFGQNAuNR8xlvVtY1EBoNu-EzFEayY2K9u34.jpg,,,,,
+139,red_velvet,t5_32s1t,2015-12-31,2015,12,31,22,3ywtgl,self.red_velvet,151231 MBC Gayo Daejejun,https://www.reddit.com/r/red_velvet/comments/3ywtgl/151231_mbc_gayo_daejejun/,[deleted],1451570054,[deleted],0,1,False,default,,,,,
+140,red_velvet,t5_32s1t,2015-12-31,2015,12,31,23,3ywy5h,i.imgur.com,151231 ssohit Instagram Update with Red Velvet,https://www.reddit.com/r/red_velvet/comments/3ywy5h/151231_ssohit_instagram_update_with_red_velvet/,thenerdal,1451572937,,1,7,False,http://b.thumbs.redditmedia.com/0UHJl-MSPI7cRcWxweQfb3kxnXhrN8co16rBNRJOk4U.jpg,,,,,
+141,red_velvet,t5_32s1t,2015-12-31,2015,12,31,23,3ywyug,i.imgur.com,"151231 jinuk2222 Instagram Update with Wendy, Irene &amp; Seulgi",https://www.reddit.com/r/red_velvet/comments/3ywyug/151231_jinuk2222_instagram_update_with_wendy/,thenerdal,1451573316,,1,1,False,http://b.thumbs.redditmedia.com/AHfPqQbsxX11r9-u_zzQ-PijIDh8niqg0FfWFOS30KI.jpg,,,,,
+142,red_velvet,t5_32s1t,2015-12-31,2015,12,31,23,3ywyza,dailymotion.com,"151231 'I Love You' Wendy, Seulgi, Irene - MBC Gayo Daejejun",https://www.reddit.com/r/red_velvet/comments/3ywyza/151231_i_love_you_wendy_seulgi_irene_mbc_gayo/,thenerdal,1451573396,,1,6,False,http://b.thumbs.redditmedia.com/bML7PyXVqBXRptmppzGUQog0LsB6GveTnawat_nHj6g.jpg,,,,,

@@ -1,4 +1,4 @@
-,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
-0,2011-8-8,2011,8,8,19,jcaj9,How Social Network Analysis Solves Real World Problems,https://www.reddit.com/r/datascience/comments/jcaj9/how_social_network_analysis_solves_real_world/,mhermans,1312800270,,0,3
-1,2011-8-21,2011,8,21,6,jp5a3,An in-depth analysis of what data scienceis ? - O'Reilly Radar --,https://www.reddit.com/r/datascience/comments/jp5a3/an_indepth_analysis_of_what_data_scienceis/,ch00ey,1313876993,,0,3
-2,2011-8-30,2011,8,30,15,jytjm,What is Data Science?,https://www.reddit.com/r/datascience/comments/jytjm/what_is_data_science/,[deleted],1314686321,,0,1
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,datascience,t5_2sptq,2011-8-8,2011,8,8,19,jcaj9,digitaltonto.com,How Social Network Analysis Solves Real World Problems,https://www.reddit.com/r/datascience/comments/jcaj9/how_social_network_analysis_solves_real_world/,mhermans,1312800270,,0,3,False,http://thumbs.reddit.com/t3_jcaj9.png,,,,,
+1,datascience,t5_2sptq,2011-8-21,2011,8,21,6,jp5a3,radar.oreilly.com,An in-depth analysis of what data scienceis ? - O'Reilly Radar --,https://www.reddit.com/r/datascience/comments/jp5a3/an_indepth_analysis_of_what_data_scienceis/,ch00ey,1313876993,,0,3,False,http://thumbs.reddit.com/t3_jp5a3.png,,,,,
+2,datascience,t5_2sptq,2011-8-30,2011,8,30,15,jytjm,bit.ly,What is Data Science?,https://www.reddit.com/r/datascience/comments/jytjm/what_is_data_science/,[deleted],1314686321,,0,1,False,default,,,,,

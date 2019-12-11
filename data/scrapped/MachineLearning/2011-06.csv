@@ -1,7 +1,7 @@
-,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
-0,2011-6-1,2011,6,1,19,hozcd,The pinnacle of recommender technology,https://www.reddit.com/r/MachineLearning/comments/hozcd/the_pinnacle_of_recommender_technology/,cavedave,1306925661,,4,9
-1,2011-6-2,2011,6,2,3,hp9hy,"Whilst IBM's Watson got all the hype, the @cyc_ai actually ""does"" Twitter",https://www.reddit.com/r/MachineLearning/comments/hp9hy/whilst_ibms_watson_got_all_the_hype_the_cyc_ai/,[deleted],1306953179,,0,0
-2,2011-6-2,2011,6,2,13,hpnid,Any RapidMiner experts out there want to help a n00b?,https://www.reddit.com/r/MachineLearning/comments/hpnid/any_rapidminer_experts_out_there_want_to_help_a/,boost2525,1306987322,"I've been struggling with this for a few days and could use some gentle prodding in the right direction. 
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,MachineLearning,t5_2r3gv,2011-6-1,2011,6,1,19,hozcd,doggelganger.co.nz,The pinnacle of recommender technology,https://www.reddit.com/r/MachineLearning/comments/hozcd/the_pinnacle_of_recommender_technology/,cavedave,1306925661,,4,9,False,default,,,,,
+1,MachineLearning,t5_2r3gv,2011-6-2,2011,6,2,3,hp9hy,twitter.com,"Whilst IBM's Watson got all the hype, the @cyc_ai actually ""does"" Twitter",https://www.reddit.com/r/MachineLearning/comments/hp9hy/whilst_ibms_watson_got_all_the_hype_the_cyc_ai/,[deleted],1306953179,,0,0,False,default,,,,,
+2,MachineLearning,t5_2r3gv,2011-6-2,2011,6,2,13,hpnid,self.MachineLearning,Any RapidMiner experts out there want to help a n00b?,https://www.reddit.com/r/MachineLearning/comments/hpnid/any_rapidminer_experts_out_there_want_to_help_a/,boost2525,1306987322,"I've been struggling with this for a few days and could use some gentle prodding in the right direction. 
 
 I have approx. 24k example rows, with 25 real (double's) attributes, and a nominal label. Each example represents a snapshot of scientific measurements at a moment in time (g-forces, magnometer, etc.) and the nominal label is essentially a boolean (""was the event happening?""). I'm trying to build a model (preferably a formula) that can predict the boolean output, or provide some sort of numerical ""confidence"". 
 
@@ -12,12 +12,12 @@ Here's the issues I'm having:
 
 I'm thinking some of my attributes are insignificant to the boolean result, but I don't understand how to identify which ones and eliminate them. I also think I'm wasting a lot of time trying each model type out (LibSVM, Neural Net, etc.) when the guru's would probably know which model applies to this type of data/problem. 
 
-Thanks for any help.",7,0
-3,2011-6-6,2011,6,6,2,hs85w,Using R for performing SVD on the the Netflix prize dataset (a short video and links),https://www.reddit.com/r/MachineLearning/comments/hs85w/using_r_for_performing_svd_on_the_the_netflix/,talgalili,1307296758,,3,12
-4,2011-6-6,2011,6,6,5,hsbfj,"Quora :""What are some introductory resources for learning about Large Scale machine learning?""",https://www.reddit.com/r/MachineLearning/comments/hsbfj/quora_what_are_some_introductory_resources_for/,kunjaan,1307305720,,0,19
-5,2011-6-6,2011,6,6,22,hstyh,Why your Klout score is meaningless,https://www.reddit.com/r/MachineLearning/comments/hstyh/why_your_klout_score_is_meaningless/,agconway,1307367497,,0,14
-6,2011-6-7,2011,6,7,14,hti03,The pros and cons of robust data characterizations,https://www.reddit.com/r/MachineLearning/comments/hti03/the_pros_and_cons_of_robust_data_characterizations/,talgalili,1307424266,,0,11
-7,2011-6-8,2011,6,8,9,hu7r4,Explaining a Neural Net by fitting a binary tree to inputs and outputs,https://www.reddit.com/r/MachineLearning/comments/hu7r4/explaining_a_neural_net_by_fitting_a_binary_tree/,TraptInaCommentFctry,1307494453,"In Leo Breiman's paper ""Statistical Modeling: The Two Cultures"" (PDF [here](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.156.4933&amp;rep=rep1&amp;type=pdf)), Breiman relates this anecdote, as part of his response to Bruce Hoadley's response:  
+Thanks for any help.",7,0,False,self,,,,,
+3,MachineLearning,t5_2r3gv,2011-6-6,2011,6,6,2,hs85w,r-bloggers.com,Using R for performing SVD on the the Netflix prize dataset (a short video and links),https://www.reddit.com/r/MachineLearning/comments/hs85w/using_r_for_performing_svd_on_the_the_netflix/,talgalili,1307296758,,3,12,False,default,,,,,
+4,MachineLearning,t5_2r3gv,2011-6-6,2011,6,6,5,hsbfj,quora.com,"Quora :""What are some introductory resources for learning about Large Scale machine learning?""",https://www.reddit.com/r/MachineLearning/comments/hsbfj/quora_what_are_some_introductory_resources_for/,kunjaan,1307305720,,0,19,False,default,,,,,
+5,MachineLearning,t5_2r3gv,2011-6-6,2011,6,6,22,hstyh,alexbraunstein.com,Why your Klout score is meaningless,https://www.reddit.com/r/MachineLearning/comments/hstyh/why_your_klout_score_is_meaningless/,agconway,1307367497,,0,14,False,http://thumbs.reddit.com/t3_hstyh.png,,,,,
+6,MachineLearning,t5_2r3gv,2011-6-7,2011,6,7,14,hti03,r-bloggers.com,The pros and cons of robust data characterizations,https://www.reddit.com/r/MachineLearning/comments/hti03/the_pros_and_cons_of_robust_data_characterizations/,talgalili,1307424266,,0,11,False,http://thumbs.reddit.com/t3_hti03.png,,,,,
+7,MachineLearning,t5_2r3gv,2011-6-8,2011,6,8,9,hu7r4,self.MachineLearning,Explaining a Neural Net by fitting a binary tree to inputs and outputs,https://www.reddit.com/r/MachineLearning/comments/hu7r4/explaining_a_neural_net_by_fitting_a_binary_tree/,TraptInaCommentFctry,1307494453,"In Leo Breiman's paper ""Statistical Modeling: The Two Cultures"" (PDF [here](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.156.4933&amp;rep=rep1&amp;type=pdf)), Breiman relates this anecdote, as part of his response to Bruce Hoadley's response:  
 
 &gt; A computer scientist working in the machine learning area joined a large money management
 company some years ago and set up a group to do portfolio management using stock predictions given by large neural nets. When we visited, I asked how he explained the neural nets to clients. Simple, he said; We fit binary trees to the inputs and outputs of the neural nets and show the trees to the clients. Keeps them happy! In both stock prediction and credit rating, the priority is accuracy. Interpretability is a secondary goal that can be finessed.
@@ -31,29 +31,29 @@ client: ""why does the net make a different prediction?""
 you: ""it's a black box, I can't say""  
 
 and you're back to square one.  
-Thoughts?  ",11,16
-8,2011-6-8,2011,6,8,11,hu9ft,"I know R and Matlab.  If I had to choose one language to add to my toolkit, what should it be?  ",https://www.reddit.com/r/MachineLearning/comments/hu9ft/i_know_r_and_matlab_if_i_had_to_choose_one/,TraptInaCommentFctry,1307498648,"While I can do Machine Learning in R and Matlab, I feel like I should add a ""real"" programming language to my toolkit to increase the range and attractiveness of my employment opportunities.  
+Thoughts?  ",11,16,False,self,,,,,
+8,MachineLearning,t5_2r3gv,2011-6-8,2011,6,8,11,hu9ft,self.MachineLearning,"I know R and Matlab.  If I had to choose one language to add to my toolkit, what should it be?  ",https://www.reddit.com/r/MachineLearning/comments/hu9ft/i_know_r_and_matlab_if_i_had_to_choose_one/,TraptInaCommentFctry,1307498648,"While I can do Machine Learning in R and Matlab, I feel like I should add a ""real"" programming language to my toolkit to increase the range and attractiveness of my employment opportunities.  
 Is this feeling wrong?
 If not, what would you suggest?  Python?  
 
 A bit more context, if it helps:  I did Econ as an undergrad, took a lot of Statistics classes.  I'm starting a MA in Statistics this fall, and I'm using it to take as many Machine Learning classes as I can.  
 I'm interested in Machine Learning generally; at the moment, there isn't a specific application I have in mind.  
 
-Thanks! ",40,9
-9,2011-6-8,2011,6,8,15,huf5x,Let me know about you most interesting ML program,https://www.reddit.com/r/MachineLearning/comments/huf5x/let_me_know_about_you_most_interesting_ml_program/,[deleted],1307514473,"Earthlings,
+Thanks! ",40,9,False,self,,,,,
+9,MachineLearning,t5_2r3gv,2011-6-8,2011,6,8,15,huf5x,self.MachineLearning,Let me know about you most interesting ML program,https://www.reddit.com/r/MachineLearning/comments/huf5x/let_me_know_about_you_most_interesting_ml_program/,[deleted],1307514473,"Earthlings,
 
 Let me know about your most interesting Machine Language programs that you did outside of your work or school. I am interested to know if any of you guys used Neural Networks or such for your projects.
 
-Cheers",6,4
-10,2011-6-9,2011,6,9,4,huves,"Twitter dataset - 200 million rows, 13 million users, 2gb compressed, get it while it's hot. (/r/datasets repost)",https://www.reddit.com/r/MachineLearning/comments/huves/twitter_dataset_200_million_rows_13_million_users/,user24,1307561415,,20,42
-11,2011-6-9,2011,6,9,21,hvgq9,Leafsnap cost about US$2.5 million to develop,https://www.reddit.com/r/MachineLearning/comments/hvgq9/leafsnap_cost_about_us25_million_to_develop/,cavedave,1307623701,,4,9
-12,2011-6-9,2011,6,9,23,hvj4k,What is this method called?,https://www.reddit.com/r/MachineLearning/comments/hvj4k/what_is_this_method_called/,the_cat_kittles,1307630139,"use some of your features to cluster your data, regress on each cluster. Kind of like a M5P, but flat and unsmoothed. Alternatively, is there a way of doing locally weighted linear regression with discrete features that have more than 2 possible values?",8,10
-13,2011-6-10,2011,6,10,6,hvvk5,Hit me with some pointers on news aggregator algorithms,https://www.reddit.com/r/MachineLearning/comments/hvvk5/hit_me_with_some_pointers_on_news_aggregator/,aire111,1307656639,"
+Cheers",6,4,False,self,,,,,
+10,MachineLearning,t5_2r3gv,2011-6-9,2011,6,9,4,huves,archive.org,"Twitter dataset - 200 million rows, 13 million users, 2gb compressed, get it while it's hot. (/r/datasets repost)",https://www.reddit.com/r/MachineLearning/comments/huves/twitter_dataset_200_million_rows_13_million_users/,user24,1307561415,,20,42,False,http://thumbs.reddit.com/t3_huves.png,,,,,
+11,MachineLearning,t5_2r3gv,2011-6-9,2011,6,9,21,hvgq9,stuff.co.nz,Leafsnap cost about US$2.5 million to develop,https://www.reddit.com/r/MachineLearning/comments/hvgq9/leafsnap_cost_about_us25_million_to_develop/,cavedave,1307623701,,4,9,False,http://thumbs.reddit.com/t3_hvgq9.png,,,,,
+12,MachineLearning,t5_2r3gv,2011-6-9,2011,6,9,23,hvj4k,self.MachineLearning,What is this method called?,https://www.reddit.com/r/MachineLearning/comments/hvj4k/what_is_this_method_called/,the_cat_kittles,1307630139,"use some of your features to cluster your data, regress on each cluster. Kind of like a M5P, but flat and unsmoothed. Alternatively, is there a way of doing locally weighted linear regression with discrete features that have more than 2 possible values?",8,10,False,self,,,,,
+13,MachineLearning,t5_2r3gv,2011-6-10,2011,6,10,6,hvvk5,self.MachineLearning,Hit me with some pointers on news aggregator algorithms,https://www.reddit.com/r/MachineLearning/comments/hvvk5/hit_me_with_some_pointers_on_news_aggregator/,aire111,1307656639,"
 Apart from simple text clustering and classification, what other algorithms are there for news aggregation? I want to, for example, take a (metadata-free) news feed and figure out what the events of the day are.
 
-",7,12
-14,2011-6-10,2011,6,10,7,hvw9e,Automating R Scripts - on Amazon EC2,https://www.reddit.com/r/MachineLearning/comments/hvw9e/automating_r_scripts_on_amazon_ec2/,talgalili,1307658390,,3,7
-15,2011-6-10,2011,6,10,7,hvwu5,Qustion about Split in Random Forest Algorithm,https://www.reddit.com/r/MachineLearning/comments/hvwu5/qustion_about_split_in_random_forest_algorithm/,by_321,1307659938,"Hi,
+",7,12,False,self,,,,,
+14,MachineLearning,t5_2r3gv,2011-6-10,2011,6,10,7,hvw9e,r-bloggers.com,Automating R Scripts - on Amazon EC2,https://www.reddit.com/r/MachineLearning/comments/hvw9e/automating_r_scripts_on_amazon_ec2/,talgalili,1307658390,,3,7,False,http://thumbs.reddit.com/t3_hvw9e.png,,,,,
+15,MachineLearning,t5_2r3gv,2011-6-10,2011,6,10,7,hvwu5,self.MachineLearning,Qustion about Split in Random Forest Algorithm,https://www.reddit.com/r/MachineLearning/comments/hvwu5/qustion_about_split_in_random_forest_algorithm/,by_321,1307659938,"Hi,
 
 I've been reading about random forest, here's the wikipedia entry:
 
@@ -67,8 +67,8 @@ What I don't understand is:
 
 2. Is it saying the best split using all m variables, or just the one among m that gives you the best split ?
 
-Thanks.",6,2
-16,2011-6-10,2011,6,10,7,hvwxn,"Suggestion for Introductory Machine Learning Text-less technical/more examples than ""Elements of Statistical Learning""",https://www.reddit.com/r/MachineLearning/comments/hvwxn/suggestion_for_introductory_machine_learning/,BirthDeath,1307660147,"I'm a graduate student in statistics and want to branch out into statistical/machine learning.  Everyone I have spoken to has recommended that I read ""The Elements of Statistical Learning"" by Hastie, Tibshirani, and Friedman, but I feel that I need something a bit more remedial.
+Thanks.",6,2,False,self,,,,,
+16,MachineLearning,t5_2r3gv,2011-6-10,2011,6,10,7,hvwxn,self.MachineLearning,"Suggestion for Introductory Machine Learning Text-less technical/more examples than ""Elements of Statistical Learning""",https://www.reddit.com/r/MachineLearning/comments/hvwxn/suggestion_for_introductory_machine_learning/,BirthDeath,1307660147,"I'm a graduate student in statistics and want to branch out into statistical/machine learning.  Everyone I have spoken to has recommended that I read ""The Elements of Statistical Learning"" by Hastie, Tibshirani, and Friedman, but I feel that I need something a bit more remedial.
  
 I have almost no background in computer science, except for an introductory computer science course (in Java) as an undergraduate and a course in computational statistics (taught by a statistics prof). 
 
@@ -76,26 +76,26 @@ I am fairly comfortable with mathematical statistics, at about the level of Larr
 
 I am looking for something at a bit slower pace that starts with a general overview in the field and definitions/elaboration of the key terms.  It would also be preferable if it had some example code of the various algorithms that I could test (preferably in R). 
 
-Any input would be appreciated.      ",25,18
-17,2011-6-11,2011,6,11,14,hwyus,Learning ML after graduating,https://www.reddit.com/r/MachineLearning/comments/hwyus/learning_ml_after_graduating/,visarga,1307770234,"There might be many like me - I want to pick up machine learning but I finished university 10 years ago. Of course there are great books and video courses online (I watch Stanford Machine Learning CS 229 with Andrew Ng) but being alone in front of this monumental field is difficult.
+Any input would be appreciated.      ",25,18,False,self,,,,,
+17,MachineLearning,t5_2r3gv,2011-6-11,2011,6,11,14,hwyus,self.MachineLearning,Learning ML after graduating,https://www.reddit.com/r/MachineLearning/comments/hwyus/learning_ml_after_graduating/,visarga,1307770234,"There might be many like me - I want to pick up machine learning but I finished university 10 years ago. Of course there are great books and video courses online (I watch Stanford Machine Learning CS 229 with Andrew Ng) but being alone in front of this monumental field is difficult.
 
 So I was wondering if there is a way to get personal tutoring. A student could probably do 99% of the work on his own with the videos and books, and ask for external help only for that last 1%. What is needed here is the ""coaching"" / ""question answering"" part more than the actual instruction part.
 
 Do you think this could work? Any idea where to look for help?
 
 
-Edit: Thank you for the links. Anyone willing to offer me (paid) tutoring over email and skype?",12,27
-18,2011-6-12,2011,6,12,22,hxr8g,I asked HN on how to effectively start on Machine Learning (I have web dev background),https://www.reddit.com/r/MachineLearning/comments/hxr8g/i_asked_hn_on_how_to_effectively_start_on_machine/,phektus,1307885202,,5,16
-19,2011-6-12,2011,6,12,23,hxrv9,Apps every Mac user should check out #1,https://www.reddit.com/r/MachineLearning/comments/hxrv9/apps_every_mac_user_should_check_out_1/,destruktive,1307888387,,0,0
-20,2011-6-13,2011,6,13,5,hxzf2,Improving Malaria Treatment using Clustering,https://www.reddit.com/r/MachineLearning/comments/hxzf2/improving_malaria_treatment_using_clustering/,cavedave,1307911851,,1,9
-21,2011-6-13,2011,6,13,10,hy4ha,tutorial on hidden markov models and selected applications in speech recognition [PDF],https://www.reddit.com/r/MachineLearning/comments/hy4ha/tutorial_on_hidden_markov_models_and_selected/,kunjaan,1307926971,,12,26
-22,2011-6-13,2011,6,13,10,hy4q4,How machine learning techniques are helping to solve important problems?,https://www.reddit.com/r/MachineLearning/comments/hy4q4/how_machine_learning_techniques_are_helping_to/,[deleted],1307927683,"I'm reading the book ""Programming Collective Intelligence"" in order to have a basic idea about ML algorithms, but the algorithms are used to solve problems like: price models, better recommendations, trip planning... 
+Edit: Thank you for the links. Anyone willing to offer me (paid) tutoring over email and skype?",12,27,False,self,,,,,
+18,MachineLearning,t5_2r3gv,2011-6-12,2011,6,12,22,hxr8g,news.ycombinator.com,I asked HN on how to effectively start on Machine Learning (I have web dev background),https://www.reddit.com/r/MachineLearning/comments/hxr8g/i_asked_hn_on_how_to_effectively_start_on_machine/,phektus,1307885202,,5,16,False,default,,,,,
+19,MachineLearning,t5_2r3gv,2011-6-12,2011,6,12,23,hxrv9,cursethegame.com,Apps every Mac user should check out #1,https://www.reddit.com/r/MachineLearning/comments/hxrv9/apps_every_mac_user_should_check_out_1/,destruktive,1307888387,,0,0,False,default,,,,,
+20,MachineLearning,t5_2r3gv,2011-6-13,2011,6,13,5,hxzf2,motherjones.com,Improving Malaria Treatment using Clustering,https://www.reddit.com/r/MachineLearning/comments/hxzf2/improving_malaria_treatment_using_clustering/,cavedave,1307911851,,1,9,False,http://thumbs.reddit.com/t3_hxzf2.png,,,,,
+21,MachineLearning,t5_2r3gv,2011-6-13,2011,6,13,10,hy4ha,ece.ucsb.edu,tutorial on hidden markov models and selected applications in speech recognition [PDF],https://www.reddit.com/r/MachineLearning/comments/hy4ha/tutorial_on_hidden_markov_models_and_selected/,kunjaan,1307926971,,12,26,False,default,,,,,
+22,MachineLearning,t5_2r3gv,2011-6-13,2011,6,13,10,hy4q4,self.MachineLearning,How machine learning techniques are helping to solve important problems?,https://www.reddit.com/r/MachineLearning/comments/hy4q4/how_machine_learning_techniques_are_helping_to/,[deleted],1307927683,"I'm reading the book ""Programming Collective Intelligence"" in order to have a basic idea about ML algorithms, but the algorithms are used to solve problems like: price models, better recommendations, trip planning... 
 
 I'd like to know about interesting projects(open source would be great) that apply ML to help solving problems in fields like: health, education, nutrition, politics, harvesting...
 
-Thank you in advance for your replies.",0,2
-23,2011-6-14,2011,6,14,22,hzd9p,Machine Learning with Apache Mahout,https://www.reddit.com/r/MachineLearning/comments/hzd9p/machine_learning_with_apache_mahout/,joejoe500,1308056809,,1,13
-24,2011-6-14,2011,6,14,22,hzdaf,Wait... what? Machine Learning in Image Analysis,https://www.reddit.com/r/MachineLearning/comments/hzdaf/wait_what_machine_learning_in_image_analysis/,j_lyf,1308056887,"I know I'm jeopardizing others' chances of winning this competition, but Kaggle has a ""Mapping Dark Matter"" competition.
+Thank you in advance for your replies.",0,2,False,default,,,,,
+23,MachineLearning,t5_2r3gv,2011-6-14,2011,6,14,22,hzd9p,examville.com,Machine Learning with Apache Mahout,https://www.reddit.com/r/MachineLearning/comments/hzd9p/machine_learning_with_apache_mahout/,joejoe500,1308056809,,1,13,False,http://thumbs.reddit.com/t3_hzd9p.png,,,,,
+24,MachineLearning,t5_2r3gv,2011-6-14,2011,6,14,22,hzdaf,self.MachineLearning,Wait... what? Machine Learning in Image Analysis,https://www.reddit.com/r/MachineLearning/comments/hzdaf/wait_what_machine_learning_in_image_analysis/,j_lyf,1308056887,"I know I'm jeopardizing others' chances of winning this competition, but Kaggle has a ""Mapping Dark Matter"" competition.
  
 http://www.kaggle.com/c/mdm
 
@@ -105,9 +105,9 @@ Where the machine learning comes in is that the organizers have also provided 40
 
 Now I'm an ECE undergrad, I've always been a bit bored with endlessly debugging code, but this is completely amazing. Just one question... what's the best way to get into this stuff?
 
-",8,13
-25,2011-6-15,2011,6,15,1,hzj3g,RStudio v0.94 (Beta 3),https://www.reddit.com/r/MachineLearning/comments/hzj3g/rstudio_v094_beta_3/,talgalili,1308070156,,0,3
-26,2011-6-15,2011,6,15,8,hzuto,Is anyone using Revolution Analytics?   ,https://www.reddit.com/r/MachineLearning/comments/hzuto/is_anyone_using_revolution_analytics/,TraptInaCommentFctry,1308095905,"[Revolution Analytics](http://www.revolutionanalytics.com/) claims that ""R is Ready for Business.""  
+",8,13,False,self,,,,,
+25,MachineLearning,t5_2r3gv,2011-6-15,2011,6,15,1,hzj3g,r-bloggers.com,RStudio v0.94 (Beta 3),https://www.reddit.com/r/MachineLearning/comments/hzj3g/rstudio_v094_beta_3/,talgalili,1308070156,,0,3,False,default,,,,,
+26,MachineLearning,t5_2r3gv,2011-6-15,2011,6,15,8,hzuto,self.MachineLearning,Is anyone using Revolution Analytics?   ,https://www.reddit.com/r/MachineLearning/comments/hzuto/is_anyone_using_revolution_analytics/,TraptInaCommentFctry,1308095905,"[Revolution Analytics](http://www.revolutionanalytics.com/) claims that ""R is Ready for Business.""  
 
 From what I can gather, they offer a new file format that lets R stream through data files too big to fit in memory, and accompanying algorithms designed to optimize (a small set of) operations on these streaming files.  
 
@@ -123,21 +123,21 @@ Also, they claim ""Extend Existing Analyses by writing user- defined R functions
 
 It's currently only available for PC so I can't try it.  
 
-Edit: Clarity",4,7
-27,2011-6-15,2011,6,15,18,i06a0,Book draft: Introduction To Machine Learning (by Smola &amp; Vishwanathan) [PDF],https://www.reddit.com/r/MachineLearning/comments/i06a0/book_draft_introduction_to_machine_learning_by/,fbahr,1308129723,,9,47
-28,2011-6-15,2011,6,15,22,i09ss,Machine Learning and Social Media,https://www.reddit.com/r/MachineLearning/comments/i09ss/machine_learning_and_social_media/,joejoe500,1308143491,,0,0
-29,2011-6-16,2011,6,16,0,i0dzn,Spork: Fork or Spoon? Using Machine Learning to Find Out,https://www.reddit.com/r/MachineLearning/comments/i0dzn/spork_fork_or_spoon_using_machine_learning_to/,jasonrosen,1308153593,,1,6
-30,2011-6-16,2011,6,16,11,i0vol,Is there a top machine learning hangout on the web?,https://www.reddit.com/r/MachineLearning/comments/i0vol/is_there_a_top_machine_learning_hangout_on_the_web/,the_cat_kittles,1308192496,"like some place where most serious lads/lasses hang out? #machinelearning on irc isnt really happening, #R is ok too, reddit is good, but i wonder, am i missing a party somewhere?
+Edit: Clarity",4,7,False,self,,,,,
+27,MachineLearning,t5_2r3gv,2011-6-15,2011,6,15,18,i06a0,alex.smola.org,Book draft: Introduction To Machine Learning (by Smola &amp; Vishwanathan) [PDF],https://www.reddit.com/r/MachineLearning/comments/i06a0/book_draft_introduction_to_machine_learning_by/,fbahr,1308129723,,9,47,False,default,,,,,
+28,MachineLearning,t5_2r3gv,2011-6-15,2011,6,15,22,i09ss,examville.com,Machine Learning and Social Media,https://www.reddit.com/r/MachineLearning/comments/i09ss/machine_learning_and_social_media/,joejoe500,1308143491,,0,0,False,http://thumbs.reddit.com/t3_i09ss.png,,,,,
+29,MachineLearning,t5_2r3gv,2011-6-16,2011,6,16,0,i0dzn,blog.echen.me,Spork: Fork or Spoon? Using Machine Learning to Find Out,https://www.reddit.com/r/MachineLearning/comments/i0dzn/spork_fork_or_spoon_using_machine_learning_to/,jasonrosen,1308153593,,1,6,False,http://thumbs.reddit.com/t3_i0dzn.png,,,,,
+30,MachineLearning,t5_2r3gv,2011-6-16,2011,6,16,11,i0vol,self.MachineLearning,Is there a top machine learning hangout on the web?,https://www.reddit.com/r/MachineLearning/comments/i0vol/is_there_a_top_machine_learning_hangout_on_the_web/,the_cat_kittles,1308192496,"like some place where most serious lads/lasses hang out? #machinelearning on irc isnt really happening, #R is ok too, reddit is good, but i wonder, am i missing a party somewhere?
 
-Edit: metaoptimize is fantastic, thank you!",12,41
-31,2011-6-18,2011,6,18,0,i26m1,Engineering Data Analysis (with R and ggplot2) - Google Tech Talk,https://www.reddit.com/r/MachineLearning/comments/i26m1/engineering_data_analysis_with_r_and_ggplot2/,talgalili,1308323892,,2,29
-32,2011-6-18,2011,6,18,1,i286p,Review: Machine Learning: An Algorithmic Perspective by Stephen Marsland - A *great* introductory ML book,https://www.reddit.com/r/MachineLearning/comments/i286p/review_machine_learning_an_algorithmic/,robintw147,1308327150,,0,3
-33,2011-6-18,2011,6,18,9,i2kxe,Machine Learning Summer School Slides,https://www.reddit.com/r/MachineLearning/comments/i2kxe/machine_learning_summer_school_slides/,leonoel,1308356749,,4,28
-34,2011-6-18,2011,6,18,17,i2tw1,Turn a large parallel R job into smaller chunks for use with SGE,https://www.reddit.com/r/MachineLearning/comments/i2tw1/turn_a_large_parallel_r_job_into_smaller_chunks/,[deleted],1308386805,,0,0
-35,2011-6-20,2011,6,20,23,i4c34,Calling R lovers to work together on The R Programming wikibook,https://www.reddit.com/r/MachineLearning/comments/i4c34/calling_r_lovers_to_work_together_on_the_r/,talgalili,1308579839,,9,26
-36,2011-6-21,2011,6,21,6,i4o82,AGI and the Emerging Peer-to-Peer Economy: Ben Goertzel Interviews AI Researcher Mohamad Tarifi ,https://www.reddit.com/r/MachineLearning/comments/i4o82/agi_and_the_emerging_peertopeer_economy_ben/,[deleted],1308605198,,0,0
-37,2011-6-22,2011,6,22,1,i5cus,Algorithmic probability and Solomonoff Induction,https://www.reddit.com/r/MachineLearning/comments/i5cus/algorithmic_probability_and_solomonoff_induction/,ogrisel,1308673202,,6,21
-38,2011-6-22,2011,6,22,3,i5guy,Non- or Lightly Technical Introduction to Data Mining/Machine Learning,https://www.reddit.com/r/MachineLearning/comments/i5guy/non_or_lightly_technical_introduction_to_data/,akg_67,1308681433,"Hello,
+Edit: metaoptimize is fantastic, thank you!",12,41,False,self,,,,,
+31,MachineLearning,t5_2r3gv,2011-6-18,2011,6,18,0,i26m1,r-bloggers.com,Engineering Data Analysis (with R and ggplot2) - Google Tech Talk,https://www.reddit.com/r/MachineLearning/comments/i26m1/engineering_data_analysis_with_r_and_ggplot2/,talgalili,1308323892,,2,29,False,http://thumbs.reddit.com/t3_i26m1.png,,,,,
+32,MachineLearning,t5_2r3gv,2011-6-18,2011,6,18,1,i286p,blog.rtwilson.com,Review: Machine Learning: An Algorithmic Perspective by Stephen Marsland - A *great* introductory ML book,https://www.reddit.com/r/MachineLearning/comments/i286p/review_machine_learning_an_algorithmic/,robintw147,1308327150,,0,3,False,http://thumbs.reddit.com/t3_i286p.png,,,,,
+33,MachineLearning,t5_2r3gv,2011-6-18,2011,6,18,9,i2kxe,mlss2011.comp.nus.edu.sg,Machine Learning Summer School Slides,https://www.reddit.com/r/MachineLearning/comments/i2kxe/machine_learning_summer_school_slides/,leonoel,1308356749,,4,28,False,default,,,,,
+34,MachineLearning,t5_2r3gv,2011-6-18,2011,6,18,17,i2tw1,r-bloggers.com,Turn a large parallel R job into smaller chunks for use with SGE,https://www.reddit.com/r/MachineLearning/comments/i2tw1/turn_a_large_parallel_r_job_into_smaller_chunks/,[deleted],1308386805,,0,0,False,default,,,,,
+35,MachineLearning,t5_2r3gv,2011-6-20,2011,6,20,23,i4c34,r-bloggers.com,Calling R lovers to work together on The R Programming wikibook,https://www.reddit.com/r/MachineLearning/comments/i4c34/calling_r_lovers_to_work_together_on_the_r/,talgalili,1308579839,,9,26,False,http://thumbs.reddit.com/t3_i4c34.png,,,,,
+36,MachineLearning,t5_2r3gv,2011-6-21,2011,6,21,6,i4o82,hplusmagazine.com,AGI and the Emerging Peer-to-Peer Economy: Ben Goertzel Interviews AI Researcher Mohamad Tarifi ,https://www.reddit.com/r/MachineLearning/comments/i4o82/agi_and_the_emerging_peertopeer_economy_ben/,[deleted],1308605198,,0,0,False,default,,,,,
+37,MachineLearning,t5_2r3gv,2011-6-22,2011,6,22,1,i5cus,scholarpedia.org,Algorithmic probability and Solomonoff Induction,https://www.reddit.com/r/MachineLearning/comments/i5cus/algorithmic_probability_and_solomonoff_induction/,ogrisel,1308673202,,6,21,False,http://thumbs.reddit.com/t3_i5cus.png,,,,,
+38,MachineLearning,t5_2r3gv,2011-6-22,2011,6,22,3,i5guy,self.MachineLearning,Non- or Lightly Technical Introduction to Data Mining/Machine Learning,https://www.reddit.com/r/MachineLearning/comments/i5guy/non_or_lightly_technical_introduction_to_data/,akg_67,1308681433,"Hello,
 
 I would like to understand data mining/machine learning domain. My primary interest is to gain enough knowledge on applied aspects so that I can figure out technique/problem fits and for a problem to be able to determine potential solution and applicability of a specific technique before handing off the problem to an expert in that domain.
 
@@ -147,21 +147,21 @@ Can you please suggest any specific introductory and applied level material that
 
 *Something at the level of NUMB3RS TV series*
 
-Thanks.",5,0
-39,2011-6-22,2011,6,22,9,i5q54,Hilary Mason: An Introduction to Machine Learning with Web Data [ Paid Video ],https://www.reddit.com/r/MachineLearning/comments/i5q54/hilary_mason_an_introduction_to_machine_learning/,[deleted],1308700962,,0,0
-40,2011-6-22,2011,6,22,10,i5skq,ML for loan granting decisions,https://www.reddit.com/r/MachineLearning/comments/i5skq/ml_for_loan_granting_decisions/,mfalcon,1308706644,"I've a friend who runs a finance institution. The business is growing and I was thinking of using ML to help the institution make about loan granting decisions. I'm searching for papers, code or other materials to help as a base line but I can't find something really useful. 
+Thanks.",5,0,False,self,,,,,
+39,MachineLearning,t5_2r3gv,2011-6-22,2011,6,22,9,i5q54,oreilly.com,Hilary Mason: An Introduction to Machine Learning with Web Data [ Paid Video ],https://www.reddit.com/r/MachineLearning/comments/i5q54/hilary_mason_an_introduction_to_machine_learning/,[deleted],1308700962,,0,0,False,default,,,,,
+40,MachineLearning,t5_2r3gv,2011-6-22,2011,6,22,10,i5skq,self.MachineLearning,ML for loan granting decisions,https://www.reddit.com/r/MachineLearning/comments/i5skq/ml_for_loan_granting_decisions/,mfalcon,1308706644,"I've a friend who runs a finance institution. The business is growing and I was thinking of using ML to help the institution make about loan granting decisions. I'm searching for papers, code or other materials to help as a base line but I can't find something really useful. 
 
-It'd be great to have some similar case to learn from, how they implemented it, which technique/algorithm do they use and why, which attributes of the loan data are particularely useful to raise conclusions, how much information is needed in order to make useful decisions... ",14,12
-41,2011-6-23,2011,6,23,3,i6e7i,Machine Learning opportunities at Google ,https://www.reddit.com/r/MachineLearning/comments/i6e7i/machine_learning_opportunities_at_google/,[deleted],1308766323,,0,1
-42,2011-6-23,2011,6,23,6,i6l2r,Doing Good With Data  Data Without Borders (xpost from r/statistics),https://www.reddit.com/r/MachineLearning/comments/i6l2r/doing_good_with_data_data_without_borders_xpost/,jdw25,1308779537,,0,3
-43,2011-6-24,2011,6,24,4,i7exy,Data without borders: why I want to change the world,https://www.reddit.com/r/MachineLearning/comments/i7exy/data_without_borders_why_i_want_to_change_the/,agconway,1308856501,,3,26
-44,2011-6-25,2011,6,25,4,i8cft,Cluster analysis for concise results in eye tracking studies,https://www.reddit.com/r/MachineLearning/comments/i8cft/cluster_analysis_for_concise_results_in_eye/,iwas,1308944490,,0,3
-45,2011-6-25,2011,6,25,14,i8pzl,Why Robbie Can't Learn: The Difficulty of Learning in Autonomous Agents [2001 Lecture],https://www.reddit.com/r/MachineLearning/comments/i8pzl/why_robbie_cant_learn_the_difficulty_of_learning/,kunjaan,1308979582,,2,5
-46,2011-6-25,2011,6,25,20,i8uuc,Andrew Ng : Unsupervised Feature Learning and Deep Learning [VID],https://www.reddit.com/r/MachineLearning/comments/i8uuc/andrew_ng_unsupervised_feature_learning_and_deep/,kunjaan,1309001974,,7,53
-47,2011-6-26,2011,6,26,11,i9aua,Anyone going to ICML in Bellevue next week?,https://www.reddit.com/r/MachineLearning/comments/i9aua/anyone_going_to_icml_in_bellevue_next_week/,GetsEclectic,1309056716,"I'll be there all week, I'm sure there will be other redditors there as well, so we should hang out.",10,12
-48,2011-6-28,2011,6,28,0,iadne,Animating a winking pink elephant (with 5 parameters),https://www.reddit.com/r/MachineLearning/comments/iadne/animating_a_winking_pink_elephant_with_5/,[deleted],1309187381,,1,0
-49,2011-6-28,2011,6,28,13,iazhz,Sarah Palin e-mail browser (organized based on Topic Modeling),https://www.reddit.com/r/MachineLearning/comments/iazhz/sarah_palin_email_browser_organized_based_on/,talgalili,1309234040,,1,0
-50,2011-6-29,2011,6,29,0,ibdyl,Graph structure learning,https://www.reddit.com/r/MachineLearning/comments/ibdyl/graph_structure_learning/,[deleted],1309276587,"I have a question related to graph structure learning.
+It'd be great to have some similar case to learn from, how they implemented it, which technique/algorithm do they use and why, which attributes of the loan data are particularely useful to raise conclusions, how much information is needed in order to make useful decisions... ",14,12,False,self,,,,,
+41,MachineLearning,t5_2r3gv,2011-6-23,2011,6,23,3,i6e7i,yaroslavvb.blogspot.com,Machine Learning opportunities at Google ,https://www.reddit.com/r/MachineLearning/comments/i6e7i/machine_learning_opportunities_at_google/,[deleted],1308766323,,0,1,False,default,,,,,
+42,MachineLearning,t5_2r3gv,2011-6-23,2011,6,23,6,i6l2r,jakeporway.com,Doing Good With Data  Data Without Borders (xpost from r/statistics),https://www.reddit.com/r/MachineLearning/comments/i6l2r/doing_good_with_data_data_without_borders_xpost/,jdw25,1308779537,,0,3,False,http://thumbs.reddit.com/t3_i6l2r.png,,,,,
+43,MachineLearning,t5_2r3gv,2011-6-24,2011,6,24,4,i7exy,guardian.co.uk,Data without borders: why I want to change the world,https://www.reddit.com/r/MachineLearning/comments/i7exy/data_without_borders_why_i_want_to_change_the/,agconway,1308856501,,3,26,False,default,,,,,
+44,MachineLearning,t5_2r3gv,2011-6-25,2011,6,25,4,i8cft,gazehawk.com,Cluster analysis for concise results in eye tracking studies,https://www.reddit.com/r/MachineLearning/comments/i8cft/cluster_analysis_for_concise_results_in_eye/,iwas,1308944490,,0,3,False,http://thumbs.reddit.com/t3_i8cft.png,,,,,
+45,MachineLearning,t5_2r3gv,2011-6-25,2011,6,25,14,i8pzl,mitworld.mit.edu,Why Robbie Can't Learn: The Difficulty of Learning in Autonomous Agents [2001 Lecture],https://www.reddit.com/r/MachineLearning/comments/i8pzl/why_robbie_cant_learn_the_difficulty_of_learning/,kunjaan,1308979582,,2,5,False,http://thumbs.reddit.com/t3_i8pzl.png,,,,,
+46,MachineLearning,t5_2r3gv,2011-6-25,2011,6,25,20,i8uuc,youtube.com,Andrew Ng : Unsupervised Feature Learning and Deep Learning [VID],https://www.reddit.com/r/MachineLearning/comments/i8uuc/andrew_ng_unsupervised_feature_learning_and_deep/,kunjaan,1309001974,,7,53,False,http://thumbs.reddit.com/t3_i8uuc.png,,,,,
+47,MachineLearning,t5_2r3gv,2011-6-26,2011,6,26,11,i9aua,self.MachineLearning,Anyone going to ICML in Bellevue next week?,https://www.reddit.com/r/MachineLearning/comments/i9aua/anyone_going_to_icml_in_bellevue_next_week/,GetsEclectic,1309056716,"I'll be there all week, I'm sure there will be other redditors there as well, so we should hang out.",10,12,False,self,,,,,
+48,MachineLearning,t5_2r3gv,2011-6-28,2011,6,28,0,iadne,r-bloggers.com,Animating a winking pink elephant (with 5 parameters),https://www.reddit.com/r/MachineLearning/comments/iadne/animating_a_winking_pink_elephant_with_5/,[deleted],1309187381,,1,0,False,default,,,,,
+49,MachineLearning,t5_2r3gv,2011-6-28,2011,6,28,13,iazhz,r-bloggers.com,Sarah Palin e-mail browser (organized based on Topic Modeling),https://www.reddit.com/r/MachineLearning/comments/iazhz/sarah_palin_email_browser_organized_based_on/,talgalili,1309234040,,1,0,False,http://thumbs.reddit.com/t3_iazhz.png,,,,,
+50,MachineLearning,t5_2r3gv,2011-6-29,2011,6,29,0,ibdyl,self.MachineLearning,Graph structure learning,https://www.reddit.com/r/MachineLearning/comments/ibdyl/graph_structure_learning/,[deleted],1309276587,"I have a question related to graph structure learning.
 
 Basically I have several graphs with undirected edges and each node can have an attribute from a set of possible attributes. Typically the graphs consists of 15-30 nodes and are moderately connected.
 
@@ -173,8 +173,8 @@ It sounds like it should be a quite well researched problem. I am also intereste
 Thanks a lot!
 
 
-",14,11
-51,2011-6-30,2011,6,30,10,ictxb,Singularity Summit Melbourne Australia 20-21 August 2011 - last day for early bird tickets ,https://www.reddit.com/r/MachineLearning/comments/ictxb/singularity_summit_melbourne_australia_2021/,wavegeekman,1309397466,"The Singularity Summit is Coming to Town (20-21 August 2011)!
+",14,11,False,default,,,,,
+51,MachineLearning,t5_2r3gv,2011-6-30,2011,6,30,10,ictxb,self.MachineLearning,Singularity Summit Melbourne Australia 20-21 August 2011 - last day for early bird tickets ,https://www.reddit.com/r/MachineLearning/comments/ictxb/singularity_summit_melbourne_australia_2021/,wavegeekman,1309397466,"The Singularity Summit is Coming to Town (20-21 August 2011)!
 
 The Singularity Summit is an annual conference focused on the Singularity and related converging technologies such as robotics, nanotechnology, brain-computer interfaces, and artificial intelligence.
 
@@ -225,4 +225,4 @@ This conference is brought to you by Humanity+ @ Melbourne (Victoria, Australia)
 
 Join in an exciting weekend as we explore the surprising future. See you there!
 
-And please feel free to pass this on.",0,0
+And please feel free to pass this on.",0,0,False,self,,,,,

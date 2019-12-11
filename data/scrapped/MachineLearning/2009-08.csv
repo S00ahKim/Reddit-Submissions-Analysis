@@ -1,129 +1,129 @@
-,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
-0,2009-8-1,2009,8,1,21,96lr4,"The Gaussian Processes Web Site: 
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,MachineLearning,t5_2r3gv,2009-8-1,2009,8,1,21,96lr4,gaussianprocess.org,"The Gaussian Processes Web Site: 
 Site dedicated to probabilistic 
 modeling, inference and learning 
-based on Gaussian processes.",https://www.reddit.com/r/MachineLearning/comments/96lr4/the_gaussian_processes_web_site_site_dedicated_to/,kunjaan,1249129822,,0,10
-1,2009-8-1,2009,8,1,21,96lrh,"Kernel-Machines.org: Site devoted to 
-learning methods building on kernels.",https://www.reddit.com/r/MachineLearning/comments/96lrh/kernelmachinesorg_site_devoted_to_learning/,kunjaan,1249129922,,0,6
-2,2009-8-1,2009,8,1,21,96lrv,"List of usage of Support Vector 
-Machines.",https://www.reddit.com/r/MachineLearning/comments/96lrv/list_of_usage_of_support_vector_machines/,kunjaan,1249130012,,0,6
-3,2009-8-1,2009,8,1,21,96lsp,R reference Card [PDF],https://www.reddit.com/r/MachineLearning/comments/96lsp/r_reference_card_pdf/,[deleted],1249130239,[deleted],0,0
-4,2009-8-1,2009,8,1,21,96lt3,R [Video Tutorial],https://www.reddit.com/r/MachineLearning/comments/96lt3/r_video_tutorial/,[deleted],1249130329,[deleted],0,0
-5,2009-8-1,2009,8,1,23,96mhd,"Machine Learning used in various 
-games",https://www.reddit.com/r/MachineLearning/comments/96mhd/machine_learning_used_in_various_games/,kunjaan,1249137354,,0,8
-6,2009-8-2,2009,8,2,14,96rez,"Does Machine Learning Really Work? 
-- Tom Mitchell ",https://www.reddit.com/r/MachineLearning/comments/96rez/does_machine_learning_really_work_tom_mitchell/,kunjaan,1249191585,,0,8
-7,2009-8-2,2009,8,2,14,96rf7,"An Draf of  ""Introduction to Machine 
-Learning"" by Nils J. Nilsson",https://www.reddit.com/r/MachineLearning/comments/96rf7/an_draf_of_introduction_to_machine_learning_by/,[deleted],1249191664,[deleted],0,2
-8,2009-8-2,2009,8,2,14,96rfn,"Several Review articles, Encyclopedia 
+based on Gaussian processes.",https://www.reddit.com/r/MachineLearning/comments/96lr4/the_gaussian_processes_web_site_site_dedicated_to/,kunjaan,1249129822,,0,10,False,default,,,,,
+1,MachineLearning,t5_2r3gv,2009-8-1,2009,8,1,21,96lrh,kernel-machines.org,"Kernel-Machines.org: Site devoted to 
+learning methods building on kernels.",https://www.reddit.com/r/MachineLearning/comments/96lrh/kernelmachinesorg_site_devoted_to_learning/,kunjaan,1249129922,,0,6,False,default,,,,,
+2,MachineLearning,t5_2r3gv,2009-8-1,2009,8,1,21,96lrv,clopinet.com,"List of usage of Support Vector 
+Machines.",https://www.reddit.com/r/MachineLearning/comments/96lrv/list_of_usage_of_support_vector_machines/,kunjaan,1249130012,,0,6,False,default,,,,,
+3,MachineLearning,t5_2r3gv,2009-8-1,2009,8,1,21,96lsp,cs.cmu.edu,R reference Card [PDF],https://www.reddit.com/r/MachineLearning/comments/96lsp/r_reference_card_pdf/,[deleted],1249130239,[deleted],0,0,False,default,,,,,
+4,MachineLearning,t5_2r3gv,2009-8-1,2009,8,1,21,96lt3,dangoldstein.com,R [Video Tutorial],https://www.reddit.com/r/MachineLearning/comments/96lt3/r_video_tutorial/,[deleted],1249130329,[deleted],0,0,False,default,,,,,
+5,MachineLearning,t5_2r3gv,2009-8-1,2009,8,1,23,96mhd,satirist.org,"Machine Learning used in various 
+games",https://www.reddit.com/r/MachineLearning/comments/96mhd/machine_learning_used_in_various_games/,kunjaan,1249137354,,0,8,False,default,,,,,
+6,MachineLearning,t5_2r3gv,2009-8-2,2009,8,2,14,96rez,aaai.org,"Does Machine Learning Really Work? 
+- Tom Mitchell ",https://www.reddit.com/r/MachineLearning/comments/96rez/does_machine_learning_really_work_tom_mitchell/,kunjaan,1249191585,,0,8,False,default,,,,,
+7,MachineLearning,t5_2r3gv,2009-8-2,2009,8,2,14,96rf7,robotics.stanford.edu,"An Draf of  ""Introduction to Machine 
+Learning"" by Nils J. Nilsson",https://www.reddit.com/r/MachineLearning/comments/96rf7/an_draf_of_introduction_to_machine_learning_by/,[deleted],1249191664,[deleted],0,2,False,default,,,,,
+8,MachineLearning,t5_2r3gv,2009-8-2,2009,8,2,14,96rfn,web.engr.oregonstate.edu,"Several Review articles, Encyclopedia 
 articles, and other Introductory 
-information on Machine Learning.",https://www.reddit.com/r/MachineLearning/comments/96rfn/several_review_articles_encyclopedia_articles_and/,kunjaan,1249191772,,0,6
-9,2009-8-2,2009,8,2,14,96rg8,The Machine Learning Dictionary,https://www.reddit.com/r/MachineLearning/comments/96rg8/the_machine_learning_dictionary/,kunjaan,1249191927,,0,7
-10,2009-8-2,2009,8,2,14,96rga,Reinforcement Learning Tutorial,https://www.reddit.com/r/MachineLearning/comments/96rga/reinforcement_learning_tutorial/,kunjaan,1249191964,,0,6
-11,2009-8-2,2009,8,2,14,96rgs,"Applying Metrics to
+information on Machine Learning.",https://www.reddit.com/r/MachineLearning/comments/96rfn/several_review_articles_encyclopedia_articles_and/,kunjaan,1249191772,,0,6,False,default,,,,,
+9,MachineLearning,t5_2r3gv,2009-8-2,2009,8,2,14,96rg8,cse.unsw.edu.au,The Machine Learning Dictionary,https://www.reddit.com/r/MachineLearning/comments/96rg8/the_machine_learning_dictionary/,kunjaan,1249191927,,0,7,False,,,,,,
+10,MachineLearning,t5_2r3gv,2009-8-2,2009,8,2,14,96rga,nbu.bg,Reinforcement Learning Tutorial,https://www.reddit.com/r/MachineLearning/comments/96rga/reinforcement_learning_tutorial/,kunjaan,1249191964,,0,6,False,default,,,,,
+11,MachineLearning,t5_2r3gv,2009-8-2,2009,8,2,14,96rgs,aaai.org,"Applying Metrics to
 Machine-Learning Tools
 A Knowledge Engineering Approach
-[PDF]",https://www.reddit.com/r/MachineLearning/comments/96rgs/applying_metrics_to_machinelearning_tools_a/,kunjaan,1249192179,,0,3
-12,2009-8-2,2009,8,2,14,96rgw,"""Machine  Learning: 
+[PDF]",https://www.reddit.com/r/MachineLearning/comments/96rgs/applying_metrics_to_machinelearning_tools_a/,kunjaan,1249192179,,0,3,False,default,,,,,
+12,MachineLearning,t5_2r3gv,2009-8-2,2009,8,2,14,96rgw,aaai.org,"""Machine  Learning: 
 A  Historical  and  Methodological  
 Analysis "". An gem on Machine 
-Learning. [PDF]",https://www.reddit.com/r/MachineLearning/comments/96rgw/machine_learning_a_historical_and_methodological/,[deleted],1249192258,[deleted],0,1
-13,2009-8-2,2009,8,2,14,96rh7,"Draft of ""Introduction to Machine 
-Learning"" by Nils J. Nilsson",https://www.reddit.com/r/MachineLearning/comments/96rh7/draft_of_introduction_to_machine_learning_by_nils/,kunjaan,1249192341,,0,4
-14,2009-8-2,2009,8,2,14,96rif,"""Machine Learning: A Historical and 
+Learning. [PDF]",https://www.reddit.com/r/MachineLearning/comments/96rgw/machine_learning_a_historical_and_methodological/,[deleted],1249192258,[deleted],0,1,False,default,,,,,
+13,MachineLearning,t5_2r3gv,2009-8-2,2009,8,2,14,96rh7,robotics.stanford.edu,"Draft of ""Introduction to Machine 
+Learning"" by Nils J. Nilsson",https://www.reddit.com/r/MachineLearning/comments/96rh7/draft_of_introduction_to_machine_learning_by_nils/,kunjaan,1249192341,,0,4,False,default,,,,,
+14,MachineLearning,t5_2r3gv,2009-8-2,2009,8,2,14,96rif,aaai.org,"""Machine Learning: A Historical and 
 Methodological Analysis "". An old 
-gem by Tom Mitchell. [PDF]",https://www.reddit.com/r/MachineLearning/comments/96rif/machine_learning_a_historical_and_methodological/,kunjaan,1249192639,,0,3
-15,2009-8-2,2009,8,2,15,96rjj,"Self-Improving AI: Systems that 
+gem by Tom Mitchell. [PDF]",https://www.reddit.com/r/MachineLearning/comments/96rif/machine_learning_a_historical_and_methodological/,kunjaan,1249192639,,0,3,False,default,,,,,
+15,MachineLearning,t5_2r3gv,2009-8-2,2009,8,2,15,96rjj,youtube.com,"Self-Improving AI: Systems that 
 improve themselves by learning from 
-their own operations [Stanford VID]",https://www.reddit.com/r/MachineLearning/comments/96rjj/selfimproving_ai_systems_that_improve_themselves/,kunjaan,1249193148,,0,3
-16,2009-8-2,2009,8,2,15,96rjt,"Introduction to Robotics course at 
-Stanford [16 Lecture VIDs]",https://www.reddit.com/r/MachineLearning/comments/96rjt/introduction_to_robotics_course_at_stanford_16/,kunjaan,1249193235,,0,5
-17,2009-8-2,2009,8,2,18,96sft,Online clustering?,https://www.reddit.com/r/MachineLearning/comments/96sft/online_clustering/,[deleted],1249206467,[deleted],1,1
-18,2009-8-2,2009,8,2,19,96shq,Online Clustering?,https://www.reddit.com/r/MachineLearning/comments/96shq/online_clustering/,gromgull,1249207349,"(An attempt at getting some comments in the ML reddit, not just posts.)
+their own operations [Stanford VID]",https://www.reddit.com/r/MachineLearning/comments/96rjj/selfimproving_ai_systems_that_improve_themselves/,kunjaan,1249193148,,0,3,False,,,,,,
+16,MachineLearning,t5_2r3gv,2009-8-2,2009,8,2,15,96rjt,youtube.com,"Introduction to Robotics course at 
+Stanford [16 Lecture VIDs]",https://www.reddit.com/r/MachineLearning/comments/96rjt/introduction_to_robotics_course_at_stanford_16/,kunjaan,1249193235,,0,5,False,,,,,,
+17,MachineLearning,t5_2r3gv,2009-8-2,2009,8,2,18,96sft,self.MachineLearning,Online clustering?,https://www.reddit.com/r/MachineLearning/comments/96sft/online_clustering/,[deleted],1249206467,[deleted],1,1,False,default,,,,,
+18,MachineLearning,t5_2r3gv,2009-8-2,2009,8,2,19,96shq,self.MachineLearning,Online Clustering?,https://www.reddit.com/r/MachineLearning/comments/96shq/online_clustering/,gromgull,1249207349,"(An attempt at getting some comments in the ML reddit, not just posts.)
 
 I've been excited by online learning recently, i.e. algorithms where examples are processed one by one and only some aggregates are kept in memory. 
 
 For example, the just open-sourced [Vowpal Wabbit](http://hunch.net/~vw/) or Leon Bottou's [svmsgd](http://leon.bottou.org/projects/sgd). These are both linear classifiers, Leon also has an online CRF implementation. 
 
-Does anyone know of any online clustering algorithms? It seems a SVM can do clustering using an appropriate kernel? ",7,9
-19,2009-8-3,2009,8,3,2,96uyq,Artificial Intelligence: The Future Of Moral Debate!,https://www.reddit.com/r/MachineLearning/comments/96uyq/artificial_intelligence_the_future_of_moral_debate/,earlswynn,1249235634,,0,5
-20,2009-8-3,2009,8,3,3,96v38,"Using Machine Learning Techniques 
-to Generate Compilers automatically.",https://www.reddit.com/r/MachineLearning/comments/96v38/using_machine_learning_techniques_to_generate/,kunjaan,1249236653,,0,7
-21,2009-8-3,2009,8,3,3,96v4u,"External Algorithm to predict the 
+Does anyone know of any online clustering algorithms? It seems a SVM can do clustering using an appropriate kernel? ",7,9,False,self,,,,,
+19,MachineLearning,t5_2r3gv,2009-8-3,2009,8,3,2,96uyq,hubpages.com,Artificial Intelligence: The Future Of Moral Debate!,https://www.reddit.com/r/MachineLearning/comments/96uyq/artificial_intelligence_the_future_of_moral_debate/,earlswynn,1249235634,,0,5,False,,,,,,
+20,MachineLearning,t5_2r3gv,2009-8-3,2009,8,3,3,96v38,milepost.eu,"Using Machine Learning Techniques 
+to Generate Compilers automatically.",https://www.reddit.com/r/MachineLearning/comments/96v38/using_machine_learning_techniques_to_generate/,kunjaan,1249236653,,0,7,False,default,,,,,
+21,MachineLearning,t5_2r3gv,2009-8-3,2009,8,3,3,96v4u,eprints.org,"External Algorithm to predict the 
 number of ImpressionRank of a Web 
 Page and to help in Keyword 
-Extraction [PDF]",https://www.reddit.com/r/MachineLearning/comments/96v4u/external_algorithm_to_predict_the_number_of/,kunjaan,1249236964,,0,3
-22,2009-8-3,2009,8,3,3,96v5y,"A new and scalable click model based
+Extraction [PDF]",https://www.reddit.com/r/MachineLearning/comments/96v4u/external_algorithm_to_predict_the_number_of/,kunjaan,1249236964,,0,3,False,default,,,,,
+22,MachineLearning,t5_2r3gv,2009-8-3,2009,8,3,3,96v5y,eprints.org,"A new and scalable click model based
 on Bayesian framework that 
 outperforms most of the other models
-[PDF]",https://www.reddit.com/r/MachineLearning/comments/96v5y/a_new_and_scalable_click_model_based_on_bayesian/,kunjaan,1249237169,,1,7
-23,2009-8-3,2009,8,3,3,96v74,"Hi Machine Learning enthusiasts, if 
+[PDF]",https://www.reddit.com/r/MachineLearning/comments/96v5y/a_new_and_scalable_click_model_based_on_bayesian/,kunjaan,1249237169,,1,7,False,default,,,,,
+23,MachineLearning,t5_2r3gv,2009-8-3,2009,8,3,3,96v74,self.MachineLearning,"Hi Machine Learning enthusiasts, if 
 you were to design a ""Subreddit 
 Suggestion"" for Reddit , what 
 methods would you use?",https://www.reddit.com/r/MachineLearning/comments/96v74/hi_machine_learning_enthusiasts_if_you_were_to/,kunjaan,1249237514,"We have ""Suggest a Title"" for our links. But if you were to design a ""Suggest a Subreddit"" that  suggested an appropriate subreddit for your document, how would you develop that classifier?
-If you refer to a paper, please provide a link to the original paper also. Thanks.",19,18
-24,2009-8-4,2009,8,4,2,975kz,"this subreddit serves to educate and share, not to alienate and condescend. Please be concise and helpful with your links and replies.  ",https://www.reddit.com/r/MachineLearning/comments/975kz/this_subreddit_serves_to_educate_and_share_not_to/,[deleted],1249320854,[deleted],1,0
-25,2009-8-4,2009,8,4,5,976pe,Ask MachineLearning: What do you consider to be the most exciting/innovative ideas in machine learning right now?,https://www.reddit.com/r/MachineLearning/comments/976pe/ask_machinelearning_what_do_you_consider_to_be/,freyrs3,1249330338,"As someone who is very intrigued by machine learning (although not very experienced) I am interested in finding out what you guys think are the ""hot"" areas of research.",16,38
-26,2009-8-4,2009,8,4,9,97897,"Vowpal Wabbit an open source 
+If you refer to a paper, please provide a link to the original paper also. Thanks.",19,18,False,self,,,,,
+24,MachineLearning,t5_2r3gv,2009-8-4,2009,8,4,2,975kz,self.MachineLearning,"this subreddit serves to educate and share, not to alienate and condescend. Please be concise and helpful with your links and replies.  ",https://www.reddit.com/r/MachineLearning/comments/975kz/this_subreddit_serves_to_educate_and_share_not_to/,[deleted],1249320854,[deleted],1,0,False,default,,,,,
+25,MachineLearning,t5_2r3gv,2009-8-4,2009,8,4,5,976pe,self.MachineLearning,Ask MachineLearning: What do you consider to be the most exciting/innovative ideas in machine learning right now?,https://www.reddit.com/r/MachineLearning/comments/976pe/ask_machinelearning_what_do_you_consider_to_be/,freyrs3,1249330338,"As someone who is very intrigued by machine learning (although not very experienced) I am interested in finding out what you guys think are the ""hot"" areas of research.",16,38,False,self,,,,,
+26,MachineLearning,t5_2r3gv,2009-8-4,2009,8,4,9,97897,hunch.net,"Vowpal Wabbit an open source 
 infrastructure for implementing fast 
 online algorithms from Yahoo! 
-Research.",https://www.reddit.com/r/MachineLearning/comments/97897/vowpal_wabbit_an_open_source_infrastructure_for/,kunjaan,1249346066,,0,14
-27,2009-8-4,2009,8,4,23,97eqb,"Develop the best Learning agent for 
-MARIO AI Competition.",https://www.reddit.com/r/MachineLearning/comments/97eqb/develop_the_best_learning_agent_for_mario_ai/,kunjaan,1249394740,,1,16
-28,2009-8-5,2009,8,5,1,97g3h,Hey all.  Just wanted to let you know that there is another reddit that you might be interested in -- the cognitive science reddit.,https://www.reddit.com/r/MachineLearning/comments/97g3h/hey_all_just_wanted_to_let_you_know_that_there_is/,jedberg,1249401803,,3,8
-29,2009-8-5,2009,8,5,14,97nao,Hello MLreddit. Does anyone know of a good tutorial to get started on non-linear regression?,https://www.reddit.com/r/MachineLearning/comments/97nao/hello_mlreddit_does_anyone_know_of_a_good/,kungpaochicken,1249449129,,2,12
-30,2009-8-5,2009,8,5,23,97rjf,"The first paper written on Machine 
+Research.",https://www.reddit.com/r/MachineLearning/comments/97897/vowpal_wabbit_an_open_source_infrastructure_for/,kunjaan,1249346066,,0,14,False,default,,,,,
+27,MachineLearning,t5_2r3gv,2009-8-4,2009,8,4,23,97eqb,julian.togelius.com,"Develop the best Learning agent for 
+MARIO AI Competition.",https://www.reddit.com/r/MachineLearning/comments/97eqb/develop_the_best_learning_agent_for_mario_ai/,kunjaan,1249394740,,1,16,False,,,,,,
+28,MachineLearning,t5_2r3gv,2009-8-5,2009,8,5,1,97g3h,reddit.com,Hey all.  Just wanted to let you know that there is another reddit that you might be interested in -- the cognitive science reddit.,https://www.reddit.com/r/MachineLearning/comments/97g3h/hey_all_just_wanted_to_let_you_know_that_there_is/,jedberg,1249401803,,3,8,False,default,,,,,
+29,MachineLearning,t5_2r3gv,2009-8-5,2009,8,5,14,97nao,self.MachineLearning,Hello MLreddit. Does anyone know of a good tutorial to get started on non-linear regression?,https://www.reddit.com/r/MachineLearning/comments/97nao/hello_mlreddit_does_anyone_know_of_a_good/,kungpaochicken,1249449129,,2,12,False,self,,,,,
+30,MachineLearning,t5_2r3gv,2009-8-5,2009,8,5,23,97rjf,world.std.com,"The first paper written on Machine 
 Learning written in 1956 that 
 emphasized the importance of 
 training sequences in constructing 
-trial solutions to new problems.",https://www.reddit.com/r/MachineLearning/comments/97rjf/the_first_paper_written_on_machine_learning/,[deleted],1249482390,[deleted],0,1
-31,2009-8-5,2009,8,5,23,97rk3,"The first Machine Learning Paper 
+trial solutions to new problems.",https://www.reddit.com/r/MachineLearning/comments/97rjf/the_first_paper_written_on_machine_learning/,[deleted],1249482390,[deleted],0,1,False,default,,,,,
+31,MachineLearning,t5_2r3gv,2009-8-5,2009,8,5,23,97rk3,world.std.com,"The first Machine Learning Paper 
 written on 1956 that ""emphasized 
 the importance of training 
 sequences, and the use of parts of 
 previous solutions to problems in 
 constructing trial solutions to new 
-problems""",https://www.reddit.com/r/MachineLearning/comments/97rk3/the_first_machine_learning_paper_written_on_1956/,kunjaan,1249482477,,1,5
-32,2009-8-6,2009,8,6,14,97ztu,"""For Todays Graduate, Just One 
-Word: Statistics"" - NYTIMES.com",https://www.reddit.com/r/MachineLearning/comments/97ztu/for_todays_graduate_just_one_word_statistics/,kunjaan,1249536729,,2,34
-33,2009-8-6,2009,8,6,21,983b6,"Summary of Machine Translation 
-Papers at EMNLP",https://www.reddit.com/r/MachineLearning/comments/983b6/summary_of_machine_translation_papers_at_emnlp/,kunjaan,1249563226,,0,9
-34,2009-8-6,2009,8,6,22,983ir,"Papers: Spiking neural networks, liquid state machines, STDP, cortical microcircuit models, and more",https://www.reddit.com/r/MachineLearning/comments/983ir/papers_spiking_neural_networks_liquid_state/,[deleted],1249564490,[deleted],0,11
-35,2009-8-7,2009,8,7,2,986n1,Modeling Science:  Dynamic Topic Models of Scholarly Research (Blei) [video],https://www.reddit.com/r/MachineLearning/comments/986n1/modeling_science_dynamic_topic_models_of/,RShnike,1249580756,,0,8
-36,2009-8-7,2009,8,7,3,9872j,"Modification of  many collaborative 
+problems""",https://www.reddit.com/r/MachineLearning/comments/97rk3/the_first_machine_learning_paper_written_on_1956/,kunjaan,1249482477,,1,5,False,default,,,,,
+32,MachineLearning,t5_2r3gv,2009-8-6,2009,8,6,14,97ztu,nytimes.com,"""For Todays Graduate, Just One 
+Word: Statistics"" - NYTIMES.com",https://www.reddit.com/r/MachineLearning/comments/97ztu/for_todays_graduate_just_one_word_statistics/,kunjaan,1249536729,,2,34,False,default,,,,,
+33,MachineLearning,t5_2r3gv,2009-8-6,2009,8,6,21,983b6,nlpers.blogspot.com,"Summary of Machine Translation 
+Papers at EMNLP",https://www.reddit.com/r/MachineLearning/comments/983b6/summary_of_machine_translation_papers_at_emnlp/,kunjaan,1249563226,,0,9,False,,,,,,
+34,MachineLearning,t5_2r3gv,2009-8-6,2009,8,6,22,983ir,igi.tugraz.at,"Papers: Spiking neural networks, liquid state machines, STDP, cortical microcircuit models, and more",https://www.reddit.com/r/MachineLearning/comments/983ir/papers_spiking_neural_networks_liquid_state/,[deleted],1249564490,[deleted],0,11,False,default,,,,,
+35,MachineLearning,t5_2r3gv,2009-8-7,2009,8,7,2,986n1,youtube.com,Modeling Science:  Dynamic Topic Models of Scholarly Research (Blei) [video],https://www.reddit.com/r/MachineLearning/comments/986n1/modeling_science_dynamic_topic_models_of/,RShnike,1249580756,,0,8,False,,,,,,
+36,MachineLearning,t5_2r3gv,2009-8-7,2009,8,7,3,9872j,daniel-lemire.com,"Modification of  many collaborative 
 filtering systems to make them 
 scale , translation invariant and 
 generally improve their accuracy 
 without increasing their 
-computational cost.",https://www.reddit.com/r/MachineLearning/comments/9872j/modification_of_many_collaborative_filtering/,kunjaan,1249583258,,0,7
-37,2009-8-9,2009,8,9,0,98r6j,A Python module for automatically fetching and tf-idf encoding biomedical abstracts for classification,https://www.reddit.com/r/MachineLearning/comments/98r6j/a_python_module_for_automatically_fetching_and/,byron,1249743789,,1,9
-38,2009-8-10,2009,8,10,4,990k2,"Do people accept recommender 
+computational cost.",https://www.reddit.com/r/MachineLearning/comments/9872j/modification_of_many_collaborative_filtering/,kunjaan,1249583258,,0,7,False,default,,,,,
+37,MachineLearning,t5_2r3gv,2009-8-9,2009,8,9,0,98r6j,mlbiomedicine.blogspot.com,A Python module for automatically fetching and tf-idf encoding biomedical abstracts for classification,https://www.reddit.com/r/MachineLearning/comments/98r6j/a_python_module_for_automatically_fetching_and/,byron,1249743789,,1,9,False,default,,,,,
+38,MachineLearning,t5_2r3gv,2009-8-10,2009,8,10,4,990k2,hci.epfl.ch,"Do people accept recommender 
 systems , under what circumstances 
 they do and what can still be 
-improved.",https://www.reddit.com/r/MachineLearning/comments/990k2/do_people_accept_recommender_systems_under_what/,kunjaan,1249847452,,0,8
-39,2009-8-11,2009,8,11,3,99b43,Data Mining and the Stock Market,https://www.reddit.com/r/MachineLearning/comments/99b43/data_mining_and_the_stock_market/,cavedave,1249929295,,0,24
-40,2009-8-11,2009,8,11,7,99dh0,YouTube - Theo Jansen: The art of creating creatures,https://www.reddit.com/r/MachineLearning/comments/99dh0/youtube_theo_jansen_the_art_of_creating_creatures/,crucialfelix,1249943708,,2,14
-41,2009-8-11,2009,8,11,7,99dm0,"Smart-Miner for web usage mining 
+improved.",https://www.reddit.com/r/MachineLearning/comments/990k2/do_people_accept_recommender_systems_under_what/,kunjaan,1249847452,,0,8,False,default,,,,,
+39,MachineLearning,t5_2r3gv,2009-8-11,2009,8,11,3,99b43,mat.tepper.cmu.edu,Data Mining and the Stock Market,https://www.reddit.com/r/MachineLearning/comments/99b43/data_mining_and_the_stock_market/,cavedave,1249929295,,0,24,False,default,,,,,
+40,MachineLearning,t5_2r3gv,2009-8-11,2009,8,11,7,99dh0,youtube.com,YouTube - Theo Jansen: The art of creating creatures,https://www.reddit.com/r/MachineLearning/comments/99dh0/youtube_theo_jansen_the_art_of_creating_creatures/,crucialfelix,1249943708,,2,14,False,,,,,,
+41,MachineLearning,t5_2r3gv,2009-8-11,2009,8,11,7,99dm0,www2009.org,"Smart-Miner for web usage mining 
 problem which uses link information 
 for producing accurate user sessions 
-and frequent navigation patterns.",https://www.reddit.com/r/MachineLearning/comments/99dm0/smartminer_for_web_usage_mining_problem_which/,kunjaan,1249944811,,0,3
-42,2009-8-12,2009,8,12,5,99pf9,Digital Intuition: Applying Common Sense Using Dimensionality Reduction and the Open Mind Common Sense project,https://www.reddit.com/r/MachineLearning/comments/99pf9/digital_intuition_applying_common_sense_using/,[deleted],1250024071,[deleted],0,1
-43,2009-8-12,2009,8,12,6,99pij,Digital Intuition: Applying Common Sense Using Dimensionality Reduction and the Open Mind Common Sense project,https://www.reddit.com/r/MachineLearning/comments/99pij/digital_intuition_applying_common_sense_using/,mycall,1250024699,,0,9
-44,2009-8-12,2009,8,12,14,99tsb,Data Mining for Fraud Detection.,https://www.reddit.com/r/MachineLearning/comments/99tsb/data_mining_for_fraud_detection/,kunjaan,1250056411,,0,10
-45,2009-8-13,2009,8,13,6,9a32e,Versatile and Accurate Cylindrical Coordinate Measuring Machine,https://www.reddit.com/r/MachineLearning/comments/9a32e/versatile_and_accurate_cylindrical_coordinate/,aovtask,1250113880,,1,0
-46,2009-8-13,2009,8,13,23,9aain,"Complete Machine Learning course taught by Andrew Ng
-on Youtube.",https://www.reddit.com/r/MachineLearning/comments/9aain/complete_machine_learning_course_taught_by_andrew/,[deleted],1250172702,,6,37
-47,2009-8-14,2009,8,14,6,9afjo,Surface Roughness Gage For Measuring Crankshafts &amp; Camshafts,https://www.reddit.com/r/MachineLearning/comments/9afjo/surface_roughness_gage_for_measuring_crankshafts/,aovtask,1250199916,,1,0
-48,2009-8-14,2009,8,14,19,9al8n,Lifted inference: normalizing loops by evaluation,https://www.reddit.com/r/MachineLearning/comments/9al8n/lifted_inference_normalizing_loops_by_evaluation/,StompChicken,1250247018,,0,7
-49,2009-8-15,2009,8,15,0,9anx9,All-Purpose Crankshaft/Camshaft Gage - ADCOLE Model 1100,https://www.reddit.com/r/MachineLearning/comments/9anx9/allpurpose_crankshaftcamshaft_gage_adcole_model/,aovtask,1250264640,,1,0
-50,2009-8-18,2009,8,18,11,9bkvr,To R or not to R. What do you guys think?,https://www.reddit.com/r/MachineLearning/comments/9bkvr/to_r_or_not_to_r_what_do_you_guys_think/,kunjaan,1250563782,,10,17
-51,2009-8-19,2009,8,19,10,9bx7l,"Lean Manufacturing Certification
-",https://www.reddit.com/r/MachineLearning/comments/9bx7l/lean_manufacturing_certification/,rockingking99,1250646813,[removed],0,0
-52,2009-8-22,2009,8,22,2,9cuvc,Face Recognition/Authentication Using Support Vector Machines,https://www.reddit.com/r/MachineLearning/comments/9cuvc/face_recognitionauthentication_using_support/,cavedave,1250874515,,0,14
-53,2009-8-22,2009,8,22,4,9cws0,"Effective, Efficient and Economical Contained Material Handling Wash Stations",https://www.reddit.com/r/MachineLearning/comments/9cws0/effective_efficient_and_economical_contained/,aovtask,1250884062,,1,0
-54,2009-8-22,2009,8,22,12,9d00p,[Repost]: Face Recognition using Eigenfaces and Distance Classifiers: A Tutorial,https://www.reddit.com/r/MachineLearning/comments/9d00p/repost_face_recognition_using_eigenfaces_and/,kunjaan,1250913050,,1,11
-55,2009-8-24,2009,8,24,10,9dfe3,"Want to build a PS3 super computer for a computationally expensive learning algorithm, caveat; I need it to run on Windows. Is this possible?",https://www.reddit.com/r/MachineLearning/comments/9dfe3/want_to_build_a_ps3_super_computer_for_a/,[deleted],1251075851,[deleted],1,1
-56,2009-8-25,2009,8,25,0,9dm4f,Growing Neural Gas [PDF],https://www.reddit.com/r/MachineLearning/comments/9dm4f/growing_neural_gas_pdf/,AndreasBWagner,1251127642,,1,9
-57,2009-8-26,2009,8,26,15,9e7mx,"Zipf's Law, Benford's Law from Interactive Mathematics Miscellany and Puzzles",https://www.reddit.com/r/MachineLearning/comments/9e7mx/zipfs_law_benfords_law_from_interactive/,wangfengmadking,1251267416,,0,3
-58,2009-8-31,2009,8,31,6,9fncn,IEEE Computer Magazine: The Pervasiveness of Data Mining and Machine Learning,https://www.reddit.com/r/MachineLearning/comments/9fncn/ieee_computer_magazine_the_pervasiveness_of_data/,[deleted],1251666877,,1,7
-59,2009-8-31,2009,8,31,18,9fsew,Dirichlet Processes: Tutorial and Practical Course,https://www.reddit.com/r/MachineLearning/comments/9fsew/dirichlet_processes_tutorial_and_practical_course/,wangfengmadking,1251709699,,0,20
+and frequent navigation patterns.",https://www.reddit.com/r/MachineLearning/comments/99dm0/smartminer_for_web_usage_mining_problem_which/,kunjaan,1249944811,,0,3,False,default,,,,,
+42,MachineLearning,t5_2r3gv,2009-8-12,2009,8,12,5,99pf9,74.125.155.132,Digital Intuition: Applying Common Sense Using Dimensionality Reduction and the Open Mind Common Sense project,https://www.reddit.com/r/MachineLearning/comments/99pf9/digital_intuition_applying_common_sense_using/,[deleted],1250024071,[deleted],0,1,False,default,,,,,
+43,MachineLearning,t5_2r3gv,2009-8-12,2009,8,12,6,99pij,74.125.155.132,Digital Intuition: Applying Common Sense Using Dimensionality Reduction and the Open Mind Common Sense project,https://www.reddit.com/r/MachineLearning/comments/99pij/digital_intuition_applying_common_sense_using/,mycall,1250024699,,0,9,False,default,,,,,
+44,MachineLearning,t5_2r3gv,2009-8-12,2009,8,12,14,99tsb,docs.google.com,Data Mining for Fraud Detection.,https://www.reddit.com/r/MachineLearning/comments/99tsb/data_mining_for_fraud_detection/,kunjaan,1250056411,,0,10,False,default,,,,,
+45,MachineLearning,t5_2r3gv,2009-8-13,2009,8,13,6,9a32e,adcole.com,Versatile and Accurate Cylindrical Coordinate Measuring Machine,https://www.reddit.com/r/MachineLearning/comments/9a32e/versatile_and_accurate_cylindrical_coordinate/,aovtask,1250113880,,1,0,False,default,,,,,
+46,MachineLearning,t5_2r3gv,2009-8-13,2009,8,13,23,9aain,youtube.com,"Complete Machine Learning course taught by Andrew Ng
+on Youtube.",https://www.reddit.com/r/MachineLearning/comments/9aain/complete_machine_learning_course_taught_by_andrew/,[deleted],1250172702,,6,37,False,,,,,,
+47,MachineLearning,t5_2r3gv,2009-8-14,2009,8,14,6,9afjo,adcole.com,Surface Roughness Gage For Measuring Crankshafts &amp; Camshafts,https://www.reddit.com/r/MachineLearning/comments/9afjo/surface_roughness_gage_for_measuring_crankshafts/,aovtask,1250199916,,1,0,False,default,,,,,
+48,MachineLearning,t5_2r3gv,2009-8-14,2009,8,14,19,9al8n,lambda-the-ultimate.org,Lifted inference: normalizing loops by evaluation,https://www.reddit.com/r/MachineLearning/comments/9al8n/lifted_inference_normalizing_loops_by_evaluation/,StompChicken,1250247018,,0,7,False,default,,,,,
+49,MachineLearning,t5_2r3gv,2009-8-15,2009,8,15,0,9anx9,adcole.com,All-Purpose Crankshaft/Camshaft Gage - ADCOLE Model 1100,https://www.reddit.com/r/MachineLearning/comments/9anx9/allpurpose_crankshaftcamshaft_gage_adcole_model/,aovtask,1250264640,,1,0,False,default,,,,,
+50,MachineLearning,t5_2r3gv,2009-8-18,2009,8,18,11,9bkvr,undirectedgrad.blogspot.com,To R or not to R. What do you guys think?,https://www.reddit.com/r/MachineLearning/comments/9bkvr/to_r_or_not_to_r_what_do_you_guys_think/,kunjaan,1250563782,,10,17,False,default,,,,,
+51,MachineLearning,t5_2r3gv,2009-8-19,2009,8,19,10,9bx7l,self.MachineLearning,"Lean Manufacturing Certification
+",https://www.reddit.com/r/MachineLearning/comments/9bx7l/lean_manufacturing_certification/,rockingking99,1250646813,[removed],0,0,False,default,,,,,
+52,MachineLearning,t5_2r3gv,2009-8-22,2009,8,22,2,9cuvc,onionesquereality.wordpress.com,Face Recognition/Authentication Using Support Vector Machines,https://www.reddit.com/r/MachineLearning/comments/9cuvc/face_recognitionauthentication_using_support/,cavedave,1250874515,,0,14,False,,,,,,
+53,MachineLearning,t5_2r3gv,2009-8-22,2009,8,22,4,9cws0,totesystems.com,"Effective, Efficient and Economical Contained Material Handling Wash Stations",https://www.reddit.com/r/MachineLearning/comments/9cws0/effective_efficient_and_economical_contained/,aovtask,1250884062,,1,0,False,default,,,,,
+54,MachineLearning,t5_2r3gv,2009-8-22,2009,8,22,12,9d00p,onionesquereality.wordpress.com,[Repost]: Face Recognition using Eigenfaces and Distance Classifiers: A Tutorial,https://www.reddit.com/r/MachineLearning/comments/9d00p/repost_face_recognition_using_eigenfaces_and/,kunjaan,1250913050,,1,11,False,,,,,,
+55,MachineLearning,t5_2r3gv,2009-8-24,2009,8,24,10,9dfe3,self.MachineLearning,"Want to build a PS3 super computer for a computationally expensive learning algorithm, caveat; I need it to run on Windows. Is this possible?",https://www.reddit.com/r/MachineLearning/comments/9dfe3/want_to_build_a_ps3_super_computer_for_a/,[deleted],1251075851,[deleted],1,1,False,default,,,,,
+56,MachineLearning,t5_2r3gv,2009-8-25,2009,8,25,0,9dm4f,booru.net,Growing Neural Gas [PDF],https://www.reddit.com/r/MachineLearning/comments/9dm4f/growing_neural_gas_pdf/,AndreasBWagner,1251127642,,1,9,False,default,,,,,
+57,MachineLearning,t5_2r3gv,2009-8-26,2009,8,26,15,9e7mx,cut-the-knot.org,"Zipf's Law, Benford's Law from Interactive Mathematics Miscellany and Puzzles",https://www.reddit.com/r/MachineLearning/comments/9e7mx/zipfs_law_benfords_law_from_interactive/,wangfengmadking,1251267416,,0,3,False,,,,,,
+58,MachineLearning,t5_2r3gv,2009-8-31,2009,8,31,6,9fncn,computer.org,IEEE Computer Magazine: The Pervasiveness of Data Mining and Machine Learning,https://www.reddit.com/r/MachineLearning/comments/9fncn/ieee_computer_magazine_the_pervasiveness_of_data/,[deleted],1251666877,,1,7,False,,,,,,
+59,MachineLearning,t5_2r3gv,2009-8-31,2009,8,31,18,9fsew,videolectures.net,Dirichlet Processes: Tutorial and Practical Course,https://www.reddit.com/r/MachineLearning/comments/9fsew/dirichlet_processes_tutorial_and_practical_course/,wangfengmadking,1251709699,,0,20,False,,,,,,

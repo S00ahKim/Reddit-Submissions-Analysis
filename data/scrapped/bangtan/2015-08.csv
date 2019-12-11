@@ -1,5 +1,5 @@
-,date,year,month,day,hour,id,title,author,created,selftext,num_comments,score
-0,2015-8-12,2015,8,12,10,3go3wq,BTS at ISAC 2015 Fancam/Photo Compilation,dorkprincess,1439343466,"I noticed that finding the fancams from ISAC is a bit like a scavenger hunt, so I decided to help y'all out and compile them here! If you know one is missing, feel free to mention it below and I'll add it.  
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,bangtan,t5_2zqih,2015-8-12,2015,8,12,10,3go3wq,self.bangtan,BTS at ISAC 2015 Fancam/Photo Compilation,https://www.reddit.com/r/bangtan/comments/3go3wq/bts_at_isac_2015_fancamphoto_compilation/,dorkprincess,1439343466,"I noticed that finding the fancams from ISAC is a bit like a scavenger hunt, so I decided to help y'all out and compile them here! If you know one is missing, feel free to mention it below and I'll add it.  
 
 Spoilers for how well/not well they do in the actual competitions!
 
@@ -122,9 +122,9 @@ Other information about ISAC:
 
 __________
 
-I'm probably forgetting a bunch, I'll add more if I find more~",0,1
-1,2015-8-14,2015,8,14,18,3gygp7,"BTS on 'Dope,' Fifth Harmony &amp; More: Exclusive Q&amp;A",MaraKpopGreece,1439543604,,1,9
-2,2015-8-16,2015,8,16,8,3h5bw4,"[ENG SUB] BTS 2015 SUMMER PACKAGE DVD (x-post, /r/kpop)",BrigidAndair,1439682078,,0,12
-3,2015-8-25,2015,8,25,4,3i8ls6,Tony's Taco Bell CF,kpoopy,1440444436,,0,0
-4,2015-8-26,2015,8,26,7,3ie6b3,BTS - Dope (Official Taiwan Release),dltracrn,1440542570,,1,6
-5,2015-8-28,2015,8,28,7,3inp4f,"BTS in NYC (""Boyz with Fun"" Ver.)",rileywake,1440716256,,1,12
+I'm probably forgetting a bunch, I'll add more if I find more~",0,1,False,default,,,,,
+1,bangtan,t5_2zqih,2015-8-14,2015,8,14,18,3gygp7,billboard.com,"BTS on 'Dope,' Fifth Harmony &amp; More: Exclusive Q&amp;A",https://www.reddit.com/r/bangtan/comments/3gygp7/bts_on_dope_fifth_harmony_more_exclusive_qa/,MaraKpopGreece,1439543604,,1,9,False,http://a.thumbs.redditmedia.com/Hg4ygHyK3qax-556-y2TSSeg-JyuWiwi09CP4bEUWu4.jpg,,,,,
+2,bangtan,t5_2zqih,2015-8-16,2015,8,16,8,3h5bw4,youtube.com,"[ENG SUB] BTS 2015 SUMMER PACKAGE DVD (x-post, /r/kpop)",https://www.reddit.com/r/bangtan/comments/3h5bw4/eng_sub_bts_2015_summer_package_dvd_xpost_rkpop/,BrigidAndair,1439682078,,0,12,False,http://b.thumbs.redditmedia.com/huiPMOTHWdMX2Z45WoyBRsgG91fnYrwezYxOaf9kz_s.jpg,,,,,
+3,bangtan,t5_2zqih,2015-8-25,2015,8,25,4,3i8ls6,youtube.com,Tony's Taco Bell CF,https://www.reddit.com/r/bangtan/comments/3i8ls6/tonys_taco_bell_cf/,kpoopy,1440444436,,0,0,False,http://b.thumbs.redditmedia.com/JRrFUjEb4xM9VdhVblSsTHipm9fH19QU5nadtrFHhNE.jpg,,,,,
+4,bangtan,t5_2zqih,2015-8-26,2015,8,26,7,3ie6b3,youtube.com,BTS - Dope (Official Taiwan Release),https://www.reddit.com/r/bangtan/comments/3ie6b3/bts_dope_official_taiwan_release/,dltracrn,1440542570,,1,6,False,http://a.thumbs.redditmedia.com/vxuM_UrAFMqvGDTt_CT41xm0F5tlUOthTl01flEgw_0.jpg,,,,,
+5,bangtan,t5_2zqih,2015-8-28,2015,8,28,7,3inp4f,youtube.com,"BTS in NYC (""Boyz with Fun"" Ver.)",https://www.reddit.com/r/bangtan/comments/3inp4f/bts_in_nyc_boyz_with_fun_ver/,rileywake,1440716256,,1,12,False,http://b.thumbs.redditmedia.com/fMgI09HkfBvCdvyC-1T-5RBtZJMfFh6BjudzEsnAPLU.jpg,,,,,

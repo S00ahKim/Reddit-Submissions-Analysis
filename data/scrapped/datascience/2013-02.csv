@@ -1,13 +1,13 @@
-,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
-0,2013-2-15,2013,2,15,5,18j9ww,Advice for aspiring Data Scientist?,https://www.reddit.com/r/datascience/comments/18j9ww/advice_for_aspiring_data_scientist/,EpicData,1360873096,"Graduated from top 10 ranked school last May with degree in engineering (not EE or ECE) and statistics. Have very strong math and stat background, but obviously lacking in computer science.
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,datascience,t5_2sptq,2013-2-15,2013,2,15,5,18j9ww,self.datascience,Advice for aspiring Data Scientist?,https://www.reddit.com/r/datascience/comments/18j9ww/advice_for_aspiring_data_scientist/,EpicData,1360873096,"Graduated from top 10 ranked school last May with degree in engineering (not EE or ECE) and statistics. Have very strong math and stat background, but obviously lacking in computer science.
 
 Right now working a full-time operations research/stat job that doesn't really involve any coding, more along the lines of pretty basic stat in R.
 
 Very comfortable with coding in R, Matlab. Some exposure to javascript, C, perl. No working knowing in any the languages (Perl, C++, Python, Java, etc) that seems to be desired or required.
 
-I guess my question is how I can approach this field without a functional ability to program in one of the languages required? Is self learning of a language the starting point? I don't suppose that all data scientists are veteran software engineers with strong background in math, how much learning on the job is there? Are there even entry level jobs in this field?",1,3
-1,2013-2-20,2013,2,20,11,18v0nx,How did you get your job?,https://www.reddit.com/r/datascience/comments/18v0nx/how_did_you_get_your_job/,cmn2207,1361328372,"Hey /r/datascience, just curios. What is you job title? What did you study? What else in your background contributed to you getting that job?",7,6
-2,2013-2-24,2013,2,24,11,19434z,A Rabbit Hole Education: Thoughts on Data Science,https://www.reddit.com/r/datascience/comments/19434z/a_rabbit_hole_education_thoughts_on_data_science/,dataenthusiastn1,1361674304,,0,0
-3,2013-2-26,2013,2,26,13,198mu0,MDX Users,https://www.reddit.com/r/datascience/comments/198mu0/mdx_users/,missreah,1361851969,"I was wondering if any one uses MDX or would be interested in an MDX subreddit?
+I guess my question is how I can approach this field without a functional ability to program in one of the languages required? Is self learning of a language the starting point? I don't suppose that all data scientists are veteran software engineers with strong background in math, how much learning on the job is there? Are there even entry level jobs in this field?",1,3,False,self,,,,,
+1,datascience,t5_2sptq,2013-2-20,2013,2,20,11,18v0nx,self.datascience,How did you get your job?,https://www.reddit.com/r/datascience/comments/18v0nx/how_did_you_get_your_job/,cmn2207,1361328372,"Hey /r/datascience, just curios. What is you job title? What did you study? What else in your background contributed to you getting that job?",7,6,False,self,,,,,
+2,datascience,t5_2sptq,2013-2-24,2013,2,24,11,19434z,dataenthusiast.com,A Rabbit Hole Education: Thoughts on Data Science,https://www.reddit.com/r/datascience/comments/19434z/a_rabbit_hole_education_thoughts_on_data_science/,dataenthusiastn1,1361674304,,0,0,False,http://f.thumbs.redditmedia.com/K-afLyvOmbYNChZk.jpg,,,,,
+3,datascience,t5_2sptq,2013-2-26,2013,2,26,13,198mu0,self.datascience,MDX Users,https://www.reddit.com/r/datascience/comments/198mu0/mdx_users/,missreah,1361851969,"I was wondering if any one uses MDX or would be interested in an MDX subreddit?
 
-I have noticed that there isn't one, so if there is enough interest I guess I'll make one.",0,2
+I have noticed that there isn't one, so if there is enough interest I guess I'll make one.",0,2,False,self,,,,,

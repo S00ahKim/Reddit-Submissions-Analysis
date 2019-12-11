@@ -1,59 +1,59 @@
-,date,year,month,day,hour,id,title,author,created,selftext,num_comments,score
-0,2016-8-1,2016,8,1,9,4vjycm,160801 Game Dev Girls Instagram Update with Irene,[deleted],1470012278,[deleted],1,1
-1,2016-8-1,2016,8,1,9,4vjyzd,160801 Game Dev Girls Facebook Update with Irene,thenerdal,1470012556,,2,11
-2,2016-8-1,2016,8,1,10,4vk446,160801 yewon0714 Instagram Update with Red Velvet,thenerdal,1470014722,,2,7
-3,2016-8-1,2016,8,1,11,4vkfmx,160801 From Star Update with Red Velvet,thenerdal,1470019561,,3,10
-4,2016-8-1,2016,8,1,14,4vl2fh,160801 Toreore Chicken Facebook with Red Velvet,[deleted],1470030674,[deleted],0,1
-5,2016-8-1,2016,8,1,14,4vl2md,160801 Toreore Chicken Facebook with Red Velvet,thenerdal,1470030779,,1,10
-6,2016-8-1,2016,8,1,18,4vlqc3,160801 Vyrl Diary Update with Irene,thenerdal,1470045349,,1,5
-7,2016-8-2,2016,8,2,0,4vmzyk,"160802 Official Instagram Update with Seulgi, Irene &amp; Wendy",thenerdal,1470064764,,1,15
-8,2016-8-2,2016,8,2,1,4vn93p,160801 2nd Anniversary Fansite Photos,thenerdal,1470067767,"#[Irene](http://imgur.com/a/xY9Or) | [Joy](http://imgur.com/a/e7vpk) | [Seulgi](http://imgur.com/a/IvU5c) | [Wendy](http://imgur.com/a/Dr3bQ) | [Yeri](http://imgur.com/a/qVW1z) | [Group/Other](http://imgur.com/a/wn3f6)
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,red_velvet,t5_32s1t,2016-8-1,2016,8,1,9,4vjycm,i.imgur.com,160801 Game Dev Girls Instagram Update with Irene,https://www.reddit.com/r/red_velvet/comments/4vjycm/160801_game_dev_girls_instagram_update_with_irene/,[deleted],1470012278,[deleted],1,1,False,default,,,,,
+1,red_velvet,t5_32s1t,2016-8-1,2016,8,1,9,4vjyzd,i.imgur.com,160801 Game Dev Girls Facebook Update with Irene,https://www.reddit.com/r/red_velvet/comments/4vjyzd/160801_game_dev_girls_facebook_update_with_irene/,thenerdal,1470012556,,2,11,False,http://a.thumbs.redditmedia.com/jOO75uR8y8v7iskXjMRGTuesK_ujnCP5IDQMCoY7Ci4.jpg,,,,,
+2,red_velvet,t5_32s1t,2016-8-1,2016,8,1,10,4vk446,i.imgur.com,160801 yewon0714 Instagram Update with Red Velvet,https://www.reddit.com/r/red_velvet/comments/4vk446/160801_yewon0714_instagram_update_with_red_velvet/,thenerdal,1470014722,,2,7,False,http://b.thumbs.redditmedia.com/pO5-_lUvaL06qoX-3VA2Dpqm79w0441Jl47K1dsnzio.jpg,,,,,
+3,red_velvet,t5_32s1t,2016-8-1,2016,8,1,11,4vkfmx,imgur.com,160801 From Star Update with Red Velvet,https://www.reddit.com/r/red_velvet/comments/4vkfmx/160801_from_star_update_with_red_velvet/,thenerdal,1470019561,,3,10,False,http://b.thumbs.redditmedia.com/MggQOYEGTjsFnCYq9E1Gc4nzKBu-5TfvomJKb8yXAUA.jpg,,,,,
+4,red_velvet,t5_32s1t,2016-8-1,2016,8,1,14,4vl2fh,i.redd.it,160801 Toreore Chicken Facebook with Red Velvet,https://www.reddit.com/r/red_velvet/comments/4vl2fh/160801_toreore_chicken_facebook_with_red_velvet/,[deleted],1470030674,[deleted],0,1,False,default,,,,,
+5,red_velvet,t5_32s1t,2016-8-1,2016,8,1,14,4vl2md,i.redd.it,160801 Toreore Chicken Facebook with Red Velvet,https://www.reddit.com/r/red_velvet/comments/4vl2md/160801_toreore_chicken_facebook_with_red_velvet/,thenerdal,1470030779,,1,10,False,http://b.thumbs.redditmedia.com/kxbBIL6VIB5_sn2PjbRhiDBiHwQY7E-kdSNu9HbKbLo.jpg,,,,,
+6,red_velvet,t5_32s1t,2016-8-1,2016,8,1,18,4vlqc3,imgur.com,160801 Vyrl Diary Update with Irene,https://www.reddit.com/r/red_velvet/comments/4vlqc3/160801_vyrl_diary_update_with_irene/,thenerdal,1470045349,,1,5,False,http://b.thumbs.redditmedia.com/XvOOXFkRhTuZqZ7KeJ-B-cWWF_Llgnc4a96s48IymgM.jpg,,,,,
+7,red_velvet,t5_32s1t,2016-8-2,2016,8,2,0,4vmzyk,instagram.com,"160802 Official Instagram Update with Seulgi, Irene &amp; Wendy",https://www.reddit.com/r/red_velvet/comments/4vmzyk/160802_official_instagram_update_with_seulgi/,thenerdal,1470064764,,1,15,False,http://b.thumbs.redditmedia.com/zUk144AtUb5_eZrDX6pPZC2P7_Gv6TnV50jHxCAgMZY.jpg,,,,,
+8,red_velvet,t5_32s1t,2016-8-2,2016,8,2,1,4vn93p,self.red_velvet,160801 2nd Anniversary Fansite Photos,https://www.reddit.com/r/red_velvet/comments/4vn93p/160801_2nd_anniversary_fansite_photos/,thenerdal,1470067767,"#[Irene](http://imgur.com/a/xY9Or) | [Joy](http://imgur.com/a/e7vpk) | [Seulgi](http://imgur.com/a/IvU5c) | [Wendy](http://imgur.com/a/Dr3bQ) | [Yeri](http://imgur.com/a/qVW1z) | [Group/Other](http://imgur.com/a/wn3f6)
 
 ###Some Fancams: 
 
 ####[Group](https://youtu.be/lvpBRvBgWac) | [2](https://youtu.be/USKfCHWPtfg) 
 
-####[Wendy](https://youtu.be/KK2Zbqcg7eE)",0,11
-9,2016-8-2,2016,8,2,1,4vn9u1,160802 Official Instagram Update #2,thenerdal,1470068020,,1,4
-10,2016-8-2,2016,8,2,1,4vndec,160802 Official Instagram Update with Joy &amp; Yeri,[deleted],1470069210,[deleted],0,1
-11,2016-8-2,2016,8,2,1,4vndit,160802 Official Instagram Update with Joy &amp; Yeri,thenerdal,1470069257,,2,11
-12,2016-8-2,2016,8,2,12,4vqlh2,160802 Irene Kim Snapchat Update with Seulgi,thenerdal,1470109921,,0,8
-13,2016-8-2,2016,8,2,16,4vrc5m,160802 Official Vyrl Update with Seulgi,thenerdal,1470123464,,1,22
-14,2016-8-2,2016,8,2,16,4vrcg4,160802 Irene Kim Instagram Update with Seulgi,thenerdal,1470123625,,0,6
-15,2016-8-2,2016,8,2,16,4vrcn1,160802 esteemmodels Instagram Update with Seulgi,thenerdal,1470123733,,1,11
-16,2016-8-2,2016,8,2,16,4vrd21,160802 Toreore Chicken Facebook with Seulgi,thenerdal,1470123974,,1,4
-17,2016-8-2,2016,8,2,17,4vri8o,160802 Game Dev Girls Instagram Update with Irene,thenerdal,1470127398,,1,4
-18,2016-8-2,2016,8,2,18,4vrk81,160801 The Saem Thailand Facebook Update with Wendy,thenerdal,1470128670,,1,2
-19,2016-8-3,2016,8,3,9,4vvuyc,160803 Game Dev Girls Instagram Update with Irene,thenerdal,1470185148,,1,6
-20,2016-8-3,2016,8,3,15,4vx2wj,160803 Toreore Chicken Facebook Update with Wendy,thenerdal,1470204633,,1,8
-21,2016-8-4,2016,8,4,0,4vz0jk,160803 Game Dev Girls Instagram Update with Irene #2,thenerdal,1470237610,,2,21
-22,2016-8-4,2016,8,4,15,4w34xd,160804 Official Instagram Drawing by Seulgi,thenerdal,1470291395,,2,16
-23,2016-8-5,2016,8,5,12,4w8itv,160805 Toreore Chicken Facebook Update with Red Velvet,thenerdal,1470368703,,2,9
-24,2016-8-6,2016,8,6,21,4wfnkk,160806 Official Instagram Update with Yeri,thenerdal,1470485578,,1,7
-25,2016-8-6,2016,8,6,21,4wfns2,160806 Official Instagram Update with Yeri &amp; Wendy,thenerdal,1470485709,,2,29
-26,2016-8-6,2016,8,6,21,4wfq1y,160806 Official Instagram Video with Red Velvet #1,thenerdal,1470487113,,2,5
-27,2016-8-6,2016,8,6,21,4wfq3a,160806 Official Instagram Video with Red Velvet #2,thenerdal,1470487133,,1,4
-28,2016-8-7,2016,8,7,6,4whyks,160806 Science Festa,[deleted],1470520343,[deleted],0,7
-29,2016-8-7,2016,8,7,14,4wjk1d,160807 Game Dev Girls Facebook Update with Irene,thenerdal,1470546484,,1,6
-30,2016-8-7,2016,8,7,23,4wl0dh,160807 Wendy &amp; Irene on Fantastic Duo,thenerdal,1470579629,,0,9
-31,2016-8-7,2016,8,7,23,4wl1eq,160807 Official Music Recommendation by Seulgi,thenerdal,1470580105,,1,4
-32,2016-8-8,2016,8,8,10,4wnqeq,160808 Game Dev Girls Costume Shooting with Irene,[deleted],1470618552,[deleted],0,1
-33,2016-8-8,2016,8,8,10,4wnrex,160808 Game Dev Girls Costume Shooting with Irene,thenerdal,1470618972,,0,8
-34,2016-8-8,2016,8,8,11,4wo4hq,160808 GMarket Site Update with Joy &amp; Irene,thenerdal,1470624950,,1,3
-35,2016-8-8,2016,8,8,20,4wpo1q,160808 Toreore Chicken Twitter Update with Red Velvet,thenerdal,1470655595,,1,8
-36,2016-8-8,2016,8,8,20,4wpoeh,160808 SMTown Japan Site Update with Red Velvet,thenerdal,1470655789,,1,13
-37,2016-8-8,2016,8,8,20,4wpoyz,160808 Diary Vyrl Update with Seulgi,thenerdal,1470656073,,1,11
-38,2016-8-8,2016,8,8,20,4wppa9,160808 Game Dev Girls Instagram Update with Irene,thenerdal,1470656231,,1,22
-39,2016-8-9,2016,8,9,6,4wsi13,160527 Happiness - Hangyang University Festival,thenerdal,1470690390,,0,8
-40,2016-8-9,2016,8,9,18,4wv956,160609 Official Music Recommendation by Wendy,thenerdal,1470733268,,1,5
-41,2016-8-10,2016,8,10,12,4x05cu,160810 Official Instagram Update with Seulgi,thenerdal,1470798619,,2,5
-42,2016-8-10,2016,8,10,14,4x0mnx,160810 Naver Starcast Update with Seulgi,thenerdal,1470806788,,1,8
-43,2016-8-10,2016,8,10,20,4x1pn0,160810 Toreore Chicken Facebook Update with Joy,thenerdal,1470829294,,1,3
-44,2016-8-10,2016,8,10,20,4x1pvj,160810 Irene Kim Twitter Update with Seulgi,thenerdal,1470829406,,0,28
-45,2016-8-11,2016,8,11,12,4x64x8,160811 Ranting Monkey Cut with Seulgi &amp; Amber,thenerdal,1470887366,,1,12
-46,2016-8-12,2016,8,12,11,4xbbw0,160812 yoonsungsoo Instagram Update with Seulgi &amp; Wendy,thenerdal,1470968462,,1,8
-47,2016-8-12,2016,8,12,13,4xbtgz,160812 Official Vyrl Update with Seulgi &amp; Wendy,thenerdal,1470975926,,1,11
-48,2016-8-12,2016,8,12,15,4xc7e8,160812 Seulgi &amp; Wendy at MCM Event,thenerdal,1470983121,"###Previews: 
+####[Wendy](https://youtu.be/KK2Zbqcg7eE)",0,11,False,self,,,,,
+9,red_velvet,t5_32s1t,2016-8-2,2016,8,2,1,4vn9u1,instagram.com,160802 Official Instagram Update #2,https://www.reddit.com/r/red_velvet/comments/4vn9u1/160802_official_instagram_update_2/,thenerdal,1470068020,,1,4,False,http://b.thumbs.redditmedia.com/RacCetiwLqE_tBOUFyXJjtzLykFU7awBhKZL6OgRmLI.jpg,,,,,
+10,red_velvet,t5_32s1t,2016-8-2,2016,8,2,1,4vndec,imgur.com,160802 Official Instagram Update with Joy &amp; Yeri,https://www.reddit.com/r/red_velvet/comments/4vndec/160802_official_instagram_update_with_joy_yeri/,[deleted],1470069210,[deleted],0,1,False,default,,,,,
+11,red_velvet,t5_32s1t,2016-8-2,2016,8,2,1,4vndit,imgur.com,160802 Official Instagram Update with Joy &amp; Yeri,https://www.reddit.com/r/red_velvet/comments/4vndit/160802_official_instagram_update_with_joy_yeri/,thenerdal,1470069257,,2,11,False,http://b.thumbs.redditmedia.com/ZIXyG3yFz5fOe6r7OlDb63RNOx6ma2CfJ8hXZShF9eI.jpg,,,,,
+12,red_velvet,t5_32s1t,2016-8-2,2016,8,2,12,4vqlh2,twitter.com,160802 Irene Kim Snapchat Update with Seulgi,https://www.reddit.com/r/red_velvet/comments/4vqlh2/160802_irene_kim_snapchat_update_with_seulgi/,thenerdal,1470109921,,0,8,False,http://b.thumbs.redditmedia.com/nL6nQNb6eblQ2e-eDAzvxO1oH609yqXexKcb5ICM6QE.jpg,,,,,
+13,red_velvet,t5_32s1t,2016-8-2,2016,8,2,16,4vrc5m,imgur.com,160802 Official Vyrl Update with Seulgi,https://www.reddit.com/r/red_velvet/comments/4vrc5m/160802_official_vyrl_update_with_seulgi/,thenerdal,1470123464,,1,22,False,http://b.thumbs.redditmedia.com/fJ7GyOFJ0jJ99wYq1MLz4WooVcJBDl1wGZCleXDhOPw.jpg,,,,,
+14,red_velvet,t5_32s1t,2016-8-2,2016,8,2,16,4vrcg4,instagram.com,160802 Irene Kim Instagram Update with Seulgi,https://www.reddit.com/r/red_velvet/comments/4vrcg4/160802_irene_kim_instagram_update_with_seulgi/,thenerdal,1470123625,,0,6,False,http://b.thumbs.redditmedia.com/kG78j9rlEeg6NFJYhr_yVZLnHRfsDNI27qyvO54eq1M.jpg,,,,,
+15,red_velvet,t5_32s1t,2016-8-2,2016,8,2,16,4vrcn1,i.imgur.com,160802 esteemmodels Instagram Update with Seulgi,https://www.reddit.com/r/red_velvet/comments/4vrcn1/160802_esteemmodels_instagram_update_with_seulgi/,thenerdal,1470123733,,1,11,False,http://b.thumbs.redditmedia.com/vKByy-DIPj5JhWJh07RLMO7Wq92iqL25wxMrynycoFU.jpg,,,,,
+16,red_velvet,t5_32s1t,2016-8-2,2016,8,2,16,4vrd21,i.redd.it,160802 Toreore Chicken Facebook with Seulgi,https://www.reddit.com/r/red_velvet/comments/4vrd21/160802_toreore_chicken_facebook_with_seulgi/,thenerdal,1470123974,,1,4,False,http://b.thumbs.redditmedia.com/zMwJ25mRhJJ-7cqJRtZaIrHRiqJ5gA9cac6yQq_7r9w.jpg,,,,,
+17,red_velvet,t5_32s1t,2016-8-2,2016,8,2,17,4vri8o,i.redd.it,160802 Game Dev Girls Instagram Update with Irene,https://www.reddit.com/r/red_velvet/comments/4vri8o/160802_game_dev_girls_instagram_update_with_irene/,thenerdal,1470127398,,1,4,False,http://b.thumbs.redditmedia.com/ZAyRTR5zg4Medvlk7TQAJbTfDuLFrzH3wo-87tZcHEI.jpg,,,,,
+18,red_velvet,t5_32s1t,2016-8-2,2016,8,2,18,4vrk81,i.redd.it,160801 The Saem Thailand Facebook Update with Wendy,https://www.reddit.com/r/red_velvet/comments/4vrk81/160801_the_saem_thailand_facebook_update_with/,thenerdal,1470128670,,1,2,False,http://b.thumbs.redditmedia.com/DzOKmJgVpYB-C82kRLICOdSf2-bhVdwzG1poBgpOxlc.jpg,,,,,
+19,red_velvet,t5_32s1t,2016-8-3,2016,8,3,9,4vvuyc,i.redd.it,160803 Game Dev Girls Instagram Update with Irene,https://www.reddit.com/r/red_velvet/comments/4vvuyc/160803_game_dev_girls_instagram_update_with_irene/,thenerdal,1470185148,,1,6,False,http://a.thumbs.redditmedia.com/N3LzX38S1Ym6JUh_2IG3VQzTlJ1_p3FBikxeDuvu1Y0.jpg,,,,,
+20,red_velvet,t5_32s1t,2016-8-3,2016,8,3,15,4vx2wj,i.redd.it,160803 Toreore Chicken Facebook Update with Wendy,https://www.reddit.com/r/red_velvet/comments/4vx2wj/160803_toreore_chicken_facebook_update_with_wendy/,thenerdal,1470204633,,1,8,False,http://b.thumbs.redditmedia.com/_CVw0BCmLz7fPAHjOkm32JQHjEzzzG3dX3HVDr4h8gE.jpg,,,,,
+21,red_velvet,t5_32s1t,2016-8-4,2016,8,4,0,4vz0jk,i.redd.it,160803 Game Dev Girls Instagram Update with Irene #2,https://www.reddit.com/r/red_velvet/comments/4vz0jk/160803_game_dev_girls_instagram_update_with_irene/,thenerdal,1470237610,,2,21,False,http://b.thumbs.redditmedia.com/MWbsyoh7Tpy6Sv7-1UMsJi4LAtxUnJO1djw-CrCA6fw.jpg,,,,,
+22,red_velvet,t5_32s1t,2016-8-4,2016,8,4,15,4w34xd,i.redd.it,160804 Official Instagram Drawing by Seulgi,https://www.reddit.com/r/red_velvet/comments/4w34xd/160804_official_instagram_drawing_by_seulgi/,thenerdal,1470291395,,2,16,False,http://b.thumbs.redditmedia.com/XVRvpbzQJQBNFX4nLZvgTKfg0XQMWpLq0APWBNT3vaI.jpg,,,,,
+23,red_velvet,t5_32s1t,2016-8-5,2016,8,5,12,4w8itv,i.redd.it,160805 Toreore Chicken Facebook Update with Red Velvet,https://www.reddit.com/r/red_velvet/comments/4w8itv/160805_toreore_chicken_facebook_update_with_red/,thenerdal,1470368703,,2,9,False,http://a.thumbs.redditmedia.com/339EDV7J_V-LIzr7btCoQMwyrWd8n8FfRFKJPlIL7l0.jpg,,,,,
+24,red_velvet,t5_32s1t,2016-8-6,2016,8,6,21,4wfnkk,i.redd.it,160806 Official Instagram Update with Yeri,https://www.reddit.com/r/red_velvet/comments/4wfnkk/160806_official_instagram_update_with_yeri/,thenerdal,1470485578,,1,7,False,http://b.thumbs.redditmedia.com/63RdCNjVXD9OfcKqlw4HmNABPUMFuVpVYaZXJZu5s6g.jpg,,,,,
+25,red_velvet,t5_32s1t,2016-8-6,2016,8,6,21,4wfns2,imgur.com,160806 Official Instagram Update with Yeri &amp; Wendy,https://www.reddit.com/r/red_velvet/comments/4wfns2/160806_official_instagram_update_with_yeri_wendy/,thenerdal,1470485709,,2,29,False,http://b.thumbs.redditmedia.com/-e2cYL3W7_ENVmWPGx6DReyciPHXnPuR5EISndu2LfU.jpg,,,,,
+26,red_velvet,t5_32s1t,2016-8-6,2016,8,6,21,4wfq1y,instagram.com,160806 Official Instagram Video with Red Velvet #1,https://www.reddit.com/r/red_velvet/comments/4wfq1y/160806_official_instagram_video_with_red_velvet_1/,thenerdal,1470487113,,2,5,False,http://b.thumbs.redditmedia.com/eTlaF9wLJEvzn-4is3s80sVm_HSrjO8PWwffE8-ZUCk.jpg,,,,,
+27,red_velvet,t5_32s1t,2016-8-6,2016,8,6,21,4wfq3a,instagram.com,160806 Official Instagram Video with Red Velvet #2,https://www.reddit.com/r/red_velvet/comments/4wfq3a/160806_official_instagram_video_with_red_velvet_2/,thenerdal,1470487133,,1,4,False,http://b.thumbs.redditmedia.com/xPdTeejM77M1vwc5Re1XqtG-B5oM1uCQGyXF9vX4mXQ.jpg,,,,,
+28,red_velvet,t5_32s1t,2016-8-7,2016,8,7,6,4whyks,self.red_velvet,160806 Science Festa,https://www.reddit.com/r/red_velvet/comments/4whyks/160806_science_festa/,[deleted],1470520343,[deleted],0,7,False,default,,,,,
+29,red_velvet,t5_32s1t,2016-8-7,2016,8,7,14,4wjk1d,i.redd.it,160807 Game Dev Girls Facebook Update with Irene,https://www.reddit.com/r/red_velvet/comments/4wjk1d/160807_game_dev_girls_facebook_update_with_irene/,thenerdal,1470546484,,1,6,False,http://b.thumbs.redditmedia.com/vpsHNNeFs7WZJ0bqlMTlHiXt2Xg0f6m3pIagS-BkI4s.jpg,,,,,
+30,red_velvet,t5_32s1t,2016-8-7,2016,8,7,23,4wl0dh,youtube.com,160807 Wendy &amp; Irene on Fantastic Duo,https://www.reddit.com/r/red_velvet/comments/4wl0dh/160807_wendy_irene_on_fantastic_duo/,thenerdal,1470579629,,0,9,False,http://b.thumbs.redditmedia.com/94TZG1ujRom-AJeY8Uu3u_G7K8VcPUlHCY8BigxxQHw.jpg,,,,,
+31,red_velvet,t5_32s1t,2016-8-7,2016,8,7,23,4wl1eq,scontent-sit4-1.cdninstagram.com,160807 Official Music Recommendation by Seulgi,https://www.reddit.com/r/red_velvet/comments/4wl1eq/160807_official_music_recommendation_by_seulgi/,thenerdal,1470580105,,1,4,False,http://a.thumbs.redditmedia.com/vHFP2Ggxl3Ir7WVEa6dWsTYj0rakAUCq5icxqmNyuU0.jpg,,,,,
+32,red_velvet,t5_32s1t,2016-8-8,2016,8,8,10,4wnqeq,tvcast.naver.com,160808 Game Dev Girls Costume Shooting with Irene,https://www.reddit.com/r/red_velvet/comments/4wnqeq/160808_game_dev_girls_costume_shooting_with_irene/,[deleted],1470618552,[deleted],0,1,False,default,,,,,
+33,red_velvet,t5_32s1t,2016-8-8,2016,8,8,10,4wnrex,tvcast.naver.com,160808 Game Dev Girls Costume Shooting with Irene,https://www.reddit.com/r/red_velvet/comments/4wnrex/160808_game_dev_girls_costume_shooting_with_irene/,thenerdal,1470618972,,0,8,False,http://a.thumbs.redditmedia.com/jP8LPlyQjn15cH6tXBu3peD0PNAmmS6Str-TqT6ATc0.jpg,,,,,
+34,red_velvet,t5_32s1t,2016-8-8,2016,8,8,11,4wo4hq,i.redd.it,160808 GMarket Site Update with Joy &amp; Irene,https://www.reddit.com/r/red_velvet/comments/4wo4hq/160808_gmarket_site_update_with_joy_irene/,thenerdal,1470624950,,1,3,False,http://b.thumbs.redditmedia.com/ZaDlNrvpLjdW1QCmlT4PUH-2UoOg8MFLTqNnk_0LdNc.jpg,,,,,
+35,red_velvet,t5_32s1t,2016-8-8,2016,8,8,20,4wpo1q,i.redd.it,160808 Toreore Chicken Twitter Update with Red Velvet,https://www.reddit.com/r/red_velvet/comments/4wpo1q/160808_toreore_chicken_twitter_update_with_red/,thenerdal,1470655595,,1,8,False,http://b.thumbs.redditmedia.com/25TuA-iRW3GPuv4N_jn03lrjQOocXFEeJwG_eyDGYlw.jpg,,,,,
+36,red_velvet,t5_32s1t,2016-8-8,2016,8,8,20,4wpoeh,i.redd.it,160808 SMTown Japan Site Update with Red Velvet,https://www.reddit.com/r/red_velvet/comments/4wpoeh/160808_smtown_japan_site_update_with_red_velvet/,thenerdal,1470655789,,1,13,False,http://b.thumbs.redditmedia.com/NkOl1Q9tqf1nMqLROjQffWUEVan0V_pzHuBBojf4uTU.jpg,,,,,
+37,red_velvet,t5_32s1t,2016-8-8,2016,8,8,20,4wpoyz,imgur.com,160808 Diary Vyrl Update with Seulgi,https://www.reddit.com/r/red_velvet/comments/4wpoyz/160808_diary_vyrl_update_with_seulgi/,thenerdal,1470656073,,1,11,False,http://b.thumbs.redditmedia.com/aIJgvdEXfDlkuwXI1R-2-SaG8k7krscbjGkhH8dKocE.jpg,,,,,
+38,red_velvet,t5_32s1t,2016-8-8,2016,8,8,20,4wppa9,i.redd.it,160808 Game Dev Girls Instagram Update with Irene,https://www.reddit.com/r/red_velvet/comments/4wppa9/160808_game_dev_girls_instagram_update_with_irene/,thenerdal,1470656231,,1,22,False,http://b.thumbs.redditmedia.com/L95xa1WtExQ_Frjj-xwTvbI0Eo7s7s0SC4_AI702p1g.jpg,,,,,
+39,red_velvet,t5_32s1t,2016-8-9,2016,8,9,6,4wsi13,youtube.com,160527 Happiness - Hangyang University Festival,https://www.reddit.com/r/red_velvet/comments/4wsi13/160527_happiness_hangyang_university_festival/,thenerdal,1470690390,,0,8,False,http://b.thumbs.redditmedia.com/k_9P9mDWGUAut4UqZNh7asiqjDcKyMMRHFoSGmYwytg.jpg,,,,,
+40,red_velvet,t5_32s1t,2016-8-9,2016,8,9,18,4wv956,instagram.fhou1-2.fna.fbcdn.net,160609 Official Music Recommendation by Wendy,https://www.reddit.com/r/red_velvet/comments/4wv956/160609_official_music_recommendation_by_wendy/,thenerdal,1470733268,,1,5,False,http://b.thumbs.redditmedia.com/m5504Vid6a1pkgJdJ8wchNxO2FovY0u23c7a4GFTcgc.jpg,,,,,
+41,red_velvet,t5_32s1t,2016-8-10,2016,8,10,12,4x05cu,instagram.com,160810 Official Instagram Update with Seulgi,https://www.reddit.com/r/red_velvet/comments/4x05cu/160810_official_instagram_update_with_seulgi/,thenerdal,1470798619,,2,5,False,http://b.thumbs.redditmedia.com/udG8it-OBM5CDPK5dmuXHb4ZXv_SUYSr4gskPpfXlwM.jpg,,,,,
+42,red_velvet,t5_32s1t,2016-8-10,2016,8,10,14,4x0mnx,imgur.com,160810 Naver Starcast Update with Seulgi,https://www.reddit.com/r/red_velvet/comments/4x0mnx/160810_naver_starcast_update_with_seulgi/,thenerdal,1470806788,,1,8,False,http://b.thumbs.redditmedia.com/0Y7cKfzJsb8KQdA4vZXiJSe3n2oXeKxRNC-fObBrJBg.jpg,,,,,
+43,red_velvet,t5_32s1t,2016-8-10,2016,8,10,20,4x1pn0,i.redd.it,160810 Toreore Chicken Facebook Update with Joy,https://www.reddit.com/r/red_velvet/comments/4x1pn0/160810_toreore_chicken_facebook_update_with_joy/,thenerdal,1470829294,,1,3,False,http://b.thumbs.redditmedia.com/0QPMkTMPGPplH0uznlVfHl6Y3UF9OPHIA6kM2hy-xJs.jpg,,,,,
+44,red_velvet,t5_32s1t,2016-8-10,2016,8,10,20,4x1pvj,twitter.com,160810 Irene Kim Twitter Update with Seulgi,https://www.reddit.com/r/red_velvet/comments/4x1pvj/160810_irene_kim_twitter_update_with_seulgi/,thenerdal,1470829406,,0,28,False,http://a.thumbs.redditmedia.com/bNQaxMdHJrCTVxci1ZYpVXvWL_wwBxBFtx0FM9kdnt4.jpg,,,,,
+45,red_velvet,t5_32s1t,2016-8-11,2016,8,11,12,4x64x8,youtube.com,160811 Ranting Monkey Cut with Seulgi &amp; Amber,https://www.reddit.com/r/red_velvet/comments/4x64x8/160811_ranting_monkey_cut_with_seulgi_amber/,thenerdal,1470887366,,1,12,False,http://b.thumbs.redditmedia.com/Gy8658A290ctsd06L7Q3MqZlR8nS_DyyiJQ63C-7Fmo.jpg,,,,,
+46,red_velvet,t5_32s1t,2016-8-12,2016,8,12,11,4xbbw0,imgur.com,160812 yoonsungsoo Instagram Update with Seulgi &amp; Wendy,https://www.reddit.com/r/red_velvet/comments/4xbbw0/160812_yoonsungsoo_instagram_update_with_seulgi/,thenerdal,1470968462,,1,8,False,http://b.thumbs.redditmedia.com/zIS-AkLV0bkduScFaO8rihf47rQKb0igUraXrj6JKVg.jpg,,,,,
+47,red_velvet,t5_32s1t,2016-8-12,2016,8,12,13,4xbtgz,i.redd.it,160812 Official Vyrl Update with Seulgi &amp; Wendy,https://www.reddit.com/r/red_velvet/comments/4xbtgz/160812_official_vyrl_update_with_seulgi_wendy/,thenerdal,1470975926,,1,11,False,http://b.thumbs.redditmedia.com/vHsQB5_sooePuD48wDi3e07H5WhSX0aUu6jgTyRCBXk.jpg,,,,,
+48,red_velvet,t5_32s1t,2016-8-12,2016,8,12,15,4xc7e8,self.red_velvet,160812 Seulgi &amp; Wendy at MCM Event,https://www.reddit.com/r/red_velvet/comments/4xc7e8/160812_seulgi_wendy_at_mcm_event/,thenerdal,1470983121,"###Previews: 
 
 ####[Seulgi](http://imgur.com/a/34e0s) | [Wendy](http://imgur.com/a/ynn2a)
 
@@ -67,9 +67,9 @@
 
 ###Youtube Fancams: 
 
-####[Wenseul](https://www.youtube.com/watch?v=lp8Sk8lL_Uk)",1,6
-49,2016-8-12,2016,8,12,20,4xd0tk,160812 Official Instagram Update with Joy &amp; Yeri,thenerdal,1471000805,,1,10
-50,2016-8-12,2016,8,12,21,4xdayw,160812 Gimpo Airport To Japan,thenerdal,1471005526,"###Previews: 
+####[Wenseul](https://www.youtube.com/watch?v=lp8Sk8lL_Uk)",1,6,False,self,,,,,
+49,red_velvet,t5_32s1t,2016-8-12,2016,8,12,20,4xd0tk,instagram.com,160812 Official Instagram Update with Joy &amp; Yeri,https://www.reddit.com/r/red_velvet/comments/4xd0tk/160812_official_instagram_update_with_joy_yeri/,thenerdal,1471000805,,1,10,False,http://b.thumbs.redditmedia.com/i8p6yD29UP79vprOwv-MbtGKbtkznIJ9VpWsgJ6k8lg.jpg,,,,,
+50,red_velvet,t5_32s1t,2016-8-12,2016,8,12,21,4xdayw,self.red_velvet,160812 Gimpo Airport To Japan,https://www.reddit.com/r/red_velvet/comments/4xdayw/160812_gimpo_airport_to_japan/,thenerdal,1471005526,"###Previews: 
 
 ####[Irene](http://imgur.com/a/4iacH) | [Joy](http://imgur.com/a/y2OZT) | [Seulgi](http://imgur.com/a/egGYi) | [Wendy](http://imgur.com/a/bHLAE) | [Yeri](http://imgur.com/a/peTf5)
 
@@ -83,12 +83,12 @@
 
 ###Press Videos: 
 
-####[Dispatch](http://tvpot.daum.net/mypot/View.do?clipid=78232286&amp;ownerid=fTVhA_MtFjE0) | [TV Daily](http://tvpot.daum.net/clip/ClipView.do?clipid=78232868&amp;q=%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3) | [Asiatoday](http://tvcast.naver.com/v/1044328)",0,7
-51,2016-8-13,2016,8,13,5,4xfknm,160813 Official Music Recommendation by Wendy,thenerdal,1471032710,,1,7
-52,2016-8-13,2016,8,13,5,4xfmtn,160812 Toreore Chicken Facebook Update with Red Velvet,thenerdal,1471033409,,1,9
-53,2016-8-14,2016,8,14,1,4xju28,160713-14 SMTOWN V in Tokyo,[deleted],1471106558,[deleted],0,2
-54,2016-8-14,2016,8,14,1,4xju8m,160813-14 SMTOWN V in Tokyo,[deleted],1471106617,[deleted],0,2
-55,2016-8-14,2016,8,14,1,4xjvd5,160806 Science Festa,thenerdal,1471107019,"###Previews: 
+####[Dispatch](http://tvpot.daum.net/mypot/View.do?clipid=78232286&amp;ownerid=fTVhA_MtFjE0) | [TV Daily](http://tvpot.daum.net/clip/ClipView.do?clipid=78232868&amp;q=%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3) | [Asiatoday](http://tvcast.naver.com/v/1044328)",0,7,False,self,,,,,
+51,red_velvet,t5_32s1t,2016-8-13,2016,8,13,5,4xfknm,instagram.fhou1-2.fna.fbcdn.net,160813 Official Music Recommendation by Wendy,https://www.reddit.com/r/red_velvet/comments/4xfknm/160813_official_music_recommendation_by_wendy/,thenerdal,1471032710,,1,7,False,http://a.thumbs.redditmedia.com/StETIc0mkGLHHSVy0b7KW4eIk1C3bSKyOEfcYvmgLK0.jpg,,,,,
+52,red_velvet,t5_32s1t,2016-8-13,2016,8,13,5,4xfmtn,i.redd.it,160812 Toreore Chicken Facebook Update with Red Velvet,https://www.reddit.com/r/red_velvet/comments/4xfmtn/160812_toreore_chicken_facebook_update_with_red/,thenerdal,1471033409,,1,9,False,http://a.thumbs.redditmedia.com/5-jo9HBG_suHV4FqzzEhNFj7nhdDQOcuVjLqfcTLkI0.jpg,,,,,
+53,red_velvet,t5_32s1t,2016-8-14,2016,8,14,1,4xju28,self.red_velvet,160713-14 SMTOWN V in Tokyo,https://www.reddit.com/r/red_velvet/comments/4xju28/16071314_smtown_v_in_tokyo/,[deleted],1471106558,[deleted],0,2,False,default,,,,,
+54,red_velvet,t5_32s1t,2016-8-14,2016,8,14,1,4xju8m,self.red_velvet,160813-14 SMTOWN V in Tokyo,https://www.reddit.com/r/red_velvet/comments/4xju8m/16081314_smtown_v_in_tokyo/,[deleted],1471106617,[deleted],0,2,False,default,,,,,
+55,red_velvet,t5_32s1t,2016-8-14,2016,8,14,1,4xjvd5,self.red_velvet,160806 Science Festa,https://www.reddit.com/r/red_velvet/comments/4xjvd5/160806_science_festa/,thenerdal,1471107019,"###Previews: 
 
 ####[Irene](http://imgur.com/a/XQplN) | [Joy](http://imgur.com/a/KxLln) | [Seulgi](http://imgur.com/a/Hcs83) | [Wendy](http://imgur.com/a/UJhOP) | [Yeri](http://imgur.com/a/LGhoL) | [Group/Other](http://imgur.com/a/Fv0Xn)
 
@@ -156,8 +156,8 @@
 
 ####[Group - Talk](https://www.youtube.com/watch?v=ISBM0OXwtIw) | [2](https://www.youtube.com/watch?v=i8VKfkpQbRI) | [3](https://www.youtube.com/watch?v=kX4Ysrwr474) | [4](https://www.youtube.com/watch?v=XDrpe7BaaWs) | [5](https://www.youtube.com/watch?v=MNu6_Zp8Spk)
 
-",1,6
-56,2016-8-14,2016,8,14,1,4xjvix,160813-14 SMTOWN V in Tokyo,thenerdal,1471107076,"#Day 1
+",1,6,False,self,,,,,
+56,red_velvet,t5_32s1t,2016-8-14,2016,8,14,1,4xjvix,self.red_velvet,160813-14 SMTOWN V in Tokyo,https://www.reddit.com/r/red_velvet/comments/4xjvix/16081314_smtown_v_in_tokyo/,thenerdal,1471107076,"#Day 1
 
 ###Fancams: 
 
@@ -221,11 +221,11 @@
 
 ---
 
-####[All Artists - Ending](https://twitter.com/qutyqu/status/764790212593451008) | [2](https://twitter.com/qutyqu/status/764785510485110784) | [3](https://twitter.com/_sugarplum0227/status/764773678210887680) | [4](https://twitter.com/daree_p/status/764774286716309504)",0,5
-57,2016-8-14,2016,8,14,13,4xmrd5,160814 jongwoo_99 Instagram Update with Baby Seulgi,[deleted],1471149563,[deleted],2,2
-58,2016-8-14,2016,8,14,14,4xmuvo,160814 jongwoo_99 Instagram Update with Seulgi,thenerdal,1471151533,,1,13
-59,2016-8-14,2016,8,14,23,4xoeqc,160814 Heechul Instagram Update with Seulgi,thenerdal,1471186447,,1,18
-60,2016-8-15,2016,8,15,18,4xsqn0,160815 Gimpo Airport from Japan,thenerdal,1471251938,"###Previews: 
+####[All Artists - Ending](https://twitter.com/qutyqu/status/764790212593451008) | [2](https://twitter.com/qutyqu/status/764785510485110784) | [3](https://twitter.com/_sugarplum0227/status/764773678210887680) | [4](https://twitter.com/daree_p/status/764774286716309504)",0,5,False,self,,,,,
+57,red_velvet,t5_32s1t,2016-8-14,2016,8,14,13,4xmrd5,i.redd.it,160814 jongwoo_99 Instagram Update with Baby Seulgi,https://www.reddit.com/r/red_velvet/comments/4xmrd5/160814_jongwoo_99_instagram_update_with_baby/,[deleted],1471149563,[deleted],2,2,False,default,,,,,
+58,red_velvet,t5_32s1t,2016-8-14,2016,8,14,14,4xmuvo,i.redd.it,160814 jongwoo_99 Instagram Update with Seulgi,https://www.reddit.com/r/red_velvet/comments/4xmuvo/160814_jongwoo_99_instagram_update_with_seulgi/,thenerdal,1471151533,,1,13,False,http://b.thumbs.redditmedia.com/MHKFxpoR-Mo-CviEAhuu7HX799-xeEjR1lQBpD5AcKU.jpg,,,,,
+59,red_velvet,t5_32s1t,2016-8-14,2016,8,14,23,4xoeqc,i.redd.it,160814 Heechul Instagram Update with Seulgi,https://www.reddit.com/r/red_velvet/comments/4xoeqc/160814_heechul_instagram_update_with_seulgi/,thenerdal,1471186447,,1,18,False,http://a.thumbs.redditmedia.com/55zU04q_4M8_JsYDfxV_PQc59vw1ESn9bhd7FYXAMF4.jpg,,,,,
+60,red_velvet,t5_32s1t,2016-8-15,2016,8,15,18,4xsqn0,self.red_velvet,160815 Gimpo Airport from Japan,https://www.reddit.com/r/red_velvet/comments/4xsqn0/160815_gimpo_airport_from_japan/,thenerdal,1471251938,"###Previews: 
 
 ####[Irene](http://imgur.com/a/DMxIL) | [Joy](http://imgur.com/a/zOR7t) | [Seulgi](http://imgur.com/a/0Ed4e) | [Wendy](http://imgur.com/a/7Vrk2) | [Yeri](http://imgur.com/a/DwJUp) | [Group/Other](http://imgur.com/a/TZ7a6)
 
@@ -243,58 +243,58 @@
 
 ###Press Videos: 
 
-####[Asia Today](https://www.youtube.com/watch?v=oFDdXtoxTA8)",0,4
-61,2016-8-16,2016,8,16,0,4xu1mh,160815 Amber Instagram Update with Yeri,thenerdal,1471274341,,1,15
-62,2016-8-16,2016,8,16,12,4xxef3,160816 MCM Korea Twitter Update with Wendy,[deleted],1471316602,[deleted],0,7
-63,2016-8-16,2016,8,16,12,4xxeik,160816 MCM Korea Twitter Update with Seulgi,[deleted],1471316641,[deleted],0,4
-64,2016-8-16,2016,8,16,14,4xxyz3,"160816 Toreore Chicken Facebook Update with Yeri, Seulgi &amp; Wendy",thenerdal,1471326193,,1,10
-65,2016-8-16,2016,8,16,15,4xy278,160816 MCM Korea Twitter Update with Wendy,thenerdal,1471327836,,0,11
-66,2016-8-16,2016,8,16,15,4xy299,160816 MCM Korea Twitter Update with Seulgi,thenerdal,1471327868,,0,19
-67,2016-8-17,2016,8,17,14,4y41wn,160817 Official Vyrl Update with Seulgi &amp; Wendy,thenerdal,1471413599,,1,10
-68,2016-8-17,2016,8,17,15,4y42b2,160817 Toreore Chicken Facebook Update with Irene,thenerdal,1471413803,,1,10
-69,2016-8-18,2016,8,18,2,4y72ux,160817 kbshamburo.official Instagram Update with Seulgi &amp; Wendy,thenerdal,1471456587,,1,9
-70,2016-8-18,2016,8,18,12,4ya0ec,160818 MCM Store Event Press Photo with Seulgi &amp; Wendy,thenerdal,1471490408,,0,9
-71,2016-8-18,2016,8,18,18,4ybahh,160818 ryuhwanyoung Instagram Update with Irene,thenerdal,1471511906,,2,25
-72,2016-8-18,2016,8,18,18,4ybazp,160818 Vyrl Diary Update with Seulgi &amp; Irene Kim,thenerdal,1471512180,,1,11
-73,2016-8-19,2016,8,19,2,4ydp9d,160818 G-Market Site Update for The Saem,thenerdal,1471542888,,1,6
-74,2016-8-20,2016,8,20,2,4ykaru,160819 junius.lee Instagram Update with Red Velvet,thenerdal,1471629318,,3,16
-75,2016-8-22,2016,8,22,12,4yyrsp,160822 Toreore Chicken Facebook Update with Irene,thenerdal,1471838093,,1,14
-76,2016-8-24,2016,8,24,0,4z76lu,160317 Cultwo Show,thenerdal,1471967938,,0,23
-77,2016-8-24,2016,8,24,10,4z9wto,Users are now able to submit discussion posts and a button for the Discord Chat,thenerdal,1472000825,"A few people have been messaging me lately about letting people submit discussions so I've decided to add that now but only posts for discussions. There is also a new button above that for the Discord Chat. 
+####[Asia Today](https://www.youtube.com/watch?v=oFDdXtoxTA8)",0,4,False,self,,,,,
+61,red_velvet,t5_32s1t,2016-8-16,2016,8,16,0,4xu1mh,i.redd.it,160815 Amber Instagram Update with Yeri,https://www.reddit.com/r/red_velvet/comments/4xu1mh/160815_amber_instagram_update_with_yeri/,thenerdal,1471274341,,1,15,False,http://b.thumbs.redditmedia.com/3o7_ErDvPL0G3SyQa7oxYefmaTzo2vawvqsZc2XXSME.jpg,,,,,
+62,red_velvet,t5_32s1t,2016-8-16,2016,8,16,12,4xxef3,twitter.com,160816 MCM Korea Twitter Update with Wendy,https://www.reddit.com/r/red_velvet/comments/4xxef3/160816_mcm_korea_twitter_update_with_wendy/,[deleted],1471316602,[deleted],0,7,False,default,,,,,
+63,red_velvet,t5_32s1t,2016-8-16,2016,8,16,12,4xxeik,twitter.com,160816 MCM Korea Twitter Update with Seulgi,https://www.reddit.com/r/red_velvet/comments/4xxeik/160816_mcm_korea_twitter_update_with_seulgi/,[deleted],1471316641,[deleted],0,4,False,default,,,,,
+64,red_velvet,t5_32s1t,2016-8-16,2016,8,16,14,4xxyz3,i.redd.it,"160816 Toreore Chicken Facebook Update with Yeri, Seulgi &amp; Wendy",https://www.reddit.com/r/red_velvet/comments/4xxyz3/160816_toreore_chicken_facebook_update_with_yeri/,thenerdal,1471326193,,1,10,False,http://b.thumbs.redditmedia.com/v2hO-vMfdOaTEm_fApvyZSRuhTV__1EAX23lfGp-e6M.jpg,,,,,
+65,red_velvet,t5_32s1t,2016-8-16,2016,8,16,15,4xy278,twitter.com,160816 MCM Korea Twitter Update with Wendy,https://www.reddit.com/r/red_velvet/comments/4xy278/160816_mcm_korea_twitter_update_with_wendy/,thenerdal,1471327836,,0,11,False,http://b.thumbs.redditmedia.com/7kU7gfn3gg9MVzw8rIszeo4xF0TsDpFFjaZAh3Ph-qI.jpg,,,,,
+66,red_velvet,t5_32s1t,2016-8-16,2016,8,16,15,4xy299,twitter.com,160816 MCM Korea Twitter Update with Seulgi,https://www.reddit.com/r/red_velvet/comments/4xy299/160816_mcm_korea_twitter_update_with_seulgi/,thenerdal,1471327868,,0,19,False,http://b.thumbs.redditmedia.com/jg5mTV26FwpTmiwQq3JJFtMfagxJ4MkKI1zXfpdjxyU.jpg,,,,,
+67,red_velvet,t5_32s1t,2016-8-17,2016,8,17,14,4y41wn,imgur.com,160817 Official Vyrl Update with Seulgi &amp; Wendy,https://www.reddit.com/r/red_velvet/comments/4y41wn/160817_official_vyrl_update_with_seulgi_wendy/,thenerdal,1471413599,,1,10,False,http://b.thumbs.redditmedia.com/tbWwEzJFrKHVZtSPf1mSDEB5ienR3qFCwjcMdhOHRgk.jpg,,,,,
+68,red_velvet,t5_32s1t,2016-8-17,2016,8,17,15,4y42b2,i.redd.it,160817 Toreore Chicken Facebook Update with Irene,https://www.reddit.com/r/red_velvet/comments/4y42b2/160817_toreore_chicken_facebook_update_with_irene/,thenerdal,1471413803,,1,10,False,http://b.thumbs.redditmedia.com/MBJsZFjcKYtLGiSi6XIz55ZzHherTWT9DRobuzugbWM.jpg,,,,,
+69,red_velvet,t5_32s1t,2016-8-18,2016,8,18,2,4y72ux,instagram.com,160817 kbshamburo.official Instagram Update with Seulgi &amp; Wendy,https://www.reddit.com/r/red_velvet/comments/4y72ux/160817_kbshamburoofficial_instagram_update_with/,thenerdal,1471456587,,1,9,False,http://b.thumbs.redditmedia.com/D1IPgs21UpJnlCiqBKYg_knpSxYilsJP3Xn00HZNW-M.jpg,,,,,
+70,red_velvet,t5_32s1t,2016-8-18,2016,8,18,12,4ya0ec,i.redd.it,160818 MCM Store Event Press Photo with Seulgi &amp; Wendy,https://www.reddit.com/r/red_velvet/comments/4ya0ec/160818_mcm_store_event_press_photo_with_seulgi/,thenerdal,1471490408,,0,9,False,http://b.thumbs.redditmedia.com/KGxkrgcFKHtjMh7kHU7wKvZJIYchnJI3Q1JuV5zPLcM.jpg,,,,,
+71,red_velvet,t5_32s1t,2016-8-18,2016,8,18,18,4ybahh,i.redd.it,160818 ryuhwanyoung Instagram Update with Irene,https://www.reddit.com/r/red_velvet/comments/4ybahh/160818_ryuhwanyoung_instagram_update_with_irene/,thenerdal,1471511906,,2,25,False,http://b.thumbs.redditmedia.com/x36kDRO-2Arq5qoRE6mfxjlwRVticdsJwgHkKCBFv0o.jpg,,,,,
+72,red_velvet,t5_32s1t,2016-8-18,2016,8,18,18,4ybazp,imgur.com,160818 Vyrl Diary Update with Seulgi &amp; Irene Kim,https://www.reddit.com/r/red_velvet/comments/4ybazp/160818_vyrl_diary_update_with_seulgi_irene_kim/,thenerdal,1471512180,,1,11,False,http://b.thumbs.redditmedia.com/PhpRHVJER2O-mX_SJ4m1M8224QSzuGdC4HHi2chZumY.jpg,,,,,
+73,red_velvet,t5_32s1t,2016-8-19,2016,8,19,2,4ydp9d,imgur.com,160818 G-Market Site Update for The Saem,https://www.reddit.com/r/red_velvet/comments/4ydp9d/160818_gmarket_site_update_for_the_saem/,thenerdal,1471542888,,1,6,False,http://b.thumbs.redditmedia.com/5dHZjOnPDk-gn9qWwz4qvF5zDAvhMvPGtl1Nafh4XHc.jpg,,,,,
+74,red_velvet,t5_32s1t,2016-8-20,2016,8,20,2,4ykaru,i.redd.it,160819 junius.lee Instagram Update with Red Velvet,https://www.reddit.com/r/red_velvet/comments/4ykaru/160819_juniuslee_instagram_update_with_red_velvet/,thenerdal,1471629318,,3,16,False,http://b.thumbs.redditmedia.com/Fpd5p3bSe-6N6Ohkb4Ne-B7nkzHjS1YQLs3VLwAJ24s.jpg,,,,,
+75,red_velvet,t5_32s1t,2016-8-22,2016,8,22,12,4yyrsp,i.redd.it,160822 Toreore Chicken Facebook Update with Irene,https://www.reddit.com/r/red_velvet/comments/4yyrsp/160822_toreore_chicken_facebook_update_with_irene/,thenerdal,1471838093,,1,14,False,http://b.thumbs.redditmedia.com/bdf9HYnX7X36tXC0438VKPnEc5XqSSE0jQa1zULaVPk.jpg,,,,,
+76,red_velvet,t5_32s1t,2016-8-24,2016,8,24,0,4z76lu,youtube.com,160317 Cultwo Show,https://www.reddit.com/r/red_velvet/comments/4z76lu/160317_cultwo_show/,thenerdal,1471967938,,0,23,False,http://b.thumbs.redditmedia.com/MXU2LID49tmuZe3yHddEJJaxP1jL9nw8ctaXSJYJcQI.jpg,,,,,
+77,red_velvet,t5_32s1t,2016-8-24,2016,8,24,10,4z9wto,self.red_velvet,Users are now able to submit discussion posts and a button for the Discord Chat,https://www.reddit.com/r/red_velvet/comments/4z9wto/users_are_now_able_to_submit_discussion_posts_and/,thenerdal,1472000825,"A few people have been messaging me lately about letting people submit discussions so I've decided to add that now but only posts for discussions. There is also a new button above that for the Discord Chat. 
 
 I've also changed the thumbnails to fit each comeback though I might edit it a bit more. 
 
 Should I add a button to filter out discussion posts for those who just care about updates? I'm not sure it's needed now since I don't think there'll be many Discussion posts but if there are, I'll add it. 
 
-If you have any other feedback please comment! ",7,4
-78,2016-8-24,2016,8,24,10,4za4pc,test,thenerdaI,1472003672,[removed],1,1
-79,2016-8-24,2016,8,24,11,4za7gx,test?,[deleted],1472004689,[deleted],0,1
-80,2016-8-24,2016,8,24,11,4za7na,test?,[deleted],1472004754,[deleted],0,1
-81,2016-8-24,2016,8,24,11,4za9iw,test?,[deleted],1472005461,[deleted],0,1
-82,2016-8-24,2016,8,24,11,4zaa1j,test?,[deleted],1472005664,[deleted],0,1
-83,2016-8-24,2016,8,24,11,4zacau,test?,[deleted],1472006485,[deleted],0,1
-84,2016-8-24,2016,8,24,11,4zae15,test?,[deleted],1472007105,[deleted],0,1
-85,2016-8-24,2016,8,24,12,4zaleo,this is a test?,[deleted],1472010021,[deleted],0,1
-86,2016-8-24,2016,8,24,12,4zamv0,test?,[deleted],1472010621,[deleted],0,1
-87,2016-8-24,2016,8,24,13,4zaoca,test?,[deleted],1472011256,[deleted],0,1
-88,2016-8-24,2016,8,24,13,4zarec,test?,[deleted],1472012583,[deleted],0,1
-89,2016-8-24,2016,8,24,16,4zbawo,160824 Gmarket Site Update with Seulgi for The Saem,thenerdal,1472022370,,1,10
-90,2016-8-24,2016,8,24,22,4zcgem,REQUESTING FOR WENDY WALLPAPERS AND PICTURES :D,[deleted],1472043779,[removed],1,1
-91,2016-8-25,2016,8,25,2,4zdrr2,160825 Official Music Recommendation by Yeri,thenerdal,1472060434,,1,8
-92,2016-8-25,2016,8,25,2,4zdv6d,Rumor Discussion: Red Velvet Filmed Weekly Idol; Will Have Grey Hair,thenerdal,1472061502,"##[Rumor Source on Weekly Idol Recording](https://twitter.com/RedVelvetKaskus/status/768360074347589632)
+If you have any other feedback please comment! ",7,4,False,self,,,,,
+78,red_velvet,t5_32s1t,2016-8-24,2016,8,24,10,4za4pc,self.red_velvet,test,https://www.reddit.com/r/red_velvet/comments/4za4pc/test/,thenerdaI,1472003672,[removed],1,1,False,default,,,,,
+79,red_velvet,t5_32s1t,2016-8-24,2016,8,24,11,4za7gx,self.red_velvet,test?,https://www.reddit.com/r/red_velvet/comments/4za7gx/test/,[deleted],1472004689,[deleted],0,1,False,default,,,,,
+80,red_velvet,t5_32s1t,2016-8-24,2016,8,24,11,4za7na,self.red_velvet,test?,https://www.reddit.com/r/red_velvet/comments/4za7na/test/,[deleted],1472004754,[deleted],0,1,False,default,,,,,
+81,red_velvet,t5_32s1t,2016-8-24,2016,8,24,11,4za9iw,self.red_velvet,test?,https://www.reddit.com/r/red_velvet/comments/4za9iw/test/,[deleted],1472005461,[deleted],0,1,False,default,,,,,
+82,red_velvet,t5_32s1t,2016-8-24,2016,8,24,11,4zaa1j,self.red_velvet,test?,https://www.reddit.com/r/red_velvet/comments/4zaa1j/test/,[deleted],1472005664,[deleted],0,1,False,default,,,,,
+83,red_velvet,t5_32s1t,2016-8-24,2016,8,24,11,4zacau,self.red_velvet,test?,https://www.reddit.com/r/red_velvet/comments/4zacau/test/,[deleted],1472006485,[deleted],0,1,False,default,,,,,
+84,red_velvet,t5_32s1t,2016-8-24,2016,8,24,11,4zae15,self.red_velvet,test?,https://www.reddit.com/r/red_velvet/comments/4zae15/test/,[deleted],1472007105,[deleted],0,1,False,default,,,,,
+85,red_velvet,t5_32s1t,2016-8-24,2016,8,24,12,4zaleo,self.red_velvet,this is a test?,https://www.reddit.com/r/red_velvet/comments/4zaleo/this_is_a_test/,[deleted],1472010021,[deleted],0,1,False,default,,,,,
+86,red_velvet,t5_32s1t,2016-8-24,2016,8,24,12,4zamv0,self.red_velvet,test?,https://www.reddit.com/r/red_velvet/comments/4zamv0/test/,[deleted],1472010621,[deleted],0,1,False,default,,,,,
+87,red_velvet,t5_32s1t,2016-8-24,2016,8,24,13,4zaoca,self.red_velvet,test?,https://www.reddit.com/r/red_velvet/comments/4zaoca/test/,[deleted],1472011256,[deleted],0,1,False,default,,,,,
+88,red_velvet,t5_32s1t,2016-8-24,2016,8,24,13,4zarec,self.red_velvet,test?,https://www.reddit.com/r/red_velvet/comments/4zarec/test/,[deleted],1472012583,[deleted],0,1,False,default,,,,,
+89,red_velvet,t5_32s1t,2016-8-24,2016,8,24,16,4zbawo,i.redd.it,160824 Gmarket Site Update with Seulgi for The Saem,https://www.reddit.com/r/red_velvet/comments/4zbawo/160824_gmarket_site_update_with_seulgi_for_the/,thenerdal,1472022370,,1,10,False,http://b.thumbs.redditmedia.com/tPrCt-5ycT93EicmS8ogCCsAuJaIo-7K1vLDHjbOIqM.jpg,,,,,
+90,red_velvet,t5_32s1t,2016-8-24,2016,8,24,22,4zcgem,self.red_velvet,REQUESTING FOR WENDY WALLPAPERS AND PICTURES :D,https://www.reddit.com/r/red_velvet/comments/4zcgem/requesting_for_wendy_wallpapers_and_pictures_d/,[deleted],1472043779,[removed],1,1,False,default,,,,,
+91,red_velvet,t5_32s1t,2016-8-25,2016,8,25,2,4zdrr2,instagram.fhou1-2.fna.fbcdn.net,160825 Official Music Recommendation by Yeri,https://www.reddit.com/r/red_velvet/comments/4zdrr2/160825_official_music_recommendation_by_yeri/,thenerdal,1472060434,,1,8,False,http://a.thumbs.redditmedia.com/hWIZ_3A_uj2QxIHRKZ7AXVLXNFhvONOmmbZMhI4caw4.jpg,,,,,
+92,red_velvet,t5_32s1t,2016-8-25,2016,8,25,2,4zdv6d,self.red_velvet,Rumor Discussion: Red Velvet Filmed Weekly Idol; Will Have Grey Hair,https://www.reddit.com/r/red_velvet/comments/4zdv6d/rumor_discussion_red_velvet_filmed_weekly_idol/,thenerdal,1472061502,"##[Rumor Source on Weekly Idol Recording](https://twitter.com/RedVelvetKaskus/status/768360074347589632)
 
 ---
 
-##[Rumor Source on Grey Hair](https://twitter.com/baechuxs/status/768380864946253824?ref_src=twsrc%5Etfw)",15,12
-93,2016-8-26,2016,8,26,2,4zjt4b,160825 MCM Korea Twitter Update with Seulgi &amp; Wendy,thenerdal,1472147252,,0,6
-94,2016-8-26,2016,8,26,11,4zmgpx,160826 QQkorea Site Update with Irene,[deleted],1472180152,[deleted],1,3
-95,2016-8-26,2016,8,26,12,4zmkjc,160826 GQkorea Site Update with Irene,thenerdal,1472181640,,1,41
-96,2016-8-26,2016,8,26,16,4znebb,160826 Maxwell House Facebook Update with Irene,thenerdal,1472196143,,1,7
-97,2016-8-27,2016,8,27,13,4zsolk,160827 Official Music Recommendation by Yeri,thenerdal,1472271880,,1,12
-98,2016-8-28,2016,8,28,1,4zv17v,160828 newnewnr Instagram Update with Joy,thenerdal,1472316424,,2,13
-99,2016-8-28,2016,8,28,20,4zyz3v,160828 Official Instagram Update by Seulgi,thenerdal,1472382456,,2,12
-100,2016-8-29,2016,8,29,4,5013fh,160829 Problematic Man preview with Wendy,thenerdal,1472414202,,0,13
-101,2016-8-29,2016,8,29,6,501l35,160828 Incheon Airport to Hawaii,thenerdal,1472420579,"###Previews: 
+##[Rumor Source on Grey Hair](https://twitter.com/baechuxs/status/768380864946253824?ref_src=twsrc%5Etfw)",15,12,False,self,,,,,
+93,red_velvet,t5_32s1t,2016-8-26,2016,8,26,2,4zjt4b,twitter.com,160825 MCM Korea Twitter Update with Seulgi &amp; Wendy,https://www.reddit.com/r/red_velvet/comments/4zjt4b/160825_mcm_korea_twitter_update_with_seulgi_wendy/,thenerdal,1472147252,,0,6,False,http://b.thumbs.redditmedia.com/xd2edpdYE8gcAUeWs1SFMNsscPmNWFz_4fqoRtd3hec.jpg,,,,,
+94,red_velvet,t5_32s1t,2016-8-26,2016,8,26,11,4zmgpx,i.redd.it,160826 QQkorea Site Update with Irene,https://www.reddit.com/r/red_velvet/comments/4zmgpx/160826_qqkorea_site_update_with_irene/,[deleted],1472180152,[deleted],1,3,False,default,,,,,
+95,red_velvet,t5_32s1t,2016-8-26,2016,8,26,12,4zmkjc,i.redd.it,160826 GQkorea Site Update with Irene,https://www.reddit.com/r/red_velvet/comments/4zmkjc/160826_gqkorea_site_update_with_irene/,thenerdal,1472181640,,1,41,False,http://b.thumbs.redditmedia.com/xx7i-Z3bEfAAl5HzXF50Jbg3ZoMu-oRv0KlzTPsNX8U.jpg,,,,,
+96,red_velvet,t5_32s1t,2016-8-26,2016,8,26,16,4znebb,i.redd.it,160826 Maxwell House Facebook Update with Irene,https://www.reddit.com/r/red_velvet/comments/4znebb/160826_maxwell_house_facebook_update_with_irene/,thenerdal,1472196143,,1,7,False,http://b.thumbs.redditmedia.com/N5_K6XmFWBjN-S7f0gzE9DtOWYhTroC22e_TFzIUHto.jpg,,,,,
+97,red_velvet,t5_32s1t,2016-8-27,2016,8,27,13,4zsolk,instagram.fhou1-2.fna.fbcdn.net,160827 Official Music Recommendation by Yeri,https://www.reddit.com/r/red_velvet/comments/4zsolk/160827_official_music_recommendation_by_yeri/,thenerdal,1472271880,,1,12,False,http://b.thumbs.redditmedia.com/Msgt3zxpbttxYJMRv5Tc29zJIZfX45TA4N7lH0pfUCo.jpg,,,,,
+98,red_velvet,t5_32s1t,2016-8-28,2016,8,28,1,4zv17v,i.redd.it,160828 newnewnr Instagram Update with Joy,https://www.reddit.com/r/red_velvet/comments/4zv17v/160828_newnewnr_instagram_update_with_joy/,thenerdal,1472316424,,2,13,False,http://b.thumbs.redditmedia.com/JAesXiCK70FMUjnoJDgoSEhiOxGlBtSNcrSFIur1NwQ.jpg,,,,,
+99,red_velvet,t5_32s1t,2016-8-28,2016,8,28,20,4zyz3v,instagram.fhou1-2.fna.fbcdn.net,160828 Official Instagram Update by Seulgi,https://www.reddit.com/r/red_velvet/comments/4zyz3v/160828_official_instagram_update_by_seulgi/,thenerdal,1472382456,,2,12,False,http://b.thumbs.redditmedia.com/wA7gnqrKHu0WGA9lFy74JOQ0vJOSRv16HZ6PkfzNCUk.jpg,,,,,
+100,red_velvet,t5_32s1t,2016-8-29,2016,8,29,4,5013fh,twitter.com,160829 Problematic Man preview with Wendy,https://www.reddit.com/r/red_velvet/comments/5013fh/160829_problematic_man_preview_with_wendy/,thenerdal,1472414202,,0,13,False,http://b.thumbs.redditmedia.com/2cJle5jlFTX5r68lBis9QUgOygO8fWuUDyTN_nhQKyQ.jpg,,,,,
+101,red_velvet,t5_32s1t,2016-8-29,2016,8,29,6,501l35,self.red_velvet,160828 Incheon Airport to Hawaii,https://www.reddit.com/r/red_velvet/comments/501l35/160828_incheon_airport_to_hawaii/,thenerdal,1472420579,"###Previews: 
 
 ####[Irene](http://imgur.com/a/tnhWl) | [Joy](http://imgur.com/a/DBHnR) | [Seulgi](http://imgur.com/a/Td4Rv) | [Wendy](http://imgur.com/a/zF5KC) | [Yeri](http://imgur.com/a/ae2Zm) | [Group/Other](http://imgur.com/a/J1fWB)
 
@@ -308,11 +308,11 @@ If you have any other feedback please comment! ",7,4
 
 ###Press Videos: 
 
-####[StarDailyNews](https://www.youtube.com/watch?v=N9uaIPyfiHQ) | [AsiaToday](http://tvcast.naver.com/v/1079991) | [TVDaily](https://www.youtube.com/watch?v=95tdtRvQ_zA)",0,7
-102,2016-8-29,2016,8,29,14,503hi3,160829 Maxwell House CF with Irene,[deleted],1472448364,[deleted],0,1
-103,2016-8-29,2016,8,29,14,503hp1,160829 Maxwell House CF with Irene,thenerdal,1472448457,,0,6
-104,2016-8-29,2016,8,29,14,503lb3,Rumor Discussion: Red Velvet's Album to be Full Album with 12 Title Tracks (3 Instrumentals),[deleted],1472450278,[deleted],0,1
-105,2016-8-29,2016,8,29,15,503lnj,Rumor Discussion: Red Velvet's Album to be Full Album with 12 Tracks (3 Instrumentals),thenerdal,1472450480,"There is a picture spreading around with the list of supposedly songs for their new album and this is just additional text to get past automod's strict rules 
+####[StarDailyNews](https://www.youtube.com/watch?v=N9uaIPyfiHQ) | [AsiaToday](http://tvcast.naver.com/v/1079991) | [TVDaily](https://www.youtube.com/watch?v=95tdtRvQ_zA)",0,7,False,self,,,,,
+102,red_velvet,t5_32s1t,2016-8-29,2016,8,29,14,503hi3,facebook.com,160829 Maxwell House CF with Irene,https://www.reddit.com/r/red_velvet/comments/503hi3/160829_maxwell_house_cf_with_irene/,[deleted],1472448364,[deleted],0,1,False,default,,,,,
+103,red_velvet,t5_32s1t,2016-8-29,2016,8,29,14,503hp1,facebook.com,160829 Maxwell House CF with Irene,https://www.reddit.com/r/red_velvet/comments/503hp1/160829_maxwell_house_cf_with_irene/,thenerdal,1472448457,,0,6,False,http://b.thumbs.redditmedia.com/rOzkAtcPLFAugalRbL_JMNG1PHH8ruKnWl4WjLNB31w.jpg,,,,,
+104,red_velvet,t5_32s1t,2016-8-29,2016,8,29,14,503lb3,self.red_velvet,Rumor Discussion: Red Velvet's Album to be Full Album with 12 Title Tracks (3 Instrumentals),https://www.reddit.com/r/red_velvet/comments/503lb3/rumor_discussion_red_velvets_album_to_be_full/,[deleted],1472450278,[deleted],0,1,False,default,,,,,
+105,red_velvet,t5_32s1t,2016-8-29,2016,8,29,15,503lnj,self.red_velvet,Rumor Discussion: Red Velvet's Album to be Full Album with 12 Tracks (3 Instrumentals),https://www.reddit.com/r/red_velvet/comments/503lnj/rumor_discussion_red_velvets_album_to_be_full/,thenerdal,1472450480,"There is a picture spreading around with the list of supposedly songs for their new album and this is just additional text to get past automod's strict rules 
 
 [UNCOMFIRMED SOURCE](http://gall.dcinside.com/board/view/?id=redvelvet&amp;no=1397128)  ([Supposedly this is real](https://twitter.com/s__whale/status/770142201183698944))
 
@@ -338,10 +338,10 @@ Hair Colors ([Confirmed by a person in Hawaii](https://twitter.com/meanietrbl/st
 
 Comeback date rumored to be September 12 although their Weekly Idol episode is probably airing September 7. 
 
-",9,30
-106,2016-8-29,2016,8,29,15,503rai,160829 Toreore Chicken Facebook Update with Red Velvet,thenerdal,1472453506,,3,8
-107,2016-8-30,2016,8,30,13,5099w9,Red Velvet hair color Hawaii,[deleted],1472530529,[removed],1,1
-108,2016-8-30,2016,8,30,23,50beab,160830 Toreore Chicken Facebook Update with Red Velvet,thenerdal,1472567392,,2,17
-109,2016-8-31,2016,8,31,22,50h5r3,160831 SMTOWN Japan Site Polaroids,thenerdal,1472649946,,1,6
-110,2016-8-31,2016,8,31,22,50h6mw,160831 SMTOWN Japan Site Messages,thenerdal,1472650303,,1,10
-111,2016-8-31,2016,8,31,22,50h74c,160831 Toreore Chicken Facebook Update with Irene,thenerdal,1472650478,,1,7
+",9,30,False,self,,,,,
+106,red_velvet,t5_32s1t,2016-8-29,2016,8,29,15,503rai,i.redd.it,160829 Toreore Chicken Facebook Update with Red Velvet,https://www.reddit.com/r/red_velvet/comments/503rai/160829_toreore_chicken_facebook_update_with_red/,thenerdal,1472453506,,3,8,False,http://b.thumbs.redditmedia.com/ivCg_fvKDCE52n8n8aq48MvH9NxaEP_wBLnHTrAl8vs.jpg,,,,,
+107,red_velvet,t5_32s1t,2016-8-30,2016,8,30,13,5099w9,self.red_velvet,Red Velvet hair color Hawaii,https://www.reddit.com/r/red_velvet/comments/5099w9/red_velvet_hair_color_hawaii/,[deleted],1472530529,[removed],1,1,False,default,,,,,
+108,red_velvet,t5_32s1t,2016-8-30,2016,8,30,23,50beab,i.redd.it,160830 Toreore Chicken Facebook Update with Red Velvet,https://www.reddit.com/r/red_velvet/comments/50beab/160830_toreore_chicken_facebook_update_with_red/,thenerdal,1472567392,,2,17,False,http://b.thumbs.redditmedia.com/gbUyYV0NufSH7SrLrlvBaTI_mb5ByO3zz6w9wgQm2Tg.jpg,,,,,
+109,red_velvet,t5_32s1t,2016-8-31,2016,8,31,22,50h5r3,imgur.com,160831 SMTOWN Japan Site Polaroids,https://www.reddit.com/r/red_velvet/comments/50h5r3/160831_smtown_japan_site_polaroids/,thenerdal,1472649946,,1,6,False,http://b.thumbs.redditmedia.com/FZpMUOL9uvYk8wFLE8Xv-rDNYky-tvZFvyxJ_t7MdVs.jpg,,,,,
+110,red_velvet,t5_32s1t,2016-8-31,2016,8,31,22,50h6mw,imgur.com,160831 SMTOWN Japan Site Messages,https://www.reddit.com/r/red_velvet/comments/50h6mw/160831_smtown_japan_site_messages/,thenerdal,1472650303,,1,10,False,http://b.thumbs.redditmedia.com/zMJbcTLRFEtsEL4S0qbDG3jcRBedEvQqBl4gOo3RTvU.jpg,,,,,
+111,red_velvet,t5_32s1t,2016-8-31,2016,8,31,22,50h74c,i.redd.it,160831 Toreore Chicken Facebook Update with Irene,https://www.reddit.com/r/red_velvet/comments/50h74c/160831_toreore_chicken_facebook_update_with_irene/,thenerdal,1472650478,,1,7,False,http://b.thumbs.redditmedia.com/DTbn29y0Qg3qdPkmzY6aDEQkYcbdDN7xZOKxz3fGd1s.jpg,,,,,

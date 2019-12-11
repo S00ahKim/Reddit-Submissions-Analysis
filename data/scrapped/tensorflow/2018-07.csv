@@ -1,32 +1,32 @@
-,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
-0,2018-7-2,2018,7,2,0,8vags8,I made a tool to label long and repetitive videos by showing multiple clips simultaneously on screen. It's called MuViLab. What do you think?,https://www.reddit.com/r/tensorflow/comments/8vags8/i_made_a_tool_to_label_long_and_repetitive_videos/,ale152,1530457412,,1,7
-1,2018-7-2,2018,7,2,12,8vfoay,Does the backpropagation through time in LSTM apply truncate bptt?,https://www.reddit.com/r/tensorflow/comments/8vfoay/does_the_backpropagation_through_time_in_lstm/,Laurence-Lin,1530503821,"In the optimizer that update the LSTM in tensorflow, does the BPTT apply truncate BPTT or full BPTT?  
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,tensorflow,t5_3alkk,2018-7-2,2018,7,2,0,8vags8,github.com,I made a tool to label long and repetitive videos by showing multiple clips simultaneously on screen. It's called MuViLab. What do you think?,https://www.reddit.com/r/tensorflow/comments/8vags8/i_made_a_tool_to_label_long_and_repetitive_videos/,ale152,1530457412,,1,7,False,https://b.thumbs.redditmedia.com/3mAR-gVRqf9CkY5vk2T7WgL4EhPMGsc2vJx6CQVgDEU.jpg,,,,,
+1,tensorflow,t5_3alkk,2018-7-2,2018,7,2,12,8vfoay,self.tensorflow,Does the backpropagation through time in LSTM apply truncate bptt?,https://www.reddit.com/r/tensorflow/comments/8vfoay/does_the_backpropagation_through_time_in_lstm/,Laurence-Lin,1530503821,"In the optimizer that update the LSTM in tensorflow, does the BPTT apply truncate BPTT or full BPTT?  
 If is applies truncate BPTT, how does the code decide the truncate time lag?  
 
 
 Thanks a lot!  
-",0,3
-2,2018-7-2,2018,7,2,15,8vgi7a,4 Sequence Encoding Blocks You Must Know Besides RNN/LSTM in Tensorflow  Han Xiao Tech Blog,https://www.reddit.com/r/tensorflow/comments/8vgi7a/4_sequence_encoding_blocks_you_must_know_besides/,h_xiao,1530513246,,2,7
-3,2018-7-3,2018,7,3,1,8vjrkz,Getting Started with TensorFlow.js: Linear Regression,https://www.reddit.com/r/tensorflow/comments/8vjrkz/getting_started_with_tensorflowjs_linear/,tristansokol,1530547344,,0,8
-4,2018-7-3,2018,7,3,17,8vqosw,Advice about ubuntu 18.04 and tf,https://www.reddit.com/r/tensorflow/comments/8vqosw/advice_about_ubuntu_1804_and_tf/,pemens,1530608191,"Hello guys! Have been working for 1.5 year on ubuntu 16.04 with tf and full stack for AI, 
+",0,3,False,self,,,,,
+2,tensorflow,t5_3alkk,2018-7-2,2018,7,2,15,8vgi7a,hanxiao.github.io,4 Sequence Encoding Blocks You Must Know Besides RNN/LSTM in Tensorflow  Han Xiao Tech Blog,https://www.reddit.com/r/tensorflow/comments/8vgi7a/4_sequence_encoding_blocks_you_must_know_besides/,h_xiao,1530513246,,2,7,False,https://b.thumbs.redditmedia.com/kHwaFMucccyEc6QQO66i-K7xF9__XTljQdHGDRzJJQw.jpg,,,,,
+3,tensorflow,t5_3alkk,2018-7-3,2018,7,3,1,8vjrkz,medium.com,Getting Started with TensorFlow.js: Linear Regression,https://www.reddit.com/r/tensorflow/comments/8vjrkz/getting_started_with_tensorflowjs_linear/,tristansokol,1530547344,,0,8,False,https://a.thumbs.redditmedia.com/qUVl4yF1aROhCsZsxwW7uVLlSl6c6dwlFXsiMt8cCF0.jpg,,,,,
+4,tensorflow,t5_3alkk,2018-7-3,2018,7,3,17,8vqosw,self.tensorflow,Advice about ubuntu 18.04 and tf,https://www.reddit.com/r/tensorflow/comments/8vqosw/advice_about_ubuntu_1804_and_tf/,pemens,1530608191,"Hello guys! Have been working for 1.5 year on ubuntu 16.04 with tf and full stack for AI, 
 
 but all has an and, and system died without possible recovery. How does 18.04 and tf feels?
 
 Don't have problems with installing all packages and libraries, processing at all? 
 
-Thanks for it :3",5,2
-5,2018-7-3,2018,7,3,20,8vre0m,Ideas for medicine,https://www.reddit.com/r/tensorflow/comments/8vre0m/ideas_for_medicine/,fatal_quantum_error,1530616679,"While learning about the use of tensorflow in retinal imaging for identification of diabethic retinopathy I was wondering if there are any other applications. Does anyone of you know of areas in medicine, where some minor/major problems could maybe be tackled by AI with tensorflow?",5,3
-6,2018-7-4,2018,7,4,2,8vu1y2,Managed/hosted 1080Ti GPU rentals for ML/TenserFlow,https://www.reddit.com/r/tensorflow/comments/8vu1y2/managedhosted_1080ti_gpu_rentals_for_mltenserflow/,adopshire2016,1530638695,"Hello,
+Thanks for it :3",5,2,False,self,,,,,
+5,tensorflow,t5_3alkk,2018-7-3,2018,7,3,20,8vre0m,self.tensorflow,Ideas for medicine,https://www.reddit.com/r/tensorflow/comments/8vre0m/ideas_for_medicine/,fatal_quantum_error,1530616679,"While learning about the use of tensorflow in retinal imaging for identification of diabethic retinopathy I was wondering if there are any other applications. Does anyone of you know of areas in medicine, where some minor/major problems could maybe be tackled by AI with tensorflow?",5,3,False,self,,,,,
+6,tensorflow,t5_3alkk,2018-7-4,2018,7,4,2,8vu1y2,self.tensorflow,Managed/hosted 1080Ti GPU rentals for ML/TenserFlow,https://www.reddit.com/r/tensorflow/comments/8vu1y2/managedhosted_1080ti_gpu_rentals_for_mltenserflow/,adopshire2016,1530638695,"Hello,
 
 I run a sizable GPU mining farm with hundreds of 1080Ti GPUs used primarily for cryptocurrency mining.
 
 We recently started looking into diversifying our revenue channels by introducing custom server builds with stronger CPUs and RAM and larger HDs to be attractive for machine learning. We got some interest from video rendering projects but not machine learning.
 
-Is there any interest in this type of service? If so, what price points and hardware considerations would make this attractive?",11,4
-7,2018-7-5,2018,7,5,22,8wad82,face-api.js - Analysis of usage TensorFlow.js,https://www.reddit.com/r/tensorflow/comments/8wad82/faceapijs_analysis_of_usage_tensorflowjs/,ArturSkowronski,1530796694,https://medium.com/@ArturSkowronski/github-all-stars-2-face-api-js-f3d6f135f4f7,0,9
-8,2018-7-6,2018,7,6,23,8wkmjq,Some initial efforts for idris on tf,https://www.reddit.com/r/tensorflow/comments/8wkmjq/some_initial_efforts_for_idris_on_tf/,doofin,1530888293,,0,2
-9,2018-7-7,2018,7,7,6,8wnvex,Load GloVe embeddings as a TensorFlow GPU Layer [NLP],https://www.reddit.com/r/tensorflow/comments/8wnvex/load_glove_embeddings_as_a_tensorflow_gpu_layer/,GChe,1530912391,,1,3
-10,2018-7-7,2018,7,7,18,8wrx4d,Should I create a GUI for creating Tensorflow models?,https://www.reddit.com/r/tensorflow/comments/8wrx4d/should_i_create_a_gui_for_creating_tensorflow/,kite_and_code,1530954217,"Currently, I am evaluating some Master thesis topics. One of the proposals is:
+Is there any interest in this type of service? If so, what price points and hardware considerations would make this attractive?",11,4,False,self,,,,,
+7,tensorflow,t5_3alkk,2018-7-5,2018,7,5,22,8wad82,self.tensorflow,face-api.js - Analysis of usage TensorFlow.js,https://www.reddit.com/r/tensorflow/comments/8wad82/faceapijs_analysis_of_usage_tensorflowjs/,ArturSkowronski,1530796694,https://medium.com/@ArturSkowronski/github-all-stars-2-face-api-js-f3d6f135f4f7,0,9,False,self,,,,,
+8,tensorflow,t5_3alkk,2018-7-6,2018,7,6,23,8wkmjq,github.com,Some initial efforts for idris on tf,https://www.reddit.com/r/tensorflow/comments/8wkmjq/some_initial_efforts_for_idris_on_tf/,doofin,1530888293,,0,2,False,https://b.thumbs.redditmedia.com/U10ijI2hTPIVOWVK348w0ho779BzhQOulwLOkFHibhQ.jpg,,,,,
+9,tensorflow,t5_3alkk,2018-7-7,2018,7,7,6,8wnvex,github.com,Load GloVe embeddings as a TensorFlow GPU Layer [NLP],https://www.reddit.com/r/tensorflow/comments/8wnvex/load_glove_embeddings_as_a_tensorflow_gpu_layer/,GChe,1530912391,,1,3,False,https://b.thumbs.redditmedia.com/DMNByUfOJL6_pK1Ttf4a0MZmNAiDis7f9Wjf3lSvG1g.jpg,,,,,
+10,tensorflow,t5_3alkk,2018-7-7,2018,7,7,18,8wrx4d,self.tensorflow,Should I create a GUI for creating Tensorflow models?,https://www.reddit.com/r/tensorflow/comments/8wrx4d/should_i_create_a_gui_for_creating_tensorflow/,kite_and_code,1530954217,"Currently, I am evaluating some Master thesis topics. One of the proposals is:
 
 \- Create a GUI for creating Tensorflow models with data flow graphical programming (similar to Rapidminer).
 
@@ -36,8 +36,8 @@ Is there any interest in this type of service? If so, what price points and hard
 
 What do you think about it? Is creating your graphs from code a problem worth solving/improving? Why or why not?
 
-I am looking forward to your suggestions!",32,10
-11,2018-7-8,2018,7,8,10,8wxyiu,seq2seq model with MultiRNN and AttentionWrapper: dimension mismatch between LSTM's input and kernel,https://www.reddit.com/r/tensorflow/comments/8wxyiu/seq2seq_model_with_multirnn_and_attentionwrapper/,EthanPhan,1531012210,"\[TF 1.8\]
+I am looking forward to your suggestions!",32,10,False,self,,,,,
+11,tensorflow,t5_3alkk,2018-7-8,2018,7,8,10,8wxyiu,self.tensorflow,seq2seq model with MultiRNN and AttentionWrapper: dimension mismatch between LSTM's input and kernel,https://www.reddit.com/r/tensorflow/comments/8wxyiu/seq2seq_model_with_multirnn_and_attentionwrapper/,EthanPhan,1531012210,"\[TF 1.8\]
 
 First of all, I know this kind of question may not appropriate in this sub but I don't know anywhere else to ask (I posted it on stackoverflow but it seem to reach no one's interest)
 
@@ -281,9 +281,9 @@ Tracing back a few lines of log and I saw that the error occurs here:
 
 I have checked the 'h' tensor of the LSTM cell and it has the shape of \[batch\_size, 128\] so my guess is that the attention output from the previous decoding step is concatenated with the current encoder's input make the 'inputs' has the shape of \[batch\_size, 256\] then it is concatenated with 'h' tensor to form a \[batch\_size, 384\] tensor causing this error.
 
-My question is: Isn't attention output supposed to be concatenated with the next decoder's input or I miss understanding anything? And how to fix this error.",1,7
-12,2018-7-9,2018,7,9,7,8x564e,"NoodleFeet Can Now Recognize his First Object, his Favorite Stuffed Animal ""Fisty"" (using TensorFlow)!",https://www.reddit.com/r/tensorflow/comments/8x564e/noodlefeet_can_now_recognize_his_first_object_his/,spetku,1531087224,,0,18
-13,2018-7-9,2018,7,9,13,8x86qg,ML patterns and tools recommendation for answering user texts,https://www.reddit.com/r/tensorflow/comments/8x86qg/ml_patterns_and_tools_recommendation_for/,prayagupd,1531110936,"I'm learning ML and see if ML fits into my problem where I am trying to answer user question.
+My question is: Isn't attention output supposed to be concatenated with the next decoder's input or I miss understanding anything? And how to fix this error.",1,7,False,self,,,,,
+12,tensorflow,t5_3alkk,2018-7-9,2018,7,9,7,8x564e,youtube.com,"NoodleFeet Can Now Recognize his First Object, his Favorite Stuffed Animal ""Fisty"" (using TensorFlow)!",https://www.reddit.com/r/tensorflow/comments/8x564e/noodlefeet_can_now_recognize_his_first_object_his/,spetku,1531087224,,0,18,False,default,,,,,
+13,tensorflow,t5_3alkk,2018-7-9,2018,7,9,13,8x86qg,self.tensorflow,ML patterns and tools recommendation for answering user texts,https://www.reddit.com/r/tensorflow/comments/8x86qg/ml_patterns_and_tools_recommendation_for/,prayagupd,1531110936,"I'm learning ML and see if ML fits into my problem where I am trying to answer user question.
 
 Let's say
 user asks: I am having **headache** since yesterday and **fever** as well. what shall I do?
@@ -301,12 +301,12 @@ For example,
     ...
 
 **What ML patterns and tools do you guys see and recommend in similar scenario as mentioned above.** I am wondering if I can use tensorflow to train and find the treatment label but it does not really feel like prediction problem. As long as I extract parameters using NLP, it feels more of if else to me. than ML, I mean I could solve it using `if (symtom1 &amp;&amp; symtom2) then treatment1` and so on.
-",0,1
-14,2018-7-10,2018,7,10,19,8xnr5r,How do I set is_training on resnet,https://www.reddit.com/r/tensorflow/comments/8xnr5r/how_do_i_set_is_training_on_resnet/,VirtualHat,1531218535,"I'm training a model from scratch that processes video segments.  I'm using the built in slim resnet model, but have it wired to some LSTM units.  I'm having trouble with the is_training parameter in resnet.  It seems I must set this when creating the model, but I want to be able to switch in and out of training modes while I'm training (i.e. for validation etc), is this possiable?
+",0,1,False,self,,,,,
+14,tensorflow,t5_3alkk,2018-7-10,2018,7,10,19,8xnr5r,self.tensorflow,How do I set is_training on resnet,https://www.reddit.com/r/tensorflow/comments/8xnr5r/how_do_i_set_is_training_on_resnet/,VirtualHat,1531218535,"I'm training a model from scratch that processes video segments.  I'm using the built in slim resnet model, but have it wired to some LSTM units.  I'm having trouble with the is_training parameter in resnet.  It seems I must set this when creating the model, but I want to be able to switch in and out of training modes while I'm training (i.e. for validation etc), is this possiable?
 
 
-",2,1
-15,2018-7-11,2018,7,11,0,8xpz3j,Error in Compiling the CPU Module for Python,https://www.reddit.com/r/tensorflow/comments/8xpz3j/error_in_compiling_the_cpu_module_for_python/,fifo_thekid,1531235062,"System information
+",2,1,False,self,,,,,
+15,tensorflow,t5_3alkk,2018-7-11,2018,7,11,0,8xpz3j,self.tensorflow,Error in Compiling the CPU Module for Python,https://www.reddit.com/r/tensorflow/comments/8xpz3j/error_in_compiling_the_cpu_module_for_python/,fifo_thekid,1531235062,"System information
 
 Have I written custom code: No
 
@@ -374,26 +374,26 @@ It used to work before with version 1.8
 
 I don't want to install the PIP version
 
-Compilation works without any problem on Ubuntu 16.04",0,1
-16,2018-7-11,2018,7,11,0,8xqe2u,A dive into the deep end of deep neural networks for recommender engines.,https://www.reddit.com/r/tensorflow/comments/8xqe2u/a_dive_into_the_deep_end_of_deep_neural_networks/,cptAwesome_070,1531237606,,0,4
-17,2018-7-12,2018,7,12,21,8y9c5l,I want to experiment around with game theory where simulated actors live and interact with each other. Would TensorFlow be good for that?,https://www.reddit.com/r/tensorflow/comments/8y9c5l/i_want_to_experiment_around_with_game_theory/,dog_superiority,1531398573,"I've been perusing the TensorFlow web page a little, and it seems that a lot of the tutorials and examples have to do with image recognition stuff.  I'm wondering how suitable it would be for a game theory simulation.
+Compilation works without any problem on Ubuntu 16.04",0,1,False,self,,,,,
+16,tensorflow,t5_3alkk,2018-7-11,2018,7,11,0,8xqe2u,medium.com,A dive into the deep end of deep neural networks for recommender engines.,https://www.reddit.com/r/tensorflow/comments/8xqe2u/a_dive_into_the_deep_end_of_deep_neural_networks/,cptAwesome_070,1531237606,,0,4,False,https://b.thumbs.redditmedia.com/5JGueGyvK7i2mwJyX7eUhKlS4R8LBTdmFizYO6vkSqQ.jpg,,,,,
+17,tensorflow,t5_3alkk,2018-7-12,2018,7,12,21,8y9c5l,self.tensorflow,I want to experiment around with game theory where simulated actors live and interact with each other. Would TensorFlow be good for that?,https://www.reddit.com/r/tensorflow/comments/8y9c5l/i_want_to_experiment_around_with_game_theory/,dog_superiority,1531398573,"I've been perusing the TensorFlow web page a little, and it seems that a lot of the tutorials and examples have to do with image recognition stuff.  I'm wondering how suitable it would be for a game theory simulation.
 
 What I would like to do is have a bunch of ""people"" interact with each other on a 2D board where they build stuff, trade stuff, fight each other, etc.  If they don't eat, they get hungry.  If they do that too long, they die.  That sort of thing.  I'd like to have where I can turn it on in the morning let the dudes do their thing while learning as they go, and come home from work and see how they did.  Are they all dead?  Did they all run away forever?  Did they build a futuristic society like that one episode of the Simpsons?
 
 Basically, I am wondering if TensorFlow is something I should consider using for this.  Any pointers on where to start would be helpful.  
 
-(BTW, I code a lot in C++, some in Python, and did Java a lot several years ago.  In case that is important)",13,0
-18,2018-7-13,2018,7,13,14,8yh9ki,A complete guide for building machine learning and deep learning solutions using Tensorflow,https://www.reddit.com/r/tensorflow/comments/8yh9ki/a_complete_guide_for_building_machine_learning/,vinnyvessel,1531459481,,0,1
-19,2018-7-14,2018,7,14,16,8yrmh9,how do you set weights for RNN cells?,https://www.reddit.com/r/tensorflow/comments/8yrmh9/how_do_you_set_weights_for_rnn_cells/,extra_bigass_fries,1531553572,"The TF website documentation clearly lists methods for setting weights for every type of cell, and yet, invoking them gives error ""no attribute set_weights"".",1,1
-20,2018-7-15,2018,7,15,10,8yy37h,Simple Equation in TF?,https://www.reddit.com/r/tensorflow/comments/8yy37h/simple_equation_in_tf/,throwaway775849,1531617132,"For pairs of training data (x,y), how would you code this in Tensorflow?
+(BTW, I code a lot in C++, some in Python, and did Java a lot several years ago.  In case that is important)",13,0,False,self,,,,,
+18,tensorflow,t5_3alkk,2018-7-13,2018,7,13,14,8yh9ki,udemy.com,A complete guide for building machine learning and deep learning solutions using Tensorflow,https://www.reddit.com/r/tensorflow/comments/8yh9ki/a_complete_guide_for_building_machine_learning/,vinnyvessel,1531459481,,0,1,False,default,,,,,
+19,tensorflow,t5_3alkk,2018-7-14,2018,7,14,16,8yrmh9,self.tensorflow,how do you set weights for RNN cells?,https://www.reddit.com/r/tensorflow/comments/8yrmh9/how_do_you_set_weights_for_rnn_cells/,extra_bigass_fries,1531553572,"The TF website documentation clearly lists methods for setting weights for every type of cell, and yet, invoking them gives error ""no attribute set_weights"".",1,1,False,self,,,,,
+20,tensorflow,t5_3alkk,2018-7-15,2018,7,15,10,8yy37h,self.tensorflow,Simple Equation in TF?,https://www.reddit.com/r/tensorflow/comments/8yy37h/simple_equation_in_tf/,throwaway775849,1531617132,"For pairs of training data (x,y), how would you code this in Tensorflow?
 
     f(m_i, x) = y, m_i+1
 
 
 
-",4,0
-21,2018-7-15,2018,7,15,14,8yzgal,"I'm having this issue whenever I run (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data() from the tutorial. How do I fix this?",https://www.reddit.com/r/tensorflow/comments/8yzgal/im_having_this_issue_whenever_i_run_train_images/,AusCro,1531631590,,3,3
-22,2018-7-15,2018,7,15,19,8z0wtk,Issues with Save and Restoring Model,https://www.reddit.com/r/tensorflow/comments/8z0wtk/issues_with_save_and_restoring_model/,stealthx9,1531651690,"Hi,
+",4,0,False,self,,,,,
+21,tensorflow,t5_3alkk,2018-7-15,2018,7,15,14,8yzgal,i.redd.it,"I'm having this issue whenever I run (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data() from the tutorial. How do I fix this?",https://www.reddit.com/r/tensorflow/comments/8yzgal/im_having_this_issue_whenever_i_run_train_images/,AusCro,1531631590,,3,3,False,default,,,,,
+22,tensorflow,t5_3alkk,2018-7-15,2018,7,15,19,8z0wtk,self.tensorflow,Issues with Save and Restoring Model,https://www.reddit.com/r/tensorflow/comments/8z0wtk/issues_with_save_and_restoring_model/,stealthx9,1531651690,"Hi,
 
 i have the following issue and i hope there is somebody out there who can help me.
 
@@ -477,8 +477,8 @@ WHen somebody can hint me in the right direction i would very much appreciate it
 loading the model:
 
     model = XModel(train_data.shape[1], train_labels.shape[1],model='models/netA.ckpt')
-    model.fit(train_data, train_labels, test_data, test_labels)",2,5
-23,2018-7-16,2018,7,16,16,8z8v88,Could I get some insights for my REINFORCE implementation ?,https://www.reddit.com/r/tensorflow/comments/8z8v88/could_i_get_some_insights_for_my_reinforce/,UpstairsCurrency,1531725453,"Hey there ! 
+    model.fit(train_data, train_labels, test_data, test_labels)",2,5,False,self,,,,,
+23,tensorflow,t5_3alkk,2018-7-16,2018,7,16,16,8z8v88,self.tensorflow,Could I get some insights for my REINFORCE implementation ?,https://www.reddit.com/r/tensorflow/comments/8z8v88/could_i_get_some_insights_for_my_reinforce/,UpstairsCurrency,1531725453,"Hey there ! 
 
 I'm rather a PyTorch user usually, but recently, I came to realize that some of the tools provided by Tensorflow are lacking in PyTorch, so I decided to try and implement some of my favorite algorithms in TF. 
 
@@ -488,8 +488,8 @@ Here's the link: https://github.com/Mehd6384/QuickExperiments/blob/master/reinfo
 
 Thanks a lot ! 
 
-",0,1
-24,2018-7-16,2018,7,16,21,8zaga1,Shape mismatch issue with tf.js - tips?,https://www.reddit.com/r/tensorflow/comments/8zaga1/shape_mismatch_issue_with_tfjs_tips/,Berlinsk,1531743684,"Hi, I'm getting my head around tensorflow and am trying to get this CNN for timeseries analysis example by Siraj Raval working, but I keep getting this error on fit() and evaluate() that I can't get rid of.
+",0,1,False,self,,,,,
+24,tensorflow,t5_3alkk,2018-7-16,2018,7,16,21,8zaga1,self.tensorflow,Shape mismatch issue with tf.js - tips?,https://www.reddit.com/r/tensorflow/comments/8zaga1/shape_mismatch_issue_with_tfjs_tips/,Berlinsk,1531743684,"Hi, I'm getting my head around tensorflow and am trying to get this CNN for timeseries analysis example by Siraj Raval working, but I keep getting this error on fit() and evaluate() that I can't get rid of.
 
 The layer stack is a sequential setup with a conv, pool, conv, pool, dense structure.
 
@@ -545,34 +545,34 @@ If I inspect the model structure, it all seems correctly connected and I can't s
 
 I'm keen on using this model for a prototype project involving timeseries data for a client, but just got stuck here.
 
-If anyone has any tips on where to read about these kinds of issues and could point me in the right direction, I'd be very grateful.",12,4
-25,2018-7-17,2018,7,17,0,8zblej,"Does the Dataset api support ""get"" without ""get_next""?",https://www.reddit.com/r/tensorflow/comments/8zblej/does_the_dataset_api_support_get_without_get_next/,st8ic,1531753248,"I have a list of numpy arrays which are my dataset. Right now I'm using `feed_dict`, but of course it is very slow so I'm looking to move to the Dataset api.  
+If anyone has any tips on where to read about these kinds of issues and could point me in the right direction, I'd be very grateful.",12,4,False,self,,,,,
+25,tensorflow,t5_3alkk,2018-7-17,2018,7,17,0,8zblej,self.tensorflow,"Does the Dataset api support ""get"" without ""get_next""?",https://www.reddit.com/r/tensorflow/comments/8zblej/does_the_dataset_api_support_get_without_get_next/,st8ic,1531753248,"I have a list of numpy arrays which are my dataset. Right now I'm using `feed_dict`, but of course it is very slow so I'm looking to move to the Dataset api.  
 
 My problem is that I don't want to iterate through the samples on every run of graph op. I want to run an operation with one sample until I'm satisfied, and then move to the next one. The problem is that the dataset api seems to only provide access to the data in the form of `get_next`, which will automatically move the iterator.  
 
-Is there a way to only move the iterator when I'm ready, instead of every time I run an op?",3,1
-26,2018-7-17,2018,7,17,17,8zja3z,Realtime JavaScript Face Tracking and Face Recognition using face-api.js MTCNN Face Detector - Medium,https://www.reddit.com/r/tensorflow/comments/8zja3z/realtime_javascript_face_tracking_and_face/,Fewthp,1531814755,,0,6
-27,2018-7-17,2018,7,17,23,8zlj74,seq2seq in tensorflow.js?,https://www.reddit.com/r/tensorflow/comments/8zlj74/seq2seq_in_tensorflowjs/,LightBlueParadox,1531837295,"Hi, I'm new to machine learning so if I'm saying something stupid, you know why.
+Is there a way to only move the iterator when I'm ready, instead of every time I run an op?",3,1,False,self,,,,,
+26,tensorflow,t5_3alkk,2018-7-17,2018,7,17,17,8zja3z,medium.com,Realtime JavaScript Face Tracking and Face Recognition using face-api.js MTCNN Face Detector - Medium,https://www.reddit.com/r/tensorflow/comments/8zja3z/realtime_javascript_face_tracking_and_face/,Fewthp,1531814755,,0,6,False,default,,,,,
+27,tensorflow,t5_3alkk,2018-7-17,2018,7,17,23,8zlj74,self.tensorflow,seq2seq in tensorflow.js?,https://www.reddit.com/r/tensorflow/comments/8zlj74/seq2seq_in_tensorflowjs/,LightBlueParadox,1531837295,"Hi, I'm new to machine learning so if I'm saying something stupid, you know why.
 
 I'd like to make a chatbot using with my whatsapp chats, I used LSTM (in ml5.js), but it just replied with random answers without context.
 
 I've read online that I should use seq2seq, but i also need to run the model in the browser.
 
-I also want to switch to tensorflow.js, so I can learn more stuff about ML, so can i use it to train seq2seq models?",2,1
-28,2018-7-17,2018,7,17,23,8zlmlr,Text Classification Models in TensorFlow,https://www.reddit.com/r/tensorflow/comments/8zlmlr/text_classification_models_in_tensorflow/,ganji1055,1531838007,"Implemented famous text classification models in TensorFlow: [https://github.com/dongjun-Lee/text-classification-models-tf](https://github.com/dongjun-Lee/text-classification-models-tf) Implemented models are 1) Word-level CNN, 2) Character-level CNN 3) VDCNN(Very Deep CNN) 4) Word-level Bidirectional RNN 5) Attention-based Bidirectional RNN, 6) RCNN
+I also want to switch to tensorflow.js, so I can learn more stuff about ML, so can i use it to train seq2seq models?",2,1,False,self,,,,,
+28,tensorflow,t5_3alkk,2018-7-17,2018,7,17,23,8zlmlr,self.tensorflow,Text Classification Models in TensorFlow,https://www.reddit.com/r/tensorflow/comments/8zlmlr/text_classification_models_in_tensorflow/,ganji1055,1531838007,"Implemented famous text classification models in TensorFlow: [https://github.com/dongjun-Lee/text-classification-models-tf](https://github.com/dongjun-Lee/text-classification-models-tf) Implemented models are 1) Word-level CNN, 2) Character-level CNN 3) VDCNN(Very Deep CNN) 4) Word-level Bidirectional RNN 5) Attention-based Bidirectional RNN, 6) RCNN
 
 Semi-supervised Learning for Text Classification(Transfer Learning) is implemented at: [https://github.com/dongjun-Lee/transfer-learning-text-tf](https://github.com/dongjun-Lee/transfer-learning-text-tf)
 
 Here, auto-encoder or language model is used as a pre-trained model to initialize LSTM text classification model.
 
-I hope it helps! Thanks!",1,8
-29,2018-7-18,2018,7,18,3,8znvre,How do I use heightwise and widthwise convolutional layers on tensorflow?,https://www.reddit.com/r/tensorflow/comments/8znvre/how_do_i_use_heightwise_and_widthwise/,marrrvvv,1531853263,"I am asking this question under the assumption that in the convolutional, layer defined in tf.layers.conv2d, each node uses the same weights in the filter for all of its inputs. If i am wrong about this, please correct me.
+I hope it helps! Thanks!",1,8,False,self,,,,,
+29,tensorflow,t5_3alkk,2018-7-18,2018,7,18,3,8znvre,self.tensorflow,How do I use heightwise and widthwise convolutional layers on tensorflow?,https://www.reddit.com/r/tensorflow/comments/8znvre/how_do_i_use_heightwise_and_widthwise/,marrrvvv,1531853263,"I am asking this question under the assumption that in the convolutional, layer defined in tf.layers.conv2d, each node uses the same weights in the filter for all of its inputs. If i am wrong about this, please correct me.
 
 I am trying to build a CNN whose input image has certain pieces of information guaranteed to appear in certain spots of the image. I tried to do it with the convolutional layer defined in tf.layers.conv2d, but didn't accomplished what I meant to. I believe I would have more chances of succeed using a convolutional layer that uses different filters heightwise and widthwise. I tried to find said layer on the tensorflow documentation page, but I only found a depthwise implementation.
 
-Can someone suggest me a way to do this on tensorflow?",1,1
-30,2018-7-20,2018,7,20,2,9081ay,tf.estimator: How to normalize features in TensorFlow,https://www.reddit.com/r/tensorflow/comments/9081ay/tfestimator_how_to_normalize_features_in/,crawles89,1532022255,,0,8
-31,2018-7-20,2018,7,20,17,90e6qi,Help with tensor containing Boolean values,https://www.reddit.com/r/tensorflow/comments/90e6qi/help_with_tensor_containing_boolean_values/,the_shape89,1532074499,"I'm trying to create an incremental classifier that will get trained on data containing n classes for some set number of epochs, then n+m classes for a set number of epochs, then n+m+k, etc, where each successive set of classes contains the previous set as a subset.
+Can someone suggest me a way to do this on tensorflow?",1,1,False,self,,,,,
+30,tensorflow,t5_3alkk,2018-7-20,2018,7,20,2,9081ay,towardsdatascience.com,tf.estimator: How to normalize features in TensorFlow,https://www.reddit.com/r/tensorflow/comments/9081ay/tfestimator_how_to_normalize_features_in/,crawles89,1532022255,,0,8,False,default,,,,,
+31,tensorflow,t5_3alkk,2018-7-20,2018,7,20,17,90e6qi,self.tensorflow,Help with tensor containing Boolean values,https://www.reddit.com/r/tensorflow/comments/90e6qi/help_with_tensor_containing_boolean_values/,the_shape89,1532074499,"I'm trying to create an incremental classifier that will get trained on data containing n classes for some set number of epochs, then n+m classes for a set number of epochs, then n+m+k, etc, where each successive set of classes contains the previous set as a subset.
 
 In order to do this without having to train the model, save it, manually edit the graph, re-train, repeat, I'm simply defining all the weights I will need to classify the entire set of classes, but keeping the weights corresponding to unseen classes frozen at 0 until the classifier is introduced to those classes. 
 
@@ -647,8 +647,8 @@ This returns the error message
 Using a \`tf.Tensor\` as a Python \`bool\` is not allowed. Use \`if t is not None:\` instead of \`if t:\` to test if a tensor is defined,   
 and use TensorFlow ops such as tf.cond to execute subgraphs conditioned on the value of a tensor.
 
-I've tried tinkering around with this, like making the initial placeholder datatype tf.bool instead of tf.int32, but something else seems to be going on and I have no idea what.",0,1
-32,2018-7-20,2018,7,20,17,90e8tn,Question about using tensor of Boolean values,https://www.reddit.com/r/tensorflow/comments/90e8tn/question_about_using_tensor_of_boolean_values/,the_shape89,1532075269,"I'm trying to create an incremental classifier that will get trained on data containing n classes for some set number of epochs, then n+m classes for a set number of epochs, then n+m+k, etc, where each successive set of classes contains the previous set as a subset.
+I've tried tinkering around with this, like making the initial placeholder datatype tf.bool instead of tf.int32, but something else seems to be going on and I have no idea what.",0,1,False,self,,,,,
+32,tensorflow,t5_3alkk,2018-7-20,2018,7,20,17,90e8tn,self.tensorflow,Question about using tensor of Boolean values,https://www.reddit.com/r/tensorflow/comments/90e8tn/question_about_using_tensor_of_boolean_values/,the_shape89,1532075269,"I'm trying to create an incremental classifier that will get trained on data containing n classes for some set number of epochs, then n+m classes for a set number of epochs, then n+m+k, etc, where each successive set of classes contains the previous set as a subset.
 
 In order to do this without having to train the model, save it, manually edit the graph, re-train, repeat, I'm simply defining all the weights I will need to classify the entire set of classes, but keeping the weights corresponding to unseen classes frozen at 0 until the classifier is introduced to those classes.
 
@@ -695,10 +695,10 @@ This returns the error message
 
     Using a 'tf.Tensor' as a Python `bool` is not allowed. Use `if t is not None:` instead of `if t:` to test if a tensor is defined,and use TensorFlow ops such as tf.cond to execute subgraphs conditioned on the value of a tensor.
 
-I've tried tinkering around with this, like making the initial placeholder datatype tf.bool instead of tf.int32, but something else seems to be going on and I have no idea what. Any help would be much appreciated.",2,1
-33,2018-7-20,2018,7,20,20,90fac0,Real-time learning w/ tensorflow,https://www.reddit.com/r/tensorflow/comments/90fac0/realtime_learning_w_tensorflow/,ddzhulay,1532087101,"Hey :)  I'm just interested is there any other (better) way to train model online with new data, than storing new samples locally and retraining?",4,2
-34,2018-7-21,2018,7,21,20,90osbx,A Simpe Neural network with Tensorflow-Keras using Colaboratory,https://www.reddit.com/r/tensorflow/comments/90osbx/a_simpe_neural_network_with_tensorflowkeras_using/,machinelearning147,1532174266,,0,9
-35,2018-7-21,2018,7,21,22,90pg8k,"How many variable updates per batch using a convolutional layer? One per conv. x,y position of the kernel?",https://www.reddit.com/r/tensorflow/comments/90pg8k/how_many_variable_updates_per_batch_using_a/,kit_hod_jao,1532181429,"Hi, I wondered if someone could answer this question for me. I've not been able to find the answers in the documentation. 
+I've tried tinkering around with this, like making the initial placeholder datatype tf.bool instead of tf.int32, but something else seems to be going on and I have no idea what. Any help would be much appreciated.",2,1,False,self,,,,,
+33,tensorflow,t5_3alkk,2018-7-20,2018,7,20,20,90fac0,self.tensorflow,Real-time learning w/ tensorflow,https://www.reddit.com/r/tensorflow/comments/90fac0/realtime_learning_w_tensorflow/,ddzhulay,1532087101,"Hey :)  I'm just interested is there any other (better) way to train model online with new data, than storing new samples locally and retraining?",4,2,False,self,,,,,
+34,tensorflow,t5_3alkk,2018-7-21,2018,7,21,20,90osbx,youtube.com,A Simpe Neural network with Tensorflow-Keras using Colaboratory,https://www.reddit.com/r/tensorflow/comments/90osbx/a_simpe_neural_network_with_tensorflowkeras_using/,machinelearning147,1532174266,,0,9,False,default,,,,,
+35,tensorflow,t5_3alkk,2018-7-21,2018,7,21,22,90pg8k,self.tensorflow,"How many variable updates per batch using a convolutional layer? One per conv. x,y position of the kernel?",https://www.reddit.com/r/tensorflow/comments/90pg8k/how_many_variable_updates_per_batch_using_a/,kit_hod_jao,1532181429,"Hi, I wondered if someone could answer this question for me. I've not been able to find the answers in the documentation. 
 
 I've got a network with two inputs of dissimilar size. One input is passed to a convolutional layer (specifically tf.nn.conv2d). The other to a non-convolutional layer (tf.layers.dense). 
 
@@ -716,9 +716,9 @@ Depending on the answer to the above, do I need to increase the non-conv learnin
 
 I don't really care that they are exactly the same (I'm using Adam anyways), but I don't want to introduce a systematic bias on relative learning rate that depends on the size of the convolutional layer. 
 
-Any help much appreciated.  Cheers!",5,4
-36,2018-7-22,2018,7,22,6,90si1s,Signing With Alexa: A DIY Experiment in AI Accessibility,https://www.reddit.com/r/tensorflow/comments/90si1s/signing_with_alexa_a_diy_experiment_in_ai/,trcytony,1532206891,,0,1
-37,2018-7-22,2018,7,22,12,90v4lm,Can adding dropout decrease training accuracy when the code runs well without dropout,https://www.reddit.com/r/tensorflow/comments/90v4lm/can_adding_dropout_decrease_training_accuracy/,2Ran3Sel,1532231473,"Hello!
+Any help much appreciated.  Cheers!",5,4,False,self,,,,,
+36,tensorflow,t5_3alkk,2018-7-22,2018,7,22,6,90si1s,medium.com,Signing With Alexa: A DIY Experiment in AI Accessibility,https://www.reddit.com/r/tensorflow/comments/90si1s/signing_with_alexa_a_diy_experiment_in_ai/,trcytony,1532206891,,0,1,False,https://a.thumbs.redditmedia.com/E6WZlLaJq-k6N3EAEUf9GpY8cuIiH4VJYMxLUixQex0.jpg,,,,,
+37,tensorflow,t5_3alkk,2018-7-22,2018,7,22,12,90v4lm,self.tensorflow,Can adding dropout decrease training accuracy when the code runs well without dropout,https://www.reddit.com/r/tensorflow/comments/90v4lm/can_adding_dropout_decrease_training_accuracy/,2Ran3Sel,1532231473,"Hello!
 
 I am testing my CNN code on CIFAR-10 images.
 
@@ -732,9 +732,9 @@ Given the fact that the code runs without dropout, I thought the preprocessing a
 
 What am I supposed to do?
 
-Thank you.",8,2
-38,2018-7-22,2018,7,22,14,90vpwa,Latest TensorFlow Release 1.9 is Out! Let us upgrade,https://www.reddit.com/r/tensorflow/comments/90vpwa/latest_tensorflow_release_19_is_out_let_us_upgrade/,DecipherTechnic,1532238415,,1,15
-39,2018-7-22,2018,7,22,22,90xuli,"[Q] Cross Entropy Implementation Tensorflow, Wierd Behavior.",https://www.reddit.com/r/tensorflow/comments/90xuli/q_cross_entropy_implementation_tensorflow_wierd/,Jonas_SV,1532267338,"I've implemented CEM in tensorflow https://github.com/JonasRSV/CEM_Tensorflow
+Thank you.",8,2,False,self,,,,,
+38,tensorflow,t5_3alkk,2018-7-22,2018,7,22,14,90vpwa,youtu.be,Latest TensorFlow Release 1.9 is Out! Let us upgrade,https://www.reddit.com/r/tensorflow/comments/90vpwa/latest_tensorflow_release_19_is_out_let_us_upgrade/,DecipherTechnic,1532238415,,1,15,False,https://b.thumbs.redditmedia.com/4soTGp4tLIiy6a5KHdSRHjV9EdBtk6WSFAbAeyK7Fss.jpg,,,,,
+39,tensorflow,t5_3alkk,2018-7-22,2018,7,22,22,90xuli,self.tensorflow,"[Q] Cross Entropy Implementation Tensorflow, Wierd Behavior.",https://www.reddit.com/r/tensorflow/comments/90xuli/q_cross_entropy_implementation_tensorflow_wierd/,Jonas_SV,1532267338,"I've implemented CEM in tensorflow https://github.com/JonasRSV/CEM_Tensorflow
 
 While training it on the cartpole AIGym i noticed wierd behavior. 
 
@@ -751,8 +751,8 @@ As seen on the graphs above every 2'nd sample has very high mean and variance an
 
 What's also interesting is that the fitness of the best agent correlates exactly to these spikes aswell.. when the mean and variance spikes so does the fitness and vice-versa.. 
 
-Any insights as to what i've done wrong in my implementation or any other ideas would be super appreciated! :) ",4,3
-40,2018-7-23,2018,7,23,8,911yfp,What are the pros and cons of the different installation methods?,https://www.reddit.com/r/tensorflow/comments/911yfp/what_are_the_pros_and_cons_of_the_different/,pgbabse,1532301011,"Hello, I want to reinstall tensorflow and wanted to know what the advantages or disadvantages between the different methods are. 
+Any insights as to what i've done wrong in my implementation or any other ideas would be super appreciated! :) ",4,3,False,self,,,,,
+40,tensorflow,t5_3alkk,2018-7-23,2018,7,23,8,911yfp,self.tensorflow,What are the pros and cons of the different installation methods?,https://www.reddit.com/r/tensorflow/comments/911yfp/what_are_the_pros_and_cons_of_the_different/,pgbabse,1532301011,"Hello, I want to reinstall tensorflow and wanted to know what the advantages or disadvantages between the different methods are. 
 
 As tensorflow is an api for python, it affects the python environment.
 Could someone elaborate what the difference are between:
@@ -763,25 +763,25 @@ Tensorflow/Python anaconda installer
 
 Tensorflow/Python in virtual environments
 
-Tensorflow/Python in Docker image",2,6
-41,2018-7-23,2018,7,23,9,912dwq,I am new to programming and trying to install tensorflow models repo,https://www.reddit.com/r/tensorflow/comments/912dwq/i_am_new_to_programming_and_trying_to_install/,PhoebusElpollo,1532304763,"I followed the steps in the tutorial, with the python classify image.py, but i keep getting the error ImportantError: Could not find 'cudart64_90.dll. I have installed CUDA 9.0, but I can't find the cudart thing",4,4
-42,2018-7-24,2018,7,24,2,918vu5,Beginner dataset for photo classification?,https://www.reddit.com/r/tensorflow/comments/918vu5/beginner_dataset_for_photo_classification/,newwenha,1532365733,"Beginner here following Google's Tensorflow tutorial. It has photo classification for 5 different types of flowers. I want to see other applications and was wondering if there is a free dataset of already sorted pictures in jpeg (boy/girl, races, animals, etc). Thanks!",4,2
-43,2018-7-24,2018,7,24,12,91dxld,"Are you interested in Computer Science and want to start learning more with Tutorials? Check out this new Youtube Channel, called Discover Artificial Intelligence. :)",https://www.reddit.com/r/tensorflow/comments/91dxld/are_you_interested_in_computer_science_and_want/,ailearn12,1532403465,,0,9
-44,2018-7-26,2018,7,26,13,91zb6n,Tensor back into std::vector in C++?,https://www.reddit.com/r/tensorflow/comments/91zb6n/tensor_back_into_stdvector_in_c/,magkum123,1532580940,Is anyone aware of how can I convert the data of a tensor into a std::vector efficiently? or even naively?,0,5
-45,2018-7-26,2018,7,26,22,922c9w,What shape for images?,https://www.reddit.com/r/tensorflow/comments/922c9w/what_shape_for_images/,greenbluewhite,1532612390,"I am using TF with the Inception\_V3 model to recognize interesting scenes from a surveilance camera.  The raw images are about 430x240 pixels, an aspect ratio of 1.8:1.   My understanding is that Inception wants images 299x299 pixels.  My code currently resizes the images to 299x166 thus preserving the aspect ratio.  It does work, but I wonder if instead *stretching* the images vertically to 299x299 would make better use of the CNN and thus give better accuracy.  Or does it already do this internally?
+Tensorflow/Python in Docker image",2,6,False,self,,,,,
+41,tensorflow,t5_3alkk,2018-7-23,2018,7,23,9,912dwq,self.tensorflow,I am new to programming and trying to install tensorflow models repo,https://www.reddit.com/r/tensorflow/comments/912dwq/i_am_new_to_programming_and_trying_to_install/,PhoebusElpollo,1532304763,"I followed the steps in the tutorial, with the python classify image.py, but i keep getting the error ImportantError: Could not find 'cudart64_90.dll. I have installed CUDA 9.0, but I can't find the cudart thing",4,4,False,self,,,,,
+42,tensorflow,t5_3alkk,2018-7-24,2018,7,24,2,918vu5,self.tensorflow,Beginner dataset for photo classification?,https://www.reddit.com/r/tensorflow/comments/918vu5/beginner_dataset_for_photo_classification/,newwenha,1532365733,"Beginner here following Google's Tensorflow tutorial. It has photo classification for 5 different types of flowers. I want to see other applications and was wondering if there is a free dataset of already sorted pictures in jpeg (boy/girl, races, animals, etc). Thanks!",4,2,False,self,,,,,
+43,tensorflow,t5_3alkk,2018-7-24,2018,7,24,12,91dxld,youtube.com,"Are you interested in Computer Science and want to start learning more with Tutorials? Check out this new Youtube Channel, called Discover Artificial Intelligence. :)",https://www.reddit.com/r/tensorflow/comments/91dxld/are_you_interested_in_computer_science_and_want/,ailearn12,1532403465,,0,9,False,https://b.thumbs.redditmedia.com/Flm4gvazaWsKSS-buDv0Dn3kgO7zS9YTB0aPC9ILyhY.jpg,,,,,
+44,tensorflow,t5_3alkk,2018-7-26,2018,7,26,13,91zb6n,self.tensorflow,Tensor back into std::vector in C++?,https://www.reddit.com/r/tensorflow/comments/91zb6n/tensor_back_into_stdvector_in_c/,magkum123,1532580940,Is anyone aware of how can I convert the data of a tensor into a std::vector efficiently? or even naively?,0,5,False,self,,,,,
+45,tensorflow,t5_3alkk,2018-7-26,2018,7,26,22,922c9w,self.tensorflow,What shape for images?,https://www.reddit.com/r/tensorflow/comments/922c9w/what_shape_for_images/,greenbluewhite,1532612390,"I am using TF with the Inception\_V3 model to recognize interesting scenes from a surveilance camera.  The raw images are about 430x240 pixels, an aspect ratio of 1.8:1.   My understanding is that Inception wants images 299x299 pixels.  My code currently resizes the images to 299x166 thus preserving the aspect ratio.  It does work, but I wonder if instead *stretching* the images vertically to 299x299 would make better use of the CNN and thus give better accuracy.  Or does it already do this internally?
 
-So far my training material is 24,000 images in 10 categories.  16,000 of those are in the 'nothing' category, meaning that nothing interesting is in the picture - just the yard, street, trees, and shadows.  My current problem is that the shadows are being recognized as objects like ""car"", ""people walking by"" etc.  It is very good at spotting the mail truck, which is large and white, and can distinguish it from the garbage truck, which is larger and grey.",0,3
-46,2018-7-28,2018,7,28,7,92gt6u,Binary classification tutorials/documentation,https://www.reddit.com/r/tensorflow/comments/92gt6u/binary_classification_tutorialsdocumentation/,imjacobclark,1532728849,"Could soembody point me in the right direction to some good quality binary classification tutorials? Ideally ones that don't focus on image classification but more on text based feature classification e.g things like the Titanic dataset. 
+So far my training material is 24,000 images in 10 categories.  16,000 of those are in the 'nothing' category, meaning that nothing interesting is in the picture - just the yard, street, trees, and shadows.  My current problem is that the shadows are being recognized as objects like ""car"", ""people walking by"" etc.  It is very good at spotting the mail truck, which is large and white, and can distinguish it from the garbage truck, which is larger and grey.",0,3,False,self,,,,,
+46,tensorflow,t5_3alkk,2018-7-28,2018,7,28,7,92gt6u,self.tensorflow,Binary classification tutorials/documentation,https://www.reddit.com/r/tensorflow/comments/92gt6u/binary_classification_tutorialsdocumentation/,imjacobclark,1532728849,"Could soembody point me in the right direction to some good quality binary classification tutorials? Ideally ones that don't focus on image classification but more on text based feature classification e.g things like the Titanic dataset. 
 
-Thanks ",1,0
-47,2018-7-28,2018,7,28,18,92kysf,Can someone please explain what is happening in the Tensorflow playground?,https://www.reddit.com/r/tensorflow/comments/92kysf/can_someone_please_explain_what_is_happening_in/,lakshaydulani,1532770696,"[playground.tensorflow.org](https://hashnode.com/util/redirect?url=https://playground.tensorflow.org/)
+Thanks ",1,0,False,self,,,,,
+47,tensorflow,t5_3alkk,2018-7-28,2018,7,28,18,92kysf,self.tensorflow,Can someone please explain what is happening in the Tensorflow playground?,https://www.reddit.com/r/tensorflow/comments/92kysf/can_someone_please_explain_what_is_happening_in/,lakshaydulani,1532770696,"[playground.tensorflow.org](https://hashnode.com/util/redirect?url=https://playground.tensorflow.org/)
 
 I am a ML beginner.  I can understand some basics in the playground like all the layers are  working to classify in different directions i.e horizontal, vertical,  slant.
 
-But still it would be better if someone can write a post which can walkthru newbies with the basic nit bits of whats happening in there?",2,5
-48,2018-7-28,2018,7,28,22,92m357,Understanding Tensorflow's tensors shape: static and dynamic,https://www.reddit.com/r/tensorflow/comments/92m357/understanding_tensorflows_tensors_shape_static/,pgaleone,1532784222,,0,1
-49,2018-7-29,2018,7,29,9,92qwn7,How do I create heatmaps with TensorFlow? What do I search to develop something to get something like the middle part of the image?,https://www.reddit.com/r/tensorflow/comments/92qwn7/how_do_i_create_heatmaps_with_tensorflow_what_do/,thevbob,1532824575,,0,1
-50,2018-7-29,2018,7,29,9,92qyys,Extracting 'heatmaps' with TensorFlow,https://www.reddit.com/r/tensorflow/comments/92qyys/extracting_heatmaps_with_tensorflow/,thevbob,1532825175,"Hello!   
+But still it would be better if someone can write a post which can walkthru newbies with the basic nit bits of whats happening in there?",2,5,False,self,,,,,
+48,tensorflow,t5_3alkk,2018-7-28,2018,7,28,22,92m357,pgaleone.eu,Understanding Tensorflow's tensors shape: static and dynamic,https://www.reddit.com/r/tensorflow/comments/92m357/understanding_tensorflows_tensors_shape_static/,pgaleone,1532784222,,0,1,False,default,,,,,
+49,tensorflow,t5_3alkk,2018-7-29,2018,7,29,9,92qwn7,i.redd.it,How do I create heatmaps with TensorFlow? What do I search to develop something to get something like the middle part of the image?,https://www.reddit.com/r/tensorflow/comments/92qwn7/how_do_i_create_heatmaps_with_tensorflow_what_do/,thevbob,1532824575,,0,1,False,https://b.thumbs.redditmedia.com/iKevF3VrkkUxONMT9NF4aUHUNoPJxp6Kj95fiAgLyMs.jpg,,,,,
+50,tensorflow,t5_3alkk,2018-7-29,2018,7,29,9,92qyys,self.tensorflow,Extracting 'heatmaps' with TensorFlow,https://www.reddit.com/r/tensorflow/comments/92qyys/extracting_heatmaps_with_tensorflow/,thevbob,1532825175,"Hello!   
 
 
 I have successfully used a pretrained model to do object detection with tf.slim, and now I want to understand how the model works. Something I've seen that I want to do is to extract the 'heatmap', like the middle section of  the image abov.
@@ -791,8 +791,8 @@ https://i.redd.it/fby1usdo9sc11.png
 What do I search in order to be able to extract something like it from the model I've used? The CNN should be specifically made and trained to export this info? I am a noob still, so I don't have the slightest idead of how this works haha  
 
 
-Thanks in advance.",2,9
-51,2018-7-29,2018,7,29,15,92stwd,Experimenting with Tensorflow.js,https://www.reddit.com/r/tensorflow/comments/92stwd/experimenting_with_tensorflowjs/,i_am_adl,1532844862,"Hello Everyone,
+Thanks in advance.",2,9,False,https://b.thumbs.redditmedia.com/QizFtCabWJkD1x9vdFUZ35uatkp17MuUIcTz5PPCDvA.jpg,,,,,
+51,tensorflow,t5_3alkk,2018-7-29,2018,7,29,15,92stwd,self.tensorflow,Experimenting with Tensorflow.js,https://www.reddit.com/r/tensorflow/comments/92stwd/experimenting_with_tensorflowjs/,i_am_adl,1532844862,"Hello Everyone,
 
 I have been experimenting on Tensorflow.js for sometime , I would like to Share my Learnings with the Community.
 
@@ -1086,9 +1086,9 @@ It makes things a lot simpler for people coming from a non-ML/DL background, but
 
 What do you think about TensorFlow.js? Let me know in the comments section below.
 
-**Thanks For Reading and Giving your Precious Time**",1,10
-52,2018-7-30,2018,7,30,12,930hiq,Multiple choice test questionnaire,https://www.reddit.com/r/tensorflow/comments/930hiq/multiple_choice_test_questionnaire/,ccfiel,1532919613,I want to be able to check answer sheets automatically. I myself created the questionnaire so I have the control over the format of the questionnaire and the answer sheet. The questionnaire is multiple choice type and the examinees will just shade the appropriate box corresponding to their answer. My idea is to scan or take a picture of the answer sheet and use TensorFlow to identify the answers selected by the examinees. The answer sheet is printed on paper. Is TensorFlow the right tool to achieve this? Any ideas are very much welcome. ,3,0
-53,2018-7-30,2018,7,30,16,931x5d,ResourceExhaustedError that makes no sense,https://www.reddit.com/r/tensorflow/comments/931x5d/resourceexhaustederror_that_makes_no_sense/,ME_PhD,1532934404,"I'm using transfer learning from VGG in TF. I stripped the last layer and made my own small ones.
+**Thanks For Reading and Giving your Precious Time**",1,10,False,https://b.thumbs.redditmedia.com/NLMr2R348-NOe6CSjIalB4lj8CXeqN9aJDQx4sVHwJI.jpg,,,,,
+52,tensorflow,t5_3alkk,2018-7-30,2018,7,30,12,930hiq,self.tensorflow,Multiple choice test questionnaire,https://www.reddit.com/r/tensorflow/comments/930hiq/multiple_choice_test_questionnaire/,ccfiel,1532919613,I want to be able to check answer sheets automatically. I myself created the questionnaire so I have the control over the format of the questionnaire and the answer sheet. The questionnaire is multiple choice type and the examinees will just shade the appropriate box corresponding to their answer. My idea is to scan or take a picture of the answer sheet and use TensorFlow to identify the answers selected by the examinees. The answer sheet is printed on paper. Is TensorFlow the right tool to achieve this? Any ideas are very much welcome. ,3,0,False,self,,,,,
+53,tensorflow,t5_3alkk,2018-7-30,2018,7,30,16,931x5d,self.tensorflow,ResourceExhaustedError that makes no sense,https://www.reddit.com/r/tensorflow/comments/931x5d/resourceexhaustederror_that_makes_no_sense/,ME_PhD,1532934404,"I'm using transfer learning from VGG in TF. I stripped the last layer and made my own small ones.
 
     fc7 = tf.contrib.layers.fully_connected(fc6, 16)
     fc7dropped = tf.nn.dropout(fc7, keep_prob=hold_p)
@@ -1110,8 +1110,8 @@ I get
 	 [[Node: add_13/y = Const[dtype=DT_FLOAT, value=Tensor&lt;type: float shape: [4096] values: -0.188697636 0.126556993 -0.29960382...&gt;, _device=""/job:localhost/replica:0/task:0/device:GPU:0""]()]]`
 
 This makes no sense because to compute ""loss"" it must compute ""yhat"". Why would it work fine for ""loss"" but not for ""yhat""? I even lowered the batch size from 8 to 2 and I still get the same error. Can anyone figure it out?
-",2,1
-54,2018-7-30,2018,7,30,18,932s0q,Translation model with Dataset shape problem,https://www.reddit.com/r/tensorflow/comments/932s0q/translation_model_with_dataset_shape_problem/,albert1905,1532944705,"I'm trying to build a translation model, so I'm getting a text as input, I'm encoding him to a list of integers (the type of enocding is not important).so far so good.
+",2,1,False,self,,,,,
+54,tensorflow,t5_3alkk,2018-7-30,2018,7,30,18,932s0q,self.tensorflow,Translation model with Dataset shape problem,https://www.reddit.com/r/tensorflow/comments/932s0q/translation_model_with_dataset_shape_problem/,albert1905,1532944705,"I'm trying to build a translation model, so I'm getting a text as input, I'm encoding him to a list of integers (the type of enocding is not important).so far so good.
 let's say this is what I have so far.
 &lt;class 'list'&gt;: [1645, 3, 205, 753, 753, 1332, 18, 7, 7, 24]
 
@@ -1125,19 +1125,19 @@ This impacts me after on in the code, I really need to understand how to handle 
 
 btw just reshape isn't working :(
 
-Thanks!",0,1
-55,2018-7-30,2018,7,30,21,933glc,Concatenated ReLU (CReLU) the cause for slow performance?,https://www.reddit.com/r/tensorflow/comments/933glc/concatenated_relu_crelu_the_cause_for_slow/,MogwaiAllOnYourFace,1532952032,"I have implemented a semantic segmentation model, using CReLU on the first two downsampling layers, however when using CReLU inference speed drops massively.
+Thanks!",0,1,False,self,,,,,
+55,tensorflow,t5_3alkk,2018-7-30,2018,7,30,21,933glc,self.tensorflow,Concatenated ReLU (CReLU) the cause for slow performance?,https://www.reddit.com/r/tensorflow/comments/933glc/concatenated_relu_crelu_the_cause_for_slow/,MogwaiAllOnYourFace,1532952032,"I have implemented a semantic segmentation model, using CReLU on the first two downsampling layers, however when using CReLU inference speed drops massively.
 
 FPS goes from approximately 42 to 12. 
 
 CReLU doubles the number of output channels, however I take this into account and half the number of filters, such that the output is equal in dimension. It seems to me like this should be quicker, that is performing a positive and negative ReLU and concatenating them together, rather than calculating an increase in convolution filters.
 
-I have tried looking for similar experiences but found nothing. Can anyone share any insight on this?",0,5
-56,2018-7-30,2018,7,30,23,934c1b,GPU and bottlenecking?,https://www.reddit.com/r/tensorflow/comments/934c1b/gpu_and_bottlenecking/,T-O-M-52,1532959535,"Now iam I bit of a noob, I know but if I was using the GPU version of tensorflow  on a pc that has a great graphics card but just an old CPU and about 4gb of ram would my program still run fine? 
+I have tried looking for similar experiences but found nothing. Can anyone share any insight on this?",0,5,False,self,,,,,
+56,tensorflow,t5_3alkk,2018-7-30,2018,7,30,23,934c1b,self.tensorflow,GPU and bottlenecking?,https://www.reddit.com/r/tensorflow/comments/934c1b/gpu_and_bottlenecking/,T-O-M-52,1532959535,"Now iam I bit of a noob, I know but if I was using the GPU version of tensorflow  on a pc that has a great graphics card but just an old CPU and about 4gb of ram would my program still run fine? 
 I only need the pc for tensorflow so the pc wouldn't need to be fast.
-Thanks in advance.",8,1
-57,2018-7-31,2018,7,31,0,934vuh,What's wrong w/ my GAN graph?,https://www.reddit.com/r/tensorflow/comments/934vuh/whats_wrong_w_my_gan_graph/,ddzhulay,1532963531,"Hey! I'm trying to train vanilla GAN without using tfgan (just for experience). I'm using minimax loss and quiet simple (not convolutional) architecture for my generator and discriminator. But after first three training steps my generator loss is nearby -1 (completely useless) and discriminator loss is almost 0. And I think that problem is in the graph, due to the fact that when I'm using tfgan.gan\_model with same generator, discriminator and loss functions I get great results. But I don't know where I've mistaken... :(",0,4
-58,2018-7-31,2018,7,31,1,935puj,trying to design custom estimators,https://www.reddit.com/r/tensorflow/comments/935puj/trying_to_design_custom_estimators/,kei_kuro,1532969259,"In a pre-made Estimator, the general blueprints are:
+Thanks in advance.",8,1,False,self,,,,,
+57,tensorflow,t5_3alkk,2018-7-31,2018,7,31,0,934vuh,self.tensorflow,What's wrong w/ my GAN graph?,https://www.reddit.com/r/tensorflow/comments/934vuh/whats_wrong_w_my_gan_graph/,ddzhulay,1532963531,"Hey! I'm trying to train vanilla GAN without using tfgan (just for experience). I'm using minimax loss and quiet simple (not convolutional) architecture for my generator and discriminator. But after first three training steps my generator loss is nearby -1 (completely useless) and discriminator loss is almost 0. And I think that problem is in the graph, due to the fact that when I'm using tfgan.gan\_model with same generator, discriminator and loss functions I get great results. But I don't know where I've mistaken... :(",0,4,False,self,,,,,
+58,tensorflow,t5_3alkk,2018-7-31,2018,7,31,1,935puj,self.tensorflow,trying to design custom estimators,https://www.reddit.com/r/tensorflow/comments/935puj/trying_to_design_custom_estimators/,kei_kuro,1532969259,"In a pre-made Estimator, the general blueprints are:
 
 1) define the feature\_columns
 
@@ -1162,11 +1162,11 @@ class Custom(tf.estimator.Estimator):
         ...
 ```
 
-Does this seem like a good idea, or am I missing something?",0,3
-59,2018-7-31,2018,7,31,2,936azv,CNN Classifier tutorial,https://www.reddit.com/r/tensorflow/comments/936azv/cnn_classifier_tutorial/,imjacobclark,1532973203,"I'm looking for an example/tutorial of a CNN Classifier that does not work on images, but text based features and classifications. 
+Does this seem like a good idea, or am I missing something?",0,3,False,self,,,,,
+59,tensorflow,t5_3alkk,2018-7-31,2018,7,31,2,936azv,self.tensorflow,CNN Classifier tutorial,https://www.reddit.com/r/tensorflow/comments/936azv/cnn_classifier_tutorial/,imjacobclark,1532973203,"I'm looking for an example/tutorial of a CNN Classifier that does not work on images, but text based features and classifications. 
 
-For example, I'm interested in seeing a TF CNN that works on a dataset similiar to the Titanic passengers dataset.",1,4
-60,2018-7-31,2018,7,31,20,93dk5r,Tensorflow for AMD GPU?,https://www.reddit.com/r/tensorflow/comments/93dk5r/tensorflow_for_amd_gpu/,Jandevries101,1533035535,"Hey,
+For example, I'm interested in seeing a TF CNN that works on a dataset similiar to the Titanic passengers dataset.",1,4,False,self,,,,,
+60,tensorflow,t5_3alkk,2018-7-31,2018,7,31,20,93dk5r,self.tensorflow,Tensorflow for AMD GPU?,https://www.reddit.com/r/tensorflow/comments/93dk5r/tensorflow_for_amd_gpu/,Jandevries101,1533035535,"Hey,
 
 i have a AMD GPU is it then still possible for me to use tensorflows gpu version?
 
@@ -1174,8 +1174,8 @@ If so i know it should be done diffrent then the normal way, atleast from what i
 
 any idea's?
 
-Jan",6,1
-61,2018-7-31,2018,7,31,20,93drtc,Can I get some help for the sequence prediction model lstm-based ?,https://www.reddit.com/r/tensorflow/comments/93drtc/can_i_get_some_help_for_the_sequence_prediction/,UpstairsCurrency,1533037673,"Hello, 
+Jan",6,1,False,self,,,,,
+61,tensorflow,t5_3alkk,2018-7-31,2018,7,31,20,93drtc,self.tensorflow,Can I get some help for the sequence prediction model lstm-based ?,https://www.reddit.com/r/tensorflow/comments/93drtc/can_i_get_some_help_for_the_sequence_prediction/,UpstairsCurrency,1533037673,"Hello, 
 
 I'm trying to predict sequences using the LSTM modules of tensorflow, but to no avail. I can't figure out the problem and I was hoping someone could lend me a helpful hand. Here's my code: 
 
@@ -1283,4 +1283,4 @@ Afterward, the rest consits on running and plotting
 		    for a in ax: 
 			    a.clear()
 
-Thanks a lot ! ",1,3
+Thanks a lot ! ",1,3,False,self,,,,,

@@ -1,5 +1,5 @@
-,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
-0,2017-4-3,2017,4,3,18,635r0d,Amazon Reviews - Star Prediction,https://www.reddit.com/r/tensorflow/comments/635r0d/amazon_reviews_star_prediction/,christophfritz,1491212779,"Hey everyone. I am fairly new to TensorFlow and therefore need a little bit of help. 
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,tensorflow,t5_3alkk,2017-4-3,2017,4,3,18,635r0d,self.tensorflow,Amazon Reviews - Star Prediction,https://www.reddit.com/r/tensorflow/comments/635r0d/amazon_reviews_star_prediction/,christophfritz,1491212779,"Hey everyone. I am fairly new to TensorFlow and therefore need a little bit of help. 
 So I have this [csv file](https://ufile.io/e1041) of Amazon reviews with 9 features (overall is the star rating and will be predicted in the end). I tried to work with [this explanation](https://www.tensorflow.org/programmers_guide/reading_data) from the official website to read in the csv and I get the idea that every column gets converted to a tensor but how am I supposed to work with them later on? I can't stack them because they obviously have different types (int and strings) so how do I define my features and how do I work with them?
 I kind of want to use the same idea that's used in [this](https://www.tensorflow.org/tutorials/wide) tutorial. 
 
@@ -29,16 +29,16 @@ Here's my code (mainly the one from the example):
 
         coord.request_stop()
         coord.join(threads)
-",0,3
-1,2017-4-6,2017,4,6,13,63qtkn,Can someone help me optimize this code?,https://www.reddit.com/r/tensorflow/comments/63qtkn/can_someone_help_me_optimize_this_code/,askacadthrowaway,1491453115,"[I've written something on SO] (http://stackoverflow.com/questions/43220195/tensorflow-optimizing-this-code-to-avoid-constructing-too-many-nodes). But essentially, I'm trying to run a non-convex optimization problem on TF. If I remove the part that makes it non-convex (the tf.einsum line), then it works totally fine. But if I keep that line, then it eventually eats too much of my system memory and crashes before finishing even a single iteration of the optimization procedure.
+",0,3,False,self,,,,,
+1,tensorflow,t5_3alkk,2017-4-6,2017,4,6,13,63qtkn,self.tensorflow,Can someone help me optimize this code?,https://www.reddit.com/r/tensorflow/comments/63qtkn/can_someone_help_me_optimize_this_code/,askacadthrowaway,1491453115,"[I've written something on SO] (http://stackoverflow.com/questions/43220195/tensorflow-optimizing-this-code-to-avoid-constructing-too-many-nodes). But essentially, I'm trying to run a non-convex optimization problem on TF. If I remove the part that makes it non-convex (the tf.einsum line), then it works totally fine. But if I keep that line, then it eventually eats too much of my system memory and crashes before finishing even a single iteration of the optimization procedure.
 
 What I believe is happening is that when it's non-convex, the ""objective"" function that I defined ends up being called many, many times in the optimization process, and each time it adds new Nodes to the graph. Consequently, after enough calls, it ends up crashing. In contrast, when it's convex, it's only called a few times (maybe even once), and so there aren't enough Nodes added to the graph for it to be a problem. That's my guess anyways.
 
-So at the bottom of my SO post is a link that I believe is related. But I'm not quite sure how to apply its principle to my code. Can anyone help me out?",1,3
-2,2017-4-6,2017,4,6,22,63svtk,How the fuck do you install Tensorflow on Mac,https://www.reddit.com/r/tensorflow/comments/63svtk/how_the_fuck_do_you_install_tensorflow_on_mac/,matthewfelgate,1491485042,"Seriously, error after fucking error with this shit. Fucking impossible to decipher this shit. ",15,0
-3,2017-4-7,2017,4,7,20,63zq3h,TensorFlow - A curated list of dedicated resources,https://www.reddit.com/r/tensorflow/comments/63zq3h/tensorflow_a_curated_list_of_dedicated_resources/,kapom,1491563161,,0,5
-4,2017-4-8,2017,4,8,6,643e3g,DeepMind hopes its TensorFlow lib Sonnet is music to ears of AI devs  IT Breaking News,https://www.reddit.com/r/tensorflow/comments/643e3g/deepmind_hopes_its_tensorflow_lib_sonnet_is_music/,dannyeuu,1491601740,,0,2
-5,2017-4-11,2017,4,11,4,64lqw1,Tensorflow question about invalid broadcasting comparisons.,https://www.reddit.com/r/tensorflow/comments/64lqw1/tensorflow_question_about_invalid_broadcasting/,azraelxii,1491852315,"I have a question about a broadcasting error. Stack overflow has failed me so far...
+So at the bottom of my SO post is a link that I believe is related. But I'm not quite sure how to apply its principle to my code. Can anyone help me out?",1,3,False,self,,,,,
+2,tensorflow,t5_3alkk,2017-4-6,2017,4,6,22,63svtk,self.tensorflow,How the fuck do you install Tensorflow on Mac,https://www.reddit.com/r/tensorflow/comments/63svtk/how_the_fuck_do_you_install_tensorflow_on_mac/,matthewfelgate,1491485042,"Seriously, error after fucking error with this shit. Fucking impossible to decipher this shit. ",15,0,False,self,,,,,
+3,tensorflow,t5_3alkk,2017-4-7,2017,4,7,20,63zq3h,github.com,TensorFlow - A curated list of dedicated resources,https://www.reddit.com/r/tensorflow/comments/63zq3h/tensorflow_a_curated_list_of_dedicated_resources/,kapom,1491563161,,0,5,False,default,,,,,
+4,tensorflow,t5_3alkk,2017-4-8,2017,4,8,6,643e3g,itbnews.info,DeepMind hopes its TensorFlow lib Sonnet is music to ears of AI devs  IT Breaking News,https://www.reddit.com/r/tensorflow/comments/643e3g/deepmind_hopes_its_tensorflow_lib_sonnet_is_music/,dannyeuu,1491601740,,0,2,False,default,,,,,
+5,tensorflow,t5_3alkk,2017-4-11,2017,4,11,4,64lqw1,self.tensorflow,Tensorflow question about invalid broadcasting comparisons.,https://www.reddit.com/r/tensorflow/comments/64lqw1/tensorflow_question_about_invalid_broadcasting/,azraelxii,1491852315,"I have a question about a broadcasting error. Stack overflow has failed me so far...
 
     import tensorflow as tf
 
@@ -70,19 +70,19 @@ My end goal is to maximize this function:
 
 but I am getting this error above in the first term. 
 
-Can anyone help?",0,1
-6,2017-4-11,2017,4,11,16,64ph2m,Ten useful tips for starting a new machine learning project at your company.,https://www.reddit.com/r/tensorflow/comments/64ph2m/ten_useful_tips_for_starting_a_new_machine/,alexvoica,1491896788,,0,5
-7,2017-4-11,2017,4,11,22,64qsdm,War of the Machines: PVS-Studio vs. TensorFlow,https://www.reddit.com/r/tensorflow/comments/64qsdm/war_of_the_machines_pvsstudio_vs_tensorflow/,sofia_fateeva,1491917141,,0,2
-8,2017-4-12,2017,4,12,3,64slsg,Big Picture Machine Learning: Classifying Text with Neural Networks and TensorFlow,https://www.reddit.com/r/tensorflow/comments/64slsg/big_picture_machine_learning_classifying_text/,dbrhm,1491934487,,1,9
-9,2017-4-12,2017,4,12,22,64y9u0,What TF cost function can I use to optimize precision (not caring about recall) in a binary classifier NN?,https://www.reddit.com/r/tensorflow/comments/64y9u0/what_tf_cost_function_can_i_use_to_optimize/,rudyl313,1492005237,,1,2
-10,2017-4-13,2017,4,13,5,650p49,"Question, I'm a techy 35 year old and I think AI is the future. How many years will it take me to learn what I need to know to use Tensorflow?",https://www.reddit.com/r/tensorflow/comments/650p49/question_im_a_techy_35_year_old_and_i_think_ai_is/,Idonteatbirdpoop,1492028180,"I'm quite technical, but little to no programming experience.  I'd pretty much be starting from scratch from a technical perspective.  How many years will I need to commit to begin using tensorflow and what sort of areas should I focus on learning?",9,13
-11,2017-4-14,2017,4,14,0,65620b,Memory issues in Tensorflow?,https://www.reddit.com/r/tensorflow/comments/65620b/memory_issues_in_tensorflow/,poporing88,1492096219,"Has anyone encountered some Out of Memory issues in tensorflow badly? I am using a GTX1080 (8GB) and can only do 20 batch size + 20 epoch size for training, which is annoying since I think the model would improve by increasing the epoch size.
+Can anyone help?",0,1,False,self,,,,,
+6,tensorflow,t5_3alkk,2017-4-11,2017,4,11,16,64ph2m,ocadotechnology.com,Ten useful tips for starting a new machine learning project at your company.,https://www.reddit.com/r/tensorflow/comments/64ph2m/ten_useful_tips_for_starting_a_new_machine/,alexvoica,1491896788,,0,5,False,default,,,,,
+7,tensorflow,t5_3alkk,2017-4-11,2017,4,11,22,64qsdm,viva64.com,War of the Machines: PVS-Studio vs. TensorFlow,https://www.reddit.com/r/tensorflow/comments/64qsdm/war_of_the_machines_pvsstudio_vs_tensorflow/,sofia_fateeva,1491917141,,0,2,False,default,,,,,
+8,tensorflow,t5_3alkk,2017-4-12,2017,4,12,3,64slsg,medium.freecodecamp.com,Big Picture Machine Learning: Classifying Text with Neural Networks and TensorFlow,https://www.reddit.com/r/tensorflow/comments/64slsg/big_picture_machine_learning_classifying_text/,dbrhm,1491934487,,1,9,False,default,,,,,
+9,tensorflow,t5_3alkk,2017-4-12,2017,4,12,22,64y9u0,self.tensorflow,What TF cost function can I use to optimize precision (not caring about recall) in a binary classifier NN?,https://www.reddit.com/r/tensorflow/comments/64y9u0/what_tf_cost_function_can_i_use_to_optimize/,rudyl313,1492005237,,1,2,False,self,,,,,
+10,tensorflow,t5_3alkk,2017-4-13,2017,4,13,5,650p49,self.tensorflow,"Question, I'm a techy 35 year old and I think AI is the future. How many years will it take me to learn what I need to know to use Tensorflow?",https://www.reddit.com/r/tensorflow/comments/650p49/question_im_a_techy_35_year_old_and_i_think_ai_is/,Idonteatbirdpoop,1492028180,"I'm quite technical, but little to no programming experience.  I'd pretty much be starting from scratch from a technical perspective.  How many years will I need to commit to begin using tensorflow and what sort of areas should I focus on learning?",9,13,False,self,,,,,
+11,tensorflow,t5_3alkk,2017-4-14,2017,4,14,0,65620b,self.tensorflow,Memory issues in Tensorflow?,https://www.reddit.com/r/tensorflow/comments/65620b/memory_issues_in_tensorflow/,poporing88,1492096219,"Has anyone encountered some Out of Memory issues in tensorflow badly? I am using a GTX1080 (8GB) and can only do 20 batch size + 20 epoch size for training, which is annoying since I think the model would improve by increasing the epoch size.
 
 Other notes that may be relevant:
 1. Using and inception resnet model
 2. in Windows
-3. Uses queues (FIFOqueue)",3,3
-12,2017-4-15,2017,4,15,10,65gmpr,Trying to modify a tensorflow rnn for twitter,https://www.reddit.com/r/tensorflow/comments/65gmpr/trying_to_modify_a_tensorflow_rnn_for_twitter/,daddyhart,1492220729,"I wrote about my attempt at writing a Twitterbot with Tensorflow based on my archive of tweets.  You can read about how I did it here:
+3. Uses queues (FIFOqueue)",3,3,False,self,,,,,
+12,tensorflow,t5_3alkk,2017-4-15,2017,4,15,10,65gmpr,self.tensorflow,Trying to modify a tensorflow rnn for twitter,https://www.reddit.com/r/tensorflow/comments/65gmpr/trying_to_modify_a_tensorflow_rnn_for_twitter/,daddyhart,1492220729,"I wrote about my attempt at writing a Twitterbot with Tensorflow based on my archive of tweets.  You can read about how I did it here:
 https://medium.com/@justin_hart/how-to-write-an-ai-twitterbot-30ca5fd65bc7
 
 It works fairly well but I need to find the right parsing of the tweets for the training and modeling.  Right now... it's treating all of my tweets as one long novel.  
@@ -116,9 +116,9 @@ parser.add_argument('--data_dir', type=str, default='data/tinyshakespeare',
     parser.add_argument('--decay_rate', type=float, default=0.97,
                        help='decay rate for rmsprop')
     parser.add_argument('--gpu_mem', type=float, default=0.666,
-                       help='% of gpu memory to be allocated to this process. Default is 66.6%')",0,2
-13,2017-4-18,2017,4,18,5,65y81z,Convolutional neural network for learning arbitrary similarity function between two sets of text,https://www.reddit.com/r/tensorflow/comments/65y81z/convolutional_neural_network_for_learning/,priorlabs,1492461809,,0,6
-14,2017-4-18,2017,4,18,20,662dcq,What is the best way of doing facial recognition using Tensorflow,https://www.reddit.com/r/tensorflow/comments/662dcq/what_is_the_best_way_of_doing_facial_recognition/,fuzzball_b,1492516763,"I am wanting to create an App that uses Tensorflow mobile, to recognize colleagues. I have followed this 5 minute tutorial
+                       help='% of gpu memory to be allocated to this process. Default is 66.6%')",0,2,False,self,,,,,
+13,tensorflow,t5_3alkk,2017-4-18,2017,4,18,5,65y81z,priorlabs.com,Convolutional neural network for learning arbitrary similarity function between two sets of text,https://www.reddit.com/r/tensorflow/comments/65y81z/convolutional_neural_network_for_learning/,priorlabs,1492461809,,0,6,False,default,,,,,
+14,tensorflow,t5_3alkk,2017-4-18,2017,4,18,20,662dcq,self.tensorflow,What is the best way of doing facial recognition using Tensorflow,https://www.reddit.com/r/tensorflow/comments/662dcq/what_is_the_best_way_of_doing_facial_recognition/,fuzzball_b,1492516763,"I am wanting to create an App that uses Tensorflow mobile, to recognize colleagues. I have followed this 5 minute tutorial
 
 https://www.youtube.com/watch?v=QfNvhPx5Px8
 
@@ -136,10 +136,10 @@ The training result is about 40%, so that is not very good.
 p.s. Looking at the images myself I get a 100% score, so the images are clear enough
 
 Thanks in advance.
-",7,3
-15,2017-4-20,2017,4,20,4,66cic1,Can't restore tensorflow session without saving all over again?,https://www.reddit.com/r/tensorflow/comments/66cic1/cant_restore_tensorflow_session_without_saving/,Kindlychung,1492630267,,0,1
-16,2017-4-20,2017,4,20,20,66gyjm,live feed - from image to tf in a loop?,https://www.reddit.com/r/tensorflow/comments/66gyjm/live_feed_from_image_to_tf_in_a_loop/,d8sconz,1492686019,"I want to feed pixel values as a list to tf by scanning an image and sending the data. It's a trivial operation, but I just can't get my head around it. All tutorials and references on feeding data to tf seem to require a file to read from. I could write all the pixel value lists to a file and then read into tf from there, but I was wondering if it could just be done as a live feed - from image to tf in a loop?",2,2
-17,2017-4-21,2017,4,21,5,66kkna,Melody extraction from mp3 files using tensorflow,https://www.reddit.com/r/tensorflow/comments/66kkna/melody_extraction_from_mp3_files_using_tensorflow/,servino,1492721380,"Firstly, I'd like to point out that I am a complete beginner with tensorflow or machine learning in general, having only watched some tutorials. Forgive me if this post is stupid.
+",7,3,False,self,,,,,
+15,tensorflow,t5_3alkk,2017-4-20,2017,4,20,4,66cic1,stackoverflow.com,Can't restore tensorflow session without saving all over again?,https://www.reddit.com/r/tensorflow/comments/66cic1/cant_restore_tensorflow_session_without_saving/,Kindlychung,1492630267,,0,1,False,default,,,,,
+16,tensorflow,t5_3alkk,2017-4-20,2017,4,20,20,66gyjm,self.tensorflow,live feed - from image to tf in a loop?,https://www.reddit.com/r/tensorflow/comments/66gyjm/live_feed_from_image_to_tf_in_a_loop/,d8sconz,1492686019,"I want to feed pixel values as a list to tf by scanning an image and sending the data. It's a trivial operation, but I just can't get my head around it. All tutorials and references on feeding data to tf seem to require a file to read from. I could write all the pixel value lists to a file and then read into tf from there, but I was wondering if it could just be done as a live feed - from image to tf in a loop?",2,2,False,self,,,,,
+17,tensorflow,t5_3alkk,2017-4-21,2017,4,21,5,66kkna,self.tensorflow,Melody extraction from mp3 files using tensorflow,https://www.reddit.com/r/tensorflow/comments/66kkna/melody_extraction_from_mp3_files_using_tensorflow/,servino,1492721380,"Firstly, I'd like to point out that I am a complete beginner with tensorflow or machine learning in general, having only watched some tutorials. Forgive me if this post is stupid.
 
 Some time ago, I was struggling to find a decent melody extraction program for a personal project... the programs I tested were really innacurate and/or required a lot of setup for a single music or genre.
 
@@ -149,21 +149,21 @@ I am completely oblivious as to what specific algorithms could make this possibl
 
 Usually, in MIDI files each instrument is separated in different channels, so the melody is easily accessed to provide the correct melody output in the training dataset. And we can find lots of MIDI files for a decent dataset size.
 
-So, I would like to hear any thoughts in this subject... is this a completely naive idea?",2,3
-18,2017-4-21,2017,4,21,7,66lajg,Keeping Data in Memory,https://www.reddit.com/r/tensorflow/comments/66lajg/keeping_data_in_memory/,INDEX45,1492728405,"I am currently working with a HDF5 file that contains my dataset and like to keep the whole dataset (8GB) in memory for faster training. However, I am also developing multiple models, and loading the entire dataset every time I run my code is getting a little annoying as it takes a couple minutes.
+So, I would like to hear any thoughts in this subject... is this a completely naive idea?",2,3,False,self,,,,,
+18,tensorflow,t5_3alkk,2017-4-21,2017,4,21,7,66lajg,self.tensorflow,Keeping Data in Memory,https://www.reddit.com/r/tensorflow/comments/66lajg/keeping_data_in_memory/,INDEX45,1492728405,"I am currently working with a HDF5 file that contains my dataset and like to keep the whole dataset (8GB) in memory for faster training. However, I am also developing multiple models, and loading the entire dataset every time I run my code is getting a little annoying as it takes a couple minutes.
 
-My question is, what are some good ways of keeping this dataset loaded in memory in-between calls to python so that I can speed up my development cycle time? Any recommendations? ",1,1
-19,2017-4-21,2017,4,21,20,66ooio,Mixing different graphics cards (CUDA)?,https://www.reddit.com/r/tensorflow/comments/66ooio/mixing_different_graphics_cards_cuda/,AoeAoe,1492775230,"Hi, I have an GTX 980 and I'm considering buying an another graphics card (1070/1080). Does it make sense to use two graphics cards of different performance levels concurrently? What are the caveats to consider? From docs that I've read so far [[1]](https://www.tensorflow.org/tutorials/using_gpu) it looks rather straight forward, but I'm wondering what kind of performance bottlenecks I can expect and how much manual tinkering is needed to get _some_ performance benefit out of my older card in such a setup.
+My question is, what are some good ways of keeping this dataset loaded in memory in-between calls to python so that I can speed up my development cycle time? Any recommendations? ",1,1,False,self,,,,,
+19,tensorflow,t5_3alkk,2017-4-21,2017,4,21,20,66ooio,self.tensorflow,Mixing different graphics cards (CUDA)?,https://www.reddit.com/r/tensorflow/comments/66ooio/mixing_different_graphics_cards_cuda/,AoeAoe,1492775230,"Hi, I have an GTX 980 and I'm considering buying an another graphics card (1070/1080). Does it make sense to use two graphics cards of different performance levels concurrently? What are the caveats to consider? From docs that I've read so far [[1]](https://www.tensorflow.org/tutorials/using_gpu) it looks rather straight forward, but I'm wondering what kind of performance bottlenecks I can expect and how much manual tinkering is needed to get _some_ performance benefit out of my older card in such a setup.
 
-Any feedback would be much appreciated.",2,1
-20,2017-4-22,2017,4,22,8,66ss10,pieces of numerically identical code produce drastically different results,https://www.reddit.com/r/tensorflow/comments/66ss10/pieces_of_numerically_identical_code_produce/,irregexp,1492816912,,1,3
-21,2017-4-23,2017,4,23,6,66ygs3,Anyone knows how to correctly calculate tf.nn.weighted_cross_entropy_with_logits pos_weight variable?,https://www.reddit.com/r/tensorflow/comments/66ygs3/anyone_knows_how_to_correctly_calculate/,nsx9891,1492896219,,0,1
-22,2017-4-23,2017,4,23,16,6715fc,Is it right to say that tensorflow graph_defs contain both operations and values?,https://www.reddit.com/r/tensorflow/comments/6715fc/is_it_right_to_say_that_tensorflow_graph_defs/,TheMoskowitz,1492934062,"Just wanted to double check before I give out wrong information.
+Any feedback would be much appreciated.",2,1,False,self,,,,,
+20,tensorflow,t5_3alkk,2017-4-22,2017,4,22,8,66ss10,stackoverflow.com,pieces of numerically identical code produce drastically different results,https://www.reddit.com/r/tensorflow/comments/66ss10/pieces_of_numerically_identical_code_produce/,irregexp,1492816912,,1,3,False,default,,,,,
+21,tensorflow,t5_3alkk,2017-4-23,2017,4,23,6,66ygs3,stackoverflow.com,Anyone knows how to correctly calculate tf.nn.weighted_cross_entropy_with_logits pos_weight variable?,https://www.reddit.com/r/tensorflow/comments/66ygs3/anyone_knows_how_to_correctly_calculate/,nsx9891,1492896219,,0,1,False,default,,,,,
+22,tensorflow,t5_3alkk,2017-4-23,2017,4,23,16,6715fc,self.tensorflow,Is it right to say that tensorflow graph_defs contain both operations and values?,https://www.reddit.com/r/tensorflow/comments/6715fc/is_it_right_to_say_that_tensorflow_graph_defs/,TheMoskowitz,1492934062,"Just wanted to double check before I give out wrong information.
 
 Checkpoints store variable values. Meta graphs store the operations.
 
-Graph_defs store both, no?",2,3
-23,2017-4-24,2017,4,24,19,6787gl,How to freeze only some weights?,https://www.reddit.com/r/tensorflow/comments/6787gl/how_to_freeze_only_some_weights/,eMPiko,1493029460,"Hey,
+Graph_defs store both, no?",2,3,False,self,,,,,
+23,tensorflow,t5_3alkk,2017-4-24,2017,4,24,19,6787gl,self.tensorflow,How to freeze only some weights?,https://www.reddit.com/r/tensorflow/comments/6787gl/how_to_freeze_only_some_weights/,eMPiko,1493029460,"Hey,
 
 I am playing around with some word embeddings models and I would like to have kinda unusual setup. In my model I have weights matrix (which is basically my set of word embeddings as every row is de factio representation of one word). While training I would like to freeze some rows of this matrix while the rest of the rows is still being trained. 
 
@@ -179,16 +179,16 @@ where x_f and x_t are one-hot representation for input words where F are words w
 
 2) Tweak the loss function so it forces preservation of some weights.
 
-What is the right approach?",3,2
-24,2017-4-25,2017,4,25,2,67anf0,TensorFlow Contrib CRF,https://www.reddit.com/r/tensorflow/comments/67anf0/tensorflow_contrib_crf/,brandking,1493055929,"I am attempting to use the TensorFlow Contrib CRF implementation. Following the [contrib example](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/crf) I developed code available [here](https://pastebin.com/K9cqNJdg). 
+What is the right approach?",3,2,False,self,,,,,
+24,tensorflow,t5_3alkk,2017-4-25,2017,4,25,2,67anf0,self.tensorflow,TensorFlow Contrib CRF,https://www.reddit.com/r/tensorflow/comments/67anf0/tensorflow_contrib_crf/,brandking,1493055929,"I am attempting to use the TensorFlow Contrib CRF implementation. Following the [contrib example](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/crf) I developed code available [here](https://pastebin.com/K9cqNJdg). 
 
 Unfortunately, my code performs very poorly (as compared to CRFSuite). The code I wrote differs from the example in a couple of areas: 
 
 1. The ""features"" are pre-trained word embeddings (of size 100) 
 2.  All the sequences are padded to the largest sequence length.
 
-I would appreciate help in understanding why my code performs so poorly, and what -- if any -- bugs exist in my code.",0,1
-25,2017-4-26,2017,4,26,1,67hksv,Streaming computation in tensorflow,https://www.reddit.com/r/tensorflow/comments/67hksv/streaming_computation_in_tensorflow/,quadraticalgebra,1493137028,"Hi!
+I would appreciate help in understanding why my code performs so poorly, and what -- if any -- bugs exist in my code.",0,1,False,self,,,,,
+25,tensorflow,t5_3alkk,2017-4-26,2017,4,26,1,67hksv,self.tensorflow,Streaming computation in tensorflow,https://www.reddit.com/r/tensorflow/comments/67hksv/streaming_computation_in_tensorflow/,quadraticalgebra,1493137028,"Hi!
 
 I'm evaluating using Tensorflow to run video processing pipelines. This would involve reading video files from disk frame by frame, running some ops on them, then writing back the video. I'm planning on using queues to allow running several threads in parallel, so my code would look something like this:
 
@@ -208,11 +208,11 @@ I have two questions about this:
 
 I may have missed easy answers to these questions in the documentation, any pointers are appreciated!
 
-Thanks :)",0,2
-26,2017-4-26,2017,4,26,11,67l8tt,Photo Editing with Generative Adversarial Networks (TF + DIGITS: Part 2),https://www.reddit.com/r/tensorflow/comments/67l8tt/photo_editing_with_generative_adversarial/,harrism,1493172881,,0,4
-27,2017-4-27,2017,4,27,3,67q13a,Live Webinar: Leave your mark on the future: General AI Challenge + Creative AI,https://www.reddit.com/r/tensorflow/comments/67q13a/live_webinar_leave_your_mark_on_the_future/,gretayld,1493230993,,0,2
-28,2017-4-28,2017,4,28,23,682sv0,"TensorFlow: A proposal of good practices for files, folders and models architecture",https://www.reddit.com/r/tensorflow/comments/682sv0/tensorflow_a_proposal_of_good_practices_for_files/,morgangiraud,1493388058,,1,5
-29,2017-4-28,2017,4,28,23,682tk5,Anyone had problems running Python and TF via a bash script?,https://www.reddit.com/r/tensorflow/comments/682tk5/anyone_had_problems_running_python_and_tf_via_a/,jackbrucesimpson,1493388247,"I've been using Keras with the TensorFlow/CUDA backend without any problems on macOS Sierra in the Jupyter Notebooks and by running my Python code directly.
+Thanks :)",0,2,False,self,,,,,
+26,tensorflow,t5_3alkk,2017-4-26,2017,4,26,11,67l8tt,devblogs.nvidia.com,Photo Editing with Generative Adversarial Networks (TF + DIGITS: Part 2),https://www.reddit.com/r/tensorflow/comments/67l8tt/photo_editing_with_generative_adversarial/,harrism,1493172881,,0,4,False,default,,,,,
+27,tensorflow,t5_3alkk,2017-4-27,2017,4,27,3,67q13a,youtu.be,Live Webinar: Leave your mark on the future: General AI Challenge + Creative AI,https://www.reddit.com/r/tensorflow/comments/67q13a/live_webinar_leave_your_mark_on_the_future/,gretayld,1493230993,,0,2,False,default,,,,,
+28,tensorflow,t5_3alkk,2017-4-28,2017,4,28,23,682sv0,blog.metaflow.fr,"TensorFlow: A proposal of good practices for files, folders and models architecture",https://www.reddit.com/r/tensorflow/comments/682sv0/tensorflow_a_proposal_of_good_practices_for_files/,morgangiraud,1493388058,,1,5,False,default,,,,,
+29,tensorflow,t5_3alkk,2017-4-28,2017,4,28,23,682tk5,self.tensorflow,Anyone had problems running Python and TF via a bash script?,https://www.reddit.com/r/tensorflow/comments/682tk5/anyone_had_problems_running_python_and_tf_via_a/,jackbrucesimpson,1493388247,"I've been using Keras with the TensorFlow/CUDA backend without any problems on macOS Sierra in the Jupyter Notebooks and by running my Python code directly.
 
 However, I've noticed that if I try to run my Python programs via a bash script, TensorFlow fails to load:
 
@@ -248,9 +248,9 @@ I don't understand why this error is happening, I've set the right environmental
 
     export CUDA_HOME=/usr/local/cuda
     export DYLD_LIBRARY_PATH=""$DYLD_LIBRARY_PATH:$CUDA_HOME/lib""
-    export PATH=""$CUDA_HOME/bin:$PATH""",0,1
-30,2017-4-29,2017,4,29,1,683ugi,Had a problem with model restoring in tensorflow recently. Posting it here in case someone has the experience to tell me where my code is wrong.,https://www.reddit.com/r/tensorflow/comments/683ugi/had_a_problem_with_model_restoring_in_tensorflow/,Harawaldr,1493398225,,3,5
-31,2017-4-30,2017,4,30,1,68a8fh,Tensorflow import error: TypeError: __init__() got an unexpected keyword argument 'syntax',https://www.reddit.com/r/tensorflow/comments/68a8fh/tensorflow_import_error_typeerror_init_got_an/,MasterJohnboy,1493483531,"I recently installed tensor flow for python2.7 using PIP on MacOS and when I try to import tensorflow I get this error back.
+    export PATH=""$CUDA_HOME/bin:$PATH""",0,1,False,self,,,,,
+30,tensorflow,t5_3alkk,2017-4-29,2017,4,29,1,683ugi,stackoverflow.com,Had a problem with model restoring in tensorflow recently. Posting it here in case someone has the experience to tell me where my code is wrong.,https://www.reddit.com/r/tensorflow/comments/683ugi/had_a_problem_with_model_restoring_in_tensorflow/,Harawaldr,1493398225,,3,5,False,default,,,,,
+31,tensorflow,t5_3alkk,2017-4-30,2017,4,30,1,68a8fh,self.tensorflow,Tensorflow import error: TypeError: __init__() got an unexpected keyword argument 'syntax',https://www.reddit.com/r/tensorflow/comments/68a8fh/tensorflow_import_error_typeerror_init_got_an/,MasterJohnboy,1493483531,"I recently installed tensor flow for python2.7 using PIP on MacOS and when I try to import tensorflow I get this error back.
 
 
 &gt;
@@ -293,5 +293,5 @@ Johns-MacBook-Air:~ John$ protoc --version
 libprotoc 2.6.1
 although this last one i saw on some forum post on installing protobuf so I'm not sure if its relevant.
 
-If anyone has any input to this problem i would be grateful.",2,2
-32,2017-4-30,2017,4,30,2,68ae43,[P] Image classification for 8 popular CNNs from a single program,https://www.reddit.com/r/tensorflow/comments/68ae43/p_image_classification_for_8_popular_cnns_from_a/,ug96,1493485258,,0,1
+If anyone has any input to this problem i would be grateful.",2,2,False,self,,,,,
+32,tensorflow,t5_3alkk,2017-4-30,2017,4,30,2,68ae43,github.com,[P] Image classification for 8 popular CNNs from a single program,https://www.reddit.com/r/tensorflow/comments/68ae43/p_image_classification_for_8_popular_cnns_from_a/,ug96,1493485258,,0,1,False,default,,,,,

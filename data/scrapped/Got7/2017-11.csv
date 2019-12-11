@@ -1,10 +1,10 @@
-,date,year,month,day,hour,id,title,author,created,selftext,num_comments,score
-0,2017-11-2,2017,11,2,1,7a4q7c,About Jackson,kaominie,1509554006,Ive been kinda absent from kpop at all and I just watched Turn Up and didnt see Jackson. What happened with him? ,1,1
-1,2017-11-3,2017,11,3,8,7afnme,A Realistic You Are Dance Practice (GOT7),[deleted],1509666699,[deleted],0,1
-2,2017-11-3,2017,11,3,8,7afnrc,[Fan Content] A Realistic You Are Dance Practice (GOT7),Ecksehrin,1509666739,,0,4
-3,2017-11-5,2017,11,5,17,7awhdu,GOT7  FUNNY MOMENTS 2017 EDITION,KPOPVIRALZ,1509870005,,0,9
-4,2017-11-6,2017,11,6,10,7b1rne,GOT7 - TURN UP MV REACTION [WHERE IS JACKSON ???],PEACE567,1509930234,,1,1
-5,2017-11-6,2017,11,6,14,7b3adw,"Schedule: November 6, 2017 - November 12, 2017",Infinitize-It,1509947907,"**GOT7's schedule for the week of November 6, 2017**
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,Got7,t5_2zrs4,2017-11-2,2017,11,2,1,7a4q7c,self.Got7,About Jackson,https://www.reddit.com/r/Got7/comments/7a4q7c/about_jackson/,kaominie,1509554006,Ive been kinda absent from kpop at all and I just watched Turn Up and didnt see Jackson. What happened with him? ,1,1,False,self,,,,,
+1,Got7,t5_2zrs4,2017-11-3,2017,11,3,8,7afnme,youtube.com,A Realistic You Are Dance Practice (GOT7),https://www.reddit.com/r/Got7/comments/7afnme/a_realistic_you_are_dance_practice_got7/,[deleted],1509666699,[deleted],0,1,False,default,,,,,
+2,Got7,t5_2zrs4,2017-11-3,2017,11,3,8,7afnrc,youtube.com,[Fan Content] A Realistic You Are Dance Practice (GOT7),https://www.reddit.com/r/Got7/comments/7afnrc/fan_content_a_realistic_you_are_dance_practice/,Ecksehrin,1509666739,,0,4,False,https://a.thumbs.redditmedia.com/2SlZc4bkOY3FUQ5FFtUC93mUJAW5HEKTWL8oAh6Zse0.jpg,,,,,
+3,Got7,t5_2zrs4,2017-11-5,2017,11,5,17,7awhdu,youtube.com,GOT7  FUNNY MOMENTS 2017 EDITION,https://www.reddit.com/r/Got7/comments/7awhdu/got7__funny_moments_2017_edition/,KPOPVIRALZ,1509870005,,0,9,False,https://b.thumbs.redditmedia.com/SXiAqCML901Rp7l8zIIH7ihzXtL5sKzUO6negsomohM.jpg,,,,,
+4,Got7,t5_2zrs4,2017-11-6,2017,11,6,10,7b1rne,youtube.com,GOT7 - TURN UP MV REACTION [WHERE IS JACKSON ???],https://www.reddit.com/r/Got7/comments/7b1rne/got7_turn_up_mv_reaction_where_is_jackson/,PEACE567,1509930234,,1,1,False,default,,,,,
+5,Got7,t5_2zrs4,2017-11-6,2017,11,6,14,7b3adw,self.Got7,"Schedule: November 6, 2017 - November 12, 2017",https://www.reddit.com/r/Got7/comments/7b3adw/schedule_november_6_2017_november_12_2017/,Infinitize-It,1509947907,"**GOT7's schedule for the week of November 6, 2017**
 
 Day|Time (KST)|Event
 :--:|:-----------:|:------:
@@ -36,14 +36,14 @@ November 17, 2017- Yugyeom's Birthday
 
 NOTE: I do not know how long 3 Minute GOT7 will keep going on. I thought they were going to end at the beginning of last week, but I was wrong, so I just put them down for every day this week, just in case.
 
-If I've made a mistake, missed anything, or if anything comes up during the week, let me know and I'll make updates!",0,3
-6,2017-11-9,2017,11,9,11,7bqi73,"Pop Radio- GOT7 ""Face"" Chinese Ver.",[deleted],1510195647,[deleted],1,1
-7,2017-11-9,2017,11,9,11,7bqjfy,[Audio] GOT7 - Face (Chinese Ver.),G_WN,1510196042,,1,6
-8,2017-11-11,2017,11,11,13,7c6g14,GOT7 JACKSON FUNNY MOMENTS ENG SUB,KPOPVIRALZ,1510375020,,1,9
-9,2017-11-11,2017,11,11,21,7c84xj,JB &amp; Jackson() - U &amp; I - The Package (Cover),dezeey,1510403271,,0,1
-10,2017-11-12,2017,11,12,15,7cdt9g,GOT7 BAMBAM FUNNY MOMENTS ENG SUB,KPOPVIRALZ,1510466721,,0,4
-11,2017-11-13,2017,11,13,13,7ckv08,"GOT7 ""You Are M/V ",ReCactus,1510549003,,0,1
-12,2017-11-13,2017,11,13,14,7cl1qh,"Schedule: November 13, 2017 - November 19, 2017",Infinitize-It,1510551224,"**GOT7's schedule for the week of November 13, 2017**
+If I've made a mistake, missed anything, or if anything comes up during the week, let me know and I'll make updates!",0,3,False,self,,,,,
+6,Got7,t5_2zrs4,2017-11-9,2017,11,9,11,7bqi73,youtube.com,"Pop Radio- GOT7 ""Face"" Chinese Ver.",https://www.reddit.com/r/Got7/comments/7bqi73/pop_radio_got7_face_chinese_ver/,[deleted],1510195647,[deleted],1,1,False,default,,,,,
+7,Got7,t5_2zrs4,2017-11-9,2017,11,9,11,7bqjfy,youtube.com,[Audio] GOT7 - Face (Chinese Ver.),https://www.reddit.com/r/Got7/comments/7bqjfy/audio_got7_face_chinese_ver/,G_WN,1510196042,,1,6,False,https://b.thumbs.redditmedia.com/rxQ-EN_jCztDnFh_DYnjA9V7Ikf05PJ9zsZWVBWvqLI.jpg,,,,,
+8,Got7,t5_2zrs4,2017-11-11,2017,11,11,13,7c6g14,youtu.be,GOT7 JACKSON FUNNY MOMENTS ENG SUB,https://www.reddit.com/r/Got7/comments/7c6g14/got7_jackson_funny_moments_eng_sub/,KPOPVIRALZ,1510375020,,1,9,False,https://b.thumbs.redditmedia.com/PlNg-l9LRbAx1IZkHq30od8Yu870LiLqM8godt8GnqM.jpg,,,,,
+9,Got7,t5_2zrs4,2017-11-11,2017,11,11,21,7c84xj,youtube.com,JB &amp; Jackson() - U &amp; I - The Package (Cover),https://www.reddit.com/r/Got7/comments/7c84xj/jb_jackson_u_i_the_package_cover/,dezeey,1510403271,,0,1,False,https://b.thumbs.redditmedia.com/ZyDaJCwupeYSurQ2vLLNrKu1pLVGz4Gbz-jDH6oE4xU.jpg,,,,,
+10,Got7,t5_2zrs4,2017-11-12,2017,11,12,15,7cdt9g,youtu.be,GOT7 BAMBAM FUNNY MOMENTS ENG SUB,https://www.reddit.com/r/Got7/comments/7cdt9g/got7_bambam_funny_moments_eng_sub/,KPOPVIRALZ,1510466721,,0,4,False,https://b.thumbs.redditmedia.com/misvtYOWr8b7yud-2yAYElJE6q5KmOW_iN-9uNK_34s.jpg,,,,,
+11,Got7,t5_2zrs4,2017-11-13,2017,11,13,13,7ckv08,facebook.com,"GOT7 ""You Are M/V ",https://www.reddit.com/r/Got7/comments/7ckv08/got7_you_are_mv/,ReCactus,1510549003,,0,1,False,default,,,,,
+12,Got7,t5_2zrs4,2017-11-13,2017,11,13,14,7cl1qh,self.Got7,"Schedule: November 13, 2017 - November 19, 2017",https://www.reddit.com/r/Got7/comments/7cl1qh/schedule_november_13_2017_november_19_2017/,Infinitize-It,1510551224,"**GOT7's schedule for the week of November 13, 2017**
 ---
 Day|Time (KST)|Event
 :--:|:-----------:|:------:
@@ -66,28 +66,28 @@ Continuation of Japan Tour
 
 ---
 
-This schedule was compiled based on a combination of GOT7's official schedule, the calendar documented by AHGAWINGS, and my own tracking from official sources. If I've made a mistake, missed anything, or if anything comes up during the week, let me know and I'll make updates!",0,2
-13,2017-11-13,2017,11,13,23,7cn97j,GOT7 JB FUNNY MOMENTS ENG SUB,KPOPVIRALZ,1510581827,,0,5
-14,2017-11-14,2017,11,14,19,7cursv,GOT7 JINYOUNG FUNNY MOMENTS ENG SUB,KPOPVIRALZ,1510655564,,0,6
-15,2017-11-15,2017,11,15,8,7czqoe,Everyone is Wondering Who That Hot Asian Guy Next to Liam Payne Is (GOT7 member Jackson Wang),TheRedDragon88,1510701580,,0,17
-16,2017-11-15,2017,11,15,20,7d3l67,GOT7 MARK FUNNY MOMENTS ENG SUB,KPOPVIRALZ,1510746637,,0,4
-17,2017-11-16,2017,11,16,3,7d5yny,[Live] Firework (171105 @ Special Event),[deleted],1510769466,[deleted],0,1
-18,2017-11-16,2017,11,16,3,7d5z3h,[LIVE] GOT7 - Firework (171105 @ Special Event),Afiqah7_7,1510769563,,1,10
-19,2017-11-16,2017,11,16,3,7d5zf8,[LIVE] GOT7 - Remember You (171105 @ Special Event),Afiqah7_7,1510769642,,1,10
-20,2017-11-17,2017,11,17,12,7di5w2,"After 4 years, JYPs boys are still looking for their positions in music career",tuleconghoa,1510891125,,0,3
-21,2017-11-17,2017,11,17,22,7dkt4f,GOT7 YUGYEOM FUNNY MOMENTS ENG SUB,KPOPVIRALZ,1510924301,,0,4
-22,2017-11-18,2017,11,18,5,7dnvix,Got7 / k-pop gift ideas?,torolf_212,1510951798,"Apologies if this is out of order, also formatting (on mobile)
+This schedule was compiled based on a combination of GOT7's official schedule, the calendar documented by AHGAWINGS, and my own tracking from official sources. If I've made a mistake, missed anything, or if anything comes up during the week, let me know and I'll make updates!",0,2,False,self,,,,,
+13,Got7,t5_2zrs4,2017-11-13,2017,11,13,23,7cn97j,youtu.be,GOT7 JB FUNNY MOMENTS ENG SUB,https://www.reddit.com/r/Got7/comments/7cn97j/got7_jb_funny_moments_eng_sub/,KPOPVIRALZ,1510581827,,0,5,False,https://b.thumbs.redditmedia.com/UrL8Ge0YQTHCE35PGsknChNWf0satAjvVBElBJ395Zs.jpg,,,,,
+14,Got7,t5_2zrs4,2017-11-14,2017,11,14,19,7cursv,youtu.be,GOT7 JINYOUNG FUNNY MOMENTS ENG SUB,https://www.reddit.com/r/Got7/comments/7cursv/got7_jinyoung_funny_moments_eng_sub/,KPOPVIRALZ,1510655564,,0,6,False,https://b.thumbs.redditmedia.com/jUaA8lAX_iNElqNlPGECdy0qJUZRGAIknCOoMyjml_s.jpg,,,,,
+15,Got7,t5_2zrs4,2017-11-15,2017,11,15,8,7czqoe,nextshark.com,Everyone is Wondering Who That Hot Asian Guy Next to Liam Payne Is (GOT7 member Jackson Wang),https://www.reddit.com/r/Got7/comments/7czqoe/everyone_is_wondering_who_that_hot_asian_guy_next/,TheRedDragon88,1510701580,,0,17,False,https://b.thumbs.redditmedia.com/lgOWcVHoA-9jqj938h-R_A3GUsxXFWd8DLeqVPG6j_U.jpg,,,,,
+16,Got7,t5_2zrs4,2017-11-15,2017,11,15,20,7d3l67,youtu.be,GOT7 MARK FUNNY MOMENTS ENG SUB,https://www.reddit.com/r/Got7/comments/7d3l67/got7_mark_funny_moments_eng_sub/,KPOPVIRALZ,1510746637,,0,4,False,https://b.thumbs.redditmedia.com/i_fqxN3m2FoseBxspcZBsO4KFDOJxaavn8YRvWtxTuE.jpg,,,,,
+17,Got7,t5_2zrs4,2017-11-16,2017,11,16,3,7d5yny,youtu.be,[Live] Firework (171105 @ Special Event),https://www.reddit.com/r/Got7/comments/7d5yny/live_firework_171105_special_event/,[deleted],1510769466,[deleted],0,1,False,default,,,,,
+18,Got7,t5_2zrs4,2017-11-16,2017,11,16,3,7d5z3h,youtu.be,[LIVE] GOT7 - Firework (171105 @ Special Event),https://www.reddit.com/r/Got7/comments/7d5z3h/live_got7_firework_171105_special_event/,Afiqah7_7,1510769563,,1,10,False,https://b.thumbs.redditmedia.com/Gy7ncWEATz9o4EicvXI2P4byklYgJrTTnRpseBoup3M.jpg,,,,,
+19,Got7,t5_2zrs4,2017-11-16,2017,11,16,3,7d5zf8,youtu.be,[LIVE] GOT7 - Remember You (171105 @ Special Event),https://www.reddit.com/r/Got7/comments/7d5zf8/live_got7_remember_you_171105_special_event/,Afiqah7_7,1510769642,,1,10,False,https://b.thumbs.redditmedia.com/-wUTqTS2N07RChHug3hIQd6GdVeRu8Fm9-T1yx8ML5g.jpg,,,,,
+20,Got7,t5_2zrs4,2017-11-17,2017,11,17,12,7di5w2,youtu.be,"After 4 years, JYPs boys are still looking for their positions in music career",https://www.reddit.com/r/Got7/comments/7di5w2/after_4_years_jyps_boys_are_still_looking_for/,tuleconghoa,1510891125,,0,3,False,https://b.thumbs.redditmedia.com/aRmLf_5_A3FDKg6UtSGcwYr3Zo6HM5WmQM6nWLYsMPE.jpg,,,,,
+21,Got7,t5_2zrs4,2017-11-17,2017,11,17,22,7dkt4f,youtu.be,GOT7 YUGYEOM FUNNY MOMENTS ENG SUB,https://www.reddit.com/r/Got7/comments/7dkt4f/got7_yugyeom_funny_moments_eng_sub/,KPOPVIRALZ,1510924301,,0,4,False,https://b.thumbs.redditmedia.com/6t-D6BlETjocJumm49ddfbQ2TNfCasn1H8NDd-ddr9c.jpg,,,,,
+22,Got7,t5_2zrs4,2017-11-18,2017,11,18,5,7dnvix,self.Got7,Got7 / k-pop gift ideas?,https://www.reddit.com/r/Got7/comments/7dnvix/got7_kpop_gift_ideas/,torolf_212,1510951798,"Apologies if this is out of order, also formatting (on mobile)
 
 My fiancee has recently become rather obsessed with k-pop, specifically Got7. I'm looking for something sweet to get her for Christmas,  though I have absolutely no idea where to look, or what to get.
 
 She's bought a bunch of albums, so I'd hesitate to buy those incase I get her something she already has. If it's relevant, her favourite band member is Jaebum. 
 
-Any help would be super helpful. Cheers.",3,8
-23,2017-11-18,2017,11,18,15,7dr8qb,Check out our cover of GOT7 - YOU ARE!! :),mitadt,1510987087,,0,7
-24,2017-11-18,2017,11,18,18,7dry16,GOT7 ACCIDENT ON STAGE,KPOPVIRALZ,1510997714,,0,1
-25,2017-11-19,2017,11,19,19,7dzu3c,GOT7 YOUNGJAE FUNNY MOMENTS ENG SUB,KPOPVIRALZ,1511087377,,0,4
-26,2017-11-19,2017,11,19,21,7e0aey,Got7 &amp; BTS,QuickbutnotsoQuick,1511094379,[removed],3,1
-27,2017-11-20,2017,11,20,15,7e6suj,"Schedule: November 20, 2017 - November 26, 2017",Infinitize-It,1511157953,"**GOT7's schedule for the week of November 20, 2017**
+Any help would be super helpful. Cheers.",3,8,False,self,,,,,
+23,Got7,t5_2zrs4,2017-11-18,2017,11,18,15,7dr8qb,youtu.be,Check out our cover of GOT7 - YOU ARE!! :),https://www.reddit.com/r/Got7/comments/7dr8qb/check_out_our_cover_of_got7_you_are/,mitadt,1510987087,,0,7,False,https://b.thumbs.redditmedia.com/ekojDrmlKIeiMQBjvzp_InW0l8d4ykBkmZxLoU0IxZc.jpg,,,,,
+24,Got7,t5_2zrs4,2017-11-18,2017,11,18,18,7dry16,youtu.be,GOT7 ACCIDENT ON STAGE,https://www.reddit.com/r/Got7/comments/7dry16/got7_accident_on_stage/,KPOPVIRALZ,1510997714,,0,1,False,https://a.thumbs.redditmedia.com/9aESzRErNYEVvRA2LM8157RR4iyxZK0GCb1vwEDHJ34.jpg,,,,,
+25,Got7,t5_2zrs4,2017-11-19,2017,11,19,19,7dzu3c,youtu.be,GOT7 YOUNGJAE FUNNY MOMENTS ENG SUB,https://www.reddit.com/r/Got7/comments/7dzu3c/got7_youngjae_funny_moments_eng_sub/,KPOPVIRALZ,1511087377,,0,4,False,https://a.thumbs.redditmedia.com/BojvDoCKIV78wNtLfWU8dmkNVbLV7Gacy05odRCGOZ8.jpg,,,,,
+26,Got7,t5_2zrs4,2017-11-19,2017,11,19,21,7e0aey,self.Got7,Got7 &amp; BTS,https://www.reddit.com/r/Got7/comments/7e0aey/got7_bts/,QuickbutnotsoQuick,1511094379,[removed],3,1,False,default,,,,,
+27,Got7,t5_2zrs4,2017-11-20,2017,11,20,15,7e6suj,self.Got7,"Schedule: November 20, 2017 - November 26, 2017",https://www.reddit.com/r/Got7/comments/7e6suj/schedule_november_20_2017_november_26_2017/,Infinitize-It,1511157953,"**GOT7's schedule for the week of November 20, 2017**
 ---
 Day|Time (KST)|Event
 :--:|:-----------:|:------:
@@ -108,26 +108,26 @@ December 1 - 2017 Mnet Asian Music Awards (MAMA) in Hong Kong
 
 ---
 
-This schedule was compiled based on a combination of GOT7's official schedule, the calendar documented by AHGAWINGS, and my own tracking from official sources. If I've made a mistake, missed anything, or if anything comes up during the week, let me know and I'll make updates!",1,1
-28,2017-11-21,2017,11,21,22,7ehvfw,What sets Got7 apart from other JYP idol groups?,jgsamson,1511271428,"They are the only idol group from JYP without a daesang.
+This schedule was compiled based on a combination of GOT7's official schedule, the calendar documented by AHGAWINGS, and my own tracking from official sources. If I've made a mistake, missed anything, or if anything comes up during the week, let me know and I'll make updates!",1,1,False,self,,,,,
+28,Got7,t5_2zrs4,2017-11-21,2017,11,21,22,7ehvfw,self.Got7,What sets Got7 apart from other JYP idol groups?,https://www.reddit.com/r/Got7/comments/7ehvfw/what_sets_got7_apart_from_other_jyp_idol_groups/,jgsamson,1511271428,"They are the only idol group from JYP without a daesang.
 
-Papa JYP must be really proud.",4,0
-29,2017-11-23,2017,11,23,15,7exlmo,[NEWS] (171122) Jackson wins Fashion Musical Icon of the year @ Esquire's MAHB Awards ,komomomo,1511417566,,3,7
-30,2017-11-24,2017,11,24,3,7f1ei6,[News] Jackson to hold a mini fanmeeting in Hong Kong December 4,Infinitize-It,1511460614,,0,10
-31,2017-11-24,2017,11,24,20,7f6zcz,171124 - JB Revealed To Have Made Donation To Aid Pohang Earthquake Relief Efforts,valvietd,1511523912,,6,15
-32,2017-11-25,2017,11,25,16,7fdpk1,"Jackson to be a guest on Prince Mak's (ex-JJCC) YouTube Channel, accepting video suggestions",valvietd,1511593976,,1,8
-33,2017-11-26,2017,11,26,4,7fha57,(ENG SUBS) IDOLity: GOT7's TMI Lab - Episode 1,valvietd,1511637377,,1,10
-34,2017-11-26,2017,11,26,12,7fk6zz,[D-4 Teaser] Jackson Wang - OKAY (2nd Solo Single),valvietd,1511665951,,1,3
-35,2017-11-26,2017,11,26,14,7fkunw,"SMTM Rapper Junoflo gives a shout out to GOT7, thanks to Yugyeom's obsession with Twisted (""West Side"")",valvietd,1511673268,,1,11
-36,2017-11-27,2017,11,27,4,7fp1hz,"New GOT7 ""If You Do"" dance practice released, celebrating 100M MV views",valvietd,1511723907,,6,15
-37,2017-11-27,2017,11,27,4,7fp2p9,(ENG SUBS) IDOLity: GOT7's TMI Lab - Episode 2,valvietd,1511724190,,1,6
-38,2017-11-27,2017,11,27,9,7fqyj3,Got7's BamBam...entrepreneur?,TayledrasStormwind01,1511740978,"Apparently, our BamBam is spreading his wings and flying out into the business world.  It seems he's calling his line ""Double-B"".
+Papa JYP must be really proud.",4,0,False,self,,,,,
+29,Got7,t5_2zrs4,2017-11-23,2017,11,23,15,7exlmo,twitter.com,[NEWS] (171122) Jackson wins Fashion Musical Icon of the year @ Esquire's MAHB Awards ,https://www.reddit.com/r/Got7/comments/7exlmo/news_171122_jackson_wins_fashion_musical_icon_of/,komomomo,1511417566,,3,7,False,https://b.thumbs.redditmedia.com/_bRn36E6S-6YmqHGXfkLTK1u57aOso9fBYly-k9eBxc.jpg,,,,,
+30,Got7,t5_2zrs4,2017-11-24,2017,11,24,3,7f1ei6,twitter.com,[News] Jackson to hold a mini fanmeeting in Hong Kong December 4,https://www.reddit.com/r/Got7/comments/7f1ei6/news_jackson_to_hold_a_mini_fanmeeting_in_hong/,Infinitize-It,1511460614,,0,10,False,https://b.thumbs.redditmedia.com/GipTMEnj2eP0h-B_GWPMFWk3onvJZb5R8wOP-BTG2VE.jpg,,,,,
+31,Got7,t5_2zrs4,2017-11-24,2017,11,24,20,7f6zcz,soompi.com,171124 - JB Revealed To Have Made Donation To Aid Pohang Earthquake Relief Efforts,https://www.reddit.com/r/Got7/comments/7f6zcz/171124_jb_revealed_to_have_made_donation_to_aid/,valvietd,1511523912,,6,15,False,https://b.thumbs.redditmedia.com/L64RiGYb7HFCvX6OpMJgzr-jRbcmXk0cWkeW-riIV1c.jpg,,,,,
+32,Got7,t5_2zrs4,2017-11-25,2017,11,25,16,7fdpk1,instagram.com,"Jackson to be a guest on Prince Mak's (ex-JJCC) YouTube Channel, accepting video suggestions",https://www.reddit.com/r/Got7/comments/7fdpk1/jackson_to_be_a_guest_on_prince_maks_exjjcc/,valvietd,1511593976,,1,8,False,https://b.thumbs.redditmedia.com/G4-5VH5IPF7ipxmf4NvNkQjXA4je8G0dcG0Lqbc5wFw.jpg,,,,,
+33,Got7,t5_2zrs4,2017-11-26,2017,11,26,4,7fha57,dailymotion.com,(ENG SUBS) IDOLity: GOT7's TMI Lab - Episode 1,https://www.reddit.com/r/Got7/comments/7fha57/eng_subs_idolity_got7s_tmi_lab_episode_1/,valvietd,1511637377,,1,10,False,https://b.thumbs.redditmedia.com/UxtB22guyufJn0tapKZs0cCpNCEc6h9hSJDwEmc2j2E.jpg,,,,,
+34,Got7,t5_2zrs4,2017-11-26,2017,11,26,12,7fk6zz,instagram.com,[D-4 Teaser] Jackson Wang - OKAY (2nd Solo Single),https://www.reddit.com/r/Got7/comments/7fk6zz/d4_teaser_jackson_wang_okay_2nd_solo_single/,valvietd,1511665951,,1,3,False,https://b.thumbs.redditmedia.com/flQfEzP6Kt5OEF2tlIFB12s2WCk0mv5iVTbQQ1C3Pbo.jpg,,,,,
+35,Got7,t5_2zrs4,2017-11-26,2017,11,26,14,7fkunw,twitter.com,"SMTM Rapper Junoflo gives a shout out to GOT7, thanks to Yugyeom's obsession with Twisted (""West Side"")",https://www.reddit.com/r/Got7/comments/7fkunw/smtm_rapper_junoflo_gives_a_shout_out_to_got7/,valvietd,1511673268,,1,11,False,https://b.thumbs.redditmedia.com/SDwLvFDVRVSyWMIRFj-fxuc8YSX0Ttbab3J7ouwLaIs.jpg,,,,,
+36,Got7,t5_2zrs4,2017-11-27,2017,11,27,4,7fp1hz,youtube.com,"New GOT7 ""If You Do"" dance practice released, celebrating 100M MV views",https://www.reddit.com/r/Got7/comments/7fp1hz/new_got7_if_you_do_dance_practice_released/,valvietd,1511723907,,6,15,False,https://b.thumbs.redditmedia.com/UWu8HdUwNk6Yh_VxTyf9Ne6Gxi3KrmHB4VwpFoCMKGA.jpg,,,,,
+37,Got7,t5_2zrs4,2017-11-27,2017,11,27,4,7fp2p9,dailymotion.com,(ENG SUBS) IDOLity: GOT7's TMI Lab - Episode 2,https://www.reddit.com/r/Got7/comments/7fp2p9/eng_subs_idolity_got7s_tmi_lab_episode_2/,valvietd,1511724190,,1,6,False,https://b.thumbs.redditmedia.com/jglwyN68iVrgFjmOfTJfIo9yyNadj5dUh-3MXGCCWmU.jpg,,,,,
+38,Got7,t5_2zrs4,2017-11-27,2017,11,27,9,7fqyj3,self.Got7,Got7's BamBam...entrepreneur?,https://www.reddit.com/r/Got7/comments/7fqyj3/got7s_bambamentrepreneur/,TayledrasStormwind01,1511740978,"Apparently, our BamBam is spreading his wings and flying out into the business world.  It seems he's calling his line ""Double-B"".
 
 [BamBam's Instagram](https://www.instagram.com/bambam1a/)
 
-[Koreaboo Article](https://www.koreaboo.com/news/got7s-bambam-will-soon-launching-clothing-line/)",1,4
-39,2017-11-27,2017,11,27,12,7fs470,[D-3 Teaser] Jackson Wang - OKAY (2nd Solo Single),valvietd,1511752222,,0,1
-40,2017-11-27,2017,11,27,14,7fsr7w,"Schedule: November 27, 2017 - December 3, 2017",Infinitize-It,1511759014,"**GOT7's schedule for the week of November 27, 2017**
+[Koreaboo Article](https://www.koreaboo.com/news/got7s-bambam-will-soon-launching-clothing-line/)",1,4,False,self,,,,,
+39,Got7,t5_2zrs4,2017-11-27,2017,11,27,12,7fs470,instagram.com,[D-3 Teaser] Jackson Wang - OKAY (2nd Solo Single),https://www.reddit.com/r/Got7/comments/7fs470/d3_teaser_jackson_wang_okay_2nd_solo_single/,valvietd,1511752222,,0,1,False,https://b.thumbs.redditmedia.com/_hsShL6gfqM6uDVv2jBqJYZF2b2_aN8hMdr938RChFg.jpg,,,,,
+40,Got7,t5_2zrs4,2017-11-27,2017,11,27,14,7fsr7w,self.Got7,"Schedule: November 27, 2017 - December 3, 2017",https://www.reddit.com/r/Got7/comments/7fsr7w/schedule_november_27_2017_december_3_2017/,Infinitize-It,1511759014,"**GOT7's schedule for the week of November 27, 2017**
 ---
 Day|Time (KST)|Event
 :--:|:-----------:|:------:
@@ -148,13 +148,13 @@ December 4 - Jackson 1st Mini Fan Meeting in Hong Kong
 
 ---
 
-This schedule was compiled based on a combination of GOT7's official schedule, the calendar documented by AHGAWINGS, and my own tracking from official sources. If I've made a mistake, missed anything, or if anything comes up during the week, let me know and I'll make updates!",0,6
-41,2017-11-27,2017,11,27,14,7ft0oj,[pic] Jinyoung - 16/05 - GQ Magazine,[deleted],1511761976,[deleted],0,1
-42,2017-11-28,2017,11,28,5,7fy6fa,(ENG SUBS) Jackson - Behind the Scenes @ MTV EMA 2017 - Episode 1,valvietd,1511814541,,3,3
-43,2017-11-28,2017,11,28,11,7g0tgl,[D-2 Video Teaser] Jackson Wang - OKAY (2nd Solo Single),valvietd,1511836993,,1,11
-44,2017-11-29,2017,11,29,11,7g9vrl,[D-1 Teaser] Jackson Wang - OKAY (2nd Solo Single),valvietd,1511923539,,1,3
-45,2017-11-30,2017,11,30,1,7gee18,Jackson Wang - OKAY [MV],Goldenbro88,1511972063,,4,12
-46,2017-11-30,2017,11,30,5,7ggfx7,Does the negativity around GOT7's music affect your fan experience?,valvietd,1511987664,"I'm not sure if I'll get any answers since the community is not very active, but it doesn't hurt to try and start a discussion anyway :P
+This schedule was compiled based on a combination of GOT7's official schedule, the calendar documented by AHGAWINGS, and my own tracking from official sources. If I've made a mistake, missed anything, or if anything comes up during the week, let me know and I'll make updates!",0,6,False,self,,,,,
+41,Got7,t5_2zrs4,2017-11-27,2017,11,27,14,7ft0oj,imgur.com,[pic] Jinyoung - 16/05 - GQ Magazine,https://www.reddit.com/r/Got7/comments/7ft0oj/pic_jinyoung_1605_gq_magazine/,[deleted],1511761976,[deleted],0,1,False,default,,,,,
+42,Got7,t5_2zrs4,2017-11-28,2017,11,28,5,7fy6fa,youtube.com,(ENG SUBS) Jackson - Behind the Scenes @ MTV EMA 2017 - Episode 1,https://www.reddit.com/r/Got7/comments/7fy6fa/eng_subs_jackson_behind_the_scenes_mtv_ema_2017/,valvietd,1511814541,,3,3,False,https://b.thumbs.redditmedia.com/CXZgYRVEAidyz31ZlI-RBBt8OPvBv74kSdCYwx2zMVU.jpg,,,,,
+43,Got7,t5_2zrs4,2017-11-28,2017,11,28,11,7g0tgl,youtube.com,[D-2 Video Teaser] Jackson Wang - OKAY (2nd Solo Single),https://www.reddit.com/r/Got7/comments/7g0tgl/d2_video_teaser_jackson_wang_okay_2nd_solo_single/,valvietd,1511836993,,1,11,False,https://b.thumbs.redditmedia.com/hg1JvnbiRFZvRqWoZusIwTw_TJ6WrUiJix6ZdmTyNHk.jpg,,,,,
+44,Got7,t5_2zrs4,2017-11-29,2017,11,29,11,7g9vrl,instagram.com,[D-1 Teaser] Jackson Wang - OKAY (2nd Solo Single),https://www.reddit.com/r/Got7/comments/7g9vrl/d1_teaser_jackson_wang_okay_2nd_solo_single/,valvietd,1511923539,,1,3,False,https://b.thumbs.redditmedia.com/HHw0-MVmeKMFbPsBkCAHgDztfo-x0Ioe-7PRzHfqkdw.jpg,,,,,
+45,Got7,t5_2zrs4,2017-11-30,2017,11,30,1,7gee18,youtube.com,Jackson Wang - OKAY [MV],https://www.reddit.com/r/Got7/comments/7gee18/jackson_wang_okay_mv/,Goldenbro88,1511972063,,4,12,False,https://b.thumbs.redditmedia.com/sVLuFMN8bf26pe6BDxRsGvbSuqZ_2sjKdW3H4s9mXrA.jpg,,,,,
+46,Got7,t5_2zrs4,2017-11-30,2017,11,30,5,7ggfx7,self.Got7,Does the negativity around GOT7's music affect your fan experience?,https://www.reddit.com/r/Got7/comments/7ggfx7/does_the_negativity_around_got7s_music_affect/,valvietd,1511987664,"I'm not sure if I'll get any answers since the community is not very active, but it doesn't hurt to try and start a discussion anyway :P
 
 I became a GOT7 fan during Fly era, and although I was (and am) excited about the fandom and sales growing with each release after that, I also started getting back into other groups and following k-pop in general more closely. That meant being exposed to all the opinions non-fans have about GOT7's music. 
 
@@ -167,4 +167,4 @@ And I guess finally, **it makes me scared** for their future, I keep being afrai
 I really love them and want them to succeed, but sometimes I feel really stressed about not being able to help them grow (which is why I'm now trying to liven up this community)
 
 So, anyone else feels the same?
-",36,7
+",36,7,False,self,,,,,

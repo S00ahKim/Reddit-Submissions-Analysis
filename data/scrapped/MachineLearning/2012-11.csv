@@ -1,26 +1,26 @@
-,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
-0,2012-11-1,2012,11,1,20,12gbqb,the 'how',https://www.reddit.com/r/MachineLearning/comments/12gbqb/the_how/,[deleted],1351770613,,0,1
-1,2012-11-2,2012,11,2,0,12gnps,Python code for the book Bandit Algorithms for Website Optimization,https://www.reddit.com/r/MachineLearning/comments/12gnps/python_code_for_the_book_bandit_algorithms_for/,cavedave,1351785557,,3,12
-2,2012-11-2,2012,11,2,1,12gpgd,Correlation between numerical and categorical data,https://www.reddit.com/r/MachineLearning/comments/12gpgd/correlation_between_numerical_and_categorical_data/,WayUpLow,1351787248,"Is there any way to find the correlation between two fields when one of them is categorical and the other is numerical? 
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,MachineLearning,t5_2r3gv,2012-11-1,2012,11,1,20,12gbqb,waltherpragerandphilosophy.blogspot.com,the 'how',https://www.reddit.com/r/MachineLearning/comments/12gbqb/the_how/,[deleted],1351770613,,0,1,False,default,,,,,
+1,MachineLearning,t5_2r3gv,2012-11-2,2012,11,2,0,12gnps,github.com,Python code for the book Bandit Algorithms for Website Optimization,https://www.reddit.com/r/MachineLearning/comments/12gnps/python_code_for_the_book_bandit_algorithms_for/,cavedave,1351785557,,3,12,False,http://c.thumbs.redditmedia.com/qXf13PkX_FTS-heD.jpg,,,,,
+2,MachineLearning,t5_2r3gv,2012-11-2,2012,11,2,1,12gpgd,self.MachineLearning,Correlation between numerical and categorical data,https://www.reddit.com/r/MachineLearning/comments/12gpgd/correlation_between_numerical_and_categorical_data/,WayUpLow,1351787248,"Is there any way to find the correlation between two fields when one of them is categorical and the other is numerical? 
 
-Any advice and/or resources appreciated.",10,2
-3,2012-11-3,2012,11,3,2,12iuk0,"Is the log-sum-exp ""trick"" a valid alternative to scaling when trying to avoid numerical underflow in HMM calculations? [x-post from /r/compsci]",https://www.reddit.com/r/MachineLearning/comments/12iuk0/is_the_logsumexp_trick_a_valid_alternative_to/,roger_,1351877589,,4,7
-4,2012-11-3,2012,11,3,2,12iuri,How deep learning on GPUs wins datamining contest without feature engineering,https://www.reddit.com/r/MachineLearning/comments/12iuri/how_deep_learning_on_gpus_wins_datamining_contest/,allegro_con_fuoco,1351877771,,11,51
-5,2012-11-3,2012,11,3,3,12izoy,Facebook is hiring - earn an interview by performing well in a Kaggle competition,https://www.reddit.com/r/MachineLearning/comments/12izoy/facebook_is_hiring_earn_an_interview_by/,[deleted],1351882494,,0,0
-6,2012-11-3,2012,11,3,8,12jfcl,Do deep networks require homogeneous data?,https://www.reddit.com/r/MachineLearning/comments/12jfcl/do_deep_networks_require_homogeneous_data/,rudyl313,1351897832,"I'm very interested in the emerging field of deep learning. One thing I've noticed, though, is that most of the example applications involved homogeneous input data. 
+Any advice and/or resources appreciated.",10,2,False,self,,,,,
+3,MachineLearning,t5_2r3gv,2012-11-3,2012,11,3,2,12iuk0,reddit.com,"Is the log-sum-exp ""trick"" a valid alternative to scaling when trying to avoid numerical underflow in HMM calculations? [x-post from /r/compsci]",https://www.reddit.com/r/MachineLearning/comments/12iuk0/is_the_logsumexp_trick_a_valid_alternative_to/,roger_,1351877589,,4,7,False,default,,,,,
+4,MachineLearning,t5_2r3gv,2012-11-3,2012,11,3,2,12iuri,blog.kaggle.com,How deep learning on GPUs wins datamining contest without feature engineering,https://www.reddit.com/r/MachineLearning/comments/12iuri/how_deep_learning_on_gpus_wins_datamining_contest/,allegro_con_fuoco,1351877771,,11,51,False,default,,,,,
+5,MachineLearning,t5_2r3gv,2012-11-3,2012,11,3,3,12izoy,kaggle.com,Facebook is hiring - earn an interview by performing well in a Kaggle competition,https://www.reddit.com/r/MachineLearning/comments/12izoy/facebook_is_hiring_earn_an_interview_by/,[deleted],1351882494,,0,0,False,default,,,,,
+6,MachineLearning,t5_2r3gv,2012-11-3,2012,11,3,8,12jfcl,self.MachineLearning,Do deep networks require homogeneous data?,https://www.reddit.com/r/MachineLearning/comments/12jfcl/do_deep_networks_require_homogeneous_data/,rudyl313,1351897832,"I'm very interested in the emerging field of deep learning. One thing I've noticed, though, is that most of the example applications involved homogeneous input data. 
 
 What I mean is that each feature if the same ""kind"" of value. For example, many applications involve images or speech signals. And in an image each feature is a pixel. In an audio segment each feature is an amplitude sample. They're all the same kind of value. 
 
 Even in the winners of Merck competition were faced with features that were homogeneous (as far as I could tell).
 
-So my question is: is homogeneousness of the features a requirement for deep learning? Are there examples of people successfully using completely heterogenous features for deep learning? Is deep learning particularly good for large feature sets?",8,5
-7,2012-11-3,2012,11,3,22,12kaka,"Text classifier yields reasonable precision, terrible recall",https://www.reddit.com/r/MachineLearning/comments/12kaka/text_classifier_yields_reasonable_precision/,ra84,1351950222,"I've been trying to train a classifier on some text data to predict class A.The features I'm using are ngrams
+So my question is: is homogeneousness of the features a requirement for deep learning? Are there examples of people successfully using completely heterogenous features for deep learning? Is deep learning particularly good for large feature sets?",8,5,False,self,,,,,
+7,MachineLearning,t5_2r3gv,2012-11-3,2012,11,3,22,12kaka,self.MachineLearning,"Text classifier yields reasonable precision, terrible recall",https://www.reddit.com/r/MachineLearning/comments/12kaka/text_classifier_yields_reasonable_precision/,ra84,1351950222,"I've been trying to train a classifier on some text data to predict class A.The features I'm using are ngrams
 B. I'm using a linear SVM. 
 C. I'm limiting the number of features to 500k ranked my MI, which seems reasonable considering the feature vectors are so sparse. 
 D. I have 4x as many negative instances as instances for class A. 
 
-However, when I train the model (10 fold cv), I get about 80% precision but 10-11% recall on class A. The -ve precision and recall are also about 80%. I'm wondering why the recall for class A is so low.  Possible options I'm considering is to downsample the -ve set but I don't think 4:1 is super unbalanced. Has anybody run into this before or has any good suggestions?",0,1
-8,2012-11-4,2012,11,4,4,12kt19,Question about the likelihood function for a semi-Markov model,https://www.reddit.com/r/MachineLearning/comments/12kt19/question_about_the_likelihood_function_for_a/,roger_,1351972789,"Basically I have an observed state sequence and (continuous) transition times, and I'd like to obtain a likelihood function for this data. 
+However, when I train the model (10 fold cv), I get about 80% precision but 10-11% recall on class A. The -ve precision and recall are also about 80%. I'm wondering why the recall for class A is so low.  Possible options I'm considering is to downsample the -ve set but I don't think 4:1 is super unbalanced. Has anybody run into this before or has any good suggestions?",0,1,False,self,,,,,
+8,MachineLearning,t5_2r3gv,2012-11-4,2012,11,4,4,12kt19,self.MachineLearning,Question about the likelihood function for a semi-Markov model,https://www.reddit.com/r/MachineLearning/comments/12kt19/question_about_the_likelihood_function_for_a/,roger_,1351972789,"Basically I have an observed state sequence and (continuous) transition times, and I'd like to obtain a likelihood function for this data. 
 
 
 The semi-Markov model is similar to the normal Markov chain, except the time durations spent in each state are chosen from a specific distribution. The  parameters are: the state transition probabilities ```a_ij```, the initial state distribution ```pi``` and  the holding time distribution density for state i ```f_i(t)```.
@@ -29,53 +29,53 @@ I feel the likelihood should be something like [this](http://i.imgur.com/brsmb.p
 
 Using the cumulative density makes sense when the observation times are arbitrary, but  I'm not sure it's appropriate when you *know* the transition times and want to do MLE or something.
 
-Which should it be?",4,8
-9,2012-11-4,2012,11,4,20,12lwra,Gifting Humble Bundles in Exchange for Help on Computational Statistics Questions,https://www.reddit.com/r/MachineLearning/comments/12lwra/gifting_humble_bundles_in_exchange_for_help_on/,[deleted],1352028087,,0,1
-10,2012-11-4,2012,11,4,20,12lxgq,(Cross post) Gifting Humble Bundles in Exchange for Help on Computational Statistics Questions,https://www.reddit.com/r/MachineLearning/comments/12lxgq/cross_post_gifting_humble_bundles_in_exchange_for/,[deleted],1352030213,,0,0
-11,2012-11-5,2012,11,5,8,12mxy7,"Top 10 algorithms in data mining: outdated, but a good starting point for newcomers to the field",https://www.reddit.com/r/MachineLearning/comments/12mxy7/top_10_algorithms_in_data_mining_outdated_but_a/,dtelad11,1352072624,,4,50
-12,2012-11-6,2012,11,6,14,12ppv9,Is there anything like eureqa available in open source?,https://www.reddit.com/r/MachineLearning/comments/12ppv9/is_there_anything_like_eureqa_available_in_open/,progcat,1352178858,"I have seen many programs that do this sort of thing, but nothing as well as eureqa does it.
+Which should it be?",4,8,False,self,,,,,
+9,MachineLearning,t5_2r3gv,2012-11-4,2012,11,4,20,12lwra,reddit.com,Gifting Humble Bundles in Exchange for Help on Computational Statistics Questions,https://www.reddit.com/r/MachineLearning/comments/12lwra/gifting_humble_bundles_in_exchange_for_help_on/,[deleted],1352028087,,0,1,False,default,,,,,
+10,MachineLearning,t5_2r3gv,2012-11-4,2012,11,4,20,12lxgq,reddit.com,(Cross post) Gifting Humble Bundles in Exchange for Help on Computational Statistics Questions,https://www.reddit.com/r/MachineLearning/comments/12lxgq/cross_post_gifting_humble_bundles_in_exchange_for/,[deleted],1352030213,,0,0,False,default,,,,,
+11,MachineLearning,t5_2r3gv,2012-11-5,2012,11,5,8,12mxy7,cs.uvm.edu,"Top 10 algorithms in data mining: outdated, but a good starting point for newcomers to the field",https://www.reddit.com/r/MachineLearning/comments/12mxy7/top_10_algorithms_in_data_mining_outdated_but_a/,dtelad11,1352072624,,4,50,False,default,,,,,
+12,MachineLearning,t5_2r3gv,2012-11-6,2012,11,6,14,12ppv9,self.MachineLearning,Is there anything like eureqa available in open source?,https://www.reddit.com/r/MachineLearning/comments/12ppv9/is_there_anything_like_eureqa_available_in_open/,progcat,1352178858,"I have seen many programs that do this sort of thing, but nothing as well as eureqa does it.
 
 If you don't know:  It takes a table of numbers and uses logistic regression to guess the equation(s) that best fit your table.
 
 It has my vote for best ML program ever for end users.  Yet it is closed source so you are stuck if you really want to use it without shelling out money...
 
-http://creativemachines.cornell.edu/eureqa",1,7
-13,2012-11-6,2012,11,6,18,12q0ss,The Grapes of Math,https://www.reddit.com/r/MachineLearning/comments/12q0ss/the_grapes_of_math/,cavedave,1352195778,,2,22
-14,2012-11-8,2012,11,8,0,12ss99,http://swampland.time.com/2012/11/07/inside-the-secret-world-of-quants-and-data-crunchers-who-helped-obama-win/,https://www.reddit.com/r/MachineLearning/comments/12ss99/httpswamplandtimecom20121107insidethesecretworldof/,[deleted],1352301011,,0,1
-15,2012-11-8,2012,11,8,2,12t0k6,Inside the Secret World of the Data Crunchers Who Helped Obama Win,https://www.reddit.com/r/MachineLearning/comments/12t0k6/inside_the_secret_world_of_the_data_crunchers_who/,margin_hound,1352308731,,28,69
-16,2012-11-9,2012,11,9,3,12vb9x,"Creating statistical web applications using the new ""Shiny"" R package",https://www.reddit.com/r/MachineLearning/comments/12vb9x/creating_statistical_web_applications_using_the/,talgalili,1352400658,,0,2
-17,2012-11-10,2012,11,10,3,12x96h,State of Machine Learning in the United States?  Are there industry employed ML practitioners in here or just enthusiasts and students? ,https://www.reddit.com/r/MachineLearning/comments/12x96h/state_of_machine_learning_in_the_united_states/,coopster,1352484509,"I'm about to graduate with a PhD in machine learning in the US, and something's been bothering me and raising my curiosity.  I am subscribed to a bunch of the ML mailing lists, and these lists are where a large number of openings in the ML-related fields (both academic and commercial) are advertised.
+http://creativemachines.cornell.edu/eureqa",1,7,False,self,,,,,
+13,MachineLearning,t5_2r3gv,2012-11-6,2012,11,6,18,12q0ss,wired.com,The Grapes of Math,https://www.reddit.com/r/MachineLearning/comments/12q0ss/the_grapes_of_math/,cavedave,1352195778,,2,22,False,http://f.thumbs.redditmedia.com/bfPLxsK3SFf2-eu5.jpg,,,,,
+14,MachineLearning,t5_2r3gv,2012-11-8,2012,11,8,0,12ss99,self.MachineLearning,http://swampland.time.com/2012/11/07/inside-the-secret-world-of-quants-and-data-crunchers-who-helped-obama-win/,https://www.reddit.com/r/MachineLearning/comments/12ss99/httpswamplandtimecom20121107insidethesecretworldof/,[deleted],1352301011,,0,1,False,default,,,,,
+15,MachineLearning,t5_2r3gv,2012-11-8,2012,11,8,2,12t0k6,swampland.time.com,Inside the Secret World of the Data Crunchers Who Helped Obama Win,https://www.reddit.com/r/MachineLearning/comments/12t0k6/inside_the_secret_world_of_the_data_crunchers_who/,margin_hound,1352308731,,28,69,False,http://d.thumbs.redditmedia.com/m5946FX2vTwhYzU-.jpg,,,,,
+16,MachineLearning,t5_2r3gv,2012-11-9,2012,11,9,3,12vb9x,r-bloggers.com,"Creating statistical web applications using the new ""Shiny"" R package",https://www.reddit.com/r/MachineLearning/comments/12vb9x/creating_statistical_web_applications_using_the/,talgalili,1352400658,,0,2,False,http://d.thumbs.redditmedia.com/ZzY71Mnn1y5VPnno.jpg,,,,,
+17,MachineLearning,t5_2r3gv,2012-11-10,2012,11,10,3,12x96h,self.MachineLearning,State of Machine Learning in the United States?  Are there industry employed ML practitioners in here or just enthusiasts and students? ,https://www.reddit.com/r/MachineLearning/comments/12x96h/state_of_machine_learning_in_the_united_states/,coopster,1352484509,"I'm about to graduate with a PhD in machine learning in the US, and something's been bothering me and raising my curiosity.  I am subscribed to a bunch of the ML mailing lists, and these lists are where a large number of openings in the ML-related fields (both academic and commercial) are advertised.
 
 Almost 95% of all the openings advertised are based in Europe, Canada, or China.  Other than the classic tech giants (Google, etc.) and Silicon Valley startups, what is the state of non-academic ML in the US?  I know that many firms, contractors, etc., are looking into applied ML to further their projects, but I don't see nearly the same amount of ""generalized"" applied research activity in the US as I do in other countries.
 
-Is there the same level of activity here, just not as widely discussed?  Are any subscribers here actual commercial practitioners of ML techniques?",19,24
-18,2012-11-10,2012,11,10,5,12xjny,Basic Sentiment Analysis with Python | fjavieralba.com [xpost /r/programming],https://www.reddit.com/r/MachineLearning/comments/12xjny/basic_sentiment_analysis_with_python/,urmyheartBeatStopR,1352494163,,0,1
-19,2012-11-10,2012,11,10,13,12y7og,"I'm currently in Linear Algebra, what should I look up that isn't generally covered in an elementary class?",https://www.reddit.com/r/MachineLearning/comments/12y7og/im_currently_in_linear_algebra_what_should_i_look/,cephelotron,1352520886,"We're going to get right up to the edge of vector space isomorphisms before the syllabus runs out.  I'm finding it very interesting, but we've had to skip a lot of application illustrations for the sake of time.",5,13
-20,2012-11-12,2012,11,12,3,130ovv,Image Recovery via ML,https://www.reddit.com/r/MachineLearning/comments/130ovv/image_recovery_via_ml/,MuffinShit,1352658838,"I'd like to use machine learning techniques in image recovery. If the image is truncated (say half is completely cut off - no information) is it possible to recover the missing portion? I've been looking at Collborative Filtering so far, and if the image is noisy rather than incomplete using a Wiener Filter. 
+Is there the same level of activity here, just not as widely discussed?  Are any subscribers here actual commercial practitioners of ML techniques?",19,24,False,self,,,,,
+18,MachineLearning,t5_2r3gv,2012-11-10,2012,11,10,5,12xjny,fjavieralba.com,Basic Sentiment Analysis with Python | fjavieralba.com [xpost /r/programming],https://www.reddit.com/r/MachineLearning/comments/12xjny/basic_sentiment_analysis_with_python/,urmyheartBeatStopR,1352494163,,0,1,False,default,,,,,
+19,MachineLearning,t5_2r3gv,2012-11-10,2012,11,10,13,12y7og,self.MachineLearning,"I'm currently in Linear Algebra, what should I look up that isn't generally covered in an elementary class?",https://www.reddit.com/r/MachineLearning/comments/12y7og/im_currently_in_linear_algebra_what_should_i_look/,cephelotron,1352520886,"We're going to get right up to the edge of vector space isomorphisms before the syllabus runs out.  I'm finding it very interesting, but we've had to skip a lot of application illustrations for the sake of time.",5,13,False,self,,,,,
+20,MachineLearning,t5_2r3gv,2012-11-12,2012,11,12,3,130ovv,self.MachineLearning,Image Recovery via ML,https://www.reddit.com/r/MachineLearning/comments/130ovv/image_recovery_via_ml/,MuffinShit,1352658838,"I'd like to use machine learning techniques in image recovery. If the image is truncated (say half is completely cut off - no information) is it possible to recover the missing portion? I've been looking at Collborative Filtering so far, and if the image is noisy rather than incomplete using a Wiener Filter. 
 
-Any advice is greatly appreciated. Thanks!",0,1
-21,2012-11-13,2012,11,13,2,132kmg,"Hi r/machinelearning , any chance with a hand with a Neural Networks problem?",https://www.reddit.com/r/MachineLearning/comments/132kmg/hi_rmachinelearning_any_chance_with_a_hand_with_a/,AryanHonesty,1352741733,"Basically, i'm doing a university course and the backpropogation algorithm has come up. I understand it and how it works, except for the following;
+Any advice is greatly appreciated. Thanks!",0,1,False,self,,,,,
+21,MachineLearning,t5_2r3gv,2012-11-13,2012,11,13,2,132kmg,self.MachineLearning,"Hi r/machinelearning , any chance with a hand with a Neural Networks problem?",https://www.reddit.com/r/MachineLearning/comments/132kmg/hi_rmachinelearning_any_chance_with_a_hand_with_a/,AryanHonesty,1352741733,"Basically, i'm doing a university course and the backpropogation algorithm has come up. I understand it and how it works, except for the following;
 
 In this video; http://www.youtube.com/watch?v=p1-FiWjThs8&amp;feature=relmfu , it is stated that I need the gradient of error (and therefore the inverse function of the node) for the output node before continuing. The bit I mean is at 6:30. 
 
 However, in the example I have, the output node is a summation node, and I was wondering how I would go about finding the error gradient in this case? I can't get the derivative of the activation function (A sum), can I?
 
-Thanks in advance!",8,2
-22,2012-11-13,2012,11,13,4,132t7y,Building Analytical Applications on Hadoop,https://www.reddit.com/r/MachineLearning/comments/132t7y/building_analytical_applications_on_hadoop/,agconway,1352749326,,1,23
-23,2012-11-13,2012,11,13,6,13322f,Announcing /r/aiHub ~ aiHub gathers quality and informative reddit submissions and discussions from the field of Artificial Intelligence.,https://www.reddit.com/r/MachineLearning/comments/13322f/announcing_raihub_aihub_gathers_quality_and/,locster,1352756680,,0,0
-24,2012-11-13,2012,11,13,7,1336yd,Anything better than pybrain for someone new machine learning?,https://www.reddit.com/r/MachineLearning/comments/1336yd/anything_better_than_pybrain_for_someone_new/,chewygumbarsnack,1352760659,,4,3
-25,2012-11-13,2012,11,13,10,133jg3,Large Scale Distributed Deep Networks,https://www.reddit.com/r/MachineLearning/comments/133jg3/large_scale_distributed_deep_networks/,marshallp,1352771559,,0,1
-26,2012-11-13,2012,11,13,18,1345b3,Compiling a list of awesome ML papers,https://www.reddit.com/r/MachineLearning/comments/1345b3/compiling_a_list_of_awesome_ml_papers/,julian255,1352797343,"I thought it would be cool to collect a list of some really awesome (maybe even a few ""lay person"" accesable) research papers on the topic of ML. I wanted to open it up to the /r/MachineLearning community and see what papers you found really interesting. Here are two I thought were pretty interesting:
+Thanks in advance!",8,2,False,self,,,,,
+22,MachineLearning,t5_2r3gv,2012-11-13,2012,11,13,4,132t7y,youtube.com,Building Analytical Applications on Hadoop,https://www.reddit.com/r/MachineLearning/comments/132t7y/building_analytical_applications_on_hadoop/,agconway,1352749326,,1,23,False,http://e.thumbs.redditmedia.com/2vhA51jXHDlXDdgX.jpg,,,,,
+23,MachineLearning,t5_2r3gv,2012-11-13,2012,11,13,6,13322f,reddit.com,Announcing /r/aiHub ~ aiHub gathers quality and informative reddit submissions and discussions from the field of Artificial Intelligence.,https://www.reddit.com/r/MachineLearning/comments/13322f/announcing_raihub_aihub_gathers_quality_and/,locster,1352756680,,0,0,False,default,,,,,
+24,MachineLearning,t5_2r3gv,2012-11-13,2012,11,13,7,1336yd,self.MachineLearning,Anything better than pybrain for someone new machine learning?,https://www.reddit.com/r/MachineLearning/comments/1336yd/anything_better_than_pybrain_for_someone_new/,chewygumbarsnack,1352760659,,4,3,False,self,,,,,
+25,MachineLearning,t5_2r3gv,2012-11-13,2012,11,13,10,133jg3,research.google.com,Large Scale Distributed Deep Networks,https://www.reddit.com/r/MachineLearning/comments/133jg3/large_scale_distributed_deep_networks/,marshallp,1352771559,,0,1,False,default,,,,,
+26,MachineLearning,t5_2r3gv,2012-11-13,2012,11,13,18,1345b3,self.MachineLearning,Compiling a list of awesome ML papers,https://www.reddit.com/r/MachineLearning/comments/1345b3/compiling_a_list_of_awesome_ml_papers/,julian255,1352797343,"I thought it would be cool to collect a list of some really awesome (maybe even a few ""lay person"" accesable) research papers on the topic of ML. I wanted to open it up to the /r/MachineLearning community and see what papers you found really interesting. Here are two I thought were pretty interesting:
 
 [Quantitative Analysis of Culture Using Millions of Digitized Books](http://www.sciencemag.org/content/331/6014/176.full.pdf)
 
 and 
 
-[Building High-level Features Using Large Scale Unsupervised Learning](http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/pubs/archive/38115.pdf)",10,34
-27,2012-11-14,2012,11,14,0,134j9c,"""How I cracked Troyis (the online flash chess game) using R"" (watch the video from minute 1:05)",https://www.reddit.com/r/MachineLearning/comments/134j9c/how_i_cracked_troyis_the_online_flash_chess_game/,talgalili,1352821924,,0,1
-28,2012-11-14,2012,11,14,2,134r9a,"Benchmarking bigglm (R's linear model function for ""big data"")",https://www.reddit.com/r/MachineLearning/comments/134r9a/benchmarking_bigglm_rs_linear_model_function_for/,talgalili,1352829199,,0,1
-29,2012-11-14,2012,11,14,3,134so1,"Google Fellow, Jeff Dean, presents 'Scaling Deep Learning' | TechTalks.tv",https://www.reddit.com/r/MachineLearning/comments/134so1/google_fellow_jeff_dean_presents_scaling_deep/,Jmartin024,1352830371,,0,0
-30,2012-11-14,2012,11,14,6,1356ii,Discussion: Google's Scalable Deep Learning + 1000 Genome Project?,https://www.reddit.com/r/MachineLearning/comments/1356ii/discussion_googles_scalable_deep_learning_1000/,locster,1352842029,"Should google be applying their recently devised scalable deep learning approach to freely available human genome data?
+[Building High-level Features Using Large Scale Unsupervised Learning](http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/pubs/archive/38115.pdf)",10,34,False,self,,,,,
+27,MachineLearning,t5_2r3gv,2012-11-14,2012,11,14,0,134j9c,r-bloggers.com,"""How I cracked Troyis (the online flash chess game) using R"" (watch the video from minute 1:05)",https://www.reddit.com/r/MachineLearning/comments/134j9c/how_i_cracked_troyis_the_online_flash_chess_game/,talgalili,1352821924,,0,1,False,default,,,,,
+28,MachineLearning,t5_2r3gv,2012-11-14,2012,11,14,2,134r9a,r-bloggers.com,"Benchmarking bigglm (R's linear model function for ""big data"")",https://www.reddit.com/r/MachineLearning/comments/134r9a/benchmarking_bigglm_rs_linear_model_function_for/,talgalili,1352829199,,0,1,False,http://a.thumbs.redditmedia.com/4gzcFpWHg-eBcR10.jpg,,,,,
+29,MachineLearning,t5_2r3gv,2012-11-14,2012,11,14,3,134so1,techtalks.tv,"Google Fellow, Jeff Dean, presents 'Scaling Deep Learning' | TechTalks.tv",https://www.reddit.com/r/MachineLearning/comments/134so1/google_fellow_jeff_dean_presents_scaling_deep/,Jmartin024,1352830371,,0,0,False,default,,,,,
+30,MachineLearning,t5_2r3gv,2012-11-14,2012,11,14,6,1356ii,self.MachineLearning,Discussion: Google's Scalable Deep Learning + 1000 Genome Project?,https://www.reddit.com/r/MachineLearning/comments/1356ii/discussion_googles_scalable_deep_learning_1000/,locster,1352842029,"Should google be applying their recently devised scalable deep learning approach to freely available human genome data?
 
 Some thoughts/links/info...
 
@@ -85,11 +85,11 @@ The [1000 genome project](http://aws.amazon.com/1000genomes/) has already releas
 
 Google already perform deep learning on large data sets, see [Scaling Deep Learning, Jeff Dean, Google](http://techtalks.tv/talks/57639/) and [Peter Norvig: Channeling the Flood of Data](http://fora.tv/2012/10/14/Peter_Norvig_Channeling_the_Flood_of_Data). tl;dr - they partition the data between machines within a data centre and communicate connection weight deltas between machines.
 
-It seems to me that deep learning may be able to discover deeper structures in the genetic sequences than are currently known, and that we might be able to find correlations between these deep structures and phenotype level features. Would this work? Is anyone aware of such a project? Thanks for reading.",24,18
-31,2012-11-14,2012,11,14,23,136jfz,How to deal with data that changes over time,https://www.reddit.com/r/MachineLearning/comments/136jfz/how_to_deal_with_data_that_changes_over_time/,shogun333,1352903021,"Hi,
+It seems to me that deep learning may be able to discover deeper structures in the genetic sequences than are currently known, and that we might be able to find correlations between these deep structures and phenotype level features. Would this work? Is anyone aware of such a project? Thanks for reading.",24,18,False,self,,,,,
+31,MachineLearning,t5_2r3gv,2012-11-14,2012,11,14,23,136jfz,self.MachineLearning,How to deal with data that changes over time,https://www.reddit.com/r/MachineLearning/comments/136jfz/how_to_deal_with_data_that_changes_over_time/,shogun333,1352903021,"Hi,
 
-I'm new to machine learning. I have read a little about the different types of classifying and regression algorithms that exist. I was hoping people could give me some suggestions (or suggest things to read) regarding how to deal with data that is changing over time, or that has a time element to it. ie. This might be sports statistics and would concern how to weigh data that is different at each round or event and how to weigh the other data fields across a time period.",0,1
-32,2012-11-15,2012,11,15,1,136rj8,Best R tutorial / book for Machine Learning ,https://www.reddit.com/r/MachineLearning/comments/136rj8/best_r_tutorial_book_for_machine_learning/,[deleted],1352911698,"I am in a ML and Data mining class right now and we are encouraged to use R for our assignments and projects.  I've been using Weka with my supervisor.
+I'm new to machine learning. I have read a little about the different types of classifying and regression algorithms that exist. I was hoping people could give me some suggestions (or suggest things to read) regarding how to deal with data that is changing over time, or that has a time element to it. ie. This might be sports statistics and would concern how to weigh data that is different at each round or event and how to weigh the other data fields across a time period.",0,1,False,self,,,,,
+32,MachineLearning,t5_2r3gv,2012-11-15,2012,11,15,1,136rj8,self.MachineLearning,Best R tutorial / book for Machine Learning ,https://www.reddit.com/r/MachineLearning/comments/136rj8/best_r_tutorial_book_for_machine_learning/,[deleted],1352911698,"I am in a ML and Data mining class right now and we are encouraged to use R for our assignments and projects.  I've been using Weka with my supervisor.
 
 I have a decent coding background but I wasn't able to understand the syntax of R so I need to find a good tutorial or book to help me learn, probably from the near begining.  
 
@@ -99,8 +99,8 @@ For our project we are to be pre-processing lots of text (which I could easily d
 
 So please recomend me a good tutorial or book I can get to help me learn the syntax for R that touches upon ML related tasks.
 
-Thanks",0,1
-33,2012-11-15,2012,11,15,1,136rne,Best R tutorial/book for Machine Learning,https://www.reddit.com/r/MachineLearning/comments/136rne/best_r_tutorialbook_for_machine_learning/,tekesavvy,1352911804,"I am in a ML and Data mining class right now and we are encouraged to use R for our assignments and projects. I've been using Weka with my supervisor.
+Thanks",0,1,False,default,,,,,
+33,MachineLearning,t5_2r3gv,2012-11-15,2012,11,15,1,136rne,self.MachineLearning,Best R tutorial/book for Machine Learning,https://www.reddit.com/r/MachineLearning/comments/136rne/best_r_tutorialbook_for_machine_learning/,tekesavvy,1352911804,"I am in a ML and Data mining class right now and we are encouraged to use R for our assignments and projects. I've been using Weka with my supervisor.
 
 I have a decent coding background but I wasn't able to understand the syntax of R so I need to find a good tutorial or book to help me learn, probably from the near begining. 
 
@@ -112,8 +112,8 @@ So please recomend me a good tutorial or book I can get to help me learn the syn
 
 Thanks
 
-",18,31
-34,2012-11-15,2012,11,15,5,137743,Are there any ML/NLP works/papers on parsing/solving math word problems?,https://www.reddit.com/r/MachineLearning/comments/137743/are_there_any_mlnlp_workspapers_on_parsingsolving/,akshayxyz,1352925658,"As the title says, any pointers are much appreciated.
+",18,31,False,self,,,,,
+34,MachineLearning,t5_2r3gv,2012-11-15,2012,11,15,5,137743,self.MachineLearning,Are there any ML/NLP works/papers on parsing/solving math word problems?,https://www.reddit.com/r/MachineLearning/comments/137743/are_there_any_mlnlp_workspapers_on_parsingsolving/,akshayxyz,1352925658,"As the title says, any pointers are much appreciated.
 
 I am exploring, where do we stand in terms of ML/NLP efforts, in context of solving (to begin with - parsing) Math Word Problems.
 
@@ -122,8 +122,8 @@ We have decent enough softwares in likes of Mathematica which can solve well for
 But when it comes to solving math problems expressed in natural languages, I could not find anything substantial.
 When I think about how to approach this, I see it as a sort of Machine Translation problem (translating from English to Math-equations), but there is hardly any 'labeled' data for that. Other approach can be semi (or un) sypervised Relation Extraction.
 
-Since these are just random thoughts, I want to start with some existing work/papers in this direction. My otherwise decent googling skills, didn't help much.",5,6
-35,2012-11-15,2012,11,15,6,137a5d,Can't figure out how to properly implement simple gradient descent ,https://www.reddit.com/r/MachineLearning/comments/137a5d/cant_figure_out_how_to_properly_implement_simple/,leex1867,1352928312,"Hi r/machinelearning, I'm in the process of learning Machine Learning for my own personal curiosity.  I'm loosely using Andrew Ng's lectures and notes from CS229, but am not taking the course.
+Since these are just random thoughts, I want to start with some existing work/papers in this direction. My otherwise decent googling skills, didn't help much.",5,6,False,self,,,,,
+35,MachineLearning,t5_2r3gv,2012-11-15,2012,11,15,6,137a5d,self.MachineLearning,Can't figure out how to properly implement simple gradient descent ,https://www.reddit.com/r/MachineLearning/comments/137a5d/cant_figure_out_how_to_properly_implement_simple/,leex1867,1352928312,"Hi r/machinelearning, I'm in the process of learning Machine Learning for my own personal curiosity.  I'm loosely using Andrew Ng's lectures and notes from CS229, but am not taking the course.
 
 I found a data set online with various car properties including miles per gallon.  I'm trying to use the car properties to predict miles per gallon.  This is the equation I'm using (or at least attempting to use):
 
@@ -331,12 +331,12 @@ Is this a common problem for beginners?  Any clear indication what I might be do
 			}
 		}
 	}
-",16,7
-36,2012-11-15,2012,11,15,9,137nlk,Why do scientists continue supporting the Kaggle model? Kaggle = scientists exploited.,https://www.reddit.com/r/MachineLearning/comments/137nlk/why_do_scientists_continue_supporting_the_kaggle/,rhiever,1352940511,,68,49
-37,2012-11-16,2012,11,16,1,138ubw,standard data sets for predictive neural networks,https://www.reddit.com/r/MachineLearning/comments/138ubw/standard_data_sets_for_predictive_neural_networks/,parisjackson2,1352996956,"Hi everyone. I've build a NN for a class research project and I'm wondering what data sets are the ""gold standard"" to use to test it against. I'm primarily interested in prediction and not classification.
+",16,7,False,self,,,,,
+36,MachineLearning,t5_2r3gv,2012-11-15,2012,11,15,9,137nlk,vimeo.com,Why do scientists continue supporting the Kaggle model? Kaggle = scientists exploited.,https://www.reddit.com/r/MachineLearning/comments/137nlk/why_do_scientists_continue_supporting_the_kaggle/,rhiever,1352940511,,68,49,False,http://a.thumbs.redditmedia.com/bXOo4yEIkoJvQrLN.jpg,,,,,
+37,MachineLearning,t5_2r3gv,2012-11-16,2012,11,16,1,138ubw,self.MachineLearning,standard data sets for predictive neural networks,https://www.reddit.com/r/MachineLearning/comments/138ubw/standard_data_sets_for_predictive_neural_networks/,parisjackson2,1352996956,"Hi everyone. I've build a NN for a class research project and I'm wondering what data sets are the ""gold standard"" to use to test it against. I'm primarily interested in prediction and not classification.
 
-Thanks for any help. ",25,9
-38,2012-11-16,2012,11,16,1,138ux4,Gradient Descent Take 2 (new code),https://www.reddit.com/r/MachineLearning/comments/138ux4/gradient_descent_take_2_new_code/,leex1867,1352997472,"First of all, thanks a lot to everyone for your help yesterday. 
+Thanks for any help. ",25,9,False,self,,,,,
+38,MachineLearning,t5_2r3gv,2012-11-16,2012,11,16,1,138ux4,self.MachineLearning,Gradient Descent Take 2 (new code),https://www.reddit.com/r/MachineLearning/comments/138ux4/gradient_descent_take_2_new_code/,leex1867,1352997472,"First of all, thanks a lot to everyone for your help yesterday. 
 
 I rewrote my code so that it uses arrays of arrays instead of data objects (I chose arrays of arrays instead of rectangular arrays to more easily take entire rows from the matrix, any comments on which is better?) and I only abstracted away the initial data read and matrix multiplication.  The code should be much easier to read now :)
 
@@ -389,8 +389,8 @@ Here is my new code:
             return Matrix.Matrix.Multiply(row, theta);
         }
 
-Thank you all for your help, I feel so close to the answer!",6,1
-39,2012-11-16,2012,11,16,2,138x38,How to visualise this data ? ,https://www.reddit.com/r/MachineLearning/comments/138x38/how_to_visualise_this_data/,WayUpLow,1352999365,"Ok so I have 2 categorical variables and two percentages and I am really struggling with how to visualise these appropriately. The data is of the form: 
+Thank you all for your help, I feel so close to the answer!",6,1,False,self,,,,,
+39,MachineLearning,t5_2r3gv,2012-11-16,2012,11,16,2,138x38,self.MachineLearning,How to visualise this data ? ,https://www.reddit.com/r/MachineLearning/comments/138x38/how_to_visualise_this_data/,WayUpLow,1352999365,"Ok so I have 2 categorical variables and two percentages and I am really struggling with how to visualise these appropriately. The data is of the form: 
 
 fields_per_rule, rules_per_class, test accuracy,training accuracy
 
@@ -426,9 +426,9 @@ fields_per_rule, rules_per_class, test accuracy,training accuracy
 
 64	50	0.664062	99
 
-I have results for varying sizes of training and test sets. So far I have created scatter plots of rules_per_class and fields_per_rule against percentage, but these turned out to look pretty horrible. Any help appreciated. ",0,1
-40,2012-11-16,2012,11,16,2,138xep,[ELI5] -Latent Dirichlet Allocation. Can you explain it like I'm five?,https://www.reddit.com/r/MachineLearning/comments/138xep/eli5_latent_dirichlet_allocation_can_you_explain/,umdebaba,1352999671,New to ML would appreciate the help. Thanks in advance!,4,14
-41,2012-11-16,2012,11,16,3,1390uq,Perspective/Pose estimation of marker object,https://www.reddit.com/r/MachineLearning/comments/1390uq/perspectivepose_estimation_of_marker_object/,nphinity,1353002711,"Hello /MachineLearning, 
+I have results for varying sizes of training and test sets. So far I have created scatter plots of rules_per_class and fields_per_rule against percentage, but these turned out to look pretty horrible. Any help appreciated. ",0,1,False,self,,,,,
+40,MachineLearning,t5_2r3gv,2012-11-16,2012,11,16,2,138xep,self.MachineLearning,[ELI5] -Latent Dirichlet Allocation. Can you explain it like I'm five?,https://www.reddit.com/r/MachineLearning/comments/138xep/eli5_latent_dirichlet_allocation_can_you_explain/,umdebaba,1352999671,New to ML would appreciate the help. Thanks in advance!,4,14,False,self,,,,,
+41,MachineLearning,t5_2r3gv,2012-11-16,2012,11,16,3,1390uq,self.MachineLearning,Perspective/Pose estimation of marker object,https://www.reddit.com/r/MachineLearning/comments/1390uq/perspectivepose_estimation_of_marker_object/,nphinity,1353002711,"Hello /MachineLearning, 
 
 I am interested in perspective/pose estimation of an object
 using a Neural Network. 
@@ -457,9 +457,9 @@ So /MachineLearning, what do you guys think ? Moving in the right
 direction, or am I way of ? :o
 
 Thanks!
-",6,2
-42,2012-11-16,2012,11,16,3,139222,Oblivion,https://www.reddit.com/r/MachineLearning/comments/139222/oblivion/,[deleted],1353003830,,0,1
-43,2012-11-16,2012,11,16,5,1398qz,[Topic Modeling] How would you cluster documents by topics when the documents should belong to exclusively the most relevant topic?,https://www.reddit.com/r/MachineLearning/comments/1398qz/topic_modeling_how_would_you_cluster_documents_by/,[deleted],1353009906,"I'm trying to implement a method that takes a long list of search terms and groups them together by topic where the number of topics is not known in advance.
+",6,2,False,self,,,,,
+42,MachineLearning,t5_2r3gv,2012-11-16,2012,11,16,3,139222,waltherpragerandphilosophy.blogspot.ro,Oblivion,https://www.reddit.com/r/MachineLearning/comments/139222/oblivion/,[deleted],1353003830,,0,1,False,default,,,,,
+43,MachineLearning,t5_2r3gv,2012-11-16,2012,11,16,5,1398qz,self.MachineLearning,[Topic Modeling] How would you cluster documents by topics when the documents should belong to exclusively the most relevant topic?,https://www.reddit.com/r/MachineLearning/comments/1398qz/topic_modeling_how_would_you_cluster_documents_by/,[deleted],1353009906,"I'm trying to implement a method that takes a long list of search terms and groups them together by topic where the number of topics is not known in advance.
 
 **Example list: ** shoes for women, women shoes, cheap shoes, wholesale women shoes, cheap running shoes, shoes for cheap
 
@@ -475,10 +475,10 @@ I've tried using LSA in R but it produces many topics with keywords belonging to
 
 Any ideas on how to approach this?
 -or-
-Is there some approach I can take on the output of LSA to hard cluster without knowing in advance the number of topics?",0,1
-44,2012-11-16,2012,11,16,6,139dgg,Innovation in Statistical Computing,https://www.reddit.com/r/MachineLearning/comments/139dgg/innovation_in_statistical_computing/,talgalili,1353013945,,0,1
-45,2012-11-16,2012,11,16,8,139lhv,Calculate Statistics Online,https://www.reddit.com/r/MachineLearning/comments/139lhv/calculate_statistics_online/,turnersr,1353020763,,0,17
-46,2012-11-16,2012,11,16,10,139ueo,[Topic Modeling] How to implement Google Ad Group Ideas (beta) functionality?,https://www.reddit.com/r/MachineLearning/comments/139ueo/topic_modeling_how_to_implement_google_ad_group/,umdebaba,1353029028,"I'm trying to implement a method that takes a long list of search terms and groups them together by topic where the number of topics is not known in advance.
+Is there some approach I can take on the output of LSA to hard cluster without knowing in advance the number of topics?",0,1,False,default,,,,,
+44,MachineLearning,t5_2r3gv,2012-11-16,2012,11,16,6,139dgg,r-bloggers.com,Innovation in Statistical Computing,https://www.reddit.com/r/MachineLearning/comments/139dgg/innovation_in_statistical_computing/,talgalili,1353013945,,0,1,False,http://a.thumbs.redditmedia.com/4gzcFpWHg-eBcR10.jpg,,,,,
+45,MachineLearning,t5_2r3gv,2012-11-16,2012,11,16,8,139lhv,littlestat.com,Calculate Statistics Online,https://www.reddit.com/r/MachineLearning/comments/139lhv/calculate_statistics_online/,turnersr,1353020763,,0,17,False,default,,,,,
+46,MachineLearning,t5_2r3gv,2012-11-16,2012,11,16,10,139ueo,self.MachineLearning,[Topic Modeling] How to implement Google Ad Group Ideas (beta) functionality?,https://www.reddit.com/r/MachineLearning/comments/139ueo/topic_modeling_how_to_implement_google_ad_group/,umdebaba,1353029028,"I'm trying to implement a method that takes a long list of search terms and groups them together by topic where the number of topics is not known in advance.
 
 **Example list: ** shoes for women, women shoes, cheap shoes, wholesale women shoes, cheap running shoes, shoes for cheap
 
@@ -494,8 +494,8 @@ I've tried using LSA in R but it produces many topics with keywords belonging to
 
 Any ideas on how to approach this?
 -or-
-Is there some approach I can take on the output of LSA to hard cluster without knowing in advance the number of topics?",0,1
-47,2012-11-16,2012,11,16,13,13a5xi,List of unsupervised learning algorithms. ,https://www.reddit.com/r/MachineLearning/comments/13a5xi/list_of_unsupervised_learning_algorithms/,Ayakalam,1353039429,"
+Is there some approach I can take on the output of LSA to hard cluster without knowing in advance the number of topics?",0,1,False,self,,,,,
+47,MachineLearning,t5_2r3gv,2012-11-16,2012,11,16,13,13a5xi,self.MachineLearning,List of unsupervised learning algorithms. ,https://www.reddit.com/r/MachineLearning/comments/13a5xi/list_of_unsupervised_learning_algorithms/,Ayakalam,1353039429,"
 Hi r/machineLearning!
 
 
@@ -527,17 +527,17 @@ So far my list includes:
 Thanks in advance!! 
 
 
-",25,16
-48,2012-11-16,2012,11,16,16,13aex5,Book for learning statistics and probability theory to help developer deeper understanding of machine learning algorithms,https://www.reddit.com/r/MachineLearning/comments/13aex5/book_for_learning_statistics_and_probability/,S1r1usBl4ck,1353050215,"I am new to Machine learning and I find it hard to understand many of the probability and statistical approaches. I don't have a proper probability and statistical background and I want to gain that understanding. Especially topics like markov chains, markov random fields [used a lot in computer vision] go over the top of my head. Can someone please recommend me some good books [assuming I have very little mathematical background] to cover these topics?",12,12
-49,2012-11-17,2012,11,17,7,13bl5k,"Tutorials for Weka, imbalanced data, ROC Curves and AUC?",https://www.reddit.com/r/MachineLearning/comments/13bl5k/tutorials_for_weka_imbalanced_data_roc_curves_and/,tekesavvy,1353103942,"I am working on a classification project that has imbalanced data, (90-10%) and I am working on the classification rate.  I understand the basics of how to use Weka explorer.
+",25,16,False,self,,,,,
+48,MachineLearning,t5_2r3gv,2012-11-16,2012,11,16,16,13aex5,self.MachineLearning,Book for learning statistics and probability theory to help developer deeper understanding of machine learning algorithms,https://www.reddit.com/r/MachineLearning/comments/13aex5/book_for_learning_statistics_and_probability/,S1r1usBl4ck,1353050215,"I am new to Machine learning and I find it hard to understand many of the probability and statistical approaches. I don't have a proper probability and statistical background and I want to gain that understanding. Especially topics like markov chains, markov random fields [used a lot in computer vision] go over the top of my head. Can someone please recommend me some good books [assuming I have very little mathematical background] to cover these topics?",12,12,False,self,,,,,
+49,MachineLearning,t5_2r3gv,2012-11-17,2012,11,17,7,13bl5k,self.MachineLearning,"Tutorials for Weka, imbalanced data, ROC Curves and AUC?",https://www.reddit.com/r/MachineLearning/comments/13bl5k/tutorials_for_weka_imbalanced_data_roc_curves_and/,tekesavvy,1353103942,"I am working on a classification project that has imbalanced data, (90-10%) and I am working on the classification rate.  I understand the basics of how to use Weka explorer.
 
 Since this data is imbalanced I need to look at the ROC curves and the AUC to determine if I am actually improving my classification rate (and not just labeling everything with the 90% label).
 
 Do you know of any good tutorials that deal with this in Weka?  If not, what about in R (though I have little experience with this).
 
-Thanks",2,4
-50,2012-11-17,2012,11,17,7,13blz2,Early detection of Twitter trends explained,https://www.reddit.com/r/MachineLearning/comments/13blz2/early_detection_of_twitter_trends_explained/,qvadis,1353104745,,27,52
-51,2012-11-17,2012,11,17,20,13cjeb,Generating a multiple choice quiz from content to determine a users level of knowledge,https://www.reddit.com/r/MachineLearning/comments/13cjeb/generating_a_multiple_choice_quiz_from_content_to/,nickhac,1353151612,"Wondering if any of you guys have seen any solutions that address this problem.
+Thanks",2,4,False,self,,,,,
+50,MachineLearning,t5_2r3gv,2012-11-17,2012,11,17,7,13blz2,snikolov.wordpress.com,Early detection of Twitter trends explained,https://www.reddit.com/r/MachineLearning/comments/13blz2/early_detection_of_twitter_trends_explained/,qvadis,1353104745,,27,52,False,http://f.thumbs.redditmedia.com/qvgneJt3kibzRYu5.jpg,,,,,
+51,MachineLearning,t5_2r3gv,2012-11-17,2012,11,17,20,13cjeb,self.MachineLearning,Generating a multiple choice quiz from content to determine a users level of knowledge,https://www.reddit.com/r/MachineLearning/comments/13cjeb/generating_a_multiple_choice_quiz_from_content_to/,nickhac,1353151612,"Wondering if any of you guys have seen any solutions that address this problem.
 
 We need a solution that will generate multiple choice quiz answers based on a set of questions and answers
 
@@ -560,16 +560,16 @@ I'm looking to build some software that would to generate a number of answers wh
 Has anyone seen anything like this?
 
 
-How should i go about solving this?",0,1
-52,2012-11-20,2012,11,20,2,13gjk5,Machine Learning grad schools in Europe,https://www.reddit.com/r/MachineLearning/comments/13gjk5/machine_learning_grad_schools_in_europe/,grozar,1353347090,"Hello everyone,
-I'm a senior student in Computer Science. And I'm thinking to apply for a master's degree. I'm having trouble choosing the university. If any of you is a student at one of those universities and if you share your experience, that would be great.",23,8
-53,2012-11-20,2012,11,20,19,13i4pg,Hire Buy Sell: DINGO HIRE,https://www.reddit.com/r/MachineLearning/comments/13i4pg/hire_buy_sell_dingo_hire/,hirebuysell,1353406507,,0,1
-54,2012-11-20,2012,11,20,21,13i8h7,How can I get started with non-invasive brain computer interfaces?,https://www.reddit.com/r/MachineLearning/comments/13i8h7/how_can_i_get_started_with_noninvasive_brain/,capt_compile2,1353414764,"Hi
+How should i go about solving this?",0,1,False,self,,,,,
+52,MachineLearning,t5_2r3gv,2012-11-20,2012,11,20,2,13gjk5,self.MachineLearning,Machine Learning grad schools in Europe,https://www.reddit.com/r/MachineLearning/comments/13gjk5/machine_learning_grad_schools_in_europe/,grozar,1353347090,"Hello everyone,
+I'm a senior student in Computer Science. And I'm thinking to apply for a master's degree. I'm having trouble choosing the university. If any of you is a student at one of those universities and if you share your experience, that would be great.",23,8,False,self,,,,,
+53,MachineLearning,t5_2r3gv,2012-11-20,2012,11,20,19,13i4pg,hirebuysell.com.au,Hire Buy Sell: DINGO HIRE,https://www.reddit.com/r/MachineLearning/comments/13i4pg/hire_buy_sell_dingo_hire/,hirebuysell,1353406507,,0,1,False,default,,,,,
+54,MachineLearning,t5_2r3gv,2012-11-20,2012,11,20,21,13i8h7,self.MachineLearning,How can I get started with non-invasive brain computer interfaces?,https://www.reddit.com/r/MachineLearning/comments/13i8h7/how_can_i_get_started_with_noninvasive_brain/,capt_compile2,1353414764,"Hi
 
-I'm a Computer Science and Electrical Engineering undergrad and I've started becoming really interested in BCI. How can I get involved/get started with BCI? I'm guessing the hard part here is the EEG classification? How can I get started with that?",13,1
-55,2012-11-20,2012,11,20,23,13iczq,Very successful model builder on why machines can't work without humans,https://www.reddit.com/r/MachineLearning/comments/13iczq/very_successful_model_builder_on_why_machines/,rrenaud,1353421962,,17,0
-56,2012-11-21,2012,11,21,5,13j0y7,Optimal Descriptive NFL Rankings,https://www.reddit.com/r/MachineLearning/comments/13j0y7/optimal_descriptive_nfl_rankings/,agconway,1353445104,,2,18
-57,2012-11-24,2012,11,24,2,13o8t4,I want to build a crime index and political instability index based in news stories.,https://www.reddit.com/r/MachineLearning/comments/13o8t4/i_want_to_build_a_crime_index_and_political/,alzwke,1353690673,"Hello, I have this side project where I crawl the local news websites in my country and want to build a crime index and political instability index.
+I'm a Computer Science and Electrical Engineering undergrad and I've started becoming really interested in BCI. How can I get involved/get started with BCI? I'm guessing the hard part here is the EEG classification? How can I get started with that?",13,1,False,self,,,,,
+55,MachineLearning,t5_2r3gv,2012-11-20,2012,11,20,23,13iczq,blog.ad-tech.com,Very successful model builder on why machines can't work without humans,https://www.reddit.com/r/MachineLearning/comments/13iczq/very_successful_model_builder_on_why_machines/,rrenaud,1353421962,,17,0,False,http://c.thumbs.redditmedia.com/ulvLVcNzKvCEoepD.jpg,,,,,
+56,MachineLearning,t5_2r3gv,2012-11-21,2012,11,21,5,13j0y7,seanjtaylor.com,Optimal Descriptive NFL Rankings,https://www.reddit.com/r/MachineLearning/comments/13j0y7/optimal_descriptive_nfl_rankings/,agconway,1353445104,,2,18,False,default,,,,,
+57,MachineLearning,t5_2r3gv,2012-11-24,2012,11,24,2,13o8t4,self.MachineLearning,I want to build a crime index and political instability index based in news stories.,https://www.reddit.com/r/MachineLearning/comments/13o8t4/i_want_to_build_a_crime_index_and_political/,alzwke,1353690673,"Hello, I have this side project where I crawl the local news websites in my country and want to build a crime index and political instability index.
 
 I have already covered the information retrieval part of the project. My plan is:
 
@@ -583,8 +583,8 @@ My next step is to build the monthly, weekly and daily index (nation-wide and pe
 
 I would appreciate any pointer to a paper, relevant readings or thoughts.
 
-Thanks.",11,17
-58,2012-11-24,2012,11,24,5,13oks3,What would cause Neural Network errors to decrease then increase while training?,https://www.reddit.com/r/MachineLearning/comments/13oks3/what_would_cause_neural_network_errors_to/,parisjackson2,1353703582,"I've built a NN and sometimes while I'm training it the average of the errors between the computed outputs and the real outputs will go down to a point and then start to rise. 
+Thanks.",11,17,False,self,,,,,
+58,MachineLearning,t5_2r3gv,2012-11-24,2012,11,24,5,13oks3,self.MachineLearning,What would cause Neural Network errors to decrease then increase while training?,https://www.reddit.com/r/MachineLearning/comments/13oks3/what_would_cause_neural_network_errors_to/,parisjackson2,1353703582,"I've built a NN and sometimes while I'm training it the average of the errors between the computed outputs and the real outputs will go down to a point and then start to rise. 
 
 For example -
 Say there are 50 training rows and the average difference between my results and the real results is:
@@ -599,23 +599,23 @@ Iteration 8)0.018
 Iteration 9)0.019
 Iteration 10)0.02
 
-Does anyone know why this would occur? I would think the errors would quickly go back down but they don't seem to.",1,0
-59,2012-11-24,2012,11,24,7,13orn2,AUC of imbalanced data,https://www.reddit.com/r/MachineLearning/comments/13orn2/auc_of_imbalanced_data/,PurpleHydra,1353711125,"I understand if you look at the AUC of a ROC curve of a balanced data set it should be over 0.5 otherwise your classifier is horrible.
+Does anyone know why this would occur? I would think the errors would quickly go back down but they don't seem to.",1,0,False,self,,,,,
+59,MachineLearning,t5_2r3gv,2012-11-24,2012,11,24,7,13orn2,self.MachineLearning,AUC of imbalanced data,https://www.reddit.com/r/MachineLearning/comments/13orn2/auc_of_imbalanced_data/,PurpleHydra,1353711125,"I understand if you look at the AUC of a ROC curve of a balanced data set it should be over 0.5 otherwise your classifier is horrible.
 
-Now what happens if you have imbalanced data?  Say 90%-10%?  Does the AUC have to be over 90%?  Over 50%?  How does it work, how does it change and how do you calculate the new ratio?",2,2
-60,2012-11-25,2012,11,25,0,13prya,Scientists See Promise in Deep-Learning Programs,https://www.reddit.com/r/MachineLearning/comments/13prya/scientists_see_promise_in_deeplearning_programs/,[deleted],1353770768,,8,47
-61,2012-11-25,2012,11,25,7,13qc8o,Methods to choosing kernel points during learning,https://www.reddit.com/r/MachineLearning/comments/13qc8o/methods_to_choosing_kernel_points_during_learning/,[deleted],1353794868,"Hi,
-
-When using kernels in a machine learning problem, each data point is generally chosen as a center for a kernel basis function. For a huge training set, this can lead to a huge number of parameters which need to be trained. What are some commonly used methods to select some subset of the data which can be used for prediction? I know that some sparse kernel methods (like SVM) can be used for some problems, but are there generic ways to deal with this (which can work with classification, regression, and any choice of loss function)?
-
-Thanks!",0,1
-62,2012-11-25,2012,11,25,7,13qdef,Methods to choose kernel points during learning,https://www.reddit.com/r/MachineLearning/comments/13qdef/methods_to_choose_kernel_points_during_learning/,chip_0,1353796099,"Hi,
+Now what happens if you have imbalanced data?  Say 90%-10%?  Does the AUC have to be over 90%?  Over 50%?  How does it work, how does it change and how do you calculate the new ratio?",2,2,False,self,,,,,
+60,MachineLearning,t5_2r3gv,2012-11-25,2012,11,25,0,13prya,nytimes.com,Scientists See Promise in Deep-Learning Programs,https://www.reddit.com/r/MachineLearning/comments/13prya/scientists_see_promise_in_deeplearning_programs/,[deleted],1353770768,,8,47,False,default,,,,,
+61,MachineLearning,t5_2r3gv,2012-11-25,2012,11,25,7,13qc8o,self.MachineLearning,Methods to choosing kernel points during learning,https://www.reddit.com/r/MachineLearning/comments/13qc8o/methods_to_choosing_kernel_points_during_learning/,[deleted],1353794868,"Hi,
 
 When using kernels in a machine learning problem, each data point is generally chosen as a center for a kernel basis function. For a huge training set, this can lead to a huge number of parameters which need to be trained. What are some commonly used methods to select some subset of the data which can be used for prediction? I know that some sparse kernel methods (like SVM) can be used for some problems, but are there generic ways to deal with this (which can work with classification, regression, and any choice of loss function)?
 
-Thanks!",6,5
-63,2012-11-25,2012,11,25,16,13r3ec,"Gaussian distributions form a monoid, and why machine learning experts should care",https://www.reddit.com/r/MachineLearning/comments/13r3ec/gaussian_distributions_form_a_monoid_and_why/,PokerPirate,1353828655,,9,6
-64,2012-11-26,2012,11,26,2,13rjpg,"I'm interested in building a robust Monopoly board game simulator, anyone familiar with previous work done in this area?",https://www.reddit.com/r/MachineLearning/comments/13rjpg/im_interested_in_building_a_robust_monopoly_board/,juicedealer,1353863603,"As a hobby I'm considering building a program to simulate Monopoly games to test strategies. I know that there are many models out there that simply calculate the likelihood of landing on a particular space. My goal would be to build something a bit more detailed to gather some more interesting data about the game. I'd like to incorporate agent based learning into the model to test and develop strategies for playing. I'm wondering if anyone has seen a similar project done in the past. I spent about an hour searching on google and I found a couple of things:
+Thanks!",0,1,False,default,,,,,
+62,MachineLearning,t5_2r3gv,2012-11-25,2012,11,25,7,13qdef,self.MachineLearning,Methods to choose kernel points during learning,https://www.reddit.com/r/MachineLearning/comments/13qdef/methods_to_choose_kernel_points_during_learning/,chip_0,1353796099,"Hi,
+
+When using kernels in a machine learning problem, each data point is generally chosen as a center for a kernel basis function. For a huge training set, this can lead to a huge number of parameters which need to be trained. What are some commonly used methods to select some subset of the data which can be used for prediction? I know that some sparse kernel methods (like SVM) can be used for some problems, but are there generic ways to deal with this (which can work with classification, regression, and any choice of loss function)?
+
+Thanks!",6,5,False,self,,,,,
+63,MachineLearning,t5_2r3gv,2012-11-25,2012,11,25,16,13r3ec,izbicki.me,"Gaussian distributions form a monoid, and why machine learning experts should care",https://www.reddit.com/r/MachineLearning/comments/13r3ec/gaussian_distributions_form_a_monoid_and_why/,PokerPirate,1353828655,,9,6,False,http://a.thumbs.redditmedia.com/pjOv3Ca36hAw_46Z.jpg,,,,,
+64,MachineLearning,t5_2r3gv,2012-11-26,2012,11,26,2,13rjpg,self.MachineLearning,"I'm interested in building a robust Monopoly board game simulator, anyone familiar with previous work done in this area?",https://www.reddit.com/r/MachineLearning/comments/13rjpg/im_interested_in_building_a_robust_monopoly_board/,juicedealer,1353863603,"As a hobby I'm considering building a program to simulate Monopoly games to test strategies. I know that there are many models out there that simply calculate the likelihood of landing on a particular space. My goal would be to build something a bit more detailed to gather some more interesting data about the game. I'd like to incorporate agent based learning into the model to test and develop strategies for playing. I'm wondering if anyone has seen a similar project done in the past. I spent about an hour searching on google and I found a couple of things:
 
 
 *Monopoly Nerd's blog: 
@@ -638,15 +638,15 @@ http://www.tjhsst.edu/~rlatimer/techlab08/LoffredoPaperQ2-08.pdf
 
 This is the only thing that comes close to what I want to do, but the paper is extremely vague as it doesn't include any results so I don't know if the project was even completed. There is no institution or organization listed but the author's name is there.
 
-Let me know if any of you have stumbled across something related to Monopoly simulations on the internet. I know it's probably not likely but it's worth a shot. Thanks.",4,18
-65,2012-11-26,2012,11,26,3,13rm7y,EDMit - a new subreddit for Educational Data Mining,https://www.reddit.com/r/MachineLearning/comments/13rm7y/edmit_a_new_subreddit_for_educational_data_mining/,virtuous_d,1353866507,"Hello everyone, I just created [EDMit](http://www.reddit.com/r/EDMit/), a subreddit dedicated to the application of Machine Learning and other computational sciences to the education domain.
+Let me know if any of you have stumbled across something related to Monopoly simulations on the internet. I know it's probably not likely but it's worth a shot. Thanks.",4,18,False,self,,,,,
+65,MachineLearning,t5_2r3gv,2012-11-26,2012,11,26,3,13rm7y,self.MachineLearning,EDMit - a new subreddit for Educational Data Mining,https://www.reddit.com/r/MachineLearning/comments/13rm7y/edmit_a_new_subreddit_for_educational_data_mining/,virtuous_d,1353866507,"Hello everyone, I just created [EDMit](http://www.reddit.com/r/EDMit/), a subreddit dedicated to the application of Machine Learning and other computational sciences to the education domain.
 
 Please subscribe and post if you are interested!
 
-If you are particularly passionate about this idea, send me a PM and I will add you as a mod :) ",0,0
-66,2012-11-26,2012,11,26,8,13s72u,[This will take years.] Build me a online curriculum to go from basic arithmetic to understanding the math of 1) Deep Learning networks and 2) the type of (vector?) math that GPUs do so quickly [xpost from /r/math],https://www.reddit.com/r/MachineLearning/comments/13s72u/this_will_take_years_build_me_a_online_curriculum/,languist,1353887264,,2,0
-67,2012-11-26,2012,11,26,11,13sgvq,Is Deep Learning a Revolution in Artificial Intelligence? : The New Yorker,https://www.reddit.com/r/MachineLearning/comments/13sgvq/is_deep_learning_a_revolution_in_artificial/,Barbas,1353896815,,8,31
-68,2012-11-26,2012,11,26,19,13t303,Multiclass classification with SVM (1 vs all) question,https://www.reddit.com/r/MachineLearning/comments/13t303/multiclass_classification_with_svm_1_vs_all/,[deleted],1353927006,"Hi
+If you are particularly passionate about this idea, send me a PM and I will add you as a mod :) ",0,0,False,self,,,,,
+66,MachineLearning,t5_2r3gv,2012-11-26,2012,11,26,8,13s72u,reddit.com,[This will take years.] Build me a online curriculum to go from basic arithmetic to understanding the math of 1) Deep Learning networks and 2) the type of (vector?) math that GPUs do so quickly [xpost from /r/math],https://www.reddit.com/r/MachineLearning/comments/13s72u/this_will_take_years_build_me_a_online_curriculum/,languist,1353887264,,2,0,False,default,,,,,
+67,MachineLearning,t5_2r3gv,2012-11-26,2012,11,26,11,13sgvq,newyorker.com,Is Deep Learning a Revolution in Artificial Intelligence? : The New Yorker,https://www.reddit.com/r/MachineLearning/comments/13sgvq/is_deep_learning_a_revolution_in_artificial/,Barbas,1353896815,,8,31,False,http://c.thumbs.redditmedia.com/b6fYl8H0t90Cd0Jz.jpg,,,,,
+68,MachineLearning,t5_2r3gv,2012-11-26,2012,11,26,19,13t303,self.MachineLearning,Multiclass classification with SVM (1 vs all) question,https://www.reddit.com/r/MachineLearning/comments/13t303/multiclass_classification_with_svm_1_vs_all/,[deleted],1353927006,"Hi
 
 I'm trying to do Multiclass classification with SVM, I have 7 classes. Now I was wondering if this was possible. I'm thinking of creating 7 SVMs for 1 vs all approach. Am i allowed to create 1 kind of feature vector per class? So e.g.
 
@@ -658,14 +658,14 @@ And then assign the class-label with the highest confidence (probability), to th
 
 Is this cheating ? Or is this allowed ?
 
-",1,1
-69,2012-11-26,2012,11,26,19,13t38t,"Viola &amp; Jones, the process of combining multiple techniques to achieve a great algorithm?",https://www.reddit.com/r/MachineLearning/comments/13t38t/viola_jones_the_process_of_combining_multiple/,[deleted],1353927567,"I've been marveling at the success Viola &amp; Jones had with their face detector. As I understand, until then, face detection techniques had poor scores for real benchmarking sets (not the easy databases of perfectly framed faces and obvious non-faces). Then along, came these 2 great scientists at MS Research and combined the idea of an integral image, with AdaBoost and weak cascaded classifiers to achieve great fidelity for real-world sets.
+",1,1,False,self,,,,,
+69,MachineLearning,t5_2r3gv,2012-11-26,2012,11,26,19,13t38t,self.MachineLearning,"Viola &amp; Jones, the process of combining multiple techniques to achieve a great algorithm?",https://www.reddit.com/r/MachineLearning/comments/13t38t/viola_jones_the_process_of_combining_multiple/,[deleted],1353927567,"I've been marveling at the success Viola &amp; Jones had with their face detector. As I understand, until then, face detection techniques had poor scores for real benchmarking sets (not the easy databases of perfectly framed faces and obvious non-faces). Then along, came these 2 great scientists at MS Research and combined the idea of an integral image, with AdaBoost and weak cascaded classifiers to achieve great fidelity for real-world sets.
 
 The winning algorithm is a mix of very different techniques, as it seems many good ML &amp; CV algorithms are these days. So I was wondering how one goes about choosing which techniques to aggregate in order to get the best results. Is there a process or framework to these choices or is it just intuition these days?
-",0,1
-70,2012-11-27,2012,11,27,3,13tpq6,Computer AI successfully identifies why abstract art evokes human emotion,https://www.reddit.com/r/MachineLearning/comments/13tpq6/computer_ai_successfully_identifies_why_abstract/,[deleted],1353956146,,0,0
-71,2012-11-27,2012,11,27,9,13uc5l,Do we need parsed corpora - Lousy linguist,https://www.reddit.com/r/MachineLearning/comments/13uc5l/do_we_need_parsed_corpora_lousy_linguist/,HughJorgan1986,1353975242,,0,2
-72,2012-11-27,2012,11,27,12,13urfq,"Analytics / Data Science MS or Coursera / Udacity, after Econ / Econometrics Undergrad ",https://www.reddit.com/r/MachineLearning/comments/13urfq/analytics_data_science_ms_or_coursera_udacity/,[deleted],1353988059,"I earned my BA in Economics in 2011, mostly taking courses in econometrics and mathematical economics. Now, I'm interested in going into data science / analytics and was wondering if I should take the graduate school route and get a MS in Analytics or self-study ML, Data Mining, etc. through Coursera / Udacity. My CS background is limited to coursework up to Algorithms, and I don't currently work in IT (actually, I work in anti-money laundering, hah.) Honestly, I miss numbers and data from all the econometrics I studied, and am anxious to get out of finance and into tech, where honestly, I probably belong. 
+",0,1,False,default,,,,,
+70,MachineLearning,t5_2r3gv,2012-11-27,2012,11,27,3,13tpq6,extremetech.com,Computer AI successfully identifies why abstract art evokes human emotion,https://www.reddit.com/r/MachineLearning/comments/13tpq6/computer_ai_successfully_identifies_why_abstract/,[deleted],1353956146,,0,0,False,default,,,,,
+71,MachineLearning,t5_2r3gv,2012-11-27,2012,11,27,9,13uc5l,thelousylinguist.blogspot.com,Do we need parsed corpora - Lousy linguist,https://www.reddit.com/r/MachineLearning/comments/13uc5l/do_we_need_parsed_corpora_lousy_linguist/,HughJorgan1986,1353975242,,0,2,False,http://f.thumbs.redditmedia.com/Xx5SVlIwIeQUW1kk.jpg,,,,,
+72,MachineLearning,t5_2r3gv,2012-11-27,2012,11,27,12,13urfq,self.MachineLearning,"Analytics / Data Science MS or Coursera / Udacity, after Econ / Econometrics Undergrad ",https://www.reddit.com/r/MachineLearning/comments/13urfq/analytics_data_science_ms_or_coursera_udacity/,[deleted],1353988059,"I earned my BA in Economics in 2011, mostly taking courses in econometrics and mathematical economics. Now, I'm interested in going into data science / analytics and was wondering if I should take the graduate school route and get a MS in Analytics or self-study ML, Data Mining, etc. through Coursera / Udacity. My CS background is limited to coursework up to Algorithms, and I don't currently work in IT (actually, I work in anti-money laundering, hah.) Honestly, I miss numbers and data from all the econometrics I studied, and am anxious to get out of finance and into tech, where honestly, I probably belong. 
 
 Given that I don't have work experience in IT, nor a degree in CS, I figure my best bet is going through a structured program and incurring the cost, even though I could probably just as easily learn the material myself, in order to take advantage of the extracurricular offerings through practicums, internships, and career services. What do you guys think?
 
@@ -676,8 +676,8 @@ Just FYI, these are some of the MS programs I'm considering, with USF as my firs
 [Northwestern MS in Analytics](http://www.analytics.northwestern.edu)
 
 [NCSU MS in Analytics](http://analytics.ncsu.edu)
-",1,0
-73,2012-11-27,2012,11,27,15,13v0wl,Does bootstrapping legitimately increase the number of significant digits in my summary statistic?,https://www.reddit.com/r/MachineLearning/comments/13v0wl/does_bootstrapping_legitimately_increase_the/,peristimulus,1353997302,"Say I have a 2-class classification problem. I have 100 samples altogether in my data, and I train and test a classifier with 5-fold cross-validation. To estimate mean accuracy and confidence intervals, I resort to bootstrapping.
+",1,0,False,default,,,,,
+73,MachineLearning,t5_2r3gv,2012-11-27,2012,11,27,15,13v0wl,self.MachineLearning,Does bootstrapping legitimately increase the number of significant digits in my summary statistic?,https://www.reddit.com/r/MachineLearning/comments/13v0wl/does_bootstrapping_legitimately_increase_the/,peristimulus,1353997302,"Say I have a 2-class classification problem. I have 100 samples altogether in my data, and I train and test a classifier with 5-fold cross-validation. To estimate mean accuracy and confidence intervals, I resort to bootstrapping.
 
 I this example, the sample I bootstrap on consists of 100 binary values that represent right or wrong prediction on my test samples, pooled across the 5 folds (80 training samples and 20 test samples per validation folds x 5 folds = 100 test samples). 
 
@@ -694,8 +694,8 @@ It probably makes no difference to my current article, but I'd like to get it ri
 
 Thanks for your input!
 
-[Edit: Typos and language]",4,8
-74,2012-11-28,2012,11,28,2,13vpuf,Are Kohonen SOMs and K-means really that different?,https://www.reddit.com/r/MachineLearning/comments/13vpuf/are_kohonen_soms_and_kmeans_really_that_different/,Ayakalam,1354035867,"
+[Edit: Typos and language]",4,8,False,self,,,,,
+74,MachineLearning,t5_2r3gv,2012-11-28,2012,11,28,2,13vpuf,self.MachineLearning,Are Kohonen SOMs and K-means really that different?,https://www.reddit.com/r/MachineLearning/comments/13vpuf/are_kohonen_soms_and_kmeans_really_that_different/,Ayakalam,1354035867,"
 Hey all, 
 
 So recently took it upon myself to learn Kohonen SOMs by myself. I did this over the thanksgiving break while trying to dodge my 4 year old cousins from finding me in the house, so I am quite new to it. 
@@ -713,8 +713,8 @@ I have some questions about it in general I would like some feedback on:
 4) I also see some parallels with perceptrons. I know that perceptrons are used for supervised learning, where a vector is trained such that is adequately splits a space into categories. Are KSOMs a sort of, unsupervised version of perceptrons?
 
 I am trying to tie all those things together in my head. Thanks!!
-",0,0
-75,2012-11-28,2012,11,28,2,13vqx5,Are Kohonen SOMs all that different from K-means?,https://www.reddit.com/r/MachineLearning/comments/13vqx5/are_kohonen_soms_all_that_different_from_kmeans/,Ayakalam,1354036896,"Hey all, 
+",0,0,False,self,,,,,
+75,MachineLearning,t5_2r3gv,2012-11-28,2012,11,28,2,13vqx5,self.MachineLearning,Are Kohonen SOMs all that different from K-means?,https://www.reddit.com/r/MachineLearning/comments/13vqx5/are_kohonen_soms_all_that_different_from_kmeans/,Ayakalam,1354036896,"Hey all, 
 
 So recently took it upon myself to learn Kohonen SOMs by myself. I did this over the thanksgiving break while trying to dodge my 4 year old cousins from finding me in the house, so I am quite new to it. 
 
@@ -731,8 +731,8 @@ I have some questions about it in general I would like some feedback on:
 4) I also see some parallels with perceptrons. I know that perceptrons are used for supervised learning, where a vector is trained such that is adequately splits a space into categories. Are KSOMs a sort of, unsupervised version of perceptrons?
 
 I am trying to tie all those things together in my head. Thanks!!
-",28,7
-76,2012-11-28,2012,11,28,6,13w6yi,Text mining with WEKA Java API,https://www.reddit.com/r/MachineLearning/comments/13w6yi/text_mining_with_weka_java_api/,NineSevenNine,1354051023,"Hi All - 
+",28,7,False,self,,,,,
+76,MachineLearning,t5_2r3gv,2012-11-28,2012,11,28,6,13w6yi,self.MachineLearning,Text mining with WEKA Java API,https://www.reddit.com/r/MachineLearning/comments/13w6yi/text_mining_with_weka_java_api/,NineSevenNine,1354051023,"Hi All - 
 
 I am trying to use the WEKA API for some text classification.  I am struggling to find a bare-bones example.   Of course, this isn't a bare-bones task, so a simple example may not exist, but it seems that Google searches are leading me more to using the GUI.  
 
@@ -740,10 +740,10 @@ Anyway, anything anyone can point me to would be much appreciated.
 
 Thanks
 
-",10,10
-77,2012-11-28,2012,11,28,7,13wcyd,Getting started with Ramp: Detecting insults,https://www.reddit.com/r/MachineLearning/comments/13wcyd/getting_started_with_ramp_detecting_insults/,cavedave,1354055961,,1,10
-78,2012-11-28,2012,11,28,18,13xd4r,Deep Learning Reading List,https://www.reddit.com/r/MachineLearning/comments/13xd4r/deep_learning_reading_list/,cavedave,1354093999,,2,48
-79,2012-11-29,2012,11,29,4,13y6x0,5x2 Cross Validation in WEKA,https://www.reddit.com/r/MachineLearning/comments/13y6x0/5x2_cross_validation_in_weka/,[deleted],1354131992,"I am looking for some insight here.
+",10,10,False,self,,,,,
+77,MachineLearning,t5_2r3gv,2012-11-28,2012,11,28,7,13wcyd,stumbleupon.com,Getting started with Ramp: Detecting insults,https://www.reddit.com/r/MachineLearning/comments/13wcyd/getting_started_with_ramp_detecting_insults/,cavedave,1354055961,,1,10,False,http://b.thumbs.redditmedia.com/4l7kiZwpW6Ps_Pgs.jpg,,,,,
+78,MachineLearning,t5_2r3gv,2012-11-28,2012,11,28,18,13xd4r,deeplearning.net,Deep Learning Reading List,https://www.reddit.com/r/MachineLearning/comments/13xd4r/deep_learning_reading_list/,cavedave,1354093999,,2,48,False,default,,,,,
+79,MachineLearning,t5_2r3gv,2012-11-29,2012,11,29,4,13y6x0,self.MachineLearning,5x2 Cross Validation in WEKA,https://www.reddit.com/r/MachineLearning/comments/13y6x0/5x2_cross_validation_in_weka/,[deleted],1354131992,"I am looking for some insight here.
 
 I am working on a classification project and I am fairly new to WEKA but much more comfortable with it than R or another alternative.  I am doing a binary classification of imbalanced data.  I am told to use 5x2 cross-validation.
 
@@ -753,27 +753,27 @@ In explorer I can load in this text, convert it with StringToWordVector (TF-IDF 
 
 In experimenter I can load in the data but I cannot preprocess it.  I can preprocess it in explorer the same way and then save that output, I tried this but I am getting errors saying that my class is not nominal.  I am not touching the data so I don't know why all of a suddent it stops working.  I could then run 5x2 CV here on this data (if I can get it to load and run properly), apply the same classifier on it, but then I lose the ability to produce ROC curves, though I can still get it to produce the AUC.
 
-Any suggestions on how I can get this to work?  ",2,1
-80,2012-11-29,2012,11,29,15,13zdq5,Information Geometry,https://www.reddit.com/r/MachineLearning/comments/13zdq5/information_geometry/,cypherx,1354171360,,4,22
-81,2012-11-29,2012,11,29,18,13zjxo,Question: Can someone explain to me the difference between a cost function and the gradient ascent equation in logistic regression?,https://www.reddit.com/r/MachineLearning/comments/13zjxo/question_can_someone_explain_to_me_the_difference/,ilikerum2,1354183130,"Im going through the ML Class on coursera on Logistic Regression and also the Manning Book Machine Learning in Action im trying to learn by implementing everything in python. Im not able to understand the difference between the cost function and the gradient... there are examples on the net where people compute the cost funciton and then there are places where they dont and just go with the gradient descent funciton w :=w - (alpha) * (delta)w * f(w)
-what is the difference between the two? or is there any diference im not able to get my head around it ? :/",6,0
-82,2012-11-30,2012,11,30,0,13zvxe,"IP law and machine learning, who owns the model?",https://www.reddit.com/r/MachineLearning/comments/13zvxe/ip_law_and_machine_learning_who_owns_the_model/,Ju11ian,1354203094,"Does anyone know how IP law works generally with respect to models produced using so called private data?  
+Any suggestions on how I can get this to work?  ",2,1,False,default,,,,,
+80,MachineLearning,t5_2r3gv,2012-11-29,2012,11,29,15,13zdq5,masi.cscs.lsa.umich.edu,Information Geometry,https://www.reddit.com/r/MachineLearning/comments/13zdq5/information_geometry/,cypherx,1354171360,,4,22,False,default,,,,,
+81,MachineLearning,t5_2r3gv,2012-11-29,2012,11,29,18,13zjxo,self.MachineLearning,Question: Can someone explain to me the difference between a cost function and the gradient ascent equation in logistic regression?,https://www.reddit.com/r/MachineLearning/comments/13zjxo/question_can_someone_explain_to_me_the_difference/,ilikerum2,1354183130,"Im going through the ML Class on coursera on Logistic Regression and also the Manning Book Machine Learning in Action im trying to learn by implementing everything in python. Im not able to understand the difference between the cost function and the gradient... there are examples on the net where people compute the cost funciton and then there are places where they dont and just go with the gradient descent funciton w :=w - (alpha) * (delta)w * f(w)
+what is the difference between the two? or is there any diference im not able to get my head around it ? :/",6,0,False,self,,,,,
+82,MachineLearning,t5_2r3gv,2012-11-30,2012,11,30,0,13zvxe,self.MachineLearning,"IP law and machine learning, who owns the model?",https://www.reddit.com/r/MachineLearning/comments/13zvxe/ip_law_and_machine_learning_who_owns_the_model/,Ju11ian,1354203094,"Does anyone know how IP law works generally with respect to models produced using so called private data?  
 
 Specifically, I'm referring to the case where someone uses private data to derive a model. 
 
 Can the 'owner' of the data claim ownership of the model, even though the model may represent a domain far more generic than the privately owned data?  
 
 (Let me know if this should be posted elsewhere... just thought you folks might have a bead on what the current view of this is.)
-  ",27,13
-83,2012-11-30,2012,11,30,0,13zwwr,Logistic regression isn't quite making sense to me,https://www.reddit.com/r/MachineLearning/comments/13zwwr/logistic_regression_isnt_quite_making_sense_to_me/,longerislonger,1354204092,"Im having a hard time understanding why logistic regression is used and when to use it.  
+  ",27,13,False,self,,,,,
+83,MachineLearning,t5_2r3gv,2012-11-30,2012,11,30,0,13zwwr,self.MachineLearning,Logistic regression isn't quite making sense to me,https://www.reddit.com/r/MachineLearning/comments/13zwwr/logistic_regression_isnt_quite_making_sense_to_me/,longerislonger,1354204092,"Im having a hard time understanding why logistic regression is used and when to use it.  
 
 If I have a simple data set containing one independent variable and one binary dependent variable, how does transforming the result of my prediction function using the logistic function improve the quality of my fit?  Typically Ive been normalizing my independent variables using the following formula: (x_i-avg(x))/(max(x)-min(x)).  If I use this normalization, does it still benefit me to use the logistic function, or is the logistic function itself an alternative method to normalize my independent variables?  
 
 Its just not clicking with me, any help would be appreciated, thanks!!!
-",1,0
-84,2012-11-30,2012,11,30,3,14065k,GE &amp; Kaggle announce $500k in prizes for two analytics quests: predicting flight delays and improving hospital operations,https://www.reddit.com/r/MachineLearning/comments/14065k/ge_kaggle_announce_500k_in_prizes_for_two/,[deleted],1354212728,,0,1
-85,2012-11-30,2012,11,30,3,1406i9,GE &amp; Kaggle announce $350k in prizes for two analytics quests: predicting flight delays and improving hospital operations ,https://www.reddit.com/r/MachineLearning/comments/1406i9/ge_kaggle_announce_350k_in_prizes_for_two/,willis77,1354213040,,10,28
-86,2012-11-30,2012,11,30,10,14103v,"Ok, so how -exactly- do I make a U-Matrix?...",https://www.reddit.com/r/MachineLearning/comments/14103v/ok_so_how_exactly_do_i_make_a_umatrix/,Ayakalam,1354238931,"
+",1,0,False,self,,,,,
+84,MachineLearning,t5_2r3gv,2012-11-30,2012,11,30,3,14065k,gequest.com,GE &amp; Kaggle announce $500k in prizes for two analytics quests: predicting flight delays and improving hospital operations,https://www.reddit.com/r/MachineLearning/comments/14065k/ge_kaggle_announce_500k_in_prizes_for_two/,[deleted],1354212728,,0,1,False,default,,,,,
+85,MachineLearning,t5_2r3gv,2012-11-30,2012,11,30,3,1406i9,gequest.com,GE &amp; Kaggle announce $350k in prizes for two analytics quests: predicting flight delays and improving hospital operations ,https://www.reddit.com/r/MachineLearning/comments/1406i9/ge_kaggle_announce_350k_in_prizes_for_two/,willis77,1354213040,,10,28,False,default,,,,,
+86,MachineLearning,t5_2r3gv,2012-11-30,2012,11,30,10,14103v,self.MachineLearning,"Ok, so how -exactly- do I make a U-Matrix?...",https://www.reddit.com/r/MachineLearning/comments/14103v/ok_so_how_exactly_do_i_make_a_umatrix/,Ayakalam,1354238931,"
 Hi r/MachineLearning. 
 
 So I asked a previous question about SOMs, and I learned a lot. This however put me on the path to studying how to visualize them, specifically, using what is known as a U-Matrix. 
@@ -805,5 +805,5 @@ I have a 3x3 output grid, that means, 3x3 output neurons that have already been 
 
 Please give me a step-by-step, I cannot seem to find anything on it! :-/
 
-Thanks!!",0,6
-87,2012-11-30,2012,11,30,11,1415nl,Geordie Rose on Quantum Computers implications for AI and machine learning,https://www.reddit.com/r/MachineLearning/comments/1415nl/geordie_rose_on_quantum_computers_implications/,Buck-Nasty,1354243983,,7,10
+Thanks!!",0,6,False,self,,,,,
+87,MachineLearning,t5_2r3gv,2012-11-30,2012,11,30,11,1415nl,youtube.com,Geordie Rose on Quantum Computers implications for AI and machine learning,https://www.reddit.com/r/MachineLearning/comments/1415nl/geordie_rose_on_quantum_computers_implications/,Buck-Nasty,1354243983,,7,10,False,http://c.thumbs.redditmedia.com/2FtZRtC7Su4e9UBn.jpg,,,,,

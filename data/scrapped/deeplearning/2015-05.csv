@@ -1,5 +1,5 @@
-,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
-0,2015-5-13,2015,5,13,19,35tevq,What math is needed for doing research on deep learning?,https://www.reddit.com/r/deeplearning/comments/35tevq/what_math_is_needed_for_doing_research_on_deep/,AEEEE3,1431513540,"What particular areas of math are most useful for deep learning research?  Also, explain WHY those areas of math are important.
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,deeplearning,t5_2t5eh,2015-5-13,2015,5,13,19,35tevq,self.deeplearning,What math is needed for doing research on deep learning?,https://www.reddit.com/r/deeplearning/comments/35tevq/what_math_is_needed_for_doing_research_on_deep/,AEEEE3,1431513540,"What particular areas of math are most useful for deep learning research?  Also, explain WHY those areas of math are important.
 
 I don't have a math degree (finance unfortunately) so I want to know what are the minimum classes I am going to need to take to get into a PhD focused on deep learning?
 
@@ -16,5 +16,5 @@ As far as I understand, graduate schools will let you in for a different subject
 So what math classes should I take?
 
 
-",3,7
-1,2015-7-22,2015,7,22,10,3e5alc,can i do deep learning research? what minimum resources do i need?,https://www.reddit.com/r/deeplearning/comments/3e5alc/can_i_do_deep_learning_research_what_minimum/,poporing88,1437529808,i use windows and have a 24gb PC... can i do deep learning in a virtual box? what framework is most suitable with my setup? theano?,2,2
+",3,7,False,self,,,,,
+1,deeplearning,t5_2t5eh,2015-7-22,2015,7,22,10,3e5alc,self.deeplearning,can i do deep learning research? what minimum resources do i need?,https://www.reddit.com/r/deeplearning/comments/3e5alc/can_i_do_deep_learning_research_what_minimum/,poporing88,1437529808,i use windows and have a 24gb PC... can i do deep learning in a virtual box? what framework is most suitable with my setup? theano?,2,2,False,self,,,,,

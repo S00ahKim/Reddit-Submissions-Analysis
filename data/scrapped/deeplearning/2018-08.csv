@@ -1,6 +1,6 @@
-,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
-0,2018-8-1,2018,8,1,10,93kd8z,Do You Know The Mathematics For Machine Learning ?,https://www.reddit.com/r/deeplearning/comments/93kd8z/do_you_know_the_mathematics_for_machine_learning/,asifrazzaq1988,1533085696,,4,10
-1,2018-8-1,2018,8,1,10,93kdhc,Ideas for Improving Training of GAN,https://www.reddit.com/r/deeplearning/comments/93kdhc/ideas_for_improving_training_of_gan/,arjundupa,1533085747,"I've been trying to train a GAN which is able to generate faces using the Labelled Faces in the Wild dataset -- while both my discriminator and generator losses decrease, and while the outputs of the generator begin to resemble faces, they never get to the point where they're really good because at some point the generator always seems to beat the discriminator.
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,deeplearning,t5_2t5eh,2018-8-1,2018,8,1,10,93kd8z,marktechpost.com,Do You Know The Mathematics For Machine Learning ?,https://www.reddit.com/r/deeplearning/comments/93kd8z/do_you_know_the_mathematics_for_machine_learning/,asifrazzaq1988,1533085696,,4,10,False,default,,,,,
+1,deeplearning,t5_2t5eh,2018-8-1,2018,8,1,10,93kdhc,self.deeplearning,Ideas for Improving Training of GAN,https://www.reddit.com/r/deeplearning/comments/93kdhc/ideas_for_improving_training_of_gan/,arjundupa,1533085747,"I've been trying to train a GAN which is able to generate faces using the Labelled Faces in the Wild dataset -- while both my discriminator and generator losses decrease, and while the outputs of the generator begin to resemble faces, they never get to the point where they're really good because at some point the generator always seems to beat the discriminator.
 
 My code and results are here: 
 
@@ -10,11 +10,11 @@ I've tried tweaking the learning rate, the models, etc. and I've got it this far
 
 Any ideas?
 
-Any help will be much appreciated, thanks!",1,1
-2,2018-8-1,2018,8,1,12,93lfs0,A Data-Driven Approach to Resisting Adversarial Attacks by Inducing Confusion,https://www.reddit.com/r/deeplearning/comments/93lfs0/a_datadriven_approach_to_resisting_adversarial/,srianant,1533094574,,0,6
-3,2018-8-1,2018,8,1,21,93oq79,Benefits and Risks of Artificial Intelligence,https://www.reddit.com/r/deeplearning/comments/93oq79/benefits_and_risks_of_artificial_intelligence/,seoaleait,1533128305,,1,0
-4,2018-8-2,2018,8,2,2,93r1fv,resources (papers/useful links/etc) for generating music with deep learning,https://www.reddit.com/r/deeplearning/comments/93r1fv/resources_papersuseful_linksetc_for_generating/,amit2rockon,1533144447,,1,10
-5,2018-8-2,2018,8,2,3,93ro69,Here is the list of some of the deep learning books for reading:,https://www.reddit.com/r/deeplearning/comments/93ro69/here_is_the_list_of_some_of_the_deep_learning/,asifrazzaq1988,1533148579,"# Here is the list of some of the recommended deep learning books for reading:
+Any help will be much appreciated, thanks!",1,1,False,self,,,,,
+2,deeplearning,t5_2t5eh,2018-8-1,2018,8,1,12,93lfs0,medium.com,A Data-Driven Approach to Resisting Adversarial Attacks by Inducing Confusion,https://www.reddit.com/r/deeplearning/comments/93lfs0/a_datadriven_approach_to_resisting_adversarial/,srianant,1533094574,,0,6,False,default,,,,,
+3,deeplearning,t5_2t5eh,2018-8-1,2018,8,1,21,93oq79,i.redd.it,Benefits and Risks of Artificial Intelligence,https://www.reddit.com/r/deeplearning/comments/93oq79/benefits_and_risks_of_artificial_intelligence/,seoaleait,1533128305,,1,0,False,image,,,,,
+4,deeplearning,t5_2t5eh,2018-8-2,2018,8,2,2,93r1fv,self.deeplearning,resources (papers/useful links/etc) for generating music with deep learning,https://www.reddit.com/r/deeplearning/comments/93r1fv/resources_papersuseful_linksetc_for_generating/,amit2rockon,1533144447,,1,10,False,self,,,,,
+5,deeplearning,t5_2t5eh,2018-8-2,2018,8,2,3,93ro69,self.deeplearning,Here is the list of some of the deep learning books for reading:,https://www.reddit.com/r/deeplearning/comments/93ro69/here_is_the_list_of_some_of_the_deep_learning/,asifrazzaq1988,1533148579,"# Here is the list of some of the recommended deep learning books for reading:
 
 #### 1. [Deep Learning](https://www.amazon.com/gp/product/0262035618/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=marktechpost-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=0262035618&amp;linkId=160f03fc387166681f28ecb014effa2c) by Goodfellow, Bengio, and Courville
 
@@ -62,15 +62,15 @@ Machine learning is eating the software world, and now deep learning is extendin
 
  Note: This list consists of some of the deep learning books which we found useful for you. If you think we missed any book then please comment.
 
-Article Source: [https://www.marktechpost.com/2018/07/31/list-of-deep-learning-books-to-read/](https://www.marktechpost.com/2018/07/31/list-of-deep-learning-books-to-read/)",0,1
-6,2018-8-2,2018,8,2,16,93xa4j,[Paper] Hypergradient,https://www.reddit.com/r/deeplearning/comments/93xa4j/paper_hypergradient/,string111,1533195781,"Hey guys, I found a really cool paper [https://arxiv.org/pdf/1703.04782.pdf](https://arxiv.org/pdf/1703.04782.pdf) which discusses/rediscovers a Method  proposed by Almeida et al. (1998), which neglects fine tuning of the learning rate. I find this to be really awesome.
+Article Source: [https://www.marktechpost.com/2018/07/31/list-of-deep-learning-books-to-read/](https://www.marktechpost.com/2018/07/31/list-of-deep-learning-books-to-read/)",0,1,False,self,,,,,
+6,deeplearning,t5_2t5eh,2018-8-2,2018,8,2,16,93xa4j,self.deeplearning,[Paper] Hypergradient,https://www.reddit.com/r/deeplearning/comments/93xa4j/paper_hypergradient/,string111,1533195781,"Hey guys, I found a really cool paper [https://arxiv.org/pdf/1703.04782.pdf](https://arxiv.org/pdf/1703.04782.pdf) which discusses/rediscovers a Method  proposed by Almeida et al. (1998), which neglects fine tuning of the learning rate. I find this to be really awesome.
 
-Has anybody implemented this or used this kind of optimizers? Opening discussion",0,11
-7,2018-8-2,2018,8,2,17,93xmw5,Model interpretation to explain what factors helped Titanic survivors,https://www.reddit.com/r/deeplearning/comments/93xmw5/model_interpretation_to_explain_what_factors/,antiquemule,1533200227,"A nice blog post that shows the different plots to get clear explanation of ""black box"" models. 
+Has anybody implemented this or used this kind of optimizers? Opening discussion",0,11,False,self,,,,,
+7,deeplearning,t5_2t5eh,2018-8-2,2018,8,2,17,93xmw5,self.deeplearning,Model interpretation to explain what factors helped Titanic survivors,https://www.reddit.com/r/deeplearning/comments/93xmw5/model_interpretation_to_explain_what_factors/,antiquemule,1533200227,"A nice blog post that shows the different plots to get clear explanation of ""black box"" models. 
 
-This kind of model interpretation seems to be getting better and easier by the day.",0,0
-8,2018-8-2,2018,8,2,18,93xr4j,LEVERAGING AR FOR INDUSTRY 4.0,https://www.reddit.com/r/deeplearning/comments/93xr4j/leveraging_ar_for_industry_40/,sam-Ideas2IT,1533201571,,0,0
-9,2018-8-3,2018,8,3,3,941s7i,"Snark AI Update: Jupyter, Docker and Fast.AI",https://www.reddit.com/r/deeplearning/comments/941s7i/snark_ai_update_jupyter_docker_and_fastai/,snarkai,1533233981,"Since our previous blogpost about [Unchaining GPUs for Deep Learning](https://blog.usejournal.com/blockchain-gpus-unchained-running-neural-networks-without-hurting-mining-hash-rate-38a88728a1c9), [Hacker News Launch](https://news.ycombinator.com/item?id=17491604) and [TechCrunch](https://techcrunch.com/2018/07/25/snark-ai-looks-to-help-companies-get-on-demand-access-to-idle-gpus/) article, we have worked hard with our early users to provide **low-cost GPUs for Deep Learning** through a very simple interface.
+This kind of model interpretation seems to be getting better and easier by the day.",0,0,False,self,,,,,
+8,deeplearning,t5_2t5eh,2018-8-2,2018,8,2,18,93xr4j,ideas2it.com,LEVERAGING AR FOR INDUSTRY 4.0,https://www.reddit.com/r/deeplearning/comments/93xr4j/leveraging_ar_for_industry_40/,sam-Ideas2IT,1533201571,,0,0,False,default,,,,,
+9,deeplearning,t5_2t5eh,2018-8-3,2018,8,3,3,941s7i,self.deeplearning,"Snark AI Update: Jupyter, Docker and Fast.AI",https://www.reddit.com/r/deeplearning/comments/941s7i/snark_ai_update_jupyter_docker_and_fastai/,snarkai,1533233981,"Since our previous blogpost about [Unchaining GPUs for Deep Learning](https://blog.usejournal.com/blockchain-gpus-unchained-running-neural-networks-without-hurting-mining-hash-rate-38a88728a1c9), [Hacker News Launch](https://news.ycombinator.com/item?id=17491604) and [TechCrunch](https://techcrunch.com/2018/07/25/snark-ai-looks-to-help-companies-get-on-demand-access-to-idle-gpus/) article, we have worked hard with our early users to provide **low-cost GPUs for Deep Learning** through a very simple interface.
 
     $pip3 install snark
 
@@ -121,8 +121,8 @@ Once you have persistent storage, Jupyter access and customized dockers, what el
 
     $snark start --pod_type fast.ai --jupyter
 
-If you have more feature requests or feedback happy to chat with you on our website.",0,17
-10,2018-8-3,2018,8,3,16,947hxk,"28-part Deep Learning Course / Book (with PyTorch): 19 Free Tutorials. Paid Quizzes, Assignments, Projects and Certificate.",https://www.reddit.com/r/deeplearning/comments/947hxk/28part_deep_learning_course_book_with_pytorch_19/,keshav57,1533280682,"The course / book was created by myself (MIT alum) and 3 other experts. We've been working on this course for more than a year, and it is constantly improving.
+If you have more feature requests or feedback happy to chat with you on our website.",0,17,False,self,,,,,
+10,deeplearning,t5_2t5eh,2018-8-3,2018,8,3,16,947hxk,self.deeplearning,"28-part Deep Learning Course / Book (with PyTorch): 19 Free Tutorials. Paid Quizzes, Assignments, Projects and Certificate.",https://www.reddit.com/r/deeplearning/comments/947hxk/28part_deep_learning_course_book_with_pytorch_19/,keshav57,1533280682,"The course / book was created by myself (MIT alum) and 3 other experts. We've been working on this course for more than a year, and it is constantly improving.
 
 The course covers machine learning and deep learning concepts, including the important deep learning architectures like convolutional neural networks (CNN) and long short-term memory (LSTM) networks applied to computer vision and natural language processing.
 
@@ -136,24 +136,24 @@ Links
 * [Natural Language Processing Course](https://www.commonlounge.com/discussion/9e98fc12d49e4cd59e248fc5fb72a8e9)
 * [Data Science with Python Course](https://www.commonlounge.com/discussion/367fb21455e04c7c896e9cac25b11b47)
 
-Hope you all like it. Do let me know if you have any questions. P.S.: We collect ratings and reviews from students. The course has an average rating of 4.9/5.0",0,17
-11,2018-8-3,2018,8,3,16,947ld4,SOTA object Detection,https://www.reddit.com/r/deeplearning/comments/947ld4/sota_object_detection/,bikashg,1533281800,,2,42
-12,2018-8-3,2018,8,3,18,94888w,Seven spectrum of Outcomes of AI,https://www.reddit.com/r/deeplearning/comments/94888w/seven_spectrum_of_outcomes_of_ai/,seoaleait,1533289652,,0,5
-13,2018-8-3,2018,8,3,18,9489q8,Deep Learning Interview Questions And Answers - Great Info,https://www.reddit.com/r/deeplearning/comments/9489q8/deep_learning_interview_questions_and_answers/,pooja307,1533290149,,1,2
-14,2018-8-3,2018,8,3,22,949emg,Predicting customer churn in banking using ANN,https://www.reddit.com/r/deeplearning/comments/949emg/predicting_customer_churn_in_banking_using_ann/,blackbird9820,1533301451,,0,0
-15,2018-8-4,2018,8,4,1,94b66x,"Should I gloss over the linear algebra chapter in the book ""Deep Learning"" by Ian Goodfellow?",https://www.reddit.com/r/deeplearning/comments/94b66x/should_i_gloss_over_the_linear_algebra_chapter_in/,Crenox,1533314515,"Hi everyone!
+Hope you all like it. Do let me know if you have any questions. P.S.: We collect ratings and reviews from students. The course has an average rating of 4.9/5.0",0,17,False,self,,,,,
+11,deeplearning,t5_2t5eh,2018-8-3,2018,8,3,16,947ld4,reddit.com,SOTA object Detection,https://www.reddit.com/r/deeplearning/comments/947ld4/sota_object_detection/,bikashg,1533281800,,2,42,False,default,,,,,
+12,deeplearning,t5_2t5eh,2018-8-3,2018,8,3,18,94888w,i.redd.it,Seven spectrum of Outcomes of AI,https://www.reddit.com/r/deeplearning/comments/94888w/seven_spectrum_of_outcomes_of_ai/,seoaleait,1533289652,,0,5,False,image,,,,,
+13,deeplearning,t5_2t5eh,2018-8-3,2018,8,3,18,9489q8,youtube.com,Deep Learning Interview Questions And Answers - Great Info,https://www.reddit.com/r/deeplearning/comments/9489q8/deep_learning_interview_questions_and_answers/,pooja307,1533290149,,1,2,False,image,,,,,
+14,deeplearning,t5_2t5eh,2018-8-3,2018,8,3,22,949emg,medium.com,Predicting customer churn in banking using ANN,https://www.reddit.com/r/deeplearning/comments/949emg/predicting_customer_churn_in_banking_using_ann/,blackbird9820,1533301451,,0,0,False,default,,,,,
+15,deeplearning,t5_2t5eh,2018-8-4,2018,8,4,1,94b66x,self.deeplearning,"Should I gloss over the linear algebra chapter in the book ""Deep Learning"" by Ian Goodfellow?",https://www.reddit.com/r/deeplearning/comments/94b66x/should_i_gloss_over_the_linear_algebra_chapter_in/,Crenox,1533314515,"Hi everyone!
 
 Currently I am reading ""Deep Learning"" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville. I'm on Chapter 2 which is the Linear Algebra section where they go over the linear algebra that pertains to the book. I understand most of what is being taught but not at a deep level. And when I get to some of the latter parts of the chapter like ""2.9 The Moore-Penrose Pseudoinverse"" and specifically ""2.12 Example: Principal Components Analysis"", I don't really understand them that well at all.
 
-Would it be okay if I go onto Chapter 3 and beyond before I understand these concepts comfortably, or will I be fine with having basic knowledge of them and the symbols they use?",6,4
-16,2018-8-4,2018,8,4,2,94bcfa,Why do we flip the kernel in convolutional neural network?,https://www.reddit.com/r/deeplearning/comments/94bcfa/why_do_we_flip_the_kernel_in_convolutional_neural/,darylflx,1533315725,I have read the answer from https://stackoverflow.com/questions/45152473/why-is-the-convolutional-filter-flipped-in-convolutional-neural-networks but I still do not get why we should flip the kernel. ,7,3
-17,2018-8-4,2018,8,4,7,94e3zn,Neural net case study for sports image classification.,https://www.reddit.com/r/deeplearning/comments/94e3zn/neural_net_case_study_for_sports_image/,wai_land,1533335494,,0,1
-18,2018-8-4,2018,8,4,13,94gixw,New Youtube Channel on making cutting edge AI Research accessible,https://www.reddit.com/r/deeplearning/comments/94gixw/new_youtube_channel_on_making_cutting_edge_ai/,vector_machines,1533357538,"Hi, Please check out my channel ([https://www.youtube.com/c/aijournal](https://www.youtube.com/c/aijournal)) which talks about research in Deep Learning, Machine Learning, Reinforcement Learning, NLP. The main aim is to bring as much research content available as possible. Majority of information is stored inside papers, and very few people have access to it. I want to bring out the best out of all of them. 
+Would it be okay if I go onto Chapter 3 and beyond before I understand these concepts comfortably, or will I be fine with having basic knowledge of them and the symbols they use?",6,4,False,self,,,,,
+16,deeplearning,t5_2t5eh,2018-8-4,2018,8,4,2,94bcfa,self.deeplearning,Why do we flip the kernel in convolutional neural network?,https://www.reddit.com/r/deeplearning/comments/94bcfa/why_do_we_flip_the_kernel_in_convolutional_neural/,darylflx,1533315725,I have read the answer from https://stackoverflow.com/questions/45152473/why-is-the-convolutional-filter-flipped-in-convolutional-neural-networks but I still do not get why we should flip the kernel. ,7,3,False,self,,,,,
+17,deeplearning,t5_2t5eh,2018-8-4,2018,8,4,7,94e3zn,turcinovic.com,Neural net case study for sports image classification.,https://www.reddit.com/r/deeplearning/comments/94e3zn/neural_net_case_study_for_sports_image/,wai_land,1533335494,,0,1,False,default,,,,,
+18,deeplearning,t5_2t5eh,2018-8-4,2018,8,4,13,94gixw,self.deeplearning,New Youtube Channel on making cutting edge AI Research accessible,https://www.reddit.com/r/deeplearning/comments/94gixw/new_youtube_channel_on_making_cutting_edge_ai/,vector_machines,1533357538,"Hi, Please check out my channel ([https://www.youtube.com/c/aijournal](https://www.youtube.com/c/aijournal)) which talks about research in Deep Learning, Machine Learning, Reinforcement Learning, NLP. The main aim is to bring as much research content available as possible. Majority of information is stored inside papers, and very few people have access to it. I want to bring out the best out of all of them. 
 
-I also have a subreddit  ([https://www.reddit.com/r/aijournal/](https://www.reddit.com/r/aijournal/)) if you have any doubts regarding the content being discussed on the channel. We're a really friendly community interested in cutting edge research in ML.",7,46
-19,2018-8-5,2018,8,5,0,94k4n8,GIF classification,https://www.reddit.com/r/deeplearning/comments/94k4n8/gif_classification/,Arkhaya,1533398211,Are there any papers or methods that can help in learning if the GIF format can be added to an image classifier or have a model specifically for it?,3,1
-20,2018-8-5,2018,8,5,17,94qhpu,AI Weekly 5 August 2018,https://www.reddit.com/r/deeplearning/comments/94qhpu/ai_weekly_5_august_2018/,TomekB,1533458080,,0,1
-21,2018-8-5,2018,8,5,20,94r67g,Some questions about Text-to-Image Synthesis,https://www.reddit.com/r/deeplearning/comments/94r67g/some_questions_about_texttoimage_synthesis/,EricDZhang,1533467862,"I start to focus on Text-to-Image Synthesis on complex Dataset (like MSCOCO) Using GAN these days.
+I also have a subreddit  ([https://www.reddit.com/r/aijournal/](https://www.reddit.com/r/aijournal/)) if you have any doubts regarding the content being discussed on the channel. We're a really friendly community interested in cutting edge research in ML.",7,46,False,self,,,,,
+19,deeplearning,t5_2t5eh,2018-8-5,2018,8,5,0,94k4n8,self.deeplearning,GIF classification,https://www.reddit.com/r/deeplearning/comments/94k4n8/gif_classification/,Arkhaya,1533398211,Are there any papers or methods that can help in learning if the GIF format can be added to an image classifier or have a model specifically for it?,3,1,False,self,,,,,
+20,deeplearning,t5_2t5eh,2018-8-5,2018,8,5,17,94qhpu,theaigeek.com,AI Weekly 5 August 2018,https://www.reddit.com/r/deeplearning/comments/94qhpu/ai_weekly_5_august_2018/,TomekB,1533458080,,0,1,False,default,,,,,
+21,deeplearning,t5_2t5eh,2018-8-5,2018,8,5,20,94r67g,self.deeplearning,Some questions about Text-to-Image Synthesis,https://www.reddit.com/r/deeplearning/comments/94r67g/some_questions_about_texttoimage_synthesis/,EricDZhang,1533467862,"I start to focus on Text-to-Image Synthesis on complex Dataset (like MSCOCO) Using GAN these days.
 
 After searching, some relevant works are StackGAN, [Hong](https://arxiv.org/abs/1801.05091) et.al. and AttnGAN
 
@@ -163,62 +163,62 @@ Here are some of my questions about current situation of Text-to-Image Synthesis
 
 1. Is there any other method to deal with this kind of task?
 2. What are the pros and shortcuts of these two methods?
-3. In a view of such a high Inception Score AttnGAN has achieved (nearly 170% improved), it seems rather difficult to get improvement. Is it possible to get my paper accepted if I don't exceed AttnGAN?",0,5
-22,2018-8-6,2018,8,6,1,94t38s,Some questions about ConvLSTMs,https://www.reddit.com/r/deeplearning/comments/94t38s/some_questions_about_convlstms/,adi1709,1533486596,"Has anyone tried batch normalisation on ConvLSTMs (Tensorflow) ? My network is descending into a local minima in my opinion and I'm finding it hard to fix it. Are there any tips / tricks I should be looking at to avoid this? 
-Also if there are any specific procedure I can use to debug it would be very helpful. Thank you. ",5,1
-23,2018-8-6,2018,8,6,1,94t5id,Mode collapse vaegan in atari frames.,https://www.reddit.com/r/deeplearning/comments/94t5id/mode_collapse_vaegan_in_atari_frames/,Teenvan1995,1533487107,"I am was trying develop a generative model for the frames of the atari game Montezuma revenge. 
+3. In a view of such a high Inception Score AttnGAN has achieved (nearly 170% improved), it seems rather difficult to get improvement. Is it possible to get my paper accepted if I don't exceed AttnGAN?",0,5,False,self,,,,,
+22,deeplearning,t5_2t5eh,2018-8-6,2018,8,6,1,94t38s,self.deeplearning,Some questions about ConvLSTMs,https://www.reddit.com/r/deeplearning/comments/94t38s/some_questions_about_convlstms/,adi1709,1533486596,"Has anyone tried batch normalisation on ConvLSTMs (Tensorflow) ? My network is descending into a local minima in my opinion and I'm finding it hard to fix it. Are there any tips / tricks I should be looking at to avoid this? 
+Also if there are any specific procedure I can use to debug it would be very helpful. Thank you. ",5,1,False,self,,,,,
+23,deeplearning,t5_2t5eh,2018-8-6,2018,8,6,1,94t5id,self.deeplearning,Mode collapse vaegan in atari frames.,https://www.reddit.com/r/deeplearning/comments/94t5id/mode_collapse_vaegan_in_atari_frames/,Teenvan1995,1533487107,"I am was trying develop a generative model for the frames of the atari game Montezuma revenge. 
 Initially, I tried a simple car but the model only predicted the background and not the agent and the skull (the pixels that are moving basically)
 To solve this, I thought probably an adversarial loss may help because of the averaging nature of the reconstruction loss that fails the standard  vae.
 But I still get a single image with no variations.
 And the image is an average of all the environments the network sees.
-Is there any solution to this problem. Thanks!",0,1
-24,2018-8-6,2018,8,6,2,94tqbo,Learn how a neural network works!,https://www.reddit.com/r/deeplearning/comments/94tqbo/learn_how_a_neural_network_works/,antaloaalonso,1533491690,"If you want to learn how exactly a neural network works, check out this video!
+Is there any solution to this problem. Thanks!",0,1,False,self,,,,,
+24,deeplearning,t5_2t5eh,2018-8-6,2018,8,6,2,94tqbo,self.deeplearning,Learn how a neural network works!,https://www.reddit.com/r/deeplearning/comments/94tqbo/learn_how_a_neural_network_works/,antaloaalonso,1533491690,"If you want to learn how exactly a neural network works, check out this video!
 
-[https://www.youtube.com/watch?v=EF7LBSCfW7c&amp;t=1s](https://www.youtube.com/watch?v=EF7LBSCfW7c&amp;t=1s)",0,1
-25,2018-8-6,2018,8,6,3,94u6tr,Suggestions for papers,https://www.reddit.com/r/deeplearning/comments/94u6tr/suggestions_for_papers/,pranjal_22,1533495258,"Hi everyone, I am trying to build a model to detect and grade Diabetic Retinopathy using deep learning. I am looking for a few good research papers regarding that. Any help would be really appreciated!
-Thanks ",5,1
-26,2018-8-6,2018,8,6,19,950bgg,How to setup the environment for deep learning?,https://www.reddit.com/r/deeplearning/comments/950bgg/how_to_setup_the_environment_for_deep_learning/,83krkf,1533553125,"I'm getting started with deep learning([fast.ai](https://fast.ai)). At the moment I can't afford cloud nor a new rig. I would like to setup my workstation on my laptop. Someone suggested me NVIDIA + docker, any guides or suggestions regarding this?",5,3
-27,2018-8-6,2018,8,6,22,95177s,Image Recognition on an iOS/Android app,https://www.reddit.com/r/deeplearning/comments/95177s/image_recognition_on_an_iosandroid_app/,FrenchDizzie,1533561433,"Hi all,
+[https://www.youtube.com/watch?v=EF7LBSCfW7c&amp;t=1s](https://www.youtube.com/watch?v=EF7LBSCfW7c&amp;t=1s)",0,1,False,self,,,,,
+25,deeplearning,t5_2t5eh,2018-8-6,2018,8,6,3,94u6tr,self.deeplearning,Suggestions for papers,https://www.reddit.com/r/deeplearning/comments/94u6tr/suggestions_for_papers/,pranjal_22,1533495258,"Hi everyone, I am trying to build a model to detect and grade Diabetic Retinopathy using deep learning. I am looking for a few good research papers regarding that. Any help would be really appreciated!
+Thanks ",5,1,False,self,,,,,
+26,deeplearning,t5_2t5eh,2018-8-6,2018,8,6,19,950bgg,self.deeplearning,How to setup the environment for deep learning?,https://www.reddit.com/r/deeplearning/comments/950bgg/how_to_setup_the_environment_for_deep_learning/,83krkf,1533553125,"I'm getting started with deep learning([fast.ai](https://fast.ai)). At the moment I can't afford cloud nor a new rig. I would like to setup my workstation on my laptop. Someone suggested me NVIDIA + docker, any guides or suggestions regarding this?",5,3,False,self,,,,,
+27,deeplearning,t5_2t5eh,2018-8-6,2018,8,6,22,95177s,self.deeplearning,Image Recognition on an iOS/Android app,https://www.reddit.com/r/deeplearning/comments/95177s/image_recognition_on_an_iosandroid_app/,FrenchDizzie,1533561433,"Hi all,
 
 I'd like to develop an iOS app where you can take a picture of a tree or a flower (or any plant basically) and it tells you what that plant is, and some useful tips to take care of it. I'd like to be able to also diagnose plant diseases (fungi, parasites, ...).
 
-Would it be possible to design and train a deep neural network, and then implement it and use it in an iOS or Android application ?",2,3
-28,2018-8-6,2018,8,6,23,951neq,project ideal for the final year engineering,https://www.reddit.com/r/deeplearning/comments/951neq/project_ideal_for_the_final_year_engineering/,random_forest97,1533565019,"I am currently in the 7th sem of engineering and I am really interested in doing a project in the domain of deeplearning . 
-I have some project ideas like  a sentiment analysis for social media using rrn , but I don't know how to convert it into a project, as most of things I have to borrow it from others work, including dataset.",1,2
-29,2018-8-6,2018,8,6,23,951wvd,Similar Study for Lewd Analysis,https://www.reddit.com/r/deeplearning/comments/951wvd/similar_study_for_lewd_analysis/,TagChild,1533566992," Hi everyone, I am trying to build a model for lewd analysis for chatting application using deep learning. I am looking for a few good research papers regarding that. Any help would be really appreciated! Thanks ",0,3
-30,2018-8-7,2018,8,7,0,9524oi,"Hi, Please have a look at the equations below, I do need a proper reasoning for understanding. Thank you. (ACGAN)",https://www.reddit.com/r/deeplearning/comments/9524oi/hi_please_have_a_look_at_the_equations_below_i_do/,nile6499,1533568532,"The Generator equation  are **maximizing(Lc -Ls)**, where Lc is the loss of how similar Labels from Fake Image is close to real Image, Ls is the loss to find whether the image is fake or real.
+Would it be possible to design and train a deep neural network, and then implement it and use it in an iOS or Android application ?",2,3,False,self,,,,,
+28,deeplearning,t5_2t5eh,2018-8-6,2018,8,6,23,951neq,self.deeplearning,project ideal for the final year engineering,https://www.reddit.com/r/deeplearning/comments/951neq/project_ideal_for_the_final_year_engineering/,random_forest97,1533565019,"I am currently in the 7th sem of engineering and I am really interested in doing a project in the domain of deeplearning . 
+I have some project ideas like  a sentiment analysis for social media using rrn , but I don't know how to convert it into a project, as most of things I have to borrow it from others work, including dataset.",1,2,False,self,,,,,
+29,deeplearning,t5_2t5eh,2018-8-6,2018,8,6,23,951wvd,self.deeplearning,Similar Study for Lewd Analysis,https://www.reddit.com/r/deeplearning/comments/951wvd/similar_study_for_lewd_analysis/,TagChild,1533566992," Hi everyone, I am trying to build a model for lewd analysis for chatting application using deep learning. I am looking for a few good research papers regarding that. Any help would be really appreciated! Thanks ",0,3,False,self,,,,,
+30,deeplearning,t5_2t5eh,2018-8-7,2018,8,7,0,9524oi,self.deeplearning,"Hi, Please have a look at the equations below, I do need a proper reasoning for understanding. Thank you. (ACGAN)",https://www.reddit.com/r/deeplearning/comments/9524oi/hi_please_have_a_look_at_the_equations_below_i_do/,nile6499,1533568532,"The Generator equation  are **maximizing(Lc -Ls)**, where Lc is the loss of how similar Labels from Fake Image is close to real Image, Ls is the loss to find whether the image is fake or real.
 
-**In implementation of the above equation is written has min(Lc + Ls), I am very confused on this.**",4,2
-31,2018-8-7,2018,8,7,1,952p4e,"Given data, how to determine if deep learning needs to be used?",https://www.reddit.com/r/deeplearning/comments/952p4e/given_data_how_to_determine_if_deep_learning/,eemamedo,1533572517,"If I am given data, what techniques/algorithms can I use/run to determine if deep learning algorithms will need to be applied?
+**In implementation of the above equation is written has min(Lc + Ls), I am very confused on this.**",4,2,False,self,,,,,
+31,deeplearning,t5_2t5eh,2018-8-7,2018,8,7,1,952p4e,self.deeplearning,"Given data, how to determine if deep learning needs to be used?",https://www.reddit.com/r/deeplearning/comments/952p4e/given_data_how_to_determine_if_deep_learning/,eemamedo,1533572517,"If I am given data, what techniques/algorithms can I use/run to determine if deep learning algorithms will need to be applied?
 
 I understand that one of hints is to check if function is non-linear in some neighborhood (machine learning algorithms tend to assume that function is linear). Are there any other tests I can run on data that will help me to determine that deep learning is needed?
-",6,4
-32,2018-8-7,2018,8,7,3,953ma4,"Free webinar 8/21 - Deep Learning to Detect Fake News with Uber ATG Head of Data Science, Mike Tamir",https://www.reddit.com/r/deeplearning/comments/953ma4/free_webinar_821_deep_learning_to_detect_fake/,redditman09876543,1533578762,,0,1
-33,2018-8-7,2018,8,7,9,956rjv,Question regarding equation in Glow: Generative Flow (a reversible model),https://www.reddit.com/r/deeplearning/comments/956rjv/question_regarding_equation_in_glow_generative/,darylflx,1533601251,"Hi everyone, I am having trouble understanding how this equation in this paper, https://arxiv.org/pdf/1807.03039.pdf , at equation(6). I will be very much appreciated if any assistance can be provided. ",2,2
-34,2018-8-7,2018,8,7,11,957t8l,Question about merging feature maps,https://www.reddit.com/r/deeplearning/comments/957t8l/question_about_merging_feature_maps/,OpenStorm5,1533610023,"Hi all:
+",6,4,False,self,,,,,
+32,deeplearning,t5_2t5eh,2018-8-7,2018,8,7,3,953ma4,blog.thedataincubator.com,"Free webinar 8/21 - Deep Learning to Detect Fake News with Uber ATG Head of Data Science, Mike Tamir",https://www.reddit.com/r/deeplearning/comments/953ma4/free_webinar_821_deep_learning_to_detect_fake/,redditman09876543,1533578762,,0,1,False,default,,,,,
+33,deeplearning,t5_2t5eh,2018-8-7,2018,8,7,9,956rjv,self.deeplearning,Question regarding equation in Glow: Generative Flow (a reversible model),https://www.reddit.com/r/deeplearning/comments/956rjv/question_regarding_equation_in_glow_generative/,darylflx,1533601251,"Hi everyone, I am having trouble understanding how this equation in this paper, https://arxiv.org/pdf/1807.03039.pdf , at equation(6). I will be very much appreciated if any assistance can be provided. ",2,2,False,self,,,,,
+34,deeplearning,t5_2t5eh,2018-8-7,2018,8,7,11,957t8l,self.deeplearning,Question about merging feature maps,https://www.reddit.com/r/deeplearning/comments/957t8l/question_about_merging_feature_maps/,OpenStorm5,1533610023,"Hi all:
 
 I have some questions about merging two feature maps.
 
 1. what is the difference between concating them and summing them up? (FCN uses sum operation, while UNET is concating the two features)
 2. is it necessary to apply 1x1 conv to feature maps before merging?
 
-Thank you!",1,2
-35,2018-8-7,2018,8,7,13,958nf4,has anyone used Nvidia V100? How fast is this card?,https://www.reddit.com/r/deeplearning/comments/958nf4/has_anyone_used_nvidia_v100_how_fast_is_this_card/,MasterSama,1533617435,"Hi everyone,
+Thank you!",1,2,False,self,,,,,
+35,deeplearning,t5_2t5eh,2018-8-7,2018,8,7,13,958nf4,self.deeplearning,has anyone used Nvidia V100? How fast is this card?,https://www.reddit.com/r/deeplearning/comments/958nf4/has_anyone_used_nvidia_v100_how_fast_is_this_card/,MasterSama,1533617435,"Hi everyone,
 
-I'm trying to assess how much time I would need to rent a V100. I am using a GTX1080 and training a simple VGGNet like architecture (Simplenet). for 30 epochs it takes about 24 hours, and roughly it needs at least 100\~120 epochs to call the training completed. Now I need to know how much faster the V100 is compared to my GTX1080. Couldn't find any benchmarks that would help me in this regard. so any help is greatly appreciated ",13,3
-36,2018-8-8,2018,8,8,0,95cv0b,Deep learning in NLP research paper Reading Group,https://www.reddit.com/r/deeplearning/comments/95cv0b/deep_learning_in_nlp_research_paper_reading_group/,pcidev,1533657394,"I was trying to start a research paper reading group, where we will aim to read a paper and implement it in a week and then discuss. I am excited about it. If anyone interested please comment. 
-TOPIC - Recent research in NLP.",31,26
-37,2018-8-8,2018,8,8,1,95cyew,"When we back propagate the gradients, are the gradients added or subtracted to the original values?",https://www.reddit.com/r/deeplearning/comments/95cyew/when_we_back_propagate_the_gradients_are_the/,nile6499,1533658030,,1,2
-38,2018-8-8,2018,8,8,4,95ekxu,Has anyone implemented StackGAN in Keras?,https://www.reddit.com/r/deeplearning/comments/95ekxu/has_anyone_implemented_stackgan_in_keras/,kailashahirwar12,1533668914,"I am trying to implement StackGAN in Keras. Tensorflow and Pytorch implementation of StackGAN is already out there on Github, but no one has implemented StackGAN in Keras. If yes, any links to repos would be appreciated.",0,1
-39,2018-8-8,2018,8,8,5,95fb4y,Beginner's Deep Learning video course (50% off with code 'vlcarnes2'),https://www.reddit.com/r/deeplearning/comments/95fb4y/beginners_deep_learning_video_course_50_off_with/,beaucarnes,1533673835,,0,0
-40,2018-8-8,2018,8,8,16,95k222,Links to Computer Vision News of August,https://www.reddit.com/r/deeplearning/comments/95k222/links_to_computer_vision_news_of_august/,Gletta,1533714886,"Here is the August 2018 issue of Computer Vision News, the magazine of the algorithm community published by RSIP Vision: 32 pages worth reading, about Artificial Intelligence, Deep Learning, Image Processing and Computer Vision. Technical review of new technologies at page 4 and free subscription at page 32.
+I'm trying to assess how much time I would need to rent a V100. I am using a GTX1080 and training a simple VGGNet like architecture (Simplenet). for 30 epochs it takes about 24 hours, and roughly it needs at least 100\~120 epochs to call the training completed. Now I need to know how much faster the V100 is compared to my GTX1080. Couldn't find any benchmarks that would help me in this regard. so any help is greatly appreciated ",13,3,False,self,,,,,
+36,deeplearning,t5_2t5eh,2018-8-8,2018,8,8,0,95cv0b,self.deeplearning,Deep learning in NLP research paper Reading Group,https://www.reddit.com/r/deeplearning/comments/95cv0b/deep_learning_in_nlp_research_paper_reading_group/,pcidev,1533657394,"I was trying to start a research paper reading group, where we will aim to read a paper and implement it in a week and then discuss. I am excited about it. If anyone interested please comment. 
+TOPIC - Recent research in NLP.",31,26,False,self,,,,,
+37,deeplearning,t5_2t5eh,2018-8-8,2018,8,8,1,95cyew,self.deeplearning,"When we back propagate the gradients, are the gradients added or subtracted to the original values?",https://www.reddit.com/r/deeplearning/comments/95cyew/when_we_back_propagate_the_gradients_are_the/,nile6499,1533658030,,1,2,False,self,,,,,
+38,deeplearning,t5_2t5eh,2018-8-8,2018,8,8,4,95ekxu,self.deeplearning,Has anyone implemented StackGAN in Keras?,https://www.reddit.com/r/deeplearning/comments/95ekxu/has_anyone_implemented_stackgan_in_keras/,kailashahirwar12,1533668914,"I am trying to implement StackGAN in Keras. Tensorflow and Pytorch implementation of StackGAN is already out there on Github, but no one has implemented StackGAN in Keras. If yes, any links to repos would be appreciated.",0,1,False,self,,,,,
+39,deeplearning,t5_2t5eh,2018-8-8,2018,8,8,5,95fb4y,manning.com,Beginner's Deep Learning video course (50% off with code 'vlcarnes2'),https://www.reddit.com/r/deeplearning/comments/95fb4y/beginners_deep_learning_video_course_50_off_with/,beaucarnes,1533673835,,0,0,False,default,,,,,
+40,deeplearning,t5_2t5eh,2018-8-8,2018,8,8,16,95k222,self.deeplearning,Links to Computer Vision News of August,https://www.reddit.com/r/deeplearning/comments/95k222/links_to_computer_vision_news_of_august/,Gletta,1533714886,"Here is the August 2018 issue of Computer Vision News, the magazine of the algorithm community published by RSIP Vision: 32 pages worth reading, about Artificial Intelligence, Deep Learning, Image Processing and Computer Vision. Technical review of new technologies at page 4 and free subscription at page 32.
 
 [HTML5 version (recommended) ](https://www.rsipvision.com/ComputerVisionNews-2018August/)
 
 [PDF version](http://www.rsipvision.com/computer-vision-news-2018-august-pdf/)
 
-Enjoy!",0,2
-41,2018-8-8,2018,8,8,18,95ke8v,Help regarding model of LSTM Network,https://www.reddit.com/r/deeplearning/comments/95ke8v/help_regarding_model_of_lstm_network/,ravaan,1533719068,"I am new to this sub and also new to deep learning so apologies if I am saying anything wrong/not allowed.
+Enjoy!",0,2,False,self,,,,,
+41,deeplearning,t5_2t5eh,2018-8-8,2018,8,8,18,95ke8v,self.deeplearning,Help regarding model of LSTM Network,https://www.reddit.com/r/deeplearning/comments/95ke8v/help_regarding_model_of_lstm_network/,ravaan,1533719068,"I am new to this sub and also new to deep learning so apologies if I am saying anything wrong/not allowed.
 
 I want to model a deep learning network for a service based chat bot which has limited functionality, take an example of a customer interacting with the chat bot of a bank. 
 
@@ -228,82 +228,82 @@ Now for the result expected - Suppose, The customer enters  - ""My bank account 
 
 As far as I have read till now an LSTM network would be the best network for this kind of problem, what I am not able to figure out is how to decide the structure of the network. 
 
-Any help in terms of how to model the network, resources to read, similar code et cetra is highly appreciated. ",6,2
-42,2018-8-8,2018,8,8,18,95kh6f,"How to Setup Ubuntu 16.04 with CUDA, GPU, and other requirements for Deep Learning",https://www.reddit.com/r/deeplearning/comments/95kh6f/how_to_setup_ubuntu_1604_with_cuda_gpu_and_other/,coinmonks,1533720035,,7,8
-43,2018-8-8,2018,8,8,18,95ko32,Complete Guide to TensorFlow for Deep Learning with Python,https://www.reddit.com/r/deeplearning/comments/95ko32/complete_guide_to_tensorflow_for_deep_learning/,plpface,1533722254,,0,1
-44,2018-8-8,2018,8,8,19,95kwjz,DataScience Digest - Issue #14,https://www.reddit.com/r/deeplearning/comments/95kwjz/datascience_digest_issue_14/,flyelephant,1533724861,,0,1
-45,2018-8-8,2018,8,8,23,95mqky,Suggestion for ML and DL projects.,https://www.reddit.com/r/deeplearning/comments/95mqky/suggestion_for_ml_and_dl_projects/,Troied,1533740369,Please help me out.,10,0
-46,2018-8-9,2018,8,9,0,95ms53,"Dance generator using Autoencoder, LSTM and Mixture Density Network (Keras)",https://www.reddit.com/r/deeplearning/comments/95ms53/dance_generator_using_autoencoder_lstm_and/,HairyIndianDude,1533740660,,1,5
-47,2018-8-9,2018,8,9,0,95n7u3,"Dance generator using LSTM, Autoencoder and Mixture Density Network",https://www.reddit.com/r/deeplearning/comments/95n7u3/dance_generator_using_lstm_autoencoder_and/,HairyIndianDude,1533743528,"https://i.redd.it/19p2uiz15we11.gif
+Any help in terms of how to model the network, resources to read, similar code et cetra is highly appreciated. ",6,2,False,self,,,,,
+42,deeplearning,t5_2t5eh,2018-8-8,2018,8,8,18,95kh6f,medium.com,"How to Setup Ubuntu 16.04 with CUDA, GPU, and other requirements for Deep Learning",https://www.reddit.com/r/deeplearning/comments/95kh6f/how_to_setup_ubuntu_1604_with_cuda_gpu_and_other/,coinmonks,1533720035,,7,8,False,default,,,,,
+43,deeplearning,t5_2t5eh,2018-8-8,2018,8,8,18,95ko32,sumo.ly,Complete Guide to TensorFlow for Deep Learning with Python,https://www.reddit.com/r/deeplearning/comments/95ko32/complete_guide_to_tensorflow_for_deep_learning/,plpface,1533722254,,0,1,False,default,,,,,
+44,deeplearning,t5_2t5eh,2018-8-8,2018,8,8,19,95kwjz,datasciencedigest.flyelephant.net,DataScience Digest - Issue #14,https://www.reddit.com/r/deeplearning/comments/95kwjz/datascience_digest_issue_14/,flyelephant,1533724861,,0,1,False,default,,,,,
+45,deeplearning,t5_2t5eh,2018-8-8,2018,8,8,23,95mqky,self.deeplearning,Suggestion for ML and DL projects.,https://www.reddit.com/r/deeplearning/comments/95mqky/suggestion_for_ml_and_dl_projects/,Troied,1533740369,Please help me out.,10,0,False,self,,,,,
+46,deeplearning,t5_2t5eh,2018-8-9,2018,8,9,0,95ms53,i.redd.it,"Dance generator using Autoencoder, LSTM and Mixture Density Network (Keras)",https://www.reddit.com/r/deeplearning/comments/95ms53/dance_generator_using_autoencoder_lstm_and/,HairyIndianDude,1533740660,,1,5,False,image,,,,,
+47,deeplearning,t5_2t5eh,2018-8-9,2018,8,9,0,95n7u3,self.deeplearning,"Dance generator using LSTM, Autoencoder and Mixture Density Network",https://www.reddit.com/r/deeplearning/comments/95n7u3/dance_generator_using_lstm_autoencoder_and/,HairyIndianDude,1533743528,"https://i.redd.it/19p2uiz15we11.gif
 
-github link: r/https://github.com/jsn5/dancenet",5,13
-48,2018-8-9,2018,8,9,1,95nco8,Best tools to use for real time detection of classes.,https://www.reddit.com/r/deeplearning/comments/95nco8/best_tools_to_use_for_real_time_detection_of/,amit2rockon,1533744407,I have polygonal  labelled dataset having multi classes. I want to detect those classes in real time. What  tools do you prefer to use and it's approach ?,0,1
-49,2018-8-9,2018,8,9,1,95ntem,Few activation functions handling various problems - neural networks,https://www.reddit.com/r/deeplearning/comments/95ntem/few_activation_functions_handling_various/,mikinoqwert2,1533747537,"Please, explain me, how a few activation functions in neural networks can handle so many problems? I know some basics theory behind ANN, but I can't get what in common have sigmoid function etc. with for example picture classification?",1,1
-50,2018-8-9,2018,8,9,4,95pgl0,Are view() in torch and reshape() in Numpy similar?,https://www.reddit.com/r/deeplearning/comments/95pgl0/are_view_in_torch_and_reshape_in_numpy_similar/,kailashahirwar12,1533758304,"Are view() in torch and reshape in Numpy similar?
+github link: r/https://github.com/jsn5/dancenet",5,13,False,self,,,,,
+48,deeplearning,t5_2t5eh,2018-8-9,2018,8,9,1,95nco8,self.deeplearning,Best tools to use for real time detection of classes.,https://www.reddit.com/r/deeplearning/comments/95nco8/best_tools_to_use_for_real_time_detection_of/,amit2rockon,1533744407,I have polygonal  labelled dataset having multi classes. I want to detect those classes in real time. What  tools do you prefer to use and it's approach ?,0,1,False,self,,,,,
+49,deeplearning,t5_2t5eh,2018-8-9,2018,8,9,1,95ntem,self.deeplearning,Few activation functions handling various problems - neural networks,https://www.reddit.com/r/deeplearning/comments/95ntem/few_activation_functions_handling_various/,mikinoqwert2,1533747537,"Please, explain me, how a few activation functions in neural networks can handle so many problems? I know some basics theory behind ANN, but I can't get what in common have sigmoid function etc. with for example picture classification?",1,1,False,self,,,,,
+50,deeplearning,t5_2t5eh,2018-8-9,2018,8,9,4,95pgl0,self.deeplearning,Are view() in torch and reshape() in Numpy similar?,https://www.reddit.com/r/deeplearning/comments/95pgl0/are_view_in_torch_and_reshape_in_numpy_similar/,kailashahirwar12,1533758304,"Are view() in torch and reshape in Numpy similar?
 
-view() is applied on torch tensors to change it's shape and reshape is a numpy function to change shapes of ndarrays.",2,2
-51,2018-8-9,2018,8,9,8,95rera,What kind of model to use?,https://www.reddit.com/r/deeplearning/comments/95rera/what_kind_of_model_to_use/,champulal,1533772320,"Hi all, I am  using a thermal sesor that returns  (1,64) 2d array.the array contains numerical value. Now I want to use deep learning to detect from the sensor values is there's a person or not. Can you help me decide which kind of model to use and any other information.",2,1
-52,2018-8-9,2018,8,9,15,95txe2,Is it possible to create a recurrent neural network that learns to loop a variable number of times based on the input?,https://www.reddit.com/r/deeplearning/comments/95txe2/is_it_possible_to_create_a_recurrent_neural/,hapa93,1533795200,"I.e, the number of times to feed the output to itself is learned. 
+view() is applied on torch tensors to change it's shape and reshape is a numpy function to change shapes of ndarrays.",2,2,False,self,,,,,
+51,deeplearning,t5_2t5eh,2018-8-9,2018,8,9,8,95rera,self.deeplearning,What kind of model to use?,https://www.reddit.com/r/deeplearning/comments/95rera/what_kind_of_model_to_use/,champulal,1533772320,"Hi all, I am  using a thermal sesor that returns  (1,64) 2d array.the array contains numerical value. Now I want to use deep learning to detect from the sensor values is there's a person or not. Can you help me decide which kind of model to use and any other information.",2,1,False,self,,,,,
+52,deeplearning,t5_2t5eh,2018-8-9,2018,8,9,15,95txe2,self.deeplearning,Is it possible to create a recurrent neural network that learns to loop a variable number of times based on the input?,https://www.reddit.com/r/deeplearning/comments/95txe2/is_it_possible_to_create_a_recurrent_neural/,hapa93,1533795200,"I.e, the number of times to feed the output to itself is learned. 
 
-This seems impossible because the number of times to loop can only be integers which is not differentiable.",2,4
-53,2018-8-9,2018,8,9,22,95wlll,Human presence detection.,https://www.reddit.com/r/deeplearning/comments/95wlll/human_presence_detection/,HumbBest,1533822640,"Hello, thanks for your guidance. 
+This seems impossible because the number of times to loop can only be integers which is not differentiable.",2,4,False,self,,,,,
+53,deeplearning,t5_2t5eh,2018-8-9,2018,8,9,22,95wlll,self.deeplearning,Human presence detection.,https://www.reddit.com/r/deeplearning/comments/95wlll/human_presence_detection/,HumbBest,1533822640,"Hello, thanks for your guidance. 
 I'm quite new to deep learning, I've been following the Deep Learning A-Z course on udemy.
 I am looking towards detecting human presence in a video stream from a cam and maybe sound an alarm or take other actions.
 From what I've been able to collect, my problem then becomes an object detection problem but with a single class (person).
 However, using an object detector seems a bit overkill, especially when I don't really need the bounding boxes from object detectors, I just want to know whether there is one person or more in my image. So I'm left wondering:
-How should I approach my problem?",5,2
-54,2018-8-9,2018,8,9,23,95wsjd,Postdoctoral fellowship: Machine Learning for NeuroImaging of Stroke Recovery,https://www.reddit.com/r/deeplearning/comments/95wsjd/postdoctoral_fellowship_machine_learning_for/,mreyesag,1533824121,"Applicants are invited for a Postdoctoral fellowship at the Medical Image Analysis group of the University of Bern as part of a multidisciplinary project between the Support Center for Advanced NeuroImaging, at Inselspital, Bern and Intento AG, an award-winning company developing innovative technologies to improve recovery of severely paralyzed stroke patients.
+How should I approach my problem?",5,2,False,self,,,,,
+54,deeplearning,t5_2t5eh,2018-8-9,2018,8,9,23,95wsjd,self.deeplearning,Postdoctoral fellowship: Machine Learning for NeuroImaging of Stroke Recovery,https://www.reddit.com/r/deeplearning/comments/95wsjd/postdoctoral_fellowship_machine_learning_for/,mreyesag,1533824121,"Applicants are invited for a Postdoctoral fellowship at the Medical Image Analysis group of the University of Bern as part of a multidisciplinary project between the Support Center for Advanced NeuroImaging, at Inselspital, Bern and Intento AG, an award-winning company developing innovative technologies to improve recovery of severely paralyzed stroke patients.
 
 More info: https://www.linkedin.com/pulse/postdoctoral-fellowship-machine-learning-neuroimaging-mauricio-reyes/
 
 Thank for upvoting to help spread the word!
-",0,4
-55,2018-8-9,2018,8,9,23,95wv3p,Why we reverse the words in source sentence improve the efficiency of LSTM ?,https://www.reddit.com/r/deeplearning/comments/95wv3p/why_we_reverse_the_words_in_source_sentence/,pcidev,1533824688,"I was reading the paper -  *Sequence to Sequence learning using Neural Nets* . In that paper the author has reversed the order of the source sentence but not the target sentence and claim that it improves their performance. 
+",0,4,False,self,,,,,
+55,deeplearning,t5_2t5eh,2018-8-9,2018,8,9,23,95wv3p,self.deeplearning,Why we reverse the words in source sentence improve the efficiency of LSTM ?,https://www.reddit.com/r/deeplearning/comments/95wv3p/why_we_reverse_the_words_in_source_sentence/,pcidev,1533824688,"I was reading the paper -  *Sequence to Sequence learning using Neural Nets* . In that paper the author has reversed the order of the source sentence but not the target sentence and claim that it improves their performance. 
 
 Could someone explain how reversing help and can we used that trick in other task on NLP ?  
 
 
-PS: in paper the reason was not clear. ",9,8
-56,2018-8-10,2018,8,10,1,95y363,"That's not enough, We have to go deeper",https://www.reddit.com/r/deeplearning/comments/95y363/thats_not_enough_we_have_to_go_deeper/,arjunkava,1533832960,,0,1
-57,2018-8-10,2018,8,10,1,95y6fq,"That's not enough, We have to go deeperThat&amp;#x27;s not enough, We have to go deeper",https://www.reddit.com/r/deeplearning/comments/95y6fq/thats_not_enough_we_have_to_go_deeperthatx27s_not/,arjunkava,1533833558,,0,1
-58,2018-8-10,2018,8,10,2,95ydvt,What Artificial Intelligence Taught Us,https://www.reddit.com/r/deeplearning/comments/95ydvt/what_artificial_intelligence_taught_us/,harshMachineLearning,1533834901,,0,2
-59,2018-8-10,2018,8,10,7,960y1e,Introducing TAZ: A.I. Powered Churn Analytics,https://www.reddit.com/r/deeplearning/comments/960y1e/introducing_taz_ai_powered_churn_analytics/,coAdjoint_Tom,1533852127,,0,0
-60,2018-8-10,2018,8,10,13,963y6v,Artificial Intelligence (AI) emulates how people think  Artificial Emotional Intelligence (AEI) emulates how people feel,https://www.reddit.com/r/deeplearning/comments/963y6v/artificial_intelligence_ai_emulates_how_people/,Batareika_1,1533876670,,2,0
-61,2018-8-10,2018,8,10,18,965jsw,"Sometimes, I get tired of pretending I actually know statistics.",https://www.reddit.com/r/deeplearning/comments/965jsw/sometimes_i_get_tired_of_pretending_i_actually/,ASBrainBeast,1533894446,"And I don't just want to gloss over something I don't understand :) The paragraph below is from this blogpost: [https://magenta.tensorflow.org/2016/11/09/tuning-recurrent-networks-with-reinforcement-learning/](https://magenta.tensorflow.org/2016/11/09/tuning-recurrent-networks-with-reinforcement-learning/)
+PS: in paper the reason was not clear. ",9,8,False,self,,,,,
+56,deeplearning,t5_2t5eh,2018-8-10,2018,8,10,1,95y363,arjun-kava.github.io,"That's not enough, We have to go deeper",https://www.reddit.com/r/deeplearning/comments/95y363/thats_not_enough_we_have_to_go_deeper/,arjunkava,1533832960,,0,1,False,default,,,,,
+57,deeplearning,t5_2t5eh,2018-8-10,2018,8,10,1,95y6fq,arjun-kava.github.io,"That's not enough, We have to go deeperThat&amp;#x27;s not enough, We have to go deeper",https://www.reddit.com/r/deeplearning/comments/95y6fq/thats_not_enough_we_have_to_go_deeperthatx27s_not/,arjunkava,1533833558,,0,1,False,default,,,,,
+58,deeplearning,t5_2t5eh,2018-8-10,2018,8,10,2,95ydvt,youtu.be,What Artificial Intelligence Taught Us,https://www.reddit.com/r/deeplearning/comments/95ydvt/what_artificial_intelligence_taught_us/,harshMachineLearning,1533834901,,0,2,False,image,,,,,
+59,deeplearning,t5_2t5eh,2018-8-10,2018,8,10,7,960y1e,youtu.be,Introducing TAZ: A.I. Powered Churn Analytics,https://www.reddit.com/r/deeplearning/comments/960y1e/introducing_taz_ai_powered_churn_analytics/,coAdjoint_Tom,1533852127,,0,0,False,image,,,,,
+60,deeplearning,t5_2t5eh,2018-8-10,2018,8,10,13,963y6v,blog.ntrlab.com,Artificial Intelligence (AI) emulates how people think  Artificial Emotional Intelligence (AEI) emulates how people feel,https://www.reddit.com/r/deeplearning/comments/963y6v/artificial_intelligence_ai_emulates_how_people/,Batareika_1,1533876670,,2,0,False,default,,,,,
+61,deeplearning,t5_2t5eh,2018-8-10,2018,8,10,18,965jsw,self.deeplearning,"Sometimes, I get tired of pretending I actually know statistics.",https://www.reddit.com/r/deeplearning/comments/965jsw/sometimes_i_get_tired_of_pretending_i_actually/,ASBrainBeast,1533894446,"And I don't just want to gloss over something I don't understand :) The paragraph below is from this blogpost: [https://magenta.tensorflow.org/2016/11/09/tuning-recurrent-networks-with-reinforcement-learning/](https://magenta.tensorflow.org/2016/11/09/tuning-recurrent-networks-with-reinforcement-learning/)
 
 &gt;Several techniques are required for a DQN to work effectively. As the agent interacts with the environment, &lt;st,at,rt,st+1&gt;&lt;st,at,rt,st+1&gt;tuples it experiences are stored in an *experience buffer*. Training the *Q-network* is accomplished by randomly sampling batches from the *experience buffer* to compute the loss. The *experience buffer* is essential for learning; if the agent was trained using consecutive samples of experience, the samples would be highly correlated, updates would have high variance, and the network parameters could become stuck in a local minimum or diverge.
 
-It's from the background section on RL; I don't really understand the latter part, about the consequences of not randomly sampling from the experience buffer. Would anyone be able to clarify? Thanks!!",11,19
-62,2018-8-11,2018,8,11,0,967ra4,Literature on extracting additional features from a dataset using other neural networks?,https://www.reddit.com/r/deeplearning/comments/967ra4/literature_on_extracting_additional_features_from/,clarle,1533913823,"I've seen this come up in a few Kaggle competition solutions around computer vision, but I can't seem to find good literature or journal articles on this.
+It's from the background section on RL; I don't really understand the latter part, about the consequences of not randomly sampling from the experience buffer. Would anyone be able to clarify? Thanks!!",11,19,False,self,,,,,
+62,deeplearning,t5_2t5eh,2018-8-11,2018,8,11,0,967ra4,self.deeplearning,Literature on extracting additional features from a dataset using other neural networks?,https://www.reddit.com/r/deeplearning/comments/967ra4/literature_on_extracting_additional_features_from/,clarle,1533913823,"I've seen this come up in a few Kaggle competition solutions around computer vision, but I can't seem to find good literature or journal articles on this.
 
 People will take another neural network separate from the one they're using, and use different layers as additional inputs into their own custom architecture.  It seems to be similar to transfer learning, but not exactly the same, as they use multiple resolution layers from the same other network as inputs.
 
-It makes sense to me in theory, but I was just curious what sort of papers were out there discussing this.  ",0,1
-63,2018-8-11,2018,8,11,0,967spb,Learn AI/ML/Deep Learning with new iOS/Android App!,https://www.reddit.com/r/deeplearning/comments/967spb/learn_aimldeep_learning_with_new_iosandroid_app/,MusingEtMachina,1533914111,"Hey everyone! First a bit about me: I did my undergrad and master's in Stanford's AI program.
+It makes sense to me in theory, but I was just curious what sort of papers were out there discussing this.  ",0,1,False,self,,,,,
+63,deeplearning,t5_2t5eh,2018-8-11,2018,8,11,0,967spb,self.deeplearning,Learn AI/ML/Deep Learning with new iOS/Android App!,https://www.reddit.com/r/deeplearning/comments/967spb/learn_aimldeep_learning_with_new_iosandroid_app/,MusingEtMachina,1533914111,"Hey everyone! First a bit about me: I did my undergrad and master's in Stanford's AI program.
 
 I know firsthand that learning AI is challenging, but it doesn't have to be! I've released an iOS/Android app that is a full-fledged curriculum for learning the basics of AI/ML/Deep Learning in a \*\*no-experience necessary, accessible\*\* way.
 
-For a limited time, the app is available with a \*\*special 66% off discount\*\*! Check it out on \[iOS\]([https://itunes.apple.com/us/app/artificial-intelligence-school/id1369987569?mt=8](https://itunes.apple.com/us/app/artificial-intelligence-school/id1369987569?mt=8)) and \[Android\]([https://play.google.com/store/apps/details?id=com.theaischool](https://play.google.com/store/apps/details?id=com.theaischool)).",2,0
-64,2018-8-11,2018,8,11,2,96935p,New to deep learning!,https://www.reddit.com/r/deeplearning/comments/96935p/new_to_deep_learning/,datavoyager92,1533922780,"In neural networks, we talk a lot about weights. How are these weights assigned?
+For a limited time, the app is available with a \*\*special 66% off discount\*\*! Check it out on \[iOS\]([https://itunes.apple.com/us/app/artificial-intelligence-school/id1369987569?mt=8](https://itunes.apple.com/us/app/artificial-intelligence-school/id1369987569?mt=8)) and \[Android\]([https://play.google.com/store/apps/details?id=com.theaischool](https://play.google.com/store/apps/details?id=com.theaischool)).",2,0,False,self,,,,,
+64,deeplearning,t5_2t5eh,2018-8-11,2018,8,11,2,96935p,self.deeplearning,New to deep learning!,https://www.reddit.com/r/deeplearning/comments/96935p/new_to_deep_learning/,datavoyager92,1533922780,"In neural networks, we talk a lot about weights. How are these weights assigned?
 
-Are they random? Where does the system get those numbers?",15,2
-65,2018-8-11,2018,8,11,6,96b9f4,"I have a cos function in interval of [0,pie/n], I need to remove the restriction, how can I? --&gt; Thanks",https://www.reddit.com/r/deeplearning/comments/96b9f4/i_have_a_cos_function_in_interval_of_0pien_i_need/,nile6499,1533938278,,2,0
-66,2018-8-11,2018,8,11,16,96eqpt,What does linearly seperable mean?,https://www.reddit.com/r/deeplearning/comments/96eqpt/what_does_linearly_seperable_mean/,nshmadhani,1533971058,"I am new to Neural Networks and could not get my head wrapped around what is linearly separable and what is not , please help me .",6,0
-67,2018-8-11,2018,8,11,18,96f9j4,Deep Supervised Learning: Loss-Accuracy Function Conundrum,https://www.reddit.com/r/deeplearning/comments/96f9j4/deep_supervised_learning_lossaccuracy_function/,Diaa07,1533978116,"So we all know that loss functions devised for deep learning, in particular softmax cross entropy, are not equivalent to the ideal 1-0 accuracy loss in classification tasks. Nonetheless, they work out together so well that it seems that practitioners ignore the aforementioned fact and end up happy with standard loss functions.  
+Are they random? Where does the system get those numbers?",15,2,False,self,,,,,
+65,deeplearning,t5_2t5eh,2018-8-11,2018,8,11,6,96b9f4,self.deeplearning,"I have a cos function in interval of [0,pie/n], I need to remove the restriction, how can I? --&gt; Thanks",https://www.reddit.com/r/deeplearning/comments/96b9f4/i_have_a_cos_function_in_interval_of_0pien_i_need/,nile6499,1533938278,,2,0,False,self,,,,,
+66,deeplearning,t5_2t5eh,2018-8-11,2018,8,11,16,96eqpt,self.deeplearning,What does linearly seperable mean?,https://www.reddit.com/r/deeplearning/comments/96eqpt/what_does_linearly_seperable_mean/,nshmadhani,1533971058,"I am new to Neural Networks and could not get my head wrapped around what is linearly separable and what is not , please help me .",6,0,False,self,,,,,
+67,deeplearning,t5_2t5eh,2018-8-11,2018,8,11,18,96f9j4,self.deeplearning,Deep Supervised Learning: Loss-Accuracy Function Conundrum,https://www.reddit.com/r/deeplearning/comments/96f9j4/deep_supervised_learning_lossaccuracy_function/,Diaa07,1533978116,"So we all know that loss functions devised for deep learning, in particular softmax cross entropy, are not equivalent to the ideal 1-0 accuracy loss in classification tasks. Nonetheless, they work out together so well that it seems that practitioners ignore the aforementioned fact and end up happy with standard loss functions.  
  Has anybody encountered total contradiction between  loss and accuracy function with standard back-propagation, where your deep model ends up in a trivial minimum solution where the accuracy is 1/#Classes (totally random guessing)?  
-Any suggestions or insightful comments as to how to tackle this issue?",2,3
-68,2018-8-11,2018,8,11,18,96fgft,AI Weekly 11 August 2018,https://www.reddit.com/r/deeplearning/comments/96fgft/ai_weekly_11_august_2018/,TomekB,1533980813,,0,1
-69,2018-8-11,2018,8,11,23,96h49j,Not able to train a feature fusion network.,https://www.reddit.com/r/deeplearning/comments/96h49j/not_able_to_train_a_feature_fusion_network/,adi1709,1533999441,"I have an RGB image and another modality (which also has 3 channels and is an image). This is an object detection network (SqueezeDet). Each modality has a seperate branch until I fuse the feature maps with each other and then few other layers after the fusion of the feature maps. (there are no fully connected layers, the output is obtained directly by conv layers). The individual networks converge ie when the one branch is not present. But when I train them together it is not converging. I am using a simple tf.concat to fuse the feature maps. I'm sorry, but any help is appreciated. It's sort of an emergency. Thank you. ",0,2
-70,2018-8-12,2018,8,12,7,96kbg3,A small team of student AI coders beats Googles machine-learning code,https://www.reddit.com/r/deeplearning/comments/96kbg3/a_small_team_of_student_ai_coders_beats_googles/,MattyBv3,1534025350,,0,14
-71,2018-8-12,2018,8,12,7,96khlf,AI Driving Olympics at NIPS 2018: deep learning vs traditional approaches,https://www.reddit.com/r/deeplearning/comments/96khlf/ai_driving_olympics_at_nips_2018_deep_learning_vs/,andrea,1534026793,"I am one of the organizers of [the AI Driving Olympics](https://www.duckietown.org/research/ai-driving-olympics) at NIPS 2018, in which 6 universities are involved (U. Montral / MILA, ETH Zrich, Georgia Tech, Tsinghua, NCTU, TTIC), plus 2 industry partners (self-driving car company nuTonomy and Amazon Web Services).
+Any suggestions or insightful comments as to how to tackle this issue?",2,3,False,self,,,,,
+68,deeplearning,t5_2t5eh,2018-8-11,2018,8,11,18,96fgft,theaigeek.com,AI Weekly 11 August 2018,https://www.reddit.com/r/deeplearning/comments/96fgft/ai_weekly_11_august_2018/,TomekB,1533980813,,0,1,False,default,,,,,
+69,deeplearning,t5_2t5eh,2018-8-11,2018,8,11,23,96h49j,self.deeplearning,Not able to train a feature fusion network.,https://www.reddit.com/r/deeplearning/comments/96h49j/not_able_to_train_a_feature_fusion_network/,adi1709,1533999441,"I have an RGB image and another modality (which also has 3 channels and is an image). This is an object detection network (SqueezeDet). Each modality has a seperate branch until I fuse the feature maps with each other and then few other layers after the fusion of the feature maps. (there are no fully connected layers, the output is obtained directly by conv layers). The individual networks converge ie when the one branch is not present. But when I train them together it is not converging. I am using a simple tf.concat to fuse the feature maps. I'm sorry, but any help is appreciated. It's sort of an emergency. Thank you. ",0,2,False,self,,,,,
+70,deeplearning,t5_2t5eh,2018-8-12,2018,8,12,7,96kbg3,technologyreview.com,A small team of student AI coders beats Googles machine-learning code,https://www.reddit.com/r/deeplearning/comments/96kbg3/a_small_team_of_student_ai_coders_beats_googles/,MattyBv3,1534025350,,0,14,False,default,,,,,
+71,deeplearning,t5_2t5eh,2018-8-12,2018,8,12,7,96khlf,self.deeplearning,AI Driving Olympics at NIPS 2018: deep learning vs traditional approaches,https://www.reddit.com/r/deeplearning/comments/96khlf/ai_driving_olympics_at_nips_2018_deep_learning_vs/,andrea,1534026793,"I am one of the organizers of [the AI Driving Olympics](https://www.duckietown.org/research/ai-driving-olympics) at NIPS 2018, in which 6 universities are involved (U. Montral / MILA, ETH Zrich, Georgia Tech, Tsinghua, NCTU, TTIC), plus 2 industry partners (self-driving car company nuTonomy and Amazon Web Services).
 
 We are excited because this is going to be the first robotic competition at a machine learning conference: you send your code - we run it on our robots. Or, you can get a robot yourself through [the Kickstarter](https://www.kickstarter.com/projects/163162211/duckietown-a-playful-road-to-learning-robotics-and?ref=ay75ep) run by our non-profit foundation.
 
 We are also very curious about what approach will be the winner...
 
 AMA in the comments. I am here with students and collaborators /u/stratanis, /u/gzardini,  /u/manfred_diaz, /u/afdaniele, /u/duckietown-udem.
-",2,18
-72,2018-8-12,2018,8,12,15,96neuf,DeepLearning.ai Coursera study group,https://www.reddit.com/r/deeplearning/comments/96neuf/deeplearningai_coursera_study_group/,bo123x,1534056646,"Hi guys,
+",2,18,False,self,,,,,
+72,deeplearning,t5_2t5eh,2018-8-12,2018,8,12,15,96neuf,self.deeplearning,DeepLearning.ai Coursera study group,https://www.reddit.com/r/deeplearning/comments/96neuf/deeplearningai_coursera_study_group/,bo123x,1534056646,"Hi guys,
 
 I am looking for a buddy or set up a study group to go help complete [DeepLearning.ai](https://DeepLearning.ai) specialisation. 
 
@@ -311,25 +311,25 @@ I would be keen to collaborate via slack and set up pair programming sessions do
 
 Are there volunteers?
 
-Cheers",21,23
-73,2018-8-12,2018,8,12,18,96nzq2,"Deep Learning - Mandate for Humans, Not Just Machines",https://www.reddit.com/r/deeplearning/comments/96nzq2/deep_learning_mandate_for_humans_not_just_machines/,vinods1975,1534065051,,0,5
-74,2018-8-12,2018,8,12,18,96o5hj,Is it worth writing a research paper even if I have no means/ or chances of publishing it?,https://www.reddit.com/r/deeplearning/comments/96o5hj/is_it_worth_writing_a_research_paper_even_if_i/,mankadronit,1534067545,"I'm doing a Essay Grading using LSTMs project and I have achieved performance equal to current state of the art systems. So I want to write a paper on my method(and architecture). But I'm pretty sure my chances of publishing a paper are very low.
+Cheers",21,23,False,self,,,,,
+73,deeplearning,t5_2t5eh,2018-8-12,2018,8,12,18,96nzq2,vinodsblog.com,"Deep Learning - Mandate for Humans, Not Just Machines",https://www.reddit.com/r/deeplearning/comments/96nzq2/deep_learning_mandate_for_humans_not_just_machines/,vinods1975,1534065051,,0,5,False,default,,,,,
+74,deeplearning,t5_2t5eh,2018-8-12,2018,8,12,18,96o5hj,self.deeplearning,Is it worth writing a research paper even if I have no means/ or chances of publishing it?,https://www.reddit.com/r/deeplearning/comments/96o5hj/is_it_worth_writing_a_research_paper_even_if_i/,mankadronit,1534067545,"I'm doing a Essay Grading using LSTMs project and I have achieved performance equal to current state of the art systems. So I want to write a paper on my method(and architecture). But I'm pretty sure my chances of publishing a paper are very low.
 
-So can I just get by by publishing it on arXiv just to gain some CV leverage? I'm looking forward to do a Master's in CS/ML and I thought that this would boost my profile a little bit.",8,15
-75,2018-8-12,2018,8,12,19,96ocrq,Introduction to Artificial Intelligence ( AI ) for Beginners,https://www.reddit.com/r/deeplearning/comments/96ocrq/introduction_to_artificial_intelligence_ai_for/,HannahHumphreys,1534070588,,0,1
-76,2018-8-12,2018,8,12,23,96pftg,Is NVIDIA GTX 1050 good enough for deep learning? (Beginners),https://www.reddit.com/r/deeplearning/comments/96pftg/is_nvidia_gtx_1050_good_enough_for_deep_learning/,shyam_sundar19,1534084565,"I am about to purchase the Lenovo Y520 gaming laptop which rocks an NVIDIA GTX 1050 GPU. I am just starting out on Neural Nets especially for computer vision. Is this good enough to train reasonably sized models?
-Your thoughts?",20,2
-77,2018-8-12,2018,8,12,23,96phy3,https://www.youtube.com/watch?v=zxJJ0T54HX8,https://www.reddit.com/r/deeplearning/comments/96phy3/httpswwwyoutubecomwatchvzxjj0t54hx8/,vector_machines,1534085089,[https://www.youtube.com/watch?v=zxJJ0T54HX8](https://www.youtube.com/watch?v=zxJJ0T54HX8),0,1
-78,2018-8-12,2018,8,12,23,96pjr1,Transfer Learning in NLP | Universal Language Models,https://www.reddit.com/r/deeplearning/comments/96pjr1/transfer_learning_in_nlp_universal_language_models/,vector_machines,1534085520,[https://www.youtube.com/watch?v=zxJJ0T54HX8](https://www.youtube.com/watch?v=zxJJ0T54HX8),0,1
-79,2018-8-13,2018,8,13,2,96qs16,Understanding deep learning - a novice's perspective,https://www.reddit.com/r/deeplearning/comments/96qs16/understanding_deep_learning_a_novices_perspective/,Stelman,1534095524,,0,1
-80,2018-8-13,2018,8,13,5,96s7uf,How to deal with missing values for a Simple Deep Neural Network ?,https://www.reddit.com/r/deeplearning/comments/96s7uf/how_to_deal_with_missing_values_for_a_simple_deep/,mihirbhatia999,1534106920,"I'm looking for a way to deal with missing values in my dataset. The dataset consists of 40 columns of structured data (NOT time-series). Most problems that I had dealt with earlier, I could just get rid of  where missing data was present and I was good to go since there were such few NaN values. But in this dataset, I would end up eliminating almost 40% of my data if I did the same thing.
+So can I just get by by publishing it on arXiv just to gain some CV leverage? I'm looking forward to do a Master's in CS/ML and I thought that this would boost my profile a little bit.",8,15,False,self,,,,,
+75,deeplearning,t5_2t5eh,2018-8-12,2018,8,12,19,96ocrq,datascience-zing.com,Introduction to Artificial Intelligence ( AI ) for Beginners,https://www.reddit.com/r/deeplearning/comments/96ocrq/introduction_to_artificial_intelligence_ai_for/,HannahHumphreys,1534070588,,0,1,False,default,,,,,
+76,deeplearning,t5_2t5eh,2018-8-12,2018,8,12,23,96pftg,self.deeplearning,Is NVIDIA GTX 1050 good enough for deep learning? (Beginners),https://www.reddit.com/r/deeplearning/comments/96pftg/is_nvidia_gtx_1050_good_enough_for_deep_learning/,shyam_sundar19,1534084565,"I am about to purchase the Lenovo Y520 gaming laptop which rocks an NVIDIA GTX 1050 GPU. I am just starting out on Neural Nets especially for computer vision. Is this good enough to train reasonably sized models?
+Your thoughts?",20,2,False,self,,,,,
+77,deeplearning,t5_2t5eh,2018-8-12,2018,8,12,23,96phy3,self.deeplearning,https://www.youtube.com/watch?v=zxJJ0T54HX8,https://www.reddit.com/r/deeplearning/comments/96phy3/httpswwwyoutubecomwatchvzxjj0t54hx8/,vector_machines,1534085089,[https://www.youtube.com/watch?v=zxJJ0T54HX8](https://www.youtube.com/watch?v=zxJJ0T54HX8),0,1,False,self,,,,,
+78,deeplearning,t5_2t5eh,2018-8-12,2018,8,12,23,96pjr1,self.deeplearning,Transfer Learning in NLP | Universal Language Models,https://www.reddit.com/r/deeplearning/comments/96pjr1/transfer_learning_in_nlp_universal_language_models/,vector_machines,1534085520,[https://www.youtube.com/watch?v=zxJJ0T54HX8](https://www.youtube.com/watch?v=zxJJ0T54HX8),0,1,False,self,,,,,
+79,deeplearning,t5_2t5eh,2018-8-13,2018,8,13,2,96qs16,youtube.com,Understanding deep learning - a novice's perspective,https://www.reddit.com/r/deeplearning/comments/96qs16/understanding_deep_learning_a_novices_perspective/,Stelman,1534095524,,0,1,False,image,,,,,
+80,deeplearning,t5_2t5eh,2018-8-13,2018,8,13,5,96s7uf,self.deeplearning,How to deal with missing values for a Simple Deep Neural Network ?,https://www.reddit.com/r/deeplearning/comments/96s7uf/how_to_deal_with_missing_values_for_a_simple_deep/,mihirbhatia999,1534106920,"I'm looking for a way to deal with missing values in my dataset. The dataset consists of 40 columns of structured data (NOT time-series). Most problems that I had dealt with earlier, I could just get rid of  where missing data was present and I was good to go since there were such few NaN values. But in this dataset, I would end up eliminating almost 40% of my data if I did the same thing.
 
 I tried referring to [this paper](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=3E447DA9F99A2EFB3A762A94447DB5EC?doi=10.1.1.23.6971&amp;rep=rep1&amp;type=pdf) but I found it hard to grasp.  I have the following questions :
 
 1.  I read on some forums that averaging or using other algorithms to fill the NaN values in some columns isn't the best route to go by. Is this true ? 
 2. What are other alternatives of training my NN with the data that I have without having to get rid of all the data essential to train it ? 
-3. Once trained and checked on the Dev set, how to deal with the test set values ? ",7,9
-81,2018-8-13,2018,8,13,14,96vqy5,RNN model with 3 hidden layers,https://www.reddit.com/r/deeplearning/comments/96vqy5/rnn_model_with_3_hidden_layers/,suraty,1534138677,"Hello,
+3. Once trained and checked on the Dev set, how to deal with the test set values ? ",7,9,False,self,,,,,
+81,deeplearning,t5_2t5eh,2018-8-13,2018,8,13,14,96vqy5,self.deeplearning,RNN model with 3 hidden layers,https://www.reddit.com/r/deeplearning/comments/96vqy5/rnn_model_with_3_hidden_layers/,suraty,1534138677,"Hello,
 In a paper, it mentioned: ANN, RNN, and LSTM NN are optimized to contain three hidden layers with 1000 hidden units in each layer.
 I would like to model the RNN model in Keras. But my code fails in an error!
 My code:
@@ -357,10 +357,10 @@ Error:
 
 
 How can I code for the RNN model which is optimized to contain three hidden layers with 1000 hidden units in each layer?
-Thank you so much",4,1
-82,2018-8-13,2018,8,13,19,96x85u,Transfer Learning in NLP | Universal language models,https://www.reddit.com/r/deeplearning/comments/96x85u/transfer_learning_in_nlp_universal_language_models/,vector_machines,1534156524,,0,21
-83,2018-8-14,2018,8,14,5,971vl0,Webinar: Using Hypothetical Data in Machine Learning Trading Strategies,https://www.reddit.com/r/deeplearning/comments/971vl0/webinar_using_hypothetical_data_in_machine/,qplum,1534192232,[removed],0,1
-84,2018-8-14,2018,8,14,8,973bzm,Need help with identifying the proper operations for 2 sequential tensor,https://www.reddit.com/r/deeplearning/comments/973bzm/need_help_with_identifying_the_proper_operations/,anis016,1534203159,"Hi,
+Thank you so much",4,1,False,self,,,,,
+82,deeplearning,t5_2t5eh,2018-8-13,2018,8,13,19,96x85u,youtu.be,Transfer Learning in NLP | Universal language models,https://www.reddit.com/r/deeplearning/comments/96x85u/transfer_learning_in_nlp_universal_language_models/,vector_machines,1534156524,,0,21,False,image,,,,,
+83,deeplearning,t5_2t5eh,2018-8-14,2018,8,14,5,971vl0,self.deeplearning,Webinar: Using Hypothetical Data in Machine Learning Trading Strategies,https://www.reddit.com/r/deeplearning/comments/971vl0/webinar_using_hypothetical_data_in_machine/,qplum,1534192232,[removed],0,1,False,self,,,,,
+84,deeplearning,t5_2t5eh,2018-8-14,2018,8,14,8,973bzm,self.deeplearning,Need help with identifying the proper operations for 2 sequential tensor,https://www.reddit.com/r/deeplearning/comments/973bzm/need_help_with_identifying_the_proper_operations/,anis016,1534203159,"Hi,
 
 I have a tensor X , which is of shape:
 
@@ -372,12 +372,12 @@ There is another tensor Y, of shape:
 batch_size X number_of_sequence X embedding_size
 ex: 10 X 253 X 300  This tensor Y is the output from an Embedding.
 
-I need to work with these 2 tensors X and Y and feed this to an Attention network to match the sequence Y to each element in X. I need bit help as to which operations would be better to pack X and Y  Since I am coding in pytorch, if I do torch.cat((X, Y), dim=2) will this be a good idea?",4,5
-85,2018-8-14,2018,8,14,23,978qd9,Why all the excitement about artificial intelligence?,https://www.reddit.com/r/deeplearning/comments/978qd9/why_all_the_excitement_about_artificial/,ElegantFeeling,1534256275,"https://medium.com/@mihail_eric/why-all-the-excitement-about-artificial-intelligence-435957ba9ed3
-",4,0
-86,2018-8-15,2018,8,15,1,979m78,"Deep Learning; Personal Notes Part 1 Lesson 2, Learning rate, Data Augmentation, Annealing, Test",https://www.reddit.com/r/deeplearning/comments/979m78/deep_learning_personal_notes_part_1_lesson_2/,keghn,1534262685,,0,16
-87,2018-8-15,2018,8,15,2,97agre,attn_gan_pytorch: python package for building attention based GANs,https://www.reddit.com/r/deeplearning/comments/97agre/attn_gan_pytorch_python_package_for_building/,akanimax,1534268659,,0,2
-88,2018-8-15,2018,8,15,10,97e3re,Starting Deep Learning (not from scratch),https://www.reddit.com/r/deeplearning/comments/97e3re/starting_deep_learning_not_from_scratch/,notepad---,1534295913,"Hello everyone,
+I need to work with these 2 tensors X and Y and feed this to an Attention network to match the sequence Y to each element in X. I need bit help as to which operations would be better to pack X and Y  Since I am coding in pytorch, if I do torch.cat((X, Y), dim=2) will this be a good idea?",4,5,False,self,,,,,
+85,deeplearning,t5_2t5eh,2018-8-14,2018,8,14,23,978qd9,self.deeplearning,Why all the excitement about artificial intelligence?,https://www.reddit.com/r/deeplearning/comments/978qd9/why_all_the_excitement_about_artificial/,ElegantFeeling,1534256275,"https://medium.com/@mihail_eric/why-all-the-excitement-about-artificial-intelligence-435957ba9ed3
+",4,0,False,self,,,,,
+86,deeplearning,t5_2t5eh,2018-8-15,2018,8,15,1,979m78,towardsdatascience.com,"Deep Learning; Personal Notes Part 1 Lesson 2, Learning rate, Data Augmentation, Annealing, Test",https://www.reddit.com/r/deeplearning/comments/979m78/deep_learning_personal_notes_part_1_lesson_2/,keghn,1534262685,,0,16,False,default,,,,,
+87,deeplearning,t5_2t5eh,2018-8-15,2018,8,15,2,97agre,github.com,attn_gan_pytorch: python package for building attention based GANs,https://www.reddit.com/r/deeplearning/comments/97agre/attn_gan_pytorch_python_package_for_building/,akanimax,1534268659,,0,2,False,default,,,,,
+88,deeplearning,t5_2t5eh,2018-8-15,2018,8,15,10,97e3re,self.deeplearning,Starting Deep Learning (not from scratch),https://www.reddit.com/r/deeplearning/comments/97e3re/starting_deep_learning_not_from_scratch/,notepad---,1534295913,"Hello everyone,
 
 I am a student actively interested in deep learning and computer science. I have completed the 5 course specialization on Coursera from [Deeplearning.AI](https://Deeplearning.AI), and I understand the concepts and linear algebra behind this very well. I was thinking about doing [fast.AI](https://fast.AI) next, since I have heard that it provides a lot of documentation and tutorials on how to increase deep learning skills. 
 
@@ -385,14 +385,14 @@ I was wondering if you all had any suggestions regarding some other things I can
 
 Thanks,
 
-notepad---",2,15
-89,2018-8-15,2018,8,15,13,97fk7z,how to log (evetything) and handle correctly the multiple hyperparameters,https://www.reddit.com/r/deeplearning/comments/97fk7z/how_to_log_evetything_and_handle_correctly_the/,finallyifoundvalidUN,1534309092,"It's how I log (everything) and handle correctly the multiple hyperparameters that arise in my deep learning projects:
+notepad---",2,15,False,self,,,,,
+89,deeplearning,t5_2t5eh,2018-8-15,2018,8,15,13,97fk7z,self.deeplearning,how to log (evetything) and handle correctly the multiple hyperparameters,https://www.reddit.com/r/deeplearning/comments/97fk7z/how_to_log_evetything_and_handle_correctly_the/,finallyifoundvalidUN,1534309092,"It's how I log (everything) and handle correctly the multiple hyperparameters that arise in my deep learning projects:
 
 https://cs230-stanford.github.io/logging-hyperparams.html#logging
 
 I have a file that I log every command that I use, so it's a terrible kind of logging of hyper-parameters, but honestly I don't know how to effectively do these stuff. I know of sacred and fglab, but I haven't had the time to start using them in my project.
-What do you do?",0,1
-90,2018-8-15,2018,8,15,15,97fyoa,Making a CNN model according to a presented architecture,https://www.reddit.com/r/deeplearning/comments/97fyoa/making_a_cnn_model_according_to_a_presented/,suraty,1534313460,"Hello,
+What do you do?",0,1,False,self,,,,,
+90,deeplearning,t5_2t5eh,2018-8-15,2018,8,15,15,97fyoa,self.deeplearning,Making a CNN model according to a presented architecture,https://www.reddit.com/r/deeplearning/comments/97fyoa/making_a_cnn_model_according_to_a_presented/,suraty,1534313460,"Hello,
 I would like to make a model in Keras whose architecture should be as below and the *relu* function is applied to it.
 I just have this information:
 Layer 		Name 		Parameters 		Dimensions 	Parameter Scale
@@ -430,8 +430,8 @@ Is my code true for that architecture? Isn't there a nonlinear activation on the
 
 And any other opinions.
 
-Thank you",2,5
-91,2018-8-15,2018,8,15,17,97glat,Can learning image transformations improve prediction accuracy?,https://www.reddit.com/r/deeplearning/comments/97glat/can_learning_image_transformations_improve/,LiorZim,1534321560,"Hi Everyone,
+Thank you",2,5,False,self,,,,,
+91,deeplearning,t5_2t5eh,2018-8-15,2018,8,15,17,97glat,self.deeplearning,Can learning image transformations improve prediction accuracy?,https://www.reddit.com/r/deeplearning/comments/97glat/can_learning_image_transformations_improve/,LiorZim,1534321560,"Hi Everyone,
 
 I have created a network for the classification of cell cultures into wildtype and mutants.
 
@@ -441,11 +441,11 @@ For example: applying a gamma transformation where gamma is a learned parameter.
 
 In my case. when certain transformations are applied to the images (adjusting contrast, brightness selectively)  the distinction is made much more easily (at least by my inferior human visual cortex...)
 
-Thanks!",4,2
-92,2018-8-16,2018,8,16,4,97lagz,Don't use dropout in convolutional networks.,https://www.reddit.com/r/deeplearning/comments/97lagz/dont_use_dropout_in_convolutional_networks/,Harrisonjansma,1534361698,[https://towardsdatascience.com/dont-use-dropout-in-convolutional-networks-81486c823c16](https://towardsdatascience.com/dont-use-dropout-in-convolutional-networks-81486c823c16),3,16
-93,2018-8-16,2018,8,16,12,97oyih,Top 11 Deep Learning and Neural Networks Books,https://www.reddit.com/r/deeplearning/comments/97oyih/top_11_deep_learning_and_neural_networks_books/,kjahan,1534391168,,0,1
-94,2018-8-16,2018,8,16,13,97pcuc,"MXNet implementation of the paper ""Neural Arithmetic Logic Units"" by DeepMind",https://www.reddit.com/r/deeplearning/comments/97pcuc/mxnet_implementation_of_the_paper_neural/,gautamrbharadwaj,1534395026,,0,1
-95,2018-8-16,2018,8,16,16,97q49r,CFP: ZhejiangLab Cup Global Artificial Intelligence Competition 2018,https://www.reddit.com/r/deeplearning/comments/97q49r/cfp_zhejianglab_cup_global_artificial/,zcgaic2018,1534403322,"ZhejiangLab Global Artificial Intelligence Competition is held by Zhejiang Lab, Zhejiang Expert Committee on Artificial Intelligence Development (AI top 30), China Artificial Intelligence Industry Development Alliance (AIIA). As the sole competition platform, Zhejiang Lab-Tianchi Alibaba Cloud Platform invites participants to train their models on known classified samples to develop models to recognize unclassified samples.     
+Thanks!",4,2,False,self,,,,,
+92,deeplearning,t5_2t5eh,2018-8-16,2018,8,16,4,97lagz,self.deeplearning,Don't use dropout in convolutional networks.,https://www.reddit.com/r/deeplearning/comments/97lagz/dont_use_dropout_in_convolutional_networks/,Harrisonjansma,1534361698,[https://towardsdatascience.com/dont-use-dropout-in-convolutional-networks-81486c823c16](https://towardsdatascience.com/dont-use-dropout-in-convolutional-networks-81486c823c16),3,16,False,self,,,,,
+93,deeplearning,t5_2t5eh,2018-8-16,2018,8,16,12,97oyih,aioptify.com,Top 11 Deep Learning and Neural Networks Books,https://www.reddit.com/r/deeplearning/comments/97oyih/top_11_deep_learning_and_neural_networks_books/,kjahan,1534391168,,0,1,False,default,,,,,
+94,deeplearning,t5_2t5eh,2018-8-16,2018,8,16,13,97pcuc,github.com,"MXNet implementation of the paper ""Neural Arithmetic Logic Units"" by DeepMind",https://www.reddit.com/r/deeplearning/comments/97pcuc/mxnet_implementation_of_the_paper_neural/,gautamrbharadwaj,1534395026,,0,1,False,default,,,,,
+95,deeplearning,t5_2t5eh,2018-8-16,2018,8,16,16,97q49r,self.deeplearning,CFP: ZhejiangLab Cup Global Artificial Intelligence Competition 2018,https://www.reddit.com/r/deeplearning/comments/97q49r/cfp_zhejianglab_cup_global_artificial/,zcgaic2018,1534403322,"ZhejiangLab Global Artificial Intelligence Competition is held by Zhejiang Lab, Zhejiang Expert Committee on Artificial Intelligence Development (AI top 30), China Artificial Intelligence Industry Development Alliance (AIIA). As the sole competition platform, Zhejiang Lab-Tianchi Alibaba Cloud Platform invites participants to train their models on known classified samples to develop models to recognize unclassified samples.     
 
 This competition consists of two separate contests: Video Recognition and Q&amp;A contest, and Zero-Shot Learning Picture Recognition contest. For **Video Recognition and Q&amp;A** contest, participants need to recognize, analyze specific videos and answer corresponding questions; for **Zero-shot Learning Picture Recognition** contest, participants need to train their models on known classified samples to develop models to recognize unclassified samples.
 
@@ -519,24 +519,24 @@ Announcement: The competition is a nonprofit, non-commercial competition, aiming
 
 If you have any question, please contact us at [AICup2018@zhejianglab.com](mailto:AICup2018@zhejianglab.com). 
 
-https://i.redd.it/z83v4socleg11.png",0,5
-96,2018-8-16,2018,8,16,20,97rcwh,Does anyone know Tesseract 4 OCR model architecture?,https://www.reddit.com/r/deeplearning/comments/97rcwh/does_anyone_know_tesseract_4_ocr_model/,steamaacount,1534417823,,2,3
-97,2018-8-16,2018,8,16,21,97rr61,A Quick Easy Guide to Deep Learning with Java  Deeplearaning4j / DL4J,https://www.reddit.com/r/deeplearning/comments/97rr61/a_quick_easy_guide_to_deep_learning_with_java/,Shilpa_Opencodez,1534421682,,0,17
-98,2018-8-17,2018,8,17,1,97tj8z,Deep Learning to Detect Fake News with Uber ATG Head of Data Science - free webinar 8/21,https://www.reddit.com/r/deeplearning/comments/97tj8z/deep_learning_to_detect_fake_news_with_uber_atg/,TheDataIncubator,1534435229,,0,0
-99,2018-8-17,2018,8,17,6,97wbr7,"From here to AI - ep. 003 with Jack Wells, Director of Science - Oak Ridge National Lab",https://www.reddit.com/r/deeplearning/comments/97wbr7/from_here_to_ai_ep_003_with_jack_wells_director/,keghn,1534454666,,0,2
-100,2018-8-17,2018,8,17,7,97wtbc,How to derive P(h|v) for a spike-and-slab RBM?,https://www.reddit.com/r/deeplearning/comments/97wtbc/how_to_derive_phv_for_a_spikeandslab_rbm/,parcelpath,1534458366,"In paper *""Unsupervised Models of Images by Spike-and-Slab RBM""* (Courville, Bergstra, Bengio) it says:
+https://i.redd.it/z83v4socleg11.png",0,5,False,self,,,,,
+96,deeplearning,t5_2t5eh,2018-8-16,2018,8,16,20,97rcwh,self.deeplearning,Does anyone know Tesseract 4 OCR model architecture?,https://www.reddit.com/r/deeplearning/comments/97rcwh/does_anyone_know_tesseract_4_ocr_model/,steamaacount,1534417823,,2,3,False,self,,,,,
+97,deeplearning,t5_2t5eh,2018-8-16,2018,8,16,21,97rr61,opencodez.com,A Quick Easy Guide to Deep Learning with Java  Deeplearaning4j / DL4J,https://www.reddit.com/r/deeplearning/comments/97rr61/a_quick_easy_guide_to_deep_learning_with_java/,Shilpa_Opencodez,1534421682,,0,17,False,default,,,,,
+98,deeplearning,t5_2t5eh,2018-8-17,2018,8,17,1,97tj8z,eventbrite.com,Deep Learning to Detect Fake News with Uber ATG Head of Data Science - free webinar 8/21,https://www.reddit.com/r/deeplearning/comments/97tj8z/deep_learning_to_detect_fake_news_with_uber_atg/,TheDataIncubator,1534435229,,0,0,False,default,,,,,
+99,deeplearning,t5_2t5eh,2018-8-17,2018,8,17,6,97wbr7,soundcloud.com,"From here to AI - ep. 003 with Jack Wells, Director of Science - Oak Ridge National Lab",https://www.reddit.com/r/deeplearning/comments/97wbr7/from_here_to_ai_ep_003_with_jack_wells_director/,keghn,1534454666,,0,2,False,default,,,,,
+100,deeplearning,t5_2t5eh,2018-8-17,2018,8,17,7,97wtbc,self.deeplearning,How to derive P(h|v) for a spike-and-slab RBM?,https://www.reddit.com/r/deeplearning/comments/97wtbc/how_to_derive_phv_for_a_spikeandslab_rbm/,parcelpath,1534458366,"In paper *""Unsupervised Models of Images by Spike-and-Slab RBM""* (Courville, Bergstra, Bengio) it says:
 
-But I don't know how to derive this equation.",0,1
-101,2018-8-17,2018,8,17,7,97ww8i,How to derive P(h|v) of a spike-and-slab RBM (ssRBM)?,https://www.reddit.com/r/deeplearning/comments/97ww8i/how_to_derive_phv_of_a_spikeandslab_rbm_ssrbm/,parcelpath,1534459011,"In paper *""Unsupervised Models of Images by Spike-and-Slab RBM""* (Courville, Bergstra, Bengio) it says:
+But I don't know how to derive this equation.",0,1,False,self,,,,,
+101,deeplearning,t5_2t5eh,2018-8-17,2018,8,17,7,97ww8i,self.deeplearning,How to derive P(h|v) of a spike-and-slab RBM (ssRBM)?,https://www.reddit.com/r/deeplearning/comments/97ww8i/how_to_derive_phv_of_a_spikeandslab_rbm_ssrbm/,parcelpath,1534459011,"In paper *""Unsupervised Models of Images by Spike-and-Slab RBM""* (Courville, Bergstra, Bengio) it says:
 
 [ ](https://i.redd.it/znx4tfjj7jg11.png)
 
-But I don't know how to derive this equation.",0,3
-102,2018-8-18,2018,8,18,2,98480p,5 Deep Learning Breakthroughs You Should Know,https://www.reddit.com/r/deeplearning/comments/98480p/5_deep_learning_breakthroughs_you_should_know/,asifrazzaq1988,1534526904,,3,1
-103,2018-8-18,2018,8,18,4,9856l3,Sign Language and Static-Gesture Recognition using CNN,https://www.reddit.com/r/deeplearning/comments/9856l3/sign_language_and_staticgesture_recognition_using/,blackbird9820,1534533825,,4,6
-104,2018-8-18,2018,8,18,9,987jyw,Building complex deep learning systems,https://www.reddit.com/r/deeplearning/comments/987jyw/building_complex_deep_learning_systems/,adi1709,1534552582,"What is the general method of building large complex deep learning systems from scratch? 
-Take for example YOLO - writing the code for this in one shot is not easy. How does one approach writing this from scratch? Specifically, debugging the inputs, then the loss function how does one go about putting each of these pieces together and making sure they work? ",4,5
-105,2018-8-18,2018,8,18,14,9899g5,fpga options?,https://www.reddit.com/r/deeplearning/comments/9899g5/fpga_options/,ekmungi,1534569019,"Hey all,
+But I don't know how to derive this equation.",0,3,False,self,,,,,
+102,deeplearning,t5_2t5eh,2018-8-18,2018,8,18,2,98480p,marktechpost.com,5 Deep Learning Breakthroughs You Should Know,https://www.reddit.com/r/deeplearning/comments/98480p/5_deep_learning_breakthroughs_you_should_know/,asifrazzaq1988,1534526904,,3,1,False,default,,,,,
+103,deeplearning,t5_2t5eh,2018-8-18,2018,8,18,4,9856l3,medium.com,Sign Language and Static-Gesture Recognition using CNN,https://www.reddit.com/r/deeplearning/comments/9856l3/sign_language_and_staticgesture_recognition_using/,blackbird9820,1534533825,,4,6,False,default,,,,,
+104,deeplearning,t5_2t5eh,2018-8-18,2018,8,18,9,987jyw,self.deeplearning,Building complex deep learning systems,https://www.reddit.com/r/deeplearning/comments/987jyw/building_complex_deep_learning_systems/,adi1709,1534552582,"What is the general method of building large complex deep learning systems from scratch? 
+Take for example YOLO - writing the code for this in one shot is not easy. How does one approach writing this from scratch? Specifically, debugging the inputs, then the loss function how does one go about putting each of these pieces together and making sure they work? ",4,5,False,self,,,,,
+105,deeplearning,t5_2t5eh,2018-8-18,2018,8,18,14,9899g5,self.deeplearning,fpga options?,https://www.reddit.com/r/deeplearning/comments/9899g5/fpga_options/,ekmungi,1534569019,"Hey all,
 
 I have a project which requires making choice of implementing a simple 5 layer CNN model on an fpga or not!
 
@@ -548,15 +548,15 @@ Would implementing it using Caffe or Caffe2 be a viable solution in let's say 6 
 
 Thanks for your views.
 
-Anant.",11,1
-106,2018-8-19,2018,8,19,1,98cps5,AI Weekly 18 August 2018,https://www.reddit.com/r/deeplearning/comments/98cps5/ai_weekly_18_august_2018/,TomekB,1534608120,,0,1
-107,2018-8-19,2018,8,19,11,98gziu,Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis,https://www.reddit.com/r/deeplearning/comments/98gziu/demystifying_parallel_and_distributed_deep/,dt_magic,1534645073,"Deep Neural Networks (DNNs) are becoming an important tool in modern computing applications. Accelerating their training is a major challenge and techniques range from distributed algorithms to low-level circuit design. In this survey, we describe the problem from a theoretical perspective, followed by approaches for its parallelization. Specifically, we present trends in DNN architectures and the resulting implications on parallelization strategies. We discuss the different types of concurrency in DNNs; synchronous and asynchronous stochastic gradient descent; distributed system architectures; communication schemes; and performance modeling. Based on these approaches, we extrapolate potential directions for parallelism in deep learning.",1,8
-108,2018-8-19,2018,8,19,16,98ilcx,Hot Trend in Artificial Intelligence  Deep Learning | Analytics Insight,https://www.reddit.com/r/deeplearning/comments/98ilcx/hot_trend_in_artificial_intelligence_deep/,analyticsinsight,1534663341,,0,4
-109,2018-8-20,2018,8,20,5,98n4h5,Switching to DeepLearning based career,https://www.reddit.com/r/deeplearning/comments/98n4h5/switching_to_deeplearning_based_career/,anilmaddala,1534709183,"I am a software enginner with good understanding on the deeplearning concepts. I completed courses from Andrew Ng and fastai.
+Anant.",11,1,False,self,,,,,
+106,deeplearning,t5_2t5eh,2018-8-19,2018,8,19,1,98cps5,theaigeek.com,AI Weekly 18 August 2018,https://www.reddit.com/r/deeplearning/comments/98cps5/ai_weekly_18_august_2018/,TomekB,1534608120,,0,1,False,default,,,,,
+107,deeplearning,t5_2t5eh,2018-8-19,2018,8,19,11,98gziu,self.deeplearning,Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis,https://www.reddit.com/r/deeplearning/comments/98gziu/demystifying_parallel_and_distributed_deep/,dt_magic,1534645073,"Deep Neural Networks (DNNs) are becoming an important tool in modern computing applications. Accelerating their training is a major challenge and techniques range from distributed algorithms to low-level circuit design. In this survey, we describe the problem from a theoretical perspective, followed by approaches for its parallelization. Specifically, we present trends in DNN architectures and the resulting implications on parallelization strategies. We discuss the different types of concurrency in DNNs; synchronous and asynchronous stochastic gradient descent; distributed system architectures; communication schemes; and performance modeling. Based on these approaches, we extrapolate potential directions for parallelism in deep learning.",1,8,False,self,,,,,
+108,deeplearning,t5_2t5eh,2018-8-19,2018,8,19,16,98ilcx,analyticsinsight.net,Hot Trend in Artificial Intelligence  Deep Learning | Analytics Insight,https://www.reddit.com/r/deeplearning/comments/98ilcx/hot_trend_in_artificial_intelligence_deep/,analyticsinsight,1534663341,,0,4,False,default,,,,,
+109,deeplearning,t5_2t5eh,2018-8-20,2018,8,20,5,98n4h5,self.deeplearning,Switching to DeepLearning based career,https://www.reddit.com/r/deeplearning/comments/98n4h5/switching_to_deeplearning_based_career/,anilmaddala,1534709183,"I am a software enginner with good understanding on the deeplearning concepts. I completed courses from Andrew Ng and fastai.
 
-However, I am not sure how to take my experience in developing Android apps to a deeplearning career. Any help or guidelines? I am in the process of going through papers from [https://www.reddit.com/r/MachineLearning/comments/8vmuet/d\_what\_deep\_learning\_papers\_should\_i\_implement\_to/](https://www.reddit.com/r/MachineLearning/comments/8vmuet/d_what_deep_learning_papers_should_i_implement_to/) and implementing them.",3,3
-110,2018-8-20,2018,8,20,14,98qy5s,Full time ML carrer drom Javascript or web development background,https://www.reddit.com/r/deeplearning/comments/98qy5s/full_time_ml_carrer_drom_javascript_or_web/,benstark982,1534743064,"I am a javascript developer from India ,I have a few programming language during my high school and college days like c++ python matlab . So ML programming part was not difficult,i hade difficulty (Still struggling) with maths of it and getting a hang of ML ,i consider myself somewhere bw beginner to intermediate but i am not sure how i can switch my carrer to ML .please suggest. Moreover i would like to work in EU or canada how can work there on ML/AI. What should be the path.",1,0
-111,2018-8-20,2018,8,20,15,98r3pt,PaperSpace Promo code August 2018 $15 Credit,https://www.reddit.com/r/deeplearning/comments/98r3pt/paperspace_promo_code_august_2018_15_credit/,niraj_ag,1534744809,"[https://www.paperspace.com/&amp;R=691Z1O4](https://www.paperspace.com/&amp;R=691Z1O4)
+However, I am not sure how to take my experience in developing Android apps to a deeplearning career. Any help or guidelines? I am in the process of going through papers from [https://www.reddit.com/r/MachineLearning/comments/8vmuet/d\_what\_deep\_learning\_papers\_should\_i\_implement\_to/](https://www.reddit.com/r/MachineLearning/comments/8vmuet/d_what_deep_learning_papers_should_i_implement_to/) and implementing them.",3,3,False,self,,,,,
+110,deeplearning,t5_2t5eh,2018-8-20,2018,8,20,14,98qy5s,self.deeplearning,Full time ML carrer drom Javascript or web development background,https://www.reddit.com/r/deeplearning/comments/98qy5s/full_time_ml_carrer_drom_javascript_or_web/,benstark982,1534743064,"I am a javascript developer from India ,I have a few programming language during my high school and college days like c++ python matlab . So ML programming part was not difficult,i hade difficulty (Still struggling) with maths of it and getting a hang of ML ,i consider myself somewhere bw beginner to intermediate but i am not sure how i can switch my carrer to ML .please suggest. Moreover i would like to work in EU or canada how can work there on ML/AI. What should be the path.",1,0,False,self,,,,,
+111,deeplearning,t5_2t5eh,2018-8-20,2018,8,20,15,98r3pt,self.deeplearning,PaperSpace Promo code August 2018 $15 Credit,https://www.reddit.com/r/deeplearning/comments/98r3pt/paperspace_promo_code_august_2018_15_credit/,niraj_ag,1534744809,"[https://www.paperspace.com/&amp;R=691Z1O4](https://www.paperspace.com/&amp;R=691Z1O4)
 
 Promo code: 691Z1O4 
 
@@ -564,36 +564,36 @@ Click Above Link or go to billing page in Paperspace: [https://www.paperspace.co
 
 Copy &amp; Paste Promo code --&gt; Click Apply 
 
-You have your credit.  ",9,2
-112,2018-8-20,2018,8,20,15,98r79b,Resources to practice deep learning?,https://www.reddit.com/r/deeplearning/comments/98r79b/resources_to_practice_deep_learning/,hardhat528491,1534745909,"I have sound knowledge of CNNs and have implemented popular datasets like MNIST, CIFAR-10 etc in PyTorch for image classification. I want to practice deep learning for computer vision to get better at it. Where should I start? Or what should I do next?",3,1
-113,2018-8-20,2018,8,20,17,98rx6m,Free eBook: Python Deep Learning [PDF],https://www.reddit.com/r/deeplearning/comments/98rx6m/free_ebook_python_deep_learning_pdf/,PacktStaff,1534754570,,3,3
-114,2018-8-20,2018,8,20,22,98tsk7,"Speech recognition model, Vocabulary",https://www.reddit.com/r/deeplearning/comments/98tsk7/speech_recognition_model_vocabulary/,albert1905,1534773510,"Hi guys, I'm working on Speech recognition model, and I have a difficult time to think about the vocabulary concept.
+You have your credit.  ",9,2,False,self,,,,,
+112,deeplearning,t5_2t5eh,2018-8-20,2018,8,20,15,98r79b,self.deeplearning,Resources to practice deep learning?,https://www.reddit.com/r/deeplearning/comments/98r79b/resources_to_practice_deep_learning/,hardhat528491,1534745909,"I have sound knowledge of CNNs and have implemented popular datasets like MNIST, CIFAR-10 etc in PyTorch for image classification. I want to practice deep learning for computer vision to get better at it. Where should I start? Or what should I do next?",3,1,False,self,,,,,
+113,deeplearning,t5_2t5eh,2018-8-20,2018,8,20,17,98rx6m,old.reddit.com,Free eBook: Python Deep Learning [PDF],https://www.reddit.com/r/deeplearning/comments/98rx6m/free_ebook_python_deep_learning_pdf/,PacktStaff,1534754570,,3,3,False,default,,,,,
+114,deeplearning,t5_2t5eh,2018-8-20,2018,8,20,22,98tsk7,self.deeplearning,"Speech recognition model, Vocabulary",https://www.reddit.com/r/deeplearning/comments/98tsk7/speech_recognition_model_vocabulary/,albert1905,1534773510,"Hi guys, I'm working on Speech recognition model, and I have a difficult time to think about the vocabulary concept.
 When I Worked on a language model, I had 2 Vocabularies, one for each language (I saw some with 1 vocabulary for both languages).
 So now I have only 1 vocabulary? or I'm missing something ?!
 
-Thanks!",0,4
-115,2018-8-21,2018,8,21,0,98ulj1,Are tensorflow pre made models or pytorch models better?,https://www.reddit.com/r/deeplearning/comments/98ulj1/are_tensorflow_pre_made_models_or_pytorch_models/,Arkhaya,1534779115,"I've been using tensorflow for a few months and am quite well versed in it and I've also seen things about pytorch.
+Thanks!",0,4,False,self,,,,,
+115,deeplearning,t5_2t5eh,2018-8-21,2018,8,21,0,98ulj1,self.deeplearning,Are tensorflow pre made models or pytorch models better?,https://www.reddit.com/r/deeplearning/comments/98ulj1/are_tensorflow_pre_made_models_or_pytorch_models/,Arkhaya,1534779115,"I've been using tensorflow for a few months and am quite well versed in it and I've also seen things about pytorch.
 
 And I'm trying to make a prototype with pre-trained model.
 
 I have no idea about pytorch and how retraining works.
 
-Should I just continue on tensorflow or change over to pytorch? I am pretty deep into my prototype but I do have a complete dataset to train off of.",1,2
-116,2018-8-21,2018,8,21,2,98vkgu,How older aged devs outpace their peers and should get respect,https://www.reddit.com/r/deeplearning/comments/98vkgu/how_older_aged_devs_outpace_their_peers_and/,programming-innovate,1534785911,"How older aged devs outpace their peers and should get respect - https://ift.tt/2nQ6Me7, recommended on August 20, 2018 at 03:52PM
+Should I just continue on tensorflow or change over to pytorch? I am pretty deep into my prototype but I do have a complete dataset to train off of.",1,2,False,self,,,,,
+116,deeplearning,t5_2t5eh,2018-8-21,2018,8,21,2,98vkgu,self.deeplearning,How older aged devs outpace their peers and should get respect,https://www.reddit.com/r/deeplearning/comments/98vkgu/how_older_aged_devs_outpace_their_peers_and/,programming-innovate,1534785911,"How older aged devs outpace their peers and should get respect - https://ift.tt/2nQ6Me7, recommended on August 20, 2018 at 03:52PM
    
    
-",0,1
-117,2018-8-21,2018,8,21,2,98vtik,[P] TensorFlow.js video and blog series - Deep Learning in the Browser with JavaScript,https://www.reddit.com/r/deeplearning/comments/98vtik/p_tensorflowjs_video_and_blog_series_deep/,blackHoleDetector,1534787618,"- [Click here for the video series only](https://www.youtube.com/playlist?list=PLZbbT5o_s2xr83l8w44N_g3pygvajLrJ-)  
+",0,1,False,self,,,,,
+117,deeplearning,t5_2t5eh,2018-8-21,2018,8,21,2,98vtik,self.deeplearning,[P] TensorFlow.js video and blog series - Deep Learning in the Browser with JavaScript,https://www.reddit.com/r/deeplearning/comments/98vtik/p_tensorflowjs_video_and_blog_series_deep/,blackHoleDetector,1534787618,"- [Click here for the video series only](https://www.youtube.com/playlist?list=PLZbbT5o_s2xr83l8w44N_g3pygvajLrJ-)  
 - [Click here for the blog and video series](http://deeplizard.com/learn/playlist/PLZbbT5o_s2xr83l8w44N_g3pygvajLrJ-)
 
-In this series, we'll learn how to deploy and run models, along with full deep learning applications, in the browser! To implement this cool capability, well use TensorFlow.js (TFJS), TensorFlows JavaScript library, which allows us to build and access models in JavaScript. Topics include client-server deep learning architectures, converting Keras models to TFJS models, serving models with Node.js, building deep learning browser applications, tensor operations, and more!",0,1
-118,2018-8-21,2018,8,21,9,98yqcy,Tensorflow Implementation of NALU,https://www.reddit.com/r/deeplearning/comments/98yqcy/tensorflow_implementation_of_nalu/,Ragabov,1534811398,"Here is my implementation of the NALU, I have managed to replicate the results for the first part of the experiments, but contributions are more than welcome.
+In this series, we'll learn how to deploy and run models, along with full deep learning applications, in the browser! To implement this cool capability, well use TensorFlow.js (TFJS), TensorFlows JavaScript library, which allows us to build and access models in JavaScript. Topics include client-server deep learning architectures, converting Keras models to TFJS models, serving models with Node.js, building deep learning browser applications, tensor operations, and more!",0,1,False,self,,,,,
+118,deeplearning,t5_2t5eh,2018-8-21,2018,8,21,9,98yqcy,self.deeplearning,Tensorflow Implementation of NALU,https://www.reddit.com/r/deeplearning/comments/98yqcy/tensorflow_implementation_of_nalu/,Ragabov,1534811398,"Here is my implementation of the NALU, I have managed to replicate the results for the first part of the experiments, but contributions are more than welcome.
 
 NOTE : the repo is a work in progress.  
 
 
-[https://github.com/Ragabov/tensorflow-nalu](https://github.com/Ragabov/tensorflow-nalu)",0,7
-119,2018-8-21,2018,8,21,20,9929mw,Are NALUs hard to train?,https://www.reddit.com/r/deeplearning/comments/9929mw/are_nalus_hard_to_train/,Ragabov,1534849769,"I have tried to replicate the results provided in the Neural Arithmetic Logical Unit paper proposed here r/https://arxiv.org/abs/1808.00508, but seems like i usually get stuck in a local optima. I have tried to use multiple initialization functions, although some are better than others, most of them would eventually get optimized towards a local optimum.
+[https://github.com/Ragabov/tensorflow-nalu](https://github.com/Ragabov/tensorflow-nalu)",0,7,False,self,,,,,
+119,deeplearning,t5_2t5eh,2018-8-21,2018,8,21,20,9929mw,self.deeplearning,Are NALUs hard to train?,https://www.reddit.com/r/deeplearning/comments/9929mw/are_nalus_hard_to_train/,Ragabov,1534849769,"I have tried to replicate the results provided in the Neural Arithmetic Logical Unit paper proposed here r/https://arxiv.org/abs/1808.00508, but seems like i usually get stuck in a local optima. I have tried to use multiple initialization functions, although some are better than others, most of them would eventually get optimized towards a local optimum.
 
 The NALU for those who don't know tries to get the model to actually learn a set of arithmetic operations (+, -, \*, /) between the inputs to generate the expected output. This is basically attempted by learning weight matrices that would indicate an addition or subtraction operation each represented by (1 or -1) while 0 would mean that the input is irrelevant, and to indicate multiplication/division, similar weights are applied on the log of the inputs.
 
@@ -617,24 +617,24 @@ Below is my implementation of the NALU, you can check the experiments directory 
 
 r/https://github.com/Ragabov/tensorflow-nalu
 
-Note that the repo is a work in progress.",1,3
-120,2018-8-22,2018,8,22,0,9945hh,GPUBay.com - Computer Bay Adapters for Graphics Cards,https://www.reddit.com/r/deeplearning/comments/9945hh/gpubaycom_computer_bay_adapters_for_graphics_cards/,techtot,1534865601,"Hi Guys,
+Note that the repo is a work in progress.",1,3,False,self,,,,,
+120,deeplearning,t5_2t5eh,2018-8-22,2018,8,22,0,9945hh,self.deeplearning,GPUBay.com - Computer Bay Adapters for Graphics Cards,https://www.reddit.com/r/deeplearning/comments/9945hh/gpubaycom_computer_bay_adapters_for_graphics_cards/,techtot,1534865601,"Hi Guys,
 
 We have developed a bracket which allows your unused computer bays, usually reserved for DVD ROM drives, to be utilized by graphics cards.  We have just started selling these brackets after a year of development and testing.  We have built a few systems for researchers/developers using the adapter, saving them space and making for a better looking machine.  
 
 https://gpubay.com/
 
-",0,0
-121,2018-8-22,2018,8,22,1,994izv,Collection of online resources for Audio-Visual Speech Recognition (AVSR) using Deep Learning,https://www.reddit.com/r/deeplearning/comments/994izv/collection_of_online_resources_for_audiovisual/,invincible_guy,1534868195,,0,13
-122,2018-8-22,2018,8,22,4,995ywb,"I built a beginning to end Self Driving Car course using Deep Learning. Im giving it away for free for the first 200 students. Click the link to activate coupon, I hope you enjoy it!",https://www.reddit.com/r/deeplearning/comments/995ywb/i_built_a_beginning_to_end_self_driving_car/,nottingpill,1534878147,,0,1
-123,2018-8-22,2018,8,22,5,996yqb,Deep learning,https://www.reddit.com/r/deeplearning/comments/996yqb/deep_learning/,sanchit2843,1534885080,"sanchit tanwar:
-Hello guys, i am studying deep learning for 6 months now and dont know what to do next. Every project is either too small or very big. What should be my next step in deep learning?",3,1
-124,2018-8-22,2018,8,22,9,998iev,"I built a beginning to end Self Driving Car course using Deep Learning. Im giving it away for free for the first 200 students. Click the link to activate coupon, I hope you enjoy it!",https://www.reddit.com/r/deeplearning/comments/998iev/i_built_a_beginning_to_end_self_driving_car/,ameero1234,1534896674,,0,1
-125,2018-8-22,2018,8,22,10,9990ug,Font Recognizer Java using Self Organizing Map,https://www.reddit.com/r/deeplearning/comments/9990ug/font_recognizer_java_using_self_organizing_map/,farhantariq560,1534900904,I have my project to develop a font recognizer . Not familiar with the java D4LG library and Artificial neural networks in general . Please guide me with best approach to learn about ANN and SOM and then do the D4LG library will be useful to implement the solution . Thanks in advance,0,2
-126,2018-8-22,2018,8,22,14,99ali1,Looking to retrain tensorflow inception resnet v3 on animated GIFs.,https://www.reddit.com/r/deeplearning/comments/99ali1/looking_to_retrain_tensorflow_inception_resnet_v3/,Arkhaya,1534914974,,0,4
-127,2018-8-23,2018,8,23,0,99eio2,"Serverless as a Success, explained from a vendor-free view",https://www.reddit.com/r/deeplearning/comments/99eio2/serverless_as_a_success_explained_from_a/,programming-innovate,1534953368,[removed],0,1
-128,2018-8-23,2018,8,23,2,99fei9,[D] Why is my computational graph of a (convolutional) variational auto-encoder in tensorflow so ugly? [x-post r/MachineLearning],https://www.reddit.com/r/deeplearning/comments/99fei9/d_why_is_my_computational_graph_of_a/,MaximilioneinHD,1534959552,,5,1
-129,2018-8-23,2018,8,23,3,99fpz2,[P] MSG-GAN: Multi-Scale Gradients GAN,https://www.reddit.com/r/deeplearning/comments/99fpz2/p_msggan_multiscale_gradients_gan/,akanimax,1534961728,"I thought of an alternative solution to the problem of irrelevant gradients for images generated at higher resolutions apart from the layer-wise training of Progressive growing of GANs.
+",0,0,False,self,,,,,
+121,deeplearning,t5_2t5eh,2018-8-22,2018,8,22,1,994izv,ajinkyat.github.io,Collection of online resources for Audio-Visual Speech Recognition (AVSR) using Deep Learning,https://www.reddit.com/r/deeplearning/comments/994izv/collection_of_online_resources_for_audiovisual/,invincible_guy,1534868195,,0,13,False,default,,,,,
+122,deeplearning,t5_2t5eh,2018-8-22,2018,8,22,4,995ywb,udemy.com,"I built a beginning to end Self Driving Car course using Deep Learning. Im giving it away for free for the first 200 students. Click the link to activate coupon, I hope you enjoy it!",https://www.reddit.com/r/deeplearning/comments/995ywb/i_built_a_beginning_to_end_self_driving_car/,nottingpill,1534878147,,0,1,False,default,,,,,
+123,deeplearning,t5_2t5eh,2018-8-22,2018,8,22,5,996yqb,self.deeplearning,Deep learning,https://www.reddit.com/r/deeplearning/comments/996yqb/deep_learning/,sanchit2843,1534885080,"sanchit tanwar:
+Hello guys, i am studying deep learning for 6 months now and dont know what to do next. Every project is either too small or very big. What should be my next step in deep learning?",3,1,False,self,,,,,
+124,deeplearning,t5_2t5eh,2018-8-22,2018,8,22,9,998iev,udemy.com,"I built a beginning to end Self Driving Car course using Deep Learning. Im giving it away for free for the first 200 students. Click the link to activate coupon, I hope you enjoy it!",https://www.reddit.com/r/deeplearning/comments/998iev/i_built_a_beginning_to_end_self_driving_car/,ameero1234,1534896674,,0,1,False,default,,,,,
+125,deeplearning,t5_2t5eh,2018-8-22,2018,8,22,10,9990ug,self.deeplearning,Font Recognizer Java using Self Organizing Map,https://www.reddit.com/r/deeplearning/comments/9990ug/font_recognizer_java_using_self_organizing_map/,farhantariq560,1534900904,I have my project to develop a font recognizer . Not familiar with the java D4LG library and Artificial neural networks in general . Please guide me with best approach to learn about ANN and SOM and then do the D4LG library will be useful to implement the solution . Thanks in advance,0,2,False,self,,,,,
+126,deeplearning,t5_2t5eh,2018-8-22,2018,8,22,14,99ali1,self.tensorflow,Looking to retrain tensorflow inception resnet v3 on animated GIFs.,https://www.reddit.com/r/deeplearning/comments/99ali1/looking_to_retrain_tensorflow_inception_resnet_v3/,Arkhaya,1534914974,,0,4,False,default,,,,,
+127,deeplearning,t5_2t5eh,2018-8-23,2018,8,23,0,99eio2,self.deeplearning,"Serverless as a Success, explained from a vendor-free view",https://www.reddit.com/r/deeplearning/comments/99eio2/serverless_as_a_success_explained_from_a/,programming-innovate,1534953368,[removed],0,1,False,self,,,,,
+128,deeplearning,t5_2t5eh,2018-8-23,2018,8,23,2,99fei9,reddit.com,[D] Why is my computational graph of a (convolutional) variational auto-encoder in tensorflow so ugly? [x-post r/MachineLearning],https://www.reddit.com/r/deeplearning/comments/99fei9/d_why_is_my_computational_graph_of_a/,MaximilioneinHD,1534959552,,5,1,False,default,,,,,
+129,deeplearning,t5_2t5eh,2018-8-23,2018,8,23,3,99fpz2,self.deeplearning,[P] MSG-GAN: Multi-Scale Gradients GAN,https://www.reddit.com/r/deeplearning/comments/99fpz2/p_msggan_multiscale_gradients_gan/,akanimax,1534961728,"I thought of an alternative solution to the problem of irrelevant gradients for images generated at higher resolutions apart from the layer-wise training of Progressive growing of GANs.
 
 The proposed solution is to allow flow of gradients from the discriminator to the generator at multiple scales. The architecture uses single Generator and single Discriminator, but due to the connections between the intermediate layers of Generator and the intermediate layers of Discriminator, the architecture resembles the ""U-Net"" architecture.
 
@@ -644,14 +644,14 @@ medium blog -&gt; https://medium.com/@animeshsk3/msg-gan-multi-scale-gradients-g
 
 pytorch code -&gt; https://github.com/akanimax/MSG-GAN
 
-video of samples generated during training -&gt; https://www.youtube.com/watch?v=9v46ygTQ6cw",0,5
-130,2018-8-23,2018,8,23,4,99g9yf,"Towards AI: How long does it take you to go from idea to working prototype? - a day, a month?",https://www.reddit.com/r/deeplearning/comments/99g9yf/towards_ai_how_long_does_it_take_you_to_go_from/,tdionis,1534965656,,0,1
-131,2018-8-23,2018,8,23,6,99h5ol,1x 2080Ti vs 2x 1080Ti for Deep Learning,https://www.reddit.com/r/deeplearning/comments/99h5ol/1x_2080ti_vs_2x_1080ti_for_deep_learning/,TacticalFloridaMan,1534972018,"I've been wanting to build a beefy system (for both DL, ML, and Gaming) and now that the 1080Ti's are discounted, I was wondering what everyone thought.
+video of samples generated during training -&gt; https://www.youtube.com/watch?v=9v46ygTQ6cw",0,5,False,self,,,,,
+130,deeplearning,t5_2t5eh,2018-8-23,2018,8,23,4,99g9yf,hackernoon.com,"Towards AI: How long does it take you to go from idea to working prototype? - a day, a month?",https://www.reddit.com/r/deeplearning/comments/99g9yf/towards_ai_how_long_does_it_take_you_to_go_from/,tdionis,1534965656,,0,1,False,default,,,,,
+131,deeplearning,t5_2t5eh,2018-8-23,2018,8,23,6,99h5ol,self.deeplearning,1x 2080Ti vs 2x 1080Ti for Deep Learning,https://www.reddit.com/r/deeplearning/comments/99h5ol/1x_2080ti_vs_2x_1080ti_for_deep_learning/,TacticalFloridaMan,1534972018,"I've been wanting to build a beefy system (for both DL, ML, and Gaming) and now that the 1080Ti's are discounted, I was wondering what everyone thought.
 
 Would 1x 2080Ti be better than 2x 1080Ti's? The former is supposedly faster, but the latter has double the memory so you can increase the batch sizes.
 
-cost of 1x 2080Ti  cost of 2x 1080Ti (with the new discounts)",21,29
-132,2018-8-23,2018,8,23,15,99l2b7,Is my dataset any good for pix2pix?,https://www.reddit.com/r/deeplearning/comments/99l2b7/is_my_dataset_any_good_for_pix2pix/,audovoice,1535006431,"[https://imgur.com/gallery/uuAZ4D6](https://imgur.com/gallery/uuAZ4D6)
+cost of 1x 2080Ti  cost of 2x 1080Ti (with the new discounts)",21,29,False,self,,,,,
+132,deeplearning,t5_2t5eh,2018-8-23,2018,8,23,15,99l2b7,self.deeplearning,Is my dataset any good for pix2pix?,https://www.reddit.com/r/deeplearning/comments/99l2b7/is_my_dataset_any_good_for_pix2pix/,audovoice,1535006431,"[https://imgur.com/gallery/uuAZ4D6](https://imgur.com/gallery/uuAZ4D6)
 
 This is a portion of a data set I made using sliced up  Impressionists paintings. 
 
@@ -659,17 +659,17 @@ This is the first time I am using pix2pix for something like this.
 
 Does anyone know just by looking at a few images, if it looks like it will work or not? 
 
-I am 11 epochs in. ",1,1
-133,2018-8-23,2018,8,23,20,99mri3,Any tutorials/links to build a closed domain Chatbot?,https://www.reddit.com/r/deeplearning/comments/99mri3/any_tutorialslinks_to_build_a_closed_domain/,mankadronit,1535025549,I want to build a closed domain Chatbot (for example: a Chatbot to order pizza). Can anyone give me some important tutorials/links so I can get started. I have seen quite a few tutorials on Seq2Seq General Chatbots but they are all open domain.,3,8
-134,2018-8-23,2018,8,23,21,99mzrr,GOTO 2018  Deep Learning for Developers  Julien Simon,https://www.reddit.com/r/deeplearning/comments/99mzrr/goto_2018_deep_learning_for_developers_julien/,rick-rebel,1535027614,,0,1
-135,2018-8-24,2018,8,24,0,99o4ea,Free 1080Ti GPUs for AI startups,https://www.reddit.com/r/deeplearning/comments/99o4ea/free_1080ti_gpus_for_ai_startups/,whitezl0,1535036547,"Hi there,
+I am 11 epochs in. ",1,1,False,self,,,,,
+133,deeplearning,t5_2t5eh,2018-8-23,2018,8,23,20,99mri3,self.deeplearning,Any tutorials/links to build a closed domain Chatbot?,https://www.reddit.com/r/deeplearning/comments/99mri3/any_tutorialslinks_to_build_a_closed_domain/,mankadronit,1535025549,I want to build a closed domain Chatbot (for example: a Chatbot to order pizza). Can anyone give me some important tutorials/links so I can get started. I have seen quite a few tutorials on Seq2Seq General Chatbots but they are all open domain.,3,8,False,self,,,,,
+134,deeplearning,t5_2t5eh,2018-8-23,2018,8,23,21,99mzrr,youtu.be,GOTO 2018  Deep Learning for Developers  Julien Simon,https://www.reddit.com/r/deeplearning/comments/99mzrr/goto_2018_deep_learning_for_developers_julien/,rick-rebel,1535027614,,0,1,False,image,,,,,
+135,deeplearning,t5_2t5eh,2018-8-24,2018,8,24,0,99o4ea,self.deeplearning,Free 1080Ti GPUs for AI startups,https://www.reddit.com/r/deeplearning/comments/99o4ea/free_1080ti_gpus_for_ai_startups/,whitezl0,1535036547,"Hi there,
 
 I am developing a cloud platform and offering free 1080Ti cloud instance(s) for data scientists and deep learning startups to use. I believe that there are many companies in this thread that are experienced and have valuable insights regarding the industry. I would like to learn more about your product, achievements, and challenges in the field of artificial intelligence.
 
 Is there anyone who would like to chat more?
 Please, fill out the 1-question form and let's chat. https://goo.gl/forms/dYWnw3CUSY4kjuTo1
-After a quick chat, I will set you up with the free access to GPU instances.",1,0
-136,2018-8-24,2018,8,24,0,99ogny,AMD CPU + Nvidia GPUs for deep learning,https://www.reddit.com/r/deeplearning/comments/99ogny/amd_cpu_nvidia_gpus_for_deep_learning/,multiks2200,1535038948,"Hi,  
+After a quick chat, I will set you up with the free access to GPU instances.",1,0,False,self,,,,,
+136,deeplearning,t5_2t5eh,2018-8-24,2018,8,24,0,99ogny,self.deeplearning,AMD CPU + Nvidia GPUs for deep learning,https://www.reddit.com/r/deeplearning/comments/99ogny/amd_cpu_nvidia_gpus_for_deep_learning/,multiks2200,1535038948,"Hi,  
 
 
 I'm trying to build a deep learning system. I'm thinking of which CPU to get. The main bottleneck currently seems to be the support for the # of PCIe lanes, for hooking up multiple GPUs. Ideally, I would like to have at least two, that is 2x16 PCIe 3.0 GPUs working. Many modern Intel processors support up to 28 of PCIe lanes (and that's only top end i7s). If one needs more, only the expensive i9s offer that (or some older, discontinued i7s)   
@@ -684,8 +684,8 @@ Therefore I was wondering if anyone has got any experience of hooking up togethe
 Does that work fine, is it inferior in any way to an Intel Setup?  
 
 
-Thanks in advance.",9,3
-137,2018-8-24,2018,8,24,4,99qgel,"Computer upgrade planning questions, factoring in ML/DL",https://www.reddit.com/r/deeplearning/comments/99qgel/computer_upgrade_planning_questions_factoring_in/,S54Holden,1535052843,"Hi all,
+Thanks in advance.",9,3,False,self,,,,,
+137,deeplearning,t5_2t5eh,2018-8-24,2018,8,24,4,99qgel,self.deeplearning,"Computer upgrade planning questions, factoring in ML/DL",https://www.reddit.com/r/deeplearning/comments/99qgel/computer_upgrade_planning_questions_factoring_in/,S54Holden,1535052843,"Hi all,
 
 Forgive me if this is the wrong subreddit for this sort of question, I am new to this.
 
@@ -707,9 +707,9 @@ I'm considering two upgrade paths: 1) Upgrade GPU only (1080ti or 2080ti are the
 *Is OpenCL compelling enough to consider a AMD GPU upgrade? Or is CUDA pretty much the only game in town?
 
 Thanks!
-",11,6
-138,2018-8-24,2018,8,24,19,99wcpx,Benefits of Artificial Intelligence,https://www.reddit.com/r/deeplearning/comments/99wcpx/benefits_of_artificial_intelligence/,seoaleait,1535107357,,0,0
-139,2018-8-25,2018,8,25,15,9a4th8,Why running the same code on the same data gives a different result every time?,https://www.reddit.com/r/deeplearning/comments/9a4th8/why_running_the_same_code_on_the_same_data_gives/,suraty,1535178528,"Hello,
+",11,6,False,self,,,,,
+138,deeplearning,t5_2t5eh,2018-8-24,2018,8,24,19,99wcpx,i.redd.it,Benefits of Artificial Intelligence,https://www.reddit.com/r/deeplearning/comments/99wcpx/benefits_of_artificial_intelligence/,seoaleait,1535107357,,0,0,False,image,,,,,
+139,deeplearning,t5_2t5eh,2018-8-25,2018,8,25,15,9a4th8,self.deeplearning,Why running the same code on the same data gives a different result every time?,https://www.reddit.com/r/deeplearning/comments/9a4th8/why_running_the_same_code_on_the_same_data_gives/,suraty,1535178528,"Hello,
 
 I am using Keras in Jupyter Notebook.
 
@@ -724,10 +724,10 @@ Then Other cells are the codes of my model and the fit and evaluate codes. But e
 Why does it happen? How can I solve it?
 
 Thank you very much
-",3,3
-140,2018-8-25,2018,8,25,19,9a5uyu,AI Weekly 25 August 2018,https://www.reddit.com/r/deeplearning/comments/9a5uyu/ai_weekly_25_august_2018/,TomekB,1535192980,,0,1
-141,2018-8-25,2018,8,25,21,9a6e8c,CPU RAM vs GPU VRAM usage when training models.,https://www.reddit.com/r/deeplearning/comments/9a6e8c/cpu_ram_vs_gpu_vram_usage_when_training_models/,multiks2200,1535199718,"I was wondering how does the typical CPU RAM to VRAM pipeline looks like? Let's say I load a model to train, how does the data transfer is performed ? Is it HDD -&gt; RAM -&gt; VRAM or CPU transfers the data straight from HDD -&gt; VRAM ? If RAM is involved, does that mean there is redundant data stored in RAM simply because it is required for filling up the VRAM? ",1,8
-142,2018-8-26,2018,8,26,1,9a82ht,Free servers with 1080Ti for deep learning,https://www.reddit.com/r/deeplearning/comments/9a82ht/free_servers_with_1080ti_for_deep_learning/,whitezl0,1535214843,"I am offering free 1080Ti GPU instances for deep learning.
+",3,3,False,self,,,,,
+140,deeplearning,t5_2t5eh,2018-8-25,2018,8,25,19,9a5uyu,theaigeek.com,AI Weekly 25 August 2018,https://www.reddit.com/r/deeplearning/comments/9a5uyu/ai_weekly_25_august_2018/,TomekB,1535192980,,0,1,False,default,,,,,
+141,deeplearning,t5_2t5eh,2018-8-25,2018,8,25,21,9a6e8c,self.deeplearning,CPU RAM vs GPU VRAM usage when training models.,https://www.reddit.com/r/deeplearning/comments/9a6e8c/cpu_ram_vs_gpu_vram_usage_when_training_models/,multiks2200,1535199718,"I was wondering how does the typical CPU RAM to VRAM pipeline looks like? Let's say I load a model to train, how does the data transfer is performed ? Is it HDD -&gt; RAM -&gt; VRAM or CPU transfers the data straight from HDD -&gt; VRAM ? If RAM is involved, does that mean there is redundant data stored in RAM simply because it is required for filling up the VRAM? ",1,8,False,self,,,,,
+142,deeplearning,t5_2t5eh,2018-8-26,2018,8,26,1,9a82ht,self.deeplearning,Free servers with 1080Ti for deep learning,https://www.reddit.com/r/deeplearning/comments/9a82ht/free_servers_with_1080ti_for_deep_learning/,whitezl0,1535214843,"I am offering free 1080Ti GPU instances for deep learning.
 
 Sign up at https://dashboard.tensorpad.com/signup
 
@@ -741,8 +741,8 @@ Our goal is to lower the entry barrier for deep learning so we will work hard to
 
 We will be providing free GPU time, reaching out to the registered users and asking for feedback. If this sounds like something that would fit you, sign up at https://dashboard.tensorpad.com/signup
 
-Contact for support@tensorpad.com",13,36
-143,2018-8-26,2018,8,26,22,9afddt,How the initial (default) binary-values of the neurons in the ANN gets determined when we training them?,https://www.reddit.com/r/deeplearning/comments/9afddt/how_the_initial_default_binaryvalues_of_the/,Anyone_Someone2018,1535288629,"I am currently reading a paper on the mathematics lying behind of the ANN, how they inspired from biological neurons, how they work etc. 
+Contact for support@tensorpad.com",13,36,False,self,,,,,
+143,deeplearning,t5_2t5eh,2018-8-26,2018,8,26,22,9afddt,self.deeplearning,How the initial (default) binary-values of the neurons in the ANN gets determined when we training them?,https://www.reddit.com/r/deeplearning/comments/9afddt/how_the_initial_default_binaryvalues_of_the/,Anyone_Someone2018,1535288629,"I am currently reading a paper on the mathematics lying behind of the ANN, how they inspired from biological neurons, how they work etc. 
 
 &amp;#x200B;
 
@@ -756,17 +756,17 @@ But then, how is it getting calculated? Understanding the calculation of the syn
 
 [The article i am reading: A Begginers Guide to Mathematics of Neural Networks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.3556&amp;rep=rep1&amp;type=pdf)[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.3556&amp;rep=rep1&amp;type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.3556&amp;rep=rep1&amp;type=pdf)
 
-&amp;#x200B;",2,1
-144,2018-8-27,2018,8,27,7,9ajhno,Busting Moves with DanceNet AI,https://www.reddit.com/r/deeplearning/comments/9ajhno/busting_moves_with_dancenet_ai/,trcytony,1535321561,,0,13
-145,2018-8-27,2018,8,27,19,9anw6t,5 things to know about Deep Learning | machine learning | Yourtechdiet,https://www.reddit.com/r/deeplearning/comments/9anw6t/5_things_to_know_about_deep_learning_machine/,cwadamsmith,1535366796,,1,0
-146,2018-8-28,2018,8,28,2,9ar4wk,Can unsupervised learning be powered by neural deep nets?,https://www.reddit.com/r/deeplearning/comments/9ar4wk/can_unsupervised_learning_be_powered_by_neural/,kruelc,1535392178,"Newbie question: can I have deep neural networks applied to unsupervised learning? Seems to me that deep learning relates to reinforcement and supervised learning only.
+&amp;#x200B;",2,1,False,self,,,,,
+144,deeplearning,t5_2t5eh,2018-8-27,2018,8,27,7,9ajhno,medium.com,Busting Moves with DanceNet AI,https://www.reddit.com/r/deeplearning/comments/9ajhno/busting_moves_with_dancenet_ai/,trcytony,1535321561,,0,13,False,default,,,,,
+145,deeplearning,t5_2t5eh,2018-8-27,2018,8,27,19,9anw6t,yourtechdiet.com,5 things to know about Deep Learning | machine learning | Yourtechdiet,https://www.reddit.com/r/deeplearning/comments/9anw6t/5_things_to_know_about_deep_learning_machine/,cwadamsmith,1535366796,,1,0,False,default,,,,,
+146,deeplearning,t5_2t5eh,2018-8-28,2018,8,28,2,9ar4wk,self.deeplearning,Can unsupervised learning be powered by neural deep nets?,https://www.reddit.com/r/deeplearning/comments/9ar4wk/can_unsupervised_learning_be_powered_by_neural/,kruelc,1535392178,"Newbie question: can I have deep neural networks applied to unsupervised learning? Seems to me that deep learning relates to reinforcement and supervised learning only.
 
-",7,0
-147,2018-8-28,2018,8,28,7,9atcdg,Como la inteligencia artificial est cambiando a los retailers.,https://www.reddit.com/r/deeplearning/comments/9atcdg/como_la_inteligencia_artificial_est_cambiando_a/,chevelle102,1535408155,,0,1
-148,2018-8-28,2018,8,28,7,9athpn,Detectar el idioma de un texto con redes neuronales LSTM,https://www.reddit.com/r/deeplearning/comments/9athpn/detectar_el_idioma_de_un_texto_con_redes/,chevelle102,1535409339,,0,2
-149,2018-8-28,2018,8,28,13,9avzn6,How to handle 2 input representations of a data with the same label?,https://www.reddit.com/r/deeplearning/comments/9avzn6/how_to_handle_2_input_representations_of_a_data/,melonochelo,1535431284,,0,2
-150,2018-8-28,2018,8,28,16,9awu2g,Learn Data Science  Deep Learning in Python,https://www.reddit.com/r/deeplearning/comments/9awu2g/learn_data_science_deep_learning_in_python/,plpface,1535440914,,0,2
-151,2018-8-28,2018,8,28,16,9awuro,Early stopping and final Loss or weights of models,https://www.reddit.com/r/deeplearning/comments/9awuro/early_stopping_and_final_loss_or_weights_of_models/,suraty,1535441154,"Hello,
+",7,0,False,self,,,,,
+147,deeplearning,t5_2t5eh,2018-8-28,2018,8,28,7,9atcdg,desdemilab.com,Como la inteligencia artificial est cambiando a los retailers.,https://www.reddit.com/r/deeplearning/comments/9atcdg/como_la_inteligencia_artificial_est_cambiando_a/,chevelle102,1535408155,,0,1,False,default,,,,,
+148,deeplearning,t5_2t5eh,2018-8-28,2018,8,28,7,9athpn,desdemilab.com,Detectar el idioma de un texto con redes neuronales LSTM,https://www.reddit.com/r/deeplearning/comments/9athpn/detectar_el_idioma_de_un_texto_con_redes/,chevelle102,1535409339,,0,2,False,default,,,,,
+149,deeplearning,t5_2t5eh,2018-8-28,2018,8,28,13,9avzn6,datascience.stackexchange.com,How to handle 2 input representations of a data with the same label?,https://www.reddit.com/r/deeplearning/comments/9avzn6/how_to_handle_2_input_representations_of_a_data/,melonochelo,1535431284,,0,2,False,default,,,,,
+150,deeplearning,t5_2t5eh,2018-8-28,2018,8,28,16,9awu2g,sumo.ly,Learn Data Science  Deep Learning in Python,https://www.reddit.com/r/deeplearning/comments/9awu2g/learn_data_science_deep_learning_in_python/,plpface,1535440914,,0,2,False,default,,,,,
+151,deeplearning,t5_2t5eh,2018-8-28,2018,8,28,16,9awuro,self.deeplearning,Early stopping and final Loss or weights of models,https://www.reddit.com/r/deeplearning/comments/9awuro/early_stopping_and_final_loss_or_weights_of_models/,suraty,1535441154,"Hello,
 In a deep model, I used the Early stopping technique as below in Keras:
 
     from keras.callbacks import EarlyStopping
@@ -810,9 +810,9 @@ In the end, what will be the final weights of the model and the Loss values? The
 
 If it considers the final epoch, so should it be better if I set the patience as little as possible to overcome the overfitting?
 
-Thank you",1,3
-152,2018-8-28,2018,8,28,20,9ay5jb,Humble Bundle: Machine Learning by O'Reilly,https://www.reddit.com/r/deeplearning/comments/9ay5jb/humble_bundle_machine_learning_by_oreilly/,MrZantag,1535456379,,2,18
-153,2018-8-28,2018,8,28,21,9ayewl,"I am trying to practice gradient descent learning with a simple Python script i wrote, but the algorithm not works as required. What is the problem?",https://www.reddit.com/r/deeplearning/comments/9ayewl/i_am_trying_to_practice_gradient_descent_learning/,Anyone_Someone2018,1535458706,"I am reading the following [tutorial](http://neuralnetworksanddeeplearning.com/chap1.html), and in exercises i see that: 
+Thank you",1,3,False,self,,,,,
+152,deeplearning,t5_2t5eh,2018-8-28,2018,8,28,20,9ay5jb,humblebundle.com,Humble Bundle: Machine Learning by O'Reilly,https://www.reddit.com/r/deeplearning/comments/9ay5jb/humble_bundle_machine_learning_by_oreilly/,MrZantag,1535456379,,2,18,False,default,,,,,
+153,deeplearning,t5_2t5eh,2018-8-28,2018,8,28,21,9ayewl,self.deeplearning,"I am trying to practice gradient descent learning with a simple Python script i wrote, but the algorithm not works as required. What is the problem?",https://www.reddit.com/r/deeplearning/comments/9ayewl/i_am_trying_to_practice_gradient_descent_learning/,Anyone_Someone2018,1535458706,"I am reading the following [tutorial](http://neuralnetworksanddeeplearning.com/chap1.html), and in exercises i see that: 
 
 &amp;#x200B;
 
@@ -826,9 +826,9 @@ After that i think it would be a good exercise to implement such a system for co
 
 [Here](https://github.com/CprogrammerIbrahim/deeplearningtrials/blob/master/ANN.py) is the source code. The results are written at the bottom of the code.
 
-&amp;#x200B;",0,1
-154,2018-8-28,2018,8,28,23,9azfku,Level Up Your ML Code from Notebook to Production,https://www.reddit.com/r/deeplearning/comments/9azfku/level_up_your_ml_code_from_notebook_to_production/,freducom,1535466897,,2,3
-155,2018-8-29,2018,8,29,5,9b2fp7,Xeon v. i7 for DL rig,https://www.reddit.com/r/deeplearning/comments/9b2fp7/xeon_v_i7_for_dl_rig/,minutestomidnight,1535487800,"I work at a lab where we are budgeted \~$2000 to make a DL rig for research purposes. This is one iteration of the type of rig that we will build, however, I am torn between choosing a Xeon processor or some variant of an i7. 
+&amp;#x200B;",0,1,False,self,,,,,
+154,deeplearning,t5_2t5eh,2018-8-28,2018,8,28,23,9azfku,blog.valohai.com,Level Up Your ML Code from Notebook to Production,https://www.reddit.com/r/deeplearning/comments/9azfku/level_up_your_ml_code_from_notebook_to_production/,freducom,1535466897,,2,3,False,default,,,,,
+155,deeplearning,t5_2t5eh,2018-8-29,2018,8,29,5,9b2fp7,self.deeplearning,Xeon v. i7 for DL rig,https://www.reddit.com/r/deeplearning/comments/9b2fp7/xeon_v_i7_for_dl_rig/,minutestomidnight,1535487800,"I work at a lab where we are budgeted \~$2000 to make a DL rig for research purposes. This is one iteration of the type of rig that we will build, however, I am torn between choosing a Xeon processor or some variant of an i7. 
 
 Thoughts? Suggestions? Recommendations for the motherboard and CPU? - as these are my sticking points. 
 
@@ -868,8 +868,8 @@ Type|Item|Price
 
  | \*\*Total\*\* | \*\*$1561.26\*\*
 
- | Generated by \[PCPartPicker\]([https://pcpartpicker.com](https://pcpartpicker.com)) 2018-08-28 16:21 EDT-0400 |",15,3
-156,2018-8-29,2018,8,29,8,9b3r5b,Do I need to use identical GPU's if I am not using (SLI) Parallelism?,https://www.reddit.com/r/deeplearning/comments/9b3r5b/do_i_need_to_use_identical_gpus_if_i_am_not_using/,minutestomidnight,1535497277,"I have proposed setups in this [thread](https://www.reddit.com/r/deeplearning/comments/9b2fp7/xeon_v_i7_for_dl_rig/).
+ | Generated by \[PCPartPicker\]([https://pcpartpicker.com](https://pcpartpicker.com)) 2018-08-28 16:21 EDT-0400 |",15,3,False,self,,,,,
+156,deeplearning,t5_2t5eh,2018-8-29,2018,8,29,8,9b3r5b,self.deeplearning,Do I need to use identical GPU's if I am not using (SLI) Parallelism?,https://www.reddit.com/r/deeplearning/comments/9b3r5b/do_i_need_to_use_identical_gpus_if_i_am_not_using/,minutestomidnight,1535497277,"I have proposed setups in this [thread](https://www.reddit.com/r/deeplearning/comments/9b2fp7/xeon_v_i7_for_dl_rig/).
 
 I work for a research lab and my superiors want us to build this deep learning rig ASAP and do not want to wait for the RTX 2080 which comes out in a month. 
 
@@ -882,8 +882,8 @@ My question is two-fold:
 * will I be able to have potentially 1 GTX 1080 Ti, and 3 RTX 2080's on a motherboard with 4 slots - and run them all separately?
 * will I be able to run the 3 RTX 2080's in parallel (SLI), with the 1 GTX 1080 Ti separately?
 
-Thank you. ",2,3
-157,2018-8-29,2018,8,29,12,9b5vj8,Representation learning,https://www.reddit.com/r/deeplearning/comments/9b5vj8/representation_learning/,late_to_ml,1535514646,"Iam watching the 2012 summer school lectures by Yoshua Bengio 
+Thank you. ",2,3,False,self,,,,,
+157,deeplearning,t5_2t5eh,2018-8-29,2018,8,29,12,9b5vj8,self.deeplearning,Representation learning,https://www.reddit.com/r/deeplearning/comments/9b5vj8/representation_learning/,late_to_ml,1535514646,"Iam watching the 2012 summer school lectures by Yoshua Bengio 
 
    [http://www.iro.umontreal.ca/\~bengioy/talks/deep-learning-gss2012.html](http://www.iro.umontreal.ca/~bengioy/talks/deep-learning-gss2012.html)
 
@@ -893,16 +893,16 @@ Thank you. ",2,3
 
 &amp;#x200B;
 
-The material covers unsupervised pre-training, RBMs etc. Is this material still relevant ? Do you have any other suggestions for Feature learning/Representation learning/Transfer learning that is more recent and relevant ?",6,5
-158,2018-8-29,2018,8,29,15,9b6ut4,Are you a researcher doing deep learning? Get free computing power for your model training!,https://www.reddit.com/r/deeplearning/comments/9b6ut4/are_you_a_researcher_doing_deep_learning_get_free/,freducom,1535524701,,4,0
-159,2018-8-29,2018,8,29,18,9b7n6u,"Anyone, who has trained TextureGAN for deep image synthesis in Keras?",https://www.reddit.com/r/deeplearning/comments/9b7n6u/anyone_who_has_trained_texturegan_for_deep_image/,kailashahirwar12,1535533900,I am working on TextureGAN and trying to implement TextureGAN in keras. Pytorch implementation of TextureGAN is already there. Paper - [https://arxiv.org/pdf/1706.02823.pdf](https://arxiv.org/pdf/1706.02823.pdf) and [https://github.com/Cuiyirui/TextureGAN](https://github.com/Cuiyirui/TextureGAN) \- Pytorch implementation of TextureGAN. ,6,5
-160,2018-8-30,2018,8,30,8,9bek56,Build concept images from a set of images?,https://www.reddit.com/r/deeplearning/comments/9bek56/build_concept_images_from_a_set_of_images/,duythvn,1535586531,"Hi guys  
+The material covers unsupervised pre-training, RBMs etc. Is this material still relevant ? Do you have any other suggestions for Feature learning/Representation learning/Transfer learning that is more recent and relevant ?",6,5,False,self,,,,,
+158,deeplearning,t5_2t5eh,2018-8-29,2018,8,29,15,9b6ut4,valohai.com,Are you a researcher doing deep learning? Get free computing power for your model training!,https://www.reddit.com/r/deeplearning/comments/9b6ut4/are_you_a_researcher_doing_deep_learning_get_free/,freducom,1535524701,,4,0,False,default,,,,,
+159,deeplearning,t5_2t5eh,2018-8-29,2018,8,29,18,9b7n6u,self.deeplearning,"Anyone, who has trained TextureGAN for deep image synthesis in Keras?",https://www.reddit.com/r/deeplearning/comments/9b7n6u/anyone_who_has_trained_texturegan_for_deep_image/,kailashahirwar12,1535533900,I am working on TextureGAN and trying to implement TextureGAN in keras. Pytorch implementation of TextureGAN is already there. Paper - [https://arxiv.org/pdf/1706.02823.pdf](https://arxiv.org/pdf/1706.02823.pdf) and [https://github.com/Cuiyirui/TextureGAN](https://github.com/Cuiyirui/TextureGAN) \- Pytorch implementation of TextureGAN. ,6,5,False,self,,,,,
+160,deeplearning,t5_2t5eh,2018-8-30,2018,8,30,8,9bek56,self.deeplearning,Build concept images from a set of images?,https://www.reddit.com/r/deeplearning/comments/9bek56/build_concept_images_from_a_set_of_images/,duythvn,1535586531,"Hi guys  
 I'm learning ML &amp; DL  and I'm wondering if there is a solution to this : let's say if we have a small set of images (say 100+?)   is there something I should look into to say generate a concept image from that data set  (in other words,  I have  a set of product images that I like, I 'd like to see DL to recommend a product mockup/ concept )
 
 &amp;#x200B;
 
-thank you",2,3
-161,2018-8-30,2018,8,30,9,9bepu0,Request for Generative Adversarial Network Guidance,https://www.reddit.com/r/deeplearning/comments/9bepu0/request_for_generative_adversarial_network/,JamesGeoffreyHill,1535587830,"Hello.
+thank you",2,3,False,self,,,,,
+161,deeplearning,t5_2t5eh,2018-8-30,2018,8,30,9,9bepu0,self.deeplearning,Request for Generative Adversarial Network Guidance,https://www.reddit.com/r/deeplearning/comments/9bepu0/request_for_generative_adversarial_network/,JamesGeoffreyHill,1535587830,"Hello.
 
 I've been creating a conditional GANs.  It is a conditional version of a model known as WaveGAN.  WaveGAN generates samples of audio after having been trained on one second samples of spoken words.  My model is a similar model, although smaller in depth and number of different modes of data being trained with / generated.
 
@@ -918,8 +918,8 @@ So I just wanted to ask advice from anyone who has worked with conditional GANs 
 
 So if anyone has any tips or advice that would be great.  I don't even know what this problem is called actually.  I would be happy to show some of the code if anyone wanted to see it but I don't expect that much help; just some guidance.
 
-Thanks for any help in advance.",1,5
-162,2018-8-30,2018,8,30,14,9bguw3,Char level seq2seq model details,https://www.reddit.com/r/deeplearning/comments/9bguw3/char_level_seq2seq_model_details/,Indypop,1535606532,"I have a chat-bot seq2seq model (char-level). Almost the same as in this tutorial https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html, so very basic, but with bidirectional encoder.
+Thanks for any help in advance.",1,5,False,self,,,,,
+162,deeplearning,t5_2t5eh,2018-8-30,2018,8,30,14,9bguw3,self.deeplearning,Char level seq2seq model details,https://www.reddit.com/r/deeplearning/comments/9bguw3/char_level_seq2seq_model_details/,Indypop,1535606532,"I have a chat-bot seq2seq model (char-level). Almost the same as in this tutorial https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html, so very basic, but with bidirectional encoder.
 
 On my training set i have a pairs of input texts and answers. There are situations when one input text causes several difference answers, e.g.:
 
@@ -933,12 +933,12 @@ And so on. So anybody has an experience with training such a models? My main que
 2) On inference i also dont want to see one answer per same question, so there have to be some sampling techniques maybe?
 
 Thanks.
-",2,8
-163,2018-8-30,2018,8,30,22,9bjf6g,Stages of Artificial Intelligence,https://www.reddit.com/r/deeplearning/comments/9bjf6g/stages_of_artificial_intelligence/,seoaleait,1535634108,,4,0
-164,2018-8-31,2018,8,31,1,9bkyc0,Pytorch Cycle GAN collapses after around 210 iterations,https://www.reddit.com/r/deeplearning/comments/9bkyc0/pytorch_cycle_gan_collapses_after_around_210/,Cracin,1535645290,"I'm trying to implement a CycleGAN in pytorch but it keeps collapsing. I tried adding gaussian noise, tweaked the optimizer parameters, but every time after around 210-220 iterations(epoch 0), the models collapse and generate a colourful string of images which in no way resemble the training data. Why is this happening? Thank you for your help.
+",2,8,False,self,,,,,
+163,deeplearning,t5_2t5eh,2018-8-30,2018,8,30,22,9bjf6g,i.redd.it,Stages of Artificial Intelligence,https://www.reddit.com/r/deeplearning/comments/9bjf6g/stages_of_artificial_intelligence/,seoaleait,1535634108,,4,0,False,image,,,,,
+164,deeplearning,t5_2t5eh,2018-8-31,2018,8,31,1,9bkyc0,self.deeplearning,Pytorch Cycle GAN collapses after around 210 iterations,https://www.reddit.com/r/deeplearning/comments/9bkyc0/pytorch_cycle_gan_collapses_after_around_210/,Cracin,1535645290,"I'm trying to implement a CycleGAN in pytorch but it keeps collapsing. I tried adding gaussian noise, tweaked the optimizer parameters, but every time after around 210-220 iterations(epoch 0), the models collapse and generate a colourful string of images which in no way resemble the training data. Why is this happening? Thank you for your help.
 
-Link to the code: [https://github.com/HelioStrike/Pytorch-CycleGAN](https://github.com/HelioStrike/Pytorch-CycleGAN)",0,10
-165,2018-8-31,2018,8,31,4,9bmqjg,Loss function going up,https://www.reddit.com/r/deeplearning/comments/9bmqjg/loss_function_going_up/,Giuan0,1535657415,"`epoch: 15300, loss: 1.5845516543322447e-07` 
+Link to the code: [https://github.com/HelioStrike/Pytorch-CycleGAN](https://github.com/HelioStrike/Pytorch-CycleGAN)",0,10,False,self,,,,,
+165,deeplearning,t5_2t5eh,2018-8-31,2018,8,31,4,9bmqjg,self.deeplearning,Loss function going up,https://www.reddit.com/r/deeplearning/comments/9bmqjg/loss_function_going_up/,Giuan0,1535657415,"`epoch: 15300, loss: 1.5845516543322447e-07` 
 
 `epoch: 15400, loss: 1.5136505737700645e-07` 
 
@@ -958,10 +958,10 @@ Link to the code: [https://github.com/HelioStrike/Pytorch-CycleGAN](https://gith
 
 &amp;#x200B;
 
-After many epochs, this is happening on my neural network. Is it a normal problem that happens when you train too much? Can it be avoided?  ",3,2
-166,2018-8-31,2018,8,31,14,9bqumv,Keras discussion group on fb,https://www.reddit.com/r/deeplearning/comments/9bqumv/keras_discussion_group_on_fb/,amit2rockon,1535692539,"[https://www.facebook.com/groups/2111902102393596/](https://www.facebook.com/groups/2111902102393596/)
+After many epochs, this is happening on my neural network. Is it a normal problem that happens when you train too much? Can it be avoided?  ",3,2,False,self,,,,,
+166,deeplearning,t5_2t5eh,2018-8-31,2018,8,31,14,9bqumv,self.deeplearning,Keras discussion group on fb,https://www.reddit.com/r/deeplearning/comments/9bqumv/keras_discussion_group_on_fb/,amit2rockon,1535692539,"[https://www.facebook.com/groups/2111902102393596/](https://www.facebook.com/groups/2111902102393596/)
 
 &amp;#x200B;
 
-join it to get help and also help others.",3,0
-167,2018-8-31,2018,8,31,23,9bub7g,Need help with DL Object Identification,https://www.reddit.com/r/deeplearning/comments/9bub7g/need_help_with_dl_object_identification/,Megasim1113,1535727481,Please send me a message if you've worked with Amazon and Google's Deep Learning object identification programs. I am having trouble in setting these up and running some tests for a paper that I need to complete and would love some help. Shoot me a message and I would be more than happy to explain further in detail. Thanks! ,2,1
+join it to get help and also help others.",3,0,False,self,,,,,
+167,deeplearning,t5_2t5eh,2018-8-31,2018,8,31,23,9bub7g,self.deeplearning,Need help with DL Object Identification,https://www.reddit.com/r/deeplearning/comments/9bub7g/need_help_with_dl_object_identification/,Megasim1113,1535727481,Please send me a message if you've worked with Amazon and Google's Deep Learning object identification programs. I am having trouble in setting these up and running some tests for a paper that I need to complete and would love some help. Shoot me a message and I would be more than happy to explain further in detail. Thanks! ,2,1,False,self,,,,,

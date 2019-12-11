@@ -1,9 +1,9 @@
-,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
-0,2016-4-1,2016,4,1,12,4ctpxv,"TFLearn, high-level API for TensorFlow",https://www.reddit.com/r/tensorflow/comments/4ctpxv/tflearn_highlevel_api_for_tensorflow/,malleus17,1459481794,,0,4
-1,2016-4-3,2016,4,3,20,4d5um6,debugging tensorflow C++,https://www.reddit.com/r/tensorflow/comments/4d5um6/debugging_tensorflow_c/,therealsam,1459683014,"I'm working on building my own tensorflow `user_ops` operation, but to understand how tensorflow executes, I would like to be able to debug the C++ side of the code (i.e. not just in Python with `pdb`) with `gdb`.
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,tensorflow,t5_3alkk,2016-4-1,2016,4,1,12,4ctpxv,github.com,"TFLearn, high-level API for TensorFlow",https://www.reddit.com/r/tensorflow/comments/4ctpxv/tflearn_highlevel_api_for_tensorflow/,malleus17,1459481794,,0,4,False,http://b.thumbs.redditmedia.com/_24W0V7dMzXx1JhHLLxPQRWuW1Xn_hWqasy3XkOTj8E.jpg,,,,,
+1,tensorflow,t5_3alkk,2016-4-3,2016,4,3,20,4d5um6,self.tensorflow,debugging tensorflow C++,https://www.reddit.com/r/tensorflow/comments/4d5um6/debugging_tensorflow_c/,therealsam,1459683014,"I'm working on building my own tensorflow `user_ops` operation, but to understand how tensorflow executes, I would like to be able to debug the C++ side of the code (i.e. not just in Python with `pdb`) with `gdb`.
 
-How would I go about doing this?",0,1
-2,2016-4-9,2016,4,9,22,4e18vg,"Learning tensorflow + rnns but can't get my head round some things, please help!",https://www.reddit.com/r/tensorflow/comments/4e18vg/learning_tensorflow_rnns_but_cant_get_my_head/,timrabb,1460208547,"Please let me know if this is not appropriate to this sub.
+How would I go about doing this?",0,1,False,self,,,,,
+2,tensorflow,t5_3alkk,2016-4-9,2016,4,9,22,4e18vg,self.tensorflow,"Learning tensorflow + rnns but can't get my head round some things, please help!",https://www.reddit.com/r/tensorflow/comments/4e18vg/learning_tensorflow_rnns_but_cant_get_my_head/,timrabb,1460208547,"Please let me know if this is not appropriate to this sub.
 
 I'm trying to create a lstm-rnn to generate sequences of music. The training data is a sequence of vectors of size 4, representing various features (including MIDI note) of each note in some songs to train on. 
 
@@ -31,9 +31,9 @@ This seems to be fine but I get the error
 
 SO: my assumptions so far is that the input shape [None, seqLength, 4] is saying to TF [batchLength (which gets fed by tflearn sequentially), sequence length, feature length of sample]. What I don't understand is why it's saying the output is the wrong shape? Am I assuming wrongly with the data sequence split? When I just try to feed in all my data without splitting into sequences, so the input shape is [None, 4], TF tells me the LSTM layer expects an input shape with at least 3 dimensions. 
 
-I can't get my head round what the shapes of the inputs and outputs should be. It feels like this should be a simple thing -- I have a set of input sequences of vectors and I want the network to try and predict the next one in the sequence. There's very little online that doesn't assume a fairly advanced level of knowledge, so I've hit a brick wall. Really appreciate any insight anyone can give!",1,3
-3,2016-4-15,2016,4,15,16,4evmqe,Does the image retraining example support multi label classification?,https://www.reddit.com/r/tensorflow/comments/4evmqe/does_the_image_retraining_example_support_multi/,n00bto1337,1460704945,,0,2
-4,2016-4-16,2016,4,16,15,4f0sih,GPU support (Thinkpad options),https://www.reddit.com/r/tensorflow/comments/4f0sih/gpu_support_thinkpad_options/,themoosemind,1460787594,"I am currently looking for a new notebook (a Thinkpad, probably P50 / T460 / T460p / T560). I would like to buy one which has a dedicated GPU (dGPU) for using it with TensorFlow.
+I can't get my head round what the shapes of the inputs and outputs should be. It feels like this should be a simple thing -- I have a set of input sequences of vectors and I want the network to try and predict the next one in the sequence. There's very little online that doesn't assume a fairly advanced level of knowledge, so I've hit a brick wall. Really appreciate any insight anyone can give!",1,3,False,self,,,,,
+3,tensorflow,t5_3alkk,2016-4-15,2016,4,15,16,4evmqe,self.tensorflow,Does the image retraining example support multi label classification?,https://www.reddit.com/r/tensorflow/comments/4evmqe/does_the_image_retraining_example_support_multi/,n00bto1337,1460704945,,0,2,False,self,,,,,
+4,tensorflow,t5_3alkk,2016-4-16,2016,4,16,15,4f0sih,self.tensorflow,GPU support (Thinkpad options),https://www.reddit.com/r/tensorflow/comments/4f0sih/gpu_support_thinkpad_options/,themoosemind,1460787594,"I am currently looking for a new notebook (a Thinkpad, probably P50 / T460 / T460p / T560). I would like to buy one which has a dedicated GPU (dGPU) for using it with TensorFlow.
 
 Does anybody know if the following GPUs are supported by TensorFlow?
 
@@ -41,8 +41,8 @@ Does anybody know if the following GPUs are supported by TensorFlow?
 * M1000M
 * M2000M
 
-Are there comparisions of the performance of those 3?",1,1
-5,2016-4-22,2016,4,22,6,4fvbcv,Noob with some beginner level doubts about TensorFlow,https://www.reddit.com/r/tensorflow/comments/4fvbcv/noob_with_some_beginner_level_doubts_about/,winged_elite,1461275168,"I have some very basic doubts about tensorflow. Would be very glad if somebody cleared them up.
+Are there comparisions of the performance of those 3?",1,1,False,self,,,,,
+5,tensorflow,t5_3alkk,2016-4-22,2016,4,22,6,4fvbcv,self.tensorflow,Noob with some beginner level doubts about TensorFlow,https://www.reddit.com/r/tensorflow/comments/4fvbcv/noob_with_some_beginner_level_doubts_about/,winged_elite,1461275168,"I have some very basic doubts about tensorflow. Would be very glad if somebody cleared them up.
 
 1) I installed tensorflow using pip. Does it mean that I still have to clone the git repository?
 
@@ -60,7 +60,7 @@ I've installed using pip, but haven't cloned the git repo. Do I still have to do
 
     python ptb_word_lm.py --data_path=/tmp/simple-examples/data/ --model small
 
-and then it went through a number of epochs and got the perplexity down to &lt;120 and then stopped. I assumed that the model was trained(As 120 was the target for the small option). Again, are the NN parameters/weights automatically stored on secondary storage in this case?",2,3
-6,2016-4-26,2016,4,26,8,4gg6zk,Can i run this in an ubuntu virtualbox on windows?,https://www.reddit.com/r/tensorflow/comments/4gg6zk/can_i_run_this_in_an_ubuntu_virtualbox_on_windows/,strategosInfinitum,1461628765,Can i run this in an ubuntu virtualbox on windows? Or does it require i boot to  to Ubuntu?,3,1
-7,2016-4-27,2016,4,27,9,4gltot,What do you think about using lazy properties to structure TensorFlow models?,https://www.reddit.com/r/tensorflow/comments/4gltot/what_do_you_think_about_using_lazy_properties_to/,danijar,1461715866,,0,3
-8,2016-4-30,2016,4,30,1,4h05m4,DeepMind now use Tensorflow!,https://www.reddit.com/r/tensorflow/comments/4h05m4/deepmind_now_use_tensorflow/,machrisaa,1461946785,,1,8
+and then it went through a number of epochs and got the perplexity down to &lt;120 and then stopped. I assumed that the model was trained(As 120 was the target for the small option). Again, are the NN parameters/weights automatically stored on secondary storage in this case?",2,3,False,self,,,,,
+6,tensorflow,t5_3alkk,2016-4-26,2016,4,26,8,4gg6zk,self.tensorflow,Can i run this in an ubuntu virtualbox on windows?,https://www.reddit.com/r/tensorflow/comments/4gg6zk/can_i_run_this_in_an_ubuntu_virtualbox_on_windows/,strategosInfinitum,1461628765,Can i run this in an ubuntu virtualbox on windows? Or does it require i boot to  to Ubuntu?,3,1,False,self,,,,,
+7,tensorflow,t5_3alkk,2016-4-27,2016,4,27,9,4gltot,danijar.github.io,What do you think about using lazy properties to structure TensorFlow models?,https://www.reddit.com/r/tensorflow/comments/4gltot/what_do_you_think_about_using_lazy_properties_to/,danijar,1461715866,,0,3,False,default,,,,,
+8,tensorflow,t5_3alkk,2016-4-30,2016,4,30,1,4h05m4,twitter.com,DeepMind now use Tensorflow!,https://www.reddit.com/r/tensorflow/comments/4h05m4/deepmind_now_use_tensorflow/,machrisaa,1461946785,,1,8,False,http://b.thumbs.redditmedia.com/kOS_T5-z-LurTL--2to4sLV9z3lEAQ5Vatd-x2KISng.jpg,,,,,

@@ -1,6 +1,6 @@
-,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
-0,2017-3-2,2017,3,2,5,5wykyr,Tensorflow GPU cuda acceleration?,https://www.reddit.com/r/tensorflow/comments/5wykyr/tensorflow_gpu_cuda_acceleration/,Randomhkkid,1488400890,What sort of operations does cuda speed up when tensorflow with the gpu binaries is installed? I'm using logistical regression and a gradient descent optimiser for classification. ,3,2
-1,2017-3-2,2017,3,2,17,5x25a1,MNIST tutorial on tensorflow,https://www.reddit.com/r/tensorflow/comments/5x25a1/mnist_tutorial_on_tensorflow/,SanatDutta,1488443883,"Hi,
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,tensorflow,t5_3alkk,2017-3-2,2017,3,2,5,5wykyr,self.tensorflow,Tensorflow GPU cuda acceleration?,https://www.reddit.com/r/tensorflow/comments/5wykyr/tensorflow_gpu_cuda_acceleration/,Randomhkkid,1488400890,What sort of operations does cuda speed up when tensorflow with the gpu binaries is installed? I'm using logistical regression and a gradient descent optimiser for classification. ,3,2,False,self,,,,,
+1,tensorflow,t5_3alkk,2017-3-2,2017,3,2,17,5x25a1,self.tensorflow,MNIST tutorial on tensorflow,https://www.reddit.com/r/tensorflow/comments/5x25a1/mnist_tutorial_on_tensorflow/,SanatDutta,1488443883,"Hi,
 
 I'm new to Tensorflow and python. I was doing the MNIST tutorial and it asked to download &amp; import the dataset using
 
@@ -18,17 +18,17 @@ train-labels-idx1-ubyte.gz:  training set labels (28881 bytes)
 
 t10k-images-idx3-ubyte.gz:   test set images (1648877 bytes) 
 
-t10k-labels-idx1-ubyte.gz:   test set labels (4542 bytes)",2,1
-2,2017-3-3,2017,3,3,3,5x52lv,No charge course teaches Deep Learning with TensorFlow 1.0 hands-on,https://www.reddit.com/r/tensorflow/comments/5x52lv/no_charge_course_teaches_deep_learning_with/,reditype,1488480398,,0,23
-3,2017-3-3,2017,3,3,13,5x89ut,Can multiple models be trained on a same gpu chip,https://www.reddit.com/r/tensorflow/comments/5x89ut/can_multiple_models_be_trained_on_a_same_gpu_chip/,lhyan792,1488514338,"Can I train multiple models simultaneously on a gpu with tensorflow, assuming enough memory? Whether there will be unexpected behaviors due to cross influences among models?",2,2
-4,2017-3-3,2017,3,3,21,5xa1fa,"Speeding up Tensorflow in Python, low GPU utilisation?",https://www.reddit.com/r/tensorflow/comments/5xa1fa/speeding_up_tensorflow_in_python_low_gpu/,Randomhkkid,1488543727,"I've written a program to classify two authors represented through TF-IDF vectors through logistic regression using Tensorflow in Python. The program works and operates normally however when running the program using CUDA my GPU utilisation remains low, &lt;10%. I'd love to have some feedback on my code 'Tensor.py' to alleviate any bottlenecks if possible. [Linked here](https://github.com/andrewginns/idp-twitter-tensorflow) 
+t10k-labels-idx1-ubyte.gz:   test set labels (4542 bytes)",2,1,False,self,,,,,
+2,tensorflow,t5_3alkk,2017-3-3,2017,3,3,3,5x52lv,bigdatauniversity.com,No charge course teaches Deep Learning with TensorFlow 1.0 hands-on,https://www.reddit.com/r/tensorflow/comments/5x52lv/no_charge_course_teaches_deep_learning_with/,reditype,1488480398,,0,23,False,default,,,,,
+3,tensorflow,t5_3alkk,2017-3-3,2017,3,3,13,5x89ut,self.tensorflow,Can multiple models be trained on a same gpu chip,https://www.reddit.com/r/tensorflow/comments/5x89ut/can_multiple_models_be_trained_on_a_same_gpu_chip/,lhyan792,1488514338,"Can I train multiple models simultaneously on a gpu with tensorflow, assuming enough memory? Whether there will be unexpected behaviors due to cross influences among models?",2,2,False,self,,,,,
+4,tensorflow,t5_3alkk,2017-3-3,2017,3,3,21,5xa1fa,self.tensorflow,"Speeding up Tensorflow in Python, low GPU utilisation?",https://www.reddit.com/r/tensorflow/comments/5xa1fa/speeding_up_tensorflow_in_python_low_gpu/,Randomhkkid,1488543727,"I've written a program to classify two authors represented through TF-IDF vectors through logistic regression using Tensorflow in Python. The program works and operates normally however when running the program using CUDA my GPU utilisation remains low, &lt;10%. I'd love to have some feedback on my code 'Tensor.py' to alleviate any bottlenecks if possible. [Linked here](https://github.com/andrewginns/idp-twitter-tensorflow) 
 
 Edit: I'm a beginner at machine learning and tensorflow in general
 
 Edit 2: I've implemented multithreading and queues from [here](https://blog.metaflow.fr/tensorflow-how-to-optimise-your-input-pipeline-with-queues-and-multi-threading-e7c3874157e0#.e5r6pup9q) but my code shows no improvement in execution time.
-",7,8
-5,2017-3-4,2017,3,4,2,5xbosv,I have two networks trained on two separate GPUs. I want to clear the memory of one GPU but not the other. Then train a new network on that GPU.,https://www.reddit.com/r/tensorflow/comments/5xbosv/i_have_two_networks_trained_on_two_separate_gpus/,iamiamwhoami,1488562319,Is there a way to do that?,1,2
-6,2017-3-4,2017,3,4,2,5xbsel,Tensorflow 1.0.0 on AWS Lambda.,https://www.reddit.com/r/tensorflow/comments/5xbsel/tensorflow_100_on_aws_lambda/,ryfeus,1488563275,"Hi, Tensorflow community,
+",7,8,False,self,,,,,
+5,tensorflow,t5_3alkk,2017-3-4,2017,3,4,2,5xbosv,self.tensorflow,I have two networks trained on two separate GPUs. I want to clear the memory of one GPU but not the other. Then train a new network on that GPU.,https://www.reddit.com/r/tensorflow/comments/5xbosv/i_have_two_networks_trained_on_two_separate_gpus/,iamiamwhoami,1488562319,Is there a way to do that?,1,2,False,self,,,,,
+6,tensorflow,t5_3alkk,2017-3-4,2017,3,4,2,5xbsel,self.tensorflow,Tensorflow 1.0.0 on AWS Lambda.,https://www.reddit.com/r/tensorflow/comments/5xbsel/tensorflow_100_on_aws_lambda/,ryfeus,1488563275,"Hi, Tensorflow community,
 
 Ive ported Tensorflow 1.0.0 on AWS Lambda (python). Here is the link
 [https://github.com/ryfeus/lambda-packs/tree/master/Tensorflow](https://github.com/ryfeus/lambda-packs/tree/master/Tensorflow)
@@ -37,8 +37,8 @@ Ive used image recognition as hello world code (https://www.tensorflow.org/tutor
 
 In terms of cost it uses 0.5 GB of RAM for 6 seconds which translates into 0.00005$ per run (aka recognizing one image) so for 1$ you can recognize 20000 images.
 
-Hopefully this will be helpful for you and also I will be glad for any feedback.",2,7
-7,2017-3-5,2017,3,5,5,5xj2td,MNIST w/ ADAM worked in Windows but won't in Linux.,https://www.reddit.com/r/tensorflow/comments/5xj2td/mnist_w_adam_worked_in_windows_but_wont_in_linux/,EnochLindeman,1488660708,"I just started using the tensorflow library and went through some YouTube tutorials to create an MNIST program (I also made one with the TF docs). The program works on my Windows 10 Laptop but has tons of [errors](https://ibb.co/dMLqyv) with my Linux mint machine. They are both running on Python 3.5.2 in IDLE and as far as I can tell, both with the same (newest) TF version.
+Hopefully this will be helpful for you and also I will be glad for any feedback.",2,7,False,self,,,,,
+7,tensorflow,t5_3alkk,2017-3-5,2017,3,5,5,5xj2td,self.tensorflow,MNIST w/ ADAM worked in Windows but won't in Linux.,https://www.reddit.com/r/tensorflow/comments/5xj2td/mnist_w_adam_worked_in_windows_but_wont_in_linux/,EnochLindeman,1488660708,"I just started using the tensorflow library and went through some YouTube tutorials to create an MNIST program (I also made one with the TF docs). The program works on my Windows 10 Laptop but has tons of [errors](https://ibb.co/dMLqyv) with my Linux mint machine. They are both running on Python 3.5.2 in IDLE and as far as I can tell, both with the same (newest) TF version.
 
 Here's the Code:
 
@@ -135,11 +135,11 @@ Here's the Code:
 
 
 TL;DR: What's wrong with my code? Are there compatibility issues between TF Windows and Linux?
-",3,1
-8,2017-3-5,2017,3,5,18,5xm1be,7 Simple Steps to Install TensorFlow on Windows (+ Screenshots),https://www.reddit.com/r/tensorflow/comments/5xm1be/7_simple_steps_to_install_tensorflow_on_windows/,[deleted],1488704969,[deleted],0,1
-9,2017-3-6,2017,3,6,19,5xsm86,How to use Tensorflow from Crystal!,https://www.reddit.com/r/tensorflow/comments/5xsm86/how_to_use_tensorflow_from_crystal/,fazibear,1488797484,,2,5
-10,2017-3-7,2017,3,7,11,5xxooz,Tutorial: Build Your First TensorFlow Android App,https://www.reddit.com/r/tensorflow/comments/5xxooz/tutorial_build_your_first_tensorflow_android_app/,oac,1488852743,,0,12
-11,2017-3-8,2017,3,8,4,5y2s9p,Raise default pool_size for GPU PoolAllocator?,https://www.reddit.com/r/tensorflow/comments/5y2s9p/raise_default_pool_size_for_gpu_poolallocator/,oopsleon,1488914638,"Nearly every training session of mine starts out with a bunch of messages like the following:
+",3,1,False,self,,,,,
+8,tensorflow,t5_3alkk,2017-3-5,2017,3,5,18,5xm1be,saintlad.com,7 Simple Steps to Install TensorFlow on Windows (+ Screenshots),https://www.reddit.com/r/tensorflow/comments/5xm1be/7_simple_steps_to_install_tensorflow_on_windows/,[deleted],1488704969,[deleted],0,1,False,default,,,,,
+9,tensorflow,t5_3alkk,2017-3-6,2017,3,6,19,5xsm86,blog.fazibear.me,How to use Tensorflow from Crystal!,https://www.reddit.com/r/tensorflow/comments/5xsm86/how_to_use_tensorflow_from_crystal/,fazibear,1488797484,,2,5,False,default,,,,,
+10,tensorflow,t5_3alkk,2017-3-7,2017,3,7,11,5xxooz,omid.al,Tutorial: Build Your First TensorFlow Android App,https://www.reddit.com/r/tensorflow/comments/5xxooz/tutorial_build_your_first_tensorflow_android_app/,oac,1488852743,,0,12,False,default,,,,,
+11,tensorflow,t5_3alkk,2017-3-8,2017,3,8,4,5y2s9p,self.tensorflow,Raise default pool_size for GPU PoolAllocator?,https://www.reddit.com/r/tensorflow/comments/5y2s9p/raise_default_pool_size_for_gpu_poolallocator/,oopsleon,1488914638,"Nearly every training session of mine starts out with a bunch of messages like the following:
 
 
 2017-03-07 11:12:16.005711: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 542 to 596
@@ -153,10 +153,10 @@ So I was wondering, **is it possible and/or a good idea to just raise the defaul
 
 It's a minor annoyance, to be sure, but if there is a quick fix it would be nice, since sometimes it can take a few minutes just for tensorflow to find a good pool_size. In case it might be useful to know, I'm training with a GTX 1080. Thanks for any help/information.
 
-",1,4
-12,2017-3-8,2017,3,8,16,5y6olf,XLA: Linear Algebra library for TensorFlow,https://www.reddit.com/r/tensorflow/comments/5y6olf/xla_linear_algebra_library_for_tensorflow/,jakekovoor,1488959307,,0,10
-13,2017-3-8,2017,3,8,16,5y6oxq,Doom Bots in TensorFlow,https://www.reddit.com/r/tensorflow/comments/5y6oxq/doom_bots_in_tensorflow/,marklit,1488959479,,0,5
-14,2017-3-9,2017,3,9,3,5y9khd,Beginner here,https://www.reddit.com/r/tensorflow/comments/5y9khd/beginner_here/,thecocolovesme,1488997088,"Hi everyone
+",1,4,False,self,,,,,
+12,tensorflow,t5_3alkk,2017-3-8,2017,3,8,16,5y6olf,developers.googleblog.com,XLA: Linear Algebra library for TensorFlow,https://www.reddit.com/r/tensorflow/comments/5y6olf/xla_linear_algebra_library_for_tensorflow/,jakekovoor,1488959307,,0,10,False,default,,,,,
+13,tensorflow,t5_3alkk,2017-3-8,2017,3,8,16,5y6oxq,tech.marksblogg.com,Doom Bots in TensorFlow,https://www.reddit.com/r/tensorflow/comments/5y6oxq/doom_bots_in_tensorflow/,marklit,1488959479,,0,5,False,default,,,,,
+14,tensorflow,t5_3alkk,2017-3-9,2017,3,9,3,5y9khd,self.tensorflow,Beginner here,https://www.reddit.com/r/tensorflow/comments/5y9khd/beginner_here/,thecocolovesme,1488997088,"Hi everyone
 
 I am a student in Music, however, I have tasted the professional world and it made wanna quit. 
 
@@ -166,8 +166,8 @@ I had scientific background in highschool, right now I'm picking up Python. A fr
 
 Can you guys explain, in simple and common word of English, what Tensorflow actually does? Anything would help me greatly.
 
-Thanks!",8,1
-15,2017-3-9,2017,3,9,13,5ycytp,Setting up TensorFlow on AWS or Google Cloud Services,https://www.reddit.com/r/tensorflow/comments/5ycytp/setting_up_tensorflow_on_aws_or_google_cloud/,pretending2code,1489032849,"Current Skill level: I've been able to install Tensorflow on my local environment and start manipulating some simple graphs in Tensorboard.
+Thanks!",8,1,False,self,,,,,
+15,tensorflow,t5_3alkk,2017-3-9,2017,3,9,13,5ycytp,self.tensorflow,Setting up TensorFlow on AWS or Google Cloud Services,https://www.reddit.com/r/tensorflow/comments/5ycytp/setting_up_tensorflow_on_aws_or_google_cloud/,pretending2code,1489032849,"Current Skill level: I've been able to install Tensorflow on my local environment and start manipulating some simple graphs in Tensorboard.
 
 I've been tasked with spearheading a prototype for a new department at my company. The individual who tasked me understood I knew nothing about Machine Learning and very little more than some basic RDBMS knowledge.
 
@@ -177,14 +177,14 @@ Now he says he wants me to attempt to set up a TensorFlow enviornment on either 
 
 My question is should I be using an AWS server or should I attempt to use Google Cloud Services, and what advice do you have in setting that up?
 
-TL;DR I know nothing about Machine Learning or TensorFlow, but I've been given a shot and I need some suggestions for environments on a corporate level (i.e. Google Cloud Services or AWS).",3,5
-16,2017-3-10,2017,3,10,15,5ykjgj,Data input,https://www.reddit.com/r/tensorflow/comments/5ykjgj/data_input/,mlpyotr,1489126446,"I'm trying to get into TS but I have a data question.
+TL;DR I know nothing about Machine Learning or TensorFlow, but I've been given a shot and I need some suggestions for environments on a corporate level (i.e. Google Cloud Services or AWS).",3,5,False,self,,,,,
+16,tensorflow,t5_3alkk,2017-3-10,2017,3,10,15,5ykjgj,self.tensorflow,Data input,https://www.reddit.com/r/tensorflow/comments/5ykjgj/data_input/,mlpyotr,1489126446,"I'm trying to get into TS but I have a data question.
 
 Looking at the TS pages, it seems that the only input type the functions understand are np arrays (of: int, floats, etc). Is it possible to have some of the arrays a mix of types?
 For example, R's random Forest can have features that are non-numeric (factors, etc) and the target value need not be a number.
 Hope I'm being clear.
-Thanks in advance",0,1
-17,2017-3-11,2017,3,11,2,5ynbi2,Implementing trust region optimization ops,https://www.reddit.com/r/tensorflow/comments/5ynbi2/implementing_trust_region_optimization_ops/,ski__,1489166327,"Hi everyone. I got into NNs very recently, and as for many people, Ng's introductory course taught in Octave paved the way. The course encourages the use of ""fminunc"", which for those that are unfamiliar, is a wrapper for several unconstrained function optimization algorithms, most notably, the trust region algorithm using preconditioned conjugate vectors.
+Thanks in advance",0,1,False,self,,,,,
+17,tensorflow,t5_3alkk,2017-3-11,2017,3,11,2,5ynbi2,self.tensorflow,Implementing trust region optimization ops,https://www.reddit.com/r/tensorflow/comments/5ynbi2/implementing_trust_region_optimization_ops/,ski__,1489166327,"Hi everyone. I got into NNs very recently, and as for many people, Ng's introductory course taught in Octave paved the way. The course encourages the use of ""fminunc"", which for those that are unfamiliar, is a wrapper for several unconstrained function optimization algorithms, most notably, the trust region algorithm using preconditioned conjugate vectors.
 
 More recently, a DL researcher at Google offered to collaborate on a research idea of theirs. Having a bit of Octave experience, I prototyped a network and minimized the cost with the aforementioned algorithm. We then tried to port the same network to TensorFlow and use Gradient Descent and the network exploded in our faces with the analogue of ""segmentation fault"" in C world - NaN...
 
@@ -194,9 +194,9 @@ Another set of ops worth looking into would be quasi-Newton ops (BFGS algorithm)
 
 A short time ago, I began doing the research for MATLAB/Octave's trust region optimization method used by fminunc, and I am setting out to try and build a native tensorflow op for it. If anyone has the gory C++ knowhow of tensorflow and would like to contribute, don't hesitate to get in touch.
 
-Cheers.",0,2
-18,2017-3-11,2017,3,11,12,5yqp5t,Starting tensorflow?,https://www.reddit.com/r/tensorflow/comments/5yqp5t/starting_tensorflow/,tomgie,1489203275,"Im currently 16 and im only in geometry i dont even understand the math behind this, is there any simpler way to use tensorflow and still understand on how to use its functions and stuff?",4,4
-19,2017-3-13,2017,3,13,8,5z1o7q,Tensorflow Freezing when Accessing CSV Data,https://www.reddit.com/r/tensorflow/comments/5z1o7q/tensorflow_freezing_when_accessing_csv_data/,Nightsd01,1489360793,"I am new to TensorFlow. Whenever I try to read any CSV file and call session.run() to execute and read the file, TensorFlow just freezes and doesn't do anything.
+Cheers.",0,2,False,self,,,,,
+18,tensorflow,t5_3alkk,2017-3-11,2017,3,11,12,5yqp5t,self.tensorflow,Starting tensorflow?,https://www.reddit.com/r/tensorflow/comments/5yqp5t/starting_tensorflow/,tomgie,1489203275,"Im currently 16 and im only in geometry i dont even understand the math behind this, is there any simpler way to use tensorflow and still understand on how to use its functions and stuff?",4,4,False,self,,,,,
+19,tensorflow,t5_3alkk,2017-3-13,2017,3,13,8,5z1o7q,self.tensorflow,Tensorflow Freezing when Accessing CSV Data,https://www.reddit.com/r/tensorflow/comments/5z1o7q/tensorflow_freezing_when_accessing_csv_data/,Nightsd01,1489360793,"I am new to TensorFlow. Whenever I try to read any CSV file and call session.run() to execute and read the file, TensorFlow just freezes and doesn't do anything.
 
 It basically just stops the moment it hits the session.read() line, but doesn't crash or anything. Been fighting with this for days, it happens with every CSV I've tried. Here is my code:
 
@@ -235,12 +235,12 @@ EDIT: When I use a session with log_device_placement=True, this is the output I 
     ToFloat_1/x: (Const): /job:localhost/replica:0/task:0/gpu:0
     I tensorflow/core/common_runtime/simple_placer.cc:841] ToFloat_1/x: (Const)/job:localhost/replica:0/task:0/gpu:0
     ToFloat/x: (Const): /job:localhost/replica:0/task:0/gpu:0
-    I tensorflow/core/common_runtime/simple_placer.cc:841] ToFloat/x: (Const)/job:localhost/replica:0/task:0/gpu:0",5,2
-20,2017-3-14,2017,3,14,1,5z5zrt,Bare bottom simplest example of machine learning in TensorFlow,https://www.reddit.com/r/tensorflow/comments/5z5zrt/bare_bottom_simplest_example_of_machine_learning/,jostmey,1489422745,,0,6
-21,2017-3-14,2017,3,14,15,5zaokf,Does anyone know of an implementation of splines?,https://www.reddit.com/r/tensorflow/comments/5zaokf/does_anyone_know_of_an_implementation_of_splines/,fuckinghelldad,1489474669,"I'm trying to do regression and want to use linear interpolating splines.
+    I tensorflow/core/common_runtime/simple_placer.cc:841] ToFloat/x: (Const)/job:localhost/replica:0/task:0/gpu:0",5,2,False,self,,,,,
+20,tensorflow,t5_3alkk,2017-3-14,2017,3,14,1,5z5zrt,github.com,Bare bottom simplest example of machine learning in TensorFlow,https://www.reddit.com/r/tensorflow/comments/5z5zrt/bare_bottom_simplest_example_of_machine_learning/,jostmey,1489422745,,0,6,False,default,,,,,
+21,tensorflow,t5_3alkk,2017-3-14,2017,3,14,15,5zaokf,self.tensorflow,Does anyone know of an implementation of splines?,https://www.reddit.com/r/tensorflow/comments/5zaokf/does_anyone_know_of_an_implementation_of_splines/,fuckinghelldad,1489474669,"I'm trying to do regression and want to use linear interpolating splines.
 
-Failing an implementation, can anyone outline how I can code it up myself? The idiomatic way seems to be to use some basis functions and take a weighted sum of those. Though most the weights in this sum would be zero, so this seems inefficient to me, though I'm very new to TF.",3,1
-22,2017-3-15,2017,3,15,18,5zias8,[Beginner] How to read output from net?,https://www.reddit.com/r/tensorflow/comments/5zias8/beginner_how_to_read_output_from_net/,cestlefeu,1489568701,"Hi, 
+Failing an implementation, can anyone outline how I can code it up myself? The idiomatic way seems to be to use some basis functions and take a weighted sum of those. Though most the weights in this sum would be zero, so this seems inefficient to me, though I'm very new to TF.",3,1,False,self,,,,,
+22,tensorflow,t5_3alkk,2017-3-15,2017,3,15,18,5zias8,self.tensorflow,[Beginner] How to read output from net?,https://www.reddit.com/r/tensorflow/comments/5zias8/beginner_how_to_read_output_from_net/,cestlefeu,1489568701,"Hi, 
 I made an AutoEncoder based on the tensorflow example (I leave you the code below). My problem is that when I try to read the output of my network after several trainings, the results are always the same, even if the inputs are differents. 
 
 Can you help me ? thanks in advance
@@ -248,19 +248,19 @@ Can you help me ? thanks in advance
 http://pastebin.com/GU8wn76z
 
 EDIT : here are the results after 100 epochs, 150 batches of 20 pictures
-http://imgur.com/a/NGUWO",2,1
-23,2017-3-16,2017,3,16,3,5zl9rj,"TensorFlow and Deep Learning without a PhD (talk by Martin Gorner, from Google Cloud Next)",https://www.reddit.com/r/tensorflow/comments/5zl9rj/tensorflow_and_deep_learning_without_a_phd_talk/,happycube,1489603558,,0,15
-24,2017-3-16,2017,3,16,18,5zpp2d,[P] DyTB: don't waste your time writing boilerplate code. Let DyTB do it for you.,https://www.reddit.com/r/tensorflow/comments/5zpp2d/p_dytb_dont_waste_your_time_writing_boilerplate/,pgaleone,1489658345,,0,5
-25,2017-3-17,2017,3,17,3,5zsc5g,What does 'Moving Average' do when training a neural network?,https://www.reddit.com/r/tensorflow/comments/5zsc5g/what_does_moving_average_do_when_training_a/,gchaoxue,1489688888,"I am reading the Tensorflow CIFAR-10 code and feeling confused about some 'Moving Average' related lines in the cifar10.train method. Is there any articles about what 'Moving Average' do during the neural network training? 
-Thanks!",4,3
-26,2017-3-17,2017,3,17,6,5ztdhe,[Beginner] How to use batch_sequences_with_states in Tensorflow?,https://www.reddit.com/r/tensorflow/comments/5ztdhe/beginner_how_to_use_batch_sequences_with_states/,jiminiminimini,1489698943,"[This example](https://www.tensorflow.org/versions/master/api_docs/python/contrib.training/splitting_sequence_inputs_into_minibatches_with_state_saving) in the documentation does not work and all the other bits and pieces required to use this method are scattered around tests, examples, comments inside the repository. I have preprocessed data of different lengths. They are currently stored as a list of numpy arrays of shape `(time, features)`. How should I format this list in order to be able to use `batch_sequences_with_states` method?",0,1
-27,2017-3-18,2017,3,18,4,5zzkw8,Why does `tf.matmul` require that the matrices be of rank at least 2 in TensorFlow?,https://www.reddit.com/r/tensorflow/comments/5zzkw8/why_does_tfmatmul_require_that_the_matrices_be_of/,real_pinocchio,1489777528,,0,0
-28,2017-3-18,2017,3,18,12,6027nb,Why is it so hard to make an optimizer for TensorFlow directly by subclassing Optimizer?,https://www.reddit.com/r/tensorflow/comments/6027nb/why_is_it_so_hard_to_make_an_optimizer_for/,real_pinocchio,1489808000,,2,2
-29,2017-3-18,2017,3,18,13,602bnv,What does apply_gradients in TensorFlows optimizer do mathematically to the weights of the network?,https://www.reddit.com/r/tensorflow/comments/602bnv/what_does_apply_gradients_in_tensorflows/,real_pinocchio,1489809760,,0,1
-30,2017-3-18,2017,3,18,13,602hvn,How to create an optimizer in Tensorflow,https://www.reddit.com/r/tensorflow/comments/602hvn/how_to_create_an_optimizer_in_tensorflow/,real_pinocchio,1489812517,,2,4
-31,2017-3-18,2017,3,18,14,602kph,Can one only implement gradient descent like optimizers with the code example from processing gradients in TensorFlow?,https://www.reddit.com/r/tensorflow/comments/602kph/can_one_only_implement_gradient_descent_like/,real_pinocchio,1489813854,,0,1
-32,2017-3-19,2017,3,19,20,609p69,How can I augment MNIST data and save it as seperate dataset?,https://www.reddit.com/r/tensorflow/comments/609p69/how_can_i_augment_mnist_data_and_save_it_as/,Metalwrath22,1489924186,I've been really struggling since 2-3 days and unfortunately I haven't made any real progress. I want to augment MNIST dataset (for example I want to make them italic) and feed this augmented set to my CNN using tensorflow. I managed to extract MNIST as png images and CSV files but I really don't know what I am doing. Maybe there is a tutorial where I can learn how to do this? I spent 8 hours yesterday trying to do this so any help would be appreciated. ,6,4
-33,2017-3-20,2017,3,20,11,60e54l,Tensor Flow application in 3 axis cnc,https://www.reddit.com/r/tensorflow/comments/60e54l/tensor_flow_application_in_3_axis_cnc/,rlarge1,1489978485,"Just wondering if you guys think its possible to use tensor flow to create gcode for cnc cutting on a 3 axis cnc machine.  Is it feasible or just not practical.  G-code software is expensive and not very intuitive.  I have watched a talk about it from a large cnc software company about it but they didn't say much.  Just a thought any ideas would be helpful.  Ive attached a small layout of parameters to describe minimal usage.
+http://imgur.com/a/NGUWO",2,1,False,self,,,,,
+23,tensorflow,t5_3alkk,2017-3-16,2017,3,16,3,5zl9rj,youtube.com,"TensorFlow and Deep Learning without a PhD (talk by Martin Gorner, from Google Cloud Next)",https://www.reddit.com/r/tensorflow/comments/5zl9rj/tensorflow_and_deep_learning_without_a_phd_talk/,happycube,1489603558,,0,15,False,image,,,,,
+24,tensorflow,t5_3alkk,2017-3-16,2017,3,16,18,5zpp2d,github.com,[P] DyTB: don't waste your time writing boilerplate code. Let DyTB do it for you.,https://www.reddit.com/r/tensorflow/comments/5zpp2d/p_dytb_dont_waste_your_time_writing_boilerplate/,pgaleone,1489658345,,0,5,False,default,,,,,
+25,tensorflow,t5_3alkk,2017-3-17,2017,3,17,3,5zsc5g,self.tensorflow,What does 'Moving Average' do when training a neural network?,https://www.reddit.com/r/tensorflow/comments/5zsc5g/what_does_moving_average_do_when_training_a/,gchaoxue,1489688888,"I am reading the Tensorflow CIFAR-10 code and feeling confused about some 'Moving Average' related lines in the cifar10.train method. Is there any articles about what 'Moving Average' do during the neural network training? 
+Thanks!",4,3,False,self,,,,,
+26,tensorflow,t5_3alkk,2017-3-17,2017,3,17,6,5ztdhe,self.tensorflow,[Beginner] How to use batch_sequences_with_states in Tensorflow?,https://www.reddit.com/r/tensorflow/comments/5ztdhe/beginner_how_to_use_batch_sequences_with_states/,jiminiminimini,1489698943,"[This example](https://www.tensorflow.org/versions/master/api_docs/python/contrib.training/splitting_sequence_inputs_into_minibatches_with_state_saving) in the documentation does not work and all the other bits and pieces required to use this method are scattered around tests, examples, comments inside the repository. I have preprocessed data of different lengths. They are currently stored as a list of numpy arrays of shape `(time, features)`. How should I format this list in order to be able to use `batch_sequences_with_states` method?",0,1,False,self,,,,,
+27,tensorflow,t5_3alkk,2017-3-18,2017,3,18,4,5zzkw8,stackoverflow.com,Why does `tf.matmul` require that the matrices be of rank at least 2 in TensorFlow?,https://www.reddit.com/r/tensorflow/comments/5zzkw8/why_does_tfmatmul_require_that_the_matrices_be_of/,real_pinocchio,1489777528,,0,0,False,default,,,,,
+28,tensorflow,t5_3alkk,2017-3-18,2017,3,18,12,6027nb,quora.com,Why is it so hard to make an optimizer for TensorFlow directly by subclassing Optimizer?,https://www.reddit.com/r/tensorflow/comments/6027nb/why_is_it_so_hard_to_make_an_optimizer_for/,real_pinocchio,1489808000,,2,2,False,default,,,,,
+29,tensorflow,t5_3alkk,2017-3-18,2017,3,18,13,602bnv,quora.com,What does apply_gradients in TensorFlows optimizer do mathematically to the weights of the network?,https://www.reddit.com/r/tensorflow/comments/602bnv/what_does_apply_gradients_in_tensorflows/,real_pinocchio,1489809760,,0,1,False,default,,,,,
+30,tensorflow,t5_3alkk,2017-3-18,2017,3,18,13,602hvn,stackoverflow.com,How to create an optimizer in Tensorflow,https://www.reddit.com/r/tensorflow/comments/602hvn/how_to_create_an_optimizer_in_tensorflow/,real_pinocchio,1489812517,,2,4,False,default,,,,,
+31,tensorflow,t5_3alkk,2017-3-18,2017,3,18,14,602kph,stackoverflow.com,Can one only implement gradient descent like optimizers with the code example from processing gradients in TensorFlow?,https://www.reddit.com/r/tensorflow/comments/602kph/can_one_only_implement_gradient_descent_like/,real_pinocchio,1489813854,,0,1,False,default,,,,,
+32,tensorflow,t5_3alkk,2017-3-19,2017,3,19,20,609p69,self.tensorflow,How can I augment MNIST data and save it as seperate dataset?,https://www.reddit.com/r/tensorflow/comments/609p69/how_can_i_augment_mnist_data_and_save_it_as/,Metalwrath22,1489924186,I've been really struggling since 2-3 days and unfortunately I haven't made any real progress. I want to augment MNIST dataset (for example I want to make them italic) and feed this augmented set to my CNN using tensorflow. I managed to extract MNIST as png images and CSV files but I really don't know what I am doing. Maybe there is a tutorial where I can learn how to do this? I spent 8 hours yesterday trying to do this so any help would be appreciated. ,6,4,False,self,,,,,
+33,tensorflow,t5_3alkk,2017-3-20,2017,3,20,11,60e54l,self.tensorflow,Tensor Flow application in 3 axis cnc,https://www.reddit.com/r/tensorflow/comments/60e54l/tensor_flow_application_in_3_axis_cnc/,rlarge1,1489978485,"Just wondering if you guys think its possible to use tensor flow to create gcode for cnc cutting on a 3 axis cnc machine.  Is it feasible or just not practical.  G-code software is expensive and not very intuitive.  I have watched a talk about it from a large cnc software company about it but they didn't say much.  Just a thought any ideas would be helpful.  Ive attached a small layout of parameters to describe minimal usage.
 
 **Outline**
 
@@ -292,17 +292,17 @@ hit material not removed yet over max cut depth of current tool
 successfully complete object
 
 **best outcome:**
- shortest outcome in time",0,3
-34,2017-3-21,2017,3,21,2,60hsmm,What does Snapchat need Tensorflow for?,https://www.reddit.com/r/tensorflow/comments/60hsmm/what_does_snapchat_need_tensorflow_for/,PropertyOfMatter,1490030071,"On the Tensorflow homepage, it lists a bunch of companies that are using Tensorflow.  Snapchat is one of them.  Is there any public reason for them using it, or is has it not been disclosed yet?",5,5
-35,2017-3-21,2017,3,21,3,60i52s,Tensorflow scan temporal taps,https://www.reddit.com/r/tensorflow/comments/60i52s/tensorflow_scan_temporal_taps/,bfsd66,1490033452,,1,1
-36,2017-3-21,2017,3,21,4,60iif1,How to get current TensorFlow name scope,https://www.reddit.com/r/tensorflow/comments/60iif1/how_to_get_current_tensorflow_name_scope/,real_pinocchio,1490036936,,1,0
-37,2017-3-21,2017,3,21,4,60ilt2,What's the difference of name scope and a variable scope in tensorflow?,https://www.reddit.com/r/tensorflow/comments/60ilt2/whats_the_difference_of_name_scope_and_a_variable/,real_pinocchio,1490037822,,1,0
-38,2017-3-21,2017,3,21,4,60ionh,What is the difference between name scoping and variable scoping in TensorFlow?,https://www.reddit.com/r/tensorflow/comments/60ionh/what_is_the_difference_between_name_scoping_and/,real_pinocchio,1490038592,,0,1
-39,2017-3-21,2017,3,21,21,60ndg3,Is this outputshape correct?,https://www.reddit.com/r/tensorflow/comments/60ndg3/is_this_outputshape_correct/,[deleted],1490100485,[deleted],0,1
-40,2017-3-22,2017,3,22,21,60u7p4,save and restore Tensorflow models quick tutorial,https://www.reddit.com/r/tensorflow/comments/60u7p4/save_and_restore_tensorflow_models_quick_tutorial/,sankit123,1490184714,,0,1
-41,2017-3-23,2017,3,23,11,60z80g,Is there any tutorial available for loading a checkpointed model and adding some additional layers?,https://www.reddit.com/r/tensorflow/comments/60z80g/is_there_any_tutorial_available_for_loading_a/,axadify,1490235717,,0,6
-42,2017-3-24,2017,3,24,1,612ywd,TensorFlow: Mutating variables and control flow,https://www.reddit.com/r/tensorflow/comments/612ywd/tensorflow_mutating_variables_and_control_flow/,morgangiraud,1490287221,,3,2
-43,2017-3-24,2017,3,24,5,614hbf,eclipse+pydev can't find cuda library,https://www.reddit.com/r/tensorflow/comments/614hbf/eclipsepydev_cant_find_cuda_library/,yuanzheng625,1490301471,"I am trying to debug some computer vision code (say dcgan) built on top of tensorflow. I installed the tf_0.10 in virtualenv (say, py1) and I use eclipse+pydev as the IDE. The problem is that the debugger can't find the cuda library so I get the error like the following, 
+ shortest outcome in time",0,3,False,self,,,,,
+34,tensorflow,t5_3alkk,2017-3-21,2017,3,21,2,60hsmm,self.tensorflow,What does Snapchat need Tensorflow for?,https://www.reddit.com/r/tensorflow/comments/60hsmm/what_does_snapchat_need_tensorflow_for/,PropertyOfMatter,1490030071,"On the Tensorflow homepage, it lists a bunch of companies that are using Tensorflow.  Snapchat is one of them.  Is there any public reason for them using it, or is has it not been disclosed yet?",5,5,False,self,,,,,
+35,tensorflow,t5_3alkk,2017-3-21,2017,3,21,3,60i52s,stackoverflow.com,Tensorflow scan temporal taps,https://www.reddit.com/r/tensorflow/comments/60i52s/tensorflow_scan_temporal_taps/,bfsd66,1490033452,,1,1,False,default,,,,,
+36,tensorflow,t5_3alkk,2017-3-21,2017,3,21,4,60iif1,stackoverflow.com,How to get current TensorFlow name scope,https://www.reddit.com/r/tensorflow/comments/60iif1/how_to_get_current_tensorflow_name_scope/,real_pinocchio,1490036936,,1,0,False,default,,,,,
+37,tensorflow,t5_3alkk,2017-3-21,2017,3,21,4,60ilt2,stackoverflow.com,What's the difference of name scope and a variable scope in tensorflow?,https://www.reddit.com/r/tensorflow/comments/60ilt2/whats_the_difference_of_name_scope_and_a_variable/,real_pinocchio,1490037822,,1,0,False,default,,,,,
+38,tensorflow,t5_3alkk,2017-3-21,2017,3,21,4,60ionh,quora.com,What is the difference between name scoping and variable scoping in TensorFlow?,https://www.reddit.com/r/tensorflow/comments/60ionh/what_is_the_difference_between_name_scoping_and/,real_pinocchio,1490038592,,0,1,False,default,,,,,
+39,tensorflow,t5_3alkk,2017-3-21,2017,3,21,21,60ndg3,self.tensorflow,Is this outputshape correct?,https://www.reddit.com/r/tensorflow/comments/60ndg3/is_this_outputshape_correct/,[deleted],1490100485,[deleted],0,1,False,default,,,,,
+40,tensorflow,t5_3alkk,2017-3-22,2017,3,22,21,60u7p4,cv-tricks.com,save and restore Tensorflow models quick tutorial,https://www.reddit.com/r/tensorflow/comments/60u7p4/save_and_restore_tensorflow_models_quick_tutorial/,sankit123,1490184714,,0,1,False,default,,,,,
+41,tensorflow,t5_3alkk,2017-3-23,2017,3,23,11,60z80g,self.tensorflow,Is there any tutorial available for loading a checkpointed model and adding some additional layers?,https://www.reddit.com/r/tensorflow/comments/60z80g/is_there_any_tutorial_available_for_loading_a/,axadify,1490235717,,0,6,False,self,,,,,
+42,tensorflow,t5_3alkk,2017-3-24,2017,3,24,1,612ywd,blog.metaflow.fr,TensorFlow: Mutating variables and control flow,https://www.reddit.com/r/tensorflow/comments/612ywd/tensorflow_mutating_variables_and_control_flow/,morgangiraud,1490287221,,3,2,False,default,,,,,
+43,tensorflow,t5_3alkk,2017-3-24,2017,3,24,5,614hbf,self.tensorflow,eclipse+pydev can't find cuda library,https://www.reddit.com/r/tensorflow/comments/614hbf/eclipsepydev_cant_find_cuda_library/,yuanzheng625,1490301471,"I am trying to debug some computer vision code (say dcgan) built on top of tensorflow. I installed the tf_0.10 in virtualenv (say, py1) and I use eclipse+pydev as the IDE. The problem is that the debugger can't find the cuda library so I get the error like the following, 
 
 ImportError: libcudart.so.8.0: cannot open shared object file: No such file or directory
 
@@ -326,12 +326,12 @@ Then I chose py1 and the intepreter for my computer vision code dcgan,
 
 by setting dcgan -&gt; properities -&gt; pyDev-interpreter/grammer as py1 and add &gt;external Librarie /usr/local/cuda/lib64 on pyDev-PYTHONPATH
 
-Do I miss anything else?",1,0
-44,2017-3-24,2017,3,24,8,615jpo,Is it easy to train a Deep Neural Network model from scratch using Keras?,https://www.reddit.com/r/tensorflow/comments/615jpo/is_it_easy_to_train_a_deep_neural_network_model/,brandojazz,1490312328,,0,0
-45,2017-3-24,2017,3,24,21,618m5g,Tensor Flow: Using trained model on unlabeled data,https://www.reddit.com/r/tensorflow/comments/618m5g/tensor_flow_using_trained_model_on_unlabeled_data/,wc01127,1490358338,"I've trained a tensorflow model on my training data. I have another set of data, the test data, which does not contain the y column and thus I want to use my model to predict what the y column will be. Surprisingly I've had trouble finding out how to do this, surely there is a way?",4,2
-46,2017-3-30,2017,3,30,8,62afal,No one deserves a seizure from social media. Detect seizure inducing images using Tensor Flow,https://www.reddit.com/r/tensorflow/comments/62afal/no_one_deserves_a_seizure_from_social_media/,a36,1490831146,,1,6
-47,2017-3-30,2017,3,30,22,62e2sq,MOOC for TensorFlow,https://www.reddit.com/r/tensorflow/comments/62e2sq/mooc_for_tensorflow/,skeptacus,1490882073,Is there any recent video courses for TensorFlow?,2,4
-48,2017-3-31,2017,3,31,23,62lnyk,Anomaly Detection in Data Streams?,https://www.reddit.com/r/tensorflow/comments/62lnyk/anomaly_detection_in_data_streams/,Mirakoolix,1490972251,"Hi,
+Do I miss anything else?",1,0,False,self,,,,,
+44,tensorflow,t5_3alkk,2017-3-24,2017,3,24,8,615jpo,quora.com,Is it easy to train a Deep Neural Network model from scratch using Keras?,https://www.reddit.com/r/tensorflow/comments/615jpo/is_it_easy_to_train_a_deep_neural_network_model/,brandojazz,1490312328,,0,0,False,default,,,,,
+45,tensorflow,t5_3alkk,2017-3-24,2017,3,24,21,618m5g,self.tensorflow,Tensor Flow: Using trained model on unlabeled data,https://www.reddit.com/r/tensorflow/comments/618m5g/tensor_flow_using_trained_model_on_unlabeled_data/,wc01127,1490358338,"I've trained a tensorflow model on my training data. I have another set of data, the test data, which does not contain the y column and thus I want to use my model to predict what the y column will be. Surprisingly I've had trouble finding out how to do this, surely there is a way?",4,2,False,self,,,,,
+46,tensorflow,t5_3alkk,2017-3-30,2017,3,30,8,62afal,github.com,No one deserves a seizure from social media. Detect seizure inducing images using Tensor Flow,https://www.reddit.com/r/tensorflow/comments/62afal/no_one_deserves_a_seizure_from_social_media/,a36,1490831146,,1,6,False,default,,,,,
+47,tensorflow,t5_3alkk,2017-3-30,2017,3,30,22,62e2sq,self.tensorflow,MOOC for TensorFlow,https://www.reddit.com/r/tensorflow/comments/62e2sq/mooc_for_tensorflow/,skeptacus,1490882073,Is there any recent video courses for TensorFlow?,2,4,False,self,,,,,
+48,tensorflow,t5_3alkk,2017-3-31,2017,3,31,23,62lnyk,self.tensorflow,Anomaly Detection in Data Streams?,https://www.reddit.com/r/tensorflow/comments/62lnyk/anomaly_detection_in_data_streams/,Mirakoolix,1490972251,"Hi,
 I try to implement some kind of anomaly detection in time series data streams (e.g. server monitoring) with neural networks. I am fairly new to the topic and have just gathered some basic information.
 I think Recurrent Neural Networks match best, as they are good in extracting patterns.
 Furthermore, it should be unsupervised, so I have to use an autoencoder like a Restricted Boltzmann Machine.
@@ -339,4 +339,4 @@ Furthermore, it should be unsupervised, so I have to use an autoencoder like a R
 This is my idea so far, what I can't figure out is the concept of how to let the NN learn continuously?
 With each new incoming value from the data stream, the network should classify, if the value is an anomaly or not, but also adopt, if a new pattern occurs more and more often, this pattern should not handled as an anomaly anymore.
 
-Is this possible? Are my assumptions correct so far?",7,4
+Is this possible? Are my assumptions correct so far?",7,4,False,self,,,,,

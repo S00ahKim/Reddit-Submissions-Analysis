@@ -1,9 +1,9 @@
-,date,year,month,day,hour,id,title,author,created,selftext,num_comments,score
-0,2012-2-22,2012,2,22,23,q0xnn,TestLink A,[deleted],1329921893,,3,1
-1,2012-2-22,2012,2,22,23,q0xpf,OMAIGOSH,[deleted],1329921968,,0,1
-2,2012-2-23,2012,2,23,0,q0ydd,I CAN'T HOLD THESE CUTENESS OMAI!,[deleted],1329922990,,0,0
-3,2012-2-23,2012,2,23,9,q1rdn,AKU!,[deleted],1329958634,,0,1
-4,2012-2-24,2012,2,24,1,q2med,Nude photos of famous Korean artist IU leaked,[deleted],1330013512,,0,0
-5,2012-2-24,2012,2,24,1,q2mln,Have fun trying to figure out how to fix this,[deleted],1330013780,,1,2
-6,2012-2-25,2012,2,25,11,q4zkf,lookatme! random topic!,[deleted],1330138472,,1,2
-7,2012-2-26,2012,2,26,14,q6e9q,"AIYU... yes, right AIIIIYUUUUU!!!!!!!!!!!!!!!!!",[deleted],1330234590,,0,2
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,aiyu,t5_2ti81,2012-2-22,2012,2,22,23,q0xnn,hellokpop.com,TestLink A,https://www.reddit.com/r/aiyu/comments/q0xnn/testlink_a/,[deleted],1329921893,,3,1,True,nsfw,,,,,
+1,aiyu,t5_2ti81,2012-2-22,2012,2,22,23,q0xpf,self.aiyu,OMAIGOSH,https://www.reddit.com/r/aiyu/comments/q0xpf/omaigosh/,[deleted],1329921968,,0,1,False,default,,,,,
+2,aiyu,t5_2ti81,2012-2-23,2012,2,23,0,q0ydd,iustudio.net,I CAN'T HOLD THESE CUTENESS OMAI!,https://www.reddit.com/r/aiyu/comments/q0ydd/i_cant_hold_these_cuteness_omai/,[deleted],1329922990,,0,0,True,nsfw,,,,,
+3,aiyu,t5_2ti81,2012-2-23,2012,2,23,9,q1rdn,attentionwhores.org,AKU!,https://www.reddit.com/r/aiyu/comments/q1rdn/aku/,[deleted],1329958634,,0,1,False,default,,,,,
+4,aiyu,t5_2ti81,2012-2-24,2012,2,24,1,q2med,self.aiyu,Nude photos of famous Korean artist IU leaked,https://www.reddit.com/r/aiyu/comments/q2med/nude_photos_of_famous_korean_artist_iu_leaked/,[deleted],1330013512,,0,0,True,nsfw,,,,,
+5,aiyu,t5_2ti81,2012-2-24,2012,2,24,1,q2mln,reddit.com,Have fun trying to figure out how to fix this,https://www.reddit.com/r/aiyu/comments/q2mln/have_fun_trying_to_figure_out_how_to_fix_this/,[deleted],1330013780,,1,2,False,default,,,,,
+6,aiyu,t5_2ti81,2012-2-25,2012,2,25,11,q4zkf,youtube.com,lookatme! random topic!,https://www.reddit.com/r/aiyu/comments/q4zkf/lookatme_random_topic/,[deleted],1330138472,,1,2,False,default,,,,,
+7,aiyu,t5_2ti81,2012-2-26,2012,2,26,14,q6e9q,self.aiyu,"AIYU... yes, right AIIIIYUUUUU!!!!!!!!!!!!!!!!!",https://www.reddit.com/r/aiyu/comments/q6e9q/aiyu_yes_right_aiiiiyuuuuu/,[deleted],1330234590,,0,2,False,default,,,,,

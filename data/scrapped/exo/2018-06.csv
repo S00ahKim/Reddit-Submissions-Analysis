@@ -1,12 +1,12 @@
-,date,year,month,day,hour,id,title,author,created,selftext,num_comments,score
-0,2018-6-1,2018,6,1,11,8nof0h,180601 Tao is now joining the KFC Family as the spokesperson for KFC KCOFFEE,mochismyeon,1527820923,,1,8
-1,2018-6-1,2018,6,1,13,8np75v,Lay is the new spokesperson for Biotherm Homme,ladidalia,1527828357,,1,24
-2,2018-6-1,2018,6,1,18,8nqik2,'Loving gaze' between Exo's Sehun and Emma Stone,Dalkong,1527844614,,1,4
-3,2018-6-1,2018,6,1,20,8nratm,EXOs Kai Is the Star of Guccis Stunning Resort Show,sweetliesxo,1527854230,,2,40
-4,2018-6-1,2018,6,1,23,8nsa9n,ICYMI: Sehun @ Louis Vuitton 2018 Cruise Collection Show,99101004,1527863345,,0,17
-5,2018-6-1,2018,6,1,23,8nsadf,ICYMI: Kai @ Gucci 2018 Cruise Collection Show,99101004,1527863371,,0,17
-6,2018-6-1,2018,6,1,23,8nsf8i,180526-180601 ICYMI: EXO Weekly News &amp; Updates,99101004,1527864643,,0,10
-7,2018-6-2,2018,6,2,3,8nufp8,180602 Baekhyun Twitter Updates; Links and Translations in Post,Xaille,1527879105,"* \[Post 1\]\([https://twitter.com/B\_hundred\_Hyun/status/1002592172770615296](https://twitter.com/B_hundred_Hyun/status/1002592172770615296)\) \- ""Can I just... Write like this""
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,exo,t5_2tvxy,2018-6-1,2018,6,1,11,8nof0h,twitter.com,180601 Tao is now joining the KFC Family as the spokesperson for KFC KCOFFEE,https://www.reddit.com/r/exo/comments/8nof0h/180601_tao_is_now_joining_the_kfc_family_as_the/,mochismyeon,1527820923,,1,8,False,default,,,,,
+1,exo,t5_2tvxy,2018-6-1,2018,6,1,13,8np75v,twitter.com,Lay is the new spokesperson for Biotherm Homme,https://www.reddit.com/r/exo/comments/8np75v/lay_is_the_new_spokesperson_for_biotherm_homme/,ladidalia,1527828357,,1,24,False,default,,,,,
+2,exo,t5_2tvxy,2018-6-1,2018,6,1,18,8nqik2,koreatimes.co.kr,'Loving gaze' between Exo's Sehun and Emma Stone,https://www.reddit.com/r/exo/comments/8nqik2/loving_gaze_between_exos_sehun_and_emma_stone/,Dalkong,1527844614,,1,4,False,https://b.thumbs.redditmedia.com/rwPycRGYytZtCej62IlG7otVJe4RcDzntIUH4aDbAtk.jpg,,,,,
+3,exo,t5_2tvxy,2018-6-1,2018,6,1,20,8nratm,vogue.com,EXOs Kai Is the Star of Guccis Stunning Resort Show,https://www.reddit.com/r/exo/comments/8nratm/exos_kai_is_the_star_of_guccis_stunning_resort/,sweetliesxo,1527854230,,2,40,False,default,,,,,
+4,exo,t5_2tvxy,2018-6-1,2018,6,1,23,8nsa9n,twitter.com,ICYMI: Sehun @ Louis Vuitton 2018 Cruise Collection Show,https://www.reddit.com/r/exo/comments/8nsa9n/icymi_sehun_louis_vuitton_2018_cruise_collection/,99101004,1527863345,,0,17,False,default,,,,,
+5,exo,t5_2tvxy,2018-6-1,2018,6,1,23,8nsadf,twitter.com,ICYMI: Kai @ Gucci 2018 Cruise Collection Show,https://www.reddit.com/r/exo/comments/8nsadf/icymi_kai_gucci_2018_cruise_collection_show/,99101004,1527863371,,0,17,False,default,,,,,
+6,exo,t5_2tvxy,2018-6-1,2018,6,1,23,8nsf8i,twitter.com,180526-180601 ICYMI: EXO Weekly News &amp; Updates,https://www.reddit.com/r/exo/comments/8nsf8i/180526180601_icymi_exo_weekly_news_updates/,99101004,1527864643,,0,10,False,default,,,,,
+7,exo,t5_2tvxy,2018-6-2,2018,6,2,3,8nufp8,self.exo,180602 Baekhyun Twitter Updates; Links and Translations in Post,https://www.reddit.com/r/exo/comments/8nufp8/180602_baekhyun_twitter_updates_links_and/,Xaille,1527879105,"* \[Post 1\]\([https://twitter.com/B\_hundred\_Hyun/status/1002592172770615296](https://twitter.com/B_hundred_Hyun/status/1002592172770615296)\) \- ""Can I just... Write like this""
 * \[Post 2\]\([https://twitter.com/B\_hundred\_Hyun/status/1002592210246778881](https://twitter.com/B_hundred_Hyun/status/1002592210246778881)\) \- ""Hello?!""
 * \[Post 3\]\([https://twitter.com/B\_hundred\_Hyun/status/1002592370859245568](https://twitter.com/B_hundred_Hyun/status/1002592370859245568)\) \- ""I roughly get it now!""
 * \[Post 4\]\([https://twitter.com/B\_hundred\_Hyun/status/1002592524303679489](https://twitter.com/B_hundred_Hyun/status/1002592524303679489)\) \- ""My ID was strange at first Baekhyu23843418 it was this, is it still like this?""
@@ -18,31 +18,31 @@
 * \[Post 10\]\([https://twitter.com/B\_hundred\_Hyun/status/1002595593775038466](https://twitter.com/B_hundred_Hyun/status/1002595593775038466)\) \- ""See you in a bit!!""
 * \[Post 11\]\([https://twitter.com/B\_hundred\_Hyun/status/1002599133381709824](https://twitter.com/B_hundred_Hyun/status/1002599133381709824)\) \- ""Hi! I left and came back""
 * \[Post 12\]\([https://twitter.com/B\_hundred\_Hyun/status/1002603327996096512](https://twitter.com/B_hundred_Hyun/status/1002603327996096512)\) \- ""I need to try to sleep early for tomorrow! Good night!\^\^ [](https://emojipedia.org/hugging-face/) Todays Twitter making was a success!""
-* \[Post 13\]\([https://twitter.com/B\_hundred\_Hyun/status/1002609388534657024](https://twitter.com/B_hundred_Hyun/status/1002609388534657024)\) \- """,4,27
-8,2018-6-2,2018,6,2,8,8nwgrd,180530 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP8,99101004,1527895709,,0,17
-9,2018-6-3,2018,6,3,1,8o1jaw,"180603 Sehun Instagram Update ""6.2 vivi happybirthdayyyyyyy""",Xaille,1527955387,,1,32
-10,2018-6-3,2018,6,3,13,8o6c9q,"180602 Luhan Instagram Update ""with @gneville2 and #ryangiggs  so excited """,mochismyeon,1528001377,,0,7
-11,2018-6-3,2018,6,3,14,8o6lra,180603 Baekhyun Twitter Updates; Links and Translations in Post,Xaille,1528004714,"* [Post 1](https://twitter.com/B_hundred_Hyun/status/1003115049538412545) \- ""Did you all sleep well? hehe""
+* \[Post 13\]\([https://twitter.com/B\_hundred\_Hyun/status/1002609388534657024](https://twitter.com/B_hundred_Hyun/status/1002609388534657024)\) \- """,4,27,False,self,,,,,
+8,exo,t5_2tvxy,2018-6-2,2018,6,2,8,8nwgrd,dailymotion.com,180530 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP8,https://www.reddit.com/r/exo/comments/8nwgrd/180530_exocbx_travel_the_world_on_exos_ladder/,99101004,1527895709,,0,17,False,default,,,,,
+9,exo,t5_2tvxy,2018-6-3,2018,6,3,1,8o1jaw,instagram.com,"180603 Sehun Instagram Update ""6.2 vivi happybirthdayyyyyyy""",https://www.reddit.com/r/exo/comments/8o1jaw/180603_sehun_instagram_update_62_vivi/,Xaille,1527955387,,1,32,False,default,,,,,
+10,exo,t5_2tvxy,2018-6-3,2018,6,3,13,8o6c9q,instagram.com,"180602 Luhan Instagram Update ""with @gneville2 and #ryangiggs  so excited """,https://www.reddit.com/r/exo/comments/8o6c9q/180602_luhan_instagram_update_with_gneville2_and/,mochismyeon,1528001377,,0,7,False,default,,,,,
+11,exo,t5_2tvxy,2018-6-3,2018,6,3,14,8o6lra,self.exo,180603 Baekhyun Twitter Updates; Links and Translations in Post,https://www.reddit.com/r/exo/comments/8o6lra/180603_baekhyun_twitter_updates_links_and/,Xaille,1528004714,"* [Post 1](https://twitter.com/B_hundred_Hyun/status/1003115049538412545) \- ""Did you all sleep well? hehe""
 * [Post 2](https://twitter.com/B_hundred_Hyun/status/1003115672048549889) \- "" I've been cherishing \[good food\] too much.. nutella... has returned.. I'm sad""
 * [Post 3](https://twitter.com/B_hundred_Hyun/status/1003116024214876160) \- ""Aw it's sad that you couldn't come! still the people who came to the Hong Kong concert yesterday... they enjoyed it a lot!\^\^ come next time! hehe""
 * [Post 4](https://twitter.com/B_hundred_Hyun/status/1003116150035656705) \- ""Our voices will come out on the album a lot.. you said stress!!! no it's not!"" \[original comment is deleted\]
 * [Post 5](https://twitter.com/B_hundred_Hyun/status/1003116191848648704) \- ""Now i just need to eat..."" \[repeated original comment\]
 * [Post 6](https://twitter.com/B_hundred_Hyun/status/1003116289747894272)
-* [Post 7](https://twitter.com/B_hundred_Hyun/status/1003116458556026880) \- ""Good morning! hehe why did you wake up early?""",0,19
-12,2018-6-4,2018,6,4,3,8oadtu,"180604 Baekhyun Twitter Update ""Finished boarding the flight! Goodnight everyone!""",Xaille,1528049092,,0,36
-13,2018-6-4,2018,6,4,4,8ob2ll,180602 Chanyeol - Salty Tour EP 26,ladidalia,1528054779,,1,16
-14,2018-6-4,2018,6,4,11,8odohq,EXO Planet #4: The Elyxion [dot] Encore Concerts will be held July 13-15th @ The Gocheok Sky Dome,Xaille,1528077899,,7,29
-15,2018-6-4,2018,6,4,13,8oeeg7,EXO comeback logo?,lalisaseulgi,1528084893,,2,2
-16,2018-6-5,2018,6,5,1,8ois0c,180604 Kris Social Media Updates; Links in Post,mochismyeon,1528130695,"* 1- INSTAGRAM: ["" Tian Di *Asia First""](https://www.instagram.com/p/BjmU1PBBAre/)
+* [Post 7](https://twitter.com/B_hundred_Hyun/status/1003116458556026880) \- ""Good morning! hehe why did you wake up early?""",0,19,False,self,,,,,
+12,exo,t5_2tvxy,2018-6-4,2018,6,4,3,8oadtu,twitter.com,"180604 Baekhyun Twitter Update ""Finished boarding the flight! Goodnight everyone!""",https://www.reddit.com/r/exo/comments/8oadtu/180604_baekhyun_twitter_update_finished_boarding/,Xaille,1528049092,,0,36,False,default,,,,,
+13,exo,t5_2tvxy,2018-6-4,2018,6,4,4,8ob2ll,kshowonline.com,180602 Chanyeol - Salty Tour EP 26,https://www.reddit.com/r/exo/comments/8ob2ll/180602_chanyeol_salty_tour_ep_26/,ladidalia,1528054779,,1,16,False,default,,,,,
+14,exo,t5_2tvxy,2018-6-4,2018,6,4,11,8odohq,twitter.com,EXO Planet #4: The Elyxion [dot] Encore Concerts will be held July 13-15th @ The Gocheok Sky Dome,https://www.reddit.com/r/exo/comments/8odohq/exo_planet_4_the_elyxion_dot_encore_concerts_will/,Xaille,1528077899,,7,29,False,default,,,,,
+15,exo,t5_2tvxy,2018-6-4,2018,6,4,13,8oeeg7,youtube.com,EXO comeback logo?,https://www.reddit.com/r/exo/comments/8oeeg7/exo_comeback_logo/,lalisaseulgi,1528084893,,2,2,False,default,,,,,
+16,exo,t5_2tvxy,2018-6-5,2018,6,5,1,8ois0c,self.exo,180604 Kris Social Media Updates; Links in Post,https://www.reddit.com/r/exo/comments/8ois0c/180604_kris_social_media_updates_links_in_post/,mochismyeon,1528130695,"* 1- INSTAGRAM: ["" Tian Di *Asia First""](https://www.instagram.com/p/BjmU1PBBAre/)
 * 2- TWITTER: ["" Tian Di  *Asia First""](https://twitter.com/KrisWu/status/1003582374913900545)
-* 3- INSTAGRAM: [""Shout out to all my ppllike it like that #billboardhot100 #LikeThat #Deserve""](https://www.instagram.com/p/BjnBGndhg0C/)",0,9
-17,2018-6-5,2018,6,5,8,8om0b0,180531 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP9,99101004,1528154893,,0,12
-18,2018-6-5,2018,6,5,8,8om0jg,180604 Kris Wu - 'Like That' MV Behind The Scenes,99101004,1528154952,,0,12
-19,2018-6-5,2018,6,5,8,8om1qb,"180604 Luhan, Jackson Wang &amp; Dance Crew - 'Kungfu' Dance Performance on Hot Blood Dance Crew EP12",99101004,1528155231,,1,18
-20,2018-6-5,2018,6,5,9,8omgiz,"Kris will release his first Chinese single ' Tian Di', on June 6 @ 12pm",99101004,1528158776,,1,6
-21,2018-6-5,2018,6,5,9,8omgzj,180604 EXO - 'Nature Republic California Aloe Sun Stick' CF Making Film,99101004,1528158894,,1,8
-22,2018-6-5,2018,6,5,9,8omhqw,180604 Lay - Harper's Bazaar 2018 June Cover story Interview Translation,99101004,1528159085,,0,15
-23,2018-6-5,2018,6,5,12,8onlkd,EXO-L Casual Convo #166,joyceberry,1528169193,"##Casual Convo
+* 3- INSTAGRAM: [""Shout out to all my ppllike it like that #billboardhot100 #LikeThat #Deserve""](https://www.instagram.com/p/BjnBGndhg0C/)",0,9,False,self,,,,,
+17,exo,t5_2tvxy,2018-6-5,2018,6,5,8,8om0b0,dailymotion.com,180531 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP9,https://www.reddit.com/r/exo/comments/8om0b0/180531_exocbx_travel_the_world_on_exos_ladder/,99101004,1528154893,,0,12,False,default,,,,,
+18,exo,t5_2tvxy,2018-6-5,2018,6,5,8,8om0jg,youtube.com,180604 Kris Wu - 'Like That' MV Behind The Scenes,https://www.reddit.com/r/exo/comments/8om0jg/180604_kris_wu_like_that_mv_behind_the_scenes/,99101004,1528154952,,0,12,False,https://a.thumbs.redditmedia.com/y6BkzZRXwi1rQwJ0yplv5TWFfUGB6RUBaIjcLyVNQj4.jpg,,,,,
+19,exo,t5_2tvxy,2018-6-5,2018,6,5,8,8om1qb,youtu.be,"180604 Luhan, Jackson Wang &amp; Dance Crew - 'Kungfu' Dance Performance on Hot Blood Dance Crew EP12",https://www.reddit.com/r/exo/comments/8om1qb/180604_luhan_jackson_wang_dance_crew_kungfu_dance/,99101004,1528155231,,1,18,False,default,,,,,
+20,exo,t5_2tvxy,2018-6-5,2018,6,5,9,8omgiz,twitter.com,"Kris will release his first Chinese single ' Tian Di', on June 6 @ 12pm",https://www.reddit.com/r/exo/comments/8omgiz/kris_will_release_his_first_chinese_single_/,99101004,1528158776,,1,6,False,default,,,,,
+21,exo,t5_2tvxy,2018-6-5,2018,6,5,9,8omgzj,youtu.be,180604 EXO - 'Nature Republic California Aloe Sun Stick' CF Making Film,https://www.reddit.com/r/exo/comments/8omgzj/180604_exo_nature_republic_california_aloe_sun/,99101004,1528158894,,1,8,False,https://b.thumbs.redditmedia.com/_8VKAGWVMGG_JWYr0P9RzKbsCFm2xTjlrVik7ss_AsU.jpg,,,,,
+22,exo,t5_2tvxy,2018-6-5,2018,6,5,9,8omhqw,twitter.com,180604 Lay - Harper's Bazaar 2018 June Cover story Interview Translation,https://www.reddit.com/r/exo/comments/8omhqw/180604_lay_harpers_bazaar_2018_june_cover_story/,99101004,1528159085,,0,15,False,default,,,,,
+23,exo,t5_2tvxy,2018-6-5,2018,6,5,12,8onlkd,self.exo,EXO-L Casual Convo #166,https://www.reddit.com/r/exo/comments/8onlkd/exol_casual_convo_166/,joyceberry,1528169193,"##Casual Convo
 
 Hello everyone! Joyce here, and welcome to r/EXOs CC #166! 
 
@@ -57,37 +57,37 @@ Thank you for reading,
 ## [EXO-L LET'S LOVE!](https://78.media.tumblr.com/7ff3f8f3d89d007101cf2b6df5d2193d/tumblr_nib60dHrIE1qciai7o1_500.gif)
 
 [**Casual Convo Masterlist**](https://www.reddit.com/r/exo/wiki/weekly-threads#wiki_casual_convo_sundays) 
-",6,4
-24,2018-6-5,2018,6,5,22,8oqvz2,180605 Kai Instagram Update; Links in Post,mochismyeon,1528206115,"* 1: [""gucci""](https://www.instagram.com/p/BjobeTWlkij/?taken-by=zkdlin)
-* 2: [x](https://www.instagram.com/p/BjpBRRcFeWY/?taken-by=zkdlin)",6,24
-25,2018-6-5,2018,6,5,22,8oqyll,"180605 Suho EXO-L Fansite Update ""1 day 1 Suho""",mochismyeon,1528206720,,1,9
-26,2018-6-6,2018,6,6,1,8os18e,180605 Lay Weibo Update; Translation in Comments,99101004,1528214844,,1,11
-27,2018-6-6,2018,6,6,1,8os2hz,180605 Luhan - KFC Chizza CF,99101004,1528215102,,1,4
-28,2018-6-6,2018,6,6,13,8oxq9m,"180606 Kris Instagram Update ""Asia, Tian Di () is out now """,Xaille,1528259336,,2,9
-29,2018-6-6,2018,6,6,23,8p0z8z,"180606 Lay Instagram Update ""Let's drop the beat, Preparing my 3rd album""",Xaille,1528294750,,3,44
-30,2018-6-6,2018,6,6,23,8p0zha,"180606 Kai Instagram Update ""#gqkorea""",Xaille,1528294802,,0,38
-31,2018-6-6,2018,6,6,23,8p1208,"180606 Tobenstagram Update ""Toben falling down on his back with his arms and legs stretched """,Xaille,1528295339,,0,16
-32,2018-6-6,2018,6,6,23,8p12oc,180606 Lay Weibo Update; Translation in Comments,Xaille,1528295484,,2,6
-33,2018-6-6,2018,6,6,23,8p13ia,"180606 Luhan Weibo Update ""Fighting  Believe in yourself ! See you in 2nd tour concert """,Xaille,1528295669,,1,4
-34,2018-6-6,2018,6,6,23,8p150b,180605 Suho - 'Student A' Making Video,Xaille,1528296004,,0,12
-35,2018-6-6,2018,6,6,23,8p16gs,"180606 Kris Weibo Update ""Wish everyone attending Gaokao (Chinese College Entrance Examination) has great grades""",Xaille,1528296316,,0,9
-36,2018-6-7,2018,6,7,11,8p6idw, EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP10,99101004,1528337166,,0,1
-37,2018-6-7,2018,6,7,11,8p6imy,180601 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP10,99101004,1528337231,,2,15
-38,2018-6-7,2018,6,7,11,8p6nc7,180526 Tao - Produce 101 China Episode 6,carinabon,1528338405,,1,8
-39,2018-6-8,2018,6,8,1,8pbmeb,180607 ICYMI: EXO-CBX Magical Circus Tour in Osaka Day 1,99101004,1528388266,,0,12
-40,2018-6-8,2018,6,8,1,8pbtlu,180607 Tao Instagram Update; Links in Post,mochismyeon,1528389686,"* 1: [Went out six months ago](https://www.instagram.com/p/BjuVg4VHaPQ/)
-* 2: [Favorite pair of shoes](https://www.instagram.com/p/BjudrKMn5My/)",0,6
-41,2018-6-8,2018,6,8,3,8pciwo,180604 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP11,99101004,1528394702,,1,15
-42,2018-6-8,2018,6,8,6,8pe9fq,"180608 Xiumin Twitter Update; ""'They say when you drink butterbeer its supposed to stain like this on your lips~' in UNIVERSAL STUDIOS JAPAN from. XIUMIN""",99101004,1528407480,,3,32
-43,2018-6-8,2018,6,8,7,8petq6,"Fan Video of the Week: ""KoKoBop Inspired Makeup""",wistfulove,1528412079,,4,10
-44,2018-6-8,2018,6,8,13,8ph3en,"180608 Baekhyun Twitter Update ""Now I am on the road to go eat lunch! Have a delicious lunch! Eris!""",Xaille,1528432783,,1,24
-45,2018-6-8,2018,6,8,22,8pjzk2,180608 Kris - 'Tian Di' MV Teaser,99101004,1528465544,,0,7
-46,2018-6-8,2018,6,8,22,8pk042,EXOs Monster MV has surpassed 200 Million YouTube Views,99101004,1528465679,,4,89
-47,2018-6-8,2018,6,8,23,8pk3x6,180602-08 ICYMI: EXO Weekly News &amp; Updates,99101004,1528466501,,0,5
-48,2018-6-8,2018,6,8,23,8pkk5l,"180608 ICYMI: EXO-CBX Magical Circus Tour in Osaka Day 2, Final Concert",99101004,1528469928,,0,10
-49,2018-6-9,2018,6,9,1,8plczt,180609 Kai Instagram Update,Xaille,1528475609,[https://www.instagram.com/p/BjxSqQelIdp/](https://www.instagram.com/p/BjxSqQelIdp/),1,3
-50,2018-6-9,2018,6,9,4,8pmx17,180609 Kai Instagram Update,Xaille,1528486981,,0,11
-51,2018-6-9,2018,6,9,13,8pqfpr,r/EXO Information on South Korea's new Military Enlistment Rules,99101004,1528518806,"Hi friends! The mods put together a small quick hit about what is going on and what we generally know about the new military requirements in South Korea. We will continue to update this as more information is released, feel free to discuss in the comments below or update us on other information you may have found\~
+",6,4,False,self,,,,,
+24,exo,t5_2tvxy,2018-6-5,2018,6,5,22,8oqvz2,self.exo,180605 Kai Instagram Update; Links in Post,https://www.reddit.com/r/exo/comments/8oqvz2/180605_kai_instagram_update_links_in_post/,mochismyeon,1528206115,"* 1: [""gucci""](https://www.instagram.com/p/BjobeTWlkij/?taken-by=zkdlin)
+* 2: [x](https://www.instagram.com/p/BjpBRRcFeWY/?taken-by=zkdlin)",6,24,False,self,,,,,
+25,exo,t5_2tvxy,2018-6-5,2018,6,5,22,8oqyll,exo-l.smtown.com,"180605 Suho EXO-L Fansite Update ""1 day 1 Suho""",https://www.reddit.com/r/exo/comments/8oqyll/180605_suho_exol_fansite_update_1_day_1_suho/,mochismyeon,1528206720,,1,9,False,default,,,,,
+26,exo,t5_2tvxy,2018-6-6,2018,6,6,1,8os18e,twitter.com,180605 Lay Weibo Update; Translation in Comments,https://www.reddit.com/r/exo/comments/8os18e/180605_lay_weibo_update_translation_in_comments/,99101004,1528214844,,1,11,False,default,,,,,
+27,exo,t5_2tvxy,2018-6-6,2018,6,6,1,8os2hz,youtube.com,180605 Luhan - KFC Chizza CF,https://www.reddit.com/r/exo/comments/8os2hz/180605_luhan_kfc_chizza_cf/,99101004,1528215102,,1,4,False,https://b.thumbs.redditmedia.com/KnbvxHP669S6f7tyQzlEW86oiloWSO0QJgJhMP27hdA.jpg,,,,,
+28,exo,t5_2tvxy,2018-6-6,2018,6,6,13,8oxq9m,instagram.com,"180606 Kris Instagram Update ""Asia, Tian Di () is out now """,https://www.reddit.com/r/exo/comments/8oxq9m/180606_kris_instagram_update_asia_tian_di__is/,Xaille,1528259336,,2,9,False,default,,,,,
+29,exo,t5_2tvxy,2018-6-6,2018,6,6,23,8p0z8z,instagram.com,"180606 Lay Instagram Update ""Let's drop the beat, Preparing my 3rd album""",https://www.reddit.com/r/exo/comments/8p0z8z/180606_lay_instagram_update_lets_drop_the_beat/,Xaille,1528294750,,3,44,False,default,,,,,
+30,exo,t5_2tvxy,2018-6-6,2018,6,6,23,8p0zha,instagram.com,"180606 Kai Instagram Update ""#gqkorea""",https://www.reddit.com/r/exo/comments/8p0zha/180606_kai_instagram_update_gqkorea/,Xaille,1528294802,,0,38,False,default,,,,,
+31,exo,t5_2tvxy,2018-6-6,2018,6,6,23,8p1208,instagram.com,"180606 Tobenstagram Update ""Toben falling down on his back with his arms and legs stretched """,https://www.reddit.com/r/exo/comments/8p1208/180606_tobenstagram_update_toben_falling_down_on/,Xaille,1528295339,,0,16,False,default,,,,,
+32,exo,t5_2tvxy,2018-6-6,2018,6,6,23,8p12oc,twitter.com,180606 Lay Weibo Update; Translation in Comments,https://www.reddit.com/r/exo/comments/8p12oc/180606_lay_weibo_update_translation_in_comments/,Xaille,1528295484,,2,6,False,default,,,,,
+33,exo,t5_2tvxy,2018-6-6,2018,6,6,23,8p13ia,twitter.com,"180606 Luhan Weibo Update ""Fighting  Believe in yourself ! See you in 2nd tour concert """,https://www.reddit.com/r/exo/comments/8p13ia/180606_luhan_weibo_update_fighting_believe_in/,Xaille,1528295669,,1,4,False,default,,,,,
+34,exo,t5_2tvxy,2018-6-6,2018,6,6,23,8p150b,youtube.com,180605 Suho - 'Student A' Making Video,https://www.reddit.com/r/exo/comments/8p150b/180605_suho_student_a_making_video/,Xaille,1528296004,,0,12,False,https://b.thumbs.redditmedia.com/oUAekAJg3qSicRlug3p2yPd5dgItaW80aoSfcm8MhPg.jpg,,,,,
+35,exo,t5_2tvxy,2018-6-6,2018,6,6,23,8p16gs,twitter.com,"180606 Kris Weibo Update ""Wish everyone attending Gaokao (Chinese College Entrance Examination) has great grades""",https://www.reddit.com/r/exo/comments/8p16gs/180606_kris_weibo_update_wish_everyone_attending/,Xaille,1528296316,,0,9,False,default,,,,,
+36,exo,t5_2tvxy,2018-6-7,2018,6,7,11,8p6idw,sendvid.com, EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP10,https://www.reddit.com/r/exo/comments/8p6idw/_exocbx_travel_the_world_on_exos_ladder/,99101004,1528337166,,0,1,False,default,,,,,
+37,exo,t5_2tvxy,2018-6-7,2018,6,7,11,8p6imy,sendvid.com,180601 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP10,https://www.reddit.com/r/exo/comments/8p6imy/180601_exocbx_travel_the_world_on_exos_ladder/,99101004,1528337231,,2,15,False,default,,,,,
+38,exo,t5_2tvxy,2018-6-7,2018,6,7,11,8p6nc7,youtube.com,180526 Tao - Produce 101 China Episode 6,https://www.reddit.com/r/exo/comments/8p6nc7/180526_tao_produce_101_china_episode_6/,carinabon,1528338405,,1,8,False,default,,,,,
+39,exo,t5_2tvxy,2018-6-8,2018,6,8,1,8pbmeb,twitter.com,180607 ICYMI: EXO-CBX Magical Circus Tour in Osaka Day 1,https://www.reddit.com/r/exo/comments/8pbmeb/180607_icymi_exocbx_magical_circus_tour_in_osaka/,99101004,1528388266,,0,12,False,default,,,,,
+40,exo,t5_2tvxy,2018-6-8,2018,6,8,1,8pbtlu,self.exo,180607 Tao Instagram Update; Links in Post,https://www.reddit.com/r/exo/comments/8pbtlu/180607_tao_instagram_update_links_in_post/,mochismyeon,1528389686,"* 1: [Went out six months ago](https://www.instagram.com/p/BjuVg4VHaPQ/)
+* 2: [Favorite pair of shoes](https://www.instagram.com/p/BjudrKMn5My/)",0,6,False,self,,,,,
+41,exo,t5_2tvxy,2018-6-8,2018,6,8,3,8pciwo,sendvid.com,180604 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP11,https://www.reddit.com/r/exo/comments/8pciwo/180604_exocbx_travel_the_world_on_exos_ladder/,99101004,1528394702,,1,15,False,default,,,,,
+42,exo,t5_2tvxy,2018-6-8,2018,6,8,6,8pe9fq,twitter.com,"180608 Xiumin Twitter Update; ""'They say when you drink butterbeer its supposed to stain like this on your lips~' in UNIVERSAL STUDIOS JAPAN from. XIUMIN""",https://www.reddit.com/r/exo/comments/8pe9fq/180608_xiumin_twitter_update_they_say_when_you/,99101004,1528407480,,3,32,False,default,,,,,
+43,exo,t5_2tvxy,2018-6-8,2018,6,8,7,8petq6,youtube.com,"Fan Video of the Week: ""KoKoBop Inspired Makeup""",https://www.reddit.com/r/exo/comments/8petq6/fan_video_of_the_week_kokobop_inspired_makeup/,wistfulove,1528412079,,4,10,False,https://a.thumbs.redditmedia.com/wbTSdnsUt-5YtRuQb0eo5pfC6U_BsAdW8Gwqpiy20t8.jpg,,,,,
+44,exo,t5_2tvxy,2018-6-8,2018,6,8,13,8ph3en,twitter.com,"180608 Baekhyun Twitter Update ""Now I am on the road to go eat lunch! Have a delicious lunch! Eris!""",https://www.reddit.com/r/exo/comments/8ph3en/180608_baekhyun_twitter_update_now_i_am_on_the/,Xaille,1528432783,,1,24,False,default,,,,,
+45,exo,t5_2tvxy,2018-6-8,2018,6,8,22,8pjzk2,twitter.com,180608 Kris - 'Tian Di' MV Teaser,https://www.reddit.com/r/exo/comments/8pjzk2/180608_kris_tian_di_mv_teaser/,99101004,1528465544,,0,7,False,default,,,,,
+46,exo,t5_2tvxy,2018-6-8,2018,6,8,22,8pk042,instagram.com,EXOs Monster MV has surpassed 200 Million YouTube Views,https://www.reddit.com/r/exo/comments/8pk042/exos_monster_mv_has_surpassed_200_million_youtube/,99101004,1528465679,,4,89,False,default,,,,,
+47,exo,t5_2tvxy,2018-6-8,2018,6,8,23,8pk3x6,twitter.com,180602-08 ICYMI: EXO Weekly News &amp; Updates,https://www.reddit.com/r/exo/comments/8pk3x6/18060208_icymi_exo_weekly_news_updates/,99101004,1528466501,,0,5,False,default,,,,,
+48,exo,t5_2tvxy,2018-6-8,2018,6,8,23,8pkk5l,twitter.com,"180608 ICYMI: EXO-CBX Magical Circus Tour in Osaka Day 2, Final Concert",https://www.reddit.com/r/exo/comments/8pkk5l/180608_icymi_exocbx_magical_circus_tour_in_osaka/,99101004,1528469928,,0,10,False,default,,,,,
+49,exo,t5_2tvxy,2018-6-9,2018,6,9,1,8plczt,self.exo,180609 Kai Instagram Update,https://www.reddit.com/r/exo/comments/8plczt/180609_kai_instagram_update/,Xaille,1528475609,[https://www.instagram.com/p/BjxSqQelIdp/](https://www.instagram.com/p/BjxSqQelIdp/),1,3,False,self,,,,,
+50,exo,t5_2tvxy,2018-6-9,2018,6,9,4,8pmx17,instagram.com,180609 Kai Instagram Update,https://www.reddit.com/r/exo/comments/8pmx17/180609_kai_instagram_update/,Xaille,1528486981,,0,11,False,default,,,,,
+51,exo,t5_2tvxy,2018-6-9,2018,6,9,13,8pqfpr,self.exo,r/EXO Information on South Korea's new Military Enlistment Rules,https://www.reddit.com/r/exo/comments/8pqfpr/rexo_information_on_south_koreas_new_military/,99101004,1528518806,"Hi friends! The mods put together a small quick hit about what is going on and what we generally know about the new military requirements in South Korea. We will continue to update this as more information is released, feel free to discuss in the comments below or update us on other information you may have found\~
 
 # NEW ENLISTMENT RULES IN KOREA
 
@@ -103,35 +103,35 @@ Males in Korea ages 18\-35 are required to enlist for about 2 years in the milit
 
 **WHAT ABOUT LAY?** Lay will not be affected by any of this since he is EXOs only Chinese member and is not required to complete military service.
 
-**FOR NOW....** These new regulations have already been put into effect on the 29th of May of this year (2018). As always we will not tolerate any hate towards former or current members. We will not allow any false or malicious rumours to spread, so please refrain from posting fake rumours until SM officially releases a statement regarding their idols and enlistment dates.",24,49
-52,2018-6-10,2018,6,10,2,8puf12,180602 Tao - Produce 101 China EP 7,ladidalia,1528565808,,1,7
-53,2018-6-10,2018,6,10,3,8pum0r,180609 TVXQ Instagram Updates with Xiumin; More Links in Comments,99101004,1528567447,,1,12
-54,2018-6-10,2018,6,10,4,8pvcwi,"180609 EXO Instagram Video Update from Suho ""[: #KIMJUNMYEON #SUHO] Our #EXO maknae Sehunie's class!!  I love you Sehun-ah!!!!!  @oohsehun #EXO""",99101004,1528573648,,2,44
-55,2018-6-10,2018,6,10,4,8pvddk,Smart China has named Kris Wu as their GLOBAL brand ambassador,99101004,1528573768,,0,10
-56,2018-6-10,2018,6,10,4,8pvdzj,180605 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP12,99101004,1528573914,,1,15
-57,2018-6-11,2018,6,11,0,8q1f5r,"180610 Luhan Studio Update ""This summer, the most hot-blood thing is watching football matches with Boss Lu together! Are you ready to share the World Cup feast with football Lu?""",Xaille,1528643644,,0,10
-58,2018-6-11,2018,6,11,0,8q1fx8,"180610 Lay Studio Weibo Update ""Companionship is a form of protection, and it is also a silent concern and love. The gentle Zhang Yixing is online, let's see it together""",Xaille,1528643825,,0,1
-59,2018-6-11,2018,6,11,0,8q1gj9,180610 Lay Studio Weibo Updates; Links in Post,Xaille,1528644004,"* [Post 1](https://twitter.com/XingPark/status/1005720941261815808)
-* [Post 2](https://twitter.com/XingPark/status/1005802827086684160)",0,12
-60,2018-6-11,2018,6,11,4,8q3djz,180606 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 13,99101004,1528660523,,1,17
-61,2018-6-11,2018,6,11,7,8q4o20,180609 Baekhyun Instagram Update; Translation in Comments,Xaille,1528671525,,0,1
-62,2018-6-11,2018,6,11,8,8q4ovs,180609 Baekhyun Instagram and Twitter Update; Translation in Comments,Xaille,1528671724,,1,12
-63,2018-6-11,2018,6,11,11,8q66bp,"180611 Chanyeol Instagram Update ""I will support the construction of Korea's first Lou Gehrig's hospital #icebucketchallenge""",Xaille,1528685960,,1,61
-64,2018-6-11,2018,6,11,13,8q6slq,loey meaning in number format [exo chanyeol],syrioa,1528692069,"hey so my friend julia is a really big exo fan and she bet me $100 that I couldnt figure out the password to her phone. She gave me the following hints;
+**FOR NOW....** These new regulations have already been put into effect on the 29th of May of this year (2018). As always we will not tolerate any hate towards former or current members. We will not allow any false or malicious rumours to spread, so please refrain from posting fake rumours until SM officially releases a statement regarding their idols and enlistment dates.",24,49,False,self,,,,,
+52,exo,t5_2tvxy,2018-6-10,2018,6,10,2,8puf12,youtube.com,180602 Tao - Produce 101 China EP 7,https://www.reddit.com/r/exo/comments/8puf12/180602_tao_produce_101_china_ep_7/,ladidalia,1528565808,,1,7,False,default,,,,,
+53,exo,t5_2tvxy,2018-6-10,2018,6,10,3,8pum0r,instagram.com,180609 TVXQ Instagram Updates with Xiumin; More Links in Comments,https://www.reddit.com/r/exo/comments/8pum0r/180609_tvxq_instagram_updates_with_xiumin_more/,99101004,1528567447,,1,12,False,default,,,,,
+54,exo,t5_2tvxy,2018-6-10,2018,6,10,4,8pvcwi,instagram.com,"180609 EXO Instagram Video Update from Suho ""[: #KIMJUNMYEON #SUHO] Our #EXO maknae Sehunie's class!!  I love you Sehun-ah!!!!!  @oohsehun #EXO""",https://www.reddit.com/r/exo/comments/8pvcwi/180609_exo_instagram_video_update_from_suho/,99101004,1528573648,,2,44,False,default,,,,,
+55,exo,t5_2tvxy,2018-6-10,2018,6,10,4,8pvddk,twitter.com,Smart China has named Kris Wu as their GLOBAL brand ambassador,https://www.reddit.com/r/exo/comments/8pvddk/smart_china_has_named_kris_wu_as_their_global/,99101004,1528573768,,0,10,False,default,,,,,
+56,exo,t5_2tvxy,2018-6-10,2018,6,10,4,8pvdzj,sendvid.com,180605 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP12,https://www.reddit.com/r/exo/comments/8pvdzj/180605_exocbx_travel_the_world_on_exos_ladder/,99101004,1528573914,,1,15,False,default,,,,,
+57,exo,t5_2tvxy,2018-6-11,2018,6,11,0,8q1f5r,twitter.com,"180610 Luhan Studio Update ""This summer, the most hot-blood thing is watching football matches with Boss Lu together! Are you ready to share the World Cup feast with football Lu?""",https://www.reddit.com/r/exo/comments/8q1f5r/180610_luhan_studio_update_this_summer_the_most/,Xaille,1528643644,,0,10,False,default,,,,,
+58,exo,t5_2tvxy,2018-6-11,2018,6,11,0,8q1fx8,twitter.com,"180610 Lay Studio Weibo Update ""Companionship is a form of protection, and it is also a silent concern and love. The gentle Zhang Yixing is online, let's see it together""",https://www.reddit.com/r/exo/comments/8q1fx8/180610_lay_studio_weibo_update_companionship_is_a/,Xaille,1528643825,,0,1,False,default,,,,,
+59,exo,t5_2tvxy,2018-6-11,2018,6,11,0,8q1gj9,self.exo,180610 Lay Studio Weibo Updates; Links in Post,https://www.reddit.com/r/exo/comments/8q1gj9/180610_lay_studio_weibo_updates_links_in_post/,Xaille,1528644004,"* [Post 1](https://twitter.com/XingPark/status/1005720941261815808)
+* [Post 2](https://twitter.com/XingPark/status/1005802827086684160)",0,12,False,self,,,,,
+60,exo,t5_2tvxy,2018-6-11,2018,6,11,4,8q3djz,dailymotion.com,180606 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 13,https://www.reddit.com/r/exo/comments/8q3djz/180606_exocbx_travel_the_world_on_exos_ladder/,99101004,1528660523,,1,17,False,default,,,,,
+61,exo,t5_2tvxy,2018-6-11,2018,6,11,7,8q4o20,twitter.com,180609 Baekhyun Instagram Update; Translation in Comments,https://www.reddit.com/r/exo/comments/8q4o20/180609_baekhyun_instagram_update_translation_in/,Xaille,1528671525,,0,1,False,default,,,,,
+62,exo,t5_2tvxy,2018-6-11,2018,6,11,8,8q4ovs,instagram.com,180609 Baekhyun Instagram and Twitter Update; Translation in Comments,https://www.reddit.com/r/exo/comments/8q4ovs/180609_baekhyun_instagram_and_twitter_update/,Xaille,1528671724,,1,12,False,default,,,,,
+63,exo,t5_2tvxy,2018-6-11,2018,6,11,11,8q66bp,instagram.com,"180611 Chanyeol Instagram Update ""I will support the construction of Korea's first Lou Gehrig's hospital #icebucketchallenge""",https://www.reddit.com/r/exo/comments/8q66bp/180611_chanyeol_instagram_update_i_will_support/,Xaille,1528685960,,1,61,False,https://a.thumbs.redditmedia.com/s7YM7J4crkGJfCDysyqQnr9CWwhmXxzLGmjTqF4QUv4.jpg,,,,,
+64,exo,t5_2tvxy,2018-6-11,2018,6,11,13,8q6slq,self.exo,loey meaning in number format [exo chanyeol],https://www.reddit.com/r/exo/comments/8q6slq/loey_meaning_in_number_format_exo_chanyeol/,syrioa,1528692069,"hey so my friend julia is a really big exo fan and she bet me $100 that I couldnt figure out the password to her phone. She gave me the following hints;
 
 -it has something to do with chanyeols tattoo loey
 -loey is yeol backwards, which is part of chanyeols name
 - it is 4 digits(iphonepassword)
 -also is related to exo as a whole
 
-any help would be greatly appreciated, help a person out by not losing $100 thank u!!!",6,3
-65,2018-6-12,2018,6,12,10,8qf376,180607 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 14,99101004,1528768248,,0,16
-66,2018-6-12,2018,6,12,10,8qf3q9,'Secret Queen Makers' Webdrama OST MV Feat. Appearances of Chanyeol &amp; Sehun,99101004,1528768378,,1,9
-67,2018-6-12,2018,6,12,10,8qf4nn,180611 Lay Studio Weibo Update; Translation in Post,99101004,1528768606,,0,12
-68,2018-6-12,2018,6,12,10,8qf58n,180611 Tao - '/Miss Forever' KFC CF short film,99101004,1528768759,,0,7
-69,2018-6-12,2018,6,12,11,8qf5k5,"180610 Lay Weibo Update It's been quite some time since I last came to Chengdu. I've received everyone's enthusiasm and misses, I missed all of you as well.""",99101004,1528768844,,0,36
-70,2018-6-12,2018,6,12,11,8qfdle,Kris Wu - Tian Di,99101004,1528770821,,0,10
-71,2018-6-12,2018,6,12,11,8qfis6,EXO-L Casual Convo #167,joyceberry,1528772110,"##Casual Convo
+any help would be greatly appreciated, help a person out by not losing $100 thank u!!!",6,3,False,self,,,,,
+65,exo,t5_2tvxy,2018-6-12,2018,6,12,10,8qf376,dailymotion.com,180607 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 14,https://www.reddit.com/r/exo/comments/8qf376/180607_exocbx_travel_the_world_on_exos_ladder/,99101004,1528768248,,0,16,False,default,,,,,
+66,exo,t5_2tvxy,2018-6-12,2018,6,12,10,8qf3q9,youtube.com,'Secret Queen Makers' Webdrama OST MV Feat. Appearances of Chanyeol &amp; Sehun,https://www.reddit.com/r/exo/comments/8qf3q9/secret_queen_makers_webdrama_ost_mv_feat/,99101004,1528768378,,1,9,False,default,,,,,
+67,exo,t5_2tvxy,2018-6-12,2018,6,12,10,8qf4nn,twitter.com,180611 Lay Studio Weibo Update; Translation in Post,https://www.reddit.com/r/exo/comments/8qf4nn/180611_lay_studio_weibo_update_translation_in_post/,99101004,1528768606,,0,12,False,default,,,,,
+68,exo,t5_2tvxy,2018-6-12,2018,6,12,10,8qf58n,twitter.com,180611 Tao - '/Miss Forever' KFC CF short film,https://www.reddit.com/r/exo/comments/8qf58n/180611_tao_miss_forever_kfc_cf_short_film/,99101004,1528768759,,0,7,False,default,,,,,
+69,exo,t5_2tvxy,2018-6-12,2018,6,12,11,8qf5k5,twitter.com,"180610 Lay Weibo Update It's been quite some time since I last came to Chengdu. I've received everyone's enthusiasm and misses, I missed all of you as well.""",https://www.reddit.com/r/exo/comments/8qf5k5/180610_lay_weibo_update_its_been_quite_some_time/,99101004,1528768844,,0,36,False,default,,,,,
+70,exo,t5_2tvxy,2018-6-12,2018,6,12,11,8qfdle,youtu.be,Kris Wu - Tian Di,https://www.reddit.com/r/exo/comments/8qfdle/kris_wu_tian_di/,99101004,1528770821,,0,10,False,https://b.thumbs.redditmedia.com/7FLry5PeY8G4ixNtd5jgNIucls1LXMU9_t-MmTnMekM.jpg,,,,,
+71,exo,t5_2tvxy,2018-6-12,2018,6,12,11,8qfis6,self.exo,EXO-L Casual Convo #167,https://www.reddit.com/r/exo/comments/8qfis6/exol_casual_convo_167/,joyceberry,1528772110,"##Casual Convo
 
 Hello everyone! Joyce here, and welcome to r/EXOs CC #167! 
 
@@ -154,52 +154,52 @@ Thank you for reading,
 ## [EXO-L LET'S LOVE!](https://media.giphy.com/media/3dq0dZxkPiT5e/giphy.gif)
 
 [**Casual Convo Masterlist**](https://www.reddit.com/r/exo/wiki/weekly-threads#wiki_casual_convo_sundays) 
-",0,3
-72,2018-6-12,2018,6,12,23,8qj9pe,180612 Tao - '#ZTAO x Tuborg Open music campaign',Xaille,1528812957,,0,9
-73,2018-6-12,2018,6,12,23,8qjhh6,"Luhan - 2018 New Music Project ""Re:Play"", the first single in the EP, ""Football Gang (Remix) [Feat.fabian Mazur]"", will be released on June 14",Xaille,1528814699,,0,6
-74,2018-6-12,2018,6,12,23,8qjj34,EXO to perform at the 2018 Busan One Asia Festival (BOF) Opening Concert,Xaille,1528815057,,0,35
-75,2018-6-12,2018,6,12,23,8qjjpo,180612 Tao is now the new face of Tuborg Beer,Xaille,1528815200,,0,11
-76,2018-6-13,2018,6,13,1,8qkbb2,180612 Chanyeol - Micon Interview EXO PLANET #4 - The EyXiOn in HONG KONG #1,99101004,1528820678,,0,16
-77,2018-6-13,2018,6,13,1,8qkc8e,180612 Lay - Cosmo China,99101004,1528820874,,0,17
-78,2018-6-13,2018,6,13,2,8qkwd9,"180613 Chanyeol Instagram Update ""BCN""",Xaille,1528824866,,0,10
-79,2018-6-13,2018,6,13,14,8qpw5m,"180613 Lay Instagram Update ""#1 Create. Sleep. Repeat. #motivated""",99101004,1528867265,,0,9
-80,2018-6-13,2018,6,13,14,8qpwfb,180608 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 18,99101004,1528867343,,1,1
-81,2018-6-13,2018,6,13,14,8qpzwb,180608 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 16,99101004,1528868475,,0,1
-82,2018-6-13,2018,6,13,14,8qq060,180608 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 15,99101004,1528868564,,1,27
-83,2018-6-14,2018,6,14,10,8qxyxl,180614 Chanyeol - 'Secret Queen Makers',99101004,1528940450,,1,12
-84,2018-6-14,2018,6,14,13,8qz2ot,180613 Xiumin - Micon Interview EXO PLANET #4 - The EyXiOn in HONG KONG #2,mochismyeon,1528951214,,0,12
-85,2018-6-14,2018,6,14,14,8qzatq,180614 GQ X EXO Kai (for July Issue Cover),mochismyeon,1528953754,,0,9
-86,2018-6-14,2018,6,14,14,8qzbdr,Kris will be on the cover of GQ July 2018 Issue,99101004,1528953954,,0,8
-87,2018-6-14,2018,6,14,14,8qzbkw,Luhan x Fabian Mazur - Football Gang (Remix),99101004,1528954013,,0,4
-88,2018-6-14,2018,6,14,14,8qzbux,"180614 Lay Weibo Video Update ""World Cup is starting! Let's cheer for it""",99101004,1528954104,,0,6
-89,2018-6-14,2018,6,14,14,8qzd2h,"180614 Luhan Studio Weibo Update ""The new Remix Ep [Re:Play] just released its first out of the four tracks: [Football Gang Remix] feat.Fabian Mazur. The remaining three tracks will be released soon! Guess what songs will those be?""",99101004,1528954483,,0,3
-90,2018-6-14,2018,6,14,14,8qzhnq,180613 Kris Wu - Tian Di @ at SOC Film Festival,99101004,1528955970,,0,6
-91,2018-6-14,2018,6,14,15,8qzjvc,What are your favourite EXO Choreographies?,99101004,1528956709,"I try to think about these things and than end up just getting into a big jumbled overwhelmed mess of trying to figure out what my actual favourite Choreo that they have done EVER is. I mean like, not just title tracks, but from concerts or other performances too, even CBX or Solo songs. I feel like if you immediately asked me what my favourite choreo was I would question what you meant, like do you want me to pick one that I am most impressed with... One I would show my friends who don't listen to exo? or like, the one I just all around enjoy the most? They are both very different. 
+",0,3,False,self,,,,,
+72,exo,t5_2tvxy,2018-6-12,2018,6,12,23,8qj9pe,twitter.com,180612 Tao - '#ZTAO x Tuborg Open music campaign',https://www.reddit.com/r/exo/comments/8qj9pe/180612_tao_ztao_x_tuborg_open_music_campaign/,Xaille,1528812957,,0,9,False,default,,,,,
+73,exo,t5_2tvxy,2018-6-12,2018,6,12,23,8qjhh6,twitter.com,"Luhan - 2018 New Music Project ""Re:Play"", the first single in the EP, ""Football Gang (Remix) [Feat.fabian Mazur]"", will be released on June 14",https://www.reddit.com/r/exo/comments/8qjhh6/luhan_2018_new_music_project_replay_the_first/,Xaille,1528814699,,0,6,False,default,,,,,
+74,exo,t5_2tvxy,2018-6-12,2018,6,12,23,8qjj34,twitter.com,EXO to perform at the 2018 Busan One Asia Festival (BOF) Opening Concert,https://www.reddit.com/r/exo/comments/8qjj34/exo_to_perform_at_the_2018_busan_one_asia/,Xaille,1528815057,,0,35,False,default,,,,,
+75,exo,t5_2tvxy,2018-6-12,2018,6,12,23,8qjjpo,twitter.com,180612 Tao is now the new face of Tuborg Beer,https://www.reddit.com/r/exo/comments/8qjjpo/180612_tao_is_now_the_new_face_of_tuborg_beer/,Xaille,1528815200,,0,11,False,https://b.thumbs.redditmedia.com/XHl4HzHWlPVNkEuImwC5esEPtwJ4Y2Ccses0Aa7VYPY.jpg,,,,,
+76,exo,t5_2tvxy,2018-6-13,2018,6,13,1,8qkbb2,youtube.com,180612 Chanyeol - Micon Interview EXO PLANET #4 - The EyXiOn in HONG KONG #1,https://www.reddit.com/r/exo/comments/8qkbb2/180612_chanyeol_micon_interview_exo_planet_4_the/,99101004,1528820678,,0,16,False,https://b.thumbs.redditmedia.com/sxOD_8fYR1_DPUG5XE0kVRSFHLNA1q6UGVptwrMijVU.jpg,,,,,
+77,exo,t5_2tvxy,2018-6-13,2018,6,13,1,8qkc8e,twitter.com,180612 Lay - Cosmo China,https://www.reddit.com/r/exo/comments/8qkc8e/180612_lay_cosmo_china/,99101004,1528820874,,0,17,False,default,,,,,
+78,exo,t5_2tvxy,2018-6-13,2018,6,13,2,8qkwd9,instagram.com,"180613 Chanyeol Instagram Update ""BCN""",https://www.reddit.com/r/exo/comments/8qkwd9/180613_chanyeol_instagram_update_bcn/,Xaille,1528824866,,0,10,False,default,,,,,
+79,exo,t5_2tvxy,2018-6-13,2018,6,13,14,8qpw5m,instagram.com,"180613 Lay Instagram Update ""#1 Create. Sleep. Repeat. #motivated""",https://www.reddit.com/r/exo/comments/8qpw5m/180613_lay_instagram_update_1_create_sleep_repeat/,99101004,1528867265,,0,9,False,default,,,,,
+80,exo,t5_2tvxy,2018-6-13,2018,6,13,14,8qpwfb,youtube.com,180608 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 18,https://www.reddit.com/r/exo/comments/8qpwfb/180608_exocbx_travel_the_world_on_exos_ladder/,99101004,1528867343,,1,1,False,https://b.thumbs.redditmedia.com/HP4SL-3GRAIc1Qo-bQV85JhZYPnJamZ5c_soKObsZmc.jpg,,,,,
+81,exo,t5_2tvxy,2018-6-13,2018,6,13,14,8qpzwb,youtube.com,180608 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 16,https://www.reddit.com/r/exo/comments/8qpzwb/180608_exocbx_travel_the_world_on_exos_ladder/,99101004,1528868475,,0,1,False,https://b.thumbs.redditmedia.com/HP4SL-3GRAIc1Qo-bQV85JhZYPnJamZ5c_soKObsZmc.jpg,,,,,
+82,exo,t5_2tvxy,2018-6-13,2018,6,13,14,8qq060,youtube.com,180608 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 15,https://www.reddit.com/r/exo/comments/8qq060/180608_exocbx_travel_the_world_on_exos_ladder/,99101004,1528868564,,1,27,False,https://b.thumbs.redditmedia.com/HP4SL-3GRAIc1Qo-bQV85JhZYPnJamZ5c_soKObsZmc.jpg,,,,,
+83,exo,t5_2tvxy,2018-6-14,2018,6,14,10,8qxyxl,youtube.com,180614 Chanyeol - 'Secret Queen Makers',https://www.reddit.com/r/exo/comments/8qxyxl/180614_chanyeol_secret_queen_makers/,99101004,1528940450,,1,12,False,https://b.thumbs.redditmedia.com/UxRu-SQWR3Mmriiz94WV7jgx6ZJ-Rn7Ev0w8WBY8Goo.jpg,,,,,
+84,exo,t5_2tvxy,2018-6-14,2018,6,14,13,8qz2ot,youtu.be,180613 Xiumin - Micon Interview EXO PLANET #4 - The EyXiOn in HONG KONG #2,https://www.reddit.com/r/exo/comments/8qz2ot/180613_xiumin_micon_interview_exo_planet_4_the/,mochismyeon,1528951214,,0,12,False,https://b.thumbs.redditmedia.com/7nWHS1Jvsy9gfU3tEBU8xPZ9CKMcAOYo2BbL71ItJhE.jpg,,,,,
+85,exo,t5_2tvxy,2018-6-14,2018,6,14,14,8qzatq,twitter.com,180614 GQ X EXO Kai (for July Issue Cover),https://www.reddit.com/r/exo/comments/8qzatq/180614_gq_x_exo_kai_for_july_issue_cover/,mochismyeon,1528953754,,0,9,False,default,,,,,
+86,exo,t5_2tvxy,2018-6-14,2018,6,14,14,8qzbdr,twitter.com,Kris will be on the cover of GQ July 2018 Issue,https://www.reddit.com/r/exo/comments/8qzbdr/kris_will_be_on_the_cover_of_gq_july_2018_issue/,99101004,1528953954,,0,8,False,default,,,,,
+87,exo,t5_2tvxy,2018-6-14,2018,6,14,14,8qzbkw,open.spotify.com,Luhan x Fabian Mazur - Football Gang (Remix),https://www.reddit.com/r/exo/comments/8qzbkw/luhan_x_fabian_mazur_football_gang_remix/,99101004,1528954013,,0,4,False,default,,,,,
+88,exo,t5_2tvxy,2018-6-14,2018,6,14,14,8qzbux,twitter.com,"180614 Lay Weibo Video Update ""World Cup is starting! Let's cheer for it""",https://www.reddit.com/r/exo/comments/8qzbux/180614_lay_weibo_video_update_world_cup_is/,99101004,1528954104,,0,6,False,default,,,,,
+89,exo,t5_2tvxy,2018-6-14,2018,6,14,14,8qzd2h,twitter.com,"180614 Luhan Studio Weibo Update ""The new Remix Ep [Re:Play] just released its first out of the four tracks: [Football Gang Remix] feat.Fabian Mazur. The remaining three tracks will be released soon! Guess what songs will those be?""",https://www.reddit.com/r/exo/comments/8qzd2h/180614_luhan_studio_weibo_update_the_new_remix_ep/,99101004,1528954483,,0,3,False,default,,,,,
+90,exo,t5_2tvxy,2018-6-14,2018,6,14,14,8qzhnq,youtube.com,180613 Kris Wu - Tian Di @ at SOC Film Festival,https://www.reddit.com/r/exo/comments/8qzhnq/180613_kris_wu_tian_di_at_soc_film_festival/,99101004,1528955970,,0,6,False,https://b.thumbs.redditmedia.com/V23xsceNihZNVPlPFqh7AwfBgGoHBpY-gMP1m0NtwNc.jpg,,,,,
+91,exo,t5_2tvxy,2018-6-14,2018,6,14,15,8qzjvc,self.exo,What are your favourite EXO Choreographies?,https://www.reddit.com/r/exo/comments/8qzjvc/what_are_your_favourite_exo_choreographies/,99101004,1528956709,"I try to think about these things and than end up just getting into a big jumbled overwhelmed mess of trying to figure out what my actual favourite Choreo that they have done EVER is. I mean like, not just title tracks, but from concerts or other performances too, even CBX or Solo songs. I feel like if you immediately asked me what my favourite choreo was I would question what you meant, like do you want me to pick one that I am most impressed with... One I would show my friends who don't listen to exo? or like, the one I just all around enjoy the most? They are both very different. 
 
 I think if I had to narrow it down: 
 
 * **One I am the most impressed with:** [Electric Kiss](https://www.youtube.com/watch?v=XcdLVKYsHHU) &amp; [Blooming Days](https://youtu.be/UdjEoGzXxmI) (CBX \- mainly because they also sing it live every time as well)
 * **One I enjoy watching the most:** [The One](https://youtu.be/mSMz_uRYRwo) (CBX) &amp; [White Noise](https://youtu.be/aQV7hfHxIco) ..... ok and maybe also [One &amp; Only](https://youtu.be/pfHuoL_aQI8)
 
-So tell me, what are your favourite? Is it a personal fave in terms of you enjoy watching it the most, or is it one your most impressed with? Link some videos if you can for new fans who may have never seen yet\~",20,31
-92,2018-6-15,2018,6,15,0,8r2x3o,180613 Kai - Micon Interview EXO PLANET #4 - The EyXiOn in HONG KONG #3,mochismyeon,1528991493,,0,15
-93,2018-6-15,2018,6,15,8,8r6mb8,180615 EXO Twitter Update from Suho,99101004,1529020712,,1,10
-94,2018-6-15,2018,6,15,9,8r6mvr,180614 LuHan - Coca-Cola 'The World Cup' V4 CF,99101004,1529020858,,0,12
-95,2018-6-15,2018,6,15,9,8r6oci,180614 Kai - GQ Korea July 2018 Issue,99101004,1529021265,,0,33
-96,2018-6-15,2018,6,15,9,8r6p4g,"EXO PLANET #4: The EyXiOn [dot] in Macao will be on August 10 &amp; 11, 2018",99101004,1529021450,,0,14
-97,2018-6-15,2018,6,15,9,8r6x9k,"Fan Art of the Week: ""Tian Di Dragon Kris""",wistfulove,1529023592,,2,9
-98,2018-6-16,2018,6,16,2,8rcwwe,"180615 Luhan Weibo Update ""sleepy """,99101004,1529084999,,0,10
-99,2018-6-16,2018,6,16,2,8rcx6o,180615 D.O - Micon Interview #4 @ Elyxion in Hong Kong,99101004,1529085047,,1,43
-100,2018-6-16,2018,6,16,4,8rdnlc,180609-15 ICYMI: EXO Weekly News &amp; Updates,99101004,1529090860,,1,6
-101,2018-6-17,2018,6,17,7,8rmn0h,180616 Baekhyun - Micon Interview #5 @ Elyxion in Hong Kong,Aloretta_Dethly,1529186565,,3,20
-102,2018-6-17,2018,6,17,11,8ro7gq,"180617 Lay Weibo Video Update ""Got up? Slept well? Thanks for being there &amp; loving me all the time. Just want to say, I need U, I need U, I need U! Im not single, coz I have 30m babies. Gotta Go, bye~""",99101004,1529203332,,1,7
-103,2018-6-17,2018,6,17,11,8ro8q4,180615 Kris - 'Like That' Behind The Track,99101004,1529203735,,0,19
-104,2018-6-17,2018,6,17,11,8ro9jy,"180617 Lay Studio Weibo Update ""Thanks for being with us, the future is infinitely bright, lets keep going together.""",99101004,1529204005,,0,16
-105,2018-6-17,2018,6,17,12,8rolpu,180616 Chanyeol Instagram Live Broadcast,99101004,1529207832,,0,33
-106,2018-6-17,2018,6,17,13,8ron6m,"180617 Lay Instagram Update ""#2 I have a big dream and i'll need all of your help to achieve it #music""",99101004,1529208255,,3,15
-107,2018-6-17,2018,6,17,21,8rqs9k,180617 Suho - Micon Interview #6 @ Elyxion in Hong Kong,Aloretta_Dethly,1529239448,,1,12
-108,2018-6-18,2018,6,18,2,8rsq1s,180616 Chanyeol - Salty Tour EP 28,99101004,1529258061,,0,9
-109,2018-6-18,2018,6,18,3,8rssyp,"180517-180614 Suho - 'Rich Man, Poor Woman' EP 4-12",99101004,1529258723,"My apologies guys! I didn't realize I had been forgetting to put these up weekly. 
+So tell me, what are your favourite? Is it a personal fave in terms of you enjoy watching it the most, or is it one your most impressed with? Link some videos if you can for new fans who may have never seen yet\~",20,31,False,self,,,,,
+92,exo,t5_2tvxy,2018-6-15,2018,6,15,0,8r2x3o,youtube.com,180613 Kai - Micon Interview EXO PLANET #4 - The EyXiOn in HONG KONG #3,https://www.reddit.com/r/exo/comments/8r2x3o/180613_kai_micon_interview_exo_planet_4_the/,mochismyeon,1528991493,,0,15,False,https://b.thumbs.redditmedia.com/_w-qxuwSYWIDbBIAK8BDVkKtrdDYtroq7ANw0OOaSek.jpg,,,,,
+93,exo,t5_2tvxy,2018-6-15,2018,6,15,8,8r6mb8,twitter.com,180615 EXO Twitter Update from Suho,https://www.reddit.com/r/exo/comments/8r6mb8/180615_exo_twitter_update_from_suho/,99101004,1529020712,,1,10,False,default,,,,,
+94,exo,t5_2tvxy,2018-6-15,2018,6,15,9,8r6mvr,youtube.com,180614 LuHan - Coca-Cola 'The World Cup' V4 CF,https://www.reddit.com/r/exo/comments/8r6mvr/180614_luhan_cocacola_the_world_cup_v4_cf/,99101004,1529020858,,0,12,False,default,,,,,
+95,exo,t5_2tvxy,2018-6-15,2018,6,15,9,8r6oci,imgur.com,180614 Kai - GQ Korea July 2018 Issue,https://www.reddit.com/r/exo/comments/8r6oci/180614_kai_gq_korea_july_2018_issue/,99101004,1529021265,,0,33,False,default,,,,,
+96,exo,t5_2tvxy,2018-6-15,2018,6,15,9,8r6p4g,twitter.com,"EXO PLANET #4: The EyXiOn [dot] in Macao will be on August 10 &amp; 11, 2018",https://www.reddit.com/r/exo/comments/8r6p4g/exo_planet_4_the_eyxion_dot_in_macao_will_be_on/,99101004,1529021450,,0,14,False,default,,,,,
+97,exo,t5_2tvxy,2018-6-15,2018,6,15,9,8r6x9k,twitter.com,"Fan Art of the Week: ""Tian Di Dragon Kris""",https://www.reddit.com/r/exo/comments/8r6x9k/fan_art_of_the_week_tian_di_dragon_kris/,wistfulove,1529023592,,2,9,False,default,,,,,
+98,exo,t5_2tvxy,2018-6-16,2018,6,16,2,8rcwwe,twitter.com,"180615 Luhan Weibo Update ""sleepy """,https://www.reddit.com/r/exo/comments/8rcwwe/180615_luhan_weibo_update_sleepy/,99101004,1529084999,,0,10,False,default,,,,,
+99,exo,t5_2tvxy,2018-6-16,2018,6,16,2,8rcx6o,youtube.com,180615 D.O - Micon Interview #4 @ Elyxion in Hong Kong,https://www.reddit.com/r/exo/comments/8rcx6o/180615_do_micon_interview_4_elyxion_in_hong_kong/,99101004,1529085047,,1,43,False,https://b.thumbs.redditmedia.com/W1n9Str0ONZae86i0lBCetDnuZGqwyEaz2XCQcqHfAc.jpg,,,,,
+100,exo,t5_2tvxy,2018-6-16,2018,6,16,4,8rdnlc,twitter.com,180609-15 ICYMI: EXO Weekly News &amp; Updates,https://www.reddit.com/r/exo/comments/8rdnlc/18060915_icymi_exo_weekly_news_updates/,99101004,1529090860,,1,6,False,default,,,,,
+101,exo,t5_2tvxy,2018-6-17,2018,6,17,7,8rmn0h,youtu.be,180616 Baekhyun - Micon Interview #5 @ Elyxion in Hong Kong,https://www.reddit.com/r/exo/comments/8rmn0h/180616_baekhyun_micon_interview_5_elyxion_in_hong/,Aloretta_Dethly,1529186565,,3,20,False,https://b.thumbs.redditmedia.com/HmJds49IwCmU3M9XpobIGD-42X-YymaryRkuBqHNVoY.jpg,,,,,
+102,exo,t5_2tvxy,2018-6-17,2018,6,17,11,8ro7gq,twitter.com,"180617 Lay Weibo Video Update ""Got up? Slept well? Thanks for being there &amp; loving me all the time. Just want to say, I need U, I need U, I need U! Im not single, coz I have 30m babies. Gotta Go, bye~""",https://www.reddit.com/r/exo/comments/8ro7gq/180617_lay_weibo_video_update_got_up_slept_well/,99101004,1529203332,,1,7,False,default,,,,,
+103,exo,t5_2tvxy,2018-6-17,2018,6,17,11,8ro8q4,youtu.be,180615 Kris - 'Like That' Behind The Track,https://www.reddit.com/r/exo/comments/8ro8q4/180615_kris_like_that_behind_the_track/,99101004,1529203735,,0,19,False,https://b.thumbs.redditmedia.com/juwoAuoU-Mkoy_NC91cjpoeGiux20uAWkkI9XDwJiKA.jpg,,,,,
+104,exo,t5_2tvxy,2018-6-17,2018,6,17,11,8ro9jy,twitter.com,"180617 Lay Studio Weibo Update ""Thanks for being with us, the future is infinitely bright, lets keep going together.""",https://www.reddit.com/r/exo/comments/8ro9jy/180617_lay_studio_weibo_update_thanks_for_being/,99101004,1529204005,,0,16,False,default,,,,,
+105,exo,t5_2tvxy,2018-6-17,2018,6,17,12,8rolpu,youtube.com,180616 Chanyeol Instagram Live Broadcast,https://www.reddit.com/r/exo/comments/8rolpu/180616_chanyeol_instagram_live_broadcast/,99101004,1529207832,,0,33,False,default,,,,,
+106,exo,t5_2tvxy,2018-6-17,2018,6,17,13,8ron6m,instagram.com,"180617 Lay Instagram Update ""#2 I have a big dream and i'll need all of your help to achieve it #music""",https://www.reddit.com/r/exo/comments/8ron6m/180617_lay_instagram_update_2_i_have_a_big_dream/,99101004,1529208255,,3,15,False,default,,,,,
+107,exo,t5_2tvxy,2018-6-17,2018,6,17,21,8rqs9k,youtu.be,180617 Suho - Micon Interview #6 @ Elyxion in Hong Kong,https://www.reddit.com/r/exo/comments/8rqs9k/180617_suho_micon_interview_6_elyxion_in_hong_kong/,Aloretta_Dethly,1529239448,,1,12,False,default,,,,,
+108,exo,t5_2tvxy,2018-6-18,2018,6,18,2,8rsq1s,dramabus.com,180616 Chanyeol - Salty Tour EP 28,https://www.reddit.com/r/exo/comments/8rsq1s/180616_chanyeol_salty_tour_ep_28/,99101004,1529258061,,0,9,False,default,,,,,
+109,exo,t5_2tvxy,2018-6-18,2018,6,18,3,8rssyp,self.exo,"180517-180614 Suho - 'Rich Man, Poor Woman' EP 4-12",https://www.reddit.com/r/exo/comments/8rssyp/180517180614_suho_rich_man_poor_woman_ep_412/,99101004,1529258723,"My apologies guys! I didn't realize I had been forgetting to put these up weekly. 
 
 |EPISODE 4|[Viki](https://www.viki.com/videos/1127288v-rich-man-poor-woman-episode-4)|[Drama Cool](https://www3.watchasian.co/rich-man-episode-4.html)|
 |:-|:-|:-|
@@ -210,30 +210,30 @@ So tell me, what are your favourite? Is it a personal fave in terms of you enjoy
 |EPISODE 9|[Viki](https://www.viki.com/videos/1127290v-rich-man-poor-woman-episode-9)|[Drama Cool](https://www3.watchasian.co/rich-man-episode-9.html)|
 |EPISODE 10|[Viki](https://www.viki.com/videos/1127290v-rich-man-poor-woman-episode-10)|[Drama Cool](https://www3.watchasian.co/rich-man-episode-10.html)|
 |EPISODE 11|[Viki](https://www.viki.com/videos/1127290v-rich-man-poor-woman-episode-11)|[Drama Cool](https://www3.watchasian.co/rich-man-episode-11.html)|
-|EPISODE 12|[Viki](https://www.viki.com/videos/1127290v-rich-man-poor-woman-episode-12)|[Drama Cool](https://www3.watchasian.co/rich-man-episode-12.html)|",0,16
-110,2018-6-18,2018,6,18,12,8rwc77,EXO-CBX and SNSD's YOONA were chosen as safety ambassadors by the City Government of Seoul,99101004,1529291614,,0,60
-111,2018-6-18,2018,6,18,12,8rwcrf,"180618 EXO - Nature Republic ""Aloe Vera Ice Soothing Gel"" CF",wistfulove,1529291779,,2,18
-112,2018-6-18,2018,6,18,23,8s03e6,"180618 Lay Instagram Update ""#3 Only by going through the forest can I see the light #nature #thought""",Xaille,1529333485,,0,18
-113,2018-6-18,2018,6,18,23,8s04s1,"180618 Kris Studio Weibo Update ""Looking into your eyes, I want to ask if you prefer eating sweet or savory dumplings Happy Dragon Boat Festival! #KrisWu""",Xaille,1529333788,,0,6
-114,2018-6-18,2018,6,18,23,8s05pi,[Eng Sub]180528 Lay - IQIYI This Is What It Is Interview with Zhang Yixing,Xaille,1529333973,,0,1
-115,2018-6-19,2018,6,19,0,8s05vh,180528 Lay - IQIYI This Is What It Is Interview with Zhang Yixing,Xaille,1529334010,,0,12
-116,2018-6-19,2018,6,19,12,8s5ipe,"180618 Baekhyun Instagram Update "" #TheBestHealing #I'mHappy #Jeju #bayhillpoolvilla""",Xaille,1529377233,,0,29
-117,2018-6-19,2018,6,19,16,8s6vfb,Marz_music?,Erries_Supremacist,1529392161,"I am a new exol on facebook I dont use twiter because that other annoying fandom dominated it.
+|EPISODE 12|[Viki](https://www.viki.com/videos/1127290v-rich-man-poor-woman-episode-12)|[Drama Cool](https://www3.watchasian.co/rich-man-episode-12.html)|",0,16,False,self,,,,,
+110,exo,t5_2tvxy,2018-6-18,2018,6,18,12,8rwc77,twitter.com,EXO-CBX and SNSD's YOONA were chosen as safety ambassadors by the City Government of Seoul,https://www.reddit.com/r/exo/comments/8rwc77/exocbx_and_snsds_yoona_were_chosen_as_safety/,99101004,1529291614,,0,60,False,default,,,,,
+111,exo,t5_2tvxy,2018-6-18,2018,6,18,12,8rwcrf,youtu.be,"180618 EXO - Nature Republic ""Aloe Vera Ice Soothing Gel"" CF",https://www.reddit.com/r/exo/comments/8rwcrf/180618_exo_nature_republic_aloe_vera_ice_soothing/,wistfulove,1529291779,,2,18,False,https://b.thumbs.redditmedia.com/DQ8YK2nXNGQjVwH6iLhkHLkOtskiEnYcl2XX0v4jjcM.jpg,,,,,
+112,exo,t5_2tvxy,2018-6-18,2018,6,18,23,8s03e6,instagram.com,"180618 Lay Instagram Update ""#3 Only by going through the forest can I see the light #nature #thought""",https://www.reddit.com/r/exo/comments/8s03e6/180618_lay_instagram_update_3_only_by_going/,Xaille,1529333485,,0,18,False,default,,,,,
+113,exo,t5_2tvxy,2018-6-18,2018,6,18,23,8s04s1,twitter.com,"180618 Kris Studio Weibo Update ""Looking into your eyes, I want to ask if you prefer eating sweet or savory dumplings Happy Dragon Boat Festival! #KrisWu""",https://www.reddit.com/r/exo/comments/8s04s1/180618_kris_studio_weibo_update_looking_into_your/,Xaille,1529333788,,0,6,False,default,,,,,
+114,exo,t5_2tvxy,2018-6-18,2018,6,18,23,8s05pi,youtube.com,[Eng Sub]180528 Lay - IQIYI This Is What It Is Interview with Zhang Yixing,https://www.reddit.com/r/exo/comments/8s05pi/eng_sub180528_lay_iqiyi_this_is_what_it_is/,Xaille,1529333973,,0,1,False,default,,,,,
+115,exo,t5_2tvxy,2018-6-19,2018,6,19,0,8s05vh,youtube.com,180528 Lay - IQIYI This Is What It Is Interview with Zhang Yixing,https://www.reddit.com/r/exo/comments/8s05vh/180528_lay_iqiyi_this_is_what_it_is_interview/,Xaille,1529334010,,0,12,False,default,,,,,
+116,exo,t5_2tvxy,2018-6-19,2018,6,19,12,8s5ipe,instagram.com,"180618 Baekhyun Instagram Update "" #TheBestHealing #I'mHappy #Jeju #bayhillpoolvilla""",https://www.reddit.com/r/exo/comments/8s5ipe/180618_baekhyun_instagram_update_thebesthealing/,Xaille,1529377233,,0,29,False,default,,,,,
+117,exo,t5_2tvxy,2018-6-19,2018,6,19,16,8s6vfb,self.exo,Marz_music?,https://www.reddit.com/r/exo/comments/8s6vfb/marz_music/,Erries_Supremacist,1529392161,"I am a new exol on facebook I dont use twiter because that other annoying fandom dominated it.
 
 Lately, I saw armies talking about SM producer? I dont have instagram but they are saying he said something back agaist the kpop BTS I confronted tgem but they called me ignorante because I dont know what I am saying. They are attacking me now I want to deactivate my facebook now it was my personal account I'm sad. What is they talking about? What video is that he was insulting on his live about Mic Drop song? I searched it on youtube but I saw nothing only the armies kids 12 yers old kids and that true I agree. They are rude to me.
 
-I wantvto watch that video? But i dont have accounts from ig or not my facebook too I used reddit before and I know ppl w the same community talk here. I talk here with my swifties fan before as well I make a kpop acc now to talk about kpop and exol I love. Thank you ",2,1
-118,2018-6-19,2018,6,19,23,8s98vw,180619 Luhan - Football Gang Remix (ft. Fabian Mazur) Official MV,Xaille,1529418159,,0,8
-119,2018-6-19,2018,6,19,23,8s9awo,"180619 Luhan Weibo Update ""This year's #LuHanSportsSeason, let's join together""",Xaille,1529418620,,0,6
-120,2018-6-19,2018,6,19,23,8s9b7n,"180619 Luhan Studio Weibo Update ""The 2018 Luhan Sports Season just started! Keep your daily walking steps documented! Once the total steps of all Lu fans hit 700 million steps, Boss Lus charity project will donate a soccer field to kids in need! Small step, big hope""",Xaille,1529418687,,0,12
-121,2018-6-20,2018,6,20,3,8sbdke,"180620 Kris Weibo update ""Distance tests a horses strength @Bulgariofficial""",99101004,1529434101,,0,3
-122,2018-6-20,2018,6,20,3,8sbenn,"180619 Lay Studio Weibo Update ""Walking around Paris, blue skies &amp; white clouds, denim &amp; music, meeting by chance between the notes in Zhang Yixing's music journey. Tomorrow, follow Valentino's brand ambassador Zhang Yixing, starting the beautiful journey.""",99101004,1529434332,,1,16
-123,2018-6-20,2018,6,20,3,8sbfed,180619 Elle Korea Instagram Gallery Update with Kai,99101004,1529434487,,1,22
-124,2018-6-20,2018,6,20,3,8sbgpf,180619 Sehun - 'Secret Queen Makers' EP 7,99101004,1529434751,,1,11
-125,2018-6-20,2018,6,20,4,8sbhn8,"180618 Tao Weibo Story Video Update ""Recording new song.... called ""/Silently""""",99101004,1529434929,,0,7
-126,2018-6-20,2018,6,20,4,8sbiwv,"180618 Kris Wu Studio Update ""Looking into your eyes, I want to ask if you prefer eating sweet or savory dumplings Happy Dragon Boat Festival!""",99101004,1529435176,,0,13
-127,2018-6-20,2018,6,20,11,8seu7r,180613 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 18,99101004,1529462851,,4,8
-128,2018-6-20,2018,6,20,12,8sf8jt,"EXO-L Casual Convo #168 / If EXO could collab with any group or artist, who would you like it to be?",mochismyeon,1529466737,"Hey there my fellow EXO-Ls, Ang here for another Casual Convo!~
+I wantvto watch that video? But i dont have accounts from ig or not my facebook too I used reddit before and I know ppl w the same community talk here. I talk here with my swifties fan before as well I make a kpop acc now to talk about kpop and exol I love. Thank you ",2,1,False,self,,,,,
+118,exo,t5_2tvxy,2018-6-19,2018,6,19,23,8s98vw,youtube.com,180619 Luhan - Football Gang Remix (ft. Fabian Mazur) Official MV,https://www.reddit.com/r/exo/comments/8s98vw/180619_luhan_football_gang_remix_ft_fabian_mazur/,Xaille,1529418159,,0,8,False,default,,,,,
+119,exo,t5_2tvxy,2018-6-19,2018,6,19,23,8s9awo,twitter.com,"180619 Luhan Weibo Update ""This year's #LuHanSportsSeason, let's join together""",https://www.reddit.com/r/exo/comments/8s9awo/180619_luhan_weibo_update_this_years/,Xaille,1529418620,,0,6,False,default,,,,,
+120,exo,t5_2tvxy,2018-6-19,2018,6,19,23,8s9b7n,twitter.com,"180619 Luhan Studio Weibo Update ""The 2018 Luhan Sports Season just started! Keep your daily walking steps documented! Once the total steps of all Lu fans hit 700 million steps, Boss Lus charity project will donate a soccer field to kids in need! Small step, big hope""",https://www.reddit.com/r/exo/comments/8s9b7n/180619_luhan_studio_weibo_update_the_2018_luhan/,Xaille,1529418687,,0,12,False,default,,,,,
+121,exo,t5_2tvxy,2018-6-20,2018,6,20,3,8sbdke,twitter.com,"180620 Kris Weibo update ""Distance tests a horses strength @Bulgariofficial""",https://www.reddit.com/r/exo/comments/8sbdke/180620_kris_weibo_update_distance_tests_a_horses/,99101004,1529434101,,0,3,False,default,,,,,
+122,exo,t5_2tvxy,2018-6-20,2018,6,20,3,8sbenn,twitter.com,"180619 Lay Studio Weibo Update ""Walking around Paris, blue skies &amp; white clouds, denim &amp; music, meeting by chance between the notes in Zhang Yixing's music journey. Tomorrow, follow Valentino's brand ambassador Zhang Yixing, starting the beautiful journey.""",https://www.reddit.com/r/exo/comments/8sbenn/180619_lay_studio_weibo_update_walking_around/,99101004,1529434332,,1,16,False,default,,,,,
+123,exo,t5_2tvxy,2018-6-20,2018,6,20,3,8sbfed,instagram.com,180619 Elle Korea Instagram Gallery Update with Kai,https://www.reddit.com/r/exo/comments/8sbfed/180619_elle_korea_instagram_gallery_update_with/,99101004,1529434487,,1,22,False,default,,,,,
+124,exo,t5_2tvxy,2018-6-20,2018,6,20,3,8sbgpf,youtube.com,180619 Sehun - 'Secret Queen Makers' EP 7,https://www.reddit.com/r/exo/comments/8sbgpf/180619_sehun_secret_queen_makers_ep_7/,99101004,1529434751,,1,11,False,https://b.thumbs.redditmedia.com/j1OLZYB_E6AaumCSAljGySQWeu9s_7746Zd1hTX-9kw.jpg,,,,,
+125,exo,t5_2tvxy,2018-6-20,2018,6,20,4,8sbhn8,twitter.com,"180618 Tao Weibo Story Video Update ""Recording new song.... called ""/Silently""""",https://www.reddit.com/r/exo/comments/8sbhn8/180618_tao_weibo_story_video_update_recording_new/,99101004,1529434929,,0,7,False,default,,,,,
+126,exo,t5_2tvxy,2018-6-20,2018,6,20,4,8sbiwv,twitter.com,"180618 Kris Wu Studio Update ""Looking into your eyes, I want to ask if you prefer eating sweet or savory dumplings Happy Dragon Boat Festival!""",https://www.reddit.com/r/exo/comments/8sbiwv/180618_kris_wu_studio_update_looking_into_your/,99101004,1529435176,,0,13,False,default,,,,,
+127,exo,t5_2tvxy,2018-6-20,2018,6,20,11,8seu7r,dailymotion.com,180613 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 18,https://www.reddit.com/r/exo/comments/8seu7r/180613_exocbx_travel_the_world_on_exos_ladder/,99101004,1529462851,,4,8,False,default,,,,,
+128,exo,t5_2tvxy,2018-6-20,2018,6,20,12,8sf8jt,self.exo,"EXO-L Casual Convo #168 / If EXO could collab with any group or artist, who would you like it to be?",https://www.reddit.com/r/exo/comments/8sf8jt/exol_casual_convo_168_if_exo_could_collab_with/,mochismyeon,1529466737,"Hey there my fellow EXO-Ls, Ang here for another Casual Convo!~
 
 EXO has been extremely hard at work for us, we should all cool off by watching their [Nature Republic CF](https://youtu.be/tl1rCpiQvvk). We could not have seen this coming.... maybe ever..........
 If that doesn't help cool you off maybe you can look at Baekhyun relaxing on the [beautiful island of Jeju](https://www.instagram.com/p/BkMFfCLgc22/?taken-by=baekhyunee_exo)!
@@ -259,75 +259,75 @@ I'd also *love* to see a collab between Key, Boa and Xiumin. Please SM make it s
 
 [EXO-L LET'S LOVE!](https://data.whicdn.com/images/305171910/original.gif)
 
-[Casual Convo Masterlist](https://www.reddit.com/r/exo/wiki/weekly-threads#wiki_casual_convo_sundays)",14,14
-129,2018-6-20,2018,6,20,23,8siyod,"180620 Lay Instagram Update ""#4 Sometimes you need to take a moment and appreciate the view #inspiration""",Xaille,1529506668,,1,21
-130,2018-6-20,2018,6,20,23,8siyt1,"180620 Tao Instagram Update ""Last.""",Xaille,1529506698,,0,6
-131,2018-6-20,2018,6,20,23,8siz0f,180614 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 19,Xaille,1529506739,,0,13
-132,2018-6-21,2018,6,21,0,8sizo6,"180620 Luhan Weibo Update ""Call out the people today, who said they haven't seen enough about the street dancing battle #LuHanSportsSeason""",Xaille,1529506872,,0,13
-133,2018-6-21,2018,6,21,0,8sj3ei,180611 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 16,99101004,1529507635,,0,13
-134,2018-6-21,2018,6,21,0,8sj3ho,180612 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 17,99101004,1529507657,,0,12
-135,2018-6-21,2018,6,21,13,8sowfh,180621 Kai Instagram Update,mochismyeon,1529554484,,0,19
-136,2018-6-21,2018,6,21,13,8soy32,180621 Kai Instagram Update,mochismyeon,1529554926,,0,20
-137,2018-6-21,2018,6,21,15,8spor1,"180621 Kai Instagram Update ""#gqkorea""",wistfulove,1529563378,,0,11
-138,2018-6-21,2018,6,21,15,8spp9x,"Fan Art of the Week: ""Lay Paper Art""",wistfulove,1529563544,,2,12
-139,2018-6-21,2018,6,21,20,8sr0yg,180621 Sehun - Micon Interview #7 @ Elyxion in Hong Kong,Aloretta_Dethly,1529579834,,1,21
-140,2018-6-21,2018,6,21,20,8sr1e0,180621 Chen - Micon Interview #8 @ Elyxion in Hong Kong,Aloretta_Dethly,1529579961,,1,25
-141,2018-6-22,2018,6,22,1,8st53b,"180621 Lay Weibo Update ""An unforgettable experience, I was fortunate to see old friends and to meet of new friends. Had so much fun, thank you for the invitation @MaisonValentino""",Xaille,1529597471,,1,17
-142,2018-6-22,2018,6,22,1,8stdiz,Luhan x Machinedrum - Skin to Skin Remix,99101004,1529599184,,0,5
-143,2018-6-22,2018,6,22,4,8sumi7,180620 ICYMI: Lay @ Valentino 2019 Men's Fashion Show in Paris,99101004,1529608140,,0,20
-144,2018-6-22,2018,6,22,11,8sxvvw,"180622 Perrier Weibo Video CF Update ft. Lay ""It's time to announce our first brand spokesperson in China region. Find more surprises at Perrier official Tmall store""",99101004,1529635578,,0,17
-145,2018-6-22,2018,6,22,20,8t0las,"180622 Luhan Instagram Update """"",Xaille,1529666928,,0,5
-146,2018-6-23,2018,6,23,0,8t25ks,180622 Kai Instagram Gallery Updates,99101004,1529680767,"* [Gallery Post #1](https://www.instagram.com/p/BkU8UdmFOre/?taken-by=zkdlin)
-* [Gallery Post #2](https://www.instagram.com/p/BkVOLvLFnaZ/?taken-by=zkdlin)",0,18
-147,2018-6-23,2018,6,23,0,8t27j6,180616-22 ICYMI: EXO Weekly News &amp; Updates,99101004,1529681201,,0,7
-148,2018-6-23,2018,6,23,10,8t6nv3,180615 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 20,99101004,1529718557,,1,9
-149,2018-6-23,2018,6,23,15,8t850d,180623 Lay - GQ 50 Questions with Lay in Paris,ladidalia,1529735682,,0,12
-150,2018-6-23,2018,6,23,15,8t85bv,180623 EXO PLANET #4  The EyXiOn in JAPAN DVD/Blu-ray Teaser,ladidalia,1529735810,,0,22
-151,2018-6-24,2018,6,24,1,8tawz3,180623 Kai Instagram Gallery Update,99101004,1529769946,,1,6
-152,2018-6-24,2018,6,24,1,8taxxr,"180623 EXO - Boomerang, What U Do, Ko Ko Bop, Power &amp; The Eve Performances @ Lotte Family K-Wave Concert",99101004,1529770175,"1. [Boomerang](https://www.youtube.com/watch?v=nmnJMGP1uCM&amp;feature=youtu.be)
+[Casual Convo Masterlist](https://www.reddit.com/r/exo/wiki/weekly-threads#wiki_casual_convo_sundays)",14,14,False,self,,,,,
+129,exo,t5_2tvxy,2018-6-20,2018,6,20,23,8siyod,instagram.com,"180620 Lay Instagram Update ""#4 Sometimes you need to take a moment and appreciate the view #inspiration""",https://www.reddit.com/r/exo/comments/8siyod/180620_lay_instagram_update_4_sometimes_you_need/,Xaille,1529506668,,1,21,False,default,,,,,
+130,exo,t5_2tvxy,2018-6-20,2018,6,20,23,8siyt1,instagram.com,"180620 Tao Instagram Update ""Last.""",https://www.reddit.com/r/exo/comments/8siyt1/180620_tao_instagram_update_last/,Xaille,1529506698,,0,6,False,default,,,,,
+131,exo,t5_2tvxy,2018-6-20,2018,6,20,23,8siz0f,dailymotion.com,180614 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 19,https://www.reddit.com/r/exo/comments/8siz0f/180614_exocbx_travel_the_world_on_exos_ladder/,Xaille,1529506739,,0,13,False,default,,,,,
+132,exo,t5_2tvxy,2018-6-21,2018,6,21,0,8sizo6,twitter.com,"180620 Luhan Weibo Update ""Call out the people today, who said they haven't seen enough about the street dancing battle #LuHanSportsSeason""",https://www.reddit.com/r/exo/comments/8sizo6/180620_luhan_weibo_update_call_out_the_people/,Xaille,1529506872,,0,13,False,https://b.thumbs.redditmedia.com/8JSAGneZmuq_3Xdq4KpRDGvhQDuyN0LYUXITbBsuUZE.jpg,,,,,
+133,exo,t5_2tvxy,2018-6-21,2018,6,21,0,8sj3ei,dailymotion.com,180611 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 16,https://www.reddit.com/r/exo/comments/8sj3ei/180611_exocbx_travel_the_world_on_exos_ladder/,99101004,1529507635,,0,13,False,default,,,,,
+134,exo,t5_2tvxy,2018-6-21,2018,6,21,0,8sj3ho,dailymotion.com,180612 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 17,https://www.reddit.com/r/exo/comments/8sj3ho/180612_exocbx_travel_the_world_on_exos_ladder/,99101004,1529507657,,0,12,False,default,,,,,
+135,exo,t5_2tvxy,2018-6-21,2018,6,21,13,8sowfh,instagram.com,180621 Kai Instagram Update,https://www.reddit.com/r/exo/comments/8sowfh/180621_kai_instagram_update/,mochismyeon,1529554484,,0,19,False,default,,,,,
+136,exo,t5_2tvxy,2018-6-21,2018,6,21,13,8soy32,instagram.com,180621 Kai Instagram Update,https://www.reddit.com/r/exo/comments/8soy32/180621_kai_instagram_update/,mochismyeon,1529554926,,0,20,False,default,,,,,
+137,exo,t5_2tvxy,2018-6-21,2018,6,21,15,8spor1,instagram.com,"180621 Kai Instagram Update ""#gqkorea""",https://www.reddit.com/r/exo/comments/8spor1/180621_kai_instagram_update_gqkorea/,wistfulove,1529563378,,0,11,False,default,,,,,
+138,exo,t5_2tvxy,2018-6-21,2018,6,21,15,8spp9x,twitter.com,"Fan Art of the Week: ""Lay Paper Art""",https://www.reddit.com/r/exo/comments/8spp9x/fan_art_of_the_week_lay_paper_art/,wistfulove,1529563544,,2,12,False,default,,,,,
+139,exo,t5_2tvxy,2018-6-21,2018,6,21,20,8sr0yg,youtube.com,180621 Sehun - Micon Interview #7 @ Elyxion in Hong Kong,https://www.reddit.com/r/exo/comments/8sr0yg/180621_sehun_micon_interview_7_elyxion_in_hong/,Aloretta_Dethly,1529579834,,1,21,False,https://b.thumbs.redditmedia.com/g6xdqPQGt2kF6sIC4DHjeJuv8ipL8_vgzO7pZtYXFXg.jpg,,,,,
+140,exo,t5_2tvxy,2018-6-21,2018,6,21,20,8sr1e0,youtube.com,180621 Chen - Micon Interview #8 @ Elyxion in Hong Kong,https://www.reddit.com/r/exo/comments/8sr1e0/180621_chen_micon_interview_8_elyxion_in_hong_kong/,Aloretta_Dethly,1529579961,,1,25,False,default,,,,,
+141,exo,t5_2tvxy,2018-6-22,2018,6,22,1,8st53b,twitter.com,"180621 Lay Weibo Update ""An unforgettable experience, I was fortunate to see old friends and to meet of new friends. Had so much fun, thank you for the invitation @MaisonValentino""",https://www.reddit.com/r/exo/comments/8st53b/180621_lay_weibo_update_an_unforgettable/,Xaille,1529597471,,1,17,False,default,,,,,
+142,exo,t5_2tvxy,2018-6-22,2018,6,22,1,8stdiz,open.spotify.com,Luhan x Machinedrum - Skin to Skin Remix,https://www.reddit.com/r/exo/comments/8stdiz/luhan_x_machinedrum_skin_to_skin_remix/,99101004,1529599184,,0,5,False,default,,,,,
+143,exo,t5_2tvxy,2018-6-22,2018,6,22,4,8sumi7,twitter.com,180620 ICYMI: Lay @ Valentino 2019 Men's Fashion Show in Paris,https://www.reddit.com/r/exo/comments/8sumi7/180620_icymi_lay_valentino_2019_mens_fashion_show/,99101004,1529608140,,0,20,False,default,,,,,
+144,exo,t5_2tvxy,2018-6-22,2018,6,22,11,8sxvvw,twitter.com,"180622 Perrier Weibo Video CF Update ft. Lay ""It's time to announce our first brand spokesperson in China region. Find more surprises at Perrier official Tmall store""",https://www.reddit.com/r/exo/comments/8sxvvw/180622_perrier_weibo_video_cf_update_ft_lay_its/,99101004,1529635578,,0,17,False,default,,,,,
+145,exo,t5_2tvxy,2018-6-22,2018,6,22,20,8t0las,instagram.com,"180622 Luhan Instagram Update """"",https://www.reddit.com/r/exo/comments/8t0las/180622_luhan_instagram_update/,Xaille,1529666928,,0,5,False,default,,,,,
+146,exo,t5_2tvxy,2018-6-23,2018,6,23,0,8t25ks,self.exo,180622 Kai Instagram Gallery Updates,https://www.reddit.com/r/exo/comments/8t25ks/180622_kai_instagram_gallery_updates/,99101004,1529680767,"* [Gallery Post #1](https://www.instagram.com/p/BkU8UdmFOre/?taken-by=zkdlin)
+* [Gallery Post #2](https://www.instagram.com/p/BkVOLvLFnaZ/?taken-by=zkdlin)",0,18,False,self,,,,,
+147,exo,t5_2tvxy,2018-6-23,2018,6,23,0,8t27j6,twitter.com,180616-22 ICYMI: EXO Weekly News &amp; Updates,https://www.reddit.com/r/exo/comments/8t27j6/18061622_icymi_exo_weekly_news_updates/,99101004,1529681201,,0,7,False,default,,,,,
+148,exo,t5_2tvxy,2018-6-23,2018,6,23,10,8t6nv3,dailymotion.com,180615 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 20,https://www.reddit.com/r/exo/comments/8t6nv3/180615_exocbx_travel_the_world_on_exos_ladder/,99101004,1529718557,,1,9,False,default,,,,,
+149,exo,t5_2tvxy,2018-6-23,2018,6,23,15,8t850d,youtube.com,180623 Lay - GQ 50 Questions with Lay in Paris,https://www.reddit.com/r/exo/comments/8t850d/180623_lay_gq_50_questions_with_lay_in_paris/,ladidalia,1529735682,,0,12,False,https://b.thumbs.redditmedia.com/l1rH3CHUSS4To1Uhmv5cwAbbV5a51xct8antOi_UqBw.jpg,,,,,
+150,exo,t5_2tvxy,2018-6-23,2018,6,23,15,8t85bv,youtube.com,180623 EXO PLANET #4  The EyXiOn in JAPAN DVD/Blu-ray Teaser,https://www.reddit.com/r/exo/comments/8t85bv/180623_exo_planet_4_the_eyxion_in_japan/,ladidalia,1529735810,,0,22,False,default,,,,,
+151,exo,t5_2tvxy,2018-6-24,2018,6,24,1,8tawz3,instagram.com,180623 Kai Instagram Gallery Update,https://www.reddit.com/r/exo/comments/8tawz3/180623_kai_instagram_gallery_update/,99101004,1529769946,,1,6,False,default,,,,,
+152,exo,t5_2tvxy,2018-6-24,2018,6,24,1,8taxxr,self.exo,"180623 EXO - Boomerang, What U Do, Ko Ko Bop, Power &amp; The Eve Performances @ Lotte Family K-Wave Concert",https://www.reddit.com/r/exo/comments/8taxxr/180623_exo_boomerang_what_u_do_ko_ko_bop_power/,99101004,1529770175,"1. [Boomerang](https://www.youtube.com/watch?v=nmnJMGP1uCM&amp;feature=youtu.be)
 2. [What U Do](https://www.youtube.com/watch?v=PuweEy_L6TI&amp;feature=youtu.be)
 3. [Ko Ko Bop](https://www.youtube.com/watch?v=qzaz5rqDsgY&amp;feature=youtu.be)
 4. [The Eve](https://www.youtube.com/watch?v=legRq9IA0Tg&amp;feature=youtu.be)
 5. [Power](https://www.youtube.com/watch?v=VujFiwDrHrk&amp;feature=youtu.be)
 
-If you find more fancams from other people feel free to link them below! ",3,35
-153,2018-6-24,2018,6,24,1,8tayt5,180623 Tao - Beggar @ Produce 101 Final Episode,99101004,1529770377,,0,7
-154,2018-6-24,2018,6,24,3,8tbseq,180623 ICYMI: Lotte Family K-Wave Concert,99101004,1529777507,,0,8
-155,2018-6-24,2018,6,24,3,8tbzo3,Hey EXO Fans! Help us clean out our spring inventory and get your very own EXO hats for FREE! Only 25 available!,rkjsmiller,1529779315,"Since we are well into summer, we want to give away most of our spring inventory away to make room for our summer inventory!
+If you find more fancams from other people feel free to link them below! ",3,35,False,self,,,,,
+153,exo,t5_2tvxy,2018-6-24,2018,6,24,1,8tayt5,youtu.be,180623 Tao - Beggar @ Produce 101 Final Episode,https://www.reddit.com/r/exo/comments/8tayt5/180623_tao_beggar_produce_101_final_episode/,99101004,1529770377,,0,7,False,https://b.thumbs.redditmedia.com/_e7dpaRNqhrJXuFK-VUr8vAPByDgRHmj-3jMSHaqExA.jpg,,,,,
+154,exo,t5_2tvxy,2018-6-24,2018,6,24,3,8tbseq,twitter.com,180623 ICYMI: Lotte Family K-Wave Concert,https://www.reddit.com/r/exo/comments/8tbseq/180623_icymi_lotte_family_kwave_concert/,99101004,1529777507,,0,8,False,default,,,,,
+155,exo,t5_2tvxy,2018-6-24,2018,6,24,3,8tbzo3,self.exo,Hey EXO Fans! Help us clean out our spring inventory and get your very own EXO hats for FREE! Only 25 available!,https://www.reddit.com/r/exo/comments/8tbzo3/hey_exo_fans_help_us_clean_out_our_spring/,rkjsmiller,1529779315,"Since we are well into summer, we want to give away most of our spring inventory away to make room for our summer inventory!
 
 What better way than giving [this](https://toptrendify.com/collections/apparel/products/kpop-exo-cap) away to EXO fans? Act fast to claim these, as we only have 25 to giveaway for FREE!
 
-[Claim your free hat here.](https://toptrendify.com/collections/apparel/products/kpop-exo-cap)",1,1
-156,2018-6-24,2018,6,24,10,8tengp,ElyXiOn in KL Tickets,ForeverPapaya,1529805410,"Hey guys,
+[Claim your free hat here.](https://toptrendify.com/collections/apparel/products/kpop-exo-cap)",1,1,False,self,,,,,
+156,exo,t5_2tvxy,2018-6-24,2018,6,24,10,8tengp,self.exo,ElyXiOn in KL Tickets,https://www.reddit.com/r/exo/comments/8tengp/elyxion_in_kl_tickets/,ForeverPapaya,1529805410,"Hey guys,
 
-Quick question, is StubHub or other similar websites a reliable place to buy tickets for EXO concerts? Or will I be unable to enter the stadium? If you know other places to buy tickets for the concert on July 7th please give me some recommendations!! I really appreciate your help. ",1,6
-157,2018-6-24,2018,6,24,11,8ter3s,EXO 'Named as 2018 Korea's Honorary Ambassador For Tourism',99101004,1529806527,,0,64
-158,2018-6-24,2018,6,24,11,8teuld,180616 Tao - Produce 101 China Episode 9,carinabon,1529807610,,1,8
-159,2018-6-24,2018,6,24,11,8tevcc,180618 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 21,carinabon,1529807841,,0,13
-160,2018-6-25,2018,6,25,2,8tj755,"EXO will be the models for oversea ads for Korea's Tourism board. They will be released starting in August on TV, YT &amp; FB. The ads will have 6 themes: History &amp; Tradition, Daily Life of Koreans, Adventure, Trend, Healing &amp; Hallyu",99101004,1529860077,,0,67
-161,2018-6-25,2018,6,25,2,8tj7hq,"180624 Sehun Instagram Update ""Our country, fighting!""",99101004,1529860157,,0,8
-162,2018-6-25,2018,6,25,2,8tj7ts,180624 Tao Weibo Update; Translation in Post,99101004,1529860237,,0,5
-163,2018-6-25,2018,6,25,2,8tj8v1,180624 Kai Instagram Video Updates; 2nd Post in Comments,99101004,1529860470,,5,18
-164,2018-6-25,2018,6,25,4,8tkalo,180619 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 22,ladidalia,1529869313,,0,11
-165,2018-6-25,2018,6,25,11,8tmu9o,"EXO, SM Entertainment and the Make-A-Wish foundation partnered up to bring 17 year old cancer patient Michelle Parenteau to the 2018 Lotte Family Concert from California. She says EXO's music gave her strength during her battle with cancer.",99101004,1529892199,,0,86
-166,2018-6-25,2018,6,25,14,8tnvqg,/r/EXO's 2018 Census,99101004,1529902878,,7,30
-167,2018-6-25,2018,6,25,20,8tpnk6,how to vote for EXO on Teen Choice Awards (TCA)? Im not from US!!,5p00nz,1529925133,I heard you need to be from US for your vote to be counted....really?,8,12
-168,2018-6-26,2018,6,26,6,8tuk7w,EXO CALL ME BABY DANCE COVER,itsayza,1529963822,"[https://youtu.be/cM6hJM9llTY](https://youtu.be/cM6hJM9llTY)
+Quick question, is StubHub or other similar websites a reliable place to buy tickets for EXO concerts? Or will I be unable to enter the stadium? If you know other places to buy tickets for the concert on July 7th please give me some recommendations!! I really appreciate your help. ",1,6,False,self,,,,,
+157,exo,t5_2tvxy,2018-6-24,2018,6,24,11,8ter3s,twitter.com,EXO 'Named as 2018 Korea's Honorary Ambassador For Tourism',https://www.reddit.com/r/exo/comments/8ter3s/exo_named_as_2018_koreas_honorary_ambassador_for/,99101004,1529806527,,0,64,False,default,,,,,
+158,exo,t5_2tvxy,2018-6-24,2018,6,24,11,8teuld,youtu.be,180616 Tao - Produce 101 China Episode 9,https://www.reddit.com/r/exo/comments/8teuld/180616_tao_produce_101_china_episode_9/,carinabon,1529807610,,1,8,False,https://b.thumbs.redditmedia.com/0eY17qXEIF6h8vdQ9T0OemixZFOWRZ6_6KDDwnFRHFc.jpg,,,,,
+159,exo,t5_2tvxy,2018-6-24,2018,6,24,11,8tevcc,dailymotion.com,180618 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 21,https://www.reddit.com/r/exo/comments/8tevcc/180618_exocbx_travel_the_world_on_exos_ladder/,carinabon,1529807841,,0,13,False,default,,,,,
+160,exo,t5_2tvxy,2018-6-25,2018,6,25,2,8tj755,twitter.com,"EXO will be the models for oversea ads for Korea's Tourism board. They will be released starting in August on TV, YT &amp; FB. The ads will have 6 themes: History &amp; Tradition, Daily Life of Koreans, Adventure, Trend, Healing &amp; Hallyu",https://www.reddit.com/r/exo/comments/8tj755/exo_will_be_the_models_for_oversea_ads_for_koreas/,99101004,1529860077,,0,67,False,default,,,,,
+161,exo,t5_2tvxy,2018-6-25,2018,6,25,2,8tj7hq,instagram.com,"180624 Sehun Instagram Update ""Our country, fighting!""",https://www.reddit.com/r/exo/comments/8tj7hq/180624_sehun_instagram_update_our_country_fighting/,99101004,1529860157,,0,8,False,default,,,,,
+162,exo,t5_2tvxy,2018-6-25,2018,6,25,2,8tj7ts,twitter.com,180624 Tao Weibo Update; Translation in Post,https://www.reddit.com/r/exo/comments/8tj7ts/180624_tao_weibo_update_translation_in_post/,99101004,1529860237,,0,5,False,default,,,,,
+163,exo,t5_2tvxy,2018-6-25,2018,6,25,2,8tj8v1,instagram.com,180624 Kai Instagram Video Updates; 2nd Post in Comments,https://www.reddit.com/r/exo/comments/8tj8v1/180624_kai_instagram_video_updates_2nd_post_in/,99101004,1529860470,,5,18,False,default,,,,,
+164,exo,t5_2tvxy,2018-6-25,2018,6,25,4,8tkalo,dailymotion.com,180619 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 22,https://www.reddit.com/r/exo/comments/8tkalo/180619_exocbx_travel_the_world_on_exos_ladder/,ladidalia,1529869313,,0,11,False,https://b.thumbs.redditmedia.com/fQefeOfUkTFbBKpKZzRtkNg5KA7YYdSB9BZvtmsj38c.jpg,,,,,
+165,exo,t5_2tvxy,2018-6-25,2018,6,25,11,8tmu9o,twitter.com,"EXO, SM Entertainment and the Make-A-Wish foundation partnered up to bring 17 year old cancer patient Michelle Parenteau to the 2018 Lotte Family Concert from California. She says EXO's music gave her strength during her battle with cancer.",https://www.reddit.com/r/exo/comments/8tmu9o/exo_sm_entertainment_and_the_makeawish_foundation/,99101004,1529892199,,0,86,False,default,,,,,
+166,exo,t5_2tvxy,2018-6-25,2018,6,25,14,8tnvqg,docs.google.com,/r/EXO's 2018 Census,https://www.reddit.com/r/exo/comments/8tnvqg/rexos_2018_census/,99101004,1529902878,,7,30,False,default,,,,,
+167,exo,t5_2tvxy,2018-6-25,2018,6,25,20,8tpnk6,self.exo,how to vote for EXO on Teen Choice Awards (TCA)? Im not from US!!,https://www.reddit.com/r/exo/comments/8tpnk6/how_to_vote_for_exo_on_teen_choice_awards_tca_im/,5p00nz,1529925133,I heard you need to be from US for your vote to be counted....really?,8,12,False,self,,,,,
+168,exo,t5_2tvxy,2018-6-26,2018,6,26,6,8tuk7w,self.exo,EXO CALL ME BABY DANCE COVER,https://www.reddit.com/r/exo/comments/8tuk7w/exo_call_me_baby_dance_cover/,itsayza,1529963822,"[https://youtu.be/cM6hJM9llTY](https://youtu.be/cM6hJM9llTY)
 
-Please check out my dance cover of Exo call me baby , would love all the kpop and exo- to check it out :)",2,1
-169,2018-6-26,2018,6,26,11,8twdyg,180626 Kai - 'Star Road' Teaser,99101004,1529980227,,0,8
-170,2018-6-26,2018,6,26,11,8twh5m,/r/EXO x EXOcord Weekly Watch - Friday June 29 @ 10PM EST,99101004,1529981080,"Hey Subbies! Just your friendly neighborhood mod stopping by to let you know about EXOcord's (our discord server) weekly group watch\~ Every Friday @ 10PM EST we gather on [Rabb.it](https://Rabb.it) to watch things we may have missed from the week (example: Subbed Episodes of CBX's Reality Show) + one other larger thing, like a movie or a concert.
+Please check out my dance cover of Exo call me baby , would love all the kpop and exo- to check it out :)",2,1,False,self,,,,,
+169,exo,t5_2tvxy,2018-6-26,2018,6,26,11,8twdyg,vlive.tv,180626 Kai - 'Star Road' Teaser,https://www.reddit.com/r/exo/comments/8twdyg/180626_kai_star_road_teaser/,99101004,1529980227,,0,8,False,default,,,,,
+170,exo,t5_2tvxy,2018-6-26,2018,6,26,11,8twh5m,self.exo,/r/EXO x EXOcord Weekly Watch - Friday June 29 @ 10PM EST,https://www.reddit.com/r/exo/comments/8twh5m/rexo_x_exocord_weekly_watch_friday_june_29_10pm/,99101004,1529981080,"Hey Subbies! Just your friendly neighborhood mod stopping by to let you know about EXOcord's (our discord server) weekly group watch\~ Every Friday @ 10PM EST we gather on [Rabb.it](https://Rabb.it) to watch things we may have missed from the week (example: Subbed Episodes of CBX's Reality Show) + one other larger thing, like a movie or a concert.
 
 If you can make it to this weeks watch, please feel free to post suggestions below for what you would like to watch this upcoming Friday! A few suggestions from our Discord have been The Lost Planet Concert, Weekly Idol, Knowing Bros, Watching the entire CBX subbed reality show (like a halfway recap for those who haven't seen it yet). Let us know below if you have any other suggestions or if you like any of these suggestions!
 
-I will post a link in the comments on Friday a few hours prior to the group watch for where we are watching things and what the agenda is looking like. Looking forward to seeing you guys there!",0,4
-171,2018-6-26,2018,6,26,11,8twhg9,180620 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 23,99101004,1529981157,,0,12
-172,2018-6-26,2018,6,26,11,8twhx9,180623 Chanyeol - Salty Tour EP 29,99101004,1529981276,,0,8
-173,2018-6-26,2018,6,26,11,8twige,Luhan x Machinedrum - Skin to Skin (Remix),99101004,1529981411,,0,6
-174,2018-6-26,2018,6,26,11,8twirh,Park Chanyeol is my savior. : ) idontunderstandredditimnew,milkyloey,1529981496,,1,1
-175,2018-6-26,2018,6,26,11,8twixb,180625 Kai Instagram Video Update,99101004,1529981542,,1,16
-176,2018-6-26,2018,6,26,11,8twk8r,"180625 Lay Instagram Update ""#5 Magical things start happening when the fire burns. #believe""",99101004,1529981872,,0,9
-177,2018-6-26,2018,6,26,13,8tx2o9,EXO-L Casual Convo #169 + /r/EXO 2018 Census Discussion,joyceberry,1529986781,"##Casual Convo
+I will post a link in the comments on Friday a few hours prior to the group watch for where we are watching things and what the agenda is looking like. Looking forward to seeing you guys there!",0,4,False,self,,,,,
+171,exo,t5_2tvxy,2018-6-26,2018,6,26,11,8twhg9,dailymotion.com,180620 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 23,https://www.reddit.com/r/exo/comments/8twhg9/180620_exocbx_travel_the_world_on_exos_ladder/,99101004,1529981157,,0,12,False,https://b.thumbs.redditmedia.com/79vY7Kg3XE7kV2Ch_EbG91h5nnBByJpzpV9liZkd2BA.jpg,,,,,
+172,exo,t5_2tvxy,2018-6-26,2018,6,26,11,8twhx9,kshowonline.com,180623 Chanyeol - Salty Tour EP 29,https://www.reddit.com/r/exo/comments/8twhx9/180623_chanyeol_salty_tour_ep_29/,99101004,1529981276,,0,8,False,https://b.thumbs.redditmedia.com/KWiG_hGQaIxhc5NifwHKrYztME-FhVh8M7UyXUg8Gck.jpg,,,,,
+173,exo,t5_2tvxy,2018-6-26,2018,6,26,11,8twige,youtu.be,Luhan x Machinedrum - Skin to Skin (Remix),https://www.reddit.com/r/exo/comments/8twige/luhan_x_machinedrum_skin_to_skin_remix/,99101004,1529981411,,0,6,False,default,,,,,
+174,exo,t5_2tvxy,2018-6-26,2018,6,26,11,8twirh,i.redd.it,Park Chanyeol is my savior. : ) idontunderstandredditimnew,https://www.reddit.com/r/exo/comments/8twirh/park_chanyeol_is_my_savior/,milkyloey,1529981496,,1,1,False,https://b.thumbs.redditmedia.com/rbuswfdQnozob5-6CciBK0eu8u2ms1UfTcs2dXrmRiw.jpg,,,,,
+175,exo,t5_2tvxy,2018-6-26,2018,6,26,11,8twixb,instagram.com,180625 Kai Instagram Video Update,https://www.reddit.com/r/exo/comments/8twixb/180625_kai_instagram_video_update/,99101004,1529981542,,1,16,False,default,,,,,
+176,exo,t5_2tvxy,2018-6-26,2018,6,26,11,8twk8r,instagram.com,"180625 Lay Instagram Update ""#5 Magical things start happening when the fire burns. #believe""",https://www.reddit.com/r/exo/comments/8twk8r/180625_lay_instagram_update_5_magical_things/,99101004,1529981872,,0,9,False,default,,,,,
+177,exo,t5_2tvxy,2018-6-26,2018,6,26,13,8tx2o9,self.exo,EXO-L Casual Convo #169 + /r/EXO 2018 Census Discussion,https://www.reddit.com/r/exo/comments/8tx2o9/exol_casual_convo_169_rexo_2018_census_discussion/,joyceberry,1529986781,"##Casual Convo
 
 Hello everyone! Joyce here, and welcome to r/EXOs CC #169! 
 
@@ -346,8 +346,8 @@ Thank you for reading,
 ## [EXO-L LET'S LOVE!](https://i.pinimg.com/originals/bb/b8/46/bbb846554eef90e1784b8e125d2d7f61.gif)
 
 [**Casual Convo Masterlist**](https://www.reddit.com/r/exo/wiki/weekly-threads#wiki_casual_convo_sundays) 
-",16,11
-178,2018-6-26,2018,6,26,13,8tx3eh,"180620-21 Suho - 'Rich Man, Poor Woman' EP 13 + 14",carinabon,1529986989,"EP 13 
+",16,11,False,self,,,,,
+178,exo,t5_2tvxy,2018-6-26,2018,6,26,13,8tx3eh,self.exo,"180620-21 Suho - 'Rich Man, Poor Woman' EP 13 + 14",https://www.reddit.com/r/exo/comments/8tx3eh/18062021_suho_rich_man_poor_woman_ep_13_14/,carinabon,1529986989,"EP 13 
 
 [Viki](https://www.viki.com/videos/1127297v-rich-man-poor-woman-episode-13)
 
@@ -357,21 +357,21 @@ EP 14
 
 [Viki](https://www.viki.com/videos/1127298v-rich-man-poor-woman-episode-14)
 
-[DramaCool](https://www3.watchasian.co/rich-man-episode-14.html)",0,15
-179,2018-6-27,2018,6,27,0,8u0qdv,180621 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 24,Xaille,1530025506,,0,14
-180,2018-6-27,2018,6,27,0,8u0qz7,"180626 Lay Instagram Update ""Im so proud to be part of the Biotherm Homme family. Follow @biothermhomme to discover my new exciting adventure #BiothermHomme #AchieveMore And thanks for my fans""",Xaille,1530025622,,0,15
-181,2018-6-27,2018,6,27,11,8u5wvu,180627 Kai - GQ Korea,99101004,1530066195,,2,28
-182,2018-6-27,2018,6,27,14,8u729t,180627 Kai Instagram Update,Xaille,1530077788,,0,5
-183,2018-6-27,2018,6,27,23,8u9zgl,180618 EXO-CBX - Safety Honorary Ambassador Appointment Ceremony with SNSD Yoona,Xaille,1530109169,,0,26
-184,2018-6-27,2018,6,27,23,8ua08n,180627 Kai Instagram Updates; Second Link in Comments,Xaille,1530109346,,0,1
-185,2018-6-27,2018,6,27,23,8ua0fe,180627 Kai Instagram Updates; Links in Comments,Xaille,1530109388,,4,14
-186,2018-6-27,2018,6,27,23,8ua22p,180627 Luhan - Your Song Official MV,Xaille,1530109740,,0,1
-187,2018-6-27,2018,6,27,23,8ua267,180627 Luhan - 'Your Song' Music Video,Xaille,1530109764,,0,1
-188,2018-6-27,2018,6,27,23,8ua3ni,180627 Kai - 'Star Road' Teaser #2,Xaille,1530110085,,0,9
-189,2018-6-27,2018,6,27,23,8ua4zx,180627 Lay - 'The Golden Eyes' Behind the Scenes Clip,Xaille,1530110369,,0,13
-190,2018-6-28,2018,6,28,1,8uax2p,"Kris Wu - Come Sing With Me EP 9, Live Mini Album",99101004,1530116130,,0,7
-191,2018-6-28,2018,6,28,1,8ubahr,180622 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 25,99101004,1530118751,,0,12
-192,2018-6-28,2018,6,28,5,8ucyh3,What's a song you didn't like at first but then grew to love?,Xaille,1530130514,"There's always that one song that pops into my mind that still blows me away today, and that's: 
+[DramaCool](https://www3.watchasian.co/rich-man-episode-14.html)",0,15,False,self,,,,,
+179,exo,t5_2tvxy,2018-6-27,2018,6,27,0,8u0qdv,dailymotion.com,180621 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 24,https://www.reddit.com/r/exo/comments/8u0qdv/180621_exocbx_travel_the_world_on_exos_ladder/,Xaille,1530025506,,0,14,False,default,,,,,
+180,exo,t5_2tvxy,2018-6-27,2018,6,27,0,8u0qz7,instagram.com,"180626 Lay Instagram Update ""Im so proud to be part of the Biotherm Homme family. Follow @biothermhomme to discover my new exciting adventure #BiothermHomme #AchieveMore And thanks for my fans""",https://www.reddit.com/r/exo/comments/8u0qz7/180626_lay_instagram_update_im_so_proud_to_be/,Xaille,1530025622,,0,15,False,default,,,,,
+181,exo,t5_2tvxy,2018-6-27,2018,6,27,11,8u5wvu,imgur.com,180627 Kai - GQ Korea,https://www.reddit.com/r/exo/comments/8u5wvu/180627_kai_gq_korea/,99101004,1530066195,,2,28,False,default,,,,,
+182,exo,t5_2tvxy,2018-6-27,2018,6,27,14,8u729t,instagram.com,180627 Kai Instagram Update,https://www.reddit.com/r/exo/comments/8u729t/180627_kai_instagram_update/,Xaille,1530077788,,0,5,False,default,,,,,
+183,exo,t5_2tvxy,2018-6-27,2018,6,27,23,8u9zgl,youtube.com,180618 EXO-CBX - Safety Honorary Ambassador Appointment Ceremony with SNSD Yoona,https://www.reddit.com/r/exo/comments/8u9zgl/180618_exocbx_safety_honorary_ambassador/,Xaille,1530109169,,0,26,False,https://b.thumbs.redditmedia.com/aq-HgYShs114-wKTvxFpias8w7QYDGFus9cquxWSMpc.jpg,,,,,
+184,exo,t5_2tvxy,2018-6-27,2018,6,27,23,8ua08n,instagram.com,180627 Kai Instagram Updates; Second Link in Comments,https://www.reddit.com/r/exo/comments/8ua08n/180627_kai_instagram_updates_second_link_in/,Xaille,1530109346,,0,1,False,default,,,,,
+185,exo,t5_2tvxy,2018-6-27,2018,6,27,23,8ua0fe,instagram.com,180627 Kai Instagram Updates; Links in Comments,https://www.reddit.com/r/exo/comments/8ua0fe/180627_kai_instagram_updates_links_in_comments/,Xaille,1530109388,,4,14,False,default,,,,,
+186,exo,t5_2tvxy,2018-6-27,2018,6,27,23,8ua22p,youtube.com,180627 Luhan - Your Song Official MV,https://www.reddit.com/r/exo/comments/8ua22p/180627_luhan_your_song_official_mv/,Xaille,1530109740,,0,1,False,https://b.thumbs.redditmedia.com/vQkBEZnjBPvYUHRMZDOeWP6V6CrTSHT2GKTa2dE-VjI.jpg,,,,,
+187,exo,t5_2tvxy,2018-6-27,2018,6,27,23,8ua267,youtube.com,180627 Luhan - 'Your Song' Music Video,https://www.reddit.com/r/exo/comments/8ua267/180627_luhan_your_song_music_video/,Xaille,1530109764,,0,1,False,https://b.thumbs.redditmedia.com/vQkBEZnjBPvYUHRMZDOeWP6V6CrTSHT2GKTa2dE-VjI.jpg,,,,,
+188,exo,t5_2tvxy,2018-6-27,2018,6,27,23,8ua3ni,m.vlive.tv,180627 Kai - 'Star Road' Teaser #2,https://www.reddit.com/r/exo/comments/8ua3ni/180627_kai_star_road_teaser_2/,Xaille,1530110085,,0,9,False,default,,,,,
+189,exo,t5_2tvxy,2018-6-27,2018,6,27,23,8ua4zx,twitter.com,180627 Lay - 'The Golden Eyes' Behind the Scenes Clip,https://www.reddit.com/r/exo/comments/8ua4zx/180627_lay_the_golden_eyes_behind_the_scenes_clip/,Xaille,1530110369,,0,13,False,default,,,,,
+190,exo,t5_2tvxy,2018-6-28,2018,6,28,1,8uax2p,open.spotify.com,"Kris Wu - Come Sing With Me EP 9, Live Mini Album",https://www.reddit.com/r/exo/comments/8uax2p/kris_wu_come_sing_with_me_ep_9_live_mini_album/,99101004,1530116130,,0,7,False,default,,,,,
+191,exo,t5_2tvxy,2018-6-28,2018,6,28,1,8ubahr,dai.ly,180622 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 25,https://www.reddit.com/r/exo/comments/8ubahr/180622_exocbx_travel_the_world_on_exos_ladder/,99101004,1530118751,,0,12,False,default,,,,,
+192,exo,t5_2tvxy,2018-6-28,2018,6,28,5,8ucyh3,self.exo,What's a song you didn't like at first but then grew to love?,https://www.reddit.com/r/exo/comments/8ucyh3/whats_a_song_you_didnt_like_at_first_but_then/,Xaille,1530130514,"There's always that one song that pops into my mind that still blows me away today, and that's: 
 
 **El Dorado**
 
@@ -383,18 +383,18 @@ Sometimes it takes more than one listen for me to truly realize how great (or ba
 
 What's a song you've come to love? I'm really interested in how you've found out that you actually really love whatever song it may be! When was your *""wtf I'm crazy for skipping this!""* moment?
 
-[Please enjoy this Beijing El Dorado Baek focus (150719) \~](https://www.youtube.com/watch?v=zkdWKhxJ2sU)  ",48,30
-193,2018-6-28,2018,6,28,15,8ugxpl,Luhan x TroyBoi - Lu Remix,Xaille,1530168160,,0,8
-194,2018-6-28,2018,6,28,15,8ugyjr,180628 Luhan is the new endorser of Wrigley's Extra,Xaille,1530168487,,0,9
-195,2018-6-28,2018,6,28,23,8ujqsy,180628 Tao - Interview with Grazia Beauty,Xaille,1530194901,,0,10
-196,2018-6-28,2018,6,28,23,8ujrho,180628 Tao - SUGAR Phone S20 Commercial,Xaille,1530195030,,0,12
-197,2018-6-29,2018,6,29,1,8ul811,180625 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 26,carinabon,1530204762,,0,14
-198,2018-6-29,2018,6,29,4,8umqzm,Why aren't Chen and Kai more popular?,wonderful9235,1530215142,"I like the other members--I get why they're popular. But I don't see much about Kai, even though In my opinion, he's the best dancer in the group, and really good looking. Also, Chen has, objectively, the best voice (I like the other guy's voices too) and he seems like a sweet guy!! Also, I don't get the deal with Sehun--I mean yeah he's hot, but he doesn't seem to actually do much other than look good and throw in a few ""rap"" lines here and there. So yeah. Why don't Chen and Kai have as many stans? ",2,0
-199,2018-6-29,2018,6,29,8,8uoh8a,"Fan Fiction of the Week: ""You"" Please post your favorite fan creations in the comments!",wistfulove,1530228882,,18,5
-200,2018-6-29,2018,6,29,23,8uthj1,"180629 Luhan Instagram Update ""shall we go""",Xaille,1530281970,,0,11
-201,2018-6-29,2018,6,29,23,8uthmc,"180629 Kai Instagram Update ""#ellekorea""",Xaille,1530282000,,0,10
-202,2018-6-30,2018,6,30,0,8utusn,180623-29 ICYMI: EXO Weekly News &amp; Updates,99101004,1530284895,,0,8
-203,2018-6-30,2018,6,30,0,8uty9b,Tonight's Weekly Watch: EPs 21-26 of CBX Reality + Chanyeol's Salty Tour EPs 26-29,99101004,1530285634,"Hey Subbies! Just your friendly neighborhood mod stopping by to let you know about EXOcord's (our discord server) weekly group watch\~ Every Friday @ 10PM EST we gather on [Rabb.it](https://www.rabb.it/quatchi) to watch things we may have missed from the week (example: Subbed Episodes of CBX's Reality Show) + one other larger thing, like a movie or a concert. 
+[Please enjoy this Beijing El Dorado Baek focus (150719) \~](https://www.youtube.com/watch?v=zkdWKhxJ2sU)  ",48,30,False,self,,,,,
+193,exo,t5_2tvxy,2018-6-28,2018,6,28,15,8ugxpl,open.spotify.com,Luhan x TroyBoi - Lu Remix,https://www.reddit.com/r/exo/comments/8ugxpl/luhan_x_troyboi_lu_remix/,Xaille,1530168160,,0,8,False,default,,,,,
+194,exo,t5_2tvxy,2018-6-28,2018,6,28,15,8ugyjr,twitter.com,180628 Luhan is the new endorser of Wrigley's Extra,https://www.reddit.com/r/exo/comments/8ugyjr/180628_luhan_is_the_new_endorser_of_wrigleys_extra/,Xaille,1530168487,,0,9,False,default,,,,,
+195,exo,t5_2tvxy,2018-6-28,2018,6,28,23,8ujqsy,youtube.com,180628 Tao - Interview with Grazia Beauty,https://www.reddit.com/r/exo/comments/8ujqsy/180628_tao_interview_with_grazia_beauty/,Xaille,1530194901,,0,10,False,default,,,,,
+196,exo,t5_2tvxy,2018-6-28,2018,6,28,23,8ujrho,twitter.com,180628 Tao - SUGAR Phone S20 Commercial,https://www.reddit.com/r/exo/comments/8ujrho/180628_tao_sugar_phone_s20_commercial/,Xaille,1530195030,,0,12,False,https://b.thumbs.redditmedia.com/05u1BxCNQM-B_eveBOjlO08dBP8PUfa14Ww4Qiu4sqA.jpg,,,,,
+197,exo,t5_2tvxy,2018-6-29,2018,6,29,1,8ul811,dailymotion.com,180625 EXO-CBX - 'Travel the World on EXO's Ladder: CBX's Japan Chapter' EP 26,https://www.reddit.com/r/exo/comments/8ul811/180625_exocbx_travel_the_world_on_exos_ladder/,carinabon,1530204762,,0,14,False,default,,,,,
+198,exo,t5_2tvxy,2018-6-29,2018,6,29,4,8umqzm,self.exo,Why aren't Chen and Kai more popular?,https://www.reddit.com/r/exo/comments/8umqzm/why_arent_chen_and_kai_more_popular/,wonderful9235,1530215142,"I like the other members--I get why they're popular. But I don't see much about Kai, even though In my opinion, he's the best dancer in the group, and really good looking. Also, Chen has, objectively, the best voice (I like the other guy's voices too) and he seems like a sweet guy!! Also, I don't get the deal with Sehun--I mean yeah he's hot, but he doesn't seem to actually do much other than look good and throw in a few ""rap"" lines here and there. So yeah. Why don't Chen and Kai have as many stans? ",2,0,False,self,,,,,
+199,exo,t5_2tvxy,2018-6-29,2018,6,29,8,8uoh8a,peachykaix.tumblr.com,"Fan Fiction of the Week: ""You"" Please post your favorite fan creations in the comments!",https://www.reddit.com/r/exo/comments/8uoh8a/fan_fiction_of_the_week_you_please_post_your/,wistfulove,1530228882,,18,5,False,default,,,,,
+200,exo,t5_2tvxy,2018-6-29,2018,6,29,23,8uthj1,instagram.com,"180629 Luhan Instagram Update ""shall we go""",https://www.reddit.com/r/exo/comments/8uthj1/180629_luhan_instagram_update_shall_we_go/,Xaille,1530281970,,0,11,False,default,,,,,
+201,exo,t5_2tvxy,2018-6-29,2018,6,29,23,8uthmc,instagram.com,"180629 Kai Instagram Update ""#ellekorea""",https://www.reddit.com/r/exo/comments/8uthmc/180629_kai_instagram_update_ellekorea/,Xaille,1530282000,,0,10,False,default,,,,,
+202,exo,t5_2tvxy,2018-6-30,2018,6,30,0,8utusn,twitter.com,180623-29 ICYMI: EXO Weekly News &amp; Updates,https://www.reddit.com/r/exo/comments/8utusn/18062329_icymi_exo_weekly_news_updates/,99101004,1530284895,,0,8,False,default,,,,,
+203,exo,t5_2tvxy,2018-6-30,2018,6,30,0,8uty9b,self.exo,Tonight's Weekly Watch: EPs 21-26 of CBX Reality + Chanyeol's Salty Tour EPs 26-29,https://www.reddit.com/r/exo/comments/8uty9b/tonights_weekly_watch_eps_2126_of_cbx_reality/,99101004,1530285634,"Hey Subbies! Just your friendly neighborhood mod stopping by to let you know about EXOcord's (our discord server) weekly group watch\~ Every Friday @ 10PM EST we gather on [Rabb.it](https://www.rabb.it/quatchi) to watch things we may have missed from the week (example: Subbed Episodes of CBX's Reality Show) + one other larger thing, like a movie or a concert. 
 
 # Tonight starting at [10PM EST](http://www.thetimezoneconverter.com/) we will be watching: 
 
@@ -406,8 +406,8 @@ What's a song you've come to love? I'm really interested in how you've found out
 
 You definitely don't have to be there right at the beginning, you can join in at any time! Everyone is super friendly and these events are amazing for new fans, or people who want to interact more with other fans. We tend to go off schedule a lot of watch lots of fun things as we go. 
 
-Hope to see you there!",1,8
-204,2018-6-30,2018,6,30,8,8uxhz6,180630 Lay Studio Weibo Update: statement on the official end to Lay's contract as Huawei Nova's spokesperson; full translation in post,vena-cava,1530313279,,1,11
-205,2018-6-30,2018,6,30,12,8uz3t0,180630 Kai Instagram Update,Xaille,1530329370,,0,2
-206,2018-6-30,2018,6,30,13,8uzjhv,180630 Kai Instagram Updates; Links in Comments,Xaille,1530334212,,1,12
-207,2018-6-30,2018,6,30,14,8uzmwk,"180630 Lay Instagram Update ""I am truly grateful for all of my fans. Each and every one of you is unique, beautiful, and amazing like a rainbow. #love #fans""",Xaille,1530335312,,2,23
+Hope to see you there!",1,8,False,self,,,,,
+204,exo,t5_2tvxy,2018-6-30,2018,6,30,8,8uxhz6,twitter.com,180630 Lay Studio Weibo Update: statement on the official end to Lay's contract as Huawei Nova's spokesperson; full translation in post,https://www.reddit.com/r/exo/comments/8uxhz6/180630_lay_studio_weibo_update_statement_on_the/,vena-cava,1530313279,,1,11,False,default,,,,,
+205,exo,t5_2tvxy,2018-6-30,2018,6,30,12,8uz3t0,instagram.com,180630 Kai Instagram Update,https://www.reddit.com/r/exo/comments/8uz3t0/180630_kai_instagram_update/,Xaille,1530329370,,0,2,False,default,,,,,
+206,exo,t5_2tvxy,2018-6-30,2018,6,30,13,8uzjhv,instagram.com,180630 Kai Instagram Updates; Links in Comments,https://www.reddit.com/r/exo/comments/8uzjhv/180630_kai_instagram_updates_links_in_comments/,Xaille,1530334212,,1,12,False,default,,,,,
+207,exo,t5_2tvxy,2018-6-30,2018,6,30,14,8uzmwk,instagram.com,"180630 Lay Instagram Update ""I am truly grateful for all of my fans. Each and every one of you is unique, beautiful, and amazing like a rainbow. #love #fans""",https://www.reddit.com/r/exo/comments/8uzmwk/180630_lay_instagram_update_i_am_truly_grateful/,Xaille,1530335312,,2,23,False,default,,,,,

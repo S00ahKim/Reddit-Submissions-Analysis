@@ -1,11 +1,11 @@
-,date,year,month,day,hour,id,title,full_link,author,created,selftext,num_comments,score
-0,2018-1-1,2018,1,1,16,7ndyun,How to use facenet help!,https://www.reddit.com/r/tensorflow/comments/7ndyun/how_to_use_facenet_help/,rupax,1514791721,"I'm an absolute beginner at this, and I want to run facenet on my system. My end goal is to use facenet to recognise people from my home CCTV setup, but I cant get past the initial setup for facenet to even validate on LFW.
+,sbr,sbr_id,date,year,month,hour,day,id,domain,title,full_link,author,created,selftext,num_comments,score,over_18,thumbnail,media_provider,media_thumbnail,media_title,media_description,media_url
+0,tensorflow,t5_3alkk,2018-1-1,2018,1,1,16,7ndyun,self.tensorflow,How to use facenet help!,https://www.reddit.com/r/tensorflow/comments/7ndyun/how_to_use_facenet_help/,rupax,1514791721,"I'm an absolute beginner at this, and I want to run facenet on my system. My end goal is to use facenet to recognise people from my home CCTV setup, but I cant get past the initial setup for facenet to even validate on LFW.
 
 Could any of you help me out. Anything that you think I should read up on, or issues you ran into while running your own facenet or related technology would be great.
 
-Thanks for your help Reddit! And have a great new year!",0,1
-1,2018-1-1,2018,1,1,22,7nf2xu,Global Variables Initializer,https://www.reddit.com/r/tensorflow/comments/7nf2xu/global_variables_initializer/,sergeybok,1514812426,"Does anyone know if you initialize some variables train them, and then add to the network some other parts and run the tf.global_variables_initializer() again, does that overwrite the previous variables, or does it only initialize the uninitialized variables?",5,1
-2,2018-1-4,2018,1,4,5,7nxbzp,"OS version and Tensorflow version questions, sysadmin question.",https://www.reddit.com/r/tensorflow/comments/7nxbzp/os_version_and_tensorflow_version_questions/,IronWolve,1515010479,"I have a dell R740XD with raid hardware that's not supported by Ubuntu 16.04.3 LTS, but in a few months both 16.04.4 update and 18.04 LTS will be out that supports my perc card.
+Thanks for your help Reddit! And have a great new year!",0,1,False,self,,,,,
+1,tensorflow,t5_3alkk,2018-1-1,2018,1,1,22,7nf2xu,self.tensorflow,Global Variables Initializer,https://www.reddit.com/r/tensorflow/comments/7nf2xu/global_variables_initializer/,sergeybok,1514812426,"Does anyone know if you initialize some variables train them, and then add to the network some other parts and run the tf.global_variables_initializer() again, does that overwrite the previous variables, or does it only initialize the uninitialized variables?",5,1,False,self,,,,,
+2,tensorflow,t5_3alkk,2018-1-4,2018,1,4,5,7nxbzp,self.tensorflow,"OS version and Tensorflow version questions, sysadmin question.",https://www.reddit.com/r/tensorflow/comments/7nxbzp/os_version_and_tensorflow_version_questions/,IronWolve,1515010479,"I have a dell R740XD with raid hardware that's not supported by Ubuntu 16.04.3 LTS, but in a few months both 16.04.4 update and 18.04 LTS will be out that supports my perc card.
 
 I installed unreleased 18.04 LTS server with latest nvidia cuda 9.1 driver, with downloadable nvidia cuda 8 and tensorflow (pip python3), verified everything is working via test scripts.
 
@@ -14,8 +14,8 @@ I'd rather use an LTS, but they want Ubuntu and I normally run Centos 7 on all m
 Would this be ok? 
 
 Thoughts? Problems? 
-",3,2
-3,2018-1-4,2018,1,4,14,7o0sx4,"What is the syntax to predict output based on already run session, with input variable x and output variable y?",https://www.reddit.com/r/tensorflow/comments/7o0sx4/what_is_the_syntax_to_predict_output_based_on/,JackHoYVR,1515043078,"I've modified some tutorial code which basically takes a list of x float32s as input and multiplies them by 2 for y. Then I run a session to generate the predictor function for 500 epochs. This part works fine (the training). I can't, however, seem to figure out the correct syntax to feed in a list of test x's and get the graph to predict the output based on the test x's.   Here's a snippet of the final code (and the error I get at the bottom of the snippet) and a link to the entire source code (pretty short example) on github:  
+",3,2,False,self,,,,,
+3,tensorflow,t5_3alkk,2018-1-4,2018,1,4,14,7o0sx4,self.tensorflow,"What is the syntax to predict output based on already run session, with input variable x and output variable y?",https://www.reddit.com/r/tensorflow/comments/7o0sx4/what_is_the_syntax_to_predict_output_based_on/,JackHoYVR,1515043078,"I've modified some tutorial code which basically takes a list of x float32s as input and multiplies them by 2 for y. Then I run a session to generate the predictor function for 500 epochs. This part works fine (the training). I can't, however, seem to figure out the correct syntax to feed in a list of test x's and get the graph to predict the output based on the test x's.   Here's a snippet of the final code (and the error I get at the bottom of the snippet) and a link to the entire source code (pretty short example) on github:  
 
 
 
@@ -35,17 +35,17 @@ github link to whole code:
 https://github.com/JackHoYVR/Tensorflow-scratch/blob/master/read_csv_list_into_tf.py  
 
 Thanks in advance to anyone with any pointers.  
-",3,1
-4,2018-1-5,2018,1,5,0,7o3m78,Switching To Tensorflow from CNTK,https://www.reddit.com/r/tensorflow/comments/7o3m78/switching_to_tensorflow_from_cntk/,Clevelandlandlord,1515079224,What should I read install and do to get acclimated? ,1,3
-5,2018-1-5,2018,1,5,19,7oahdq,"TensorFlow Dev summit 2018 will be on March 30th, 2018",https://www.reddit.com/r/tensorflow/comments/7oahdq/tensorflow_dev_summit_2018_will_be_on_march_30th/,ajmssc,1515149421,"Signup at https://services.google.com/fb/forms/tfds-2018-save-the-date/
+",3,1,False,self,,,,,
+4,tensorflow,t5_3alkk,2018-1-5,2018,1,5,0,7o3m78,self.tensorflow,Switching To Tensorflow from CNTK,https://www.reddit.com/r/tensorflow/comments/7o3m78/switching_to_tensorflow_from_cntk/,Clevelandlandlord,1515079224,What should I read install and do to get acclimated? ,1,3,False,self,,,,,
+5,tensorflow,t5_3alkk,2018-1-5,2018,1,5,19,7oahdq,self.tensorflow,"TensorFlow Dev summit 2018 will be on March 30th, 2018",https://www.reddit.com/r/tensorflow/comments/7oahdq/tensorflow_dev_summit_2018_will_be_on_march_30th/,ajmssc,1515149421,"Signup at https://services.google.com/fb/forms/tfds-2018-save-the-date/
 
- https://twitter.com/TensorFlow/status/949017805667557376?s=09",0,2
-6,2018-1-5,2018,1,5,23,7objv0,Tensorflow with React-native,https://www.reddit.com/r/tensorflow/comments/7objv0/tensorflow_with_reactnative/,mahesh_98,1515162908,Can Tensorflow be integrated with a React-native?  Is there any way to go about doing this?,3,2
-7,2018-1-7,2018,1,7,1,7ok8wv,"Want to learn how to make your own TENSORFLOW ACCURATE IMAGE Classifier in just 5 MINUTES? Check this video out, and if you enjoy the tutorial, make sure to subscribe. :)",https://www.reddit.com/r/tensorflow/comments/7ok8wv/want_to_learn_how_to_make_your_own_tensorflow/,DiscoverAI,1515256901,,2,9
-8,2018-1-7,2018,1,7,10,7onkxa,Trouble getting installed.,https://www.reddit.com/r/tensorflow/comments/7onkxa/trouble_getting_installed/,[deleted],1515288666,[deleted],0,1
-9,2018-1-8,2018,1,8,0,7or78o,Mushroom Classification using Tensorflow and sklearn.,https://www.reddit.com/r/tensorflow/comments/7or78o/mushroom_classification_using_tensorflow_and/,[deleted],1515339570,[deleted],1,1
-10,2018-1-8,2018,1,8,0,7ora19,[D] Mushroom Classification in Tensorflow,https://www.reddit.com/r/tensorflow/comments/7ora19/d_mushroom_classification_in_tensorflow/,_JayJohn,1515340405,Create a classifier to distinguish between mushrooms (Dataset included),2,1
-11,2018-1-9,2018,1,9,1,7ozjwg,Could you offer some assessment and startup-hints for my bachelor thesis?,https://www.reddit.com/r/tensorflow/comments/7ozjwg/could_you_offer_some_assessment_and_startuphints/,mihael2039,1515428256,"Maybe some words of context: 
+ https://twitter.com/TensorFlow/status/949017805667557376?s=09",0,2,False,self,,,,,
+6,tensorflow,t5_3alkk,2018-1-5,2018,1,5,23,7objv0,self.tensorflow,Tensorflow with React-native,https://www.reddit.com/r/tensorflow/comments/7objv0/tensorflow_with_reactnative/,mahesh_98,1515162908,Can Tensorflow be integrated with a React-native?  Is there any way to go about doing this?,3,2,False,self,,,,,
+7,tensorflow,t5_3alkk,2018-1-7,2018,1,7,1,7ok8wv,youtube.com,"Want to learn how to make your own TENSORFLOW ACCURATE IMAGE Classifier in just 5 MINUTES? Check this video out, and if you enjoy the tutorial, make sure to subscribe. :)",https://www.reddit.com/r/tensorflow/comments/7ok8wv/want_to_learn_how_to_make_your_own_tensorflow/,DiscoverAI,1515256901,,2,9,False,https://b.thumbs.redditmedia.com/Fzz3kC5Ztf1-BUZmWyNuLmIGPjbORd7KClVQNIZ3Kfk.jpg,,,,,
+8,tensorflow,t5_3alkk,2018-1-7,2018,1,7,10,7onkxa,self.tensorflow,Trouble getting installed.,https://www.reddit.com/r/tensorflow/comments/7onkxa/trouble_getting_installed/,[deleted],1515288666,[deleted],0,1,False,default,,,,,
+9,tensorflow,t5_3alkk,2018-1-8,2018,1,8,0,7or78o,self.tensorflow,Mushroom Classification using Tensorflow and sklearn.,https://www.reddit.com/r/tensorflow/comments/7or78o/mushroom_classification_using_tensorflow_and/,[deleted],1515339570,[deleted],1,1,False,default,,,,,
+10,tensorflow,t5_3alkk,2018-1-8,2018,1,8,0,7ora19,self.tensorflow,[D] Mushroom Classification in Tensorflow,https://www.reddit.com/r/tensorflow/comments/7ora19/d_mushroom_classification_in_tensorflow/,_JayJohn,1515340405,Create a classifier to distinguish between mushrooms (Dataset included),2,1,False,self,,,,,
+11,tensorflow,t5_3alkk,2018-1-9,2018,1,9,1,7ozjwg,self.tensorflow,Could you offer some assessment and startup-hints for my bachelor thesis?,https://www.reddit.com/r/tensorflow/comments/7ozjwg/could_you_offer_some_assessment_and_startuphints/,mihael2039,1515428256,"Maybe some words of context: 
 I'm studying business informatics and got some knowledge in programming and computer science. But I'm new to the field of AI and the use of tensorflow. I'm really interested in both, but generally find it rather hard to entry.
 That's why, for my bachelor thesis, I want to create a prototype of a negotiation training assistant. There are already some existant with the use of Expert Systems. The AI is generally weak in them.
 And these are operating to find an optimum solution in negotiations. As studies has shown, people are likely to decline good offers, if they are threated unfriendly. So, I want to simulate this ""socio-emotional behaviour"". 
@@ -66,8 +66,8 @@ Here is a (very basic) draft of the project: [Link!](https://www.buechele-servic
 
 5. Which tensorflow models come to your mind, if you hear about the goal?
 
-6. Other thoughts? Input? Further questions? Please share and let's discuss. Every interaction is highly appreciated.",2,2
-12,2018-1-10,2018,1,10,3,7p9acb,Proper method to segment Tensorflow graphs - (pb) into subgraphs?,https://www.reddit.com/r/tensorflow/comments/7p9acb/proper_method_to_segment_tensorflow_graphs_pb/,vade,1515524153,"I am attempting to optimize inference in my C++ application by segmenting some graphs and chaining them together to remove redundant inference calculations.
+6. Other thoughts? Input? Further questions? Please share and let's discuss. Every interaction is highly appreciated.",2,2,False,self,,,,,
+12,tensorflow,t5_3alkk,2018-1-10,2018,1,10,3,7p9acb,self.tensorflow,Proper method to segment Tensorflow graphs - (pb) into subgraphs?,https://www.reddit.com/r/tensorflow/comments/7p9acb/proper_method_to_segment_tensorflow_graphs_pb/,vade,1515524153,"I am attempting to optimize inference in my C++ application by segmenting some graphs and chaining them together to remove redundant inference calculations.
 
 My goal is to segment to have a main inference graph so it runs input -&gt; feature vector, and then segment each trained model to a into a smaller classifier graph which takes feature vector (calculated once with the aforementioned graph) and returns label probabilities for all my classifiers. This way I run inference once, and lighter classification n times.
 
@@ -91,31 +91,31 @@ For example - running summarize graph on my smaller classifiers indicates the in
 
 What am I doing wrong here ha.
 
-Thanks for any info.",0,1
-13,2018-1-10,2018,1,10,23,7pfydd,Add additional variable to CNN in TF,https://www.reddit.com/r/tensorflow/comments/7pfydd/add_additional_variable_to_cnn_in_tf/,donjuan1337,1515595081,I'm looking for code examples or solutions to add additional input data to a CNN after the convolution/max layers. I've found [this](https://stackoverflow.com/questions/42556919/adding-a-variable-into-keras-tensorflow-cnn-dense-layer) from stack but the solution is based on the keras framework. The link will also clarify what I'm looking for.,2,3
-14,2018-1-11,2018,1,11,3,7phnmz,What all should an hour long tensorflow tutorial for undergraduate sophomores cover?,https://www.reddit.com/r/tensorflow/comments/7phnmz/what_all_should_an_hour_long_tensorflow_tutorial/,bongololona,1515609722,"They have all completed a course in basic programming. Theoretical background on deep neural nets has been covered. I want something that will be both easy to understand, and interesting enough to hold the attention of the kids throughout the tutorial.",1,1
-15,2018-1-11,2018,1,11,11,7pkwzt,Is deep learning any good for creation?,https://www.reddit.com/r/tensorflow/comments/7pkwzt/is_deep_learning_any_good_for_creation/,FateRiddle,1515637809,"Hi, I've just watched a tutorial, and all is focusing on recognizing/classification. So it feels like we only use it to ""judge"" things. I'm just curious is deep learning/machine learing good for ""creating""? By creating I mean creating something that meets certain criteria given.",6,1
-16,2018-1-11,2018,1,11,12,7pld52,Do I just give up?,https://www.reddit.com/r/tensorflow/comments/7pld52/do_i_just_give_up/,jdrada18,1515642327,"Discovered Tensorflow through a different subreddit and I was intrigued. Later that night I attempted to do everything to install the program and I have failed..... 
+Thanks for any info.",0,1,False,self,,,,,
+13,tensorflow,t5_3alkk,2018-1-10,2018,1,10,23,7pfydd,self.tensorflow,Add additional variable to CNN in TF,https://www.reddit.com/r/tensorflow/comments/7pfydd/add_additional_variable_to_cnn_in_tf/,donjuan1337,1515595081,I'm looking for code examples or solutions to add additional input data to a CNN after the convolution/max layers. I've found [this](https://stackoverflow.com/questions/42556919/adding-a-variable-into-keras-tensorflow-cnn-dense-layer) from stack but the solution is based on the keras framework. The link will also clarify what I'm looking for.,2,3,False,self,,,,,
+14,tensorflow,t5_3alkk,2018-1-11,2018,1,11,3,7phnmz,self.tensorflow,What all should an hour long tensorflow tutorial for undergraduate sophomores cover?,https://www.reddit.com/r/tensorflow/comments/7phnmz/what_all_should_an_hour_long_tensorflow_tutorial/,bongololona,1515609722,"They have all completed a course in basic programming. Theoretical background on deep neural nets has been covered. I want something that will be both easy to understand, and interesting enough to hold the attention of the kids throughout the tutorial.",1,1,False,self,,,,,
+15,tensorflow,t5_3alkk,2018-1-11,2018,1,11,11,7pkwzt,self.tensorflow,Is deep learning any good for creation?,https://www.reddit.com/r/tensorflow/comments/7pkwzt/is_deep_learning_any_good_for_creation/,FateRiddle,1515637809,"Hi, I've just watched a tutorial, and all is focusing on recognizing/classification. So it feels like we only use it to ""judge"" things. I'm just curious is deep learning/machine learing good for ""creating""? By creating I mean creating something that meets certain criteria given.",6,1,False,self,,,,,
+16,tensorflow,t5_3alkk,2018-1-11,2018,1,11,12,7pld52,self.tensorflow,Do I just give up?,https://www.reddit.com/r/tensorflow/comments/7pld52/do_i_just_give_up/,jdrada18,1515642327,"Discovered Tensorflow through a different subreddit and I was intrigued. Later that night I attempted to do everything to install the program and I have failed..... 
 
-Is this a sign to just give up? :`( ",9,0
-17,2018-1-11,2018,1,11,15,7pm3e6,How to build the reward system in GANs? (Just the idea),https://www.reddit.com/r/tensorflow/comments/7pm3e6/how_to_build_the_reward_system_in_gans_just_the/,FateRiddle,1515650412,"So I just listened this interview, which is great. https://blogs.nvidia.com/blog/2017/05/17/generative-adversarial-network/
+Is this a sign to just give up? :`( ",9,0,False,self,,,,,
+17,tensorflow,t5_3alkk,2018-1-11,2018,1,11,15,7pm3e6,self.tensorflow,How to build the reward system in GANs? (Just the idea),https://www.reddit.com/r/tensorflow/comments/7pm3e6/how_to_build_the_reward_system_in_gans_just_the/,FateRiddle,1515650412,"So I just listened this interview, which is great. https://blogs.nvidia.com/blog/2017/05/17/generative-adversarial-network/
 
 It describe the GANs system, the theory being: generator tries to generate a image of cat, and discriminator tries to give the probability of it actually looking like a cat. Each will get a score for thieir performance. So they'll work to improve themself.
 
 But the interview said nothing about the reward system, which I think is the core of GANs. Say if A draws a dot, B said it is a cat. Apparently they are both wrong, but how does the reward system know they are both wrong? You can't manually tell it is wrong(which against the whole point of GANs), right? So how?
 
-I believe the idea is sort of like the ""invisible hand"" in economics(as mentioned in the interview) but fail to form the analogy.",3,0
-18,2018-1-11,2018,1,11,16,7pmjb6,How to connect your Tensorflow model to your website?,https://www.reddit.com/r/tensorflow/comments/7pmjb6/how_to_connect_your_tensorflow_model_to_your/,thatsfunny95,1515656195,"I'm creating an email client which would use a neural network to classify email as spam, non spam and prioritized emails. I'm planning to use a neural network built in tensorflow for this purpose. How do I connect my model in the cloud to this client?",3,1
-19,2018-1-11,2018,1,11,23,7poc5f,Complete Guide to TensorFlow for Deep Learning with Python is 94% off at Udemy. Less than a day left at this pric,https://www.reddit.com/r/tensorflow/comments/7poc5f/complete_guide_to_tensorflow_for_deep_learning/,plakuciss,1515680044,,7,8
-20,2018-1-13,2018,1,13,0,7pxce9,When is TensorFlow going to have Edward?,https://www.reddit.com/r/tensorflow/comments/7pxce9/when_is_tensorflow_going_to_have_edward/,o-rka,1515771495,"I'm looking forward to learning probabilistic programming with tf, keras, and edward.  I'm wondering when edward will be available through tf like keras is atm",3,1
-21,2018-1-13,2018,1,13,11,7q1rgu,"Want to learn how to make your own TENSORFLOW RECURRENT NEURAL NETWORK? Check this video out, and if you enjoy it, make sure to Subscribe. :)",https://www.reddit.com/r/tensorflow/comments/7q1rgu/want_to_learn_how_to_make_your_own_tensorflow/,DiscoverAI,1515810689,,0,5
-22,2018-1-13,2018,1,13,16,7q37mg,To what extent are Sonnet and tf.contrib.layers duplicating each other?,https://www.reddit.com/r/tensorflow/comments/7q37mg/to_what_extent_are_sonnet_and_tfcontriblayers/,LiverEnzymes,1515829248,"At least superficially, Sonnet seems to overlap what is going on with the still-evolving tf.contrib.layers. I found Sonnet useful for automatically handling the creation of scoped-variable names for nested modules. 
+I believe the idea is sort of like the ""invisible hand"" in economics(as mentioned in the interview) but fail to form the analogy.",3,0,False,self,,,,,
+18,tensorflow,t5_3alkk,2018-1-11,2018,1,11,16,7pmjb6,self.tensorflow,How to connect your Tensorflow model to your website?,https://www.reddit.com/r/tensorflow/comments/7pmjb6/how_to_connect_your_tensorflow_model_to_your/,thatsfunny95,1515656195,"I'm creating an email client which would use a neural network to classify email as spam, non spam and prioritized emails. I'm planning to use a neural network built in tensorflow for this purpose. How do I connect my model in the cloud to this client?",3,1,False,self,,,,,
+19,tensorflow,t5_3alkk,2018-1-11,2018,1,11,23,7poc5f,twitter.com,Complete Guide to TensorFlow for Deep Learning with Python is 94% off at Udemy. Less than a day left at this pric,https://www.reddit.com/r/tensorflow/comments/7poc5f/complete_guide_to_tensorflow_for_deep_learning/,plakuciss,1515680044,,7,8,False,https://b.thumbs.redditmedia.com/qDdWQqS3E7KRIabDwIFpx9Emeg_lWvC6F4uhSbzss_g.jpg,,,,,
+20,tensorflow,t5_3alkk,2018-1-13,2018,1,13,0,7pxce9,self.tensorflow,When is TensorFlow going to have Edward?,https://www.reddit.com/r/tensorflow/comments/7pxce9/when_is_tensorflow_going_to_have_edward/,o-rka,1515771495,"I'm looking forward to learning probabilistic programming with tf, keras, and edward.  I'm wondering when edward will be available through tf like keras is atm",3,1,False,self,,,,,
+21,tensorflow,t5_3alkk,2018-1-13,2018,1,13,11,7q1rgu,youtube.com,"Want to learn how to make your own TENSORFLOW RECURRENT NEURAL NETWORK? Check this video out, and if you enjoy it, make sure to Subscribe. :)",https://www.reddit.com/r/tensorflow/comments/7q1rgu/want_to_learn_how_to_make_your_own_tensorflow/,DiscoverAI,1515810689,,0,5,False,https://b.thumbs.redditmedia.com/xica_M8nDItZy1iDwlm5DA20GnqVzBv1OK776Kdz5pM.jpg,,,,,
+22,tensorflow,t5_3alkk,2018-1-13,2018,1,13,16,7q37mg,self.tensorflow,To what extent are Sonnet and tf.contrib.layers duplicating each other?,https://www.reddit.com/r/tensorflow/comments/7q37mg/to_what_extent_are_sonnet_and_tfcontriblayers/,LiverEnzymes,1515829248,"At least superficially, Sonnet seems to overlap what is going on with the still-evolving tf.contrib.layers. I found Sonnet useful for automatically handling the creation of scoped-variable names for nested modules. 
 
 Is it fair to say that layers and Sonnet are competing frameworks that partially duplicate each other's function?  Is there any prospect for converging on a ""standard"" so we don't end up fragmented into competing libraries?  
 
 I'd be interested in any thoughts people have on this, especially from anyone who has spent time evaluating the design decision to use one vs the other. Thanks.
-",0,1
-23,2018-1-14,2018,1,14,7,7q7o9v,Text classification for comma delimited CSV files?,https://www.reddit.com/r/tensorflow/comments/7q7o9v/text_classification_for_comma_delimited_csv_files/,supamonkey2000,1515881633,"I've been struggling to find a project that works with this.
+",0,1,False,self,,,,,
+23,tensorflow,t5_3alkk,2018-1-14,2018,1,14,7,7q7o9v,self.tensorflow,Text classification for comma delimited CSV files?,https://www.reddit.com/r/tensorflow/comments/7q7o9v/text_classification_for_comma_delimited_csv_files/,supamonkey2000,1515881633,"I've been struggling to find a project that works with this.
 
 Let's say I have a comma delimited CSV file, which has 2 columns: the data, and the numeric label assigned to it. For simplicity, our labels are 1 and 2. I want to train a model so that when I ""sample"" it with new text is hasn't seen before, it gives it a label of 1 or 2.
 
@@ -127,18 +127,18 @@ An example file:
 
 I searched for ""text classification tensorflow github:"" on Google, but none of the projects I found describe using your own data.
 
-Can anyone provide a link to a project that's suits these needs? Thanks.",0,1
-24,2018-1-14,2018,1,14,7,7q7vvf,TensorFlow on Android,https://www.reddit.com/r/tensorflow/comments/7q7vvf/tensorflow_on_android/,Bluecodejs,1515883683,,0,3
-25,2018-1-14,2018,1,14,14,7qa59o,This is an awesome playlist for learning TensorFlow,https://www.reddit.com/r/tensorflow/comments/7qa59o/this_is_an_awesome_playlist_for_learning/,Geeks_sid,1515908686,Tensorflow Tutorials - Zero to Hero: https://www.youtube.com/playlist?list=PL7H_mLGEiY1Db2M1KtJx5pWx5gzFyGhmf,2,7
-26,2018-1-15,2018,1,15,0,7qca0u,Can a third party email client classify emails using TensorFlow?,https://www.reddit.com/r/tensorflow/comments/7qca0u/can_a_third_party_email_client_classify_emails/,thatsfunny95,1515942126,Is it possible for a email client to read incoming emails from Gmail and classify them?,2,1
-27,2018-1-15,2018,1,15,3,7qdkdr,How to save the model of a basic tensorflow deep MNIST tutorial?,https://www.reddit.com/r/tensorflow/comments/7qdkdr/how_to_save_the_model_of_a_basic_tensorflow_deep/,P_Andre,1515954441,"I have followed the deep mnist tutorial on the official website. I want to save it, however I am struggling to understand which variables to save and how to retrieve the model.
+Can anyone provide a link to a project that's suits these needs? Thanks.",0,1,False,self,,,,,
+24,tensorflow,t5_3alkk,2018-1-14,2018,1,14,7,7q7vvf,youtu.be,TensorFlow on Android,https://www.reddit.com/r/tensorflow/comments/7q7vvf/tensorflow_on_android/,Bluecodejs,1515883683,,0,3,False,https://b.thumbs.redditmedia.com/VexFB3rphP69jp5botdZ0VYb0izXIJT1kzeMQd_KQ-A.jpg,,,,,
+25,tensorflow,t5_3alkk,2018-1-14,2018,1,14,14,7qa59o,self.tensorflow,This is an awesome playlist for learning TensorFlow,https://www.reddit.com/r/tensorflow/comments/7qa59o/this_is_an_awesome_playlist_for_learning/,Geeks_sid,1515908686,Tensorflow Tutorials - Zero to Hero: https://www.youtube.com/playlist?list=PL7H_mLGEiY1Db2M1KtJx5pWx5gzFyGhmf,2,7,False,self,,,,,
+26,tensorflow,t5_3alkk,2018-1-15,2018,1,15,0,7qca0u,self.tensorflow,Can a third party email client classify emails using TensorFlow?,https://www.reddit.com/r/tensorflow/comments/7qca0u/can_a_third_party_email_client_classify_emails/,thatsfunny95,1515942126,Is it possible for a email client to read incoming emails from Gmail and classify them?,2,1,False,self,,,,,
+27,tensorflow,t5_3alkk,2018-1-15,2018,1,15,3,7qdkdr,self.tensorflow,How to save the model of a basic tensorflow deep MNIST tutorial?,https://www.reddit.com/r/tensorflow/comments/7qdkdr/how_to_save_the_model_of_a_basic_tensorflow_deep/,P_Andre,1515954441,"I have followed the deep mnist tutorial on the official website. I want to save it, however I am struggling to understand which variables to save and how to retrieve the model.
 
-The tutorial can be found here https://www.tensorflow.org/get_started/mnist/pros",4,3
-28,2018-1-15,2018,1,15,23,7qk519,"DIY Prisma, Fast Style Transfer app  with CoreML and TensorFlow",https://www.reddit.com/r/tensorflow/comments/7qk519/diy_prisma_fast_style_transfer_app_with_coreml/,rambossa1,1516028080,,0,8
-29,2018-1-16,2018,1,16,3,7qlqfu,Contributing to Tensorflow Question,https://www.reddit.com/r/tensorflow/comments/7qlqfu/contributing_to_tensorflow_question/,zazabar,1516041598,"Hey guys,  
+The tutorial can be found here https://www.tensorflow.org/get_started/mnist/pros",4,3,False,self,,,,,
+28,tensorflow,t5_3alkk,2018-1-15,2018,1,15,23,7qk519,medium.com,"DIY Prisma, Fast Style Transfer app  with CoreML and TensorFlow",https://www.reddit.com/r/tensorflow/comments/7qk519/diy_prisma_fast_style_transfer_app_with_coreml/,rambossa1,1516028080,,0,8,False,https://b.thumbs.redditmedia.com/IwyBYdS9M4Pdb4LjAavjJ2mX2tDbtPBXBkalHDkMRQk.jpg,,,,,
+29,tensorflow,t5_3alkk,2018-1-16,2018,1,16,3,7qlqfu,self.tensorflow,Contributing to Tensorflow Question,https://www.reddit.com/r/tensorflow/comments/7qlqfu/contributing_to_tensorflow_question/,zazabar,1516041598,"Hey guys,  
   
-Has anyone contributed code to Tensorflow before? I'm looking to write something from a semi-recent paper that isn't included yet and I wanted to ask a couple questions about the implementation in relation to other stuff on there to ensure I meet the same standards. ",0,2
-30,2018-1-16,2018,1,16,20,7qrosy,Trying to install Tensorflow on Windows 10 with Python 3.6.3,https://www.reddit.com/r/tensorflow/comments/7qrosy/trying_to_install_tensorflow_on_windows_10_with/,The0thArcana,1516101738,"Hello automators,
+Has anyone contributed code to Tensorflow before? I'm looking to write something from a semi-recent paper that isn't included yet and I wanted to ask a couple questions about the implementation in relation to other stuff on there to ensure I meet the same standards. ",0,2,False,self,,,,,
+30,tensorflow,t5_3alkk,2018-1-16,2018,1,16,20,7qrosy,self.tensorflow,Trying to install Tensorflow on Windows 10 with Python 3.6.3,https://www.reddit.com/r/tensorflow/comments/7qrosy/trying_to_install_tensorflow_on_windows_10_with/,The0thArcana,1516101738,"Hello automators,
 
 For the past days I've been trying to get Tensorflow to work on Windows 10 with Python 3.6.3 and it doesn't seem to be working. When I try to install tensorflow through the pip it says all requirements are met but when I try to import it in prompt it gives me
 
@@ -159,22 +159,22 @@ which seems to be the correct .whl file to make tensorflow work with 3.6, but wh
 
 So at this point most of my google searches are purple and I come to you guys with no real idea of how to get TF going.
 
-Any help appreciated.",4,2
-31,2018-1-17,2018,1,17,1,7qtntb,Difference between tensorflow image classifier and OpenCV,https://www.reddit.com/r/tensorflow/comments/7qtntb/difference_between_tensorflow_image_classifier/,mahesh_98,1516121866,I'm a newbie to machine learning. I'm curious on how tensorflow image classifier works and how it's different from OpenCV? What are some advantages and disadvantages of both?,5,6
-32,2018-1-18,2018,1,18,5,7r3wzs,Building Cross-Lingual End-to-End Product Search with Tensorflow,https://www.reddit.com/r/tensorflow/comments/7r3wzs/building_crosslingual_endtoend_product_search/,h_xiao,1516220220,,0,2
-33,2018-1-20,2018,1,20,6,7rlom6,Restarting optimizer learning rate decay,https://www.reddit.com/r/tensorflow/comments/7rlom6/restarting_optimizer_learning_rate_decay/,SamStringTheory,1516397369,"Some of the optimizers such as Adam have a built-in mechanism for decay of the learning rate. Is there a way to restart this decay partway through training? The only way I can think of is to initialize a new optimizer object.
+Any help appreciated.",4,2,False,self,,,,,
+31,tensorflow,t5_3alkk,2018-1-17,2018,1,17,1,7qtntb,self.tensorflow,Difference between tensorflow image classifier and OpenCV,https://www.reddit.com/r/tensorflow/comments/7qtntb/difference_between_tensorflow_image_classifier/,mahesh_98,1516121866,I'm a newbie to machine learning. I'm curious on how tensorflow image classifier works and how it's different from OpenCV? What are some advantages and disadvantages of both?,5,6,False,self,,,,,
+32,tensorflow,t5_3alkk,2018-1-18,2018,1,18,5,7r3wzs,hanxiao.github.io,Building Cross-Lingual End-to-End Product Search with Tensorflow,https://www.reddit.com/r/tensorflow/comments/7r3wzs/building_crosslingual_endtoend_product_search/,h_xiao,1516220220,,0,2,False,https://a.thumbs.redditmedia.com/IskDJ_cZXRvHtdDvxyEre36SWzNmUGtlCGhA4Tmg9X4.jpg,,,,,
+33,tensorflow,t5_3alkk,2018-1-20,2018,1,20,6,7rlom6,self.tensorflow,Restarting optimizer learning rate decay,https://www.reddit.com/r/tensorflow/comments/7rlom6/restarting_optimizer_learning_rate_decay/,SamStringTheory,1516397369,"Some of the optimizers such as Adam have a built-in mechanism for decay of the learning rate. Is there a way to restart this decay partway through training? The only way I can think of is to initialize a new optimizer object.
 
 Edit: I guess I used the wrong search keywords before. I found a couple threads, have yet to test them: 
 
 https://stackoverflow.com/questions/41533489/how-to-initialize-only-optimizer-variables-in-tensorflow
 
-https://stackoverflow.com/questions/39607566/reset-tensorflow-optimizer",0,0
-34,2018-1-21,2018,1,21,1,7rrfsn,Train an Image Classifier in 3 Minutes,https://www.reddit.com/r/tensorflow/comments/7rrfsn/train_an_image_classifier_in_3_minutes/,tim_macgyver,1516466658,,0,0
-35,2018-1-21,2018,1,21,9,7ruejf,Labelbox: The most versatile data labeling tool for machine learning,https://www.reddit.com/r/tensorflow/comments/7ruejf/labelbox_the_most_versatile_data_labeling_tool/,labelbox,1516495040,,13,5
-36,2018-1-21,2018,1,21,17,7rwlli,What is TensorFlow???,https://www.reddit.com/r/tensorflow/comments/7rwlli/what_is_tensorflow/,neuraltensor,1516522574,,1,0
-37,2018-1-22,2018,1,22,16,7s47oe,Face Detection in Go using OpenCV and MachineBox,https://www.reddit.com/r/tensorflow/comments/7s47oe/face_detection_in_go_using_opencv_and_machinebox/,Tatta360,1516606301,,0,1
-38,2018-1-23,2018,1,23,15,7sckw8,[Question] Are you able to pass PDF files as input into TensorFlow?,https://www.reddit.com/r/tensorflow/comments/7sckw8/question_are_you_able_to_pass_pdf_files_as_input/,ProjectPsygma,1516689505,,8,1
-39,2018-1-25,2018,1,25,0,7snr1g,How do I test data on Retinanet?,https://www.reddit.com/r/tensorflow/comments/7snr1g/how_do_i_test_data_on_retinanet/,templeoftiger,1516807114,"I am using the Retinanet model to train a classifier with about 50 classes. Link to the model: https://github.com/fizyr/keras-retinanet
+https://stackoverflow.com/questions/39607566/reset-tensorflow-optimizer",0,0,False,self,,,,,
+34,tensorflow,t5_3alkk,2018-1-21,2018,1,21,1,7rrfsn,youtube.com,Train an Image Classifier in 3 Minutes,https://www.reddit.com/r/tensorflow/comments/7rrfsn/train_an_image_classifier_in_3_minutes/,tim_macgyver,1516466658,,0,0,False,https://b.thumbs.redditmedia.com/-dblcFJFvQd0NON-_I9CZbD9D8DjRCVMggThX8CK-0Q.jpg,,,,,
+35,tensorflow,t5_3alkk,2018-1-21,2018,1,21,9,7ruejf,v.redd.it,Labelbox: The most versatile data labeling tool for machine learning,https://www.reddit.com/r/tensorflow/comments/7ruejf/labelbox_the_most_versatile_data_labeling_tool/,labelbox,1516495040,,13,5,False,https://b.thumbs.redditmedia.com/eFOY_WVIkhdGdN8brNZkCBG2zj3GJFSIgN7zEyW67VA.jpg,,,,,
+36,tensorflow,t5_3alkk,2018-1-21,2018,1,21,17,7rwlli,youtube.com,What is TensorFlow???,https://www.reddit.com/r/tensorflow/comments/7rwlli/what_is_tensorflow/,neuraltensor,1516522574,,1,0,False,https://b.thumbs.redditmedia.com/p8WbTzQ_hmnkY5qZpzxYuv3AkokVpDwCU_4xul1dWWo.jpg,,,,,
+37,tensorflow,t5_3alkk,2018-1-22,2018,1,22,16,7s47oe,youtu.be,Face Detection in Go using OpenCV and MachineBox,https://www.reddit.com/r/tensorflow/comments/7s47oe/face_detection_in_go_using_opencv_and_machinebox/,Tatta360,1516606301,,0,1,False,default,,,,,
+38,tensorflow,t5_3alkk,2018-1-23,2018,1,23,15,7sckw8,self.tensorflow,[Question] Are you able to pass PDF files as input into TensorFlow?,https://www.reddit.com/r/tensorflow/comments/7sckw8/question_are_you_able_to_pass_pdf_files_as_input/,ProjectPsygma,1516689505,,8,1,False,self,,,,,
+39,tensorflow,t5_3alkk,2018-1-25,2018,1,25,0,7snr1g,self.tensorflow,How do I test data on Retinanet?,https://www.reddit.com/r/tensorflow/comments/7snr1g/how_do_i_test_data_on_retinanet/,templeoftiger,1516807114,"I am using the Retinanet model to train a classifier with about 50 classes. Link to the model: https://github.com/fizyr/keras-retinanet
 
 This is what I have done so far:
 
@@ -212,17 +212,17 @@ Create generators for training and testing data (an example is show in keras_ret
 Am I missing something?
 
 Again, sorry for the multi-fold questions and thank you for helping me out. 
-",0,1
-40,2018-1-25,2018,1,25,4,7spgy0,Do Something based on Object within 'Object Detection',https://www.reddit.com/r/tensorflow/comments/7spgy0/do_something_based_on_object_within_object/,noah_f,1516820749,"Using the Object Detection Example
+",0,1,False,self,,,,,
+40,tensorflow,t5_3alkk,2018-1-25,2018,1,25,4,7spgy0,self.tensorflow,Do Something based on Object within 'Object Detection',https://www.reddit.com/r/tensorflow/comments/7spgy0/do_something_based_on_object_within_object/,noah_f,1516820749,"Using the Object Detection Example
 
 https://github.com/tensorflow/models/blob/master/research/object_detection/object_detection_tutorial.ipynb
 
 How do I get the label from the object I was trying the following
 for label in classes: 
-if('name' == 'horse') do something ",0,2
-41,2018-1-25,2018,1,25,17,7sut99,How to install Tensorflow 1.5.0 using official pip package | Python 3.6,https://www.reddit.com/r/tensorflow/comments/7sut99/how_to_install_tensorflow_150_using_official_pip/,Aryal007,1516869996,,5,15
-42,2018-1-26,2018,1,26,22,7t4k7y,TensorFlow (inception v3) slow on Azure,https://www.reddit.com/r/tensorflow/comments/7t4k7y/tensorflow_inception_v3_slow_on_azure/,[deleted],1516974135,[deleted],3,1
-43,2018-1-27,2018,1,27,12,7t9wgi,Help with first tensorflow model,https://www.reddit.com/r/tensorflow/comments/7t9wgi/help_with_first_tensorflow_model/,scottsen,1517022454,"First time trying to use TensorFlow... not going that well :)
+if('name' == 'horse') do something ",0,2,False,self,,,,,
+41,tensorflow,t5_3alkk,2018-1-25,2018,1,25,17,7sut99,python36.com,How to install Tensorflow 1.5.0 using official pip package | Python 3.6,https://www.reddit.com/r/tensorflow/comments/7sut99/how_to_install_tensorflow_150_using_official_pip/,Aryal007,1516869996,,5,15,False,https://b.thumbs.redditmedia.com/Wc7MTOPKK2_eR4Lb6Q0KKjwbdZ3vn3i8vjGmgAZYqMU.jpg,,,,,
+42,tensorflow,t5_3alkk,2018-1-26,2018,1,26,22,7t4k7y,self.tensorflow,TensorFlow (inception v3) slow on Azure,https://www.reddit.com/r/tensorflow/comments/7t4k7y/tensorflow_inception_v3_slow_on_azure/,[deleted],1516974135,[deleted],3,1,False,default,,,,,
+43,tensorflow,t5_3alkk,2018-1-27,2018,1,27,12,7t9wgi,self.tensorflow,Help with first tensorflow model,https://www.reddit.com/r/tensorflow/comments/7t9wgi/help_with_first_tensorflow_model/,scottsen,1517022454,"First time trying to use TensorFlow... not going that well :)
 
 2 main questions:
 
@@ -291,25 +291,25 @@ Thanks for tips!
 			test = np.array([1, 4, 9, 16, 25, 36, 49, 64, 81]).reshape(9, 1)
 			retval = net.run(out, feed_dict = { start: test })
 			print(retval.transpose())
-",2,1
-44,2018-1-27,2018,1,27,18,7tbuvj,tensorflow-gpu: session.run() outputs information about my gfx-card,https://www.reddit.com/r/tensorflow/comments/7tbuvj/tensorflowgpu_sessionrun_outputs_information/,HerrMotz,1517046717,"When I run a tensorflow Session, it returns the output below and then proceeds. I don't need this when debugging. Is there a way to avoid the output?
+",2,1,False,self,,,,,
+44,tensorflow,t5_3alkk,2018-1-27,2018,1,27,18,7tbuvj,self.tensorflow,tensorflow-gpu: session.run() outputs information about my gfx-card,https://www.reddit.com/r/tensorflow/comments/7tbuvj/tensorflowgpu_sessionrun_outputs_information/,HerrMotz,1517046717,"When I run a tensorflow Session, it returns the output below and then proceeds. I don't need this when debugging. Is there a way to avoid the output?
 
 2018-01-27 10:43:14.942391: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX
 2018-01-27 10:43:15.604868: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1105] Found device 0 with properties:
 name: GeForce GTX 1060 6GB major: 6 minor: 1 memoryClockRate(GHz): 1.7085
 pciBusID: 0000:01:00.0
 totalMemory: 6.00GiB freeMemory: 4.96GiB
-2018-01-27 10:43:15.605618: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1195] Creating TensorFlow device (/device:GPU:0) -&gt; (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)",1,1
-45,2018-1-27,2018,1,27,23,7td3e2,Is TFLearn model definition different from Tensorflow train saver?,https://www.reddit.com/r/tensorflow/comments/7td3e2/is_tflearn_model_definition_different_from/,GasimGasimzada,1517064662,"I am trying to use a model saved via TFLearn. However, when I try to use it in Tensorflow based application (Picasso-VIZ to be exact), I get an error:
+2018-01-27 10:43:15.605618: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1195] Creating TensorFlow device (/device:GPU:0) -&gt; (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)",1,1,False,self,,,,,
+45,tensorflow,t5_3alkk,2018-1-27,2018,1,27,23,7td3e2,self.tensorflow,Is TFLearn model definition different from Tensorflow train saver?,https://www.reddit.com/r/tensorflow/comments/7td3e2/is_tflearn_model_definition_different_from/,GasimGasimzada,1517064662,"I am trying to use a model saved via TFLearn. However, when I try to use it in Tensorflow based application (Picasso-VIZ to be exact), I get an error:
 
 &gt; KeyError: ""The name 'Adam' refers to an Operation not in the graph.""
 
 I thought TFLearn is just a nice,abstracted wrapper around Tensorflow. This error makes me think that TFLearn is doing something else with the model data. 
 
-Also, I want to ask an additional question regarding this. Is it possible to save TFLearn network as Tensorflow checkpoint/model instead of its own format?",2,1
-46,2018-1-28,2018,1,28,0,7tdees,Is TensorFlow right for this application?,https://www.reddit.com/r/tensorflow/comments/7tdees/is_tensorflow_right_for_this_application/,Raddafiskie,1517067987,"I'm wanting to take in a handful of dimensions about an object, all of which influence each other, and want to predict what a single dimension will be in the future. There aren't any hard facts about how each dimension influences the other, so it would need to learn this. The application is to attempt to make predictions on prices of cryptocurrencies. I know this has probably already been done, but I plan on including data that hasn't been included previously, which would be the special sauce (I hope). I would think this is a simple task of just inputing all the dimensions and letting it crunch the numbers, but it seems it's not as simple as this, or is it? Can anyone tell me if I'm completely off base, or point me in the right direction as to another framework, or program that can accomplish this? I have a background in programming, but this would be my first time working with AI/ML. Thanks!",4,1
-47,2018-1-28,2018,1,28,3,7tecxi,A Guide to TensorFlow (Part-4),https://www.reddit.com/r/tensorflow/comments/7tecxi/a_guide_to_tensorflow_part4/,scmmishra,1517076187,,1,9
-48,2018-1-28,2018,1,28,3,7temc2,Performance problem with version 1.5,https://www.reddit.com/r/tensorflow/comments/7temc2/performance_problem_with_version_15/,JamesLi2017,1517078469,"I have just upgraded my tensorflow lib on my Windows 7 machine (X64 with python 3.5.2) from version 1.4 to 1.5.  The new version seems work fine as before, but for most our applications, the performance has dropped about 50%.  The GPU load seems to have dropped 50% too.  
+Also, I want to ask an additional question regarding this. Is it possible to save TFLearn network as Tensorflow checkpoint/model instead of its own format?",2,1,False,self,,,,,
+46,tensorflow,t5_3alkk,2018-1-28,2018,1,28,0,7tdees,self.tensorflow,Is TensorFlow right for this application?,https://www.reddit.com/r/tensorflow/comments/7tdees/is_tensorflow_right_for_this_application/,Raddafiskie,1517067987,"I'm wanting to take in a handful of dimensions about an object, all of which influence each other, and want to predict what a single dimension will be in the future. There aren't any hard facts about how each dimension influences the other, so it would need to learn this. The application is to attempt to make predictions on prices of cryptocurrencies. I know this has probably already been done, but I plan on including data that hasn't been included previously, which would be the special sauce (I hope). I would think this is a simple task of just inputing all the dimensions and letting it crunch the numbers, but it seems it's not as simple as this, or is it? Can anyone tell me if I'm completely off base, or point me in the right direction as to another framework, or program that can accomplish this? I have a background in programming, but this would be my first time working with AI/ML. Thanks!",4,1,False,self,,,,,
+47,tensorflow,t5_3alkk,2018-1-28,2018,1,28,3,7tecxi,cobaltai.in,A Guide to TensorFlow (Part-4),https://www.reddit.com/r/tensorflow/comments/7tecxi/a_guide_to_tensorflow_part4/,scmmishra,1517076187,,1,9,False,https://b.thumbs.redditmedia.com/hVoWQpOPBhzb1wgQDAOyWEx0qFx-rIn00w7b0VUN4-E.jpg,,,,,
+48,tensorflow,t5_3alkk,2018-1-28,2018,1,28,3,7temc2,self.tensorflow,Performance problem with version 1.5,https://www.reddit.com/r/tensorflow/comments/7temc2/performance_problem_with_version_15/,JamesLi2017,1517078469,"I have just upgraded my tensorflow lib on my Windows 7 machine (X64 with python 3.5.2) from version 1.4 to 1.5.  The new version seems work fine as before, but for most our applications, the performance has dropped about 50%.  The GPU load seems to have dropped 50% too.  
 
 When starting tensorflow applications, tensorflow printed out the following warning message: 
 
@@ -321,18 +321,18 @@ I am not sure how to fix above warning.
 I am wondering whether any body else had this experience and how to fix this issue.
 
 Thanks
-",1,1
-49,2018-1-29,2018,1,29,1,7tl2kv,installing tensorflow in spyder for image processing,https://www.reddit.com/r/tensorflow/comments/7tl2kv/installing_tensorflow_in_spyder_for_image/,awais0,1517155756,i want to use opencv and tensorflow at the same time using anaconda. where can i find some tutorials for that?,0,1
-50,2018-1-29,2018,1,29,10,7tozdd,Python Deep Learning tutorial: Create a GRU (RNN) in TensorFlow,https://www.reddit.com/r/tensorflow/comments/7tozdd/python_deep_learning_tutorial_create_a_gru_rnn_in/,psangrene,1517191147,,0,4
-51,2018-1-29,2018,1,29,17,7tr04l,Java Implementation of the Object Detection API,https://www.reddit.com/r/tensorflow/comments/7tr04l/java_implementation_of_the_object_detection_api/,ZodiacKiller20,1517215299,,0,3
-52,2018-1-30,2018,1,30,17,7tzorb,Video faked with A.I Deep learning wow,https://www.reddit.com/r/tensorflow/comments/7tzorb/video_faked_with_ai_deep_learning_wow/,baDoxx,1517301676,,2,4
-53,2018-1-31,2018,1,31,3,7u35es,Is TensorFlow good for non-NN ML tasks like logistic regression and/or brute-force algos?,https://www.reddit.com/r/tensorflow/comments/7u35es/is_tensorflow_good_for_nonnn_ml_tasks_like/,1_21-gigawatts,1517337225,"Experienced developer but ML newb here. It seems like all the tutorials are RNNs using MNIST, but my problem doesn't need a NN. I'm currently using Pandas for logistic regression and brute-force operations on large numbers of large data series. I've tried a couple parallel worker frameworks but it runs slower, probably due to sending data across the wire. 
+",1,1,False,self,,,,,
+49,tensorflow,t5_3alkk,2018-1-29,2018,1,29,1,7tl2kv,self.tensorflow,installing tensorflow in spyder for image processing,https://www.reddit.com/r/tensorflow/comments/7tl2kv/installing_tensorflow_in_spyder_for_image/,awais0,1517155756,i want to use opencv and tensorflow at the same time using anaconda. where can i find some tutorials for that?,0,1,False,self,,,,,
+50,tensorflow,t5_3alkk,2018-1-29,2018,1,29,10,7tozdd,datasciencecentral.com,Python Deep Learning tutorial: Create a GRU (RNN) in TensorFlow,https://www.reddit.com/r/tensorflow/comments/7tozdd/python_deep_learning_tutorial_create_a_gru_rnn_in/,psangrene,1517191147,,0,4,False,https://b.thumbs.redditmedia.com/iCfd2eid_h727HcLZyj9ntyhK8F-JoyfbJPdTm5I79g.jpg,,,,,
+51,tensorflow,t5_3alkk,2018-1-29,2018,1,29,17,7tr04l,github.com,Java Implementation of the Object Detection API,https://www.reddit.com/r/tensorflow/comments/7tr04l/java_implementation_of_the_object_detection_api/,ZodiacKiller20,1517215299,,0,3,False,https://b.thumbs.redditmedia.com/OEn0NM247rhIZQxoE7p73Bo1goRxkQxR50Z1mdgkLAs.jpg,,,,,
+52,tensorflow,t5_3alkk,2018-1-30,2018,1,30,17,7tzorb,youtube.com,Video faked with A.I Deep learning wow,https://www.reddit.com/r/tensorflow/comments/7tzorb/video_faked_with_ai_deep_learning_wow/,baDoxx,1517301676,,2,4,False,https://b.thumbs.redditmedia.com/_e3YMzbZlT4GRtjO-sI963iUshlwDQQIbqo3GB65ugA.jpg,,,,,
+53,tensorflow,t5_3alkk,2018-1-31,2018,1,31,3,7u35es,self.tensorflow,Is TensorFlow good for non-NN ML tasks like logistic regression and/or brute-force algos?,https://www.reddit.com/r/tensorflow/comments/7u35es/is_tensorflow_good_for_nonnn_ml_tasks_like/,1_21-gigawatts,1517337225,"Experienced developer but ML newb here. It seems like all the tutorials are RNNs using MNIST, but my problem doesn't need a NN. I'm currently using Pandas for logistic regression and brute-force operations on large numbers of large data series. I've tried a couple parallel worker frameworks but it runs slower, probably due to sending data across the wire. 
 
 Is this something that TF (or Keras) would be suited for? 
 
-I can add more detail about my problem if that would help.",1,5
-54,2018-1-31,2018,1,31,4,7u3mg1,TensorFlow to turn any webcam into Microsoft Kinect,https://www.reddit.com/r/tensorflow/comments/7u3mg1/tensorflow_to_turn_any_webcam_into_microsoft/,maryanav,1517340900,,1,8
-55,2018-1-31,2018,1,31,13,7u774z,My performance of LSTM model in tensorflow sometimes failed,https://www.reddit.com/r/tensorflow/comments/7u774z/my_performance_of_lstm_model_in_tensorflow/,Laurence-Lin,1517371801,"
+I can add more detail about my problem if that would help.",1,5,False,self,,,,,
+54,tensorflow,t5_3alkk,2018-1-31,2018,1,31,4,7u3mg1,thenextweb.com,TensorFlow to turn any webcam into Microsoft Kinect,https://www.reddit.com/r/tensorflow/comments/7u3mg1/tensorflow_to_turn_any_webcam_into_microsoft/,maryanav,1517340900,,1,8,False,https://b.thumbs.redditmedia.com/DpXD55Y9ycarHA-9kY9KGi42fhfRLVPGVM5DOh5eY0g.jpg,,,,,
+55,tensorflow,t5_3alkk,2018-1-31,2018,1,31,13,7u774z,self.tensorflow,My performance of LSTM model in tensorflow sometimes failed,https://www.reddit.com/r/tensorflow/comments/7u774z/my_performance_of_lstm_model_in_tensorflow/,Laurence-Lin,1517371801,"
 I've referred to an LTSM time series forecasting model on web, and run on IBM stock getting an effective performance.
 
 https://github.com/laurence-lin/IBM-stock-forecasting
@@ -344,11 +344,11 @@ In the condition that error remain unchanged, I saw that the initial error is la
 Does any one know what would be the cause?
 
 Many thanks!
-",2,1
-56,2018-1-31,2018,1,31,15,7u7wvj,[question] Make two sub-graphs have equal weights,https://www.reddit.com/r/tensorflow/comments/7u7wvj/question_make_two_subgraphs_have_equal_weights/,codythecoder,1517379390,"My program at the moment takes two images, passes them through two ""identical"" convolutional networks, before combining them using some fully connected layers. Order shouldn't be important, so my test data displays the images in a random order. This doesn't seem to be enough, as the convolutional networks seem to be completely different (when I display their activation). As there's no good reason to have them as different networks, I would like to manually force them to be the same weights, but I don't know how I'd go about doing this. How can I get this to work?
+",2,1,False,self,,,,,
+56,tensorflow,t5_3alkk,2018-1-31,2018,1,31,15,7u7wvj,self.tensorflow,[question] Make two sub-graphs have equal weights,https://www.reddit.com/r/tensorflow/comments/7u7wvj/question_make_two_subgraphs_have_equal_weights/,codythecoder,1517379390,"My program at the moment takes two images, passes them through two ""identical"" convolutional networks, before combining them using some fully connected layers. Order shouldn't be important, so my test data displays the images in a random order. This doesn't seem to be enough, as the convolutional networks seem to be completely different (when I display their activation). As there's no good reason to have them as different networks, I would like to manually force them to be the same weights, but I don't know how I'd go about doing this. How can I get this to work?
 
-I can also supply code if needed, so just ask.",2,1
-57,2018-1-31,2018,1,31,17,7u8ibd,Understanding how it learns,https://www.reddit.com/r/tensorflow/comments/7u8ibd/understanding_how_it_learns/,deputy1389,1517387357,"Im currently trying to learn how to use tensorflow. I am currently running the code from this https://www.tensorflow.org/tutorials/layers
+I can also supply code if needed, so just ask.",2,1,False,self,,,,,
+57,tensorflow,t5_3alkk,2018-1-31,2018,1,31,17,7u8ibd,self.tensorflow,Understanding how it learns,https://www.reddit.com/r/tensorflow/comments/7u8ibd/understanding_how_it_learns/,deputy1389,1517387357,"Im currently trying to learn how to use tensorflow. I am currently running the code from this https://www.tensorflow.org/tutorials/layers
 
-How does it actually remember? I don't see an output file. Is it just in memory and has to be run each time to train it?",1,1
-58,2018-1-31,2018,1,31,20,7u9ack,[N] A New subreddit for Videofakes produced via MACHINELEARNING (nonporn one,https://www.reddit.com/r/tensorflow/comments/7u9ack/n_a_new_subreddit_for_videofakes_produced_via/,baDoxx,1517398509,,2,6
+How does it actually remember? I don't see an output file. Is it just in memory and has to be run each time to train it?",1,1,False,self,,,,,
+58,tensorflow,t5_3alkk,2018-1-31,2018,1,31,20,7u9ack,reddit.com,[N] A New subreddit for Videofakes produced via MACHINELEARNING (nonporn one,https://www.reddit.com/r/tensorflow/comments/7u9ack/n_a_new_subreddit_for_videofakes_produced_via/,baDoxx,1517398509,,2,6,False,https://b.thumbs.redditmedia.com/u7BIVTLFCX7uw8OL6ccpEUGezT2ikQgkcpvYPt0lkio.jpg,,,,,
