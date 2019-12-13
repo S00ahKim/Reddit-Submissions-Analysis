@@ -15,17 +15,19 @@ def concat_csv(path):
     all_filenames = [i for i in glob.glob('*.{}'.format(extension))]
 
     # 리스트의 파일 읽어서 하나의 파일로 합치기
-    # 헤더는 파일 전체에 대해 하나만 읽지만 row index를 갱신하지는 않는다.
     combined_csv = pd.concat([pd.read_csv(f) for f in all_filenames], axis=0, ignore_index=True)
+    
+    # 이전 인덱스행 삭제
+    combined_csv = combined_csv.drop(combined_csv.columns[0], axis='columns')
 
     # 중복값이 있다면 제거한다.
     combined_csv.drop_duplicates()
 
     # 하나로 합친 후 csv로 저장
     filename = "../../combined/{}.csv".format(subreddit)
-    combined_csv.to_csv(filename, index=False, encoding='utf-8-sig')
+    combined_csv.to_csv(filename)
 
-os.chdir('scrapped 폴더')
+os.chdir('./data/scrapped')
 split_data_dirs = [os.path.abspath(name) for name in os.listdir(".") if os.path.isdir(name)]
 for data_dir in split_data_dirs:
     os.chdir(data_dir)
