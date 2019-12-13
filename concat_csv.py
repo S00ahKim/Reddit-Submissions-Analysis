@@ -23,6 +23,10 @@ def concat_csv(path):
     # 중복값이 있다면 제거한다.
     combined_csv.drop_duplicates()
 
+    # 전처리(selftext에서 comma 제외)
+    combined_csv['title'] = combined_csv['title'].str.replace(',', '')
+    combined_csv['selftext'] = combined_csv['selftext'].str.replace(',', '')
+
     # 하나로 합친 후 csv로 저장
     filename = "../../combined/{}.csv".format(subreddit)
     combined_csv.to_csv(filename)
