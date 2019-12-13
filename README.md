@@ -147,3 +147,7 @@
 - [ ] README.md 파일 정리
 
 ### 2019-12-12
+- [x] 데이터 수집: gilmore girls, game of thrones
+
+### 2019-12-13
+- [x] 데이터 수집: TheGoodPlace
