@@ -126,7 +126,6 @@
 - [ ] 분석
   * Spark mllib 라이브러리 사용해서 작성 코드 변경
   * Angular 사용해서 Zeppline에서 값을 binding 할 수 있도록
-  * 로컬에서 주피터 돌린 거 추가하기 OR python 파일 수정해서 결과 파일 저장하기
   * 키워드 HBase에 저장하는 방식으로 수정
 - [ ] HDFS 폴더 구조 정리하기
 - [ ] 함수 분리, main 파트 만들기
@@ -149,6 +148,7 @@
 
 ### 2019-12-15
 - [x] 워드클라우드 이미지 저장
-- [x] word2vec 유사 키워드 추출 수정
+- [x] 유사 키워드 추출 모델 (word or doc)
 - [x] 제목 또는 본문에서 키워드 찾기
 - [x] Doc2Vec User Recommendation by ID
+- [x] Doc2Vec User Recommendation by 자기소개

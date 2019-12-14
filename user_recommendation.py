@@ -11,22 +11,22 @@ def reg_tokenizer(x):
     return retokenize.tokenize(x)
 
 def user_recommendation(subreddit, username):
-    # 데이터 로드
-    data = pd.read_csv('/home/maria_dev/project/data/combined/{}.csv'.format(subreddit), header = 0, low_memory = False)
-
-    # NaN 수정
-    data['title'].fillna('', inplace = True)
-    data['selftext'].fillna('', inplace=True)
-
-    # 제목과 내용 합침
-    data['total'] = data['title'] + data['selftext']
-
     # 모델이 있으면 모델 불러오기
     try:
         model = Doc2Vec.load('/home/maria_dev/project/doc2vec/{}'.format(subreddit))
 
     # 없을 경우 모델 생성
     except:
+        # 데이터 로드
+        data = pd.read_csv('/home/maria_dev/project/data/combined/{}.csv'.format(subreddit), header = 0, low_memory = False)
+
+        # NaN 수정
+        data['title'].fillna('', inplace = True)
+        data['selftext'].fillna('', inplace=True)
+
+        # 제목과 내용 합침
+        data['total'] = data['title'] + data['selftext']
+
         # 토크나이저: 숫자가 아닌 문자만 처리
         data['token'] = data['total'].apply(reg_tokenizer)
 
@@ -77,10 +77,10 @@ def user_recommendation(subreddit, username):
             else:
                 top5.append(u)
 
-    print(top5)
+    print('추천 사용자: ', top5)
 
 if __name__ == "__main__":
-    # 실행 방법: python doc2vec_advanced.py "subreddit" "user"
+    # 실행 방법: python user_recommendation.py "subreddit" "user"
     if len(sys.argv) != 3:
         print("Error! Argument should be 2 strings: subreddit, user (ex. twice, axinld)")
         sys.exit(-1)
