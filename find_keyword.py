@@ -3,13 +3,13 @@ import glob
 import os
 from nltk.tokenize import word_tokenize
 import re
+import sys
 
 def find_keyword(subreddit, keyword):
     '''
     디렉토리 안에 있는 csv 파일에 대해 제목/본문에 대해 keyword(소문자) 유무를 열로 추가
     '''
-    os.chdir('./data/combined/')
-    data = pd.read_csv('./'+ subreddit + '.csv', header=0)
+    data = pd.read_csv('/home/maria_dev/project/data/combined/{}.csv'.format(subreddit), header=0)
 
     # NaN 수정
     data['title'].fillna('', inplace = True)
@@ -36,8 +36,14 @@ def find_keyword(subreddit, keyword):
     txt_column = 'keyword_{}'.format(keyword)
     data[txt_column] = is_keyword
 
-    # 저장 (TODO 파일 이름과 경로 수정해야)
-    data.to_csv('../keyword/{}-{}.csv'.format(subreddit, keyword), encoding='cp949')
+    # 저장 
+    data.to_csv('/home/maria_dev/project/data/keyword/{}-{}.csv'.format(subreddit, keyword), encoding='cp949')
 
-
-find_keyword('twice', 'sana')
+if __name__ == "__main__":
+    # 실행 방법: python find_keyword.py "subreddit" "keyword"
+    if len(sys.argv) != 3:
+        print("Error! Argument should be 2 strings: subreddit, keyword")
+        sys.exit(-1)
+    sbr = sys.argv[1]
+    kwd = sys.argv[2]
+    find_keyword(sbr, kwd)

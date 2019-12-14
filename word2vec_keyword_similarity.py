@@ -4,6 +4,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import nltk
 from nltk.tokenize import RegexpTokenizer
 from gensim.models import Word2Vec
+import sys
 
 def word2vec(subreddit, keyword):
     # 데이터 로드
