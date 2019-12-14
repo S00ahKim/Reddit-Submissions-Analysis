@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<workflow-app xmlns="uri:oozie:workflow:0.5" name="reddit_crawler">
+    <start to="get_reddit"/>
+    <action name="get_reddit">
+        <shell xmlns="uri:oozie:shell-action:0.3">
+            <job-tracker>${resourceManager}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <exec>python</exec>
+            <argument>get_reddit.py</argument>
+            <file>/user/maria_dev/project/scraper/get_reddit.py</file>
+        </shell>
+        <ok to="concat_csv"/>
+        <error to="kill"/>
+    </action>
+    <action name="concat_csv">
+        <shell xmlns="uri:oozie:shell-action:0.3">
+            <job-tracker>${resourceManager}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <exec>python</exec>
+            <argument>concat_csv.py</argument>
+            <file>/user/maria_dev/project/concat_csv.py</file>
+        </shell>
+        <ok to="upload"/>
+        <error to="get_reddit"/>
+    </action>
+    <action name="upload">
+        <shell xmlns="uri:oozie:shell-action:0.3">
+            <job-tracker>${resourceManager}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <exec>hadoop</exec>
+            <argument>fs</argument>
+            <argument>cp</argument>
+            <argument>-r</argument>
+            <argument>/home/maria_dev/project/data</argument>
+            <argument>hdfs:///user/maria_dev/project/data/</argument>
+        </shell>
+        <ok to="end"/>
+        <error to="kill"/>
+    </action>
+    <kill name="kill">
+        <message>${wf:errorMessage(wf:lastErrorNode())}</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>
