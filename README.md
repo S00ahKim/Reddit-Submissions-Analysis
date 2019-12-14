@@ -151,3 +151,4 @@
 - [x] 워드클라우드 이미지 저장
 - [x] word2vec 유사 키워드 추출 수정
 - [x] 제목 또는 본문에서 키워드 찾기
+- [x] Doc2Vec User Recommendation by ID

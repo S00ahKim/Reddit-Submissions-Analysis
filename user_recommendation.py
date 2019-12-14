@@ -4,6 +4,7 @@ from nltk.tokenize import word_tokenize
 import pandas as pd
 from nltk.tokenize import RegexpTokenizer
 from scipy import spatial
+import sys
 
 def reg_tokenizer(x):
     retokenize = RegexpTokenizer("[^\d\W]+")
@@ -11,7 +12,7 @@ def reg_tokenizer(x):
 
 def user_recommendation(subreddit, username):
     # 데이터 로드
-    data = pd.read_csv('./data/combined/{}.csv'.format(subreddit), header = 0, low_memory = False)
+    data = pd.read_csv('/home/maria_dev/project/data/combined/{}.csv'.format(subreddit), header = 0, low_memory = False)
 
     # NaN 수정
     data['title'].fillna('', inplace = True)
@@ -22,7 +23,7 @@ def user_recommendation(subreddit, username):
 
     # 모델이 있으면 모델 불러오기
     try:
-        model = Doc2Vec.load('./doc2vec/{}'.format(subreddit))
+        model = Doc2Vec.load('/home/maria_dev/project/doc2vec/{}'.format(subreddit))
 
     # 없을 경우 모델 생성
     except:
@@ -42,7 +43,7 @@ def user_recommendation(subreddit, username):
         model = Doc2Vec(TRAIN_documents, vector_size=5, window=3, epochs=40, min_count=0, workers=4)
 
         # 모델 저장
-        model.save('./doc2vec/{}'.format(subreddit))
+        model.save('/home/maria_dev/project/doc2vec/{}'.format(subreddit))
 
     # 사용자가 작성한 글의 인덱스 찾기
     idx_list = data[data['author'] == username].index.tolist()
@@ -78,4 +79,11 @@ def user_recommendation(subreddit, username):
 
     print(top5)
 
-user_recommendation('twice', 'axinld') #example
+if __name__ == "__main__":
+    # 실행 방법: python doc2vec_advanced.py "subreddit" "user"
+    if len(sys.argv) != 3:
+        print("Error! Argument should be 2 strings: subreddit, user (ex. twice, axinld)")
+        sys.exit(-1)
+    sbr = sys.argv[1]
+    usr = sys.argv[2]
+    user_recommendation(sbr, usr) 
