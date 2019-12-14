@@ -28,10 +28,9 @@ def concat_csv(path):
     combined_csv['selftext'] = combined_csv['selftext'].str.replace(',', '')
 
     # 하나로 합친 후 csv로 저장
-    filename = "../../combined/{}.csv".format(subreddit)
+    filename = "/home/maria_dev/project/data/combined/{}.csv".format(subreddit)
     combined_csv.to_csv(filename)
 
-os.chdir('./data/scrapped')
 split_data_dirs = [os.path.abspath(name) for name in os.listdir(".") if os.path.isdir(name)]
 for data_dir in split_data_dirs:
     os.chdir(data_dir)
