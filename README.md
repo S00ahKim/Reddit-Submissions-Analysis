@@ -125,7 +125,6 @@
 #### TODO
 - [ ] 분석
   * Spark mllib 라이브러리 사용해서 작성 코드 변경
-  * Angular 사용해서 Zeppline에서 값을 binding 할 수 있도록
   * 키워드 HBase에 저장하는 방식으로 수정
 - [ ] HDFS 폴더 구조 정리하기
 - [ ] 함수 분리, main 파트 만들기

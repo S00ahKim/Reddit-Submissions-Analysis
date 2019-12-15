@@ -5,7 +5,7 @@ from wordcloud import WordCloud
 from wordcloud import STOPWORDS
 import matplotlib.pyplot as plt
 from nltk.tokenize import RegexpTokenizer
-import sys
+# import sys
 
 def reg_tokenizer(x):
     retokenize = RegexpTokenizer("[^\d\W]+")
@@ -48,10 +48,10 @@ def word_cloud(subreddit):
     plt.axis("off")
     plt.savefig('/home/maria_dev/project/data/wordcloud/{}.png'.format(subreddit), dpi=300)
 
-if __name__ == "__main__":
-    # 실행 방법: python word_cloud.py "subreddit"
-    if len(sys.argv) != 2:
-        print("Error! Argument should be 1 string.")
-        sys.exit(-1)
-    sbr = sys.argv[1]
-    word_cloud(sbr)
+# if __name__ == "__main__":
+#     # 실행 방법: python word_cloud.py "subreddit"
+#     if len(sys.argv) != 2:
+#         print("Error! Argument should be 1 string.")
+#         sys.exit(-1)
+#     sbr = sys.argv[1]
+#     word_cloud(sbr)
