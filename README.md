@@ -126,8 +126,6 @@
 - [ ] 분석
   * Spark mllib 라이브러리 사용해서 작성 코드 변경
   * 키워드 HBase에 저장하는 방식으로 수정
-- [ ] HDFS 폴더 구조 정리하기
-- [ ] 함수 분리, main 파트 만들기
 - [ ] 발표자료 만들기
 - [ ] 보고서 작성하기
 - [ ] README.md 파일 정리
@@ -151,3 +149,6 @@
 - [x] 제목 또는 본문에서 키워드 찾기
 - [x] Doc2Vec User Recommendation by ID
 - [x] Doc2Vec User Recommendation by 자기소개
+
+### 2019-12-16
+- [x] 분석: 주피터 노트북으로

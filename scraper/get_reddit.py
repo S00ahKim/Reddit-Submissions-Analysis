@@ -172,6 +172,7 @@ def get_reddit(subreddit, end_time):
     modify_meta(subreddit, last_get_time)
 
 if __name__ == '__main__':
+    os.chdir('/home/maria_dev/project/data/scrapped/')
     all_dirs = [os.path.abspath(name) for name in os.listdir(".") if os.path.isdir(name)]
     end_time = get_server_time()
     print(end_time)
