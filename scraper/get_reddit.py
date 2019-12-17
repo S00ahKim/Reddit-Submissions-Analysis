@@ -44,7 +44,7 @@ def cal_end_by_start(start):
     return str(int(wttime.timestamp()))
 
 def get_start_time(subreddit):
-    meta = pd.read_csv('/home/maria_dev/project/data/metadata/data.csv', header=0)
+    meta = pd.read_csv('./data/metadata/data.csv', header=0)
     try:
         start = meta.loc[meta['subreddit'] == subreddit, 'last'].values[0]
     except:
@@ -53,14 +53,14 @@ def get_start_time(subreddit):
     return start
 
 def modify_meta(subreddit, last):
-    meta = pd.read_csv('/home/maria_dev/project/data/metadata/data.csv', header=0)
+    meta = pd.read_csv('./data/metadata/data.csv', header=0)
     try:
         meta.loc[meta['subreddit'] == subreddit, 'last'] = last
-        meta.to_csv('/home/maria_dev/project/data/metadata/data.csv', index=False)
+        meta.to_csv('./data/metadata/data.csv', index=False)
     except:
         meta = meta.append({'subreddit':subreddit, 'last':last}, ignore_index=True)
         meta = meta[['subreddit', 'last']]
-        meta.to_csv('/home/maria_dev/project/data/metadata/data.csv')
+        meta.to_csv('./data/metadata/data.csv')
 
 def get_reddit(subreddit, end_time):
     start_time = get_start_time(subreddit)
@@ -166,13 +166,13 @@ def get_reddit(subreddit, end_time):
     if len(mm) < 2:
         mm = '0'+mm
         
-    path = '/home/maria_dev/project/data/scrapped/{dirname}/'.format(dirname = subreddit)
+    path = './data/scrapped/{dirname}/'.format(dirname = subreddit)
     save_file_name = path + '{yy}-{mm}-{last}.csv'.format(yy=yy, mm=mm, last=last_get_time)
     df_save.to_csv(save_file_name, encoding='cp949')
     modify_meta(subreddit, last_get_time)
 
 if __name__ == '__main__':
-    os.chdir('/home/maria_dev/project/data/scrapped/')
+    os.chdir('./data/scrapped/')
     all_dirs = [os.path.abspath(name) for name in os.listdir(".") if os.path.isdir(name)]
     end_time = get_server_time()
     print(end_time)
